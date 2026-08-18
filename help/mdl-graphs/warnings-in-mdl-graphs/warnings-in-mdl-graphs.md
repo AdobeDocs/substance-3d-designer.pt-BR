@@ -69,7 +69,7 @@ As informações fornecidas ao nó estão incompletas ou não são válidas, por
 
 Suba no gráfico e verifique se há avisos acionados por problemas que impedem que os nós forneçam uma saída válida.
 
-![ solução&#39;Nó não foi computado&#39;](../../assets/warnings-model-no-input-value.gif " solução&#39;Nó não foi computado&#39;")
+![&#x200B; solução&#39;Nó não foi computado&#39;](../../assets/warnings-model-no-input-value.gif " solução&#39;Nó não foi computado&#39;")
 
 ### ![(erro)](../../assets/error.svg) Os dados referenciados possuem alguns avisos
 
@@ -106,7 +106,7 @@ Para nós de recursos de Cena
 Localize os recursos referenciados no painel [Explorer](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion) e verifique se eles existem no local salvo no atributo <b>Caminho do Arquivo</b>.\
 Caso contrário, clique em *RMB* no item de recurso no Explorer e selecione a opção <b>Realocar...Opção </b> no menu contextual para definir um novo arquivo de destino válido para esse recurso.
 
-![ solução&#39;Recurso referenciado não encontrado&#39;](../../assets/warnings-model-referenced-resource.gif " solução&#39;Recurso referenciado não encontrado&#39;")
+![&#x200B; solução&#39;Recurso referenciado não encontrado&#39;](../../assets/warnings-model-referenced-resource.gif " solução&#39;Recurso referenciado não encontrado&#39;")
 
 ### ![(erro)](../../assets/error.svg) Intervalo flexível não contém o valor
 
