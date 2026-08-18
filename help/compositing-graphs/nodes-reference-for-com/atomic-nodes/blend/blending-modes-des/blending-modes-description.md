@@ -100,7 +100,7 @@ O modo de mesclagem *Dividir* dividirá o valor dos pixels de entrada do plano d
 
 O modo de mesclagem *Sobreposição* combina os modos de mesclagem Multiplicação e Tela:
 
-* 
+* &#x200B;
   * Se o valor do pixel da camada inferior estiver abaixo de 0,5, a mesclagem de tipo *Multiplicar* será aplicada
   * Se o valor do pixel da camada inferior estiver acima de 0,5, uma mesclagem de tipo de *Tela* será aplicada
 

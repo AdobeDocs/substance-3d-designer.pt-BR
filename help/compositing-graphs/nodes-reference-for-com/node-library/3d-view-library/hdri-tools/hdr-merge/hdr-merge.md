@@ -41,7 +41,7 @@ Mescle várias exposições fotográficas para criar uma imagem de Intervalo din
 
 ## Entradas
 
-* **Entrada 1-**** 16**: *Entrada de cores*Imagens de entrada. O valor disponível depende do parâmetro.
+* **Entrada 1-**&#x200B;**&#x200B; 16**: *Entrada de cores*Imagens de entrada. O valor disponível depende do parâmetro.
 
 ## Parâmetros
 
