@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
 breadcrumb-title: ''
 description: Conheça os principais conceitos de gráficos de composição de Substance, incluindo nós, conexões e conceitos básicos de fluxo de trabalho.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Esta página lista os conceitos importantes a serem entendidos para trabalhar co
 
 ## Subgráficos/Publicação
 
-[Publicar um gráfico](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) ou criar um subgráfico são dois conceitos abstratos muito semelhantes. Isso significa que qualquer gráfico ou rede de nós pode ser “empacotado” em conjunto e transformado em um recurso autônomo e reutilizável. A criação de [subgráficos](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) é feita principalmente dentro do aplicativo para tornar determinado conteúdo reutilizável em um fluxo de trabalho inteligente e eficiente, pois isso evita a duplicação de um conjunto de nós repetidamente. A publicação envolve uma etapa adicional para exportar para o formato [Ativo do Substance 3D (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), tornando o gráfico de rede do nó utilizável fora do aplicativo, como quando você cria um material para o Mecanismo Irreal.
+[Publicar um gráfico](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) ou criar um subgráfico são dois conceitos abstratos muito semelhantes. Isso significa que qualquer gráfico ou rede de nós pode ser “empacotado” em conjunto e transformado em um recurso autônomo e reutilizável. A criação de [subgráficos](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) é feita principalmente dentro do aplicativo para tornar determinado conteúdo reutilizável em um fluxo de trabalho inteligente e eficiente, pois isso evita a duplicação de um conjunto de nós repetidamente. A publicação envolve uma etapa adicional para exportar para o formato [Ativo do Substance 3D (SBSAR)](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), tornando o gráfico de rede do nó utilizável fora do aplicativo, como quando você cria um material para o Mecanismo Irreal.
 
 As entradas, as saídas e os parâmetros expostos são extremamente importantes para esse conceito, pois são as únicas maneiras de interagir com o gráfico depois que ele é usado como um subgráfico ou como um ativo publicado do Substance 3D. Os motivos são os seguintes:
 

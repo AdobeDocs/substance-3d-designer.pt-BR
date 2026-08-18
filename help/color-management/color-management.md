@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Saiba mais sobre o gerenciamento de cores no Substance 3D Designer, incluindo espaços de cores, perfis e fluxos de trabalho de cores especiais.
 helpx_creative_field: ""
@@ -161,7 +161,7 @@ O Designer *converterá* imagens nos espaços de cores especificados antes de sa
 
 ![Caixa de diálogo Exportar saídas](../assets/2019-3-0-clr-mgt-export-outputs.png "Caixa de diálogo Exportar saídas"){width="512px"}
 
-Você também pode atribuir um espaço de cores (OCIO) ou anexar um perfil ICC (Adobe ACE) a imagens *salvas* da [exibição 2D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
+Você também pode atribuir um espaço de cores (OCIO) ou anexar um perfil ICC (Adobe ACE) a imagens *salvas* da [exibição 2D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
 
 ![Opções de exportação de exibição 2D](../assets/2019-3-0-clr-mgt-save-image.png "Opções de exportação de exibição 2D")
 
@@ -209,7 +209,7 @@ A [Biblioteca](../interface/the-library/the-library.md) inclui os seguintes nós
 </tr>
 </table>
 
-Eles são úteis ao trabalhar com gráficos criados *sem* o Gerenciamento de cores ou materiais da biblioteca [Ativos do Substance 3D](https://helpx.adobe.com/substance-3d/unlisted/assets.html).
+Eles são úteis ao trabalhar com gráficos criados *sem* o Gerenciamento de cores ou materiais da biblioteca [Ativos do Substance 3D](https://helpx.adobe.com/br/substance-3d/unlisted/assets.html).
 
 ![Nós de conversão de cores na biblioteca](../assets/2019-3-0-clr-mgt-nodes.png "Nós de conversão de cores na biblioteca"){width="512px"}
 

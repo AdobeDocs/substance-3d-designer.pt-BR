@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
 breadcrumb-title: ''
 description: Acesse a biblioteca de nós completa no Substance 3D Designer para criar materiais de procedimento, texturas e efeitos.
 helpx_creative_field: ""

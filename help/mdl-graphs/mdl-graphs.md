@@ -56,7 +56,7 @@ Ao criar materiais, você pode usar o renderizador [Iray](../interface/3d-view/i
 Os gráficos MDL são complementares aos [gráficos de Substance](../compositing-graphs/substance-compositing-graphs.md), na medida em que o último gera *texturas* que podem ser *amostradas* pelo material MDL para afetar seu comportamento e aparência.
 
 Sugerimos percorrer as seções desta documentação *na ordem* para obter um caminho de aprendizado guiado, começando com as propriedades de um recurso de gráfico MDL, logo abaixo.\
-Ansioso para entrar? Comece com os gráficos MDL na seção [Recursos de aprendizado MDL](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html)!
+Ansioso para entrar? Comece com os gráficos MDL na seção [Recursos de aprendizado MDL](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html)!
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Ansioso para entrar? Comece com os gráficos MDL na seção [Recursos de aprendi
 
 ![Propriedades do gráfico MDL](../assets/mdl-main.png "Propriedades do gráfico MDL")
 
-*Propriedades do gráfico MDL no painel [Propriedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)*
+*Propriedades do gráfico MDL no painel [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)*
 
 ## Propriedades do gráfico MDL
 
@@ -89,7 +89,7 @@ Observação: as propriedades marcadas com um asterisco (\*) são anotações MD
 
 ### Entradas de gráfico
 
-Esta seção lista os parâmetros interativos conectados a [parâmetros expostos](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html) do gráfico MDL e define seus *valores padrão*. Eles podem ser *ajustados* e *reordenados* a qualquer momento.
+Esta seção lista os parâmetros interativos conectados a [parâmetros expostos](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html) do gráfico MDL e define seus *valores padrão*. Eles podem ser *ajustados* e *reordenados* a qualquer momento.
 
 A interface e o comportamento dessas entradas são definidos pelo *tipo de valor* e pelos *intervalos* dos parâmetros expostos aos quais estão conectados. Por exemplo:
 

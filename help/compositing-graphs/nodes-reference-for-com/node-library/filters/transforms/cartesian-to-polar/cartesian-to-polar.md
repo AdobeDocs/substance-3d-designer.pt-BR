@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
 breadcrumb-title: ''
 description: Use o nó Cartesiano para polar para converter texturas de sistemas de coordenadas cartesianas para polares para criar efeitos radiais.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
 breadcrumb-title: ''
 description: Use o nó Plasma para gerar padrões de ruído semelhantes ao plasma para criar efeitos de textura orgânica e fluida.
 helpx_creative_field: ""

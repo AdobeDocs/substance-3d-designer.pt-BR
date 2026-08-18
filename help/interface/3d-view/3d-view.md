@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Use a visualização 3D no Substance 3D Designer para visualizar materiais em objetos 3D e testar condições de iluminação.
 helpx_creative_field: ""
@@ -122,9 +122,9 @@ No modo Câmera <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /
 
 Para exibir todas as saídas de um gráfico, clique em *RMB* em uma área vazia na [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) e escolha a opção **Exibir saídas na exibição 3D** no menu contextual.
 
-Você também pode exibir as saídas de um gráfico sem precisar abri-lo, clicando em RMB em um recurso de gráfico no encaixe do [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e escolhendo a opção **Exibir Saídas no Modo de Exibição 3D** no menu contextual.
+Você também pode exibir as saídas de um gráfico sem precisar abri-lo, clicando em RMB em um recurso de gráfico no encaixe do [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e escolhendo a opção **Exibir Saídas no Modo de Exibição 3D** no menu contextual.
 
-Como alternativa ao menu contextual do gráfico, você pode obter o mesmo resultado arrastando o gráfico do encaixe do [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) para a [Exibição 3D](https://substance3d.adobe.com/).
+Como alternativa ao menu contextual do gráfico, você pode obter o mesmo resultado arrastando o gráfico do encaixe do [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) para a [Exibição 3D](https://substance3d.adobe.com/).
 
 Ao *carregar um gráfico*, suas saídas são aplicadas automaticamente na Exibição 3D por padrão. Você pode desabilitar esse comportamento em [Preferências](../../interface/preferences-window/preferences-window.md). Vá para **Editar > Preferências > Gráfico > Comum** e desmarque a opção **Exibir saídas na exibição 3D ao abrir um gráfico**.
 
@@ -144,7 +144,7 @@ Você pode exibir qualquer nó, não apenas os nós de saída, clicando com o bo
 
 Você também pode usar *RMB* para arrastar e soltar qualquer nó da exibição Gráfico para a exibição 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
 
-Você pode exibir qualquer saída de gráfico individual expandindo o recurso de gráfico no encaixe do [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e usando o *LMB* para arrastar essa saída para a Exibição 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
+Você pode exibir qualquer saída de gráfico individual expandindo o recurso de gráfico no encaixe do [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e usando o *LMB* para arrastar essa saída para a Exibição 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
 
 ![Visualização de malhas 3D personalizadas](../../assets/3d-mesh.gif "Visualização de malhas 3D personalizadas")
 
@@ -260,7 +260,7 @@ O menu <b>Cena</b> lida com a geometria (Recurso 3D) exibida e com os estados de
 
 * Torus
 
-<b>Exibir UVs na Visualização 2D:</b> permite a exibição dos UVs para a malha atualmente selecionada como uma sobreposição na [Visualização 2D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) .
+<b>Exibir UVs na Visualização 2D:</b> permite a exibição dos UVs para a malha atualmente selecionada como uma sobreposição na [Visualização 2D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) .
 
 <b>Criar recurso 3D da cena atual...:</b> cria um novo [recurso de cena 3D](../../resources/3d-scene-resource/3d-scene-resource.md) em um pacote fora da cena atual.
 

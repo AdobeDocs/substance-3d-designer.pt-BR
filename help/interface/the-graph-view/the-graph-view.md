@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Saiba como usar a visualização de gráfico no Substance 3D Designer para criar e editar gráficos de material baseados em nós.
 helpx_creative_field: ""
@@ -387,7 +387,7 @@ Escolha entre os modos de criação de vínculo Padrão (1), Material (2) e Mate
 </b>*- Limpar:* Remove todos os nós que fazem parte de um fluxo não conectado a um nó [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).\
 *- Exportar saídas:* Abre a [interface de Exportação de Bitmap](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *- Reexportar saídas:* Executa novamente a operação de exportação anterior.\
-*- Exportador de PSD:* Abre[a interface do Exportador de PSD.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- Exportador de PSD:* Abre[a interface do Exportador de PSD.](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>Cache de imagem de nó\
 </b>Alterna a exibição da alternância de cache de imagem de nó, veja abaixo.

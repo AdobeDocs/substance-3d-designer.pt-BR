@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: Entenda os avisos das dependências de recursos no Substance 3D Designer e como resolvê-los.
 helpx_creative_field: ""
@@ -36,16 +36,16 @@ Há duas formas principais de corrigir esse problema:
 
    Verifique se o pacote de dependência existe no local especificado na mensagem de aviso. Caso contrário, localize o arquivo e coloque-o novamente nesse local ou recrie-o no local. Se o arquivo existir, *tente carregá-lo* no Designer e procure todos os avisos ou erros relacionados a esse pacote. Consulte as etapas de solução de problemas para esses problemas específicos e corrija-os adequadamente.
 
-   Em seguida, recarregue o pacote de host clicando nele com o botão direito do mouse no painel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selecionando a opção <b>Recarregar</b> no menu contextual.
+   Em seguida, recarregue o pacote de host clicando nele com o botão direito do mouse no painel [Explorador](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selecionando a opção <b>Recarregar</b> no menu contextual.
 
    ![&#x200B; Solução &#39;Pacote dependente inválido&#39; 1](../../assets/warnings-dep-invalid-dependent-pkg.gif " Solução &#39;Pacote dependente inválido&#39; 1")
 1. <b>Realocar a dependência no pacote</b>
 
-   Você pode realocar a dependência usando o [Gerenciador de dependências](../../interface/dependency-manager/dependency-manager.md). C lique em RMB no pacote de host no painel [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selecione a opção <b>Gerenciador de Dependências</b> no menu contextual.
+   Você pode realocar a dependência usando o [Gerenciador de dependências](../../interface/dependency-manager/dependency-manager.md). C lique em RMB no pacote de host no painel [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selecione a opção <b>Gerenciador de Dependências</b> no menu contextual.
 
    Localize a dependência ausente na lista do Gerenciador de Dependências, clique em RMB nela e selecione a opção <b>Realocar...</b>. Localize o pacote de dependências usando a caixa de diálogo do navegador de arquivos e clique em <b>Abrir</b>.
 
-   Em seguida, recarregue o pacote de host clicando nele com o botão direito do mouse no painel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selecionando a opção <b>Recarregar</b> no menu contextual.
+   Em seguida, recarregue o pacote de host clicando nele com o botão direito do mouse no painel [Explorador](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selecionando a opção <b>Recarregar</b> no menu contextual.
 
    ![&#x200B; Solução &#39;Pacote dependente inválido&#39; 2](../../assets/warnings-dep-invalid-dependent-pkg-2.gif " Solução &#39;Pacote dependente inválido&#39; 2")
 
@@ -76,7 +76,7 @@ Há duas formas principais de corrigir esse problema:
    ![&#39;Nenhum arquivo correspondente ao recurso&#39; solução 1](../../assets/warnings-dep-udim-2.gif "&#39;Nenhum arquivo correspondente ao recurso&#39; solução 1")
 1. <b>Realocar os arquivos</b>
 
-   Se os arquivos tiverem sido movidos ou renomeados, realoce-os clicando no RMB no item de recurso no painel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selecione a opção <b>Realocar</b> para vincular esse recurso ao *primeiro arquivo em um conjunto* de imagens UDIM do mesmo tipo.
+   Se os arquivos tiverem sido movidos ou renomeados, realoce-os clicando no RMB no item de recurso no painel [Explorador](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selecione a opção <b>Realocar</b> para vincular esse recurso ao *primeiro arquivo em um conjunto* de imagens UDIM do mesmo tipo.
 
    ![&#39;Nenhum arquivo correspondente ao recurso&#39; solução 2](../../assets/warnings-dep-udim.gif "&#39;Nenhum arquivo correspondente ao recurso&#39; solução 2")
 
@@ -95,7 +95,7 @@ Há duas formas principais de corrigir esse problema:
    ![&#x200B; Solução &#39;Arquivo vinculado não encontrado&#39; 1](../../assets/warnings-dep-file-not-found.gif " Solução &#39;Arquivo vinculado não encontrado&#39; 1")
 1. <b>Realocar o arquivo</b>
 
-   Se o arquivo tiver sido movido ou renomeado, realoce-o clicando no RMB no item de recurso no painel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selecione a opção <b>Realocar</b> para vincular esse recurso a outro arquivo do mesmo tipo.
+   Se o arquivo tiver sido movido ou renomeado, realoce-o clicando no RMB no item de recurso no painel [Explorador](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selecione a opção <b>Realocar</b> para vincular esse recurso a outro arquivo do mesmo tipo.
 
    ![&#x200B; Solução &#39;Arquivo vinculado não encontrado&#39; 2](../../assets/warnings-dep-file-not-found-2.gif " Solução &#39;Arquivo vinculado não encontrado&#39; 2")
 
@@ -117,7 +117,7 @@ Solução ![&#39;Espaço de cores não encontrado&#39;](../../assets/warnings-de
 
 ## ![(erro)](../../assets/error.svg) Recurso de referência não encontrado
 
-O gráfico atribuído ao bloco UV de um [recurso de malha 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) não pode ser encontrado no local relatado no aviso.
+O gráfico atribuído ao bloco UV de um [recurso de malha 3D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) não pode ser encontrado no local relatado no aviso.
 
 <b>![(tick)](../../assets/check.svg) Solução</b>
 
@@ -125,7 +125,7 @@ Há duas formas principais de corrigir esse problema:
 
 1. <b>Restaurar o gráfico</b>
 
-   Verifique o conteúdo do pacote no painel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) para obter o gráfico especificado na lista <b>Blocos UV</b>. Se não existir, restaure ou recrie o arquivo.
+   Verifique o conteúdo do pacote no painel [Explorador](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) para obter o gráfico especificado na lista <b>Blocos UV</b>. Se não existir, restaure ou recrie o arquivo.
 
    ![&#x200B; Solução &#39;Recurso de referência não encontrado&#39; 1](../../assets/warnings-dep-udim-graph-2.gif " Solução &#39;Recurso de referência não encontrado&#39; 1")
 1. <b>Selecione outro gráfico</b>
@@ -136,7 +136,7 @@ Há duas formas principais de corrigir esse problema:
 
 ## ![(erro)](../../assets/error.svg) blocos UV são atribuídos várias vezes
 
-Um bloco UV para um [recurso de malha 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) foi atribuído mais de uma vez a um [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+Um bloco UV para um [recurso de malha 3D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) foi atribuído mais de uma vez a um [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
 <b>![(tick)](../../assets/check.svg) Solução</b>
 
@@ -146,7 +146,7 @@ Para cada conjunto UV de um recurso de malha 3D, verifique se nenhum índice UDI
 
 ## ![(erro)](../../assets/error.svg) Blocos UV inválidos
 
-Um bloco UV listado para um [recurso de malha 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) não está definido na malha ou está corrompido.
+Um bloco UV listado para um [recurso de malha 3D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) não está definido na malha ou está corrompido.
 
 <b>![(tick)](../../assets/check.svg) Solução</b>
 

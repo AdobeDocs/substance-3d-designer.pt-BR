@@ -54,7 +54,7 @@ O nó Raiz inclui uma miniatura exibindo uma visualização de sua saída atual.
 
 ![Nó raiz do gráfico MDL](../../assets/mdl-root-hl.png "Nó raiz do gráfico MDL")
 
-*Nó raiz em um gráfico MDL e suas propriedades exibidas no painel [Propriedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* **
+*Nó raiz em um gráfico MDL e suas propriedades exibidas no painel [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* **
 
 ## Conectores e tipos
 

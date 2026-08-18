@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
 breadcrumb-title: ''
 description: Acesse nós geradores baseados em malha no Substance 3D Designer para criar texturas com base em geometria e propriedades de malha 3D.
 helpx_creative_field: ""
@@ -30,5 +30,5 @@ Há três categorias principais:
   Geradores de máscara em preto e branco baseados em um ou mais mapas baked.
 * [Clima](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
   Efeitos de intemperismo de material completo com base em mapas baked.
-* [Utilitários](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [Utilitários](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
   Utilitários e ferramentas adicionais para trabalhar com copos.

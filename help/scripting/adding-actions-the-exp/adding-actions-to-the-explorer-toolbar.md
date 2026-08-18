@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/adding-actions-to-the-explorer-toolbar.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/scripting/adding-actions-to-the-explorer-toolbar.html"
 breadcrumb-title: ''
 description: Saiba como adicionar ações personalizadas à barra de ferramentas do Explorer no Substance 3D Designer usando scripts Python.
 helpx_creative_field: ""

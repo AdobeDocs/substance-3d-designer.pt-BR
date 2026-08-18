@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
 breadcrumb-title: ''
 description: Use o nó de intemperismo de couro para adicionar padrões de desgaste e efeitos de envelhecimento aos materiais de couro com base na curvatura da malha.
 helpx_creative_field: ""

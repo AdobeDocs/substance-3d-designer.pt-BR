@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-split.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-split.html"
 breadcrumb-title: ''
 description: Use o nó Dividir RGBA para separar uma textura em seus canais vermelho, verde, azul e alfa para processamento individual.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Acessar nós de controle em gráficos de função do Substance 3D Designer para controlar o fluxo e a lógica de execução.
 helpx_creative_field: ""

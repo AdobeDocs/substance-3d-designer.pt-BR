@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 13.0 para saber mais sobre novos nós, Substance Engine 9.0 e nós do portal.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Use a exibição 2D no Substance 3D Designer para visualizar e inspecionar saídas de textura de seus gráficos de material.
 helpx_creative_field: ""
@@ -343,7 +343,7 @@ As <b>ferramentas de pintura de bitmap</b> estão disponíveis para [recursos de
 
 >[!TIP]
 >
-> Saiba mais na página [Editor de pintura de bitmap](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) da documentação.
+> Saiba mais na página [Editor de pintura de bitmap](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) da documentação.
 
 <table>
 <tr style="border: 0;">
@@ -368,7 +368,7 @@ O <b>Editor de gráficos vetoriais</b> está disponível para *recursos [SVG* im
 
 >[!TIP]
 >
-> Saiba mais na página [Editor de gráficos vetoriais (obsoleto)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) da documentação.
+> Saiba mais na página [Editor de gráficos vetoriais (obsoleto)](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) da documentação.
 
 ![Gerenciamento de cores de exibição 2D](../../assets/2d-view-color-management-ocio.png "Gerenciamento de cores de exibição 2D"){width="360px"}
 

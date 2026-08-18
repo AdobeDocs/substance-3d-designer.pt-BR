@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
 breadcrumb-title: ''
 description: Use o nó Rotação de panorama para girar ambientes de panorama HDRI para ajustar a direção da iluminação na visualização 3D.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Use quadros na exibição de gráfico do Substance 3D Designer para organizar e agrupar nós e melhorar a clareza visual.
 helpx_creative_field: ""
