@@ -32,7 +32,7 @@ ht-degree: 2%
 
 **Entrada:** *Filtros/Efeitos*
 
-****Simples****
+**&#x200B;**&#x200B;Simples&#x200B;**&#x200B;**
 
 </td>
 <td style="border: 0;" valign="top">

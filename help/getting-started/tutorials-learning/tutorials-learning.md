@@ -43,7 +43,7 @@ Série de nível para iniciantes focada em dar seus primeiros passos com a Desig
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![ ilustração do tutorial “Criando seu primeiro material”](../../assets/d18e3495-5683-4024-a8af-d255380c0739.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
+[![&#x200B; ilustração do tutorial “Criando seu primeiro material”](../../assets/d18e3495-5683-4024-a8af-d255380c0739.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">

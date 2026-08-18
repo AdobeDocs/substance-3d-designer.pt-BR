@@ -548,7 +548,7 @@ A barra de ferramentas <b>Exibição</b>, localizada na *parte inferior* do pain
 
 >[!NOTE]
 >
-> A barra de ferramentas pode ser *reposicionada* em torno do encaixe **3**** D de exibição** usando a *alça* mais à esquerda representada por três linhas paralelas.
+> A barra de ferramentas pode ser *reposicionada* em torno do encaixe **3**&#x200B;**&#x200B; D de exibição** usando a *alça* mais à esquerda representada por três linhas paralelas.
 
 ### Canais de cores
 

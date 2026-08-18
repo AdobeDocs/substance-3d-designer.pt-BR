@@ -51,10 +51,10 @@ Usa os dados do [Shape Splatter](../../../../../../compositing-graphs/nodes-refe
 
 * **Número de Padrão**: *1 - 8*
 * **Atribuição de Padrão Aleatória (Somente Cor)**: *0.0 - 1.0*
-* ** Is Normal Map **(Color Only)***: *False/True*
+* **&#x200B; Is Normal Map &#x200B;**(Color Only)***: *False/True*
 * **Ajuste de HSL/Luminância**: *-1.0 - 1.0*
 * **HSL/Luminância Aleatória**: *-1.0 - 1.0*
-* **&#x200B;Ângulo Normal Aleatório **(Somente Cor)***: *0.0 - 1.0*
+* **&#x200B;Ângulo Normal Aleatório &#x200B;**(Somente Cor)***: *0.0 - 1.0*
 * **Opacidade De Entrada De Cores**: *0.0 - 1.0*
 
 ## Imagens de exemplo

@@ -33,7 +33,7 @@ Carrega um [recurso de bitmap](../../../../resources/bitmap-resource/bitmap-reso
 
 Este nó é usado para importar um [bitmap](../../../../glossary/glossary.md) para o seu gráfico ou para criar um novo bitmap a ser usado com as [ferramentas de pintura de bitmap](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-Existem algumas maneiras de criar este nó, e todas elas exigem que você entenda[ a diferença entre os recursos de vinculação e importação.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+Existem algumas maneiras de criar este nó, e todas elas exigem que você entenda[&#x200B; a diferença entre os recursos de vinculação e importação.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 </tr>

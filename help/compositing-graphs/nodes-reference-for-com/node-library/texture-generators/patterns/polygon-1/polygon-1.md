@@ -53,7 +53,7 @@ Gera uma forma poligonal, com muitas opções de ajuste. Consulte o [Polígono 2
   Define a quantidade de vezes que o resultado deve ser colocado lado a lado.
 * **Expansão não quadrada**: *Falso/Verdadeiro*\
   Permite a compensação de esmagamento e alongamento com proporções não quadradas.
-* **Divisão em blocos gráficos não quadrados****:** *Falso/Verdadeiro*Quando o Expansão não quadrada estiver habilitado, ele irá cobrir a forma sem esmagamento.
+* **Divisão em blocos gráficos não quadrados**&#x200B;**:** *Falso/Verdadeiro*Quando o Expansão não quadrada estiver habilitado, ele irá cobrir a forma sem esmagamento.
 
 ## Imagens de exemplo
 

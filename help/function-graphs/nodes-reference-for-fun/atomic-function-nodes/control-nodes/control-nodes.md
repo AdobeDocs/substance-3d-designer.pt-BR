@@ -39,7 +39,7 @@ Semelhante às linguagens de programação, o If... Nó Else introduz a possibil
 </tr>
 </table>
 
-Você usará este nó em conjunto com os [ nós Lógicos](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) e os [nós de comparação](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) que o ajudarão a criar a condição a ser verificada.
+Você usará este nó em conjunto com os [&#x200B; nós Lógicos](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) e os [nós de comparação](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) que o ajudarão a criar a condição a ser verificada.
 
 +++Conectores de entrada
 <b>Condição</b> *Booleano*\

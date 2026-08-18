@@ -79,7 +79,7 @@ Este projeto demonstra dois casos de uso simples para o processador Pixel: como 
 </td>
 <td style="border: 0;" valign="top">
 
-![ Exemplo de&#39;Processador de Pixels&#39;](../../assets/demo-pixel-processor.png " Exemplo de&#39;Processador de Pixels&#39;"){zoomable="yes"}
+![&#x200B; Exemplo de&#39;Processador de Pixels&#39;](../../assets/demo-pixel-processor.png " Exemplo de&#39;Processador de Pixels&#39;"){zoomable="yes"}
 
 </td>
 </tr>
