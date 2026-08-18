@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/environment-variables.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/pipeline-and-project-configuration/environment-variables.html"
 breadcrumb-title: ''
 description: Saiba como usar variáveis de ambiente no Substance 3D Designer para definir caminhos e configurações do sistema.
 helpx_creative_field: ""

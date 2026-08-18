@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Esta página lista mensagens de erros e avisos que podem ser disparados por gráficos MDL no [Substance 3D Designer](https://www.adobe.com/br/products/substance3d-designer.html) e oferece etapas comuns de solução de problemas para cada um.
 
-Os avisos são exibidos na dica de ferramenta do ícone de aviso para o recurso de gráfico no painel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), bem como no canto inferior esquerdo da [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) se o gráfico estiver carregado.
+Os avisos são exibidos na dica de ferramenta do ícone de aviso para o recurso de gráfico no painel [Explorador](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), bem como no canto inferior esquerdo da [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) se o gráfico estiver carregado.
 
 >[!NOTE]
 >

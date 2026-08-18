@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/logging.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/scripting/logging.html"
 breadcrumb-title: ''
 description: Saiba como implementar o registro em plug-ins Python da Substance 3D Designer para depuração e monitoramento.
 helpx_creative_field: ""

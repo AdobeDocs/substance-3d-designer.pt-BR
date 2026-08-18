@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: Importe e use gráficos vetoriais de SVG como recursos no Substance 3D Designer para a criação de materiais de procedimento.
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ As opções de exportação são um pouco diferentes para cada aplicativo:
 
 ### Adobe Illustrator
 
-O [Illustrator](https://www.adobe.com/products/illustrator.html) permite ter mais controle sobre as exportações de SVG se você prestar atenção às opções a seguir.
+O [Illustrator](https://www.adobe.com/br/products/illustrator.html) permite ter mais controle sobre as exportações de SVG se você prestar atenção às opções a seguir.
 
 * Use apenas <b>Salvar como</b>, *não* Exportar como!
 * O <b>Perfil de SVG</b> não importa muito, embora o perfil Minúsculo seja (principalmente) padrão para configurações que estão definitivamente corretas;

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/font-resource.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources/font-resource.html"
 breadcrumb-title: ''
 description: Importe e use recursos de fonte no Substance 3D Designer para adicionar texto e tipografia aos materiais.
 helpx_creative_field: ""

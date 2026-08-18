@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: Use a Biblioteca no Substance 3D Designer para acessar e gerenciar predefinições de nó, materiais e conteúdo personalizado.
 helpx_creative_field: ""
@@ -82,7 +82,7 @@ O conteúdo da <b>Biblioteca</b> é exibido como *miniaturas rotuladas*. Essas m
 
 * [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) em arquivos [SBS](../../getting-started/overview/overview.md) e [SBSAR](../../getting-started/overview/overview.md) são representados por sua *primeira saída* ou por seu *ícone personalizado* se algum tiver sido definido pelo autor do gráfico
 * [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md) e [gráficos vetoriais (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) são representados por uma *renderização em miniatura* do próprio bitmap
-* [Malhas 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [Gráficos de função](../../function-graphs/the-function-graph/the-function-graph.md), [fontes](../../resources/font-resource/font-resource.md) e arquivos [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) são representados por *ícones genéricos* para cada tipo
+* [Malhas 3D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [Gráficos de função](../../function-graphs/the-function-graph/the-function-graph.md), [fontes](../../resources/font-resource/font-resource.md) e arquivos [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) são representados por *ícones genéricos* para cada tipo
 
 >[!WARNING]
 >

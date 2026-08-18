@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Acesse a janela Preferências no Substance 3D Designer para personalizar as configurações e o comportamento do aplicativo.
 helpx_creative_field: ""
@@ -37,13 +37,13 @@ Recomendamos a revisão de todas essas configurações para obter uma visão mel
 
 |  |  |
 | --- | --- |
-| <b>A lista de documentos recentes contém</b>  *Padrão: 10* | Isso permite selecionar o número de documentos a serem listados na entrada <b>Pacotes Recentes</b> do item <b>Arquivo</b> no [Menu Principal](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). |
+| <b>A lista de documentos recentes contém</b>  *Padrão: 10* | Isso permite selecionar o número de documentos a serem listados na entrada <b>Pacotes Recentes</b> do item <b>Arquivo</b> no [Menu Principal](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). |
 
 ### Histórico
 
 |  |  |
 | --- | --- |
-| **Tamanho da pilha do histórico** *Padrão: 200* | Isso indica o número de operações de desfazer disponíveis a qualquer momento no item <b>Editar > Desfazer</b> do [Menu Principal](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html).  **Cuidado:** quanto mais operações de desfazer você precisar, mais memória o aplicativo precisará. |
+| **Tamanho da pilha do histórico** *Padrão: 200* | Isso indica o número de operações de desfazer disponíveis a qualquer momento no item <b>Editar > Desfazer</b> do [Menu Principal](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html).  **Cuidado:** quanto mais operações de desfazer você precisar, mais memória o aplicativo precisará. |
 
 ### Idioma
 
@@ -111,13 +111,13 @@ Observe também que os salvamentos automáticos devem ser abertos *depois de mov
 
 |  |  |
 | --- | --- |
-| <b>Sempre salvar o arquivo .sbs ao publicar em .sbsar ou enviar para outro aplicativo</b>  *Padrão: Verdadeiro* | Controla o salvamento automático do pacote SBS ao [publicá-lo](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) ou ao [enviá-lo para outro aplicativo](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html). |
+| <b>Sempre salvar o arquivo .sbs ao publicar em .sbsar ou enviar para outro aplicativo</b>  *Padrão: Verdadeiro* | Controla o salvamento automático do pacote SBS ao [publicá-lo](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) ou ao [enviá-lo para outro aplicativo](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html). |
 
 ### Preparador
 
 |  |  |
 | --- | --- |
-| <b>Limite de tamanho da cozinha</b>  *Padrão: 8.192 pixels* | Define a resolução máxima de pixels permitida para todos os [nós](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) em qualquer [gráfico](../../compositing-graphs/substance-compositing-graphs.md). Como as saídas de gráfico são sempre imagens quadradas de potências de 2 resoluções, o valor definido aqui define a largura e o height máximos, em pixels. |
+| <b>Limite de tamanho da cozinha</b>  *Padrão: 8.192 pixels* | Define a resolução máxima de pixels permitida para todos os [nós](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) em qualquer [gráfico](../../compositing-graphs/substance-compositing-graphs.md). Como as saídas de gráfico são sempre imagens quadradas de potências de 2 resoluções, o valor definido aqui define a largura e o height máximos, em pixels. |
 
 ### Mecanismo
 

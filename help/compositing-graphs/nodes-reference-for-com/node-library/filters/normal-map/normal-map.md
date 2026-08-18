@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map.html"
 breadcrumb-title: ''
 description: Acesse nós de filtro de mapa normal no Substance 3D Designer para processar e manipular texturas de mapa normais.
 helpx_creative_field: ""

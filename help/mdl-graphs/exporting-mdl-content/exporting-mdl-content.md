@@ -38,7 +38,7 @@ Este é o formato de arquivo de troca fundamental para definições de material.
 * seus parâmetros expostos e valores padrão
 * suas anotações (ou seja, metadados): autor, tags, categorias, ...
 
-A exportação de um módulo MDL é executada no nível de *pacote*. Para exportar um módulo MDL para um determinado pacote, clique no botão ![](../../assets/mdl-export-module-icon.png) <b>Exportar Módulo MDL</b> no [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) ou selecione essa mesma opção no menu contextual do *pacote*. Selecione um nome e local de destino para o módulo MDL exportado e a caixa de diálogo <b>Exportar Relatório</b> será exibida com a lista de mensagens registradas durante o processo de exportação.
+A exportação de um módulo MDL é executada no nível de *pacote*. Para exportar um módulo MDL para um determinado pacote, clique no botão ![](../../assets/mdl-export-module-icon.png) <b>Exportar Módulo MDL</b> no [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) ou selecione essa mesma opção no menu contextual do *pacote*. Selecione um nome e local de destino para o módulo MDL exportado e a caixa de diálogo <b>Exportar Relatório</b> será exibida com a lista de mensagens registradas durante o processo de exportação.
 
 O módulo exportado conterá as definições de *todos* os materiais MDL definidos por um [gráfico MDL](../../mdl-graphs/mdl-graphs.md) no pacote.
 
@@ -60,7 +60,7 @@ Uma predefinição de módulo MDL é basicamente idêntica ao módulo em que se 
 
 Uma predefinição para um material MDL atribuído a um material de cena `my_material` pode ser exportada dos seguintes locais:
 
-* O painel [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), clicando em <b>RMB</b> no recurso de gráfico MDL e selecionando a opção <b>Exportar predefinição...</b> no menu contextual
+* O painel [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), clicando em <b>RMB</b> no recurso de gráfico MDL e selecionando a opção <b>Exportar predefinição...</b> no menu contextual
 * O painel [Exibição 3D](../../interface/3d-view/3d-view.md), usando a opção de menu <b>Materiais > meu\_material > Exportar predefinição...</b>
 
 A opção do menu abre a caixa de diálogo <b>Exportar Predefinição de Material MDL</b>, que oferece as seguintes opções:
@@ -69,11 +69,11 @@ A opção do menu abre a caixa de diálogo <b>Exportar Predefinição de Materia
 * <b>Nome do Arquivo MDL</b>: o nome do módulo MDL
 * <b>Incorporar Módulos MDL Importados</b>: se o módulo MDL depende de módulos importados - isto é, possui dependências de módulo, a verificação dessa opção resulta nas dependências de módulo a serem *incorporadas* ao módulo MDL exportado, tornando-o efetivamente *autossuficiente* em detrimento do tamanho do arquivo e da herança dinâmica
 
-A predefinição exportada usará os *valores atuais* dos parâmetros do material na Exibição 3D como os *novos valores padrão*. Esses valores podem ser modificados usando a opção <b>Materiais > meu\_material > Editar</b>, que exibirá os parâmetros expostos do material no painel [Propriedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
+A predefinição exportada usará os *valores atuais* dos parâmetros do material na Exibição 3D como os *novos valores padrão*. Esses valores podem ser modificados usando a opção <b>Materiais > meu\_material > Editar</b>, que exibirá os parâmetros expostos do material no painel [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
 
 >[!WARNING]
 >
-> Ao exportar um módulo MDL do painel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), um módulo MDL contendo *todos* materiais MDL definidos por um gráfico MDL no pacote, a exportação de uma predefinição MDL da [Exibição 3D](../../interface/3d-view/3d-view.md) resulta em um módulo MDL contendo *somente* a definição dos materiais MDL aplicados ao *material selecionado* no menu - `my_material` neste exemplo.
+> Ao exportar um módulo MDL do painel [Explorador](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), um módulo MDL contendo *todos* materiais MDL definidos por um gráfico MDL no pacote, a exportação de uma predefinição MDL da [Exibição 3D](../../interface/3d-view/3d-view.md) resulta em um módulo MDL contendo *somente* a definição dos materiais MDL aplicados ao *material selecionado* no menu - `my_material` neste exemplo.
 
 ![Caminho de exportação de predefinição MDL](../../assets/mdl-export-preset.png "Caminho de exportação de predefinição MDL")
 
@@ -83,7 +83,7 @@ A predefinição exportada usará os *valores atuais* dos parâmetros do materia
 
 Um arquivo de módulo MDL combina módulos MDL - veja acima - com recursos como *texturas* e arquivos readme em um *arquivo transportável único*.
 
-A exportação de um arquivo morto do módulo MDL é executada no nível de *pacote*. Para exportar um arquivo morto do módulo MDL para um determinado pacote, clique no botão ![](../../assets/mdl-export-module-icon.png) <b>Exportar Arquivo Morto do Módulo MDL</b> no [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) ou selecione essa mesma opção no menu contextual do *pacote*. Selecione um nome e local de destino para o arquivo morto do módulo MDL exportado e a caixa de diálogo <b>Exportar Relatório</b> será exibida com a lista de mensagens registradas durante o processo de exportação.
+A exportação de um arquivo morto do módulo MDL é executada no nível de *pacote*. Para exportar um arquivo morto do módulo MDL para um determinado pacote, clique no botão ![](../../assets/mdl-export-module-icon.png) <b>Exportar Arquivo Morto do Módulo MDL</b> no [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) ou selecione essa mesma opção no menu contextual do *pacote*. Selecione um nome e local de destino para o arquivo morto do módulo MDL exportado e a caixa de diálogo <b>Exportar Relatório</b> será exibida com a lista de mensagens registradas durante o processo de exportação.
 
 O arquivo morto do módulo exportado conterá o módulo MDL contendo as definições de *todos* os materiais MDL definidos por um [gráfico MDL](../../mdl-graphs/mdl-graphs.md) no pacote. Se um [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md) for [instanciado em um gráfico MDL](../../mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md) e conectado a um fluxo que vai para o nó [Raiz](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md), as texturas que ele gera serão *salvas no arquivo morto*.
 
@@ -108,7 +108,7 @@ Gráficos MDL com parâmetros expostos podem ser exportados como materiais MDL e
 
 Por exemplo, embora você ainda possa modificar os valores dos parâmetros expostos para controlar o comportamento de um material, a *definição* desses parâmetros *não está disponível* em um módulo MDL encapsulado.
 
-A exportação de um módulo MDL encapsulado é executada no [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) no nível do gráfico MDL, selecionando a opção <b>Exportar como .mdle</b> no menu contextual de um gráfico MDL. Selecione um nome e local de destino para o módulo encapsulado MDL exportado e a caixa de diálogo <b>Exportar Relatório</b> será exibida com a lista de mensagens registradas durante o processo de exportação.
+A exportação de um módulo MDL encapsulado é executada no [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) no nível do gráfico MDL, selecionando a opção <b>Exportar como .mdle</b> no menu contextual de um gráfico MDL. Selecione um nome e local de destino para o módulo encapsulado MDL exportado e a caixa de diálogo <b>Exportar Relatório</b> será exibida com a lista de mensagens registradas durante o processo de exportação.
 
 *Somente* a definição de material para o *gráfico MDL selecionado* será incluído no módulo MDL encapsulado exportado.
 

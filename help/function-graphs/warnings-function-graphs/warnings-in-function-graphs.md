@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
 breadcrumb-title: ''
 description: Entenda os avisos nos gráficos de funções do Substance 3D Designer e saiba como resolver problemas comuns.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Esta página lista mensagens de avisos e erros que podem ser disparadas por [gráficos de função](../../function-graphs/function-graphs.md) no Substance 3D Designer e oferece etapas comuns de solução de problemas para cada uma.
 
-Os avisos são exibidos na dica de ferramenta do ícone de aviso para o recurso de gráfico no painel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), bem como no canto inferior esquerdo da [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) se o gráfico estiver carregado.\
+Os avisos são exibidos na dica de ferramenta do ícone de aviso para o recurso de gráfico no painel [Explorador](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), bem como no canto inferior esquerdo da [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) se o gráfico estiver carregado.\
 Se a função for *aplicada a um parâmetro* em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md), qualquer aviso resultará no aviso “*A função do parâmetro [x] tem alguns erros*” sendo acionada para esse parâmetro.
 
 ## ![(erro)](../../assets/error.svg) Nenhum nó de saída definido

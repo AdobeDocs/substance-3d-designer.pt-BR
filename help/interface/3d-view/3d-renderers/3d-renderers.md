@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Escolha entre os renderizadores rasterizador e pathtracer na visualização 3D para obter diferentes qualidade e desempenho de visualização.
 helpx_creative_field: ""

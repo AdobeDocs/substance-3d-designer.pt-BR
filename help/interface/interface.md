@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Saiba mais sobre a interface da área de trabalho do Substance 3D Designer, incluindo visualizações, painéis e opções de personalização.
 helpx_creative_field: ""
@@ -99,7 +99,7 @@ A barra de ferramentas principal permite acessar menus extras, como a[janela Pre
 
 ## Propriedades
 
-[O Dock de Propriedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) é a janela mais técnica. É sempre sensível ao contexto e apresentará controles deslizantes, listas suspensas e outros elementos que alteram o comportamento de um recurso ou nó selecionado.
+[O Dock de Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) é a janela mais técnica. É sempre sensível ao contexto e apresentará controles deslizantes, listas suspensas e outros elementos que alteram o comportamento de um recurso ou nó selecionado.
 
 ![Propriedades](../assets/properties-15.jpg "Propriedades")
 

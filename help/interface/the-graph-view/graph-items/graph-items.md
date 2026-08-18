@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/graph-items.html"
 breadcrumb-title: ''
 description: Saiba mais sobre itens de gráfico no Substance 3D Designer, incluindo quadros, comentários, pinos e nós de portal para organizar gráficos.
 helpx_creative_field: ""

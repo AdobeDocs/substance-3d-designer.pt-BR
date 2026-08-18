@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/application-callbacks.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/scripting/application-callbacks.html"
 breadcrumb-title: ''
 description: Saiba como usar retornos de chamada de aplicativos em plug-ins Substance 3D Designer Python para responder a eventos de aplicativos.
 helpx_creative_field: ""

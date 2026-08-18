@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Encontre soluções para avisos e erros comuns no Substance 3D Designer para solucionar problemas rapidamente.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ Geralmente, avisos e erros são exibidos no item que os acionou e *aparecem em c
 
 ### Explorer
 
-Para qualquer item no painel [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) que tenha um aviso, esse aviso é exibido com um ícone ![](../../assets/warning-icon.png) na borda mais à direita da entrada do item na lista. Deixe o cursor sobre esse ícone por alguns segundos para exibir uma *dica de ferramenta* listando todos os avisos detalhadamente.
+Para qualquer item no painel [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) que tenha um aviso, esse aviso é exibido com um ícone ![](../../assets/warning-icon.png) na borda mais à direita da entrada do item na lista. Deixe o cursor sobre esse ícone por alguns segundos para exibir uma *dica de ferramenta* listando todos os avisos detalhadamente.
 
 Eles seguem estas regras:
 
@@ -83,7 +83,7 @@ Eles seguem estas regras:
 
 ### Propriedades
 
-Para qualquer item no painel [Propriedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) que tenha um aviso, esse aviso é exibido com um ícone ![](../../assets/warning-icon.png) na borda mais à direita da entrada do item na lista. Deixe o cursor sobre esse ícone por alguns segundos para exibir uma *dica de ferramenta* listando todos os avisos detalhadamente.
+Para qualquer item no painel [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) que tenha um aviso, esse aviso é exibido com um ícone ![](../../assets/warning-icon.png) na borda mais à direita da entrada do item na lista. Deixe o cursor sobre esse ícone por alguns segundos para exibir uma *dica de ferramenta* listando todos os avisos detalhadamente.
 
 Eles seguem estas regras:
 
@@ -106,7 +106,7 @@ Eles seguem estas regras:
 
 ### Console
 
-Aviso e erros estão relatados no painel **Console**, que você pode acessar por meio do menu **Janelas** no [menu principal](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). Você pode isolar avisos e erros do restante das entradas do console definindo a configuração **Canal** como `ErrorMgr`.
+Aviso e erros estão relatados no painel **Console**, que você pode acessar por meio do menu **Janelas** no [menu principal](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). Você pode isolar avisos e erros do restante das entradas do console definindo a configuração **Canal** como `ErrorMgr`.
 
 >[!NOTE]
 >

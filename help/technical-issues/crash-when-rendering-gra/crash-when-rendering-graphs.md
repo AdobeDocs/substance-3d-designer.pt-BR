@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
 breadcrumb-title: ''
 description: Solucione problemas ao renderizar gráficos no Substance 3D Designer e encontre soluções para evitá-los.
 helpx_creative_field: ""

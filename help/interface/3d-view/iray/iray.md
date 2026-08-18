@@ -64,7 +64,7 @@ Consulte a seção <b>Renderizador</b> desta página para saber mais sobre como 
 
 ![Material de parede de castelo medieval renderizado em Iray](../../../assets/iray-overview.png "Material de parede de castelo medieval renderizado em Iray")
 
-*Material: [parede do castelo medieval](https://helpx.adobe.com/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *por [Mark Foreman](https://www.artstation.com/oggyart)* *disponível em nossos [ativos do Substance 3D](https://helpx.adobe.com/substance-3d/unlisted/assets.html)* *biblioteca*
+*Material: [parede do castelo medieval](https://helpx.adobe.com/br/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *por [Mark Foreman](https://www.artstation.com/oggyart)* *disponível em nossos [ativos do Substance 3D](https://helpx.adobe.com/br/substance-3d/unlisted/assets.html)* *biblioteca*
 
 </td>
 </tr>
