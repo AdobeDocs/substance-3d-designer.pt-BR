@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Saiba como usar os padeiros do Substance 3D Designer para computar informações baseadas em malha em arquivos de textura.
 helpx_creative_field: ""

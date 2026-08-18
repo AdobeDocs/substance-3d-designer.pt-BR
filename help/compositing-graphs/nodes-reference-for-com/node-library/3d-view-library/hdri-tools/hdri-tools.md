@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools.html"
 breadcrumb-title: ''
 description: Acesse nós de Ferramenta HDRI no Substance 3D Designer para manipular e aprimorar ambientes HDRI para iluminação de exibição 3D.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/linear-burn.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/linear-burn.html"
 breadcrumb-title: ''
 description: Use o nó Superexposição linear para mesclar texturas usando o modo de superexposição linear para criar efeitos de escurecimento e contraste.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Saiba como expor parâmetros em gráficos de composição do Substance 3D Designer para tornar materiais personalizáveis e reutilizáveis.
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ Atualmente, existem dois métodos principais para expor parâmetros. Um método 
 
 ### MÉTODO DE EXPOSIÇÃO ÚNICA
 
-1. Localize o parâmetro que você deseja expor na [Janela Propriedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), na guia Parâmetros Específicos
+1. Localize o parâmetro que você deseja expor na [Janela Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), na guia Parâmetros Específicos
 1. Clique no botão de opções do menu suspenso ![](../../../assets/image2020-9-17-15-35-59.png)
 1. Escolha ![](../../../assets/image2020-9-17-15-37-7.png) <b>Expor como nova entrada de gráfico</b> na lista suspensa, a primeira opção.
 1. A caixa de diálogo <b>Expor parâmetro</b> é exibida; defina as propriedades do parâmetro conforme desejar.
@@ -79,7 +79,7 @@ Atualmente, existem dois métodos principais para expor parâmetros. Um método 
 >[!NOTE]
 >
 > A maioria dos campos numéricos oferece suporte a *fórmulas matemáticas básicas* como entrada. Por exemplo, `17+3.5`, `7/3`, `(4+2)*3`. Pressione *Enter* para validar a fórmula e o resultado será inserido no campo. Se a fórmula for inválida, o campo reverterá para seu valor anterior.\
-> Alguns campos numéricos em outras partes do aplicativo, como no encaixe [Propriedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), também oferecem suporte a esse recurso.
+> Alguns campos numéricos em outras partes do aplicativo, como no encaixe [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), também oferecem suporte a esse recurso.
 
 ![Passo do método de exposição em lote](../../../assets/batch-expose-2.gif "Passo do método de exposição em lote"){width="512px"}
 
@@ -104,7 +104,7 @@ Existem algumas limitações ligadas aos parâmetros de exposição, conforme li
 | --- | --- |
 | [Degradê](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Editor De Curvas](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Fonte](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Histograma De Níveis](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Requer widgets que não estão disponíveis para os parâmetros criados pelo usuário. |
 
-Outra limitação significativa está relacionada a [parâmetros estáticos](../../../glossary/glossary.md). Estes não podem ser alterados em um [ativo publicado do Substance 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Outra limitação significativa está relacionada a [parâmetros estáticos](../../../glossary/glossary.md). Estes não podem ser alterados em um [ativo publicado do Substance 3D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
 
 Parâmetros estáticos - em oposição aos parâmetros dinâmicos - *não podem ser editados dinamicamente* depois que o gráfico foi *cozido* - isto é, processado para executar seu algoritmo de forma rápida e eficiente. A cozinha ocorre no Designer sempre que o gráfico é *editado* ou *publicado*.
 
@@ -185,7 +185,7 @@ Normalmente, todas as alterações feitas no <b>Modo de Visualização</b> são 
 
 >[!WARNING]
 >
-> O modo de visualização visa representar a experiência de um [ativo publicado do Substance 3D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) da forma mais precisa possível. Portanto, as Limitações listadas nesta página serão aplicadas neste modo, como *ausência de parâmetros estáticos na lista*.
+> O modo de visualização visa representar a experiência de um [ativo publicado do Substance 3D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) da forma mais precisa possível. Portanto, as Limitações listadas nesta página serão aplicadas neste modo, como *ausência de parâmetros estáticos na lista*.
 
 ![Copiando e colando parâmetros de entradas](../../../assets/copy-paste-params-2.gif "Copiando e colando parâmetros de entradas"){width="512px"}
 

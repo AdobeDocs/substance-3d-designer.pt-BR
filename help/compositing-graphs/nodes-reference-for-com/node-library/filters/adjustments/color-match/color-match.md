@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-match.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-match.html"
 breadcrumb-title: ''
 description: Use o nó Correspondência de cores para corresponder cores entre texturas para criar paletas de cores consistentes e harmonizar texturas.
 helpx_creative_field: ""

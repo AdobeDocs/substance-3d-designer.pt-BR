@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Saiba como a herança funciona em gráficos de composição de Substance para criar variações e hierarquias de gráficos reutilizáveis.
 helpx_creative_field: ""
@@ -93,7 +93,7 @@ Isso deve permitir que você aprecie como as alterações no nó *um* podem afet
 
 ### Alterando métodos de herança
 
-No painel [Propriedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), todos os parâmetros listados na seção [Parâmetros base](../../compositing-graphs/graph-parameters/graph-parameters.md) das propriedades de um nó têm um botão suspenso (ícone) <b>Definir método de herança</b> oposto ao seu rótulo.\
+No painel [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), todos os parâmetros listados na seção [Parâmetros base](../../compositing-graphs/graph-parameters/graph-parameters.md) das propriedades de um nó têm um botão suspenso (ícone) <b>Definir método de herança</b> oposto ao seu rótulo.\
 Este botão permite-lhe selecionar o método de herança que deverá ser usado para um parâmetro.
 
 ![Alterando método de herança](../../assets/inheritance-change.gif "Alterando método de herança"){width="512px"}

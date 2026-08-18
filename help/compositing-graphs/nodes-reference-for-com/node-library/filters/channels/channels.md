@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels.html"
 breadcrumb-title: ''
 description: Acesse nós de filtro de canal no Substance 3D Designer para manipular e combinar dados de canal RGBA.
 helpx_creative_field: ""

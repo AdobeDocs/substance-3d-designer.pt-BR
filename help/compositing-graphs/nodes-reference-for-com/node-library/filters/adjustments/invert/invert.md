@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/invert.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/invert.html"
 breadcrumb-title: ''
 description: Use o nó Inverter para inverter valores de cores em texturas para criar efeitos negativos e inversões de máscara.
 helpx_creative_field: ""

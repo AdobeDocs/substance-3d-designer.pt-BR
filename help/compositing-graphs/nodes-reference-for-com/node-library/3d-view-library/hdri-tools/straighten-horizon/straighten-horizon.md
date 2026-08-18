@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/straighten-horizon.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/straighten-horizon.html"
 breadcrumb-title: ''
 description: Use o nó Endireitar horizonte para endireitar linhas de horizonte em ambientes HDRI para alinhamento e orientação adequados.
 helpx_creative_field: ""

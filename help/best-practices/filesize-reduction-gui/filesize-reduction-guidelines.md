@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
 description: Saiba mais sobre as diretrizes para reduzir o tamanho dos arquivos de gráfico de Substance para otimizar os requisitos de desempenho e armazenamento.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ O tamanho do arquivo é determinado principalmente por [bitmaps incorporados.](.
 
 ## Fatores de tamanho de arquivo
 
-Há alguns fatores diferentes que afetam o tamanho total do arquivo do [SBSAR](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Eles estão listados abaixo com uma breve explicação.
+Há alguns fatores diferentes que afetam o tamanho total do arquivo do [SBSAR](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Eles estão listados abaixo com uma breve explicação.
 
 +++Resolução
 Obviamente tem um grande efeito. Use a menor resolução possível, tendo em mente que você também pode desejar que o arquivo de Substance funcione em grandes resoluções. Você pode usar truques padrão de mascaramento de resolução para fazer com que os bitmaps menores pareçam maiores.
@@ -63,14 +63,14 @@ O modo para o qual você define o nó Bitmap também tem um efeito em como o Des
 +++Formato de bitmap no pacote
 Nas Propriedades do recurso, você pode escolher entre a compactação “Raw” e “Jpeg”. Isso pode ter um efeito considerável no resultado final.
 
-*Encontrado em: Recurso de Bitmap [Propriedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), através da [janela do Explorer.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*Encontrado em: Recurso de Bitmap [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), através da [janela do Explorer.](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
 
 +++
 
 +++Qualidade da compactação de bitmap no pacote
 Ao usar o formato Bitmap “Jpeg”, o controle deslizante abaixo pode afetar a qualidade e o tamanho do arquivo. Este controle deslizante não se comporta muito previsível, mas 1 tende a corresponder à compressão JPG de alta qualidade, e 0,5 tende a dar o menor tamanho.
 
-*Encontrado em: Recurso de Bitmap [Propriedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), através da [janela do Explorer.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*Encontrado em: Recurso de Bitmap [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), através da [janela do Explorer.](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
 
 +++
 

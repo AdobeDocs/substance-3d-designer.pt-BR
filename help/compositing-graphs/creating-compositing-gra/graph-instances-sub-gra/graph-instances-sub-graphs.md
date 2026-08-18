@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: Use instâncias de gráfico e subgrafos para criar componentes de gráfico reutilizáveis e fluxos de trabalho de material modulares.
 helpx_creative_field: ""
@@ -58,7 +58,7 @@ Observe que, embora os conceitos de ocorrência de gráfico e subgrafo também s
 
 ### Posso adicionar minhas próprias instâncias do gráfico à biblioteca de nós?
 
-<b>Sim, isso é possível </b>mas requer alguma configuração específica. Saiba mais na página [Gerenciando conteúdo e filtros personalizados](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) desta documentação.
+<b>Sim, isso é possível </b>mas requer alguma configuração específica. Saiba mais na página [Gerenciando conteúdo e filtros personalizados](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) desta documentação.
 
 ### É possível inspecionar o gráfico de origem de uma instância do gráfico?
 

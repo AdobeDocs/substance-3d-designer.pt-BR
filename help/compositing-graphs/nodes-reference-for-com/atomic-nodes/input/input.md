@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: Use o nó Entrada para criar parâmetros de entrada para gráficos de Substance que podem ser expostos e ajustados pelos usuários.
 helpx_creative_field: ""
@@ -145,7 +145,7 @@ Finalmente, você pode substituir qualquer valor de um determinado atributo defi
 
 >[!IMPORTANT]
 >
-> O método de herança *Relativo à entrada* para nós de entrada *não tem suporte* em [Ativos do Substance 3D (SBSAR)](https://helpx.adobe.com/substance-3d-assets.html). Defina todos os métodos de herança dos nós de entrada como *Relativo ao pai* antes de publicar o pacote.
+> O método de herança *Relativo à entrada* para nós de entrada *não tem suporte* em [Ativos do Substance 3D (SBSAR)](https://helpx.adobe.com/br/substance-3d-assets.html). Defina todos os métodos de herança dos nós de entrada como *Relativo ao pai* antes de publicar o pacote.
 
 ## Atributos de integração
 

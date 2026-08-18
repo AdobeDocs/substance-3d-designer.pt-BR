@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-position.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-position.html"
 breadcrumb-title: ''
 description: Use o nó Flood Fill para Posição a fim de preencher regiões com valores baseados em posição para criar padrões de procedimento.
 helpx_creative_field: ""
