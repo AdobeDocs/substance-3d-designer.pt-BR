@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Entenda os avisos nos gráficos de composição de Substance e saiba como resolver problemas e erros comuns.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Esta página lista mensagens de erros e avisos que podem ser disparados por [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) no Substance 3D Designer e oferece etapas comuns de solução de problemas para cada um.
 
-Os avisos são exibidos na dica de ferramenta do ícone de aviso para o recurso de gráfico no painel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), bem como no canto inferior esquerdo da [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) se o gráfico estiver carregado.
+Os avisos são exibidos na dica de ferramenta do ícone de aviso para o recurso de gráfico no painel [Explorador](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), bem como no canto inferior esquerdo da [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) se o gráfico estiver carregado.
 
 ## ![(erro)](../../assets/error.svg) Nenhum nó de saída definido
 
@@ -34,7 +34,7 @@ Adicione um ou mais nós [Saída](../../compositing-graphs/nodes-reference-for-c
 
 >[!NOTE]
 >
-> Os modelos de gráfico disponíveis por meio da [caixa de diálogo Novo gráfico de Substance](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) têm nós de saída predefinidos prontos para serem usados.
+> Os modelos de gráfico disponíveis por meio da [caixa de diálogo Novo gráfico de Substance](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) têm nós de saída predefinidos prontos para serem usados.
 
 ![Corrigir o aviso &#39;Nenhum nó de saída definido&#39;](../../assets/warnings-comp-output.gif "Corrigir o aviso &#39;Nenhum nó de saída definido&#39;"){width="512px"}
 
@@ -47,7 +47,7 @@ E.g. Cor Uniforme[Cor De Saída], Processador De Pixels[Função Por Pixel]
 
 **![(tick)](../../assets/check.svg) Solução**
 
-Localize o nó que emite o aviso por seu rótulo e emblema de aviso na [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) e selecione-o para exibir suas propriedades no painel [Propriedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html). Localize o parâmetro que emite o aviso e abra sua função clicando no botão **Editar função**.
+Localize o nó que emite o aviso por seu rótulo e emblema de aviso na [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) e selecione-o para exibir suas propriedades no painel [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html). Localize o parâmetro que emite o aviso e abra sua função clicando no botão **Editar função**.
 
 Em seguida, avalie o(s) aviso(s) listado(s) no canto inferior esquerdo da exibição Gráfico e resolva os problemas. Você pode consultar a página [Avisos nos gráficos de função](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md) para obter avisos de solução de problemas relatados nos gráficos de função.
 
@@ -64,7 +64,7 @@ O recurso referenciado por um nó tem um ou mais avisos. Aqui estão alguns nós
 
 **![(tick)](../../assets/check.svg) Solução**
 
-No painel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), localize o recurso referenciado e solucione todos os avisos gerados pelo recurso:
+No painel [Explorador](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), localize o recurso referenciado e solucione todos os avisos gerados pelo recurso:
 
 * Para gráficos, consulte outros itens nesta página
 * Para qualquer outro tipo de recurso, consulte a página [Avisos de dependências](../../resources/warnings-from-dep/warnings-from-dependencies.md)
@@ -73,7 +73,7 @@ No painel [Explorador](https://helpx.adobe.com/substance-3d/unlisted/documentati
 
 ### ![(erro)](../../assets/error.svg) Recurso de referência não encontrado
 
-O recurso referenciado por um nó não foi encontrado no caminho salvo no arquivo SBS (Substance 3D[1&rbrace;. &#x200B;](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)Aqui estão alguns nós que fazem referência a um recurso:
+O recurso referenciado por um nó não foi encontrado no caminho salvo no arquivo SBS (Substance 3D[1&rbrace;. &#x200B;](https://www.adobe.com/br/products/substance3d/3d-augmented-reality.html)Aqui estão alguns nós que fazem referência a um recurso:
 
 * Um nó [instância de gráfico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) faz referência a um gráfico
 * Um nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) faz referência a um [recurso de Bitmap](../../resources/bitmap-resource/bitmap-resource.md)
@@ -85,11 +85,11 @@ O recurso referenciado por um nó não foi encontrado no caminho salvo no arquiv
 Para nós de [instância de gráfico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)
 
 Verifique se o gráfico de origem existe no pacote localizado no caminho salvo no atributo **Pacote**.\
-Caso contrário, exclua o nó da instância e substitua-o por um nó de instância que faça referência a um pacote válido. Como alternativa, você pode recriar o pacote e o gráfico referenciados pelo nó da instância e recarregar o pacote do host clicando em RMB nele no painel [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selecionando a opção **Recarregar** no menu contextual.
+Caso contrário, exclua o nó da instância e substitua-o por um nó de instância que faça referência a um pacote válido. Como alternativa, você pode recriar o pacote e o gráfico referenciados pelo nó da instância e recarregar o pacote do host clicando em RMB nele no painel [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e selecionando a opção **Recarregar** no menu contextual.
 
 Para nós [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md), [SVG](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) ou [Texto](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
 
-Localize os recursos referenciados no painel [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e verifique se eles existem no local salvo no atributo **Caminho do Arquivo**.\
+Localize os recursos referenciados no painel [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e verifique se eles existem no local salvo no atributo **Caminho do Arquivo**.\
 Caso contrário, clique em RMB no item de recurso no Explorer e selecione a opção **Realocar...** no menu contextual para definir um novo arquivo de destino válido para esse recurso.
 
 ![Corrigir aviso &#39;Recurso de referência não encontrado&#39;](../../assets/warnings-comp-referenced-resource.gif "Corrigir aviso &#39;Recurso de referência não encontrado&#39;")

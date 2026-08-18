@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators.html"
 breadcrumb-title: ''
 description: Acesse nós geradores de textura no Substance 3D Designer para criar texturas de procedimentos a partir de padrões, ruídos e formas.
 helpx_creative_field: ""

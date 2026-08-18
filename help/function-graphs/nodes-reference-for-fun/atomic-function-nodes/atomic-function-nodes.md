@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes.html"
 breadcrumb-title: ''
 description: Saiba mais sobre os nós de função atômica, as menores unidades de nó nos gráficos de função Substance para a construção de funções personalizadas.
 helpx_creative_field: ""

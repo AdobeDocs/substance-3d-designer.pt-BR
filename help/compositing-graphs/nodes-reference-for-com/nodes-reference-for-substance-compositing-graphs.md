@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Acesse a referência completa de nós para gráficos de composição de Substance no Designer para saber mais sobre todos os nós disponíveis.
 helpx_creative_field: ""
@@ -35,10 +35,10 @@ O que chamamos de “nó” dentro do SD, pode ser dividido em 2 grupos principa
 
 [Biblioteca de nós](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
-* [Geradores de textura](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
+* [Geradores de textura](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
 * [Filtros](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)
 * [Filtros de material](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
-* [Geradores baseados em malha](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
+* [Geradores baseados em malha](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
 * [Ferramentas Spline e Demarcadores](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
 
 </td>

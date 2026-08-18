@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Acesse os nós Obter nos gráficos de função do Substance 3D Designer para recuperar valores de variáveis e dados.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Variáveis são uma forma de <b>armazenar valores</b> para buscá-los posteriorm
 
 ![gráfico de função Substance - Obter gráfico de função float](../../../../assets/assign-getfloat.gif "Substance - Obter float"){zoomable="yes"}
 
-O que um nó Get essencialmente faz é pegar uma variável dinâmica e retorná-la a partir da saída Get Nodes para uso em uma função. Estes nós Get formam o vínculo entre os Parâmetros de Entrada definidos nas [propriedades de gráfico](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) e nas [funções de parâmetro](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+O que um nó Get essencialmente faz é pegar uma variável dinâmica e retorná-la a partir da saída Get Nodes para uso em uma função. Estes nós Get formam o vínculo entre os Parâmetros de Entrada definidos nas [propriedades de gráfico](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) e nas [funções de parâmetro](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
 Sempre que usar um nó Obter, você deverá selecionar um valor disponível no menu suspenso. Obter nós <b>obterá um valor do tipo correspondente</b>. Isso significa que você verá apenas as opções válidas no menu de um nó Obter; nunca será possível escolher uma opção inválida. Se uma variável não estiver disponível, isso significa que há uma incompatibilidade de tipos
 

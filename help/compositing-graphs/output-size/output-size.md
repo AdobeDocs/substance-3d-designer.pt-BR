@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Defina as configurações de tamanho de saída para gráficos de composição de Substance para controlar a resolução e a qualidade da textura.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # Tamanho da saída
 
-É o primeiro dos <b>parâmetros base</b> de um gráfico e, junto com o <b>Formato de saída</b> (ou profundidade de bits), é essencial entender bem, pois tem um grande impacto na saída de um gráfico, dentro do Designer e em outros aplicativos, como um arquivo [de ativo do Substance 3D (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) publicado.
+É o primeiro dos <b>parâmetros base</b> de um gráfico e, junto com o <b>Formato de saída</b> (ou profundidade de bits), é essencial entender bem, pois tem um grande impacto na saída de um gráfico, dentro do Designer e em outros aplicativos, como um arquivo [de ativo do Substance 3D (SBSAR)](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) publicado.
 
 >[!TIP]
 >
@@ -96,7 +96,7 @@ Na maioria dos casos, o [método de herança](../../compositing-graphs/inheritan
 * Nó: *Relativo à entrada* - os valores herdados pela [entrada Primária](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) do nó são usados neste caso
 * Nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md): *Absoluto* - consulte a página [Recurso de bitmap](../../resources/bitmap-resource/bitmap-resource.md) e as [diretrizes de otimização de desempenho](../../best-practices/performance-optimization/performance-optimization-guidelines.md) para saber por que isso ocorre
 
-Exiba as propriedades de um nó ou gráfico clicando nesse item e, no painel [Propriedades](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), localize a propriedade <b>Tamanho da Saída</b> na seção <b>Parâmetros base</b>. Clique no menu suspenso método de herança e selecione o método de herança desejado.
+Exiba as propriedades de um nó ou gráfico clicando nesse item e, no painel [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), localize a propriedade <b>Tamanho da Saída</b> na seção <b>Parâmetros base</b>. Clique no menu suspenso método de herança e selecione o método de herança desejado.
 
 ![Método de herança de tamanho de saída](../../assets/change-mode.gif "Método de herança de tamanho de saída"){width="512px"}
 
