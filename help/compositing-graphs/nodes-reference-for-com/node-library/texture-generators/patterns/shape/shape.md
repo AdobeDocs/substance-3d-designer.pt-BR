@@ -55,7 +55,7 @@ Apesar de sua simplicidade, este é um nó muito útil: é o bloco de construç�
 * **Rotação 45°**: *Falso/Verdadeiro* Gira em 45 graus predefinidos.
 * **Expansão não quadrada**: *Falso/Verdadeiro*\
   Permite a compensação de esmagamento e alongamento com proporções não quadradas.
-* **Divisão em blocos gráficos não quadrados****:** *Falso/Verdadeiro*Quando o Expansão não quadrada estiver habilitado, ele irá cobrir a forma sem esmagamento.
+* **Divisão em blocos gráficos não quadrados**&#x200B;**:** *Falso/Verdadeiro*Quando o Expansão não quadrada estiver habilitado, ele irá cobrir a forma sem esmagamento.
 
 ## Imagens de exemplo
 

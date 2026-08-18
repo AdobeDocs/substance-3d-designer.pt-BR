@@ -58,8 +58,8 @@ Há uma versão especial de Scratches Generator, Scratches Generator Normal, que
 * **Definir a Largura da Curva em px**: *Falso/Verdadeiro* Determina as unidades usadas para as configurações de largura da curvatura.
 * **Luminância aleatória (somente versão em Tons de Cinza)**: *0.0 - 1.0* Torna aleatória a Luminância de cada spline individualmente.
 * **Intensidade normal (somente versão normal)**: *0.0 - 1.0* Define a intensidade do efeito Normal para cada spline globalmente.
-* ** Normal Intensity Random **(Apenas na versão normal)***: *0.0 - 1.0*Torna aleatória a intensidade normal para cada spline individualmente.
-* ** Formato Normal **(Somente versão normal)***: *DirectX, OpenGL*\
+* **&#x200B; Normal Intensity Random &#x200B;**(Apenas na versão normal)***: *0.0 - 1.0*Torna aleatória a intensidade normal para cada spline individualmente.
+* **&#x200B; Formato Normal &#x200B;**(Somente versão normal)***: *DirectX, OpenGL*\
   Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde).
 * **Modo de Atenuação**: *Nenhum, Início, Fim, Início + Fim* Define se e em que direção as linhas de spline desaparecem.
 * **Comprimento do fade**: *0.0 - 1.0* Define o comprimento do efeito de fade, se habilitado acima.

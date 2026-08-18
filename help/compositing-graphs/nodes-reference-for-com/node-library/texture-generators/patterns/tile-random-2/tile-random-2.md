@@ -150,7 +150,7 @@ Uma saída dedicada permite que você insira os **UVs** da forma em **Flood Fill
   * **Inverter máscara por área da célula** *Booleano*\
     Inverte o mascaramento de formas pela área de suas células.
   * **Início da Máscara por Área de Célula** *Flutuante*\
-    Ajusta o limite mínimo de *1} da área da célula para mascarar formas.*\
+    Ajusta o limite mínimo de *1&rbrace; da área da célula para mascarar formas.*\
     *Observação*: determina um limite de *intervalo de valores* para mascaramento. Portanto, o valor pode ser *maior* do que o valor **Fim da Máscara por Área de Célula**.
   * **Fim da Máscara por Área de Célula** *Flutuante* Ajusta o *limite máximo* da área da célula para mascarar formas.\
     *Observação*: determina um limite de *intervalo de valores* para mascaramento. Portanto, o valor pode ser *menor* do que o valor **Início da Máscara por Área de Célula**.

@@ -81,7 +81,7 @@ Algumas dicas de uso geral:
   * **Simetria aleatória**: *0.0 - 1.0* Espelha aleatoriamente determinados padrões pelo Modo aleatório de Simetria selecionado. Quanto maior for esse valor, mais padrões serão espelhados.
   * **Modo Aleatório de Simetria**: *Horizontal + Vertical, Horizontal, Vertical* Determina o comportamento de espelhamento quando a Simetria aleatória é maior que 0.
 * **Tamanho**
-  * **** Modo de Tamanho **:***Normal - Interstício, Normal - Tamanho, Manter Proporção, Absoluto, Pixel*Define o comportamento geral do tamanho do padrão.\
+  * **&#x200B;**&#x200B;Modo de Tamanho **:***Normal - Interstício, Normal - Tamanho, Manter Proporção, Absoluto, Pixel*Define o comportamento geral do tamanho do padrão.\
     Normal - O Interstício permite definir a lacuna entre os elementos do padrão. É afetada pelo valor X e Y.\
     Normal - Tamanho permite que você defina o tamanho dos elementos do padrão, independentemente do espaço. É afetada pelo valor X e Y.\
     Manter proporção permite definir um tamanho afetado pela quantidade X e Y, mas a proporção X e Y entre os dois permanece intacta.\
