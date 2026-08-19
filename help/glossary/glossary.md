@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: Acesse o glossário do Substance 3D Designer para encontrar definições de termos, conceitos e terminologia técnica.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b><span id="three-d-scene"></span>Cena 3D</b> | Uma coleção de objetos e dados envolvidos na representação e animação de uma visualização de espaço 3D:<ul data-preserve-html="true"> <li data-preserve-html="true">[Malhas](#mesh)</li> <li data-preserve-html="true">[Materiais](#material)</li> <li data-preserve-html="true">Câmeras</li> <li data-preserve-html="true">Luzes</li> <li data-preserve-html="true">Animação</li> <li data-preserve-html="true">Simulações</li> <li data-preserve-html="true">...</li> </ul>Os [formatos de arquivo populares](https://www.adobe.com/br/products/substance3d/discover/3d-files-formats.html) para armazenar cenas 3D incluem o [USD](#usd) da Pixar e o FBX da Autodesk. Nem todos os formatos de arquivo são compatíveis com todos esses componentes |
+| <b><span id="three-d-scene"></span>Cena 3D</b> | Uma coleção de objetos e dados envolvidos na representação e animação de uma visualização de espaço 3D:<ul data-preserve-html="true"> <li data-preserve-html="true">[Malhas](#mesh)</li> <li data-preserve-html="true">[Materiais](#material)</li> <li data-preserve-html="true">Câmeras</li> <li data-preserve-html="true">Luzes</li> <li data-preserve-html="true">Animação</li> <li data-preserve-html="true">Simulações</li> <li data-preserve-html="true">...</li> </ul>Os [formatos de arquivo populares](https://www.adobe.com/products/substance3d/discover/3d-files-formats.html) para armazenar cenas 3D incluem o [USD](#usd) da Pixar e o FBX da Autodesk. Nem todos os formatos de arquivo são compatíveis com todos esses componentes |
 
 ## A
 
