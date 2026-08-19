@@ -1,0 +1,56 @@
+---
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-2.html"
+breadcrumb-title: ''
+description: Use o nó Gradiente linear 2 para criar gradientes lineares com controles aprimorados para transições de cores direcionais.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Linear 2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Gradiente linear 2
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 2%
+
+---
+
+
+# Gradiente linear 2
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/gradient-linear-2.png){width="128px"}
+
+## Gradiente linear 2
+
+**Entrada:** *Geradores De Textura**/Padrões*
+
+**Simples**
+
+</td>
+<td style="border: 0;" valign="top">
+
+## Descrição
+
+Gradiente simples e suave de dupla face. Fornece um gradiente preto-branco-preto perfeito com interpolação perfeita.
+
+Apesar de sua simplicidade, é muito útil e pode servir a muitos propósitos. Experimente com uma [Verificação de histograma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), por exemplo!
+
+## Parâmetros
+
+* **Divisão em blocos gráficos**: *1 - 16*\
+  Define a quantidade de vezes que o resultado deve ser colocado lado a lado.
+* **Rotação**: **0, 90°** Altera a direção da esquerda para a direita para cima e para baixo ou vice-versa.
+
+## Imagens de exemplo
+
+![](../../../../../../assets/gradient-linear-2-ex.gif)
+
+</td>
+</tr>
+</table>

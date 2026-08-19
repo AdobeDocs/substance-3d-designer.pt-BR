@@ -1,0 +1,127 @@
+---
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
+breadcrumb-title: ''
+description: Use o nó Descombinar normal para separar dados de mapa normal combinados em componentes X, Y e Z individuais.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal map > Normal uncombine
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Não Combinar Normal
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 1%
+
+---
+
+
+# Não Combinar Normal
+
+<table>
+<tr style="border: 0;">
+<td width="33.33%" style="border: 0;" valign="top">
+
+![Ícone de descombinação normal](../../../../../../assets/NormalUncombine.png "Ícone de descombinação normal"){width="200px"}
+
+<b>Entrada:</b> Filtros > Mapa normal
+
+</td>
+<td width="100.00%" style="border: 0;" valign="top">
+
+## Descrição
+
+Remove de um mapa normal os detalhes da superfície descritos por um mapa de height.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+
+
+</td>
+<td style="border: 0;" valign="top">
+
+### Conectores de saída
+
+</td>
+<td style="border: 0;" valign="top">
+
+### Parâmetros
+
+</td>
+</tr>
+</table>
+
+## Conectores de entrada
+
+|  |  |
+| --- | --- |
+| <b>Combinado normal</b> *Cor* PRIMÁRIA | O mapa normal do qual os detalhes devem ser removidos. |
+| <b>Height</b> *Tons de cinza* | O mapa de heights que representa os detalhes da superfície que devem ser removidos do mapa normal combinado. |
+
+## Conectores de saída
+
+|  |  |
+| --- | --- |
+| <b>Não combinado normal</b> *Cor* | O mapa normal onde os detalhes da superfície descritos pelo mapa de height de entrada foram removidos. |
+| <b>Intensidade estimada</b> *Flutuante* | Uma estimativa da intensidade que deve ser definida para um nó [Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) conectado ao mapa de height de entrada, para corresponder à intensidade do mapa normal de entrada. |
+
+## Parâmetros
+
+|  |  |
+| --- | --- |
+| <b>Formato normal</b> *Inteiro* | O formato do mapa normal de entrada. Inverte efetivamente o canal de verde.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> o eixo Y aponta para cima</li> <li data-preserve-html="true"><b>OpenGL:</b> o eixo Y aponta para baixo</li> </ul> |
+
+## Exemplos
+
+<table>
+  <tr>
+    <td>
+      <img src="../../../../../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <br><i>Antes</i>
+    </td>
+    <td>
+      <img src="../../../../../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <br><i>Depois</i>
+    </td>
+  </tr>
+</table>
+
+![Normal não combinado: Exemplo 2](../../../../../../assets/normal_uncombine_example_4.png "Normal não combinado: Exemplo 2"){zoomable="yes"}
+
+<table>
+  <tr>
+    <td>
+      <img src="../../../../../../assets/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
+      <br><i>Antes</i>
+    </td>
+    <td>
+      <img src="../../../../../../assets/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
+      <br><i>Depois</i>
+    </td>
+  </tr>
+</table>
+
+![Normal não combinado: Exemplo 4](../../../../../../assets/normal_uncombine_example_6.png "Normal não combinado: Exemplo 4"){zoomable="yes"}
+
+<table>
+  <tr>
+    <td>
+      <img src="../../../../../../assets/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
+      <br><i>Antes</i>
+    </td>
+    <td>
+      <img src="../../../../../../assets/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
+      <br><i>Depois</i>
+    </td>
+  </tr>
+</table>
+
+![Normal não combinado: Exemplo 6](../../../../../../assets/normal_uncombine_example_5.png "Normal não combinado: Exemplo 6"){zoomable="yes"}

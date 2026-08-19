@@ -1,0 +1,66 @@
+---
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill.html"
+breadcrumb-title: ''
+description: Use o nó Flood Fill para preencher regiões conectadas de cor semelhante para criar máscaras e efeitos de processamento de textura.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Flood Fill
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 0%
+
+---
+
+
+# Flood Fill
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/floodfill.png){width="128px"}
+
+## Flood Fill
+
+**Entrada:** *Filtros/Efeitos*
+
+**Simples**
+
+</td>
+<td style="border: 0;" valign="top">
+
+## Descrição
+
+O Flood Fill faz parte de um conjunto avançado de efeitos que permitem adicionar muito mais variação a uma textura básica de ladrilhos binários. Não é destinado a ser usado por si só: em vez disso, é mais um ponto de partida para Outros efeitos de Flood Fill. Esses dados separados e divididos permitem um fluxo de trabalho mais dinâmico, mais otimizado e menos destrutivo.
+
+Os outros efeitos de Flood Fill são [Flood Fill para Gradiente](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-gradient/flood-fill-to-gradient.md), [Flood Fill para Cor/Tons de Cinza](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-grayscale-col/flood-fill-to-grayscale-color.md), [Flood Fill para Tons de Cinza Aleatórios](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md), [Flood Fill para Cor Aleatória](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-color/flood-fill-to-random-color.md), [Flood Fill para Tamanho da Caixa](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-bbox-size/flood-fill-to-bbox-size.md), [Flood Fill para Posição](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-position/flood-fill-to-position.md), [Flood Fill Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-mapper/flood-fill-mapper.md) e [Flood Fill para Índice](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-index/flood-fill-to-index.md)
+
+>[!WARNING]
+>
+> O mapa de entrada precisa ser adequado para o Flood Fill funcionar. Idealmente, é um mapa binário (apenas preto/branco, sem escala de cinza) onde cada ladrilho é separado das outras linhas por uma borda que é totalmente preta (0,0,0) para cada pixel. Um exemplo de candidato perfeito para isso é o [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
+> 
+> Surgem problemas se os ladrilhos não são separados por pixels totalmente pretos, geralmente quando são usados valores de inclinação em tons de cinza. Você pode identificar isso pela falta geral de valores vermelhos no resultado e, possivelmente, por linhas artificiais estranhas. Nesses casos, ajuste o contraste no mapa de entrada ou desative o mapa de entrada. Certifique-se de alterar a configuração de trade-off de Segurança/Velocidade para ver se algo melhora.
+
+## Parâmetros
+
+* **Compensação de segurança/velocidade**: *formas simples ou pequenas, formas complexas ou grandes, modo Sem falha.*Defina o modo de cálculo para ser mais adequado às formas de entrada. Permite resultados muito mais precisos se o modo correto for escolhido.
+* **Opções avançadas**: *Exibir parâmetros avançados e Saída/Ocultar parâmetros avançados e Saída*
+* **Substituir compromisso de Segurança/Velocidade**: *-1 - 100* Somente visível com Opções Avançadas ativado. Permite substituir recursos internos. Muito avançado, serve para criar seus próprios efeitos ou depuração.
+
+## Imagens de exemplo
+
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/flood-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/flood-ex1.png" width="256px"/></div> |
+| --- | --- |
+|  |  |
+
+Bons e maus exemplos de resultados de Flood Fill.
+
+</td>
+</tr>
+</table>

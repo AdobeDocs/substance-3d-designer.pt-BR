@@ -1,0 +1,198 @@
+---
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
+breadcrumb-title: ''
+description: Use o nó Lista de pontes de spline para fazer a ponte de texturas entre várias splines em uma lista para padrões complexos.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge (List)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Ponte de spline (lista)
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+workflow-type: tm+mt
+source-wordcount: '987'
+ht-degree: 0%
+
+---
+
+
+# Ponte de spline (lista)
+
+<table>
+<tr style="border: 0;">
+<td width="33.33%" style="border: 0;" valign="top">
+
+![Ícone de nó](../../../../../../assets/spline-bridge-list-icon.png "Ícone de nó")
+
+<b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
+
+</td>
+<td width="100.00%" style="border: 0;" valign="top">
+
+## Descrição
+
+Gera splines atravessando todas as splines na lista de entrada, ao longo dessas splines.
+
+As splines geradas podem ser lineares (retas) ou quadráticas (curvas).
+
+</td>
+</tr>
+</table>
+
+>[!TIP]
+>
+> As splines geradas vão da primeira spline na lista até a última e atravessam as splines intermediárias seguindo estritamente a ordem dessas splines na lista.
+> 
+> Portanto, você deve ter cuidado com a ordem na qual você acrescenta splines com antecedência.
+
+## Conectores de entrada
+
+<b>Visualizar</b> *Tons de cinza* A visualização das linhas divisórias de entrada como uma imagem em tons de cinza.
+
+<b>Cordas de spline</b> *Cor* As coordenadas dos pontos das splines de entrada codificadas nos canais RGBA de uma imagem colorida:\
+<b> R</b> - Posição X\
+<b> G</b> - posição Y\
+<b> B</b> - Height\
+    <b>A</b> - Dados empacotados:\
+        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+        * Valor absoluto: Thickness + 1.
+
+<b>Dados de Spline</b> *Cor* Dados adicionais das splines de entrada codificados nos canais RGBA de uma imagem colorida.\
+<b> R</b> - Tangentes X\
+<b> G</b> - Tangentes Y\
+<b> B</b> - Não Usado\
+<b> A</b> - Não Usado
+
+<b>Valor da spline</b> *Inteiro* O número de splines de entrada.
+
+## Conectores de saída
+
+<b>Visualizar</b> *Tons de cinza* A visualização das linhas divisórias de saída como uma imagem em tons de cinza.
+
+<b>Cordas de spline</b> *Cor* As coordenadas dos pontos das linhas divisórias de saída codificadas nos canais RGBA de uma imagem colorida.\
+    <b>R</b> - Posição X\
+    <b>G</b> - posição Y\
+    <b>B</b> - Height\
+    <b>A</b> - Dados empacotados:\
+        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+        * Valor absoluto: Thickness + 1.
+
+<b>Dados de Spline</b> *Cor* Dados adicionais das splines de saída codificados nos canais RGBA de uma imagem colorida.\
+    <b>R</b> - Tangentes X\
+    <b>G</b> - Tangentes Y\
+    <b>B</b> - Não Usado\
+    <b>A</b> - Não Usado
+
+<b>Valor da spline</b> *Inteiro* O número de splines de saída.
+
+## Parâmetros
+
+<b>Quantidade de Spline da Ponte</b> *Inteiro* O número de splines geradas nas splines de entrada.
+
+<b>Tipo de Splines de Ponte</b> *Inteiro* O tipo de spline gerado:
+* Linear: um estribo afiado que liga estrias intermédias com trajetórias retas do início ao fim;
+* Bezier quadrático: um spline curvo que conecta splines intermediários com trajetórias suaves do início ao fim.\
+  Observação: pelo menos três splines de entrada são necessários para calcular uma spline de Bézier Quadrática.
+
+<b>As splines de entrada estão fechadas</b> *Booleano* Controla se o primeiro e o último pontos de splines de entrada devem ser processados como um único ponto. Isso evita a duplicação do primeiro e último splines de travessia.
+
+<b>Inverter Direção</b> *Booleano* Inverte a direção da spline.
+
+<b>Fechar Spline da Ponte</b> *Booleano* Estende as linhas divisórias transversais para se conectar novamente à primeira linha divisória da lista de entrada.
+
+<b>Deslocamento da Primeira Curva da Ponte </b>*Flutuante2* Aplica um deslocamento ao início de todas as curvas atravessadas. O valor é o comprimento normalizado das splines de entrada.\
+Os splines gerados que atendem ao início ou ao fim dos splines atravessados são deixados lá.
+
+<b>Deslocamento da Última Curva da Ponte </b>*Flutuante2*\
+Aplica um deslocamento ao final de todos os splines atravessados. O valor é o comprimento normalizado das splines de entrada.\
+Os splines gerados que atendem ao início ou ao fim dos splines atravessados são deixados lá.
+
+<b>Intervalo de deslocamento aleatório</b> *Inteiro* A distância máxima usada para o deslocamento aleatório aplicado nas splines.\
+*- spline pai:* O comprimento total das splines pai é usado. Pode causar sobreposições.\
+*- Intervalo:* O intervalo entre as linhas de ponte é usado. Isso reduz as sobreposições. Essa distância diminui à medida que a quantidade de splines de ponte aumenta.
+
+<b>Iniciar Deslocamento Aleatório</b> *Flutuante* Um multiplicador para o deslocamento aleatório aplicado na posição inicial das linhas de ponte, onde a distância máxima é especificada pelo parâmetro <b>Intervalo de deslocamento aleatório</b>.
+
+<b>Deslocamento Aleatório Final</b> *Flutuante* Um multiplicador para o deslocamento aleatório aplicado na posição final das linhas de ponte, onde a distância máxima é especificada pelo parâmetro <b>Intervalo de deslocamento aleatório</b>.
+
+<b>Deslocamento Aleatório Global</b> *Flutuante* Um multiplicador para o *valor igual* de deslocamento aleatório aplicado *tanto* quanto a posição inicial e final das linhas de ponte, onde a distância máxima é especificada pelo parâmetro <b>Intervalo de deslocamento aleatório</b>.
+
+<b>Distribuição Uniforme</b> *Booleano* Quando Verdadeiro, os pontos das splines geradas são espaçados uniformemente do início ao fim.
+
++++Espessura
+<b>Modo de Thickness</b> *Inteiro* O método de aquisição do valor de thickness para as linhas de ponte.\
+*- Herdar de splines pai:* O thickness das splines pai nas posições inicial e final das splines de ponte é usado\
+*- Substituir:* O valor arbitrário especificado no parâmetro <b>Thickness</b> é usado
+
+<b>Thickness</b> *Flutuante* O valor de thickness absoluto aplicado às linhas de ponte.
+
+<b>Thickness Aleatório</b> *Flutuante* Um multiplicador aleatório para o thickness das linhas de ponte, no qual o thickness inicial ao qual esse multiplicador é aplicado é especificado pelo parâmetro <b>modo de Thickness</b>.
+
++++
+
++++Altura
+<b>Modo de Height</b> *Inteiro* O método de aquisição do valor de height para as linhas divisórias de ponte.\
+*- Herdar de splines pai:* O height das splines pai nas posições inicial e final das splines de ponte é usado\
+*- Substituir:* O valor arbitrário especificado no parâmetro <b>Height</b> é usado
+
+<b>Deslocamento de Height</b> *Flutuante* O valor de deslocamento aplicado ao height herdado das linhas de base pai, antes que esse height seja aplicado às linhas de base da ponte.
+
+<b>Height</b> *Flutuante* O valor de height absoluto aplicado às linhas de ponte.
+
+<b>Height aleatório</b> *Flutuante* Uma quantidade aleatória de ajustes no height das linhas de ponte, em que esse ajuste depende do parâmetro selecionado <b>modo de Height</b>:\
+*- Herdar de splines pai:* O valor é um multiplicador do height herdado.\
+*- Substituição:* O valor é um deslocamento adicionado ao height.
+
++++
+
+<b>Correção Não Quadrada </b>*Booleana*
+
+Ajuste a posição e o thickness dos pontos para manter a forma de spline em resoluções não quadradas.\
+Isso também afeta a distribuição uniforme.
+
++++Visualização
+<b>Mostrar Auxiliar de Direção</b> *Booleano* Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização.
+
+<b>Mostrar Envelope de Thickness</b> *Booleano*\
+Exibe linhas adicionais nas bordas do thickness da spline.
+
+<b>Valor de Segmentos</b> *Inteiro* Ajusta o número de segmentos usados para desenhar a visualização de spline na saída da Visualização.\
+Um valor mais alto resulta em uma linha mais suave.
+
+<b>Thickness (px)</b> *Flutuante* Ajusta o thickness da visualização da spline em pixels na saída da Visualização.
+
+<b>Intensidade de visualização do plano de fundo</b> *Flutuação* A intensidade da visualização.
+
++++
+
+## Exemplos
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+<table>
+  <tr>
+    <td>
+      <img src="../../../../../../assets/SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
+      <br><i>Antes</i>
+    </td>
+    <td>
+      <img src="../../../../../../assets/SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
+      <br><i>Depois</i>
+    </td>
+  </tr>
+</table>
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Exemplo de nó 2](../../../../../../assets/SplineBridge-List_Demo.gif "Exemplo de nó 2")
+
+</td>
+</tr>
+</table>
+
+![Nó no gráfico](../../../../../../assets/SplineBridge-List_Graph.jpg "Nó no gráfico")

@@ -1,0 +1,70 @@
+---
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
+breadcrumb-title: ''
+description: Use o nó Distorção de vetor para deformar texturas usando campos de vetor para criar efeitos de distorção fluidos e orgânicos.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Vector Warp
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Distorção de vetor
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 1%
+
+---
+
+
+# Distorção de vetor
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/vector-warp.png){width="128px"}
+
+![](../../../../../../assets/vector-warp-grayscale.png){width="128px"}
+
+## Distorção de vetor (tons de cinza)
+
+**Entrada:** *Filtros/Efeitos*
+
+**Complexo**
+
+</td>
+<td style="border: 0;" valign="top">
+
+## Descrição
+
+A Distorção de vetor é um efeito de distorção avançado, semelhante a [Distorção](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) e [Distorção direcional](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md), com a principal diferença sendo que ela é orientada por um bitmap vetorial (colorido) em vez de um mapa em tons de cinza. Isso significa que ele é mais poderoso e versátil do que seus primos de nó atômico.
+
+O Mapa vetorial é semelhante a um Mapa normal, mas não precisa ser normalizado e apenas os canais R e Verde (X e Y) são usados. Os canais azul e Alpha podem ficar pretos, se desejar. Construir um bom Mapa Vetorial pode ser o maior desafio ao usar este nó; você pode [converter mapas em tons de cinza em Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) ou construir o mapa combinando canais com[Mesclagem de RGBA.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md) Como alternativa, um [”Mapa de Fluxo”](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/advanced-channel-painting/flow-map-painting) também é utilizável.
+
+Esse nó pode ser útil quando você deseja realizar distorções muito específicas com direções variadas, em que os nós de distorção padrão não o cortam.
+
+## Parâmetros
+
+### Entradas
+
+* **Entrada**: *Entrada de Cores*\
+  Mapeie para distorcer.
+* **Mapa Vetorial**: *Entrada De Cores*\
+  Distorção mapa de driver. Os canais de cores Vermelho e Azul são usados.
+
+### Parâmetros
+
+* **Intensidade**: *0.0 - 1,0* Multiplicador de intensidade para o Mapa de Vetor.
+* **Formato de vetor**: *DirectX, OpenGL* alterna o canal Verde entre a interpretação Para Cima e Para Baixo.
+
+## Imagens de exemplo
+
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/vector-warp-ex.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
+</table>
