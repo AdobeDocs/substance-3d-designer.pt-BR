@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 15.1 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -68,7 +68,7 @@ Finalmente, a profundidade de bits <b>não está mais bloqueada para 16 bits</b>
 
 Veja a lista completa de ruídos atualizados nas [notas de versão](#release-notes) abaixo.
 
-Exemplos: [Células 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuvens 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [&#x200B; Arranhões direcionais](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [&#x200B; Ruído de umidade 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+Exemplos: [Células 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuvens 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [ Arranhões direcionais](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [ Ruído de umidade 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![ruído de distúrbio direcional](../../assets/directionaldisorder.gif){zoomable="yes"}
 
