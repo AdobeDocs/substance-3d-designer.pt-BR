@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Esta página explica como a Substance 3D Designer pode publicar pacotes como arquivos de <b>ativos do Substance 3D</b>, um formato de arquivo especial com a extensão <b>SBSAR</b>, usado no ecossistema de Substance bem como em outros aplicativos que dão suporte a ele.
 
-Normalmente, é melhor usar um ativo do Substance 3D em vez de bitmaps, pois ele é muito mais flexível e leve. Se você estiver usando o [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), o [Sampler](https://helpx.adobe.com/br/substance-3d-sampler.html) ou o [Player](https://helpx.adobe.com/substance-3d-player/home.html) do Substance 3D, é mais rápido usar a funcionalidade [Enviar para](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html).
+Normalmente, é melhor usar um ativo do Substance 3D em vez de bitmaps, pois ele é muito mais flexível e leve. Se você estiver usando o [Painter](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/home), o [Sampler](https://helpx.adobe.com/br/substance-3d-sampler.html) ou o [Player](https://helpx.adobe.com/substance-3d-player/home.html) do Substance 3D, é mais rápido usar a funcionalidade [Enviar para](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html).
 
 ![Publicação de arquivos SBSAR simplificada](../../assets/exportflow.png "Publicação de arquivos SBSAR simplificada")
 
@@ -33,7 +33,7 @@ Normalmente, é melhor usar um ativo do Substance 3D em vez de bitmaps, pois ele
 * Você<b> publica um pacote</b>, com todo o seu conteúdo, não um [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md) individual. Um ativo do Substance 3D permite gerar conteúdo de todos os gráficos de Substance dentro deste pacote.
 * Os pacotes publicados são <b>completamente autônomos</b>: todos os recursos necessários estão incorporados ao arquivo. Isso significa que eles são muito mais fáceis de compartilhar do que arquivos SBS.
 * A saída dos ativos do Substance 3D pode ser <b>completamente dinâmica</b>. [A resolução não está definida; os parâmetros expostos podem ser modificados.](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) No entanto, não é mais possível editar o gráfico.
-* Os ativos do Substance 3D podem ser usados fora do Designer, em todos os produtos Adobe Substance 3D, no Adobe Dimension e em qualquer outro aplicativo que tenha uma [integração de Substance](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home).
+* Os ativos do Substance 3D podem ser usados fora do Designer, em todos os produtos Adobe Substance 3D, no Adobe Dimension e em qualquer outro aplicativo que tenha uma [integração de Substance](https://experienceleague.adobe.com/pt-br/docs/substance-3d/ecosystem/home).
 * A publicação é diferente de[Exportar](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). Certifique-se de entender bem a diferença.
 
 ## Preparando para publicar

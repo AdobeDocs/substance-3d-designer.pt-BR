@@ -22,7 +22,7 @@ ht-degree: 4%
 
 Geradores baseados em malha são nós destinados a processar [Mapas baked](../../../../bakers/bakers.md) como um mapa normal, curvatura, Oclusão ambiente etc.
 
-O nome da categoria se deve ao fato de que mapas baked são a única maneira do Designer usar dados com base em malhas 3D. Algumas funcionalidades nesta categoria são semelhantes a [Materiais e máscaras inteligentes](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) do Substance 3D Painter.
+O nome da categoria se deve ao fato de que mapas baked são a única maneira do Designer usar dados com base em malhas 3D. Algumas funcionalidades nesta categoria são semelhantes a [Materiais e máscaras inteligentes](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/features/smart-materials-and-masks) do Substance 3D Painter.
 
 Há três categorias principais:
 
