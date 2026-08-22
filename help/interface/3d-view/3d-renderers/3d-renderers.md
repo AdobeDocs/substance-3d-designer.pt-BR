@@ -178,7 +178,7 @@ Duas técnicas estão disponíveis para visualizar o height:
 
 <b>Tesselação + Deslocamento</b> - Subdivide a geometria e desloca os vértices ao longo de suas normais.
 
-O Material Padrão da Adobe está documentado em detalhes nesta [seção](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de nossa documentação.
+O Material Padrão da Adobe está documentado em detalhes nesta [seção](https://experienceleague.adobe.com/pt-br/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de nossa documentação.
 
 +++
 

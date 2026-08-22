@@ -202,7 +202,7 @@ até a versão 15.1.
 Embora o Designer tenha mudado para OpenPBR como seu novo modelo padrão, o ASM ainda está incluído e suas propriedades também são compartilhadas
 no Rasterizador, GPU Pathtracer e nos [renderizadores 3D OpenGL](../3d-renderers/3d-renderers.md).
 
-O modelo está documentado [aqui](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
+O modelo está documentado [aqui](https://experienceleague.adobe.com/pt-br/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <a name="usdpreviewsurface"></a>
 

@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Geradores de máscara
 
-Esta categoria contém uma seleção de nós geradores de máscaras em preto e branco. Com base em informações do mapa baked, eles geram máscaras que podem ser usadas para mesclar materiais e outros efeitos. Estes nós são semelhantes a [Máscaras Inteligentes](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) e [Geradores](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/generators) em Substance Painter.
+Esta categoria contém uma seleção de nós geradores de máscaras em preto e branco. Com base em informações do mapa baked, eles geram máscaras que podem ser usadas para mesclar materiais e outros efeitos. Estes nós são semelhantes a [Máscaras Inteligentes](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/features/smart-materials-and-masks) e [Geradores](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/content/creating-custom-effects/generators) em Substance Painter.
 
 Todos esses nós exigem [mapas baked](../../../../../bakers/bakers.md), pois sem [mapas baked](../../../../../bakers/bakers.md) não haverá muito resultado.
 
