@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: Solucione problemas que impedem o Substance 3D Designer de iniciar e encontre soluções para iniciar o aplicativo.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: O aplicativo não inicia
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0cbf71a4a03ac7d0dca48b8f41c753e646b7682b
+source-git-commit: 5e56914c9048c513359d578d802097ef18493a5c
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -38,7 +38,7 @@ As versões 15.0 e posteriores do Designer não são iniciadas em sistemas com u
 
 <b>![(tick)](../../assets/check.svg) Etapas recomendadas</b>
 
-Atualize os drivers gráficos da iGPU. Você pode encontrar os drivers mais recentes aqui: [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
+Atualize os drivers gráficos da iGPU. Você pode encontrar os drivers mais recentes aqui: [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
 ## Windows 10/11
 

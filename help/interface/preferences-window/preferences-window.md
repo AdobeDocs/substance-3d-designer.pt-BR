@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Acesse a janela Preferências no Substance 3D Designer para personalizar as configurações e o comportamento do aplicativo.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Preferências
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b1b28e909a4d3c19c1dbc28e5ed25b3adc327ac3
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '1973'
 ht-degree: 1%
 
 ---
@@ -35,15 +35,15 @@ Recomendamos a revisão de todas essas configurações para obter uma visão mel
 
 ### Documentos recentes
 
-|  |  |
-| --- | --- |
-| <b>A lista de documentos recentes contém</b>  *Padrão: 10* | Isso permite selecionar o número de documentos a serem listados na entrada <b>Pacotes Recentes</b> do item <b>Arquivo</b> no [Menu Principal](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). |
+|  |                                                                                                                                         |
+| --- |-----------------------------------------------------------------------------------------------------------------------------------------|
+| <b>A lista de documentos recentes contém</b>  *Padrão: 10* | Isso permite selecionar o número de documentos a serem listados na entrada <b>Pacotes Recentes</b> do item <b>Arquivo</b> no [menu principal](../the-main-toolbar/the-main-toolbar.md). |
 
 ### Histórico
 
 |  |  |
 | --- | --- |
-| **Tamanho da pilha do histórico** *Padrão: 200* | Isso indica o número de operações de desfazer disponíveis a qualquer momento no item <b>Editar > Desfazer</b> do [Menu Principal](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html).  **Cuidado:** quanto mais operações de desfazer você precisar, mais memória o aplicativo precisará. |
+| **Tamanho da pilha do histórico** *Padrão: 200* | Isso indica o número de operações de desfazer disponíveis a qualquer momento no item <b>Editar > Desfazer</b> do [menu principal](../the-main-toolbar/the-main-toolbar.md).  **Cuidado:** quanto mais operações de desfazer você precisar, mais memória o aplicativo precisará. |
 
 ### Idioma
 
@@ -111,13 +111,13 @@ Observe também que os salvamentos automáticos devem ser abertos *depois de mov
 
 |  |  |
 | --- | --- |
-| <b>Sempre salvar o arquivo .sbs ao publicar em .sbsar ou enviar para outro aplicativo</b>  *Padrão: Verdadeiro* | Controla o salvamento automático do pacote SBS ao [publicá-lo](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) ou ao [enviá-lo para outro aplicativo](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html). |
+| <b>Sempre salvar o arquivo .sbs ao publicar em .sbsar ou enviar para outro aplicativo</b>  *Padrão: Verdadeiro* | Controla o salvamento automático do pacote SBS ao [publicá-lo](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) ou enviá-lo para outro aplicativo. |
 
 ### Preparador
 
-|  |  |
-| --- | --- |
-| <b>Limite de tamanho da cozinha</b>  *Padrão: 8.192 pixels* | Define a resolução máxima de pixels permitida para todos os [nós](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) em qualquer [gráfico](../../compositing-graphs/substance-compositing-graphs.md). Como as saídas de gráfico são sempre imagens quadradas de potências de 2 resoluções, o valor definido aqui define a largura e o height máximos, em pixels. |
+|  |                                                                                                                                                                                                                                                                                                 |
+| --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b>Limite de tamanho da cozinha</b>  *Padrão: 8.192 pixels* | Define a resolução máxima de pixels permitida para todos os nós em qualquer Substance [gráfico](../../compositing-graphs/substance-compositing-graphs.md). Como as saídas de gráfico são sempre imagens quadradas de potências de 2 resoluções, o valor definido aqui define a largura e o height máximos, em pixels. |
 
 ### Mecanismo
 
@@ -191,7 +191,7 @@ Consulte a página [Configurações de projetos](../../interface/preferences-win
 
 |  |  |
 | --- | --- |
-| <b>Rastreamento de raios do GPU</b>  *Padrão: Verificado* | Se marcado, o rastreamento de raios será executado na GPU para [padeiros compatíveis](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/features/gpu-raytracing).   As seguintes infraestruturas de Rastreamento de raios do GPU serão o padrão, dependendo da arquitetura da GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing e mais recentes</li> <li data-preserve-html="true"><i>Optix</i>: Pascal e Maxwell</li> </ul>  **Observação:** mais informações sobre padeiros alimentados por GPU estão disponíveis na seção [Rastreamento de raios do GPU](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/features/gpu-raytracing) da documentação do [Substance Bakers](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/home).  **Dica:** você pode usar os *argumentos de linha de comando* a seguir ao iniciar o aplicativo para *forçar* o uso de uma infraestrutura de Rastreamento de raios do GPU diferente: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forçar o uso do Optix na Turing da Nvidia ou GPUs mais novas</li> <li data-preserve-html="true"><code>—force-dxr</code> : forçar o uso de DXR em GPUs Nvidia Pascal</li> </ul> |
+| <b>Rastreamento de raios do GPU</b>  *Padrão: Verificado* | Se marcado, o rastreamento de raios será executado na GPU para [padeiros compatíveis](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).   As seguintes infraestruturas de Rastreamento de raios do GPU serão o padrão, dependendo da arquitetura da GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing e mais recentes</li> <li data-preserve-html="true"><i>Optix</i>: Pascal e Maxwell</li> </ul>  **Observação:** mais informações sobre padeiros alimentados por GPU estão disponíveis na seção [Rastreamento de raios do GPU](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) da documentação do [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Dica:** você pode usar os *argumentos de linha de comando* a seguir ao iniciar o aplicativo para *forçar* o uso de uma infraestrutura de Rastreamento de raios do GPU diferente: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forçar o uso do Optix na Turing da Nvidia ou GPUs mais novas</li> <li data-preserve-html="true"><code>—force-dxr</code> : forçar o uso de DXR em GPUs Nvidia Pascal</li> </ul> |
 
 ## Biblioteca
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Revise as notas de versão do Substance 3D Designer versão 14.0 para saber mais sobre novos nós, navegação gráfica e melhorias de desempenho.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versão 14.0
 
-O <b>Substance 3D Designer 14.0 </b>traz várias melhorias na qualidade de vida (navegação em gráficos, desempenho, etc.) mas, acima de tudo, inclui muitos novos nós (manipulação de cores, filtro Kuwahara, ferramentas de histograma, suavizações de chanfro, distâncias direcionais, ...). Veja abaixo para obter mais detalhes sobre todas essas alterações. 
+O <b>Substance 3D Designer 14.0 </b>traz várias melhorias na qualidade de vida (navegação em gráficos, desempenho, etc.) mas, acima de tudo, inclui muitos novos nós (manipulação de cores, filtro Kuwahara, ferramentas de histograma, suavizações de chanfro, distâncias direcionais, ...). Veja abaixo para obter mais detalhes sobre todas essas alterações.
 
 *Data de lançamento: 30 de julho de 2024*
 
@@ -30,7 +30,7 @@ O <b>Substance 3D Designer 14.0 </b>traz várias melhorias na qualidade de vida 
 
 Esta versão 14.0 traz muito conteúdo novo com os novos nós listados abaixo:
 
-* <b>Nós dedicados à manipulação de cores: </b>um nó <b>(</b>[Quantificar cores](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>a<b> </b>reduzir o número de cores em uma imagem e extrair uma paleta dele, uma família de nós de ferramenta para criar sua própria paleta de cores ([Exibir](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Criar](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modificar](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>paleta de cores) e um para aplicá-la a outra imagem usando um mapa de identificações ([Aplicar paleta de cores](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). Você também encontrará o nó [ID para mascarar tons de cinza](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) para converter seu mapa de ID (calculado pela cor Quantizar) em uma máscara de tons de cinza. Com esse conjunto completo de nós, você tem tudo para criar efeitos de estilização usando cores.
+* <b>Nós dedicados à manipulação de cores: </b>um nó <b>(</b>[Quantificar cores](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>a<b> </b>reduza o número de cores em uma imagem e extraia uma paleta dela, uma família de nós de ferramenta para criar sua própria paleta de cores ([Exibir](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Criar](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modificar](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>paleta de cores) e uma para aplicá-la a outra imagem usando um mapa de ID ([Aplicar paleta de cores](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). Você também encontrará o nó [ID para mascarar tons de cinza](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) para converter seu mapa de ID (calculado pela cor Quantizar) em uma máscara de tons de cinza. Com esse conjunto completo de nós, você tem tudo para criar efeitos de estilização usando cores.
 
 ![](../../assets/GIF2_2.gif){zoomable="yes"}
 
@@ -38,7 +38,7 @@ Esta versão 14.0 traz muito conteúdo novo com os novos nós listados abaixo:
 
 * <b>Filtro de Kuwahara</b>: se você quiser ir ainda mais longe com a estilização, poderá gerar alguns efeitos de pintura graças aos filtros de [Cor de Kuwahara anisotrópica](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [tons de cinza](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). Em detalhes, ele aplica um desfoque direcional anisotrópico que se adapta aos detalhes da imagem. O resultado é uma imagem que parece fluir na direção das formas dentro.
 
-Estes nós (Quantize a cor e Kuwahara anisotrópico) estão explicados neste [tutorial](https://www.adobe.com/go/designer-tutorial-quantize_br). Ele mostra como usá-los para estilizar materiais, bem como manipular cores de forma mais eficiente e intuitiva!
+Estes nós (Quantize a cor e Kuwahara anisotrópico) estão explicados neste [tutorial](https://www.adobe.com/go/designer-tutorial-quantize). Ele mostra como usá-los para estilizar materiais, bem como manipular cores de forma mais eficiente e intuitiva!
 
 Outros nós poderosos unem-se ao partido:
 
@@ -198,7 +198,7 @@ Observe que essas atualizações têm duas consequências principais:
 * [Content] Preterir nó &#39;Negate Float1&#39; no gráfico de função Substance
 * [Content] Renomeie “Quantize cor” para “Quantize cor (simples)”
 * [Exibição 2D] Exibe valores no painel Informações para pixels fora do intervalo 0-1
-* [Mecanismo]&#x200B;[Texto] Novo kerning para algumas fontes
+* [Mecanismo][Texto] Novo kerning para algumas fontes
 * [Graph] Melhorar o tempo de invalidação ao editar subgrafos profundos ao usar a edição no contexto
 * [Vinculador] Não duplicar bitmaps em SBSASM
 * [Parâmetros] Adiciona um novo widget “função” para todos os tipos de parâmetro de entrada

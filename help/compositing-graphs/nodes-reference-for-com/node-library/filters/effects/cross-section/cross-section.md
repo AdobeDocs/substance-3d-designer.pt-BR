@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
 breadcrumb-title: ''
 description: Use o nó Seção cruzada para criar máscaras de seção cruzada com base em mapas de height para efeitos de corte e fatiamento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Seção transversal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -57,10 +57,10 @@ Habilita uma sobreposição que exibe a posição da seção sobre a imagem de e
 Configurações do auxiliar
 
 <b>Escala auxiliar</b> *Flutuante*\
-    O tamanho da sobreposição expresso como um múltiplo, onde 1.0 é a imagem inteira.
+O tamanho da sobreposição expresso como um múltiplo, onde 1.0 é a imagem inteira.
 
 <b> Posição do auxiliar</b> *Flutuante2*\
-    A posição (X, Y) da sobreposição na imagem de saída, onde (0,0, 0,0) é a parte superior esquerda e (1,0, 1,0) é a parte inferior direita.
+A posição (X, Y) da sobreposição na imagem de saída, onde (0,0, 0,0) é a parte superior esquerda e (1,0, 1,0) é a parte inferior direita.
 
 <b>Escala de Height</b> *Flutuante*
 
@@ -72,7 +72,7 @@ Move o gráfico inteiro para cima ou para baixo. Útil para exibição HDR.
 <b>Estilo de desenho</b> *Inteiro*\
 Alternar entre preenchimento sólido e desenho de linha.
 
-<b>Inverter gradiente</b> *Booleano* Se o estilo de desenho estiver definido como *Gradiente* ou *Gradiente espelhado*, você poderá inverter esse gradiente sem afetar o fundo.\
+<b>Inverter gradiente</b> *Booleano* Se o Estilo de desenho estiver definido como *Gradiente* ou *Gradiente espelhado*, você poderá inverter esse gradiente sem afetar o fundo.\
 *Observação:* disponível somente quando o &#39;Estilo de desenho&#39; está definido como &#39;Gradiente&#39; ou &#39;Gradiente espelhado&#39;.
 
 <b>Suave/Poligonal</b> *Booleano*\
@@ -87,7 +87,7 @@ Define a quantidade de segmentos usados para desenhar no Estilo poligonal ou no 
 Define o thickness da linha.\
 *Observação:* disponível somente quando &#39;Estilo de desenho&#39; está definido como &#39;Linha.
 
-<b>Estilo da linha</b> *Inteiro*\
+<b>Estilo de linha</b> *Inteiro*\
 Permite escolher a coloração e o declínio da linha.\
 *Observação:* disponível somente quando &#39;Estilo de desenho&#39; está definido como &#39;Linha.
 
@@ -99,7 +99,7 @@ Define a queda de gradiente da linha.\
 Cor em tons de cinza da linha ou forma.\
 *Observação:* disponível somente quando &#39;Estilo de desenho&#39; está definido como &#39;Sólido&#39; ou &#39;Linha&#39; e &#39;Estilo de linha&#39; está definido como &#39;Suave&#39; ou &#39;Sólido&#39;.
 
-<b>Cor do plano de fundo</b> *Flutuante* Cor em tons de cinza do plano de fundo.\
+<b>Cor do plano de fundo</b> *Flutuação* da cor de tons de cinza do plano de fundo.\
 *Observação:* não disponível quando &#39;Estilo de desenho&#39; está definido como &#39;Linha&#39; e &#39;Estilo de linha&#39; está definido como &#39;ID de segmento&#39; ou &#39;Gradiente ao longo da linha&#39;.
 
 ## Exemplos

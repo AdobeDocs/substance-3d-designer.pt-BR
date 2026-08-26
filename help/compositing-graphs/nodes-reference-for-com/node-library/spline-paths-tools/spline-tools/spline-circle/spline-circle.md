@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
 breadcrumb-title: ''
 description: Use o nó Círculo de spline para criar splines circulares para gerar padrões e formas redondos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Círculo com Spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -47,9 +47,9 @@ Gera uma única spline na forma de um círculo.
 <b> R</b> - Posição X\
 <b> G</b> - posição Y\
 <b> B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<b>A</b> - Dados empacotados:\
+* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+* Valor absoluto: Thickness + 1.
 
 <b>Dados de Spline</b> *Cor* Dados adicionais das splines de entrada codificados nos canais RGBA de uma imagem colorida.\
 <b> R</b> - Tangentes X\
@@ -64,18 +64,18 @@ Gera uma única spline na forma de um círculo.
 <b>Visualizar</b> *Tons de cinza* A visualização das linhas divisórias de saída como uma imagem em tons de cinza.
 
 <b>Cordas de spline</b> *Cor* As coordenadas dos pontos das linhas divisórias de saída codificadas nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<b>R</b> - Posição X\
+<b>G</b> - posição Y\
+<b>B</b> - Height\
+<b>A</b> - Dados empacotados:\
+* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+* Valor absoluto: Thickness + 1.
 
 <b>Dados de Spline</b> *Cor* Dados adicionais das splines de saída codificados nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Não Usado\
-    <b>A</b> - Não Usado
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Não Usado\
+<b>A</b> - Não Usado
 
 <b>Valor da spline</b> *Inteiro* O número de splines de saída.
 

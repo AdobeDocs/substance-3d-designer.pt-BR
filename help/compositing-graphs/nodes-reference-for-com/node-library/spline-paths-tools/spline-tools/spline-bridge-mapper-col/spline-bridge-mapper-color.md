@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
 breadcrumb-title: ''
 description: Use o nó Cor do mapeador da ponte de spline para conectar texturas entre duas splines com o mapeamento de cores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cor do mapeador da ponte de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -55,9 +55,9 @@ Mapeia uma imagem colorida em uma lista de splines de entrada para que a imagem 
 <b> R</b> - Posição X\
 <b> G</b> - posição Y\
 <b> B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<b>A</b> - Dados empacotados:\
+* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+* Valor absoluto: Thickness + 1.
 
 <b>Dados de Spline</b> *Cor* Dados adicionais das splines de entrada codificados nos canais RGBA de uma imagem colorida.\
 <b> R</b> - Tangentes X\

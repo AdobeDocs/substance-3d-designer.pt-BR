@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: Solucionar problemas de visualização 3D no Substance 3D Designer, incluindo problemas de renderização, exibição e desempenho.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemas de visualização 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: d81d92788a4d52b5ae1ed3ac4287f07260894f3c
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Versão 15.1 e superior
 
 Os novos renderizadores 3D foram atualizados na versão 15.1 e exigem drivers de GPU recentes. Atualize os drivers de GPU do sistema para a versão mais recente.
 
-Você pode encontrar drivers aqui: [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us) [AMD](https://www.amd.com/en/support) [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+Você pode encontrar drivers aqui: [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 Versão 15.0 e superior
 
@@ -154,7 +154,7 @@ Depois de trabalhar nos dados enviados para a **saída [do** do Height](../../co
 
 **![(tick)](../../assets/check.svg) Etapas recomendadas**
 
-Verifique se os dados do height estão *convertidos em normais* que estão conectados à saída **Normal** [&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+Verifique se os dados do height estão *convertidos em normais* que estão conectados à saída **Normal** [](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
 Ao usar a técnica de **Deslocamento de mosaico** - consulte “objeto 3D plano” acima - os objetos podem *se deformar* para seguir os dados do height, mas sua superfície *não reagirá de forma diferente à luz* até que seus *normais* também sejam modificados para levar em conta os dados do height.
 
@@ -243,7 +243,7 @@ O Designer falha no momento de iniciar a Visualização 3D ao criar um projeto, 
 
 Primeiro, verifique se o seu sistema atende aos [requisitos de sistema](../../getting-started/system-requirements/system-requirements.md) da Designer.
 
-Em seguida, atualize seus drivers gráficos. Você pode encontrar os drivers mais recentes para sua GPU seguindo estes links: [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+Em seguida, atualize seus drivers gráficos. Você pode encontrar os drivers mais recentes para sua GPU seguindo estes links: [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 Se o seu sistema incluir uma GPU integrada (iGPU) e uma GPU separada (dGPU), certifique-se de *atualizar os drivers para ambos*!
 

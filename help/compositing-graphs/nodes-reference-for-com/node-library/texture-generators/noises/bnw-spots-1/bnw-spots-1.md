@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-1.html"
 breadcrumb-title: ''
 description: Use o nó Manchas 1 para gerar padrões de manchas pretas e brancas para criar variações de textura e máscaras de detalhes.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Manchas Pb 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 2%
+source-wordcount: '293'
+ht-degree: 1%
 
 ---
 
@@ -40,26 +40,6 @@ ht-degree: 2%
 Uma variação dos ruídos grosseiros de <b>manchas pretas e brancas (BnW)</b>.
 
 Veja também: [Manchas P2B](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-2/bnw-spots-2.md), [Manchas P2B3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-3/bnw-spots-3.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Saídas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
 
 </td>
 </tr>

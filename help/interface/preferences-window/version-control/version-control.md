@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Defina as configurações de controle de versão nas preferências do Substance 3D Designer para integração com o Git e outros sistemas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Controle de versão
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -113,8 +113,8 @@ Como todas as ferramentas de controle de versão são diferentes e incluem muito
 1. Várias ações estão disponíveis, dependendo do status do arquivo de pacote no espaço de trabalho:
 
    * <b>Adicionar:</b> Marque os arquivos como &#39;ToAdd&#39;
-   * <b>Enviar:</b> envie os pacotes selecionados. Esta ação exibe uma caixa de diálogo para especificar uma mensagem de alteração (veja abaixo)
-   * <b>Reverter:</b> reverta as modificações. Esta ação exibe uma caixa de diálogo para selecionar os arquivos a serem revertidos (veja abaixo)
+   * <b>Enviar:</b> envie os pacotes selecionados. Esta ação exibe uma caixa de diálogo para especificar uma mensagem de alteração (veja abaixo)
+   * <b>Reverter:</b> reverta as modificações. Esta ação exibe uma caixa de diálogo para selecionar os arquivos a serem revertidos (veja abaixo)
    * <b>Check-out:</b> faça o check-out do arquivo do depósito
    * <b>Obter última versão:</b> recupere a versão mais recente do depósito
    * <b>Status da atualização:</b> Atualize o status do arquivo do pacote

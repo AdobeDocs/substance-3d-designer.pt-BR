@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
 breadcrumb-title: ''
 description: Use o nó Máscara para caminhos para converter texturas de máscara em dados de caminho para geração de caminho de procedimento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mascarar caminhos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -56,7 +56,7 @@ O padrão de entrada que deve ser convertido em uma lista de Caminhos.
 
 <b>Visualizar</b> *Cor* Uma visualização composta sobre a máscara para ajudar a visualizar os efeitos dos parâmetros.
 
-<b>Cores</b> e *Caminhos*\
+<b>Caminhos</b> *Cor*\
 Uma lista de caminhos codificados em uma imagem colorida. cada caminho descreve uma lista de segmentos codificados.\
 O resultado pode ser processado usando outro nó de processamento de Caminhos ou enviado para um nó [Caminhos para Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para processá-lo posteriormente como Splines.
 
@@ -66,13 +66,13 @@ O resultado pode ser processado usando outro nó de processamento de Caminhos ou
 Aplique suavização na máscara de entrada.\
 Útil quando o padrão de entrada tem bordas muito nítidas, o que geralmente causa artefatos.
 
-<b>Valor Limite da Máscara</b> *Flutuante* O valor em tons de cinza da <b>Máscara</b> que será usado para separar o exterior (valores &lt; Valor Limite da Máscara) e o interior (valores > Valor Limite da Máscara) da forma.
+<b>Valor de Limite de Máscara</b> *Flutuante* O valor em tons de cinza da <b>Máscara</b> que será usado para separar o exterior (valores &lt; Valor Limite da Máscara) e o interior (valores > Valor Limite da Máscara) da forma.
 
-<b>Caminho Decimal</b> *Flutuante* controla implicitamente a quantidade de segmentos que será gerada.\
+<b>Decimar Caminho</b> *Flutuante* controla implicitamente a quantidade de segmentos que será gerada.\
 Uma alta quantidade de decimação tornará as formas arredondadas um pouco poligonais, enquanto nenhuma decimação irá gerar quase um segmento por pixel.\
 Um valor razoável corresponderá melhor à forma de linhas retas e curvas sem criar muitos pontos intermediários para linhas retas.
 
-<b>Fechar caminhos abertos</b> *Booleano* Cria um segmento entre os vértices inicial e final de caminhos abertos.\
+<b>Fechar caminhos abertos</b> *Booleano* Crie um segmento entre os vértices inicial e final de caminhos abertos.\
 Desativar essa opção poderá corrigir linhas indesejáveis que atravessam o seu padrão de uma forma inesperada, contudo os caminhos poderão deixar de ser fechados.
 
 <b>Limite de Cantos</b> *Flutuante*\
@@ -113,7 +113,7 @@ Isso tem um impacto significativo ao converter os <b>Caminhos para Splines</b> g
 *- Por tamanho de Caixa - Do menor ao maior:* Os caminhos são ordenados de acordo com o tamanho de sua Caixa, do menor ao maior\
 *- Função de ordenação personalizada:* Use uma função personalizada para ordenar os Caminhos
 
-<b>Direção da ordem</b> *Flutuante* O ângulo que descreve a direção usada para ordenar os Caminhos do primeiro para o último ao longo dessa direção.\
+<b>Direção da ordem</b> *Flutuar* O ângulo que descreve a direção usada para ordenar os Caminhos do primeiro para o último ao longo dessa direção.\
 O valor é um *número de voltas* usado para girar um vetor de direção à esquerda. Isso significa que 0 define um vetor de direção de (-1, 0) e 0,25 (90 graus) define um vetor de direção de (0, 1).
 
 <b>Ordenando função</b> *Flutuante* A função usada para ordenar os Caminhos. Retorna um valor Float.\

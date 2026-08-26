@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 13.0 para saber mais sobre novos nós, Substance Engine 9.0 e nós do portal.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -88,7 +88,7 @@ Em alguns casos, será necessário tratar várias splines como uma entidade úni
 
 #### Modificar
 
-Também fornecemos ferramentas para retrabalhar e ajustar seus splines. Você encontrará um nó para aplicar uma [transformação 2D](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md), como uma rotação, tradução, escala e outro para [distorcer](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b> </b>a forma e dois outros nós para modificar o [thickness](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b> </b>ou o [height](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md) das splines.
+Também fornecemos ferramentas para retrabalhar e ajustar seus splines. Você encontrará um nó para aplicar uma [transformação 2D](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md), como uma rotação, translação, escala e outra para [distorcer](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b> </b>a forma e dois outros nós para modificar o [thickness](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b> </b>ou o [height](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md) das splines.
 
 <table>
 <tr style="border: 0;">
@@ -119,7 +119,7 @@ Também fornecemos ferramentas para retrabalhar e ajustar seus splines. Você en
 
 A última categoria é aquela para criar a forma ou o padrão final com base nos splines. A primeira ideia que lhe vem à mente será repetir uma determinada forma ao longo da spline: o nó [Dispersão na spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md) permite fazer isso, com muitos parâmetros para controlar perfeitamente a distribuição (rotação, escala, deslocamento, cores, máscaras etc.).
 
-Graças ao nó [Preenchimento de spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>, você pode criar facilmente um padrão a partir de uma spline fechada. E se você quiser mapear qualquer textura nos splines, com alto grau de controle e precisão, o nó [Mapeador de spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) foi criado para você!
+Graças ao [Preenchimento de spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>nó, você pode criar facilmente um padrão a partir de uma spline fechada. E se você quiser mapear qualquer textura nos splines, com alto grau de controle e precisão, o nó [Mapeador de spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) foi criado para você!
 
 <table>
 <tr style="border: 0;">
@@ -150,7 +150,7 @@ Graças ao nó [Preenchimento de spline](../../compositing-graphs/nodes-referenc
 
 O nó [Máscara para caminhos](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) permite extrair a borda de um padrão em tons de cinza, na forma de uma lista de segmentos.
 
-Em seguida, você pode processar esses caminhos com os nós [Transformação de caminho 2D](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) ou [Distorção de caminhos](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) para ajustar de acordo com suas necessidades.  Graças ao nó [Caminhos para spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md), você pode converter seu Caminho em um Spline e, portanto, aproveitar todos os nós dedicados a splines mencionados anteriormente, como dispersão.
+Em seguida, você pode processar esses caminhos com os nós [Transformação de caminho 2D](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) ou [Distorção de caminhos](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) para ajustar de acordo com suas necessidades.  Graças ao nó [Caminhos para spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md), você pode converter seu Caminho em um Spline e, portanto, aproveitar todos os nós dedicados a splines mencionados anteriormente, como dispersão.
 
 <table>
 <tr style="border: 0;">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
 breadcrumb-title: ''
 description: Use o nó Atlas splitter para dividir atlas de textura em texturas individuais para processar materiais digitalizados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas splitter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -45,7 +45,7 @@ O nó funciona como um aplicativo avançado do nó [Flood Fill](../../../../../.
 
 ## Parâmetros
 
-<b>Exibição de grade</b> *Booleana*\
+<b>Exibição de grade</b> *Booleano*\
 Exibe todas as formas detectadas em uma grade.
 
 <b>Opacidade da grade</b> *Flutuante*\
@@ -72,7 +72,7 @@ Gira automaticamente a forma de acordo com a proporção de tamanho da caixa del
 <b>Rotação</b> *Flutuante*\
 Ângulo de rotação da forma global
 
-<b>Formato Normal De Entrada</b> *Inteiro*\
+<b>Formato Normal de Entrada</b> *Inteiro*\
 Define o formato da entrada normal. Definir o formato errado levará a um resultado incorreto.
 
 <b>Reduzir Máscara De Opacidade</b> *Inteiro*\
@@ -84,27 +84,27 @@ Aplica um efeito de dilatação com base na máscara de Opacidade em todos os ca
 <b>Habilitar Entradas Adicionais</b> *Booleano*\
 Disponibiliza as entradas e configurações do Usuário 1 e do Usuário 2 para todos os mapas adicionais não cobertos.
 
-<b>Cor de fundo personalizada</b> *Booleana*\
+<b>Cor de fundo personalizada</b> *Booleano*\
 Permite escolher uma cor de fundo personalizada, em vez de uma dilatação do conteúdo da camada.
 
-<b>Cor Do Blog De Cor Base</b> *Flutuante3*\
+<b>Cor De Base Do Blog</b> *Flutuante3*\
 Cor de fundo personalizada para a cor de base.
 
 <b>Cor De Erro Normal</b> *Flutuante3*\
 Cor de fundo personalizada para o mapa normal.
 
-<b>Cor Metálica Do Blog</b> *Flutuante*\
+<b>Cores Metálicas De Fundo</b> *Flutuante*\
 Cor de fundo personalizada para metálico.
 
-<b>Cor De Borrão De Aspereza</b> *Flutuante*\
+<b>Cor De Borrão Da Aspereza</b> *Flutuante*\
 Cor de fundo personalizada para aspereza
 
-<b>Cor do Blog de Height</b> *Flutuante*\
+<b>Cor do Blog do Height</b> *Flutuante*\
 Cor de fundo personalizada para o Height
 
-<b>Cor De Fundo Do Usuário 1</b> *Flutuante*\
+<b>Cor De Bg Do Usuário 1</b> *Flutuante*\
 Cor de fundo personalizada para o mapa personalizado do usuário 1
 
-<b>Cor de fundo do usuário 2</b> *Flutuante* Cor de fundo personalizada para o mapa personalizado do usuário 1
+<b>Cor De Bg Do Usuário 2</b> *Flutuar* Cor de fundo personalizada para o mapa personalizado de Usuário 1
 
 ## Exemplos

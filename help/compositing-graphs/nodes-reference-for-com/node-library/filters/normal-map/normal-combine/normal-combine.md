@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
 breadcrumb-title: ''
 description: Use o nó Combinação normal para combinar vários mapas normais para detalhes e detalhes da superfície da camada.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Combinação normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 2%
@@ -47,7 +47,7 @@ Se você quiser mesclar dois mapas normais sem combinar seus detalhes (usando um
 
 ## Conectores de entrada
 
-<b>Normal 2</b> *Cor* Descrição
+<b>Normal</b> *Cor* Descrição
 
 <b>Normal</b> *Cor* Descrição
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-to-spline.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-to-spline.html"
 breadcrumb-title: ''
 description: Use o nó Caminhos para spline para converter dados de caminho em splines para uso com nós baseados em spline.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Caminhos para a spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -49,18 +49,18 @@ Converte um caminho em splines que podem ser visualizadas usando um nó de [Rend
 
 ## Conectores de entrada
 
-<b>Cores</b> e *Caminhos*\
+<b>Caminhos</b> *Cor*\
 Uma lista de caminhos de segmentos codificados. Conecte esta entrada ao resultado de uma [Máscara para Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou a outro nó de processamento de Caminho.
 
 ## Conectores de saída
 
 <b>Cores de spline </b>*As coordenadas dos pontos de spline de entrada codificadas nos canais RGBA de uma imagem colorida:*\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<b>R</b> - Posição X\
+<b>G</b> - posição Y\
+<b>B</b> - Height\
+<b>A</b> - Dados empacotados:\
+* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+* Valor absoluto: Thickness + 1.
 
 <b>Dados de Spline</b> *Cor*\
 Dados adicionais das linhas de entrada codificadas nos canais RGBA de uma imagem <b>colorida</b>:\

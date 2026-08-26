@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ''
 description: Use o nó Bitmap para importar e usar imagens bitmap como texturas em gráficos de composição de Substance.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '463'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Carrega um [recurso de bitmap](../../../../resources/bitmap-resource/bitmap-reso
 
 Este nó é usado para importar um [bitmap](../../../../glossary/glossary.md) para o seu gráfico ou para criar um novo bitmap a ser usado com as [ferramentas de pintura de bitmap](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-Existem algumas maneiras de criar este nó, e todas elas exigem que você entenda[&#x200B; a diferença entre os recursos de vinculação e importação.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+Existem algumas maneiras de criar este nó, e todas elas exigem que você entenda[a diferença entre os recursos de vinculação e importação.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Você pode criar o nó do zero ou soltando um [bitmap](../../../../glossary/glos
 |  |  |
 | --- | --- |
 | <b>Modo de cores</b> *Booleano* | Determina o tipo de saída do nó, para retornar em cor ou em escala de cinza. |
-| <b>Caminho do recurso PKG</b> *Cadeia de Caracteres* | Caminho para o [recurso de bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) que está sendo referenciado pelo nó.   É recomendável não digitar manualmente, mas copiar um recurso do explorador e colá-lo no campo de texto de parâmetro ou arrastar e soltar um recurso de bitmap diretamente do [Explorador](../../../../interface/the-explorer-window/the-explorer-window.md) no nó Bitmap do gráfico. |
+| <b>Caminho do recurso PKG</b> *Cadeia de Caracteres* | Caminho para o [recurso de bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) que está sendo referenciado pelo nó.   É recomendável não digitar manualmente, mas copiar um recurso do explorador e colá-lo no campo de texto de parâmetro ou arrastar e soltar um recurso de bitmap diretamente do [Explorador](../../../../interface/the-explorer-window/the-explorer-window.md) no nó Bitmap do gráfico. |
 | <b>Redimensionar método</b> *Inteiro* | O método de reamostragem a ser usado ao aumentar ou diminuir a escala de um bitmap:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Alongar suavemente:</i> aplique a [filtragem bilinear](../../../../glossary/glossary.md) para interpolar sobre os pixels de origem da imagem ampliada.</li> <li data-preserve-html="true"><i>Esticar mais próximo:</i> estica a imagem e usa a cor do pixel de origem mais próximo como está.</li> </ul> |
 
 ## Ferramentas de pintura de bitmap

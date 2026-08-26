@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: Revise as notas de versão do Substance 3D Designer versão 14.1 para saber mais sobre as ferramentas de organização de nós e os novos nós Spline e Caminho.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -146,7 +146,7 @@ A ferramenta [localizador de nós](../../interface/the-graph-view/node-finder/no
 * [Gráfico de funções] Valores longos aparecem sobrepostos em nós &#39;Float&#39;
 * [Fx-Map] Falha ao exibir as propriedades do nó Quadrante
 * [Graph] [UDIM] Ter uma barra de rolagem na lista UDIM resulta em entradas 1..1 1..2
-* [Graph]&#x200B;[Atalhos] O nó criado usando um atalho não é colocado em um link existente após a duplicação do nó
+* [Graph][Atalhos] O nó criado usando um atalho não é colocado em um link existente após a duplicação do nó
 * [Propriedades] Exibição incorreta de parâmetro quando o valor é inválido
 * [Publish] As dependências recíprocas resultam em um loop infinito ao publicar um pacote
 * [Publish] Falha silenciosa ao usar a ação &#39;Publish&#39; no pacote com dependência descarregada

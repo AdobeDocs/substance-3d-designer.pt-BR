@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Tenha uma visão geral do Substance 3D Designer e saiba mais sobre seus recursos para criar materiais e texturas de procedimentos.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Visão geral
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: e42fdff3a7e8fca5a6d482bee42bb9f32d019c56
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -46,11 +46,11 @@ O Substance 3D Designer é um editor baseado em nó que permite criar conteúdo 
 
 <b>[Não linear](../../compositing-graphs/substance-compositing-graphs.md) </b>: você pode criar várias saídas de textura de uma só vez. Edite uma máscara ou um controle deslizante e, automaticamente, qualquer saída conectada será recalculada. Não é mais necessário criar mapas separadamente, como Basecolor, Aspereza, Normal etc.
 
-<b> [Não destrutivo](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: você pode reverter qualquer ação *sem* perder seu trabalho. Torna-se muito mais rápido iterar e experimentar, encontrando fluxos de trabalho ainda mais eficientes.
+<b>[Não destrutivo](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: você pode reverter qualquer ação *sem* perder seu trabalho. Torna-se muito mais rápido iterar e experimentar, encontrando fluxos de trabalho ainda mais eficientes.
 
-<b> [Preparação integrada](../../bakers/bakers.md) </b>: acesse ferramentas avançadas de malha de alta velocidade diretamente no software. Você não precisa mais executar cozimento em um software separado e executar processos demorados de importação e exportação.
+<b>[Preparação integrada](../../bakers/bakers.md) </b>: acesse ferramentas avançadas de malha de alta velocidade diretamente no software. Você não precisa mais executar cozimento em um software separado e executar processos demorados de importação e exportação.
 
-<b> [Parametric](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: você pode configurar para controlar quase qualquer aspecto de uma textura por meio de um único controle deslizante ou lista suspensa. Isso permite adicionar controle e variação infinitos a apenas um ativo.
+<b>[Paramétrico](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: você pode configurar para controlar quase qualquer aspecto de uma textura por meio de um único controle deslizante ou lista suspensa. Isso permite adicionar controle e variação infinitos a apenas um ativo.
 
 ## Tipos de arquivo
 
@@ -77,7 +77,7 @@ Os Arquivos Substance são os **principais arquivos de origem** do Designer. Ao 
 
 *(\*.SBSAR)*
 
-Os arquivos de Substance são <b> arquivos de Substance compilados, otimizados </b>. Eles são muito mais rápidos de calcular e podem ser compartilhados facilmente sem problemas de referência. Os parâmetros ainda podem ser ajustados, mas a edição do gráfico está <b>bloqueada</b>. Os arquivos de Substance podem ser usados em todos os aplicativos da Substance 3D e em qualquer aplicativo que tenha a [integração do Substance 3D](https://experienceleague.adobe.com/pt-br/docs/substance-3d/ecosystem/home) (alguns com um plug-in externo), como o Autodesk 3DS Max &amp; Maya, o Unreal Engine ou o Unity Engine.
+Os arquivos de Substance são <b> arquivos de Substance compilados, otimizados </b>. Eles são muito mais rápidos de calcular e podem ser compartilhados facilmente sem problemas de referência. Os parâmetros ainda podem ser ajustados, mas a edição do gráfico está <b>bloqueada</b>. Os arquivos de Substance podem ser usados em todos os aplicativos da Substance 3D e em qualquer aplicativo que tenha a [integração do Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (alguns com um plug-in externo), como o Autodesk 3DS Max &amp; Maya, o Unreal Engine ou o Unity Engine.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -155,9 +155,9 @@ Existem os seguintes tipos de recursos:
 
 * [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md)
 * [Gráficos vetoriais (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [Malha 3D e cena](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [Fonte](../../resources/font-resource/font-resource.md)
-* [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [Cenas 3D](../../resources/3d-scene-resource/3d-scene-resource.md)
+* [Fontes](../../resources/font-resource/font-resource.md)
+* [Arquivos AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>

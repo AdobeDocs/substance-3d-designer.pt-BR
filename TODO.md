@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 # A FAZER
@@ -18,12 +18,21 @@ ht-degree: 2%
 * Exemplos na página “Pop-up de documentação”
 * Glossário:
   * HDR
+  * Metalidade / Metálico
+  * HDR
+  * Especular
+  * mapa de heights
+  * Opacidade
+  * Frustum
+  * Espaço tangente
+  * Semente/Distribuição aleatória
+  * FX-Map
+  * Processador de pixels
+  * Predefinição
 
 ## Correções
 
-* Links quebrados em [Visão geral](help/getting-started/overview/overview.md)
 * Links e formatação quebrados no [nó de saída](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-* Links do HelpX
 * Remover ToC na página (por exemplo, novos ruídos)
 * Corrigir layouts de página do nó (por exemplo, novos ruídos)
 * Corrigir link para a primeira imagem de exemplo nas páginas do nó (por exemplo, novos ruídos)

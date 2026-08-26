@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara.html"
 breadcrumb-title: ''
 description: Use o filtro Cor Anisotrópica de Kuwahara para criar efeitos de cor estilizados e artísticos com suavização direcional.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cor Kuwahara anisotrópica
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
@@ -91,32 +91,32 @@ Esquerda: Anisotropia 0.0 / Direita: Anisotropia 1.0
 |  |  |
 | --- | --- |
 | <b>Entrada</b> *Cor* Primária | A imagem colorida que deve ser processada. |
-| <b>Mapa de ângulo de Anisotropia</b> *Tons de cinza* | A imagem em tons de cinza que descreve a rotação adicional aplicada à direção calculada, em que o valor da escala de cinza é um número de voltas.   O mapa ainda tem um efeito quando o parâmetro &#39;Anisotropia&#39; é definido como 0, uma vez que afeta a rotação do núcleo usado pelo filtro Kuwahara. |
+| <b>Mapa de ângulo de Anisotropia</b> *Tons de cinza* | A imagem em tons de cinza que descreve a rotação adicional aplicada à direção calculada, em que o valor da escala de cinza é um número de voltas.   O mapa ainda tem um efeito quando o parâmetro &#39;Anisotropia&#39; é definido como 0, uma vez que afeta a rotação do núcleo usado pelo filtro Kuwahara. |
 | <b>Inclinação mapa</b> *Tons de cinza* | O mapa que representa as inclinações às quais o mapa de orientação tem conformidade, de acordo com o valor do parâmetro &#39;Inclinação Map Input Multiplier&#39;. |
 | <b>Mapa de raio (opcional)</b> *Tons de cinza* | Quando conectado, o &#39;Raio&#39; de desfoque é multiplicado em relação à imagem de entrada. |
-| <b>Mapa de orientação</b> *Cor* | O mapa que descreve a direção usada pelo núcleo do filtro anisotrópico.   O mapa ainda tem um efeito quando o parâmetro &#39;Anisotropia&#39; é definido como 0, uma vez que afeta a rotação do núcleo usado pelo filtro Kuwahara.   Observação: esta entrada é usada somente quando o parâmetro &#39;Usar Mapa de orientação de Entrada&#39; está definido como &#39;True&#39;. |
+| <b>Mapa de orientação</b> *Cor* | O mapa que descreve a direção usada pelo núcleo do filtro anisotrópico.   O mapa ainda tem um efeito quando o parâmetro &#39;Anisotropia&#39; é definido como 0, uma vez que afeta a rotação do núcleo usado pelo filtro Kuwahara.   Observação: esta entrada é usada somente quando o parâmetro &#39;Usar Mapa de orientação de Entrada&#39; está definido como &#39;True&#39;. |
 
 ## Conectores de saída
 
 |  |  |
 | --- | --- |
 | <b>Saída</b> *Cor* | O resultado do desfoque anisotrópico aplicado pelo nó na imagem de entrada. |
-| <b>Mapa de orientação</b> *Cor* | O mapa de orientação calculado a partir da imagem de entrada e usado para orientar o desfoque anisotrópico.   Se o parâmetro &#39;Usar Mapa de orientação de Entrada&#39; for definido como &#39;Verdadeiro&#39;, a imagem fornecida para a entrada &#39;Mapa de orientação&#39; será usada e a saída será exibida como está. |
+| <b>Mapa de orientação</b> *Cor* | O mapa de orientação calculado a partir da imagem de entrada e usado para orientar o desfoque anisotrópico.   Se o parâmetro &#39;Usar Mapa de orientação de Entrada&#39; for definido como &#39;Verdadeiro&#39;, a imagem fornecida para a entrada &#39;Mapa de orientação&#39; será usada e a saída será exibida como está. |
 
 ## Parâmetros
 
 |  |  |
 | --- | --- |
-| <b>Raio</b> *Flutuante* | O raio de desfoque, em que um valor mais alto resulta em um efeito de desfoque mais intenso.   O valor máximo é 32. |
-| <b>Smoothness</b> *Flutuante* | Ajusta a quantidade de mesclagem de cores na direção calculada.   Quando esse valor é 0, as cores são deslocadas principalmente nessa direção e ocorre pouca mesclagem. |
+| <b>Raio</b> *Flutuante* | O raio de desfoque, em que um valor mais alto resulta em um efeito de desfoque mais intenso.   O valor máximo é 32. |
+| <b>Smoothness</b> *Flutuante* | Ajusta a quantidade de mesclagem de cores na direção calculada.   Quando esse valor é 0, as cores são deslocadas principalmente nessa direção e ocorre pouca mesclagem. |
 | <b>Nitidez</b> *Flutuante* | Aumenta o contraste nas áreas desfocadas, fazendo com que pareçam mais planas e definidas com mais clareza. |
-| <b>Anisotropia</b> *Flutuante* | Ajusta a contribuição do mapa de orientação no desfoque.   O mapa de orientação e todos os seus modificadores (tanto os parâmetros como os mapas de entrada) ainda têm efeito quando este valor de parâmetro é 0, já que o mapa de orientação é usado no kernel do filtro Kuwahara. |
+| <b>Anisotropia</b> *Flutuante* | Ajusta a contribuição do mapa de orientação no desfoque.   O mapa de orientação e todos os seus modificadores (tanto os parâmetros como os mapas de entrada) ainda têm efeito quando este valor de parâmetro é 0, já que o mapa de orientação é usado no kernel do filtro Kuwahara. |
 | <b>Usar mapa de orientação de entrada</b> *Booleano* | Quando &#39;Verdadeiro&#39;, nenhum mapa de orientação é calculado a partir da imagem de entrada, e a imagem conectada à entrada &#39;Mapa de orientação&#39; é usada para orientar o desfoque anisotrópico. |
-| <b>smoothness de sensor</b> *Flutuante* *Disponível quando &#39;Usar mapa de orientação de entrada&#39; estiver definido como &#39;Falso&#39;* | Ajusta a intensidade do desfoque aplicada às direções computadas a partir da imagem e armazenadas na mapa de orientação.   Aumentar esse valor garante um resultado mais suave quando a imagem tem muitos detalhes de alta frequência. |
-| <b>Ângulo de Anisotropia</b> *Flutuante* *Disponível quando &#39;Usar mapa de orientação de entrada&#39; estiver definido como &#39;Falso&#39;* | Adiciona uma rotação ao mapa de orientação, em número de rotações.   Esta rotação adicional é *cumulativa* com a especificada pela entrada &#39;Mapa de Ângulo de Anisotropia&#39;. |
-| <b>Multiplicador de mapa de ângulo de Anisotropia</b> *Flutuante* *Disponível quando &#39;Usar mapa de orientação de entrada&#39; estiver definido como &#39;Falso&#39;* | Ajusta a intensidade dos valores na entrada “Mapa de ângulo de Anisotropia”, que são então adicionados sobre a rotação aplicada ao mapa de orientação, em número de voltas.   Esta rotação adicional é *cumulativa* com a especificada pelo parâmetro &#39;Ângulo de Anisotropia&#39;. |
+| <b>smoothness de sensor</b> *Flutuante* *Disponível quando &#39;Usar mapa de orientação de entrada&#39; estiver definido como &#39;Falso&#39;* | Ajusta a intensidade do desfoque aplicada às direções computadas a partir da imagem e armazenadas na mapa de orientação.   Aumentar esse valor garante um resultado mais suave quando a imagem tem muitos detalhes de alta frequência. |
+| <b>Ângulo de Anisotropia</b> *Flutuante* *Disponível quando &#39;Usar mapa de orientação de entrada&#39; estiver definido como &#39;Falso&#39;* | Adiciona uma rotação ao mapa de orientação, em número de rotações.   Esta rotação adicional é *cumulativa* com a especificada pela entrada &#39;Mapa de Ângulo de Anisotropia&#39;. |
+| <b>Multiplicador de mapa de ângulo de Anisotropia</b> *Flutuante* *Disponível quando &#39;Usar mapa de orientação de entrada&#39; estiver definido como &#39;Falso&#39;* | Ajusta a intensidade dos valores na entrada “Mapa de ângulo de Anisotropia”, que são então adicionados sobre a rotação aplicada ao mapa de orientação, em número de voltas.   Esta rotação adicional é *cumulativa* com a especificada pelo parâmetro &#39;Ângulo de Anisotropia&#39;. |
 | <b>Multiplicador de entrada do mapa de Inclinação</b> *Flutuante* *Disponível quando &#39;Usar mapa de orientação de entrada&#39; estiver definido como &#39;Falso&#39;* | Ajusta a intensidade com que o mapa de orientação está de acordo com as inclinações fornecidas pela entrada &#39;Mapa de Inclinação&#39;. |
-| <b>Ignorar alfa</b> *Booleano* | Quando &#39;Verdadeiro&#39;, o canal alfa da imagem não é afetado pelo filtro.   Quando &#39;Falso&#39;, o filtro também é aplicado ao canal alfa. |
+| <b>Ignorar alfa</b> *Booleano* | Quando &#39;Verdadeiro&#39;, o canal alfa da imagem não é afetado pelo filtro.   Quando &#39;Falso&#39;, o filtro também é aplicado ao canal alfa. |
 
 ## Exemplos
 

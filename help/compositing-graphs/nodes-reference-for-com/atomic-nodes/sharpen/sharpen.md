@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ''
 description: Use o nó Nitidez para aprimorar os detalhes e as bordas da textura e criar detalhes nítidos e definidos da superfície.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nitidez
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -43,7 +43,7 @@ O Nó de nitidez executa uma operação de nitidez em uma entrada. É um nó út
 
 ## Entradas
 
-<b>Entrada</b> *Cores/Tons de Cinza* (Primária)\
+<b>Entrada</b> *Cores/Tons de Cinza* (Primário)\
 A imagem que deve ter a nitidez ajustada.
 
 ## Parâmetros

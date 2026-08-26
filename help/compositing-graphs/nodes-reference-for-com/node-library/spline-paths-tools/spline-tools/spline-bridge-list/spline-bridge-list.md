@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
 breadcrumb-title: ''
 description: Use o nó Lista de pontes de spline para fazer a ponte de texturas entre várias splines em uma lista para padrões complexos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ponte de spline (lista)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -55,9 +55,9 @@ As splines geradas podem ser lineares (retas) ou quadráticas (curvas).
 <b> R</b> - Posição X\
 <b> G</b> - posição Y\
 <b> B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<b>A</b> - Dados empacotados:\
+* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+* Valor absoluto: Thickness + 1.
 
 <b>Dados de Spline</b> *Cor* Dados adicionais das splines de entrada codificados nos canais RGBA de uma imagem colorida.\
 <b> R</b> - Tangentes X\
@@ -72,18 +72,18 @@ As splines geradas podem ser lineares (retas) ou quadráticas (curvas).
 <b>Visualizar</b> *Tons de cinza* A visualização das linhas divisórias de saída como uma imagem em tons de cinza.
 
 <b>Cordas de spline</b> *Cor* As coordenadas dos pontos das linhas divisórias de saída codificadas nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<b>R</b> - Posição X\
+<b>G</b> - posição Y\
+<b>B</b> - Height\
+<b>A</b> - Dados empacotados:\
+* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+* Valor absoluto: Thickness + 1.
 
 <b>Dados de Spline</b> *Cor* Dados adicionais das splines de saída codificados nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Não Usado\
-    <b>A</b> - Não Usado
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Não Usado\
+<b>A</b> - Não Usado
 
 <b>Valor da spline</b> *Inteiro* O número de splines de saída.
 
@@ -115,9 +115,9 @@ Os splines gerados que atendem ao início ou ao fim dos splines atravessados sã
 
 <b>Iniciar Deslocamento Aleatório</b> *Flutuante* Um multiplicador para o deslocamento aleatório aplicado na posição inicial das linhas de ponte, onde a distância máxima é especificada pelo parâmetro <b>Intervalo de deslocamento aleatório</b>.
 
-<b>Deslocamento Aleatório Final</b> *Flutuante* Um multiplicador para o deslocamento aleatório aplicado na posição final das linhas de ponte, onde a distância máxima é especificada pelo parâmetro <b>Intervalo de deslocamento aleatório</b>.
+<b>Encerrar Deslocamento Aleatório</b> *Flutuante* Um multiplicador para o deslocamento aleatório aplicado na posição final das linhas de ponte, onde a distância máxima é especificada pelo parâmetro <b>Intervalo de deslocamento aleatório</b>.
 
-<b>Deslocamento Aleatório Global</b> *Flutuante* Um multiplicador para o *valor igual* de deslocamento aleatório aplicado *tanto* quanto a posição inicial e final das linhas de ponte, onde a distância máxima é especificada pelo parâmetro <b>Intervalo de deslocamento aleatório</b>.
+<b>Deslocamento Aleatório Global</b> *Flutuante* Um multiplicador para o *valor igual* de deslocamento aleatório aplicado *ambos* as posições inicial e final das linhas de ponte, onde a distância máxima é especificada pelo parâmetro <b>Intervalo de deslocamento aleatório</b>.
 
 <b>Distribuição Uniforme</b> *Booleano* Quando Verdadeiro, os pontos das splines geradas são espaçados uniformemente do início ao fim.
 
@@ -128,20 +128,20 @@ Os splines gerados que atendem ao início ou ao fim dos splines atravessados sã
 
 <b>Thickness</b> *Flutuante* O valor de thickness absoluto aplicado às linhas de ponte.
 
-<b>Thickness Aleatório</b> *Flutuante* Um multiplicador aleatório para o thickness das linhas de ponte, no qual o thickness inicial ao qual esse multiplicador é aplicado é especificado pelo parâmetro <b>modo de Thickness</b>.
+<b>Thickness aleatório</b> *Flutuante* Um multiplicador aleatório para o thickness das linhas de ponte, no qual o thickness inicial ao qual esse multiplicador é aplicado é especificado pelo parâmetro <b>modo de Thickness</b>.
 
 +++
 
 +++Altura
-<b>Modo de Height</b> *Inteiro* O método de aquisição do valor de height para as linhas divisórias de ponte.\
+<b>Modo de Height</b> *Inteiro* O método de aquisição do valor de height para as linhas de ponte.\
 *- Herdar de splines pai:* O height das splines pai nas posições inicial e final das splines de ponte é usado\
 *- Substituir:* O valor arbitrário especificado no parâmetro <b>Height</b> é usado
 
-<b>Deslocamento de Height</b> *Flutuante* O valor de deslocamento aplicado ao height herdado das linhas de base pai, antes que esse height seja aplicado às linhas de base da ponte.
+<b>Deslocamento de Height</b> *Flutuante* A quantidade de deslocamento aplicada ao height herdado das splines pai, antes que esse height seja aplicado às splines de ponte.
 
 <b>Height</b> *Flutuante* O valor de height absoluto aplicado às linhas de ponte.
 
-<b>Height aleatório</b> *Flutuante* Uma quantidade aleatória de ajustes no height das linhas de ponte, em que esse ajuste depende do parâmetro selecionado <b>modo de Height</b>:\
+<b>Height aleatório</b> *Flutuante* Uma quantidade aleatória de ajustes no height das linhas de ponte, em que esse ajuste depende do parâmetro selecionado do <b>modo de Height</b>:\
 *- Herdar de splines pai:* O valor é um multiplicador do height herdado.\
 *- Substituição:* O valor é um deslocamento adicionado ao height.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ''
 description: Use o nó Normal para processar e manipular texturas normais do mapa para controlar detalhes da superfície e iluminação.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 8%
@@ -78,9 +78,9 @@ O nó converte um mapa de entrada em tons de cinza em uma saída de mapa normal 
 
 |  |  |
 | --- | --- |
-| <b>Intensidade</b> *Flutuante* | Modifica a intensidade do mapa de height.   Define a intensidade com que o mapa de height de entrada é interpretado para conversão em normais. Dependendo dos mapas de entrada, valores acima de 100 têm pouco mais efeito. |
-| <b>Formato normal</b> *Booleano* | Inverte as coordenadas Y do mapa de height (OpenGL).   Define como o canal Verde (Y) é codificado. Basicamente, um interruptor “Flip Green/Y”. |
-| <b>conteúdo do canal de Alpha</b> *Booleano* | Preencha o canal alfa do mapa normal com a textura de entrada.   Preencher Alpha com entrada/forçar Alpha para 1: Isso permite que o canal de Alpha seja definido como sólido, em vez de usar a entrada como um Alpha adicional. |
+| <b>Intensidade</b> *Flutuante* | Modifica a intensidade do mapa de height.   Define a intensidade com que o mapa de height de entrada é interpretado para conversão em normais. Dependendo dos mapas de entrada, valores acima de 100 têm pouco mais efeito. |
+| <b>Formato normal</b> *Booleano* | Inverte as coordenadas Y do mapa de height (OpenGL).   Define como o canal Verde (Y) é codificado. Basicamente, um interruptor “Flip Green/Y”. |
+| <b>conteúdo do canal de Alpha</b> *Booleano* | Preencha o canal alfa do mapa normal com a textura de entrada.   Preencher Alpha com entrada/forçar Alpha para 1: Isso permite que o canal de Alpha seja definido como sólido, em vez de usar a entrada como um Alpha adicional. |
 
 ## Conectores de entrada
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Use o Localizador de nós para pesquisar e localizar rapidamente nós em seus gráficos de Substance para uma navegação eficiente.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Localizador de nós
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![Barra de ferramentas do localizador de nós](../../../assets/node-finder-toolbar.png "Barra de ferramentas do localizador de nós"){zoomable="yes"}
 
-A ferramenta Localizador de Nós permite <b>procurar nós e variáveis</b> usando uma consulta de texto. Todos os nós que não corresponderem à consulta ficarão esmaecidos para que os resultados sejam exibidos.
+A ferramenta Localizador de Nós permite <b>procurar nós e variáveis</b> usando uma consulta de texto. Todos os nós que não corresponderem à consulta ficarão esmaecidos para que os resultados sejam exibidos.
 
 A consulta pode corresponder a qualquer um destes critérios:
 
@@ -31,7 +31,7 @@ A consulta pode corresponder a qualquer um destes critérios:
 * <b>UID</b> de um nó (identificador exclusivo)
 * O <b>rótulo</b> de um nó
 
-A pesquisa pode percorrer [instâncias de gráfico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) recursivamente, portanto, nós e variáveis podem ser encontrados em [subgrafos](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Se você não tiver certeza sobre o termo exato que precisa pesquisar, uma opção de pesquisa difusa estará disponível para aplicar uma tolerância à consulta.
+A pesquisa pode percorrer [instâncias de gráfico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) recursivamente, portanto, nós e variáveis podem ser encontrados em [subgrafos](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Se você não tiver certeza sobre o termo exato que precisa pesquisar, uma opção de pesquisa difusa estará disponível para aplicar uma tolerância à consulta.
 
 ## Interface
 

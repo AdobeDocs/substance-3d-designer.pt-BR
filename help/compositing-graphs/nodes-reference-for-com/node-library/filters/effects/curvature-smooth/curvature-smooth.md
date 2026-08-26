@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
 description: Use o nó Suavização da curvatura para gerar mapas de curvatura suaves a partir de mapas de height para a extração de detalhes da superfície.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Suavização de curvatura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -78,9 +78,9 @@ As áreas côncavas e convexas também são divididas em suas próprias saídas,
 
 |  |  |
 | --- | --- |
-| <b>Curvatura</b> *Tons de cinza* | O mapa de curvatura calculado a partir do mapa normal de entrada.   As áreas planas são 50% cinza. As áreas convexas são mais brilhantes, enquanto as áreas côncavas são mais escuras. |
-| <b>Convexidade</b> *Tons de cinza* | O mapa de convexidade calculado a partir do mapa normal de entrada.   Quanto mais convexa for uma área, mais brilhante ela ficará no mapa.  As áreas planas ou côncavas são pretas. |
-| <b>Concavidade</b> *Tons de cinza* | O mapa de concavidade calculado a partir do mapa normal de entrada.   Quanto mais côncava uma área, mais brilhante ela fica no mapa.  As áreas planas ou convexas são pretas. |
+| <b>Curvatura</b> *Tons de cinza* | O mapa de curvatura calculado a partir do mapa normal de entrada.   As áreas planas são 50% cinza. As áreas convexas são mais brilhantes, enquanto as áreas côncavas são mais escuras. |
+| <b>Convexidade</b> *Tons de cinza* | O mapa de convexidade calculado a partir do mapa normal de entrada.   Quanto mais convexa for uma área, mais brilhante ela ficará no mapa.  As áreas planas ou côncavas são pretas. |
+| <b>Concavidade</b> *Tons de cinza* | O mapa de concavidade calculado a partir do mapa normal de entrada.   Quanto mais côncava uma área, mais brilhante ela fica no mapa.  As áreas planas ou convexas são pretas. |
 
 ## Parâmetros
 

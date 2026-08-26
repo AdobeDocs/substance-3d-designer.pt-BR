@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Avisos em gráficos MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Esta página lista mensagens de erros e avisos que podem ser disparados por gráficos MDL no [Substance 3D Designer](https://www.adobe.com/br/products/substance3d-designer.html) e oferece etapas comuns de solução de problemas para cada um.
 
-Os avisos são exibidos na dica de ferramenta do ícone de aviso para o recurso de gráfico no painel [Explorador](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), bem como no canto inferior esquerdo da [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) se o gráfico estiver carregado.
+Os avisos são exibidos na dica de ferramenta do ícone de aviso para o recurso de gráfico no painel [Explorador](../../interface/the-explorer-window/the-explorer-window.md), bem como no canto inferior esquerdo da [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) se o gráfico estiver carregado.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ As informações fornecidas ao nó estão incompletas ou não são válidas, por
 
 Suba no gráfico e verifique se há avisos acionados por problemas que impedem que os nós forneçam uma saída válida.
 
-![&#x200B; solução&#39;Nó não foi computado&#39;](../../assets/warnings-model-no-input-value.gif " solução&#39;Nó não foi computado&#39;")
+![ solução&#39;Nó não foi computado&#39;](../../assets/warnings-model-no-input-value.gif " solução&#39;Nó não foi computado&#39;")
 
 ### ![(erro)](../../assets/error.svg) Os dados referenciados possuem alguns avisos
 
@@ -104,9 +104,9 @@ Caso contrário, exclua o nó da instância e substitua-o por um nó de instânc
 Para nós de recursos de Cena
 
 Localize os recursos referenciados no painel [Explorer](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion) e verifique se eles existem no local salvo no atributo <b>Caminho do Arquivo</b>.\
-Caso contrário, clique em *RMB* no item de recurso no Explorer e selecione a opção <b>Realocar...Opção </b> no menu contextual para definir um novo arquivo de destino válido para esse recurso.
+Caso contrário, clique em *RMB* no item de recurso no Explorer e selecione a opção <b>Realocar...</b> no menu contextual para definir um novo arquivo de destino válido para esse recurso.
 
-![&#x200B; solução&#39;Recurso referenciado não encontrado&#39;](../../assets/warnings-model-referenced-resource.gif " solução&#39;Recurso referenciado não encontrado&#39;")
+![ solução&#39;Recurso referenciado não encontrado&#39;](../../assets/warnings-model-referenced-resource.gif " solução&#39;Recurso referenciado não encontrado&#39;")
 
 ### ![(erro)](../../assets/error.svg) Intervalo flexível não contém o valor
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 12.4 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Versão 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Ao editar o gráfico, às vezes é necessário experimentar várias possibilidad
 
 ### Digite fórmulas nos campos de parâmetros
 
-Não é mais necessário usar uma calculadora ou calcular na cabeça quando você deseja inserir valores de parâmetro específicos. Agora você pode inserir fórmulas básicas diretamente, como adições, divisões, multiplicações ou subtrações, ao definir um valor numérico para um parâmetro nas [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) e em outros locais do aplicativo.
+Não é mais necessário usar uma calculadora ou calcular na cabeça quando você deseja inserir valores de parâmetro específicos. Agora, você pode inserir fórmulas básicas diretamente, como adições, divisões, multiplicações ou subtrações, ao definir um valor numérico para um parâmetro nas Propriedades e em outros locais no aplicativo.
 
 ![](../../assets/final-formula.gif){width="640px"}
 
@@ -111,7 +111,7 @@ Esta versão 12.4 traz também o suporte completo de gráficos de modelos de Sub
 * [3D View] A propriedade de exibição do Wireframe não é salva
 * [Conteúdo] Os parâmetros de Cor de desfoque radial não têm efeito no canal alfa
 * [Localização] Controles deslizantes e botões adicionais são exibidos em Propriedades do OpenGL do ambiente.
-* [MDL]&#x200B;[modelo Substance] Falha ao excluir nós expostos
+* [MDL][modelo Substance] Falha ao excluir nós expostos
 * [Preferências] O arquivo padrão\_config nunca é recriado se excluído
 * [Modelo de Substance] Parâmetro de reordenação de falha que não aparece no nível da instância
 * [API] SDProperty.getDefaultValue() quase sempre retorna None

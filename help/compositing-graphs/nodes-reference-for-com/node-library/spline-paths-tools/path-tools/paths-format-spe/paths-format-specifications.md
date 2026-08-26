@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Saiba mais sobre as especificações de formato de caminhos e a estrutura de dados usada pelos nós de caminho e spline.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Especificações de formato de caminhos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Isso é útil ao ler os Caminhos de um [processador de pixels](../../../../../..
 
 O endereço do último vértice definido neste documento. É útil acrescentar novos dados.
 
-Pode, portanto, ser qualquer endereço que seja maior (em ordem de linha de varredura) do que o endereço do último vértice. Ele deve estar no intervalo &rbrack;0, 1[×]0,.5&lbrack;
+Pode, portanto, ser qualquer endereço que seja maior (em ordem de linha de varredura) do que o endereço do último vértice. Ele deve estar no intervalo ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
@@ -111,7 +111,7 @@ O cabeçalho de caminho do enésimo caminho será definido no endereço `path\_a
 +++Superior
 <b>X</b>
 
-Número de vértices nesse caminho. Deve estar no intervalo [0, 16777216].
+Número de vértices nesse caminho. Deve estar no intervalo [0, 16777216].
 
 Se os vértices inicial e final de um caminho fechado estiverem na mesma posição, eles ainda contam para 2 vértices.\
 Um caminho com 0 vértices é um caminho válido mesmo assim.

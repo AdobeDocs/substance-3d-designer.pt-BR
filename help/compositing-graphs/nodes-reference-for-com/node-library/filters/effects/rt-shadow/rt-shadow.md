@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
 breadcrumb-title: ''
 description: Use o nó Sombras RT para calcular informações de sombra em tempo real a partir da geometria para criar efeitos de iluminação dinâmicos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sombras RT
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Posição da fonte luminosa numa esfera que envolve a superfície:
 * <b>X</b>: posição horizontal, em número de voltas;
 * <b>Y</b>: posição vertical, onde 0,5 é o zênite e 0/1 é o horizonte.
 
-<b>Intensidade de luz</b> *Flutuante*\
+<b>Intensidade da luz</b> *Flutuante*\
 A intensidade da fonte de luz.
 
 <b>Tamanho Claro</b> *Flutuante2* (Disponível quando o <b>Modo</b> está definido como *Sombreado*)\
@@ -78,7 +78,7 @@ Um multiplicador da opacidade de sombras desenhadas na superfície.
 Um multiplicador para a atenuação das sombras quanto mais distantes estão de seu rebocador.\
 Um valor de 0 resulta em sombras uniformes (as sombras suaves ainda são aplicadas).
 
-<b>Comprimento Máximo das Sombras</b> *Flutuante*\
+<b>Comprimento Máximo de Sombras</b> *Flutuante*\
 A distância máxima que uma sombra pode ser desenhada de seu rodízio.\
 Um valor de 0 resulta em sombras não visíveis.
 

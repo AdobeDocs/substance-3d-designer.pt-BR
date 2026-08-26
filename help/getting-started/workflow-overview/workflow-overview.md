@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: Conheça o fluxo de trabalho essencial para criar materiais de procedimento no Substance 3D Designer do início ao fim.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Visão geral do fluxo de trabalho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ O Substance 3D Designer é um editor baseado em nó. Isso significa que quase to
 
 ## Fluxo de trabalho baseado em nó
 
-Trabalhar no Designer é diferente de outros softwares de edição de imagens 2D, como o Photoshop. Em vez de executar uma ação manualmente (como ajustar a saturação indo até uma opção do menu e alterar um controle deslizante), <b>você constrói as etapas lógicas</b> de edição ou criação da imagem. Isso acontece criando uma rede de blocos de construção pequenos, chamados “[Nós](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)”. Os dados da imagem viajam da <b> esquerda para a direita</b> através dos blocos de construção, conectados por Links que determinam o caminho das informações. Cada Nó, se conectado, contribuirá para os resultados finais.
+Trabalhar no Designer é diferente de outros softwares de edição de imagens 2D, como o Photoshop. Em vez de executar uma ação manualmente (como ajustar a saturação indo até uma opção do menu e alterar um controle deslizante), <b>você constrói as etapas lógicas</b> de edição ou criação da imagem. Isso acontece através da construção de uma rede de pequenos blocos de construção chamados &#39;nós&#39;. Os dados da imagem viajam da <b> esquerda para a direita</b> através dos blocos de construção, conectados por Links que determinam o caminho das informações. Cada Nó, se conectado, contribuirá para os resultados finais.
 
 A maior vantagem é que seu fluxo de trabalho se torna <b>não linear</b>. Ao contrário das ações executadas manualmente que entram em uma pilha de histórico, você sempre pode trocar ou modificar um Nó a qualquer momento. Se você decidir que o primeiro ajuste de Contraste, afetando o resultado da imagem até o final, foi muito, ainda será possível voltar e ajustá-lo ou até mesmo recortá-lo completamente, sem perder todo o trabalho que executou depois.
 
@@ -88,7 +88,7 @@ Abaixo você pode encontrar alguns exemplos típicos de casos de uso comuns.
 
 
 
-Uma forma de máscara simples para um decalque é criada gerando[um pedaço de texto](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) e uma [forma de disco](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extraindo a borda](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) do disco e finalmente [mesclando-os](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) antes de defini-los como saída final [9&rbrace;.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+Uma forma de máscara simples para um decalque é criada gerando[um pedaço de texto](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) e uma [forma de disco](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extraindo a borda](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) do disco e finalmente [mesclando-os](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) antes de defini-los como saída final [9}.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 
 O Texto com o número, ou o thickness da aresta, pode ser exposto externamente para tornar este um gráfico mais dinâmico.
 
@@ -129,7 +129,7 @@ Este exemplo usa os [Modos de Criação de Link](../../interface/the-graph-view/
 
 Funções <b>processam valores únicos</b> (inteiros, flutuantes, vetores) em vez de dados de imagem (conjuntos inteiros de pixels). As funções também são Gráficos com redes de nós, mas os [Nós usados](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)e a interface é diferente dos [gráficos de Substance regulares](../../compositing-graphs/substance-compositing-graphs.md). O fluxo de trabalho é completamente baseado em <b>operações matemáticas</b> e não mostra miniaturas de visualização de imagem, tornando-o uma <b>maneira muito mais avançada de trabalhar</b> com o Substance 3D Designer.
 
-As funções podem ser usadas em muitos contextos diferentes, sendo os principais a modificação do comportamento de [um Parâmetro exposto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), a criação do comportamento de [Processadores de Pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) e o uso de [Valores em um Gráfico.](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+As funções podem ser usadas em muitos contextos diferentes, sendo os principais a modificação do comportamento de [um Parâmetro exposto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), a criação do comportamento de [Processadores de Pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) e o uso de [valores](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) em um gráfico de Substance.
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Acessar nós de controle em gráficos de função do Substance 3D Designer para controlar o fluxo e a lógica de execução.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Controle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Semelhante às linguagens de programação, o If... Nó Else introduz a possibil
 </tr>
 </table>
 
-Você usará este nó em conjunto com os [&#x200B; nós Lógicos](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) e os [nós de comparação](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) que o ajudarão a criar a condição a ser verificada.
+Você usará este nó em conjunto com os [Nós lógicos](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) e os [Nós de comparação](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) que o ajudarão a criar a condição a ser verificada.
 
 +++Conectores de entrada
 <b>Condição</b> *Booleano*\
@@ -47,7 +47,7 @@ A condição que controla a saída do nó.
 
 <b>Se</b> *Tipo de variável* A saída de valor do nó se a <b>Condição</b> for *Verdadeira*.
 
-<b>Else</b> *Tipo de variável* A saída de valor pelo nó se <b>Condição</b> for *False*.
+<b>Caso contrário</b> *Tipo de variável* A saída de valor do nó se a <b>Condição</b> for *Falso*.
 
 +++
 
@@ -73,7 +73,7 @@ Isso é essencial para controlar o estado das variáveis quando são criadas, li
 Você pode aprender mais sobre o nó Sequência na página [Usando os nós Definir/Sequência](../../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) desta documentação.
 
 +++Conectores de entrada
-<b>Em</b> *Tipo de variável*\
+<b>Entrada</b> *Tipo de variável*\
 A parte do gráfico que deve ser calculada primeiro
 
 <b>Último</b> *Tipo de variável*\

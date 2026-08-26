@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
 description: Use o nó Mapa de degradê para mapear valores em tons de cinza para cores usando rampas de degradê para colorização e efeitos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa de gradiente
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 Remapeia os valores em tons de cinza em uma imagem usando um gradiente personalizado.
 
-Esse nó tem uma finalidade dupla: ele pode ser usado simplesmente como um nó de conversão de <b> </b>tons de cinza em cores, ou para colorir a entrada de tons de cinza, mapeando-a para uma rampa de cores personalizada.
+Este nó tem uma finalidade dupla: pode ser usado simplesmente como um <b> </b>nó de conversão de tons de cinza em cor ou, para colorir a entrada de tons de cinza, mapeá-la para uma rampa de cores personalizada.
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ O nó oferece um editor de degradê avançado e repleto de recursos para mapear 
 | --- | --- |
 | <b>Modo de cores</b> *Booleano* | Define o modo de saída como Cor ou Tons de Cinza. |
 | <b>Endereçamento de gradiente</b> *Booleano* | Define o gradiente para valores de repetição (lado a lado) ou de fixação que estejam fora do intervalo [0, 1]. |
-| <b>Gradiente</b> *Matriz de chaves de gradiente* | O gradiente de gradiente personalizado usado para mapear os valores de tons de cinza de entrada.   Pode ser editado no local ou usando o [Editor de gradiente](#gradient-editor). |
+| <b>Gradiente</b> *Matriz de chaves de gradiente* | O gradiente de gradiente personalizado usado para mapear os valores de tons de cinza de entrada.   Pode ser editado no local ou usando o [Editor de gradiente](#gradient-editor). |
 
 ## Editor de gradiente
 

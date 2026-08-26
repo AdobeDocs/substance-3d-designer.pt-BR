@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
 breadcrumb-title: ''
 description: Use o nó Ponte de spline para fazer a ponte de texturas entre duas splines para criar conexões perfeitas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ponte Spline (2 Splines)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -48,36 +48,36 @@ Gera splines de <b>Spline #1</b> para <b>Spline #2</b> ao longo dessas splines. 
 <b>Visualizar #1</b> *Tons de cinza* A visualização das linhas de entrada #1 como uma imagem em tons de cinza.
 
 <b>Palavras de Spline #1</b> *Cor* As coordenadas dos pontos de splines de entrada #1 codificados nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<b>R</b> - Posição X\
+<b>G</b> - posição Y\
+<b>B</b> - Height\
+<b>A</b> - Dados empacotados:\
+* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+* Valor absoluto: Thickness + 1.
 
 <b>Dados de Spline #1</b> *Cor* Dados adicionais das splines de entrada #1 codificados nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Não Usado\
-    <b>A</b> - Não Usado
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Não Usado\
+<b>A</b> - Não Usado
 
 <b>Valor da spline #1</b> *Inteiro* O número de splines de entrada #1.
 
 <b>Visualizar #2</b> *Tons de cinza* A visualização das linhas de entrada #2 como uma imagem em tons de cinza.
 
 <b>Palavras de Spline #2</b> *Cor* As coordenadas das linhas divisórias de entrada #2 pontos codificados nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<b>R</b> - Posição X\
+<b>G</b> - posição Y\
+<b>B</b> - Height\
+<b>A</b> - Dados empacotados:\
+* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+* Valor absoluto: Thickness + 1.
 
 <b>Dados de Spline #2</b> *Cor* Dados adicionais das splines de entrada #2 codificados nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Não Usado\
-    <b>A</b> - Não Usado
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Não Usado\
+<b>A</b> - Não Usado
 
 <b>Valor da spline #2</b> *Inteiro* O número de splines de entrada #2.
 
@@ -104,18 +104,18 @@ Você pode usar um nó de curva para criar a curva.
 <b>Visualizar</b> *Tons de cinza* A visualização das linhas divisórias de saída como uma imagem em tons de cinza.
 
 <b>Cordas de spline</b> *Cor* As coordenadas dos pontos das linhas divisórias de saída codificadas nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<b>R</b> - Posição X\
+<b>G</b> - posição Y\
+<b>B</b> - Height\
+<b>A</b> - Dados empacotados:\
+* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+* Valor absoluto: Thickness + 1.
 
 <b>Dados de Spline</b> *Cor* Dados adicionais das splines de saída codificados nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Não Usado\
-    <b>A</b> - Não Usado
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Não Usado\
+<b>A</b> - Não Usado
 
 <b>Valor da spline</b> *Inteiro* O número de splines de saída.
 

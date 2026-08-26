@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Principais conceitos do gráfico MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ O nó Raiz inclui uma miniatura exibindo uma visualização de sua saída atual.
 
 ![Nó raiz do gráfico MDL](../../assets/mdl-root-hl.png "Nó raiz do gráfico MDL")
 
-*Nó raiz em um gráfico MDL e suas propriedades exibidas no painel [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* **
+*Nó raiz em um gráfico MDL e suas propriedades exibidas no painel [Propriedades](../../interface/properties/properties.md)* {3 **
 
 ## Conectores e tipos
 

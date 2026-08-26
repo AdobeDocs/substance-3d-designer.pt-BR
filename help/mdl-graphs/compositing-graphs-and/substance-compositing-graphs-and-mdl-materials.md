@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Gráficos de Substance e materiais MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Esta página descreve as sinergias entre [gráficos de Substance](../../composit
 
 As saídas de gráficos de Substance podem ser *passadas para parâmetros expostos* de materiais MDL de duas maneiras, que são descritas nesta página.
 
-Se o material MDL atualmente aplicado na exibição 3D tiver parâmetros expostos cujo tipo é *[variável](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* - esse tipo pode ser definido usando a opção <b>Modificador de tipo</b> nas [propriedades do parâmetro exposto](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), eles podem ser conectados a *texturas*:
+Se o material MDL atualmente aplicado na exibição 3D tiver parâmetros expostos cujo tipo é *[variável](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* - esse tipo pode ser definido usando a opção <b>Modificador de tipo</b> nas propriedades do [parâmetro exposto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), eles podem ser conectados a *texturas*:
 
 * um parâmetro <b>Color</b> pode ser conectado a texturas RGBA
 * um parâmetro <b>Flutuante</b> para texturas em Tons de Cinza

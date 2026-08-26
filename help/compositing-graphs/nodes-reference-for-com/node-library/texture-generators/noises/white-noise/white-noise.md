@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
 breadcrumb-title: ''
 description: Use o nó Ruído branco para gerar padrões de ruído branco para criar variações de textura e efeitos aleatórios.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Ruído branco
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 7%
+source-wordcount: '151'
+ht-degree: 5%
 
 ---
 
@@ -38,26 +38,6 @@ ht-degree: 7%
 ## Descrição
 
 Gera um ruído branco usando um dos três métodos disponíveis para definir diferentes formas de histograma: uniforme, gaussiano e triângulo.
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Saídas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
 
 </td>
 </tr>

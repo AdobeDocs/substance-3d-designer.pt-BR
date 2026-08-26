@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: Aprenda a usar atalhos de teclado no Substance 3D Designer para acelerar seu fluxo de trabalho e melhorar a produtividade.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atalhos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b0053a42604f68604350a6bb3a2148970536c3c7
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 17%

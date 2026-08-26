@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-thickness.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-thickness.html"
 breadcrumb-title: ''
 description: Use o nó Thickness de amostra de spline para obter amostras de valores de thickness ao longo das splines para efeitos de procedimento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Thickness de amostra de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%
@@ -53,9 +53,9 @@ O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mescl
 <b> R</b> - Posição X\
 <b> G</b> - posição Y\
 <b> B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<b>A</b> - Dados empacotados:\
+* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+* Valor absoluto: Thickness + 1.
 
 <b>Dados de Spline</b> *Cor* Dados adicionais das splines de entrada codificados nos canais RGBA de uma imagem colorida.\
 <b> R</b> - Tangentes X\
@@ -72,18 +72,18 @@ O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mescl
 <b>Visualizar</b> *Tons de cinza* A visualização das linhas divisórias de saída como uma imagem em tons de cinza.
 
 <b>Cordas de spline</b> *Cor* As coordenadas dos pontos das linhas divisórias de saída codificadas nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<b>R</b> - Posição X\
+<b>G</b> - posição Y\
+<b>B</b> - Height\
+<b>A</b> - Dados empacotados:\
+* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+* Valor absoluto: Thickness + 1.
 
 <b>Dados de Spline</b> *Cor* Dados adicionais das splines de saída codificados nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Não Usado\
-    <b>A</b> - Não Usado
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Não Usado\
+<b>A</b> - Não Usado
 
 <b>Valor da spline</b> *Inteiro* O número de splines de saída.
 

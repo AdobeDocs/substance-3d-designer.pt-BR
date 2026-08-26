@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: Saiba mais sobre como exportar texturas e bitmaps do gráfico de composição de Substance para uso em aplicativos e fluxos de trabalho externos.
 helpx_creative_field: ""
@@ -10,17 +10,17 @@ helpx_tags: ""
 title: Exportação de bitmaps
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 1%
+source-wordcount: '577'
+ht-degree: 2%
 
 ---
 
 
 # Exportação de bitmaps
 
-Esta página explica como o Substance 3D Designer pode exportar para muitos formatos de arquivo Bitmap diferentes e como exportar vários blocos UV em lotes.[Se você deseja exportar para arquivos PSD,](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html) [há uma página dedicada separada para isso.](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+Esta página explica como o Substance 3D Designer pode exportar para muitos formatos de arquivo Bitmap diferentes e como exportar vários blocos UV em lotes.Se você deseja [exportar para arquivos de PSD](../exporting-psd-files/exporting-psd-files.md), há uma página dedicada separada para isso.
 
 ![Exportando simplificado](../../assets/exportflow.png "Exportando simplificado")
 
@@ -31,7 +31,7 @@ Esta página explica como o Substance 3D Designer pode exportar para muitos form
 * Você <b> exporta de um Graph</b>, não de um Pacote. Um pacote não gera conteúdo de imagem por si só.
 * O número (e a resolução) de bitmaps exportados é determinado pelas <b>Saídas</b> de um Gráfico.
 * O tipo de arquivo é definido para todas as saídas/bitmaps.
-* A exportação é diferente da [Publicação](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Verifique se você entendeu bem a diferença!
+* Exportar é diferente de [publicar](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md). Certifique-se de entender bem a diferença!
 
 ## Métodos de exportação
 
@@ -41,7 +41,7 @@ Quando estiver pronto para exportar, há duas maneiras de acessar a caixa de di�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Na [janela do Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), clique com o botão direito do mouse no gráfico para exportar e escolha **”Exportar saídas como bitmaps”**
+Na janela do [Explorer](../../interface/the-explorer-window/the-explorer-window.md), clique com o botão direito do mouse no gráfico para exportar e escolha **”Exportar saídas como bitmaps”**
 
 ![](../../assets/export-explorer.gif)
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
 description: Saiba mais sobre os modos de criação de links na visualização de gráfico do Substance 3D Designer para conectar nós de maneira eficiente.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Modos de criação de link
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -70,12 +70,12 @@ Nos modos <b>Material</b> e <b>Material Compacto</b>, conexões entre entradas e
 
 ## Os modos
 
-|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> Padrão | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> Compactar | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> Material compacto |
+|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> Padrão | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> Compactar | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> Material compacto |
 | --- | --- | --- | --- |
 | <b>Entradas</b> | Todas as entradas são visíveis | Todas as entradas são visíveis | Apenas 1 entrada por grupo |
 | <b>Saídas</b> | Todas as saídas são visíveis | Todas as saídas são visíveis | Somente 1 saída por grupo |
 | <b>Links</b> | Todos os vínculos estão visíveis | Todos os vínculos estão visíveis | Somente 1 link por grupo (verde) |
-| <b>Conexões</b> | Você conecta os links um por um | Você conecta os vínculos em conjunto como um grupo de materiais de vínculo múltiplo com base nos usos correspondentes.   Quando um uso está presente em uma extremidade, a conexão é padrão. | Você conecta os vínculos em conjunto como um grupo de materiais de vínculo único. |
+| <b>Conexões</b> | Você conecta os links um por um | Você conecta os vínculos em conjunto como um grupo de materiais de vínculo múltiplo com base nos usos correspondentes.   Quando um uso está presente em uma extremidade, a conexão é padrão. | Você conecta os vínculos em conjunto como um grupo de materiais de vínculo único. |
 
 ## Atribuição de grupos
 

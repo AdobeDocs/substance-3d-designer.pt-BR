@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Use ferramentas de pintura de bitmap no Substance 3D Designer para pintar diretamente sobre recursos de bitmap para edição de textura.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ferramentas de pintura de bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ As ferramentas de pintura serão habilitadas automaticamente no painel [exibiç�
 
 Os bitmaps *novos* podem ser criados das seguintes maneiras:
 
-* No painel [Explorador](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), clique no RMB em um *pacote SBS* ou em uma *pasta* de um pacote para abrir o menu contextual, abra o submenu <b>Novo</b> e selecione a opção <b>Bitmap</b>
+* No painel [Explorador](../../../interface/the-explorer-window/the-explorer-window.md), clique no RMB em um *pacote SBS* ou em uma *pasta* de um pacote para abrir o menu contextual, abra o submenu <b>Novo</b> e selecione a opção <b>Bitmap</b>
 * Em um [gráfico](../../../interface/the-graph-view/the-graph-view.md), crie um [nó de bitmap](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) e selecione a opção <b>Do novo recurso...</b> no menu contextual
 
 A janela <b>Novo bitmap</b> será aberta, permitindo que você defina o *nome*, a *resolução* e a *cor do plano de fundo* do novo recurso de bitmap.
@@ -130,7 +130,7 @@ As predefinições são organizadas e salvas em *bibliotecas*, que podem ser ger
 
 <b>Exportar biblioteca:</b> *salvar* as predefinições atuais e todas as suas configurações em um arquivo de biblioteca
 
-<b>Importar biblioteca:</b> *carregar* predefinições de um arquivo de biblioteca existente e *adicioná-las* à lista atual - predefinições com o *mesmo nome são substituídas* pelas predefinições do arquivo de biblioteca
+<b>Importar biblioteca:</b> *carregar* predefinições de um arquivo de biblioteca existente e *adicioná-las* à lista atual - as predefinições com *mesmo nome são substituídas* pelas predefinições do arquivo de biblioteca
 
 <b>Redefinir biblioteca:</b> redefine as predefinições atuais pela biblioteca padrão
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: Use a tela inicial do Substance 3D Designer para acessar projetos, modelos e recursos de aprendizado recentes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Página inicial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![Tela inicial](../../assets/home-screen-home.jpg "Tela inicial")
 
-A <b>Tela inicial<b> A </b></b>agradece você ao iniciar o Substance 3D Designer. Ele ajuda a começar seus projetos e acessar links úteis.
+A <b>Tela inicial<b> A </b></b>agradece você ao iniciar o Substance 3D Designer. Ele ajuda a começar seus projetos e acessar links úteis.
 
 <table>
 <tr style="border: 0;">

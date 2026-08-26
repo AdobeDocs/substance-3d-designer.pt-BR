@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
 description: Saiba mais sobre as diretrizes para reduzir o tamanho dos arquivos de gráfico de Substance para otimizar os requisitos de desempenho e armazenamento.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Diretrizes de redução de tamanho de arquivo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,11 @@ O tamanho do arquivo é determinado principalmente por [bitmaps incorporados.](.
 
 >[!IMPORTANT]
 >
-> Verifique se a propriedade [Tamanho de saída](../../compositing-graphs/output-size/output-size.md) de todos os nós [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) está definida como o método de herança [&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) ** Absoluto. Se não for esse o caso, o [recurso de bitmap](../../resources/bitmap-resource/bitmap-resource.md) referenciado nele será salvo na resolução padrão de 256\*256 no arquivo de ativo do Substance 3D publicado, o que* afetará a qualidade* de uma ou mais saídas.
+> Verifique se a propriedade [Tamanho de saída](../../compositing-graphs/output-size/output-size.md) de todos os nós [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) está definida como o método de herança ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) *[* Absoluto. Se não for esse o caso, o [recurso de bitmap](../../resources/bitmap-resource/bitmap-resource.md) referenciado nele será salvo na resolução padrão de 256\*256 no arquivo de ativo do Substance 3D publicado, o que* afetará a qualidade* de uma ou mais saídas.
 
 ## Fatores de tamanho de arquivo
 
-Há alguns fatores diferentes que afetam o tamanho total do arquivo do [SBSAR](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Eles estão listados abaixo com uma breve explicação.
+Existem alguns fatores diferentes que afetam o tamanho total do arquivo do SBSAR. Eles estão listados abaixo com uma breve explicação.
 
 +++Resolução
 Obviamente tem um grande efeito. Use a menor resolução possível, tendo em mente que você também pode desejar que o arquivo de Substance funcione em grandes resoluções. Você pode usar truques padrão de mascaramento de resolução para fazer com que os bitmaps menores pareçam maiores.
@@ -63,14 +63,14 @@ O modo para o qual você define o nó Bitmap também tem um efeito em como o Des
 +++Formato de bitmap no pacote
 Nas Propriedades do recurso, você pode escolher entre a compactação “Raw” e “Jpeg”. Isso pode ter um efeito considerável no resultado final.
 
-*Encontrado em: Recurso de Bitmap [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), através da [janela do Explorer.](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*Encontrado em: Propriedades do Recurso de Bitmap, através da janela do Explorer.*
 
 +++
 
 +++Qualidade da compactação de bitmap no pacote
 Ao usar o formato Bitmap “Jpeg”, o controle deslizante abaixo pode afetar a qualidade e o tamanho do arquivo. Este controle deslizante não se comporta muito previsível, mas 1 tende a corresponder à compressão JPG de alta qualidade, e 0,5 tende a dar o menor tamanho.
 
-*Encontrado em: Recurso de Bitmap [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), através da [janela do Explorer.](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*Encontrado em: Propriedades do Recurso de Bitmap, através da janela do Explorer.*
 
 +++
 

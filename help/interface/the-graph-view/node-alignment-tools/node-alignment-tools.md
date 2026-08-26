@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: Use ferramentas de alinhamento de nó para organizar e alinhar nós na visualização de gráfico para gráficos mais claros e legíveis.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ferramentas de alinhamento de nó
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![Barra de ferramentas de alinhamento de nó](../../../assets/node-alignment-toolbar.png "Barra de ferramentas de alinhamento de nó"){zoomable="yes"}
 
-As ferramentas de alinhamento de nós permitem organizar os nós em gráficos para melhorar a legibilidade e a experiência de criação. Eles oferecem ações para alinhar nós, distribuí-los uniformemente e encaixá-los na grade.
+As ferramentas de alinhamento de nós permitem organizar os nós em gráficos para melhorar a legibilidade e a experiência de criação. Eles oferecem ações para alinhar nós, distribuí-los uniformemente e encaixá-los na grade.
 
 Eles atuam somente nos <b>nós atualmente selecionados</b>.
 
@@ -108,7 +108,7 @@ Os nós podem ser alinhados horizontal e verticalmente, com três modos para cad
 
 ### Empilhamento
 
-A <b>opção ![](../../../assets/node-alignment-stack.png)Empilhar </b> permite <b>evitar qualquer sobreposição</b> ao usar alinhamentos. Ela fica ativada por padrão.
+A <b>opção ![](../../../assets/node-alignment-stack.png)Empilhar </b> permite <b>evitar qualquer sobreposição</b> ao usar alinhamentos. Ela fica ativada por padrão.
 
 Quando ativado, os nós serão movidos o mais longe possível para a posição de referência até que colidam com outro nó na seleção. Isso os empilha efetivamente no eixo selecionado com uma margem de uma célula de grade média entre cada nó.
 

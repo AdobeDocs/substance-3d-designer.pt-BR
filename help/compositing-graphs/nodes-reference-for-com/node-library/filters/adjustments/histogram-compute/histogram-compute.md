@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
 breadcrumb-title: ''
 description: Use o nó Cálculo do histograma para calcular os dados do histograma a partir das texturas para análise e processamento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Computação de histograma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 1%
@@ -80,14 +80,14 @@ Ferramentas personalizadas podem ser criadas usando os dados computados pelo nó
 
 |  |  |
 | --- | --- |
-| <b>Histograma</b> *Tons de cinza* | O histograma computado para a imagem de entrada, codificado como uma linha de pixels onde cada valor de pixel é a *população* do valor de cor correspondente à posição de pixel no eixo X.   Por exemplo, um valor de pixel de 75 em (0,25, 0) significa que há 75 pixels com o valor de cor 0,25 na imagem. |
-| <b>CDF</b> *Tons de cinza* | O resultado da *função de distribuição cumulativa* (CDF) computada para a imagem, codificada em uma linha de pixels onde cada pixel é a soma de todos os valores de pixel à sua esquerda.   Essa soma é então *normalizada* em relação ao número total de pixels na imagem. |
+| <b>Histograma</b> *Tons de cinza* | O histograma computado para a imagem de entrada, codificado como uma linha de pixels onde cada valor de pixel é a *população* do valor de cor correspondente à posição de pixel no eixo X.   Por exemplo, um valor de pixel de 75 em (0,25, 0) significa que há 75 pixels com o valor de cor 0,25 na imagem. |
+| <b>CDF</b> *Tons de cinza* | O resultado da *função de distribuição cumulativa* (CDF) computada para a imagem, codificada em uma linha de pixels onde cada pixel é a soma de todos os valores de pixel à sua esquerda.   Essa soma é então *normalizada* em relação ao número total de pixels na imagem. |
 
 ## Parâmetros
 
 |  |  |
 | --- | --- |
-| <b>Resolução do histograma</b> *Inteiro* | A largura do histograma. Um valor mais alto permite uma melhor distribuição de valores.   As resoluções disponíveis são, em pixels: 256, 512, 1024, 2048, 4096 |
+| <b>Resolução do histograma</b> *Inteiro* | A largura do histograma. Um valor mais alto permite uma melhor distribuição de valores.   As resoluções disponíveis são, em pixels: 256, 512, 1024, 2048, 4096 |
 
 ## Exemplos
 

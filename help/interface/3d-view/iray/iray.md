@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2151'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Consulte a seção <b>Renderizador</b> desta página para saber mais sobre como 
 
 ![Material de parede de castelo medieval renderizado em Iray](../../../assets/iray-overview.png "Material de parede de castelo medieval renderizado em Iray")
 
-*Material: [parede do castelo medieval](https://helpx.adobe.com/br/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *por [Mark Foreman](https://www.artstation.com/oggyart)* *disponível em nossos [ativos do Substance 3D](https://helpx.adobe.com/br/substance-3d/unlisted/assets.html)* *biblioteca*
+*Material: [parede do castelo medieval](https://oggyart.artstation.com/projects/Xnzx0a)* *por [Mark Foreman](https://www.artstation.com/oggyart)* *disponível em nossos [ativos do Substance 3D](https://substance3d.adobe.com/assets)* *biblioteca*
 
 </td>
 </tr>

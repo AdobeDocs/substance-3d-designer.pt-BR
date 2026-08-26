@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Solucione problemas de criação ou carregamento de projetos no Substance 3D Designer e encontre soluções.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Não é possível criar um carregamento de projeto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Forçar melhor desempenho
 
 Procure qualquer software que gerencie o *plano de energia* do seu sistema (por exemplo, o AOS Armory Crate), especialmente quando o sistema for um laptop.
 
-Alguns aplicativos de gerenciamento de energia podem limitar o acesso de outros aplicativos à GPU do sistema ou prejudicar o desempenho da GPU, o que pode resultar em falhas. Se um aplicativo de gerenciamento de energia existir e estiver ativo, mude para o plano que permite o melhor desempenho.
+Alguns aplicativos de gerenciamento de energia podem limitar o acesso de outros aplicativos à GPU do sistema ou prejudicar o desempenho da GPU, o que pode resultar em falhas. Se um aplicativo de gerenciamento de energia existir e estiver ativo, mude para o plano que permite o melhor desempenho.
 
 Forçar o uso de GPU separada
 

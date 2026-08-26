@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: Use o nó Lista de pontos para criar e gerenciar listas de pontos para spline e geração de caminho.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lista de pontos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -55,12 +55,12 @@ Se uma lista de pontos existente for fornecida para as entradas de <b>Ponto</b>,
 
 <b>Entrada de Lista de Pontos</b> *Cor*\
 Uma lista de pontos de entrada codificados nos canais RGBA de uma imagem colorida:\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-            * Parte inteira: Smoothness;\
-            * Parte fracionária: Thickness.
+<b>R</b> - Posição X\
+<b>G</b> - posição Y\
+<b>B</b> - Height\
+<b>A</b> - Dados empacotados:\
+* Parte inteira: Smoothness;\
+* Parte fracionária: Thickness.
 
 <b>Entrada de Número de Pontos</b> *Inteiro*\
 O número de pontos de entrada.
@@ -71,12 +71,12 @@ O número de pontos de entrada.
 
 <b>Cor </b>*da Lista de Pontos*\
 A lista de saída de pontos codificados nos canais RGBA de uma imagem colorida:\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-            * Parte inteira: Smoothness;\
-            * Parte fracionária: Thickness.
+<b>R</b> - Posição X\
+<b>G</b> - posição Y\
+<b>B</b> - Height\
+<b>A</b> - Dados empacotados:\
+* Parte inteira: Smoothness;\
+* Parte fracionária: Thickness.
 
 <b>Número de Ponto </b>*Inteiro*\
 O número de pontos de saída.
@@ -102,7 +102,7 @@ O valor do smoothness resultante é fixado no intervalo [0;1].
 +++
 
 +++Visualização
-<b>Mostrar Rótulos</b> *Booleanos*\
+<b>Mostrar rótulos</b> *Booleano*\
 Para cada ponto, exibe o nome do ponto ao lado dele na saída “Visualização”.
 
 <b>Tamanho do Rótulo</b> *Flutuante* (Disponível quando &#39;Mostrar Rótulos&#39; estiver definido como &#39;Verdadeiro&#39;)\
@@ -111,7 +111,7 @@ O tamanho do rótulo para cada ponto no espaço de textura, onde 0,1 é um déci
 <b>Mostrar pontos</b> *Booleano*\
 Exibe os pontos na saída &#39;Preview&#39;.
 
-<b>Tamanho dos Pontos</b> *Flutuante* (Disponível quando &#39;Mostrar Pontos&#39; estiver definido como &#39;Verdadeiro&#39;)\
+<b>Tamanho de pontos</b> *Flutuante* (Disponível quando &#39;Mostrar Pontos&#39; estiver definido como &#39;Verdadeiro&#39;)\
 O raio dos pontos no espaço de textura, onde 0,1 é um décimo da largura da textura.
 
 +++

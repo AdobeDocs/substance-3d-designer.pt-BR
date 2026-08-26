@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: Saiba como personalizar seu espaço de trabalho no Substance 3D Designer para otimizar suas preferências de fluxo de trabalho e layout.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Personalizar sua área de trabalho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Esta página apresenta as maneiras de organizar os painéis na interface de usu�
 
 ## Menu Janelas
 
-Esse menu permite gerenciar os principais elementos da interface do usuário do Designer. Cada opção está descrita na seção <b>Windows</b> de [esta página](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) sobre a barra de ferramentas principal. Aqui, forneceremos conceitos adicionais relacionados a este menu.
+Esse menu permite gerenciar os principais elementos da interface do usuário do Designer. Cada opção está descrita na seção <b>Windows</b> de [esta página](../the-main-toolbar/the-main-toolbar.md) sobre a barra de ferramentas principal. Aqui, forneceremos conceitos adicionais relacionados a este menu.
 
 ### Exibir/ocultar uma exibição
 

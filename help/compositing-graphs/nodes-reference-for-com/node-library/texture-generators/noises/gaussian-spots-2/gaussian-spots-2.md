@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-2.html"
 breadcrumb-title: ''
 description: Use o nó Manchas gaussianas 2 para gerar padrões de manchas gaussianas avançados para criar variações de textura orgânica.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Manchas gaussianas 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 2%
+source-wordcount: '276'
+ht-degree: 1%
 
 ---
 
@@ -41,26 +41,6 @@ Uma variação dos <b>pontos gaussianos</b> suaves ruídos.\
 Baseado no nó [Ruído gaussiano](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), com gradientes mais estreitos e frequências mais altas.
 
 Veja também: [Manchas gaussianas 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-1/gaussian-spots-1.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Saídas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
 
 </td>
 </tr>

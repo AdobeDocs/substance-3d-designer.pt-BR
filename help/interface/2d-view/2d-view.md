@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Use a exibição 2D no Substance 3D Designer para visualizar e inspecionar saídas de textura de seus gráficos de material.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Exibição 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2354'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ As imagens também podem ser *arrastadas e soltas* diretamente na viewport mante
 Na Exibição Gráfica, você pode enviar uma imagem para a Exibição 2D usando a opção de menu contextual <b>Exibir saída em Exibição 2D</b>, que é acessada clicando em *RMB*...
 
 * ...em um *nó* para exibir *a saída desse nó*. Se o nó tiver mais de uma saída, selecione a saída desejada no submenu
-* ...em *espaço vazio* na Exibição de Gráfico para exibir *a saída desse gráfico*. Se o gráfico tiver mais de uma saída, selecione a saída desejada no submenu
+* ...em *espaço vazio* na Exibição de Gráfico para exibir *a saída desse gráfico*. Se o gráfico tiver mais de uma saída, selecione a saída desejada no submenu
 
 Ao carregar um gráfico, sua *primeira saída* é exibida automaticamente na Exibição 2D por padrão. Você pode desabilitar esse comportamento em [Preferências](../../interface/preferences-window/preferences-window.md). Vá para <b>Editar > Preferências > Gráfico > Gráfico de composição de Substance</b> e *desmarque* a opção <b>Exibir saída em exibição 2D ao abrir um gráfico</b>.
 
@@ -124,7 +124,7 @@ Você pode *sobrepor uma imagem diferente* sobre a imagem atualmente exibida. Pr
 
 Quando o arquivo é selecionado, uma nova barra de ferramentas é exibida com os seguintes controles para a sobreposição de imagem:
 
-<b>![](../../assets/2d-view-icon-background-close.png) Fechar:</b> *fechar* a barra de ferramentas de controles de sobreposição e *desabilitar* a sobreposição da imagem de fundo.
+<b>![](../../assets/2d-view-icon-background-close.png) Fechar:</b> *feche* a barra de ferramentas de controles de sobreposição e *desabilite* a sobreposição da imagem de fundo.
 
 <b>![](../../assets/2d-view-icon-background-loadpng.png) Carregar imagem:</b> selecione *outro arquivo de imagem* para usar como sobreposição.
 
@@ -181,7 +181,7 @@ Este recurso *não* está disponível para outros nós, incluindo nós que têm 
 
 Se a opção <b>Exibir UVs na visualização 2D</b> estiver habilitada no menu <b>Cena</b> do encaixe da [visualização 3D](../../interface/3d-view/3d-view.md), o recurso de sobreposição UV estará disponível na visualização 2D.
 
-Você pode habilitá-lo usando o botão <b>UV</b>. ![](../../assets/2d-view-icon-uv.png)
+Você pode habilitá-lo usando o botão <b>UV</b>. ![](../../assets/2d-view-icon-uv.png)
 
 Isso exibe os UVs da malha [atualmente selecionados na Visualização 3D](../../interface/3d-view/3d-view.md) como um wireframe colorido.
 
@@ -343,7 +343,7 @@ As <b>ferramentas de pintura de bitmap</b> estão disponíveis para [recursos de
 
 >[!TIP]
 >
-> Saiba mais na página [Editor de pintura de bitmap](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) da documentação.
+> Você pode saber mais na página [Ferramentas de pintura de bitmap](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) da documentação.
 
 <table>
 <tr style="border: 0;">
@@ -368,7 +368,7 @@ O <b>Editor de gráficos vetoriais</b> está disponível para *recursos [SVG* im
 
 >[!TIP]
 >
-> Saiba mais na página [Editor de gráficos vetoriais (obsoleto)](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) da documentação.
+> Saiba mais na página [Ferramentas de edição de vetor](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) (obsoletas) da documentação.
 
 ![Gerenciamento de cores de exibição 2D](../../assets/2d-view-color-management-ocio.png "Gerenciamento de cores de exibição 2D"){width="360px"}
 

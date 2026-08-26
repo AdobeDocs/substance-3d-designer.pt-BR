@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: Saiba como criar e gerenciar metadados de pacote no Substance 3D Designer para bibliotecas de ativos organizadas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Metadados do pacote
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Em alguns casos, talvez você queira recuperar os metadados definidos em um paco
 
 Os metadados são armazenados de acordo com o formato JSON em um arquivo chamado /assemblies/content/0000/metadata.json (o caminho é relativo à raiz do arquivo .sbsar).
 
-Os metadados regulares (string) são armazenados como estão, por exemplo “key”: “stringValue”, um por linha. Novamente, a ordem original das várias chaves não é mantida e sua implementação é definida. Nunca confie na ordem em seu processo, como acontece com dicts Python regulares!
+Os metadados regulares (string) são armazenados como estão, por exemplo, “key”: “stringValue”, um por linha. Novamente, a ordem original das várias chaves não é mantida e sua implementação é definida. Nunca confie na ordem em seu processo, como acontece com dicts Python regulares!
 
 Como o objetivo dos metadados de URL é permitir que usuários e plug-ins incluam arquivos externos no arquivo .sbsar, eles estão sujeitos a uma transformação específica: Primeiro, o arquivo do recurso correspondente ao URL armazenado é copiado para o arquivo em um local definido pela implementação (geralmente em uma subpasta numerada, que conterá apenas este arquivo. A questão é evitar o conflito de nomes.) O arquivo manterá seu nome original (o nome do recurso é descartado neste ponto). Em seguida, em vez do URL original no metadata.json, o caminho para o arquivo copiado no arquivo relativo ao metadata.json é gravado.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
 breadcrumb-title: ''
 description: Use o nó Aplicar paleta de cores para remapear texturas usando uma paleta de cores para efeitos de cores estilizados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Aplicar paleta de cores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -69,8 +69,8 @@ Este nó pode ser usado em combinação com os seguintes nós: [Quantificar cor]
 
 |  |  |
 | --- | --- |
-| <b>ID</b> *Tons de cinza* PRIMÁRIO | O mapa de IDs de entrada usado para distribuir as cores na paleta de entrada.   Um mapa de ID é uma imagem na qual os pixels que fazem parte de um todo (por exemplo, uma forma) têm o mesmo valor de identificação exclusivo. Nesse caso, o valor é um inteiro.   Um mapa de ID pode ser produzido usando um nó [Quantizar Cor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md). |
-| <b>Paleta</b> *Cor* | Uma lista ordenada de cores de RGB codificadas como uma linha de pixels. A paleta pode conter no máximo 256 cores. Esta é a paleta que o nó mapeia para os índices do mapa de ID.   As paletas podem ser produzidas com um nó [Quantizar cor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) e modificadas com um nó [Modificar paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md). |
+| <b>ID</b> *Tons de cinza* PRIMÁRIO | O mapa de IDs de entrada usado para distribuir as cores na paleta de entrada.   Um mapa de ID é uma imagem na qual os pixels que fazem parte de um todo (por exemplo, uma forma) têm o mesmo valor de identificação exclusivo. Nesse caso, o valor é um inteiro.   Um mapa de ID pode ser produzido usando um nó [Quantizar Cor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md). |
+| <b>Paleta</b> *Cor* | Uma lista ordenada de cores de RGB codificadas como uma linha de pixels. A paleta pode conter no máximo 256 cores. Esta é a paleta que o nó mapeia para os índices do mapa de ID.   As paletas podem ser produzidas com um nó [Quantizar cor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) e modificadas com um nó [Modificar paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md). |
 
 ## Conectores de saída
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
 breadcrumb-title: ''
 description: Use o nó Gradiente de Dirt para gerar padrões de dirt baseados em gradiente para criar efeitos de intemperismo direcional e acúmulo.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Degradê de dirt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 3%
+source-wordcount: '221'
+ht-degree: 1%
 
 ---
 
@@ -40,26 +40,6 @@ ht-degree: 3%
 Uma variação dos ruídos granulados de <b>Dirt</b>, com um gradiente de queda direcional.
 
 Veja também: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-1/dirt-1.md), [Dirt 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-2/dirt-2.md), [Dirt 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-3/dirt-3.md), [Dirt 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-4/dirt-4.md), [Dirt 5](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-5/dirt-5.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Saídas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
 
 </td>
 </tr>

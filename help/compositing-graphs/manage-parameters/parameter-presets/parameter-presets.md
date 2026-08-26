@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: Saiba como criar e usar predefinições de parâmetro no Substance 3D Designer para salvar e aplicar configurações de parâmetro.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Predefinições de parâmetro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Há duas maneiras de armazenar e carregar predefinições. Ambas têm casos de u
 
 As predefinições externas envolvem um arquivo externo no disco e um arquivo \*.SBSPRS. Eles podem ser transferidos entre diferentes gráficos e nós, mas somente dentro do aplicativo. O seu principal objetivo é exatamente este: transferir um número de valores demasiado grande para copiar um por um.
 
-As predefinições externas estão disponíveis para todos os Parâmetros Específicos em [Instâncias de Gráfico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), para a maioria dos Parâmetros Específicos em [nós Atômicos](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([as exceções são aqueles parâmetros que não podem ser expostos](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) e para os Parâmetros de Entrada expostos nas Propriedades de um [Gráfico.](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)
+As predefinições externas estão disponíveis para todos os Parâmetros Específicos em [Instâncias de Gráfico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), para a maioria dos Parâmetros Específicos em [nós Atômicos](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([as exceções são aqueles parâmetros que não podem ser expostos](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) e para os parâmetros de entrada expostos em um gráfico de Substance [parâmetros](../../graph-parameters/graph-parameters.md)parâmetros.
 
 Eles são simplesmente salvos e carregados através deste menu. Os arquivos SBSPRS salvos podem ser carregados em qualquer outro nó ou gráfico.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-4.html"
 breadcrumb-title: ''
 description: Use o nó Ruído direcional 4 para gerar padrões de ruído direcional com quatro oitavas para criar texturas anisotrópicas.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: RUÍDO DIRECIONAL 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 2%
+source-wordcount: '309'
+ht-degree: 1%
 
 ---
 
@@ -40,26 +40,6 @@ ht-degree: 2%
 Uma variação dos ruídos de <b>Ruído direcional</b>.
 
 Veja também: [Ruído direcional 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-1/directional-noise-1.md), [Ruído direcional 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-2/directional-noise-2.md), [Ruído direcional 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-3/directional-noise-3.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Saídas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
 
 </td>
 </tr>

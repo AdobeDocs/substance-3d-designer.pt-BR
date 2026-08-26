@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
 breadcrumb-title: ''
 description: Use o nó Cor do mapeador de spline para mapear texturas de cores ao longo de caminhos de spline com parâmetros personalizáveis.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cor do mapeador de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -57,9 +57,9 @@ O nó gera a imagem mapeada como uma imagem colorida, bem como outras informaç�
 <b> R</b> - Posição X\
 <b> G</b> - posição Y\
 <b> B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<b>A</b> - Dados empacotados:\
+* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+* Valor absoluto: Thickness + 1.
 
 <b>Dados de Spline</b> *Cor* Dados adicionais das splines de entrada codificados nos canais RGBA de uma imagem colorida.\
 <b> R</b> - Tangentes X\
@@ -129,7 +129,7 @@ O valor representa o comprimento normalizado da spline.
 <b>Multiplicador de Height de cilindro</b> *Flutuante* (Disponível quando “Forma” está definido como “Meio Cilindro” ou “Cilindro”)Um multiplicador para a intensidade da contribuição do height do cilindro na saída do Height.\
 Os ajustes de height são cumulativos.
 
-<b>Deslocamento do Height do cilindro</b> *Flutuante* (Disponível quando “Forma” estiver definido como “Meio Cilindro” ou “Cilindro”) \
+<b>Deslocamento do Height do cilindro</b> *Flutuante* (Disponível quando “Forma” estiver definido como “Meio Cilindro” ou “Cilindro”)\
 Desloca o centro do perfil de forma Cilindro ou Meio Cilindro da superfície do spline para um diâmetro abaixo da superfície.
 
 <b>Intensidade de UVs de torção</b> *Flutuante* (Disponível quando “Forma” está definida como “Meio Cilindro” ou “Cilindro”)A torção das coordenadas da imagem ao redor do cilindro, em número de voltas.\

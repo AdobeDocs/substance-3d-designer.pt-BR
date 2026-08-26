@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
 breadcrumb-title: ''
 description: Use o nó Quadrático de spline para criar splines quadráticos suaves com três pontos de controle.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Spline (quadrática)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ A extensão do arco formado pela spline é *ajustável*, de modo que parte de su
 | <b>Iniciar height</b> *Flutuante* | Ajusta o height do ponto <b>p1</b> onde um valor mais baixo significa um local mais baixo ou mais profundo.  Isso afeta o height da spline em <b>p1</b>. |
 | <b>Encerrar height</b> *Flutuante* | Ajusta o height do ponto <b>p3</b> onde um valor mais baixo significa um local mais baixo ou mais profundo.  Isso afeta o thickness da spline em <b>p3</b>. |
 | <b>height de tangente automática</b> *Booleano* | Ajusta o height do ponto <b>p3</b> onde um valor mais baixo significa um local mais baixo ou mais profundo.  Isso afeta o thickness da spline em <b>p3</b>. |
-| <b>height Tangente</b> *Flutuante* | Ajusta o height orientado pelas tangentes controladas pelo ponto <b>p2</b>.  Isso afeta o height ao longo da spline à medida que ele se afasta de <b>p1</b> e vai para <b>p3</b>.   *Observação:* este parâmetro só está disponível quando o <b>height de tangente automática</b> está definido como &#39;False&#39;. |
+| <b>height Tangente</b> *Flutuante* | Ajusta o height orientado pelas tangentes controladas pelo ponto <b>p2</b>.  Isso afeta o height ao longo da spline à medida que ele se afasta de <b>p1</b> e vai para <b>p3</b>.   *Observação:* este parâmetro só está disponível quando o <b>height de tangente automática</b> está definido como &#39;False&#39;. |
 
 
 +++
@@ -87,8 +87,8 @@ A extensão do arco formado pela spline é *ajustável*, de modo que parte de su
 
 |  |  |
 | --- | --- |
-| <b>Iniciar thickness</b> *Flutuante* | Ajusta o thickness do ponto <b>p1</b>. Isso afeta o thickness da spline em <b>p1</b>.   *Observação: o Thickness* é usado por nós Spline específicos. |
-| <b>Encerrar thickness</b> *Flutuante* | Ajusta o thickness do ponto <b>p3</b>. Isso afeta o thickness da spline em <b>p3</b>.   *Observação: o Thickness* é usado por nós Spline específicos. |
+| <b>Iniciar thickness</b> *Flutuante* | Ajusta o thickness do ponto <b>p1</b>. Isso afeta o thickness da spline em <b>p1</b>.   *Observação: o Thickness* é usado por nós Spline específicos. |
+| <b>Encerrar thickness</b> *Flutuante* | Ajusta o thickness do ponto <b>p3</b>. Isso afeta o thickness da spline em <b>p3</b>.   *Observação: o Thickness* é usado por nós Spline específicos. |
 | <b>thickness de tangente automática</b> *Booleano* | Define automaticamente o thickness das tangentes da spline para interpolar linearmente do <b>Thickness inicial</b> para o <b>Thickness final</b>.   *Observação: o Thickness* é usado por nós Spline específicos. |
 | <b>thickness Tangente</b> *Flutuante* | Ajusta o thickness orientado pelas tangentes controladas pelo ponto <b>p2</b>.  Isso afeta o thickness ao longo da spline à medida que ele se afasta de <b>p1</b> e vai para <b>p3</b>.   *Observação: o Thickness* é usado por nós Spline específicos.  *Observação 2:* este parâmetro só está disponível quando o <b>thickness de tangente automática</b> está definido como &#39;False&#39;. |
 
@@ -110,7 +110,7 @@ A extensão do arco formado pela spline é *ajustável*, de modo que parte de su
 
 |  |  |
 | --- | --- |
-| <b>Mostrar tangentes</b> *Booleano* | Exibe a tangente <b>p1</b> point &#39;out&#39; e a tangente <b>p3</b> point &#39;in&#39; na saída <b>Visualizar</b>. Inverte a direção da spline. |
+| <b>Mostrar tangentes</b> *Booleano* | Exibe a tangente <b>p1</b> point &#39;out&#39; e a tangente <b>p3</b> point &#39;in&#39; na saída <b>Visualizar</b>.Inverte a direção da spline. |
 | <b>Mostrar auxiliar de direção</b> *Booleano* | Exibe um ponto no início da spline e uma ponta de seta no final da saída de <b>Visualização</b>. |
 | <b>Mostrar envelope do thickness</b> *Booleano* | Exibe linhas adicionais nas bordas do thickness da spline. |
 | <b>Valor dos segmentos</b> *Inteiro* | Ajusta o número de segmentos usados para desenhar a visualização de spline na saída de <b>Visualização</b>.  Um valor mais alto resulta em uma linha mais suave. |

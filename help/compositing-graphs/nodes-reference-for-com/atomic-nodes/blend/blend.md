@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: Use o nó de mesclagem para mesclar duas texturas usando vários modos de mesclagem para criar efeitos compostos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Misturar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -37,7 +37,7 @@ Combina duas imagens usando um modo de mesclagem especificado e uma máscara opc
 </tr>
 </table>
 
-Sua funcionalidade é semelhante a ter duas camadas acima uma da outra no [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) ou no [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mesclam pelo modo de mesclagem definido na camada superior.
+Sua funcionalidade é semelhante a ter duas camadas acima uma da outra no [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou no [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mesclam pelo modo de mesclagem definido na camada superior.
 
 >[!TIP]
 >
@@ -83,7 +83,7 @@ Sua funcionalidade é semelhante a ter duas camadas acima uma da outra no [Subst
 |  |  |
 | --- | --- |
 | <b>Opacidade</b> *Flutuante* | Opacidade da mesclagem da camada de primeiro plano no plano de fundo. Ele funciona independentemente da entrada de Opacidade e atua como um multiplicador adicional para ele. |
-| <b>Modo de mesclagem</b> *Inteiro* [Estático](../../../../glossary/glossary.md) | Define a operação de mesclagem a ser usada.   Consulte a [página dedicada sobre modos de mesclagem](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
+| <b>Modo de mesclagem</b> *Inteiro* [Estático](../../../../glossary/glossary.md) | Define a operação de mesclagem a ser usada.   Consulte a [página dedicada sobre modos de mesclagem](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
 | <b>mesclagem de Alpha</b> *Inteiro* [Estático](../../../../glossary/glossary.md) | Determina o comportamento de mesclagem quando as entradas de cor têm canais de Alpha:<ul data-preserve-html="true"> <li data-preserve-html="true">Usar alfa de origem</li> <li data-preserve-html="true">Ignorar alfa</li> <li data-preserve-html="true">Mesclagem alfa direta</li> <li data-preserve-html="true">Mesclagem alfa pré-multiplicada</li> </ul> |
 | <b>Área de corte</b> *Flutuante4* [Estático](../../../../glossary/glossary.md) | Permitir a configuração de uma região de corte personalizada que se comporte como uma máscara de Opacidade adicional. Qualquer área cortada mostra apenas o plano de fundo. |
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Saiba mais sobre o gerenciamento de cores no Substance 3D Designer, incluindo espaços de cores, perfis e fluxos de trabalho de cores especiais.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Gerenciamento de cores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1678'
 ht-degree: 1%
 
 ---
@@ -104,13 +104,13 @@ Você pode adicionar *seus próprios* perfis ICC colocando esses arquivos no loc
 
 |  |  |
 | --- | --- |
-| <b>Padrão de exibição de 2D e 3D</b> | Define o espaço de cores *exibição* padrão para as portas de exibição [2D](../interface/2d-view/2d-view.md) e [3D](../interface/3d-view/3d-view.md). *Padrão:*** Perfil ICC para a tela principal, recuperado do sistema operacional &#x200B;**&#x200B;** |
+| <b>Padrão de exibição de 2D e 3D</b> | Define o espaço de cores *exibição* padrão para as portas de exibição [2D](../interface/2d-view/2d-view.md) e [3D](../interface/3d-view/3d-view.md). *Padrão:*** Perfil ICC para a tela principal, recuperado do sistema operacional **** |
 
 ### Exibição do gráfico
 
 |  |  |
 | --- | --- |
-| <b>Miniaturas de gerenciamento de cores</b> | Quando *marcado*, o Designer transformará as *miniaturas de nó* no *espaço de cores de trabalho* atual. *Padrão:*** Desmarcado &#x200B;**&#x200B;** |
+| <b>Miniaturas de gerenciamento de cores</b> | Quando *marcado*, o Designer transformará as *miniaturas de nó* no *espaço de cores de trabalho* atual. *Padrão:*** Desmarcado **** |
 
 ## Modo herdado
 
@@ -161,7 +161,7 @@ O Designer *converterá* imagens nos espaços de cores especificados antes de sa
 
 ![Caixa de diálogo Exportar saídas](../assets/2019-3-0-clr-mgt-export-outputs.png "Caixa de diálogo Exportar saídas"){width="512px"}
 
-Você também pode atribuir um espaço de cores (OCIO) ou anexar um perfil ICC (Adobe ACE) a imagens *salvas* da [exibição 2D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
+Você também pode atribuir um espaço de cores (OCIO) ou anexar um perfil ICC (Adobe ACE) a imagens *salvas* da [exibição 2D](../interface/2d-view/2d-view.md).
 
 ![Opções de exportação de exibição 2D](../assets/2019-3-0-clr-mgt-save-image.png "Opções de exportação de exibição 2D")
 
@@ -209,7 +209,7 @@ A [Biblioteca](../interface/the-library/the-library.md) inclui os seguintes nós
 </tr>
 </table>
 
-Eles são úteis ao trabalhar com gráficos criados *sem* o Gerenciamento de cores ou materiais da biblioteca [Ativos do Substance 3D](https://helpx.adobe.com/br/substance-3d/unlisted/assets.html).
+Eles são úteis ao trabalhar com gráficos criados *sem* o Gerenciamento de cores ou materiais da biblioteca [Ativos do Substance 3D](https://substance3d.adobe.com/assets).
 
 ![Nós de conversão de cores na biblioteca](../assets/2019-3-0-clr-mgt-nodes.png "Nós de conversão de cores na biblioteca"){width="512px"}
 

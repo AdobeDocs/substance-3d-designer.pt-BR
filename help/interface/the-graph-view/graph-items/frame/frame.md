@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Use quadros na exibição de gráfico do Substance 3D Designer para organizar e agrupar nós e melhorar a clareza visual.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Quadro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -66,7 +66,7 @@ O quadro pode ser movido arrastando essa barra de cabeçalho ou seu título.
 +++
 
 +++Selecionado
-Quando selecionado, o título e o contorno do quadro são realçados em branco. O contorno fica mais espesso.
+Quando selecionado, o título e o contorno do quadro são realçados em branco. O contorno fica mais espesso.
 
 ![Quadro (estado selecionado)](../../../../assets/graph-frames-selected.png "Quadro (estado selecionado)")
 
@@ -160,7 +160,7 @@ Segure a tecla <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) para deslocar este enc
 Quando um quadro é selecionado, as seguintes propriedades ficam disponíveis no encaixe [Propriedades](../../../../interface/properties/properties.md):
 
 +++Título
-O <b>Título</b> está no canto superior esquerdo do quadro. Sua visibilidade do título pode ser ativada ou desativada usando a propriedade <b>Título visível</b>.
+O <b>Título</b> está no canto superior esquerdo do quadro. Sua visibilidade do título pode ser ativada ou desativada usando a propriedade <b>Título visível</b>.
 
 O tamanho do título pode ser bloqueado em um tamanho de tela mínimo para que permaneça legível ao reduzir o zoom do gráfico. Você pode fazer isso marcando a opção &#39;Títulos de quadros&#39; no menu suspenso <b>Informações</b> da barra de ferramentas [Exibição de gráfico](../../../../interface/the-graph-view/the-graph-view.md).
 
@@ -196,7 +196,7 @@ O canal alfa da cor controla a *opacidade* do quadro, onde um valor de 0 signifi
 
 ## Descrição
 
-Um quadro pode ser anotado com um texto que será colocado dentro do quadro. O texto é alinhado à esquerda e começa no canto superior esquerdo do quadro. Use a propriedade [Descrição](#properties) do quadro para editar esse texto.
+Um quadro pode ser anotado com um texto que será colocado dentro do quadro. O texto é alinhado à esquerda e começa no canto superior esquerdo do quadro. Use a propriedade [Descrição](#properties) do quadro para editar esse texto.
 
 <table>
 <tr style="border: 0;">
@@ -204,7 +204,7 @@ Um quadro pode ser anotado com um texto que será colocado dentro do quadro. O t
 
 ### Padrão
 
-O <b>Título</b> é mostrado em negrito na parte superior esquerda do quadro. A visibilidade do título pode ser ativada ou desativada.
+O <b>Título</b> é mostrado em negrito na parte superior esquerda do quadro. A visibilidade do título pode ser ativada ou desativada.
 
 Seu tamanho pode ser bloqueado em um tamanho de tela mínimo para que permaneça legível ao reduzir o zoom do gráfico. Você pode fazer isso marcando a opção &#39;Títulos de quadros&#39; no menu suspenso <b>Informações</b> da barra de ferramentas [Exibição de gráfico](../../../../interface/the-graph-view/the-graph-view.md).
 
@@ -270,7 +270,7 @@ Veja uma lista de tags úteis para formatar texto:
 
 ## Regras de inclusão
 
-Um objeto é considerado incluído em um quadro se atender à sua regra de inclusão. Essas regras variam de acordo com o objeto e o caso especial. Eles estão listados abaixo.
+Um objeto é considerado incluído em um quadro se atender à sua regra de inclusão. Essas regras variam de acordo com o objeto e o caso especial. Eles estão listados abaixo.
 
 O símbolo amarelo em cada ilustração representa o ponto ou a área que precisa estar totalmente dentro dos limites de um quadro para que um objeto seja incluído nesse quadro.
 

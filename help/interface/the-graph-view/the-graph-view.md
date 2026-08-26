@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Saiba como usar a visualização de gráfico no Substance 3D Designer para criar e editar gráficos de material baseados em nós.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Exibição de gráfico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3558'
 ht-degree: 0%
 
 ---
@@ -387,7 +387,7 @@ Escolha entre os modos de criação de vínculo Padrão (1), Material (2) e Mate
 </b>*- Limpar:* Remove todos os nós que fazem parte de um fluxo não conectado a um nó [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).\
 *- Exportar saídas:* Abre a [interface de Exportação de Bitmap](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *- Reexportar saídas:* Executa novamente a operação de exportação anterior.\
-*- Exportador de PSD:* Abre[a interface do Exportador de PSD.](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- Exportador de PSD:* Abre a interface do [Exportador de PSD](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md).
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>Cache de imagem de nó\
 </b>Alterna a exibição da alternância de cache de imagem de nó, veja abaixo.
@@ -414,7 +414,7 @@ A barra de ferramentas do nó difere dependendo do tipo de gráfico:
 
 ![Barra de ferramentas de tamanho pai](../../assets/image2020-6-26-17-0-48.png "Barra de ferramentas de tamanho pai")
 
-Esta barra de ferramentas só está disponível em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) e define o [tamanho de saída](../../compositing-graphs/output-size/output-size.md) do *pai* do gráfico, o que afeta o tamanho de saída do gráfico se ele usar o *método de herança [&#x200B; Relativo ao pai*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+Esta barra de ferramentas só está disponível em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) e define o [tamanho de saída](../../compositing-graphs/output-size/output-size.md) do *pai* do gráfico, o que afeta o tamanho de saída do gráfico se ele usar o *método de herança [ Relativo ao pai*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
 Os tamanhos horizontal e vertical são vinculados por padrão, mas podem ser *desvinculados* para texturas não quadradas. Os valores também podem ser redefinidos para o valor padrão de 256 x 256.
 

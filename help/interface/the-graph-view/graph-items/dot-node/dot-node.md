@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: Use nós de ponto e nós de portal no Substance 3D Designer para criar pontos de conexão e organizar o fluxo do gráfico.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nó ponto (também Portal)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-O nó <b>Ponto</b> é um auxiliar que permite simplificar e limpar gráficos redirecionando e agrupando conexões. É especialmente útil para gráficos com muitas conexões longas que se estendem por outras conexões ou nós.
+O nó <b>Ponto</b> é um auxiliar que permite simplificar e limpar gráficos redirecionando e agrupando conexões. É especialmente útil para gráficos com muitas conexões longas que se estendem por outras conexões ou nós.
 
 Um par de nós Ponto pode ser usado como <b>portais</b> para ocultar uma conexão que percorra uma longa distância ou em locais onde o roteamento da conexão seria desafiador.
 
@@ -102,7 +102,7 @@ Pressione ALT e mova um nó Ponto sobre links para mesclar várias conexões de 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Os nós pontos podem ser usados como <b>portais</b> para enviar dados por uma longa distância no gráfico sem ter um link longo e incômodo que prejudique a legibilidade. Isso oculta efetivamente o vínculo entre os nós Ponto.
+Os nós pontos podem ser usados como <b>portais</b> para enviar dados por uma longa distância no gráfico sem ter um link longo e incômodo que prejudique a legibilidade. Isso oculta efetivamente o vínculo entre os nós Ponto.
 
 </td>
 </tr>

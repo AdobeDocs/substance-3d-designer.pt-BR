@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
 description: Saiba como importar e usar os recursos de formato de intercâmbio de aparência AxF no Substance 3D Designer para importação de material.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: AxF (Appearance eXchange Format)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Clique no botão <b>Importar AxF...</b> na seção esquerda de [Tela inicial](..
 
 +++Explorer
 
-Clique em RMB em um pacote no [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e vá para <b>Importar > AxF</b> no menu contextual do pacote.
+Clique em RMB em um pacote no [Explorer](../../interface/the-explorer-window/the-explorer-window.md) e vá para <b>Importar > AxF</b> no menu contextual do pacote.
 
 ![AxF: iniciar importação do Explorer](../../assets/axf_explorer.png "AxF: iniciar importação do Explorer"){width="600px"}
 
@@ -144,7 +144,7 @@ Clique no botão <b>Adicionar modelo</b> e selecione o tipo de gráfico desejado
 Dois tipos de modelos de gráficos de Substance estão disponíveis:
 
 Os modelos <b>AxF para aspereza metálica</b> e <b>AxF para Specular brilhante</b> são *conversão* e permitem mapear materiais AxF para modelos PBR padrão.\
-Eles podem ser usados com os sombreadores de exibição 3D padrão e combinados com outros materiais PBR produzidos no Designer, no [Sampler](https://www.adobe.com/br/products/substance3d-sampler.html) ou adquiridos na nossa biblioteca de [Ativos 3D](https://substance3d.adobe.com/assets/).
+Eles podem ser usados com os sombreadores de exibição 3D padrão e combinados com outros materiais PBR produzidos no Designer, no [Sampler](https://www.adobe.com/products/substance3d-sampler.html) ou adquiridos na nossa biblioteca de [Ativos 3D](https://substance3d.adobe.com/assets/).
 
 O <b>AxF para AxF</b> é um modelo de *passagem* que permite editar os materiais do AxF no local e exportar essas alterações como novas camadas em arquivos AxF existentes. Consulte Exportar arquivos AxF abaixo para saber mais.
 

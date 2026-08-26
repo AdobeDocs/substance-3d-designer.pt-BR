@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ''
 description: ''
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Saída
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -49,11 +49,11 @@ Todo gráfico de Substance deve ter *pelo menos um* nó de saída. Se não houve
 
 |  |  |
 | --- | --- |
-| <b>Identificador</b> *Cadeia de Caracteres* | O identificador exclusivo da saída. Esta propriedade não pode ser deixada em branco e não pode conter caracteres especiais ou espaços.   O identificador é usado porque o rótulo do nó é a propriedade &#39;Label&#39; deixada em branco. Ele também pode ser usado para nomear [texturas exportadas](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
+| <b>Identificador</b> *Cadeia de Caracteres* | O identificador exclusivo da saída. Esta propriedade não pode ser deixada em branco e não pode conter caracteres especiais ou espaços.   O identificador é usado porque o rótulo do nó é a propriedade &#39;Label&#39; deixada em branco. Ele também pode ser usado para nomear [texturas exportadas](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Descrição</b> *Cadeia de Caracteres* | A descrição opcional usada como dica de ferramenta da saída é Substance graphics. |
 | <b>Rótulo</b> *Cadeia de Caracteres* | Isso é usado como um rótulo para o nó de saída e seu conector correspondente nos [nós de instância](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) que representam esse gráfico. O rótulo pode conter espaços e caracteres especiais. |
-| <b>Dados do usuário</b> *Cadeia de Caracteres* | Metadados opcionais que podem ser usados para operações de filtragem específicas. O [Substance 3D Painter](https://www.adobe.com/br/products/substance3d/apps/painter.html) usa esses dados para [orientar alguns recursos](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
-| <b>Grupo</b> *Cadeia de Caracteres* | Atributo usado para agrupar saídas para os [modos de criação de link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) do Designer.   Saídas com um atributo &#39;Group&#39; idêntico são apresentadas como uma única conexão no modo de criação de link &#39;Compact Material&#39;. |
+| <b>Dados do usuário</b> *Cadeia de Caracteres* | Metadados opcionais que podem ser usados para operações de filtragem específicas. O [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) usa esses dados para [orientar alguns recursos](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
+| <b>Grupo</b> *Cadeia de Caracteres* | Atributo usado para agrupar saídas para os [modos de criação de link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) do Designer.   Saídas com um atributo &#39;Group&#39; idêntico são apresentadas como uma única conexão no modo de criação de link &#39;Compact Material&#39;. |
 
 ## Atributos de integração
 
@@ -66,7 +66,7 @@ Dessa forma, eles não têm impacto no formato de [exportações de bitmap](../.
 |  |  |
 | --- | --- |
 | <b>Componente</b> *Cadeia de Caracteres* | Usado para mapear alguns canais de textura para as entradas de sombreador SVBRDF apropriadas em fluxos de trabalho do AxF. |
-| <b>Uso</b> *Cadeia de Caracteres* | Define o tipo e o uso do nó de saída. Essa propriedade é importante, pois conduz:<ul data-preserve-html="true"> <li data-preserve-html="true">Conexão de nós em gráficos de Substance ao usar alguns [modos de criação de link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Conexão de texturas a sombreadores na Exibição 3D (veja abaixo: &#39;[Sobre a função de usos na Exibição 3D](#usages-role-3dview)&#39;)</li> <li data-preserve-html="true">Conexão de texturas com materiais em integrações/plug-ins</li> </ul> |
+| <b>Uso</b> *Cadeia de Caracteres* | Define o tipo e o uso do nó de saída. Essa propriedade é importante, pois conduz:<ul data-preserve-html="true"> <li data-preserve-html="true">Conexão de nós em gráficos de Substance ao usar alguns [modos de criação de link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Conexão de texturas a sombreadores na Exibição 3D (veja abaixo: &#39;[Sobre a função de usos na Exibição 3D](#usages-role-3dview)&#39;)</li> <li data-preserve-html="true">Conexão de texturas com materiais em integrações/plug-ins</li> </ul> |
 | <b>Espaço de cores</b> *Cadeia de Caracteres* | Define o espaço de cores no qual esta saída deve ser interpretada. É usado por algumas integrações em outros aplicativos e não tem impacto no Designer. |
 
 ### Sobre a função de usos na Visualização 3D

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
 breadcrumb-title: ''
 description: Use o nó Criar paleta de cores para extrair uma paleta de 16 cores de texturas para efeitos estilizados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Criar paleta de cores (16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 1%
@@ -67,8 +67,8 @@ Este nó pode ser usado em combinação com os seguintes nós: [Quantificar cor]
 
 |  |  |
 | --- | --- |
-| <b>Paleta</b> *Cor* PRIMÁRIA | Uma lista ordenada de cores de RGB codificadas como uma linha de pixels. A paleta pode conter no máximo 256 cores.   Essa entrada é opcional. Se usadas, as cores configuradas pelo nó serão anexadas a esta paleta.   A paleta pode ser visualizada com o nó [Exibir paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
-| <b>Quantidade de cores da paleta</b> *Inteiro* | A quantidade de cores armazenadas na paleta.   Se esse número não corresponder à quantidade real de cores na entrada da imagem da “Paleta”, a visualização poderá estar incompleta ou ter mais slots em branco do que o absolutamente necessário. |
+| <b>Paleta</b> *Cor* PRIMÁRIA | Uma lista ordenada de cores de RGB codificadas como uma linha de pixels. A paleta pode conter no máximo 256 cores.   Essa entrada é opcional. Se usadas, as cores configuradas pelo nó serão anexadas a esta paleta.   A paleta pode ser visualizada com o nó [Exibir paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
+| <b>Quantidade de cores da paleta</b> *Inteiro* | A quantidade de cores armazenadas na paleta.   Se esse número não corresponder à quantidade real de cores na entrada da imagem da “Paleta”, a visualização poderá estar incompleta ou ter mais slots em branco do que o absolutamente necessário. |
 
 ## Conectores de saída
 
@@ -82,7 +82,7 @@ Este nó pode ser usado em combinação com os seguintes nós: [Quantificar cor]
 |  |  |
 | --- | --- |
 | <b>Quantidade de cores</b> *Inteiro* | A quantidade de cores que devem ser adicionadas à paleta. |
-| <b>Cor #</b> *Flutuante3* *Quantos parâmetros estão disponíveis como o valor &#39;Quantidade de cores&#39;* | Uma cor que deve ser adicionada à paleta.   As cores são adicionadas à paleta na mesma ordem da lista numerada. |
+| <b>Cor #</b> *Flutuante3* *Quantos parâmetros estão disponíveis como o valor &#39;Quantidade de cores&#39;* | Uma cor que deve ser adicionada à paleta.   As cores são adicionadas à paleta na mesma ordem da lista numerada. |
 
 ## Exemplos
 

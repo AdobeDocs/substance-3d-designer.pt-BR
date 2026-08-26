@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Saiba como ativar e gerenciar licenças do Substance 3D Designer para acessar todos os recursos e capacidades.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ativação e licenças
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ O processo de ativação depende de onde você adquiriu ou tem acesso ao Designe
 
 | Edição | Processo de ativação |
 | --- | --- |
-| Creative Cloud para desktop | Consulte a página dedicada na [documentação do HelpX](https://helpx.adobe.com/br/support/substance-3d-designer.html). Caso haja problemas, a [documentação do Creative Cloud](https://helpx.adobe.com/br/creative-cloud/user-guide.html) poderá fornecer respostas adicionais. |
+| Creative Cloud para desktop | Consulte a página dedicada na [documentação do HelpX](https://helpx.adobe.com/support/substance-3d-designer.html). Caso haja problemas, a [documentação do Creative Cloud](https://helpx.adobe.com/creative-cloud/user-guide.html) poderá fornecer respostas adicionais. |
 | Vapor | Inicie o produto diretamente da biblioteca do Steam. |
 | Substance (autônomo) | Consulte o processo de ativação descrito abaixo. |
 
@@ -36,7 +36,7 @@ Há três opções disponíveis:
 
 * <b>Avalie este produto</b>: as versões de avaliação herdadas não estão mais disponíveis. Em vez disso, você pode iniciar uma avaliação de 30 dias para cada aplicativo da Substance 3D [aqui](https://www.adobe.com/creativecloud/3d-augmented-reality.html) ou com o Creative Cloud Desktop. Cada versão de avaliação é independente dos outros aplicativos da Substance 3D, portanto você pode experimentá-los um de cada vez ou todos de uma vez.
 * <b>Ativar usando um arquivo de licença</b>: ative o produto com um arquivo de licença (<b>\*.key</b>) baixado da página da sua conta no [site da Substance 3D](https://store.substance3d.com/user) antes de 30 de setembro de 2022.
-* <b>Ative usando sua conta</b>: contas do substance herdadas não podem mais ser usadas para ativação. [Mais informações sobre contas Substance estão disponíveis aqui](https://helpx.adobe.com/br/substance-3d/unlisted/faq-end-of-life-accounts.html).
+* <b>Ative usando sua conta</b>: contas do substance herdadas não podem mais ser usadas para ativação.
 
 >[!IMPORTANT]
 >

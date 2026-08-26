@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: Saiba mais sobre as diretrizes de otimização de desempenho para o Substance 3D Designer para melhorar o desempenho do gráfico e reduzir o tempo de processamento.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Diretrizes de otimização de desempenho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ As operações de cor demoram quatro vezes mais do que as operações em tons de
 +++
 
 +++Usar 8 bits quando não for necessário usar 16 bits
-Na verdade, a versão de CPU do Substance Engine (SSE2) *não* é compatível com cores de 16 bits ou tons de cinza de 8 bits. O mecanismo de GPU é compatível com todas as 4 combinações de 8/16 bits e escala de cinza/cor. *Atualmente, apenas o mecanismo da CPU é usado nos plug-ins Unity e Unreal Engine*.
+Na verdade, a versão de CPU do Substance Engine (SSE2) *não* é compatível com cores de 16 bits ou tons de cinza de 8 bits. O mecanismo de GPU é compatível com todas as 4 combinações de 8/16 bits e escala de cinza/cor. *Atualmente, apenas o mecanismo da CPU é usado nos plug-ins Unity e Unreal Engine*.
 
 +++
 
@@ -141,7 +141,7 @@ Dessa forma, o tamanho do bitmap será alterado com base no gráfico pai, e voc�
 
 >[!WARNING]
 >
-> Definir um nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) como “Relativo ao pai” e [publicar](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) o gráfico em um ativo do Substance 3D (SBSAR) salvará o bitmap em uma resolução de **256x256** em vez do tamanho original. Em vez disso, é aconselhável manter o [método de herança](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) dos nós de Bitmap&#39; [Tamanho de Saída](../../compositing-graphs/output-size/output-size.md) como &#39;Absoluto&#39; e usar um nó [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) definido como &#39;Relativo ao pai&#39; logo após o nó de Bitmap.
+> Definir um nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) como “Relativo ao pai” e [publicar](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) o gráfico em um ativo do Substance 3D (SBSAR) salvará o bitmap em uma resolução de **256x256** em vez do tamanho original. Em vez disso, é aconselhável manter o [método de herança](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) dos nós de Bitmap&#39; [Tamanho de Saída](../../compositing-graphs/output-size/output-size.md) como &#39;Absoluto&#39; e usar um nó [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) definido como &#39;Relativo ao pai&#39; logo após o nó de Bitmap.
 
 ![Otimização de bitmaps incorporados 1](../../assets/input-1.jpg "Otimização de bitmaps incorporados 1")
 
@@ -151,7 +151,7 @@ Dessa forma, o tamanho do bitmap será alterado com base no gráfico pai, e voc�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Além disso, é aconselhável definir o formato dos recursos de Bitmap como Jpeg para minimizar o tamanho dos [ativos publicados](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) do Substance 3D (SBSAR).
+Além disso, é aconselhável definir o formato dos recursos de bitmap para Jpeg para minimizar o tamanho dos ativos do Substance 3D publicados (SBSAR).
 
 </td>
 <td style="border: 0;" valign="top">

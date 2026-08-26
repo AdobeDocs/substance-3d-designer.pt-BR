@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
 breadcrumb-title: ''
 description: Use o nó Forma de onda 1 para gerar padrões de forma de onda para criar texturas orgânicas e variações de procedimentos.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Forma de onda 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 2%
+source-wordcount: '350'
+ht-degree: 1%
 
 ---
 
@@ -43,26 +43,6 @@ Uma organização horizontal de padrões selecionados pelo usuário empilhados e
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Saídas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
-
 ## Saídas
 
 |  |  |
@@ -74,8 +54,8 @@ Uma organização horizontal de padrões selecionados pelo usuário empilhados e
 |  |  |
 | --- | --- |
 | <b>Amostras</b> Inteiro | A quantidade de padrões colocados ao longo do eixo X para desenhar a forma de onda, onde um valor mais baixo resulta em uma aparência mais passo a passo. |
-| <b>Função</b> Inteiro | A função usada para desenhar a forma de onda.   Controla o tamanho vertical do padrão colocado em cada amostra:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Ruído de valor:</i> uma distribuição aleatória de valores</li> <li data-preserve-html="true"><i>Cosseno:</i> os valores seguem a progressão de uma função de cosseno</li> <li data-preserve-html="true"><i>Função personalizada:</i> use uma função de autoria do usuário para direcionar os valores</li> </ul> |
-| <b>Função personalizada</b> Flutuante *Disponível quando &#39;Função&#39; está definido como &#39;Função personalizada&#39;* | Calcula o tamanho vertical do padrão colocado em cada amostra.   Variáveis disponíveis:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>pos</b> (<i>float</i>) A posição do padrão no eixo X. Isso pode ser usado para selecionar padrões.</li> </ul> |
+| <b>Função</b> Inteiro | A função usada para desenhar a forma de onda.   Controla o tamanho vertical do padrão colocado em cada amostra:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Ruído de valor:</i> uma distribuição aleatória de valores</li> <li data-preserve-html="true"><i>Cosseno:</i> os valores seguem a progressão de uma função de cosseno</li> <li data-preserve-html="true"><i>Função personalizada:</i> use uma função de autoria do usuário para direcionar os valores</li> </ul> |
+| <b>Função personalizada</b> Flutuante *Disponível quando &#39;Função&#39; está definido como &#39;Função personalizada&#39;* | Calcula o tamanho vertical do padrão colocado em cada amostra.   Variáveis disponíveis:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>pos</b> (<i>float</i>) A posição do padrão no eixo X. Isso pode ser usado para selecionar padrões.</li> </ul> |
 | <b>Aspereza</b> flutuante | Interpola entre uma forma de onda limpa e suave com uma mais áspera e distribuída uniformemente.    Isso pode ser considerado um sinal limpo vs. ruído branco. |
 | <b>Escala</b> Inteiro | A extensão horizontal da forma de onda visível na imagem. |
 | <b>Amplitude mínima</b>  Float | O valor mínimo (ou thickness) da forma de onda. |

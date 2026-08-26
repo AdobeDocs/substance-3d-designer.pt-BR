@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ''
 description: Use o nó SVG para importar e renderizar gráficos vetoriais SVG como texturas para criar elementos gráficos dimensionáveis.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -99,8 +99,8 @@ Você pode criar o nó do zero ou soltar um arquivo de SVG na visualização Gr�
 |  |  |
 | --- | --- |
 | <b>Modo de cores</b> *Booleano* | Determina o tipo de saída do nó, para retornar em cor ou em escala de cinza. |
-| <b>Cor do plano de fundo</b> *Cores/Tons de Cinza* | Define a cor de fundo da imagem de saída para usar em áreas não cobertas por uma forma vetorial.   *É substituído pela entrada &#39;[Background](#inputs)&#39; quando essa entrada está conectada.* |
-| <b>Caminho do recurso PKG</b> *Cadeia de Caracteres* | Caminho para o [recurso SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) que está sendo referenciado pelo nó.   É recomendável não digitar manualmente, mas copiar um recurso do explorador e colá-lo no campo de texto de parâmetro ou arrastar e soltar um recurso de bitmap diretamente do [Explorador](../../../../interface/the-explorer-window/the-explorer-window.md) para o nó SVG no gráfico. |
+| <b>Cor do plano de fundo</b> *Cores/Tons de Cinza* | Define a cor de fundo da imagem de saída para usar em áreas não cobertas por uma forma vetorial.   *É substituído pela entrada &#39;[Background](#inputs)&#39; quando essa entrada está conectada.* |
+| <b>Caminho do recurso PKG</b> *Cadeia de Caracteres* | Caminho para o [recurso SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) que está sendo referenciado pelo nó.   É recomendável não digitar manualmente, mas copiar um recurso do explorador e colá-lo no campo de texto de parâmetro ou arrastar e soltar um recurso de bitmap diretamente do [Explorador](../../../../interface/the-explorer-window/the-explorer-window.md) para o nó SVG no gráfico. |
 
 ## Ferramentas de edição de vetor
 
@@ -110,7 +110,7 @@ Formas vetoriais podem ser editadas no Designer. Saiba mais sobre as ferramentas
 
 |  |  |
 | --- | --- |
-| <b>Fundo</b> *Tons de Cinza/Cor* PRIMÁRIO | Define a cor de fundo da imagem de saída para usar em áreas não cobertas por uma forma vetorial.   *Substitui o parâmetro &#39;[Cor do plano de fundo](#parameters)&#39; quando conectado.* |
+| <b>Fundo</b> *Tons de Cinza/Cor* PRIMÁRIO | Define a cor de fundo da imagem de saída para usar em áreas não cobertas por uma forma vetorial.   *Substitui o parâmetro &#39;[Cor do plano de fundo](#parameters)&#39; quando conectado.* |
 
 ## Conectores de saída
 

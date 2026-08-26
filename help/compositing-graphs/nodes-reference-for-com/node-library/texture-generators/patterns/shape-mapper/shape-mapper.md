@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
 breadcrumb-title: ''
 description: Use o nó Mapeador de formas para mapear formas em texturas com transformações e posicionamento personalizáveis.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapeador de formas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 3%
@@ -88,8 +88,8 @@ A projeção deforma a imagem para seguir o contorno da forma e faz com que ela 
 | --- | --- |
 | <b>Forma</b> Inteiro | Define o tipo de forma ao longo do qual os padrões devem ser colocados:<ul data-preserve-html="true"> <li data-preserve-html="true">Círculo</li> <li data-preserve-html="true">Polígono</li> </ul> |
 | <b>Valor padrão</b> Inteiro | A quantidade de padrões colocados ao longo da forma selecionada. |
-| <b>Vincular segmentos com valor de padrão</b> Booleano *Disponível quando &#39;Forma&#39; estiver definido como &#39;Polígono&#39;* | Use o <b>Valor do padrão</b> como o número de <b>Segmentos</b>.   Isso evita que os padrões envolvam cantos, garantindo um aspecto reto e consistente. |
-| <b>Segmentos</b> Inteiro *Disponível quando &#39;Forma&#39; está definido como &#39;Polígono&#39; e &#39;Vincular segmentos com valor de padrão&#39; está definido como &#39;Falso&#39;* | A quantidade de segmentos para o polígono ao longo do qual os padrões são colocados.   Os segmentos são *dimensionados uniformemente*, e todos os vértices estão *equidistantes do centro*, de modo que o aumento da quantidade de segmentos faz com que o polígono convirja em direção a um círculo. |
+| <b>Vincular segmentos com valor de padrão</b> Booleano *Disponível quando &#39;Forma&#39; estiver definido como &#39;Polígono&#39;* | Use o <b>Valor do padrão</b> como o número de <b>Segmentos</b>.   Isso evita que os padrões envolvam cantos, garantindo um aspecto reto e consistente. |
+| <b>Segmentos</b> Inteiro *Disponível quando &#39;Forma&#39; está definido como &#39;Polígono&#39; e &#39;Vincular segmentos com valor de padrão&#39; está definido como &#39;Falso&#39;* | A quantidade de segmentos para o polígono ao longo do qual os padrões são colocados.   Os segmentos são *dimensionados uniformemente*, e todos os vértices estão *equidistantes do centro*, de modo que o aumento da quantidade de segmentos faz com que o polígono convirja em direção a um círculo. |
 | <b>Raio</b> flutuante | Um multiplicador para o raio da forma, onde 1,0 é metade do comprimento do lado mais curto da imagem. |
 | Flutuação de <b>Largura</b> | Um multiplicador para a largura dos padrões ao longo da forma, onde 1,0 é metade do comprimento do lado mais curto da imagem. |
 | <b>Rotação</b> Flutuante | O valor de rotação aplicado à forma, em número de voltas no sentido horário a partir da direita horizontal. |

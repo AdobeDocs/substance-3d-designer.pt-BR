@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
 breadcrumb-title: ''
 description: Use o nó Distância direcional para calcular campos de distância em direções específicas para efeitos de procedimento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distância direcional
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -71,16 +71,16 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 
 |  |  |
 | --- | --- |
-| <b>Entrada</b> *Tons de cinza* PRIMÁRIO | A imagem da qual a máscara deve ser extraída.   Todos os valores acima de 0,5 são brancos nessa máscara. |
-| <b>Mapa de distância</b> *Tons de cinza* | Uma entrada opcional usada quando o valor do parâmetro &#39;Mapa de distância Multiplier&#39; é maior que 0.   É usado para ajustar a distância de chanfro/dilatação ao longo das bordas da máscara, onde um valor mais escuro resulta em uma distância mais curta. |
-| <b>Mapa de ângulo</b> *Tons de cinza* | Uma entrada opcional usada quando o valor do parâmetro &#39;Angle Map Multiplier&#39; é maior que 0.   É usado para ajustar a direção do gradiente de distância adicionando seu valor ao ângulo de direção, em número de voltas.   O parâmetro &#39;Deslocamento do mapa de ângulo&#39; permite remapear os valores especificando qual valor é 0. |
+| <b>Entrada</b> *Tons de cinza* PRIMÁRIO | A imagem da qual a máscara deve ser extraída.   Todos os valores acima de 0,5 são brancos nessa máscara. |
+| <b>Mapa de distância</b> *Tons de cinza* | Uma entrada opcional usada quando o valor do parâmetro &#39;Mapa de distância Multiplier&#39; é maior que 0.   É usado para ajustar a distância de chanfro/dilatação ao longo das bordas da máscara, onde um valor mais escuro resulta em uma distância mais curta. |
+| <b>Mapa de ângulo</b> *Tons de cinza* | Uma entrada opcional usada quando o valor do parâmetro &#39;Angle Map Multiplier&#39; é maior que 0.   É usado para ajustar a direção do gradiente de distância adicionando seu valor ao ângulo de direção, em número de voltas.   O parâmetro &#39;Deslocamento do mapa de ângulo&#39; permite remapear os valores especificando qual valor é 0. |
 
 ## Conectores de saída
 
 |  |  |
 | --- | --- |
 | <b>Saída</b> *Tons de cinza* | A imagem resultante de acordo com o &#39;Modo de saída&#39; selecionado. |
-| <b>UV</b> *Cor* | Um mapa de UV em que os UVs são dilatados das bordas da máscara ao longo da direção especificada.   Isso pode ser conectado a um nó [Mapeador UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) para mapear qualquer outra imagem usando esses UVs dilatados. |
+| <b>UV</b> *Cor* | Um mapa de UV em que os UVs são dilatados das bordas da máscara ao longo da direção especificada.   Isso pode ser conectado a um nó [Mapeador UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) para mapear qualquer outra imagem usando esses UVs dilatados. |
 
 ## Parâmetros
 
@@ -89,9 +89,9 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 | <b>Modo de saída</b> *Inteiro* | O método de desenhar o gradiente de distância das bordas da máscara:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Distância Normalizada Invertida:</b> um gradiente de 1 a 0, em que 0 é atingido na &#39;Distância Máxima&#39;, multiplicado pelo &#39;Mapa de distância&#39;, se conectado</li> <li data-preserve-html="true"><b>Distância:</b> um gradiente de valores de distância brutos da borda da máscara, onde 1 é o comprimento do lado mais curto da imagem de entrada</li> </ul> |
 | <b>Distância máxima</b> *Flutuante* | A distância percorrida pelo gradiente de distância, no espaço normalizado da imagem, em que 1 é o comprimento do lado mais curto da imagem de entrada. |
 | <b>Ângulo</b> *Flutuante* | A direção do gradiente de distância em número de voltas, onde 0 é horizontal e à direita - ou seja, um vetor (1,0). |
-| <b>Multiplicador de Mapa de distância</b> *Flutuante* | Ajusta o impacto do &#39;Mapa de distância&#39; sobre a &#39;Distância máxima&#39;.   Observação: este parâmetro não tem efeito quando a entrada &#39;Mapa de distância&#39; não está conectada. |
+| <b>Multiplicador de Mapa de distância</b> *Flutuante* | Ajusta o impacto do &#39;Mapa de distância&#39; sobre a &#39;Distância máxima&#39;.   Observação: este parâmetro não tem efeito quando a entrada &#39;Mapa de distância&#39; não está conectada. |
 | <b>Multiplicador de mapa de ângulo</b> *Flutuante* | Ajusta o impacto do “Mapa de ângulo” sobre o “Ângulo”. |
-| <b>Deslocamento do mapa de ângulos</b> *Flutuante* | Mapeia novamente os valores no “Mapa de ângulo” especificando qual valor nesse mapa deve ser 0.   Por exemplo, um deslocamento de 0,5 significa que um valor de 0,75 é 0,25 voltas, e um valor de 0,3 é -0,2 voltas. |
+| <b>Deslocamento do mapa de ângulos</b> *Flutuante* | Mapeia novamente os valores no “Mapa de ângulo” especificando qual valor nesse mapa deve ser 0.   Por exemplo, um deslocamento de 0,5 significa que um valor de 0,75 é 0,25 voltas, e um valor de 0,3 é -0,2 voltas. |
 
 ## Exemplos
 

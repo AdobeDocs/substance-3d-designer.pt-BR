@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
 breadcrumb-title: ''
 description: Use o nó Mín. máx. para fixar valores de textura entre limites mínimos e máximos para controlar intervalos de valores.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Mín. máx.
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '106'
 ht-degree: 1%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 1%
 
 ## Descrição
 
-O Mín. Máx. localiza os valores mais claros e mais escuros de uma entrada em Tons de Cinza e os retorna como [Valores](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html). Sua finalidade é ser uma alternativa manual e mais granular para [Níveis automáticos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md), nos quais você expõe as Entradas de valor de um nó de [Níveis](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)e conecta os valores do Mín. Máx. nele.
+O Mín. Máx. localiza os valores mais claros e mais escuros de uma entrada em Tons de Cinza e os retorna como [valores](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md). Sua finalidade é ser uma alternativa manual e mais granular para [Níveis automáticos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md), nos quais você expõe as Entradas de valor de um nó de [Níveis](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)e conecta os valores do Mín. Máx. nele.
 
-Para usar este nó com Níveis, você deve pelo menos saber como usar o [Menu suspenso Parâmetro de Exposição](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), bem como a [Guia Entrada de Valor](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html).
+Para usar este nó com Níveis, você deve pelo menos saber como usar o [Menu suspenso Parâmetro de Exposição](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), bem como a [guia de entrada Valor](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 ## Parâmetros
 
