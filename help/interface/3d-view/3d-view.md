@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Use a visualização 3D no Substance 3D Designer para visualizar materiais em objetos 3D e testar condições de iluminação.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Visualização 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 88555fe2352e6ab9408fb2364dbb5aad3682bf57
+source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
 workflow-type: tm+mt
-source-wordcount: '3450'
+source-wordcount: '3561'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,12 @@ A visualização 3D também fornece dois métodos principais de renderização d
 * Renderizações de rastreamento de raios de alta qualidade com renderizador **GPU Pathtracer**
 
 Saiba mais aqui: [renderizadores 3D](3d-renderers/3d-renderers.md)
+
++++ O encaixe da visualização 3D
+
+![exibição-3d.png](3d-view.resources/3d-view.png)
+
++++
 
 ## Interações do visor
 
@@ -122,9 +128,9 @@ No modo Câmera <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /
 
 Para exibir todas as saídas de um gráfico, clique em *RMB* em uma área vazia na [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) e escolha a opção **Exibir saídas na exibição 3D** no menu contextual.
 
-Você também pode exibir as saídas de um gráfico sem precisar abri-lo, clicando em RMB em um recurso de gráfico no encaixe do [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e escolhendo a opção **Exibir Saídas no Modo de Exibição 3D** no menu contextual.
+Você também pode exibir as saídas de um gráfico sem precisar abri-lo, clicando em RMB em um recurso de gráfico no encaixe do [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e escolhendo a opção **Exibir Saídas no Modo de Exibição 3D** no menu contextual.
 
-Como alternativa ao menu contextual do gráfico, você pode obter o mesmo resultado arrastando o gráfico do encaixe do [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) para a [Exibição 3D](https://substance3d.adobe.com/).
+Como alternativa ao menu contextual do gráfico, você pode obter o mesmo resultado arrastando o gráfico do encaixe do [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) para a [Exibição 3D](https://substance3d.adobe.com/).
 
 Ao *carregar um gráfico*, suas saídas são aplicadas automaticamente na Exibição 3D por padrão. Você pode desabilitar esse comportamento em [Preferências](../../interface/preferences-window/preferences-window.md). Vá para **Editar > Preferências > Gráfico > Comum** e desmarque a opção **Exibir saídas na exibição 3D ao abrir um gráfico**.
 
@@ -144,7 +150,7 @@ Você pode exibir qualquer nó, não apenas os nós de saída, clicando com o bo
 
 Você também pode usar *RMB* para arrastar e soltar qualquer nó da exibição Gráfico para a exibição 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
 
-Você pode exibir qualquer saída de gráfico individual expandindo o recurso de gráfico no encaixe do [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e usando o *LMB* para arrastar essa saída para a Exibição 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
+Você pode exibir qualquer saída de gráfico individual expandindo o recurso de gráfico no encaixe do [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e usando o *LMB* para arrastar essa saída para a Exibição 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
 
 ![Visualização de malhas 3D personalizadas](../../assets/3d-mesh.gif "Visualização de malhas 3D personalizadas")
 
@@ -215,7 +221,7 @@ Para exportar a malha de Exibição 3D, vá para <b>Cena > Exportar malha em mos
 >
 > **TDR (somente Windows)**
 > 
-> Este recurso requer que o <b>Timeout Detection and Recovery (TDR)</b> corresponda aos valores recomendados em [esta página](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) da nossa documentação, conforme estabelecido nos [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) da Designer.
+> Este recurso requer que o <b>Timeout Detection and Recovery (TDR)</b> corresponda aos valores recomendados em [esta página](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) da nossa documentação, conforme estabelecido nos [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) da Designer.
 
 ## Barra de menus
 
@@ -260,7 +266,7 @@ O menu <b>Cena</b> lida com a geometria (Recurso 3D) exibida e com os estados de
 
 * Torus
 
-<b>Exibir UVs na Visualização 2D:</b> permite a exibição dos UVs para a malha atualmente selecionada como uma sobreposição na [Visualização 2D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) .
+<b>Exibir UVs na Visualização 2D:</b> permite a exibição dos UVs para a malha atualmente selecionada como uma sobreposição na [Visualização 2D](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) .
 
 <b>Criar recurso 3D da cena atual...:</b> cria um novo [recurso de cena 3D](../../resources/3d-scene-resource/3d-scene-resource.md) em um pacote fora da cena atual.
 
@@ -299,7 +305,7 @@ O menu “Materiais” apresenta uma lista de todos os materiais atribuídos a u
 
 <b>Carregar Definição...: </b>(somente renderizador OpenGL) Permite carregar seu próprio sombreador [GLSLFX personalizado.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) O sombreador é adicionado à lista acima.
 
-<b>Redefinir parâmetros comuns:</b> redefine todos os parâmetros que são comuns entre sombreadores. Por exemplo, ao alternar entre os renderizadores Rasterizer/GPU Pathtracer e OpenGL, vários valores de parâmetro no [Material padrão da Adobe](https://experienceleague.adobe.com/pt-br/docs/substance-3d/general-knowledge/asm/adobe-standard-material) são transportados.
+<b>Redefinir parâmetros comuns:</b> redefine todos os parâmetros que são comuns entre sombreadores. Por exemplo, ao alternar entre os renderizadores Rasterizer/GPU Pathtracer e OpenGL, vários valores de parâmetro no [Material padrão da Adobe](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) são transportados.
 
 <b>Renomear:</b> altere o rótulo deste material.
 
@@ -548,7 +554,23 @@ A barra de ferramentas <b>Exibição</b>, localizada na *parte inferior* do pain
 
 >[!NOTE]
 >
-> A barra de ferramentas pode ser *reposicionada* em torno do encaixe **3**&#x200B;**&#x200B; D de exibição** usando a *alça* mais à esquerda representada por três linhas paralelas.
+> A barra de ferramentas pode ser *reposicionada* em torno do encaixe da **Visualização 3D** usando a *alça* mais à esquerda representada por três linhas paralelas.
+
+### Renderização 3D de AOVs
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0; vertical-align: top">
+        <td style="border: 0">
+            <p>Você pode exibir <a href="../../glossary/glossary.md#aov">AOVs</a> diferentes usando o botão <img src="./3d-view.resources/aov/aov-icon.png" alt="Ícone de AOVs de renderização 3D" style="padding-left: 5px; padding-right: 5px" /> <b>AOVs de renderização 3D</b>.</p>
+            <p>As AOVs permitem inspecionar as informações de malha e material isoladamente para trabalho e depuração focados.</p>
+            <p>Algumas AOVs incluem <i>valores HDR</i> que estão fixados em 1 (branco puro) ou 0 (preto puro) no visor.<br>Para inspecionar o intervalo completo de valores, você pode exportar uma renderização 3D da AOV para um formato de arquivo de imagem que ofereça suporte a valores HDR, como <code>.exr</code>.<br>Use a opção de menu <code>Camera > Save render...</code> para exportar a AOV atual.</p>
+            <p><i>Observação:</i> as AOVs só estão disponíveis ao usar o Rasterizador e os <a href="./3d-renderers/3d-renderers.md">renderizadores 3D GPU Pathtracer</a>.</p>
+        </td>
+        <td style="width: 33%; border: 0">
+            <img src="3d-view.resources/aov/aov-composited.jpg" alt="AOVs de renderização 3D compostos" />
+        </td>
+    </tr>
+</table>
 
 ### Canais de cores
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: Acesse o glossário do Substance 3D Designer para encontrar definições de termos, conceitos e terminologia técnica.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Glossário
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 264bcb3675b4cc1d6819c06b881ea616a817dd4b
 workflow-type: tm+mt
-source-wordcount: '4459'
+source-wordcount: '4489'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 # Saiba mais sobre os termos e conceitos usados no Designer.
 
-## #&#x200B;
+## #
 
 |  |  |
 | --- | --- |
-| <b><span id="three-d-scene"></span>Cena 3D</b> | Uma coleção de objetos e dados envolvidos na representação e animação de uma visualização de espaço 3D:<ul data-preserve-html="true"> <li data-preserve-html="true">[Malhas](#mesh)</li> <li data-preserve-html="true">[Materiais](#material)</li> <li data-preserve-html="true">Câmeras</li> <li data-preserve-html="true">Luzes</li> <li data-preserve-html="true">Animação</li> <li data-preserve-html="true">Simulações</li> <li data-preserve-html="true">...</li> </ul>Os [formatos de arquivo populares](https://www.adobe.com/br/products/substance3d/discover/3d-files-formats.html) para armazenar cenas 3D incluem o [USD](#usd) da Pixar e o FBX da Autodesk. Nem todos os formatos de arquivo são compatíveis com todos esses componentes |
+| <b><span id="three-d-scene"></span>Cena 3D</b> | Uma coleção de objetos e dados envolvidos na representação e animação de uma visualização de espaço 3D:<ul data-preserve-html="true"> <li data-preserve-html="true">[Malhas](#mesh)</li> <li data-preserve-html="true">[Materiais](#material)</li> <li data-preserve-html="true">Câmeras</li> <li data-preserve-html="true">Luzes</li> <li data-preserve-html="true">Animação</li> <li data-preserve-html="true">Simulações</li> <li data-preserve-html="true">...</li> </ul>Os [formatos de arquivo populares](https://www.adobe.com/products/substance3d/discover/3d-files-formats.html) para armazenar cenas 3D incluem o [USD](#usd) da Pixar e o FBX da Autodesk. Nem todos os formatos de arquivo são compatíveis com todos esses componentes |
 
 ## A
 
@@ -33,6 +33,7 @@ ht-degree: 1%
 | <b><span id="alpha"></span>canal de Alpha</b> | O quarto canal de uma imagem colorida, geralmente usado para descrever a opacidade. |
 | <b><span id="ambient-occlusion"></span>oclusão de ambiente</b> | A atenuação da luz ambiente em superfícies menos expostas e, portanto, mais difíceis de alcançar. |
 | <b><span id="anisotropy"></span>Anisotropia</b> | A propriedade de ser dependente da direção. Em outras palavras, fornecer um resultado diferente quando medido ou observado em um eixo diferente.   Os materiais anisotrópicos têm uma aparência diferente dependendo de onde são observados, e os filtros anisotrópicos não são aplicados uniformemente em todas as direções. |
+| <b><span id="aov" ></span>AOV</b> | A AOV (Variável de Saída Arbitrária) é um termo usado na [renderização](#rendering) para descrever canais de dados adicionais que podem ser exportados de uma renderização, como profundidade, normais ou dados personalizados. |
 | <b><span id="api"></span>API</b> | Uma Interface de Programação de Aplicativo (API) é um conjunto de funções e procedimentos que permite aos usuários acessar as funções e procedimentos de outro aplicativo do programa.   Uma API fornece uma camada controlada e segura entre o usuário e um programa. Ele também pode usar outra linguagem de programação para tornar esse programa mais fácil de interagir e mais amplamente acessível.   O Designer oferece uma [API Python](../scripting/scripting.md) que fornece acesso fácil a uma ampla variedade de recursos para manipular dados, criar ferramentas personalizadas e acelerar fluxos de trabalho. |
 | <b><span id="atomic-node"></span>Nó atômico</b> | Os blocos de construção fundamentais do gráfico. Todos os [nós de instância](#instance-node) podem ser divididos em gráficos de nós atômicos. Cada tipo de grafo tem seu próprio conjunto de nós atômicos. |
 
