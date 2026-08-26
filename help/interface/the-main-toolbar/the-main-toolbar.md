@@ -94,7 +94,7 @@ Esta página descreve a barra de ferramentas principal e o menu do [Substance 3D
 * <b>Localizar o Player...:</b> informe ao Designer onde o Player está instalado;
 * <b>Baixar Player...:</b> abre a [página de aterrissagem](https://helpx.adobe.com/substance-3d-player/home.html) da documentação do Substance Player, onde o Player pode ser baixado.
 
-<b>Gerenciador de plug-ins...</b>: abre a janela Gerenciador de plug-ins, onde você pode instalar, carregar e descarregar plug-ins Python para o Substance 3D Designer.](../../scripting/scripting.md)[
+<b>Gerenciador de plug-ins...</b>: abre a janela Gerenciador de plug-ins, onde você pode instalar, carregar e descarregar plug-ins Python para o Substance 3D Designer.[&#128279;](../../scripting/scripting.md)
 
 ## Windows
 

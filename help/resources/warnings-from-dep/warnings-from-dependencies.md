@@ -38,7 +38,7 @@ Há duas formas principais de corrigir esse problema:
 
    Em seguida, recarregue o pacote de host clicando nele com o botão direito do mouse no painel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) e selecionando a opção <b>Recarregar</b> no menu contextual.
 
-   ![ Solução &#39;Pacote dependente inválido&#39; 1](../../assets/warnings-dep-invalid-dependent-pkg.gif " Solução &#39;Pacote dependente inválido&#39; 1")
+   ![&#x200B; Solução &#39;Pacote dependente inválido&#39; 1](../../assets/warnings-dep-invalid-dependent-pkg.gif " Solução &#39;Pacote dependente inválido&#39; 1")
 1. <b>Realocar a dependência no pacote</b>
 
    Você pode realocar a dependência usando o [Gerenciador de dependências](../../interface/dependency-manager/dependency-manager.md). Clique em RMB no pacote de host no painel [Explorer](../../interface/the-explorer-window/the-explorer-window.md) e selecione a opção <b>Gerenciador de Dependências</b> no menu contextual.
@@ -47,7 +47,7 @@ Há duas formas principais de corrigir esse problema:
 
    Em seguida, recarregue o pacote de host clicando nele com o botão direito do mouse no painel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) e selecionando a opção <b>Recarregar</b> no menu contextual.
 
-   ![ Solução &#39;Pacote dependente inválido&#39; 2](../../assets/warnings-dep-invalid-dependent-pkg-2.gif " Solução &#39;Pacote dependente inválido&#39; 2")
+   ![&#x200B; Solução &#39;Pacote dependente inválido&#39; 2](../../assets/warnings-dep-invalid-dependent-pkg-2.gif " Solução &#39;Pacote dependente inválido&#39; 2")
 
 ## ![(erro)](../../assets/error.svg) Verifique se o alias *&#39;X&#39;* está definido em seu projeto
 
@@ -92,12 +92,12 @@ Há duas formas principais de corrigir esse problema:
 
    Vá para o local especificado pelo atributo <b>Caminho do Arquivo</b> do recurso e verifique se o arquivo existe. Caso contrário, restaure ou recrie o arquivo.
 
-   ![ Solução &#39;Arquivo vinculado não encontrado&#39; 1](../../assets/warnings-dep-file-not-found.gif " Solução &#39;Arquivo vinculado não encontrado&#39; 1")
+   ![&#x200B; Solução &#39;Arquivo vinculado não encontrado&#39; 1](../../assets/warnings-dep-file-not-found.gif " Solução &#39;Arquivo vinculado não encontrado&#39; 1")
 1. <b>Realocar o arquivo</b>
 
    Se o arquivo tiver sido movido ou renomeado, realoce-o clicando no RMB no item de recurso no painel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) e selecione a opção <b>Realocar</b> para vincular esse recurso a outro arquivo do mesmo tipo.
 
-   ![ Solução &#39;Arquivo vinculado não encontrado&#39; 2](../../assets/warnings-dep-file-not-found-2.gif " Solução &#39;Arquivo vinculado não encontrado&#39; 2")
+   ![&#x200B; Solução &#39;Arquivo vinculado não encontrado&#39; 2](../../assets/warnings-dep-file-not-found-2.gif " Solução &#39;Arquivo vinculado não encontrado&#39; 2")
 
 ## ![(erro)](../../assets/error.svg) Espaço de cores não encontrado
 
@@ -127,12 +127,12 @@ Há duas formas principais de corrigir esse problema:
 
    Verifique o conteúdo do pacote no painel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) para obter o gráfico especificado na lista <b>Blocos UV</b>. Se não existir, restaure ou recrie o arquivo.
 
-   ![ Solução &#39;Recurso de referência não encontrado&#39; 1](../../assets/warnings-dep-udim-graph-2.gif " Solução &#39;Recurso de referência não encontrado&#39; 1")
+   ![&#x200B; Solução &#39;Recurso de referência não encontrado&#39; 1](../../assets/warnings-dep-udim-graph-2.gif " Solução &#39;Recurso de referência não encontrado&#39; 1")
 1. <b>Selecione outro gráfico</b>
 
    Atribua outro gráfico no pacote ao bloco UV.
 
-   ![ Solução &#39;Recurso de referência não encontrado&#39; 1](../../assets/warnings-dep-udim-graph.gif " Solução &#39;Recurso de referência não encontrado&#39; 2")
+   ![&#x200B; Solução &#39;Recurso de referência não encontrado&#39; 1](../../assets/warnings-dep-udim-graph.gif " Solução &#39;Recurso de referência não encontrado&#39; 2")
 
 ## ![(erro)](../../assets/error.svg) blocos UV são atribuídos várias vezes
 

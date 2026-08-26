@@ -33,7 +33,7 @@ Para obter mais informações, consulte a seção [Noções básicas sobre plug-
 ## Criando elementos da interface do usuário
 
 Os plug-ins *não precisam mais* definir um &#39;*sdplugins.PluginDesc*&#39;.\
-Em vez disso, os plug-ins podem usar o <b>novo objeto ](../scripting-api-reference/scripting-api-reference.md#ui-manager-sduimgr)Gerenciador de interface[</b> e o <b>Qt para Python</b> para criar os elementos de interface de usuário de que precisam.
+Em vez disso, os plug-ins podem usar o <b>novo objeto [&#128279;](../scripting-api-reference/scripting-api-reference.md#ui-manager-sduimgr)Gerenciador de interface</b> e o <b>Qt para Python</b> para criar os elementos de interface de usuário de que precisam.
 
 Você pode encontrar pequenas amostras de código na seção [Criando elementos da interface do usuário](../../scripting/creating-user-interface/creating-user-interface-elements.md).
 
