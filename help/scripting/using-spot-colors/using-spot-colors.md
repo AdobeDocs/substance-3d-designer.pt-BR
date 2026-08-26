@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-spot-colors.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/scripting/using-spot-colors.html"
 breadcrumb-title: ''
 description: Saiba como usar cores especiais em scripts Substance 3D Designer Python para fluxos de trabalho de cores especializados.
 helpx_creative_field: ""
