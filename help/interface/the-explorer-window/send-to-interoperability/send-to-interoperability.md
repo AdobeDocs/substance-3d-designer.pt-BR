@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
 breadcrumb-title: ''
 description: Use o recurso Enviar para interoperabilidade no Substance 3D Designer para exportar materiais para outros aplicativos.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![Enviar do Designer para aplicativos da Substance 3D](../../../assets/explorer-interop.png "Enviar do Designer para aplicativos da Substance 3D"){width="512px"}
 
-O Adobe Substance 3D Designer tem interoperabilidade com o [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), o [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) e o [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html). Isso permite *enviar* e *reenviar* seu trabalho rapidamente, facilitando a iteração no ecossistema do Substance 3D.
+O Adobe Substance 3D Designer tem interoperabilidade com o [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html), o [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) e o [Substance 3D Stager](https://www.adobe.com/br/products/substance3d-stager.html). Isso permite *enviar* e *reenviar* seu trabalho rapidamente, facilitando a iteração no ecossistema do Substance 3D.
 
 O fluxo de trabalho geralmente é o seguinte:
 
@@ -55,12 +55,12 @@ Atributo Type do gráfico ![Substance](../../../assets/type-attribute.jpg "atrib
 </tr>
 </table>
 
-* **Não especificado** é o tipo padrão se você não o definiu. Dependendo do aplicativo para o qual você envia, ele pode ser interpretado de forma diferente. O [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) assumirá como padrão o Material, por exemplo;
+* **Não especificado** é o tipo padrão se você não o definiu. Dependendo do aplicativo para o qual você envia, ele pode ser interpretado de forma diferente. O [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) assumirá como padrão o Material, por exemplo;
 * O **Material Padrão** é para materiais PBR multicanal, com [saídas](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) adequadamente rotuladas;
-* O **Material de Decalque** é para um material PBR multicanal com canal alfa, a ser aplicado como Decalque no [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou no [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html);
-* O **Material de Atlas** é para um material PBR multicanal que consiste em várias imagens de atlas, para uso com o [nó de Atlas scatter](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md) no Designer ou no [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html);
-* O **filtro** é para filtros de uso geral, ambos usados no [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou no [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html);
-* O **Gerador Baseado em Malha** é para geradores de máscara de várias entradas. Isto é usado somente pelo [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html);
+* O **Material de Decalque** é para um material PBR multicanal com canal alfa, a ser aplicado como Decalque no [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) ou no [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html);
+* O **Material de Atlas** é para um material PBR multicanal que consiste em várias imagens de atlas, para uso com o [nó de Atlas scatter](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md) no Designer ou no [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html);
+* O **filtro** é para filtros de uso geral, ambos usados no [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) ou no [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html);
+* O **Gerador Baseado em Malha** é para geradores de máscara de várias entradas. Isto é usado somente pelo [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html);
 * O **Gerador de Textura** é para mapas de canal único, como procedimentos 2D e ruídos;
 * A **Luz ambiente** é para um Ambiente de iluminação de canal único, usado para iluminar cenas e objetos;
 * A **Textura clara** é para uma textura de canal único aplicada a uma Luz física.
