@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
 breadcrumb-title: ''
 description: Acesse nós atômicos no Substance 3D Designer para operações básicas, incluindo entradas, saídas, mesclagem e ajustes de cor.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nós atômicos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 11%
@@ -58,7 +58,7 @@ Todos os outros nós de gráficos de Substance na [Biblioteca](../../../interfac
 
 [![Nó atômico: desfoque direcional](../../../assets/comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
-[Desfoque direcional](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
+[Desfoque direcional](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ Todos os outros nós de gráficos de Substance na [Biblioteca](../../../interfac
 
 [![Nó atômico: entrada em tons de cinza](../../../assets/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
-[Escala de cinza de entrada](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Escala de cinza de entrada](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 </tr>

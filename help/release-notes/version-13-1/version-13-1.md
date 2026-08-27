@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 13.1 para saber mais sobre melhorias no gráfico de nós e suporte à exportação de AxF.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Versão 13.1
 
-O <b>Substance 3D Designer 13.1</b> adiciona muitas melhorias de qualidade de vida ao gráfico de nós, principalmente em relação a quadros, para aprimorar a experiência de criação de material. Há também a adição da exportação de AxF, que permite um fluxo de trabalho de interoperabilidade para usuários que trabalham com o formato AxF. 
+O <b>Substance 3D Designer 13.1</b> adiciona muitas melhorias de qualidade de vida ao gráfico de nós, principalmente em relação a quadros, para aprimorar a experiência de criação de material. Há também a adição da exportação de AxF, que permite um fluxo de trabalho de interoperabilidade para usuários que trabalham com o formato AxF.
 
 *Data de lançamento: 12 de dezembro de 2023*
 

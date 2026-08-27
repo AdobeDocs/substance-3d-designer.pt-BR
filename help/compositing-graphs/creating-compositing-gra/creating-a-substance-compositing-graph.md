@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: Saiba como criar gráficos de composição de Substance no Substance 3D Designer para criar fluxos de trabalho de textura de procedimentos.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Criação de um gráfico do Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1107'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ A criação de texturas no Designer começa com a criação de um gráfico de Su
 
 Para iniciar o processo de criação de um novo gráfico de [Substance](../../compositing-graphs/substance-compositing-graphs.md), você pode usar um destes métodos:
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -44,12 +44,12 @@ Para iniciar o processo de criação de um novo gráfico de [Substance](../../co
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  Em qualquer item de pacote *existente* no [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), clique em <b>RMB</b> e vá para <b>Novo > Substance</b> no menu contextual.
+  Em qualquer item de pacote *existente* no [Explorer](../../interface/the-explorer-window/the-explorer-window.md), clique em <b>RMB</b> e vá para <b>Novo > Substance</b> no menu contextual.
 
   </td>
   <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ Para iniciar o processo de criação de um novo gráfico de [Substance](../../co
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -76,12 +76,12 @@ Para iniciar o processo de criação de um novo gráfico de [Substance](../../co
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  No [menu principal](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html), vá para <b>Arquivo > Novo > gráfico de Substance...</b>
+  No menu principal, vá para <b>Arquivo > Novo > gráfico de Substance...</b>
 
   </td>
   <td style="border: 0;" valign="top">
@@ -246,7 +246,7 @@ Depois de selecionar o modelo, você pode configurar informações básicas sobr
 
 <b>Tamanho</b>: a resolução pai do gráfico, que controlará a resolução de saída da maioria dos nós - consulte a página [Tamanho de saída](../../compositing-graphs/output-size/output-size.md) para saber mais. Por padrão, a largura e a height são vinculadas entre si. Para desvinculá-las, clique no botão de vínculo entre as caixas de combinação Largura e height.
 
-<b>Criar gráfico em</b>: você pode usar esta caixa de combinação para criar um *novo* pacote para o novo gráfico ou adicionar o novo gráfico a qualquer pacote *existente* já carregado no painel [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html).
+<b>Criar gráfico em</b>: você pode usar esta caixa de combinação para criar um *novo* pacote para o novo gráfico ou adicionar o novo gráfico a qualquer pacote *existente* já carregado no painel [Explorer](../../interface/the-explorer-window/the-explorer-window.md).
 
 ### Dica de ferramenta da Ajuda
 

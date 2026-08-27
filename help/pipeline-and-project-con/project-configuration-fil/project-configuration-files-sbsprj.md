@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Saiba como usar arquivos de configuração de projeto SBSPRJ no Substance 3D Designer para gerenciar configurações de projeto.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Arquivos de configuração de projeto - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -63,9 +63,7 @@ Os arquivos de projeto podem conter as seguintes configurações:
 
 <b>Geral: </b>Modelos de gráfico, plug-ins de espaço tangente, padrões de formato normal e de imagem.
 
-<b>Biblioteca: </b>caminhos observados a serem exibidos na Biblioteca, bem como [filtros e categorias para a exibição Biblioteca](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
-
-<b>MDL: </b>caminhos observados de MDL.
+<b>Biblioteca: </b>caminhos observados a serem exibidos na biblioteca.
 
 <b>Script: </b>Scripts e interpretadores de retorno de chamada.
 
@@ -79,7 +77,7 @@ As configurações de projeto são, como todos os outros tipos, salvas como arqu
 
 Consulte a página [Configurações do projeto](../../interface/preferences-window/project-settings/project-settings.md) para saber mais sobre como gerenciar arquivos de projeto e alterar as configurações do projeto.
 
-Os arquivos de projeto também incluem <b>categorias</b> e <b>filtros</b> personalizados para a [Biblioteca](../../interface/the-library/the-library.md), sobre a qual você pode saber mais na página [Gerenciar conteúdo e filtros personalizados](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
+Os arquivos de projeto também incluem <b>categorias</b> e <b>filtros</b> personalizados para a [Biblioteca](../../interface/the-library/the-library.md), sobre a qual você pode saber mais na página [Gerenciar conteúdo e filtros personalizados](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md).
 
 ## Editar XML Externamente
 
@@ -91,7 +89,7 @@ Depois de abrir o arquivo SBSPRJ em um editor, você verá um layout estruturado
 
 ## Caminhos e aliases relativos
 
-Os caminhos relativos combinados com aliases são uma das partes mais complicadas, mas importantes, de uma configuração de projeto. Esta seção irá esclarecê-los. A adição de aliases personalizados para um arquivo de projeto específico é feita em [Configurações do Projeto](../../interface/preferences-window/project-settings/project-settings.md).
+Os caminhos relativos combinados com aliases são uma das partes mais complicadas, mas importantes, de uma configuração de projeto. Esta seção irá esclarecê-los. A adição de aliases personalizados para um arquivo de projeto específico é feita em [Configurações do Projeto](../../interface/preferences-window/project-settings/project-settings.md).
 
 Um dos principais problemas com arquivos que fazem referência a outros arquivos em um sistema no computador de vários usuários é que os caminhos de arquivo absolutos não funcionarão. Os usuários podem definir seus repositórios SVN em locais completamente diferentes (por exemplo, C:/John/Gamedev/SubstanceLibrary ou D:/Dev/SubstanceLibrary). Aliases e caminhos relativos funcionam juntos para resolver esse problema. Caso contrário, você pode abrir o arquivo de outra pessoa e ele tentará procurar o nó personalizado usado no local específico em que o usuário o tinha localmente, o que você provavelmente não terá definido exatamente da mesma maneira.
 

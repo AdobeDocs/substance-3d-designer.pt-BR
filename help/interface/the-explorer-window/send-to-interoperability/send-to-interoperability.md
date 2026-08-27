@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
 breadcrumb-title: ''
 description: Use o recurso Enviar para interoperabilidade no Substance 3D Designer para exportar materiais para outros aplicativos.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Enviar para...  Interoperabilidade
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 1%
 
 ![Enviar do Designer para aplicativos da Substance 3D](../../../assets/explorer-interop.png "Enviar do Designer para aplicativos da Substance 3D"){width="512px"}
 
-O Adobe Substance 3D Designer tem interoperabilidade com o [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html), o [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) e o [Substance 3D Stager](https://www.adobe.com/br/products/substance3d-stager.html). Isso permite *enviar* e *reenviar* seu trabalho rapidamente, facilitando a iteração no ecossistema do Substance 3D.
+O Adobe Substance 3D Designer tem interoperabilidade com o [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), o [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) e o [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html). Isso permite *enviar* e *reenviar* seu trabalho rapidamente, facilitando a iteração no ecossistema do Substance 3D.
 
 O fluxo de trabalho geralmente é o seguinte:
 
 1. Definir o atributo <b>Type</b> nas propriedades de um gráfico [Substance](../../../compositing-graphs/graph-parameters/graph-parameters.md)
-1. No painel [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), selecione o pacote que deseja enviar
+1. No painel [Explorer](../the-explorer-window.md), selecione o pacote que deseja enviar
 1. Na lista suspensa <b>Publish/Send</b> do Explorer, selecione o aplicativo de destino
 1. Fazer alterações no(s) gráfico(s)
 1. Repita a etapa 3 para reenviar o pacote e atualizar o ativo enviado existente com suas alterações
@@ -55,12 +55,12 @@ Atributo Type do gráfico ![Substance](../../../assets/type-attribute.jpg "atrib
 </tr>
 </table>
 
-* **Não especificado** é o tipo padrão se você não o definiu. Dependendo do aplicativo para o qual você envia, ele pode ser interpretado de forma diferente. O [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) assumirá como padrão o Material, por exemplo;
+* **Não especificado** é o tipo padrão se você não o definiu. Dependendo do aplicativo para o qual você envia, ele pode ser interpretado de forma diferente. O [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) assumirá como padrão o Material, por exemplo;
 * O **Material Padrão** é para materiais PBR multicanal, com [saídas](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) adequadamente rotuladas;
-* O **Material de Decalque** é para um material PBR multicanal com canal alfa, a ser aplicado como Decalque no [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) ou no [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html);
-* O **Material de Atlas** é para um material PBR multicanal que consiste em várias imagens de atlas, para uso com o [nó de Atlas scatter](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md) no Designer ou no [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html);
-* O **filtro** é para filtros de uso geral, ambos usados no [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) ou no [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html);
-* O **Gerador Baseado em Malha** é para geradores de máscara de várias entradas. Isto é usado somente pelo [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html);
+* O **Material de Decalque** é para um material PBR multicanal com canal alfa, a ser aplicado como Decalque no [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou no [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html);
+* O **Material de Atlas** é para um material PBR multicanal que consiste em várias imagens de atlas, para uso com o [nó de Atlas scatter](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md) no Designer ou no [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html);
+* O **filtro** é para filtros de uso geral, ambos usados no [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou no [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html);
+* O **Gerador Baseado em Malha** é para geradores de máscara de várias entradas. Isto é usado somente pelo [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html);
 * O **Gerador de Textura** é para mapas de canal único, como procedimentos 2D e ruídos;
 * A **Luz ambiente** é para um Ambiente de iluminação de canal único, usado para iluminar cenas e objetos;
 * A **Textura clara** é para uma textura de canal único aplicada a uma Luz física.
@@ -75,8 +75,8 @@ O processo de envio envolveu a [publicação](../../../compositing-graphs/publis
 
 O envio de conteúdo pode ser executado das seguintes maneiras:
 
-* Clique com o botão direito em um pacote e abra o <b>Enviar para...submenu </b> no menu contextual, em seguida, escolha o <b>Enviar para...Opção </b> para o aplicativo de destino;
-* Clique no botão ![](../../../assets/sendto-icon.jpg) <b>Publish/Send</b> na parte superior do painel [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e escolha <b>Enviar para...Opção </b> para o aplicativo de destino.
+* Clique com o botão direito do mouse em um pacote e abra o submenu <b>Enviar para...</b> no menu contextual. Em seguida, escolha a opção <b>Enviar para...</b> para o aplicativo de destino;
+* Clique no botão ![](../../../assets/sendto-icon.jpg) <b>Publish/Send</b> na parte superior do painel do Explorer e escolha a opção <b>Enviar para...</b> para o aplicativo de destino.
 
 </td>
 <td style="border: 0;" valign="top">

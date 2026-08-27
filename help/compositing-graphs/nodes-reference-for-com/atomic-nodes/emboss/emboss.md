@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ''
 description: Use o nó Entalhe para criar efeitos em alto-relevo nas texturas para adicionar profundidade e relevo aos detalhes da superfície.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Entalhe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 9%
@@ -78,10 +78,10 @@ Esse nó não é usado com frequência para projetos do tipo PBR, mas pode servi
 
 |  |  |
 | --- | --- |
-| <b>Intensidade</b> *Flutuante* | Ajusta a intensidade global do efeito de iluminação.   Define a intensidade da luz do mapa de “height” e, portanto, a intensidade do efeito de iluminação |
-| <b>Ângulo claro</b> *Flutuante* | Define o ângulo em que a luz é simulada.   Define o ângulo de iluminação do realce da imagem em alto-relevo |
-| <b>Cor de realce</b> *Flutuante/Flutuante4* | Define a cor das áreas voltadas para o ângulo claro.   Define a cor do realce se a imagem de entrada for colorida. |
-| <b>Cor da sombra</b> *Flutuante/Flutuante4* | Define a cor das áreas opostas ao ângulo claro.   Define a cor das regiões sombreadas da imagem em alto-relevo. |
+| <b>Intensidade</b> *Flutuante* | Ajusta a intensidade global do efeito de iluminação.   Define a intensidade da luz do mapa de “height” e, portanto, a intensidade do efeito de iluminação |
+| <b>Ângulo claro</b> *Flutuante* | Define o ângulo em que a luz é simulada.   Define o ângulo de iluminação do realce da imagem em alto-relevo |
+| <b>Cor de realce</b> *Flutuante/Flutuante4* | Define a cor das áreas voltadas para o ângulo claro.   Define a cor do realce se a imagem de entrada for colorida. |
+| <b>Cor da sombra</b> *Flutuante/Flutuante4* | Define a cor das áreas opostas ao ângulo claro.   Define a cor das regiões sombreadas da imagem em alto-relevo. |
 
 ## Conectores de entrada
 

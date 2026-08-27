@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 15.1 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -28,9 +28,9 @@ O Substance Designer 15.1 traz uma janela de criação de gráficos completament
 
 ## Aprimorar criação de gráfico
 
-Nesta versão, a [janela de criação de gráficos](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) foi <b>amplamente redesenhada</b> para aprimorar a experiência inicial do usuário no Substance 3D Designer. O principal objetivo desta atualização é simplificar o processo de seleção de modelos, permitindo que os usuários identifiquem com eficiência o modelo mais adequado para seus requisitos.
+Nesta versão, a [janela de criação de gráficos](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) foi <b>amplamente redesenhada</b> para aprimorar a experiência inicial do usuário no Substance 3D Designer. O principal objetivo desta atualização é simplificar o processo de seleção de modelos, permitindo que os usuários identifiquem com eficiência o modelo mais adequado para seus requisitos.
 
-As miniaturas oferecem <b>referências visuais</b> instantâneas para os tipos de material pretendidos, enquanto as dicas de ferramentas detalhadas fornecem todas as informações pertinentes. Para melhorar a organização, os modelos agora são classificados em <b>categorias</b> específicas, como materiais, filtros e processamento de digitalização.
+As miniaturas oferecem <b>referências visuais</b> instantâneas para os tipos de material pretendidos, enquanto as dicas de ferramentas detalhadas fornecem todas as informações pertinentes. Para melhorar a organização, os modelos agora são classificados em <b>categorias</b> específicas, como materiais, filtros e processamento de digitalização.
 
 Embora a interface principal tenha sido atualizada, os usuários continuam a ter acesso a exibições anteriores, incluindo opções de lista, pacotes e diretórios.
 
@@ -44,7 +44,7 @@ Com o lançamento de nossa janela de criação de gráficos redesenhada, adicion
 
 ![Nova janela de criação de gráfico para amostras](../../assets/GraphSample.png){zoomable="yes"}
 
-Para atender a essa necessidade, incluímos amostras de materiais, como tecidos (incluindo couro e cetim), madeira, metal, plástico, cerâmica e muito mais. Esses exemplos têm como objetivo ajudar você a iniciar seus projetos com facilidade e se familiarizar com os nós da família principal disponíveis no Substance 3D Designer
+Para atender a essa necessidade, incluímos amostras de materiais, como tecidos (incluindo couro e cetim), madeira, metal, plástico, cerâmica e muito mais. Esses exemplos têm como objetivo ajudar você a iniciar seus projetos com facilidade e se familiarizar com os nós da família principal disponíveis no Substance 3D Designer
 
 Cada gráfico é <b>anotado</b>, cuidadosamente organizado e contém um número mínimo de nós para torná-lo o mais fácil de entender possível.
 
@@ -68,7 +68,7 @@ Finalmente, a profundidade de bits <b>não está mais bloqueada para 16 bits</b>
 
 Veja a lista completa de ruídos atualizados nas [notas de versão](#release-notes) abaixo.
 
-Exemplos: [Células 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuvens 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [&#x200B; Arranhões direcionais](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [&#x200B; Ruído de umidade 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+Exemplos: [Células 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [Nuvens 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [Arranhões direcionais](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [Ruído de umidade 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![ruído de distúrbio direcional](../../assets/directionaldisorder.gif){zoomable="yes"}
 
@@ -199,8 +199,8 @@ Por exemplo, detectar a ausência de uma variável permite fornecer um valor de 
 * [Exibição 3D] O Specular level não foi aplicado corretamente
 * [Exibição 3D] O Specular edge color não funciona ao usar o rasterizador de Eclair
 * [Exibição 3D] O material adicionado do usuário não é aplicado em cenas padrão
-* [3D View]&#x200B;[Padarias] A cor do material fica muito escura depois de substituída ou ao usar um padeiro “Colorido”
-* [Exibição 3D]&#x200B;[Padeiros] Sem cor material do arquivo FBX
+* [3D View][Padarias] A cor do material fica muito escura depois de substituída ou ao usar um padeiro “Colorido”
+* [Exibição 3D][Padeiros] Sem cor material do arquivo FBX
 * [Padeiros] As cores do material em arquivos FBX não são detectadas corretamente
 * [Bakers] A opção &#39;recompute\_tangents&#39; é sempre &#39;false&#39; nas exportações predefinidas JSON
 * [Bakers] CLI: Falha ao executar o mesmo panificador consecutivamente através do arquivo JSON

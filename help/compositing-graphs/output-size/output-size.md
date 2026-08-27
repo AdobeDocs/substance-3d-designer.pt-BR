@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Defina as configurações de tamanho de saída para gráficos de composição de Substance para controlar a resolução e a qualidade da textura.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Tamanho da saída
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1006'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # Tamanho da saída
 
-É o primeiro dos <b>parâmetros base</b> de um gráfico e, junto com o <b>Formato de saída</b> (ou profundidade de bits), é essencial entender bem, pois tem um grande impacto na saída de um gráfico, dentro do Designer e em outros aplicativos, como um arquivo [de ativo do Substance 3D (SBSAR)](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) publicado.
+É o primeiro dos <b>parâmetros base</b> de um gráfico e, junto com o <b>Formato de saída</b> (ou profundidade de bits), é essencial entender bem, pois tem um grande impacto na saída de um gráfico, dentro do Designer e em outros aplicativos, como um arquivo de [ativos publicados do Substance 3D (SBSAR)](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
 
 >[!TIP]
 >
@@ -73,7 +73,7 @@ Isso também se aplica quando o valor do Tamanho de Saída é controlado por uma
 
 ## Tamanho relativo
 
-Quando a propriedade Tamanho de Saída usa um *Método de herança Relativo a...*[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), seu valor é expresso como um modificador *relativamente ao valor logarítmico herdado*.
+Quando a propriedade Tamanho de Saída usa um *Método de herança Relativo a...*[](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), seu valor é expresso como um modificador *relativamente ao valor logarítmico herdado*.
 
 Modificadores relativos à resolução herdada variam de -12 a +12 em uma escala logarítmica, com o padrão sendo 0. Isso significa que cada etapa acima ou abaixo resulta na duplicação ou na redução da resolução para a metade. A tabela à direita fornece um exemplo de como a resolução relativa é alterada em uma dimensão para um valor herdado de 9 (ou seja, 512 = 2^9) e 11 (ou seja, 2048 = 2^11):
 
@@ -96,7 +96,7 @@ Na maioria dos casos, o [método de herança](../../compositing-graphs/inheritan
 * Nó: *Relativo à entrada* - os valores herdados pela [entrada Primária](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) do nó são usados neste caso
 * Nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md): *Absoluto* - consulte a página [Recurso de bitmap](../../resources/bitmap-resource/bitmap-resource.md) e as [diretrizes de otimização de desempenho](../../best-practices/performance-optimization/performance-optimization-guidelines.md) para saber por que isso ocorre
 
-Exiba as propriedades de um nó ou gráfico clicando nesse item e, no painel [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), localize a propriedade <b>Tamanho da Saída</b> na seção <b>Parâmetros base</b>. Clique no menu suspenso método de herança e selecione o método de herança desejado.
+Exiba as propriedades de um nó ou gráfico clicando nesse item e, no painel [Propriedades](../../interface/properties/properties.md), localize a propriedade <b>Tamanho da Saída</b> na seção <b>Parâmetros base</b>. Clique no menu suspenso método de herança e selecione o método de herança desejado.
 
 ![Método de herança de tamanho de saída](../../assets/change-mode.gif "Método de herança de tamanho de saída"){width="512px"}
 

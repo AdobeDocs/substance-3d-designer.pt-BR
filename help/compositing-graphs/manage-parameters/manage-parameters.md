@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: Saiba como gerenciar e organizar parâmetros em gráficos de composição de Substance para melhor organização do fluxo de trabalho.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gerenciar parâmetros
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -59,7 +59,7 @@ As ações neste menu afetarão *todos* os parâmetros listados nesta seção:
 * <b>Colar parâmetros:</b> Consulte a seção [Copiar e colar parâmetros](../../compositing-graphs/manage-parameters/manage-parameters.md) abaixo.
 * <b>Salvar parâmetros como um arquivo de predefinição:</b> Saiba mais sobre predefinições de parâmetro em [esta página dedicada](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
 * <b>Aplicar parâmetros de um arquivo de predefinição:</b> Saiba mais sobre predefinições de parâmetro em [esta página dedicada](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
-* <b>Redefinir tudo:</b> redefine todos os parâmetros para seus valores e intervalos padrão. Se uma função foi aplicada a qualquer parâmetro, ela é descartada.
+* <b>Redefinir tudo:</b> redefine todos os parâmetros para seus valores e intervalos padrão. Se uma função foi aplicada a qualquer parâmetro, ela é descartada.
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ As mesmas limitações listadas abaixo para nós atômicos se aplicam a este men
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![&#x200B; menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó](../../assets/manage-parameters-node-menu.png " menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó"){zoomable="yes"}
+![ menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó](../../assets/manage-parameters-node-menu.png " menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó"){zoomable="yes"}
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ As mesmas limitações listadas abaixo para nós atômicos se aplicam a este men
 
 ## Copiar e colar parâmetros
 
-É possível copiar todos os valores de parâmetros para um nó de origem e colá-los em um nó de destino. Os parâmetros dos nós de origem e de destino são <b>correspondidos com base em seus identificadores e tipos</b>.
+É possível copiar todos os valores de parâmetros para um nó de origem e colá-los em um nó de destino. Os parâmetros dos nós de origem e de destino são <b>correspondidos com base em seus identificadores e tipos</b>.
 
 Por exemplo, um parâmetro &#39;Scale&#39;, cujo identificador é &#39;scale&#39; e o tipo é &#39;Float&#39;, pode ser copiado e colado em outro parâmetro &#39;Shape Scale&#39; quando seu identificador também é &#39;scale&#39; e seu tipo também é &#39;Float&#39;.
 

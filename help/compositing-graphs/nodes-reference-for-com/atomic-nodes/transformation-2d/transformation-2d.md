@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ''
 description: Use o nó 2D de transformação para aplicar transformações 2D a texturas, incluindo conversão, rotação e dimensionamento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformação 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -92,11 +92,11 @@ No entanto, ela não pode ser uma combinação perfeita para determinados aplica
 
 |  |  |
 | --- | --- |
-| <b>Matriz de transformação</b> *Flutuante4* | Abra a matriz de transformação subjacente para edição direta. Permite alterar a rotação e o dimensionamento. Também pode ser ajustado pelo cursor na visualização 2D.   Aviso: eles não se correlacionam diretamente com a exibição e são ajustes relativos que podem ser aplicados em etapas. |
-| <b>Deslocamento</b> *Flutuante2* | Define o deslocamento 2D da imagem. Permite que você altere a posição ou o deslocamento Também pode ser ajustado através do cursor na visualização 2D.   Relaciona-se diretamente com a saída de visualização 2D. |
+| <b>Matriz de transformação</b> *Flutuante4* | Abra a matriz de transformação subjacente para edição direta. Permite alterar a rotação e o dimensionamento. Também pode ser ajustado pelo cursor na visualização 2D.   Aviso: eles não se correlacionam diretamente com a exibição e são ajustes relativos que podem ser aplicados em etapas. |
+| <b>Deslocamento</b> *Flutuante2* | Define o deslocamento 2D da imagem. Permite que você altere a posição ou o deslocamento Também pode ser ajustado através do cursor na visualização 2D.   Relaciona-se diretamente com a saída de visualização 2D. |
 | <b>Modo de mapa de mipmap</b> *Inteiro* | Permite alternar para um nível [mipmap](../../../../glossary/glossary.md) manual, que reduz artefatos em uma imagem usando filtragem de textura. |
-| <b>Nível do mipmap</b> *Inteiro* | Define o nível [mipmap](../../../../glossary/glossary.md) a ser usado.     *Disponível quando o &#39;Modo de mapa de mipmap&#39; estiver definido como &#39;Manual&#39;* |
-| <b>Cor fosca</b> *Flutuante4* | A cor usada como plano de fundo quando a divisão em blocos gráficos da transformação está desativada. Ou seja, define a cor usada quando a entrada transformada não cobre uma área da saída.   Pode ser tornado transparente ao trabalhar com cores RGBA. |
+| <b>Nível do mipmap</b> *Inteiro* | Define o nível [mipmap](../../../../glossary/glossary.md) a ser usado.     *Disponível quando o &#39;Modo de mapa de mipmap&#39; estiver definido como &#39;Manual&#39;* |
+| <b>Cor fosca</b> *Flutuante4* | A cor usada como plano de fundo quando a divisão em blocos gráficos da transformação está desativada. Ou seja, define a cor usada quando a entrada transformada não cobre uma área da saída.   Pode ser tornado transparente ao trabalhar com cores RGBA. |
 | <b>Filtragem</b> *Inteiro* | Define o método de redução da resolução usado. Não funciona muito bem com a redução de Nível do mipmap. |
 
 ## Conectores de entrada

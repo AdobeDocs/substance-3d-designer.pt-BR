@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
 breadcrumb-title: ''
 description: Acesse os nós de ferramenta spline e caminho para criar padrões de procedimentos, curvas e formas orgânicas em gráficos de Substance.
 helpx_creative_field: ""

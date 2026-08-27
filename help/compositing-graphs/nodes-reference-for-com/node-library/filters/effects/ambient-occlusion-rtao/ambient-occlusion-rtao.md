@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
 breadcrumb-title: ''
 description: Use o nó Oclusão ambiente (RTAO) para gerar mapas de oclusão ambiente em tempo real a partir de mapas de height para sombreamento realista.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Oclusão ambiente (RTAO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Multiplicador da intensidade de entrada do mapa de height.
 <b>Distância Máxima</b> *Flutuante*\
 Define a distância máxima que os raios podem percorrer para serem ocultados.
 
-<b>Ângulo de propagação</b> *Flutuante*\
+<b>Ângulo de Propagação</b> *Flutuante*\
 Define o ângulo de propagação para os raios em que serão disparados. Um valor de 1 é um hemisfério completo.
 
 ## Imagens de exemplo

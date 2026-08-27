@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
 breadcrumb-title: ''
 description: Use o nó Mín. máx. para fixar valores de textura entre limites mínimos e máximos para controlar intervalos de valores.
 helpx_creative_field: ""

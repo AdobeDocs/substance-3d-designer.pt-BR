@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
 breadcrumb-title: ''
 description: Use o nó Ruído anisotrópico para gerar padrões de ruído direcional para criar efeitos de textura anisotrópica.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Ruído anisotrópico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -45,26 +45,6 @@ A quantidade de faixas é ajustável, assim como o smoothness de suas transiçõ
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Saídas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
-
 ## Saídas
 
 |  |  |
@@ -81,8 +61,8 @@ A quantidade de faixas é ajustável, assim como o smoothness de suas transiçõ
 | <b>Girar</b> Booleano | Gira o ruído 90 graus. |
 | <b>Smoothness</b> flutuante | A intensidade de desvanecimento entre as faixas, em que 0 é o mesmo que não e 1 o último em todo o seu comprimento. |
 | <b>Interpolação de Smoothness</b> flutuante | A ponderação dos dois métodos de interpolação aplicados para atenuar as faixas, onde 0 é linear e 1 é gaussiano. |
-| <b>Desordem</b> Flutuante | Desloca os ingredientes do ruído.   Isso pode ser usado para animar o ruído. |
-| <b>Velocidade do distúrbio</b> flutuante | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.   Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
+| <b>Desordem</b> Flutuante | Desloca os ingredientes do ruído.   Isso pode ser usado para animar o ruído. |
+| <b>Velocidade do distúrbio</b> flutuante | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.   Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
 | <b>Expansão não quadrada</b> Booleana | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
 
 ## Exemplos

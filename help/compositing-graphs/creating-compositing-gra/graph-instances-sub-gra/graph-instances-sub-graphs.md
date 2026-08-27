@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: Use instâncias de gráfico e subgrafos para criar componentes de gráfico reutilizáveis e fluxos de trabalho de material modulares.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Instâncias e subgrafos do gráfico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b0053a42604f68604350a6bb3a2148970536c3c7
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Observe que, embora os conceitos de ocorrência de gráfico e subgrafo também s
 
 ### Posso adicionar minhas próprias instâncias do gráfico à biblioteca de nós?
 
-<b>Sim, isso é possível </b>mas requer alguma configuração específica. Saiba mais na página [Gerenciando conteúdo e filtros personalizados](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) desta documentação.
+<b>Sim, isso é possível </b>mas requer alguma configuração específica. Saiba mais na página [Gerenciando conteúdo e filtros personalizados](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) desta documentação.
 
 ### É possível inspecionar o gráfico de origem de uma instância do gráfico?
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ''
 description: Use o nó FX-Map para aplicar gráficos de função a texturas para criar efeitos e padrões de procedimento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -75,7 +75,7 @@ Lembre-se de que, diferentemente de outros nós, a maior parte do comportamento 
 
 |  |  |
 | --- | --- |
-| <b>Modo de cores</b> *Booleano* | Alterna entre uma imagem em tons de cinza e uma imagem colorida de saída. A cor será muito mais lenta do que a escala de cinza. |
+| <b>Modo de cores</b> *Booleano* | Alterna entre uma imagem em tons de cinza e uma imagem colorida de saída. A cor será muito mais lenta do que a escala de cinza. |
 | <b>Fundo</b> *Flutuante/Flutuante4* | Define a cor inicial do plano de fundo na qual serão compostos os resultados. |
 | <b>Região de renderização</b> *Flutuante4* | Permite definir o intervalo de pixels inicial para cada lado do FX-Map, resultando em um efeito de amplificação. |
 | <b>Região de divisão</b> *Flutuante4* | Permite que você desloque a distância de divisão em blocos gráficos do FX-Map. |

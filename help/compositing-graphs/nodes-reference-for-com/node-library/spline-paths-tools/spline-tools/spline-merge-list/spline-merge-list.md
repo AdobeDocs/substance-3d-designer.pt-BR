@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-merge-list.html"
 breadcrumb-title: ''
 description: Use o nó Lista de mesclagem de spline para mesclar várias splines em uma única lista de spline para operações combinadas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lista de mesclagem de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 1%
@@ -49,9 +49,9 @@ Mescla todas as linhas na lista de entrada em uma única linha.
 <b> R</b> - Posição X\
 <b> G</b> - posição Y\
 <b> B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<b>A</b> - Dados empacotados:\
+* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+* Valor absoluto: Thickness + 1.
 
 <b>Dados de Spline</b> *Cor* Dados adicionais das splines de entrada codificados nos canais RGBA de uma imagem colorida.\
 <b> R</b> - Tangentes X\
@@ -66,18 +66,18 @@ Mescla todas as linhas na lista de entrada em uma única linha.
 <b>Visualizar</b> *Tons de cinza* A visualização das splines mescladas como uma imagem em tons de cinza.
 
 <b>Cordas de spline</b> *Cor* As coordenadas dos pontos de splines mesclados codificados nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<b>R</b> - Posição X\
+<b>G</b> - posição Y\
+<b>B</b> - Height\
+<b>A</b> - Dados empacotados:\
+* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
+* Valor absoluto: Thickness + 1.
 
 <b>Dados de Spline</b> *Cor* Dados adicionais das splines mescladas codificadas nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Não Usado\
-    <b>A</b> - Não Usado
+<b>R</b> - Tangentes X\
+<b>G</b> - Tangentes Y\
+<b>B</b> - Não Usado\
+<b>A</b> - Não Usado
 
 <b>Valor da spline</b> *Inteiro* O número de splines mescladas.
 

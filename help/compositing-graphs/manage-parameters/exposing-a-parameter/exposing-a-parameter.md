@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Saiba como expor parâmetros em gráficos de composição do Substance 3D Designer para tornar materiais personalizáveis e reutilizáveis.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Exposição de um parâmetro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2267'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ de parâmetros expostos para Parâmetros de Gráfico.*
 ## Noções básicas sobre parâmetros e exposição
 
 +++O que é um parâmetro?
-*Um parâmetro é um valor simples, com um elemento de interface do usuário, que controla o comportamento de um gráfico.* Use-os constantemente em todos os softwares de Substance: para alterar uma cor, para definir o modo de mesclagem, para escolher um valor de opacidade etc... Sem parâmetros, o software Substance não permitiria nenhuma personalização.
+*Um parâmetro é um valor simples, com um elemento de interface do usuário, que controla o comportamento de um gráfico.* Você os usa constantemente em todos os softwares de Substance: para mudar uma cor, definir o modo de mesclagem, escolher um valor de opacidade, etc... Sem parâmetros, o software Substance não permitiria nenhuma personalização.
 
 Os parâmetros podem vir em muitas formas diferentes: controles deslizantes, mostradores, caixas de texto, menus suspensos, etc... Os valores que eles representam podem ser de muitos tipos diferentes: valores decimais, valores inteiros, valores booleanos (verdadeiro/falso) e até mesmo trechos de texto.
 
@@ -66,7 +66,7 @@ Atualmente, existem dois métodos principais para expor parâmetros. Um método 
 
 ### MÉTODO DE EXPOSIÇÃO ÚNICA
 
-1. Localize o parâmetro que você deseja expor na [Janela Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), na guia Parâmetros Específicos
+1. Localize o parâmetro que você deseja expor no painel [Propriedades](../../../interface/properties/properties.md), na guia Parâmetros Específicos
 1. Clique no botão de opções do menu suspenso ![](../../../assets/image2020-9-17-15-35-59.png)
 1. Escolha ![](../../../assets/image2020-9-17-15-37-7.png) <b>Expor como nova entrada de gráfico</b> na lista suspensa, a primeira opção.
 1. A caixa de diálogo <b>Expor parâmetro</b> é exibida; defina as propriedades do parâmetro conforme desejar.
@@ -79,7 +79,7 @@ Atualmente, existem dois métodos principais para expor parâmetros. Um método 
 >[!NOTE]
 >
 > A maioria dos campos numéricos oferece suporte a *fórmulas matemáticas básicas* como entrada. Por exemplo, `17+3.5`, `7/3`, `(4+2)*3`. Pressione *Enter* para validar a fórmula e o resultado será inserido no campo. Se a fórmula for inválida, o campo reverterá para seu valor anterior.\
-> Alguns campos numéricos em outras partes do aplicativo, como no encaixe [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), também oferecem suporte a esse recurso.
+> Alguns campos numéricos em outras partes do aplicativo, como no encaixe [Propriedades](../../../interface/properties/properties.md), também oferecem suporte a esse recurso.
 
 ![Passo do método de exposição em lote](../../../assets/batch-expose-2.gif "Passo do método de exposição em lote"){width="512px"}
 
@@ -88,7 +88,7 @@ Atualmente, existem dois métodos principais para expor parâmetros. Um método 
 Ao expor um parâmetro, esse método será um pouco mais lento do que o anterior. Ao expor vários parâmetros, é muito mais rápido.
 
 1. Em vez de localizar um único parâmetro, localize o botão ![](../../../assets/image2020-9-17-15-39-7.png) <b>Várias exposições</b> no canto superior direito da guia <b>Parâmetros específicos</b>
-1. Escolha <b>parâmetros de exposição em lote...</b> no menu suspenso
+1. Escolha <b>Parâmetros de exposição em lote...</b> no menu suspenso
 1. A caixa de diálogo <b>Exposição em lote</b> é exibida, permitindo personalizar a exposição de todos os <b>parâmetros específicos</b> de um nó
 1. Use <b>Todos</b>, <b>Nenhum</b> ou caixas de seleção específicas para decidir quais parâmetros expor
 1. Clique em um nome de parâmetro na coluna <b>Identificador de entrada de gráfico</b> da lista para alterar seu nome.
@@ -104,7 +104,7 @@ Existem algumas limitações ligadas aos parâmetros de exposição, conforme li
 | --- | --- |
 | [Degradê](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Editor De Curvas](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Fonte](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Histograma De Níveis](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Requer widgets que não estão disponíveis para os parâmetros criados pelo usuário. |
 
-Outra limitação significativa está relacionada a [parâmetros estáticos](../../../glossary/glossary.md). Estes não podem ser alterados em um [ativo publicado do Substance 3D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Outra limitação significativa está relacionada a [parâmetros estáticos](../../../glossary/glossary.md). Não é possível alterá-los em um [ativo publicado do Substance 3D (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
 
 Parâmetros estáticos - em oposição aos parâmetros dinâmicos - *não podem ser editados dinamicamente* depois que o gráfico foi *cozido* - isto é, processado para executar seu algoritmo de forma rápida e eficiente. A cozinha ocorre no Designer sempre que o gráfico é *editado* ou *publicado*.
 
@@ -128,7 +128,7 @@ Uma vez exposto, não é mais possível acessar um parâmetro como antes. Mudar 
 Para alterar as opções de um parâmetro exposto:
 
 1. Clique no botão de Opções da lista suspensa ![](../../../assets/image2020-9-17-15-35-59.png) ao lado do parâmetro já exposto
-1. Escolha ![](../../../assets/image2020-9-17-15-37-7.png)<b> Editar entrada de gráfico exposta</b>. Isso direciona o usuário à entrada relevante nas propriedades do gráfico
+1. Escolha ![](../../../assets/image2020-9-17-15-37-7.png)<b> Editar entrada de gráfico exposta</b>. Isso direciona o usuário à entrada relevante nas propriedades do gráfico
 1. Clique duas vezes em uma área vazia do gráfico para obter as propriedades do gráfico e localize o parâmetro na lista de <b>Parâmetros de entrada</b>
 1. Clique uma vez no seu gráfico no <b>Explorer</b> e encontre o parâmetro na lista de <b>Parâmetros de entrada</b>
 
@@ -185,7 +185,7 @@ Normalmente, todas as alterações feitas no <b>Modo de Visualização</b> são 
 
 >[!WARNING]
 >
-> O modo de visualização visa representar a experiência de um [ativo publicado do Substance 3D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) da forma mais precisa possível. Portanto, as Limitações listadas nesta página serão aplicadas neste modo, como *ausência de parâmetros estáticos na lista*.
+> O modo de visualização visa representar a experiência de um [ativo publicado do Substance 3D (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) da forma mais precisa possível. Portanto, as Limitações listadas nesta página serão aplicadas neste modo, como *ausência de parâmetros estáticos na lista*.
 
 ![Copiando e colando parâmetros de entradas](../../../assets/copy-paste-params-2.gif "Copiando e colando parâmetros de entradas"){width="512px"}
 

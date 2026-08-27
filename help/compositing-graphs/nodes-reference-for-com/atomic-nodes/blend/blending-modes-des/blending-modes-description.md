@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
 breadcrumb-title: ''
 description: Saiba mais sobre os modos de mesclagem disponíveis no Substance 3D Designer para combinar texturas com diferentes efeitos de composição.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Modos de mesclagem
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 2%
@@ -100,7 +100,7 @@ O modo de mesclagem *Dividir* dividirá o valor dos pixels de entrada do plano d
 
 O modo de mesclagem *Sobreposição* combina os modos de mesclagem Multiplicação e Tela:
 
-* &#x200B;
+* 
   * Se o valor do pixel da camada inferior estiver abaixo de 0,5, a mesclagem de tipo *Multiplicar* será aplicada
   * Se o valor do pixel da camada inferior estiver acima de 0,5, uma mesclagem de tipo de *Tela* será aplicada
 

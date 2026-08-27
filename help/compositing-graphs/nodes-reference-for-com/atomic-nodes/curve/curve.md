@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ''
 description: Use o nó Curva para ajustar os valores de textura usando curvas personalizáveis para um controle preciso de cor e brilho.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curva
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 2%
@@ -91,7 +91,7 @@ Ao contrário da maioria dos outros nós, o nó Curva não tem uma interface pad
 | --- | --- |
 | <b>Aplicar/Expor curva</b> *Booleano* | Permite copiar a curva do usuário para a saída em vez de aplicá-la à imagem de entrada |
 | <b>Endereçamento de curva</b> *Booleano* | Esse parâmetro determina como os pixels HDR fora do intervalo [0, 1] na entrada são tratados: apertados ou dobrados até [0, 1]. |
-| <b>Curva</b> *Matriz de chaves curvas* | A curva personalizada usada para mapear os valores de tons de cinza de entrada.   Pode ser editado usando o [Editor de curvas](#curve-editor). |
+| <b>Curva</b> *Matriz de chaves curvas* | A curva personalizada usada para mapear os valores de tons de cinza de entrada.   Pode ser editado usando o [Editor de curvas](#curve-editor). |
 
 ## Editor de curva
 

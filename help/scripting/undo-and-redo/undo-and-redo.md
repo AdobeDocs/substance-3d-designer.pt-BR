@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/scripting/undo-and-redo.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/undo-and-redo.html"
 breadcrumb-title: ''
 description: Saiba como implementar a funcionalidade de desfazer e refazer em scripts Substance 3D Designer Python para ações do usuário.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desfazer e refazer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Com a classe <b>SDHistoryUtils.UndoGroup</b>, os usuários podem *agrupar ações* para *desfazer ou refazer* todas elas em um único comando.
 
-Esses grupos são *nomeados* pelos usuários e aparecerão por esse nome na lista de desfazer/refazer na interface do usuário.  Isso torna um grande número de ações mais gerenciáveis.
+Esses grupos são *nomeados* pelos usuários e aparecerão por esse nome na lista de desfazer/refazer na interface do usuário.  Isso torna um grande número de ações mais gerenciáveis.
 
 ```
 import sd 
