@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Saiba como usar os padeiros do Substance 3D Designer para computar informações baseadas em malha em arquivos de textura.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Preparação refere-se à ação de **transferência de informações baseadas e
 
 >[!NOTE]
 >
-> Para saber mais sobre panificação, consulte a [Documentação de panificação](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).
+> Para saber mais sobre panificação, consulte a [Documentação de panificação](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/home).
 
 <table>
 <tr style="border: 0;">
@@ -93,13 +93,13 @@ Esse painel controla onde a textura assada será localizada.
 
 ### Malhas de alta definição
 
-Este painel controla a lista de malha de alto polígono e as configurações relacionadas. Consulte os [parâmetros comuns](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) para obter mais informações.
+Este painel controla a lista de malha de alto polígono e as configurações relacionadas. Consulte os [parâmetros comuns](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/bakers-settings/common-parameters) para obter mais informações.
 
 ![Malhas de alta definição](bakers.resources/sd-high.png "Malhas de alta definição")
 
 ### Valores padrão
 
-Consulte os [parâmetros comuns](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) para obter mais informações.
+Consulte os [parâmetros comuns](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/bakers-settings/common-parameters) para obter mais informações.
 
 ![Valores padrão](bakers.resources/sd-default-values.png "Valores padrão")
 
@@ -116,6 +116,6 @@ Cada baker no herda por padrão os Valores padrão (veja acima). O tamanho (reso
 
 Ao clicar em um padeiro na lista, a visualização Parâmetros Baker atualizará com seus parâmetros específicos.
 
-Para saber mais sobre os parâmetros específicos, consulte: [Configurações de preparadores](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings).
+Para saber mais sobre os parâmetros específicos, consulte: [Configurações de preparadores](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
 ![lista de renderização de Baker](bakers.resources/sd-baker-list.png "lista de renderização de Baker")

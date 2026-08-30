@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Saiba mais sobre o gerenciamento de cores no Substance 3D Designer, incluindo espaços de cores, perfis e fluxos de trabalho de cores especiais.
 helpx_creative_field: ""

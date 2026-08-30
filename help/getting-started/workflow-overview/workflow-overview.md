@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: Conheça o fluxo de trabalho essencial para criar materiais de procedimento no Substance 3D Designer do início ao fim.
 helpx_creative_field: ""

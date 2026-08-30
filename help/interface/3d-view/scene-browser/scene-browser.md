@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: Use o Navegador de cena para navegar e gerenciar elementos, materiais e objetos da cena 3D na viewport.
 helpx_creative_field: ""

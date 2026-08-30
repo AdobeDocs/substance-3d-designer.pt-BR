@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Defina as configurações de tamanho de saída para gráficos de composição de Substance para controlar a resolução e a qualidade da textura.
 helpx_creative_field: ""
