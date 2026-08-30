@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: Saiba como personalizar seu espaço de trabalho no Substance 3D Designer para otimizar suas preferências de fluxo de trabalho e layout.
 helpx_creative_field: ""
