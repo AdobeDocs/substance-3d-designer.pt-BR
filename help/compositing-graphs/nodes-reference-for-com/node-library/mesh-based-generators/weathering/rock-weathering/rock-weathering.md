@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
 breadcrumb-title: ''
 description: Use o nó Envelhecimento de rocha para gerar padrões de enrolamento em superfícies de rocha com base na geometria da malha para efeitos de erosão realistas.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rock Weathering
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 1%
+source-wordcount: '266'
+ht-degree: 16%
 
 ---
 
@@ -22,78 +22,71 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rock-weathering.png){width="128px"}
+![](rock-weathering.resources/rock-weathering.png){width="128px"}
 
-## Rock Weathering
-
-**Entrada:** *Geradores Baseados Em Malha**/Clima*
-
-**Complexo**
+<b>Entrada:</b> Geradores Baseados em Malha > Clima
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-## Parâmetros
-
-### Entradas
-
-* **Oclusão De Ambiente**: *Entrada Em Tons De Cinza*\
-  Mapa baked usado para efeitos internos e mascaramento.
-* **Curvatura**: *Entrada em tons de cinza*\
-  Mapa baked usado para efeitos internos e mascaramento.
-* **WS normal**: *Entrada de cores*\
-  Mapa normal do espaço do mundo assado usado para efeitos internos e mascaramento.
-* **Máscara** : *Entrada Em Tons De Cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó. Pode ser alternado com o parâmetro “Máscara”.
-
-### Parâmetros
-
-* **Canais**
-  * Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza.
-* **Avançado**
-  * **Formato Normal**: *DirectX, OpenGL*\
-    Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde).
-  * **Máscara**: *Falso/Verdadeiro*\
-    Ativa ou desativa o uso do Mapa de máscaras.
-* **Efeito**
-  * **Dust**: *0.0 - 1.0*
-  * **Sujeira**: *0.0 - 1.0*
-  * **Bordas Desgastadas**: *0.0 - 1.0*
-  * **Rochas Usadas**: *0.0 - 1.0*
-  * **Escala do Rachadura**: *1.0 - 60.0*
-  * **Intensidade do Rachadura**: *0.0 - 1.0*
-  * **Idade**: *0.0 - 1.0*
-  * **Limite de Idade**: *0.0 - 1.0*
-  * **Escala de Scratches de Bordas Nítidas**: *1.0 - 32.0*
-  * **Intensidade de distorção de Scratches de bordas cortantes**: *0.0 - 1.0*
-  * **Dessaturação De Rochas Usadas**: *0.0 - 1.0*
-  * **Brilho de Rock Usado**: *0.0 - 1.0*
-* **Mesclagem**
-  * **Intensidade Difusa**: *0.0 - 1.0*\
-    Intensidade de mesclagem do Difusa.
-  * **Intensidade de cor base**: *0.0 - 1.0*\
-    Intensidade de mesclagem da Cor de base.
-  * **Intensidade Normal**: *0.0 - 64.0*\
-    Intensidade de mesclagem do Normal.
-  * **Intensidade de Specular**: *0.0 - 1.0*\
-    Intensidade de mistura do Specular.
-  * **Intensidade de textura reluzente**: *0.0 - 1.0*\
-    Intensidade de mistura da Textura reluzente.
-  * **Intensidade de aspereza**: *0.0 - 1.0*\
-    Intensidade de mistura da aspereza.
-  * **Intensidade de Oclusão do ambiente**: *0.0 - 1.0*\
-    Intensidade de mesclagem da Oclusão ambiente.
-  * **Intensidade de Height**: *0.0 - 1.0*\
-    Intensidade de mistura do Height.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/rock-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Oclusão de ambiente</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para efeitos internos e mascaramento. |
+| <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para efeitos internos e mascaramento. |
+| <b>WS normal</b> <i>Entrada de cores</i> | Mapa normal do espaço do mundo assado usado para efeitos internos e mascaramento. |
+| <b>Máscara</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. Pode ser alternado com o parâmetro “Máscara”. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Canais</b> | Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza. |
+| <b>Avançado</b> |  |
+| <b>Formato Normal</b> <i>DirectX, OpenGL</i> | Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde). |
+| <b>Máscara</b> <i>Falso/Verdadeiro</i> | Ativa ou desativa o uso do Mapa de máscaras. |
+| <b>Efeito</b> |  |
+| <b>Dust</b> <i>0.0 - 1.0</i> |  |
+| <b>Sujeira</b> <i>0.0 - 1.0</i> |  |
+| <b>Bordas Vestindo</b> <i>0.0 - 1.0</i> |  |
+| <b>Rochas usadas</b> <i>0.0 - 1.0</i> |  |
+| <b>Escala do Rachadura</b> <i>1.0 - 60.0</i> |  |
+| <b>Intensidade do Rachadura</b> <i>0.0 - 1.0</i> |  |
+| <b>Idade</b> <i>0.0 - 1.0</i> |  |
+| <b>Limite de Idade</b> <i>0.0 - 1.0</i> |  |
+| <b>Escala de Scratches de Bordas Nítidas</b> <i>1.0 - 32.0</i> |  |
+| <b>Intensidade de distorção de Scratches de bordas cortantes</b> <i>0.0 - 1.0</i> |  |
+| <b>Dessaturação De Rochas Usadas</b> <i>0.0 - 1.0</i> |  |
+| <b>Brilho de Rock Usado</b> <i>0.0 - 1.0</i> |  |
+| <b>Mesclagem</b> |  |
+| <b>Intensidade de Difusão</b> <i>0.0 - 1.0</i> | Intensidade de mesclagem do Difusa. |
+| <b>Intensidade de Cor de base</b> <i>0.0 - 1.0</i> | Intensidade de mesclagem da Cor de base. |
+| <b>Intensidade normal</b> <i>0.0 - 64.0</i> | Intensidade de mesclagem do Normal. |
+| <b>Intensidade de Specular</b> <i>0.0 - 1.0</i> | Intensidade de mistura do Specular. |
+| <b>Intensidade de brilho</b> <i>0.0 - 1.0</i> | Intensidade de mistura da Textura reluzente. |
+| <b>Intensidade de aspereza</b> <i>0.0 - 1.0</i> | Intensidade de mistura da aspereza. |
+| <b>Intensidade de Oclusão de ambiente</b> <i>0.0 - 1.0</i> | Intensidade de mesclagem da Oclusão ambiente. |
+| <b>Intensidade de Height</b> <i>0.0 - 1.0</i> | Intensidade de mistura do Height. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rock-weathering.resources/rock-ex.gif" />
+        </td>
+    </tr>
 </table>

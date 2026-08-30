@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/difference.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/difference.html"
 breadcrumb-title: ''
 description: Use o nó de mesclagem Diferença para mesclar texturas usando o modo de diferença para criar efeitos de inversão e contraste.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Diferença
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 6%
+source-wordcount: '99'
+ht-degree: 7%
 
 ---
 
@@ -22,41 +22,38 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/difference.png){width="128px"}
+![](difference.resources/difference.png){width="128px"}
 
-## Diferença
-
-**Entrada:** *Filtros/Mesclagem*
-
-**Simples**
+<b>Entrada:</b> Filtros > Mesclagem
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Executa um modo de mesclagem Diferença entre as entradas de Primeiro Plano e Plano de Fundo. Subtrai o plano de fundo do primeiro plano, retornando um resultado absoluto (nunca um valor negativo).
 
-## Parâmetros
-
-### Entradas
-
-* **Fundo**: *Entrada de Cores*
-* **Primeiro Plano**: *Entrada de Cores*
-* **Máscara**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Opacidade**: *0.0 - 1.0*\
-  Mesclar opacidade entre primeiro plano e plano de fundo.
-* **Mesclagem de Alpha**: *Falso/Verdadeiro*\
-  Alterna a mesclagem dos canais alfa Primeiro plano e Plano de fundo. Se definido como Falso, o canal alfa do primeiro plano é ignorado.
-
-## Imagens de exemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Fundo</b> <i>Entrada de cores</i> |  |
+| <b>Primeiro Plano</b> <i>Entrada de cores</i> |  |
+| <b>Máscara</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Opacidade</b> <i>0.0 - 1.0</i> | Mesclar opacidade entre primeiro plano e plano de fundo. |
+| <b>Mesclagem de alfa</b> <i>Falso/Verdadeiro</i> | Alterna a mesclagem dos canais alfa Primeiro plano e Plano de fundo. Se definido como Falso, o canal alfa do primeiro plano é ignorado. |

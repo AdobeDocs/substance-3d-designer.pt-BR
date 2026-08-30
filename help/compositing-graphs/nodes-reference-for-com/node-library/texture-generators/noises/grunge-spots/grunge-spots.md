@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
 breadcrumb-title: ''
 description: Use o nó Pontos do Desgaste para gerar padrões de pontos para adicionar efeitos de desgaste e desgaste aos materiais.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Pontos de desgaste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '130'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungespots.jpg){width="200px"}
+![](grunge-spots.resources/grungespots.jpg){width="200px"}
 
-**Entrada:** *Geradores De Textura* */Ruídos*
-
-**Simples**
+<b>Entrada:</b> Geradores de Textura > Ruídos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,31 +39,30 @@ O nó **Pontos de Desgaste** gera um mapa de desgaste semelhante a pontos espalh
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parâmetros
 
-* **Equilíbrio** *Flutuante* Ajusta o equilíbrio entre valores escuros e brilhantes.
-* **Contraste** *Flutuar* Ajusta o contraste da imagem.
-* **Inverter** *Booleano* Inverte a saída da imagem usando uma operação `1-x`.
-* **Expansão não quadrada** *Booleano* Habilita a compensação de squash e alongamento com proporções não quadradas.
-* Avançado
-  * **Detalhes** *Flutuação* Ajusta a quantidade de manchas *distorcidas* e divididas em pontos mais finos.
-  * **Cobertura** *Flutuante* Ajusta a cobertura das manchas na imagem.
-  * **Contraste de cobertura** *Flutuante* Ajusta o contraste da *máscara* usada para controlar\
-    a cobertura das manchas na imagem.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
+| <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
+| <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+| <b>Avançado</b> |  |
+| <b>Detalhes</b> <i>Flutuante</i> | Ajusta a quantidade de manchas *distorcidas* e divididas em pontos mais finos. |
+| <b>Cobertura</b> <i>Flutuante</i> | Ajusta a cobertura das manchas na imagem. |
+| <b>Contraste de cobertura</b> <i>Flutuante</i> | Ajusta o contraste da *máscara* usada para controlar a cobertura das manchas na imagem. |
 
-## Imagens de exemplo
+## Exemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespots-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespots-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-spots.resources/grungespots-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-spots.resources/grungespots-variant.jpg" />
+        </td>
+    </tr>
 </table>

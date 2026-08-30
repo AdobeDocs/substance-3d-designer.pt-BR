@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
 breadcrumb-title: ''
 description: Use o nó Combinação normal para combinar vários mapas normais para detalhes e detalhes da superfície da camada.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Combinação normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: '139'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-combine.png){width="128px"}
+![](normal-combine.resources/normal-combine.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Mapa normal
 
@@ -45,17 +45,21 @@ Esta é a melhor e mais correta maneira de adicionar detalhes de mapa normal ger
 
 Se você quiser mesclar dois mapas normais sem combinar seus detalhes (usando uma máscara, por exemplo), use a [Mesclagem normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md).
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Normal</b> *Cor* Descrição
+## Entradas
 
-<b>Normal</b> *Cor* Descrição
+|  |  |
+|:---|:---|
+| <b>Normal</b> <i>Cor</i> | Descrição |
+| <b>Normal</b> <i>Cor</i> | Descrição |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Técnica</b> *Inteiro* Define qual técnica de mesclagem interna usar, trocando em velocidade por qualidade.\
-*- Whiteout (Baixa qualidade)
-* Misturador de canais (alta qualidade)
-* Orientado a detalhes (alta qualidade)*
+|  |  |
+|:---|:---|
+| <b>Técnica</b> *Inteiro* | Define qual técnica de mistura interna usar, negociando em velocidade para qualidade.<br><br>*- Whiteout (Baixa qualidade)<br>* Misturador de canais (Alta qualidade)<br>* Orientado a detalhes (Alta qualidade)* |
 
 ## Exemplos

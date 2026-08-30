@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
 breadcrumb-title: ''
 description: Use o nó do filtro Clone para duplicar e deslocar regiões de textura para criar padrões perfeitos e efeitos de divisão em blocos gráficos.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Clonar (Nó de Filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 2%
+source-wordcount: '179'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-4.png)
+![](clone-filter-node.resources/clone-4.png)
 
-## Clonar
-
-**Entrada:** *Filtros/Transformações*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Transformas
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -45,28 +41,34 @@ Requer um pouco de cuidado para obter os resultados desejados:
 * O padrão da máscara é preto. Portanto, para ver os resultados, um valor uniforme de tons de cinza branco precisa ser conectado, pelo menos.
 * O Deslocamento recortará fora da imagem facilmente, portanto, use valores pequenos.
 
-## Parâmetros
-
-### Entradas
-
-* **Origem**: *Entrada de Cores*\
-  Imagem para clonar. Importante: o ideal é que a imagem tenha um canal alfa!
-* **Máscara**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó. O padrão é preto!
-
-### Parâmetros
-
-* **Deslocamento**: *-*\
-  Move ou traduz o resultado. Positivo é para a esquerda e para cima, Negativo é para a direita e para baixo. Use valores pequenos. A versão 1.0 ou posterior move o texto para fora da imagem.
-* **Máscara de desfoque**: *0.0 - 10.0\
-  Aplique um filtro de desfoque à máscara para suavizar bordas.*
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/clone-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Origem</b> <i>Entrada de cores</i> | Imagem para clonar. Importante: o ideal é que a imagem tenha um canal alfa! |
+| <b>Máscara</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. O padrão é preto! |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Deslocamento</b> <i>-</i> | Move ou traduz o resultado. Positivo é para a esquerda e para cima, Negativo é para a direita e para baixo. Use valores pequenos. A versão 1.0 ou posterior move o texto para fora da imagem. |
+| <b>Máscara de desfoque</b> <i>0.0 - 10.0</i> | Aplique um filtro de desfoque à máscara para suavizar as arestas. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="clone-filter-node.resources/clone-example.png" />
+        </td>
+    </tr>
 </table>

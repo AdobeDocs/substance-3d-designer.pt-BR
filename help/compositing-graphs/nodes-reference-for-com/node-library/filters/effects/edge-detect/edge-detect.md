@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/edge-detect.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/edge-detect.html"
 breadcrumb-title: ''
 description: Use o nó Detecção de borda para detectar bordas em texturas para criar contornos e efeitos de máscara baseados em bordas.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Detecção de borda
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 1%
+source-wordcount: '122'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-detect.png){width="128px"}
+![](edge-detect.resources/edge-detect.png){width="128px"}
 
-## Detecção de borda
-
-**Entrada:** *Filtros/Efeitos*
-
-**Simples**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,20 +37,27 @@ Detecta o contraste em imagens em preto e branco e, em seguida, cria uma máscar
 
 Útil em muitos casos em que algum tipo de máscara para bordas é necessário. Lembre-se de que ele funciona melhor com entradas de alto contraste; se necessário, ajuste o contraste antes de passar algo para esse nó.
 
-## Parâmetros
-
-* **Largura da Borda**: *1.0 - 16.0* Largura das áreas detectadas ao redor das bordas.
-* **Arredondamento da borda**: *0.0 - 16.0* Arredonda, desfoca e suaviza a máscara gerada.
-* **Inverter**: *Falso/Verdadeiro*\
-  Inverte o resultado.
-* **Tolerância**: *0.0 - 1.0* Fator de limite de tolerância para onde as bordas devem aparecer.
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/edge-detect-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Largura da borda</b> <i>1.0 - 16.0</i> | Largura das áreas detectadas ao redor das bordas. |
+| <b>Arredondamento da borda</b> <i>0.0 - 16.0</i> | Arredonda, desfoca e suaviza a máscara gerada. |
+| <b>Inverter</b> <i>Falso/Verdadeiro</i> | Inverte o resultado. |
+| <b>Tolerância</b> <i>0.0 - 1.0</i> | Fator de limite de tolerância para onde as bordas devem aparecer. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-detect.resources/edge-detect-ex.png" />
+        </td>
+    </tr>
 </table>

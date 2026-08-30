@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 breadcrumb-title: ''
 description: Exporte cenas 3D com todas as edições feitas no Designer usando a ação Exportar cena no menu Visualização de cena 3D.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exportação de cenas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Para outros formatos, o conteúdo da cena e sua estrutura interna dependerão do
 >
 > Todos os itens adicionados à cena pelo Designer serão incluídos na cena exportada: a câmera padrão, o ambiente padrão, todos os materiais copiam quaisquer luzes adicionais.
 
-![Ações de exportação de cena](../../assets/exportActions.png "Ações de exportação de cena"){zoomable="yes"}
+![Ações de exportação de cena](exporting-scenes.resources/exportActions.png "Ações de exportação de cena"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ Isso significa que as edições na cena original não afetam a cena exportada.
 </td>
 <td style="border: 0;" valign="top">
 
-![Arquivos de cena exportados - Achatados](../../assets/exportFlattened.png "Arquivos de cena exportados - Achatados"){zoomable="yes"}
+![Arquivos de cena exportados - Achatados](exporting-scenes.resources/exportFlattened.png "Arquivos de cena exportados - Achatados"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Isso significa que as edições na cena original são transportadas para a cena 
 </td>
 <td style="border: 0;" valign="top">
 
-![Arquivos de cena exportados - Em camadas](../../assets/exportLayered.png "Arquivos de cena exportados - Em camadas"){zoomable="yes"}
+![Arquivos de cena exportados - Em camadas](exporting-scenes.resources/exportLayered.png "Arquivos de cena exportados - Em camadas"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
 breadcrumb-title: ''
 description: Use o nó Quadrante em FXMaps para dividir as texturas em quatro seções para criar variações e padrões lado a lado.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: O Nó Quadrante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 2%
@@ -102,12 +102,12 @@ O parâmetro Variação de padrão ajusta um recurso definido do padrão.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../assets/fxmap-quadrants.png){width="80px"}
+![](the-quadrant-node.resources/fxmap-quadrants.png){width="80px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../assets/quadrant-parameters.jpg)
+![](the-quadrant-node.resources/quadrant-parameters.jpg)
 
 </td>
 </tr>

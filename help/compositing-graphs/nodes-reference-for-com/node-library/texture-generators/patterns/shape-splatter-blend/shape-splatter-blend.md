@@ -1,64 +1,66 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
 breadcrumb-title: ''
-description: Use o nó Mesclagem de respingos de forma para mesclar vários respingos de forma para criar padrões de procedimento complexos.
+description: Use o nó Combinar de respingo de forma para mesclar vários respingos de forma a fim de criar padrões processuais complexos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Mesclagem de respingos de forma
+title: Combinar de respingos de forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 2%
+source-wordcount: '105'
+ht-degree: 14%
 
 ---
 
 
-# Mesclagem de respingos de forma
+# Combinar de respingos de forma
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-blend.png){width="128px"}
+![](shape-splatter-blend.resources/shape-splatter-blend.png){width="128px"}
 
-## Mesclagem de respingos de forma (cor)
-
-**Entrada:** *Geradores De Textura**/Padrões*
-
-**Complexo**
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Usa os dados do [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) como entrada para gerar mapas de cores ou tons de cinza.
 
-## Parâmetros
-
-* **Cor Do Plano De Fundo**: *Entrada De Cores*
-* **Padrão 1-8**: *Entrada de Cores*
-* **Entrada de cores**: *Entrada de cores*
-* **Dados De Respingo 1**: *Entrada De Cores*
-* **Dados De Respingo 2**: *Entrada De Cores*
-
-### Parâmetros
-
-* **Número de Padrão**: *1 - 8*
-* **Atribuição de Padrão Aleatória (Somente Cor)**: *0.0 - 1.0*
-* **&#x200B; Is Normal Map &#x200B;**(Color Only)***: *False/True*
-* **Ajuste de HSL/Luminância**: *-1.0 - 1.0*
-* **HSL/Luminância Aleatória**: *-1.0 - 1.0*
-* **&#x200B;Ângulo Normal Aleatório &#x200B;**(Somente Cor)***: *0.0 - 1.0*
-* **Opacidade De Entrada De Cores**: *0.0 - 1.0*
-
-## Imagens de exemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Cor do plano de fundo</b> <i>Entrada de cores</i> |  |
+| <b>Padrão 1-8</b> <i>Entrada de cores</i> |  |
+| <b>Entrada de cores</b> <i>Entrada de cores</i> |  |
+| <b>Dados de respingo 1</b> <i>Entrada de cores</i> |  |
+| <b>Dados de respingo 2</b> <i>Entrada de cores</i> |  |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Número de Padrão</b> <i>1 - 8</i> |  |
+| <b>Atribuição De Padrão Aleatória (Somente Cores)</b> <i>0.0 - 1.0</i> |  |
+| <b>É Mapa normal (Somente Cor)</b> <i>Falso/Verdadeiro</i> |  |
+| <b>Ajuste de HSL/Luminância</b> <i>-1.0 - 1.0</i> |  |
+| <b>HSL/Luminância aleatória</b> <i>-1.0 - 1.0</i> |  |
+| <b>Ângulo Normal Aleatório (Somente Cor)</b> <i>0.0 - 1.0</i> |  |
+| <b>Opacidade de entrada de cores</b> <i>0.0 - 1.0</i> |  |

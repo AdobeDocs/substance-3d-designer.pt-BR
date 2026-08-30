@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/variables.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables.html"
 breadcrumb-title: ''
 description: Saiba como usar variáveis nos gráficos de função do Substance 3D Designer para armazenar e reutilizar valores de forma eficiente.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variáveis
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -45,13 +45,13 @@ No Substance 3D Designer você tem duas famílias de variáveis: Numéricos e Bo
 Variáveis numéricas são basicamente números. Mas fazemos uma distinção clara entre dois tipos de números:
 
 * Inteiros : 0 | 1 | -1 | 203568, etc...
-* Flutuações: 0,23 | 1,0 | -0,3546 | etc.
+* Precisão decimal: 0.23 | 1,0 | -0,3546 | etc.
 
 >[!WARNING]
 >
 > O Designer faz uma distinção clara entre inteiros e flutuantes : por padrão você não pode operá-los juntos.
 > 
-> Felizmente, você pode usar os nós *Para Inteiro* ou Para Flutuante para executar conversões de tipo.
+> Felizmente, você pode usar os nós *Para Inteiro* ou Para Precisão decimal para executar conversões de tipo.
 
 ### Vários valores numéricos na mesma variável
 
@@ -61,7 +61,7 @@ Mais uma vez, todos os valores devem ser do mesmo tipo.
 
 Para fazer isso, você tem a opção entre todos esses valores numéricos:
 
-![](../../assets/image2015-12-18-14-10-36.png)
+![](variables.resources/image2015-12-18-14-10-36.png)
 
 ## Boolean
 

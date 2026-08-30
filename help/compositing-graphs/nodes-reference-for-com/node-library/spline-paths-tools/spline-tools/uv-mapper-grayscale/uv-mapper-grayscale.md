@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale.html"
 breadcrumb-title: ''
-description: Use o nó Tons de cinza do Mapeador UV para mapear texturas em tons de cinza ao longo de splines para a geração de texturas de procedimento.
+description: Use o nó Escala de cinza do Mapeador UV para mapear texturas em tons de cinza ao longo de splines para geração de textura processual.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > UV Mapper Grayscale
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Escala de cinza do mapeador UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 1%
+source-wordcount: '142'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/uv-mapper-grayscale-icon.png "Ícone de nó")
+![Ícone de nó](uv-mapper-grayscale.resources/uv-mapper-grayscale-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -47,15 +43,22 @@ Mapeia a imagem em tons de cinza de entrada usando as coordenadas fornecidas na 
 >
 > Consulte também [Cor do Mapeador UV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md).
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>UV</b> Coordenadas de imagem *coloridas* codificadas nos canais vermelho (U) e verde (V) de uma imagem colorida.
+## Entradas
 
-<b>Entrada</b> *Cor* A imagem em tons de cinza que deve ser mapeada para as coordenadas fornecidas na entrada UV.
+|  |  |
+|:---|:---|
+| <b>UV</b> <i>Cor</i> | Coordenadas de imagem codificadas nos canais vermelho (U) e verde (V) de uma imagem colorida. |
+| <b>Entrada</b> <i>Cor</i> | A imagem em tons de cinza que deve ser mapeada para as coordenadas fornecidas na entrada UV. |
 
-## Conectores de saída
+<a name="outputs"></a>
 
-<b>Saída</b> *Cor* O resultado do mapeamento da imagem de entrada usando as coordenadas UV de entrada, como uma imagem em tons de cinza.
+## Saídas
+
+|  |  |
+|:---|:---|
+| <b>Saída</b> <i>Cor</i> | O resultado do mapeamento da imagem de entrada usando as coordenadas UV de entrada, como uma imagem em tons de cinza. |
 
 ## Exemplos
 
@@ -66,11 +69,11 @@ Mapeia a imagem em tons de cinza de entrada usando as coordenadas fornecidas na 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
+      <img src="uv-mapper-grayscale.resources/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -82,11 +85,11 @@ Mapeia a imagem em tons de cinza de entrada usando as coordenadas fornecidas na 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -96,18 +99,4 @@ Mapeia a imagem em tons de cinza de entrada usando as coordenadas fornecidas na 
 </tr>
 </table>
 
-![Exemplo de nó 1](../../../../../../assets/UVMapper-Graph.jpg "Exemplo de nó 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
+![Exemplo de nó 1](uv-mapper-grayscale.resources/UVMapper-Graph.jpg "Exemplo de nó 1")

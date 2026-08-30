@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ''
 description: Use o nó Desfoque direcional para aplicar efeitos de desfoque em uma direção específica para criar efeitos de desfoque e listras de movimento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desfoque direcional
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: desfoque direcional](../../../../assets/comp_dirmotionblur_1.png "Nó atômico: desfoque direcional"){width="200px"}
+![Nó atômico: desfoque direcional](directional-blur.resources/comp_dirmotionblur_1.png "Nó atômico: desfoque direcional"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -69,14 +69,14 @@ As imagens abaixo mostram o desfoque direcional e o [desfoque anisotrópico](../
 
 <b>Desfoque direcional</b>
 
-![Comparação de desfoque direcional](../../../../assets/dirblur-01.png "Comparação de desfoque direcional"){zoomable="yes"}
+![Comparação de desfoque direcional](directional-blur.resources/dirblur-01.png "Comparação de desfoque direcional"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 <b>Desfoque anisotrópico</b>
 
-![Comparação de desfoque anisotrópico](../../../../assets/aniso-01.png "Comparação de desfoque anisotrópico"){zoomable="yes"}
+![Comparação de desfoque anisotrópico](directional-blur.resources/aniso-01.png "Comparação de desfoque anisotrópico"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-filter-node.html"
 breadcrumb-title: ''
 description: Use o nó do filtro Curvatura para gerar mapas de curvatura de mapas de height para detectar superfícies convexas e côncavas.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Curvatura (Nó de filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 2%
+source-wordcount: '123'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/curvature-1.png){width="128px"}
+![](curvature-filter-node.resources/curvature-1.png){width="128px"}
 
-## Curvatura
-
-**Entrada:** *Filtros/Efeitos*
-
-**Simples**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,18 +37,25 @@ Executa uma conversão de curvatura de passagem única simples e áspera para a 
 
 Esse nó é útil para um rápido realce ou escurecimento de determinadas bordas. É limitado em comparação à [Curvatura suave](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) (que produz resultados de maior qualidade) e à [Curvatura sólida](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md) (que tem mais opções).
 
-## Parâmetros
-
-* **Intensidade**: *0.0 - 10.0* Intensidade do efeito. Aumenta o contraste do resultado.
-* **Formato Normal**: *DirectX, OpenGL*\
-  Alterna entre diferentes formatos de Mapas Normais (inverte o canal Verde).
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/curvature-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Intensidade</b> <i>0.0 - 10.0</i> | Intensidade do efeito. Aumenta o contraste do resultado. |
+| <b>Formato Normal</b> <i>DirectX, OpenGL</i> | Alterna entre diferentes formatos de Mapas Normais (inverte o canal Verde). |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="curvature-filter-node.resources/curvature-ex.png" />
+        </td>
+    </tr>
 </table>

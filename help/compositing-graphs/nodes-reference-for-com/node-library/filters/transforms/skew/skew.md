@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/skew.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/skew.html"
 breadcrumb-title: ''
 description: Use o nó Inclinação para aplicar transformações de inclinação a texturas para criar padrões inclinados e distorcidos.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Inclinar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 3%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -22,35 +22,41 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/skew-5.png){width="128px"}
+![](skew.resources/skew-5.png){width="128px"}
 
-![](../../../../../../assets/skew-grayscale.png){width="128px"}
+![](skew.resources/skew-grayscale.png){width="128px"}
 
-## Inclinar (tons de cinza)
-
-**Entrada:** *Filtros/Transformações*
-
-**Simples**
+<b>Entrada:</b> Filtros > Transformas
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Inclina uma imagem de entrada.
 
-## Parâmetros
-
-* **Eixo**: *Horizontal, Vertical* Escolha inclinar vertical ou horizontalmente.
-* **Valor**: *-1.0 - 1.0* Valor de inclinação.
-* **Alinhar**: *Centralizado, Superior Esquerdo, Inferior Direito* Define o ponto de origem da transformação Inclinação.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/skew-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Eixo</b> <i>Horizontal, Vertical</i> | Escolha inclinar vertical ou horizontalmente. |
+| <b>Valor</b> <i>-1.0 - 1.0</i> | Quantidade de inclinação. |
+| <b>Alinhar</b> <i>Centro, Superior Esquerdo, Inferior Direito</i> | Define o ponto de origem da transformação Inclinar. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="skew.resources/skew-ex.gif" />
+        </td>
+    </tr>
 </table>

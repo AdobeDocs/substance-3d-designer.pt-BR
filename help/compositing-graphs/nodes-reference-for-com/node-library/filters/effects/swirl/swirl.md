@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/swirl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/swirl.html"
 breadcrumb-title: ''
 description: Use o nó Redemoinho para aplicar efeitos de distorção de redemoinho às texturas para criar padrões de vórtice e espiral.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Redemoinho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 2%
+source-wordcount: '87'
+ht-degree: 6%
 
 ---
 
@@ -22,33 +22,30 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/swirl-grayscale.png)![](../../../../../../assets/swirl.png)
+![](swirl.resources/swirl-grayscale.png)![](swirl.resources/swirl.png)
 
-## Redemoinho (Tons de cinza)
-
-**Entrada:** *Filtros/Efeitos*
-
-**Simples**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Isso transforma uma imagem de entrada distorcendo-a em uma direção de redemoinho. Ele tem controle adicional para mover o Redemoinho em torno de partes da tela.
 
-## Parâmetros
-
-* **Matriz**\
-  Permite mover manualmente o efeito Redemoinho. Também pode ser modificado interagindo com as alças na visualização 2D.
-  * **Matriz**: *(Matriz de Transformação)*
-  * **Deslocamento**: *0.0 - 1.0*
-* **Valor**: *-16.0 - 16.0* Intensidade do efeito de redemoinho.
-
-## Imagens de exemplo
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Matriz</b> | Permite mover manualmente o efeito Redemoinho. Também pode ser modificado interagindo com as alças na visualização 2D. |
+| <b>Matriz</b> <i>(Matriz de Transformação)</i> |  |
+| <b>Deslocamento</b> <i>0.0 - 1.0</i> |  |
+| <b>Valor</b> <i>-16.0 - 16.0</i> | Intensidade do efeito de redemoinho. |

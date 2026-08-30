@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/fxaa.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/fxaa.html"
 breadcrumb-title: ''
 description: Use o nó FXAA para aplicar a Suavização de borda aproximada rápida às texturas para reduzir os artefatos de suavização.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: FXAA
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 1%
+source-wordcount: '69'
+ht-degree: 2%
 
 ---
 
@@ -22,27 +22,29 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fxaa-color.png)![](../../../../../../assets/fxaa-grayscale.png)
+![](fxaa.resources/fxaa-color.png)![](fxaa.resources/fxaa-grayscale.png)
 
-## FXAA (cor/escala de cinza)
-
-**Entrada:** *Filtros/Efeitos*
-
-**Simples**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Aplica um filtro de suavização de borda com base no algoritmo FXAA. Você pode usar isso para corrigir bordas irregulares e pixeladas nas formas. É especialmente útil para algo como [Forma de Disco](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md) que tem bordas pixeladas, pois fornece uma solução simples de um nó para bordas com suavização de borda.
 
-## Imagens de exemplo
-
-![](../../../../../../assets/fxaa-ex.png)
-
 </td>
 </tr>
+</table>
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fxaa.resources/fxaa-ex.png" />
+        </td>
+    </tr>
 </table>

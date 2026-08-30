@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
 breadcrumb-title: ''
 description: Use o nó Renderização de spline para renderizar splines como texturas com largura, cor e modos de mesclagem personalizáveis.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Renderização de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,9 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/spline-render-icon.png "Ícone de nó")
+![Ícone de nó](spline-render.resources/spline-render-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -43,99 +39,55 @@ Desenha cadeias de segmentos ao longo das <b>Splines</b> de entrada sobre o <b>F
 </tr>
 </table>
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Fundo </b>*Tons de Cinza* A imagem em tons de cinza sobre a qual as linhas divisórias devem ser desenhadas.
+## Entradas
 
-<b>Cordas de spline</b> *Cor* As coordenadas dos pontos das splines de entrada codificadas nos canais RGBA de uma imagem colorida:\
-<b> R</b> - Posição X\
-<b> G</b> - posição Y\
-<b> B</b> - Height\
-<b>A</b> - Dados empacotados:\
-* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-* Valor absoluto: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Fundo</b> <i>Tons de cinza</i> | A imagem em tons de cinza sobre a qual as splines devem ser desenhadas. |
+| <b>Cordas de spline</b> <i>Cor</i> | As coordenadas dos pontos das linhas divisórias de entrada codificadas nos canais RGBA de uma imagem colorida:<br><b>R</b> - posição X<br><b>G</b> - posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br> - Sinal: a linha divisória é fechada (negativa) ou aberta (positiva);<br> - Valor absoluto: Thickness + 1. |
+| <b>Dados de Spline</b> <i>Cor</i> | Dados adicionais das splines de entrada codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Não Usadas<br><b>A</b> - Não Usadas |
+| <b>Valor da spline</b> <i>Inteiro</i> | O número de splines de entrada. |
 
-<b>Dados de Spline</b> *Cor* Dados adicionais das splines de entrada codificados nos canais RGBA de uma imagem colorida.\
-<b> R</b> - Tangentes X\
-<b> G</b> - Tangentes Y\
-<b> B</b> - Não Usado\
-<b> A</b> - Não Usado
+<a name="outputs"></a>
 
-<b>Valor da spline</b> *Inteiro* O número de splines de entrada.
+## Saídas
 
-## Conectores de saída
+|  |  |
+|:---|:---|
+| <b>Saída</b> <i>Tons de cinza</i> | A imagem resultante do desenho dos splines de entrada sobre o plano de fundo. |
 
-<b>Saída</b> *Tons de cinza*\
-A imagem resultante do desenho dos splines de entrada sobre o plano de fundo.
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Modo</b> *Inteiro* O método de selecionar quais splines devem ser desenhadas:
-* *Desenhar lista de splines*: desenhe todas as splines na lista de entrada;
-* *Desenhar spline única*: desenhe somente a spline especificada da lista de entrada;
-* *Desenhar Intervalo de spline*: desenhe somente as splines no intervalo especificado da lista de entrada.
-
-<b>Desenhar Índice de Spline</b> *Inteiro* (Disponível quando ‘Mode’ está definido como ‘Draw Single Spline’)O índice da spline que deve ser desenhado.
-
-<b>Desenhar Intervalo De Spline</b> *Inteiro2* (Disponível quando ‘Mode’ estiver definido como ‘Draw Spline Range’)O intervalo de índices para as splines que deve ser desenhado.
-
-<b>Mostrar Auxiliar de Direção</b> *Booleano* Para cada spline, desenha um ponto no início da spline e uma ponta de seta no final.
-
-<b>Valor de Segmentos</b> *Inteiro* Ajusta o número de segmentos desenhados ao longo das splines.\
-Um valor mais alto resulta em linhas mais suaves.
-
-<b>Quantidade de spline do envelope</b> *Inteiro*\
-O número de segmentos duplicados que devem ser desenhados ao longo do thickness de cada spline.
-
-<b>Iniciar</b> *Flutuante* Desloca o início da parte da spline que deve ser desenhada.\
-O valor representa o comprimento normalizado da spline.
-
-<b>Fim</b> *Flutuante* Desloca a extremidade da parte da spline que deve ser desenhada.\
-O valor representa o comprimento normalizado da spline.
-
-<b>Modo de Tamanho de Thickness</b> *Inteiro* O método de calcular o thickness dos segmentos desenhados:
-* *Imagem*: o valor é normalizado no espaço de textura, onde 1 é a largura total da imagem. O thickness é relativo à resolução da textura;
-* *Pixel*: o valor é um número absoluto de pixels na textura, onde 1 é um pixel completo. O thickness é separado da resolução da textura.
-
-<b>Thickness (imagem)</b> *Flutuante* (disponível quando ‘Modo de Tamanho de Thickness’ está definido como Imagem)O thickness dos segmentos desenhados normalizados no espaço de textura, onde 1 é a largura total da imagem.
-
-<b>Thickness (px)</b> *Flutuante* (disponível quando ‘Modo de Tamanho de Thickness’ está definido como Pixel)O thickness dos segmentos desenhados como um número absoluto de pixels na textura, onde 1 é um pixel completo.
-
-<b>Habilitar Junções</b> *Booleano* Preenche as lacunas entre os segmentos individuais desenhados ao longo das splines, usando discos.
-
-<b>Correção não quadrada </b>*Booleana* Ajuste as posições e o thickness dos pontos para manter a forma de spline em resoluções não quadradas.\
-Isso também afeta a distribuição uniforme.
-
-+++Cor
-<b>Intensidade de fundo</b> *Flutuante* O valor multiplicado em relação à imagem de entrada do plano de fundo.
-
-<b>Estilo de Spline</b> *Inteiro* O método usado para colorir as splines:
-* *Sólidos*: os segmentos são desenhados usando um valor uniforme em tons de cinza;
-* *Degradê*: um degradê de preto para branco é aplicado ao longo de cada sequência de segmentos do início ao fim;
-* *Height*: o height das splines é usado como valor de tons de cinza para desenhar os segmentos.
-
-<b>Cor da spline</b> *Flutuante* O valor uniforme de tons de cinza usado para desenhar os segmentos.\
-Quando um Estilo de spline diferente de “Sólido” é selecionado, essa cor é multiplicada pela cor estilizada.
-
-<b>Luminância aleatória</b> *Flutuante* Para cada cadeia de caracteres de segmentos não recortados em uma spline, aplica um deslocamento aleatório no intervalo especificado ao valor de tons de cinza usado para desenhar essa cadeia de caracteres.
-
-<b>Modo de Mesclagem</b> *Inteiro* O método de mesclar as cores do plano de fundo e os segmentos sobrepostos desenhados ao longo das splines:
-* *Máx*: o valor mais claro é usado;
-* *Adicionar*: os valores são adicionados juntos.
-
-+++
-
-+++Segmentos aleatórios
-<b>Início de Segmentos Aleatórios</b> *Flutuante* Ajusta a probabilidade de corte da cadeia de segmentos próxima ao início da spline.
-
-<b>Fim de Segmentos Aleatórios</b> *Flutuante* Ajusta a probabilidade de corte da cadeia de segmentos próxima ao final da spline.
-
-<b>Deslocamento Aleatório</b> *Flutuante* Define a quantidade máxima de deslocamento aplicado a cada segmento cortado ao longo de seu normal.\
-Esse parâmetro não tem efeito quando Start e End estão definidos como 0.
-
-<b>Centro de Deslocamento Aleatório</b> *Flutuante* Desloca o centro do deslocamento aleatório aplicado a cada segmento cortado ao longo de seu normal.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Modo</b> <i>Inteiro</i> | O método de seleção de linhas de spline a serem desenhadas:<br>- <i>Desenhar lista de linhas de spline</i>: desenhar todas as linhas de spline na lista de entrada;<br>- <i>Desenhar linha de spline única</i>: desenhar somente a linha de spline especificada na lista de entrada;<br>- <i>Desenhar intervalo de linhas de spline</i>: desenhar somente as linhas de spline no intervalo especificado da lista de entrada. |
+| <b>Desenhar Índice de Spline</b> <i>Inteiro</i> | (Disponível quando “Modo” estiver definido como “Desenhar spline único”) O índice da spline que deve ser desenhado. |
+| <b>Desenhar Intervalo De Spline</b> <i>Inteiro2</i> | (Disponível quando “Modo” estiver definido como “Desenhar intervalo de spline”) O intervalo de índices das splines que deve ser desenhado. |
+| <b>Mostrar Auxiliar de Direção</b> <i>Booleano</i> | Para cada spline, desenha um ponto no início da spline e uma ponta de seta no final. |
+| <b>Valor de Segmentos</b> <i>Inteiro</i> | Ajusta o número de segmentos desenhados ao longo das splines.<br>Um valor mais alto resulta em linhas mais suaves. |
+| <b>Quantidade de spline do envelope</b> <i>Inteiro</i> | O número de segmentos duplicados que devem ser desenhados ao longo do thickness de cada spline. |
+| <b>Iniciar</b> <i>Flutuante</i> | Desloca o início da parte da spline que deve ser desenhada.<br>O valor representa o comprimento normalizado da spline. |
+| <b>Fim</b> <i>Flutuante</i> | Desloca a extremidade da parte da spline que deve ser desenhada.<br>O valor representa o comprimento normalizado da spline. |
+| <b>Modo de Tamanho de Thickness</b> <i>Inteiro</i> | O método de calcular o thickness dos segmentos desenhados:<br>- <i>Imagem</i>: o valor é normalizado no espaço de textura, onde 1 é a largura total da imagem. Thickness é relativo à resolução da textura;<br>- <i>Pixel</i>: o valor é um número absoluto de pixels na textura, onde 1 é um pixel completo. O thickness é separado da resolução da textura. |
+| <b>Thickness (imagem)</b> <i>Flutuante</i> | (disponível quando o “Modo do tamanho do Thickness” está definido como Imagem) O thickness dos segmentos desenhados normalizados no espaço de textura, onde 1 é a largura total da imagem. |
+| <b>Thickness (px)</b> <i>Flutuante</i> | (disponível quando o “Modo de tamanho de Thickness” estiver definido como Pixel) O thickness dos segmentos desenhados como um número absoluto de pixels na textura, onde 1 é um pixel completo. |
+| <b>Habilitar Junções</b> <i>Booleano</i> | Preenche as lacunas entre os segmentos individuais desenhados ao longo das splines usando discos. |
+| <b>Correção Não Quadrada</b> <i>Booleano</i> | Ajuste a posição e o thickness dos pontos para manter a forma de spline em resoluções não quadradas.<br>Isso também afeta a distribuição uniforme. |
+| <b>Cor</b> |  |
+| <b>Intensidade de fundo</b> <i>Flutuante</i> | O valor multiplicado em relação à imagem de entrada do plano de fundo. |
+| <b>Estilo de Spline</b> <i>Inteiro</i> | O método usado para colorir as splines:<br>- <i>Sólidas</i>: os segmentos são desenhados usando um valor uniforme em tons de cinza;<br>- <i>Gradiente</i>: um gradiente de preto para branco é aplicado a cada sequência de segmentos do início ao fim;<br>- <i>Height</i>: o height das splines é usado como o valor em tons de cinza para desenhar os segmentos. |
+| <b>Cor da spline</b> <i>Flutuante</i> | O valor uniforme de tons de cinza usado para desenhar os segmentos.<br>Quando um Estilo de Spline diferente de “Sólido” é selecionado, essa cor é multiplicada pela cor estilizada. |
+| <b>Luminância aleatória</b> <i>Flutuante</i> | Para cada sequência de segmentos não cortados em uma spline, o aplica um deslocamento aleatório no intervalo especificado ao valor de tons de cinza usado para desenhar essa sequência. |
+| <b>Modo de Mesclagem</b> <i>Inteiro</i> | O método de mesclar as cores do plano de fundo e os segmentos sobrepostos desenhados ao longo das linhas de spline:<br>- <i>Máx</i>: o valor mais claro é usado;<br>- <i>Adicionar</i>: os valores são adicionados juntos. |
+| <b>Segmentos aleatórios</b> |  |
+| <b>Início de Segmentos Aleatórios</b> <i>Flutuante</i> | Ajusta a probabilidade de corte da sequência de segmentos próxima ao início da spline. |
+| <b>Fim de Segmentos Aleatórios</b> <i>Flutuante</i> | Ajusta a probabilidade de corte da sequência de segmentos próxima ao final da spline. |
+| <b>Deslocamento Aleatório</b> <i>Flutuante</i> | Define a quantidade máxima de deslocamento aplicada a cada segmento cortado ao longo de seu normal.<br>Este parâmetro não tem efeito quando Start e End estão definidos como 0. |
+| <b>Centro de Deslocamento Aleatório</b> <i>Flutuante</i> | Desloca o centro do deslocamento aleatório aplicado a cada segmento cortado ao longo de seu normal. |
 
 ## Exemplos
 
@@ -146,11 +98,11 @@ Esse parâmetro não tem efeito quando Start e End estão definidos como 0.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant2-Before.jpg" alt="SplineRender-Variant2-Before">
+      <img src="spline-render.resources/SplineRender-Variant2-Before.jpg" alt="SplineRender-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant2-After.jpg" alt="SplineRender-Variant2-After">
+      <img src="spline-render.resources/SplineRender-Variant2-After.jpg" alt="SplineRender-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -162,11 +114,11 @@ Esse parâmetro não tem efeito quando Start e End estão definidos como 0.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
+      <img src="spline-render.resources/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant1-After.jpg" alt="SplineRender-Variant1-After">
+      <img src="spline-render.resources/SplineRender-Variant1-After.jpg" alt="SplineRender-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -183,11 +135,11 @@ Esse parâmetro não tem efeito quando Start e End estão definidos como 0.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
+      <img src="spline-render.resources/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant3.jpg" alt="SplineRender-Variant3">
+      <img src="spline-render.resources/SplineRender-Variant3.jpg" alt="SplineRender-Variant3">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -196,21 +148,7 @@ Esse parâmetro não tem efeito quando Start e End estão definidos como 0.
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/SplineRender-Demo.gif "Exemplo de nó 1")
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Exemplo de nó 1](spline-render.resources/SplineRender-Demo.gif "Exemplo de nó 1")
 
 </td>
 </tr>

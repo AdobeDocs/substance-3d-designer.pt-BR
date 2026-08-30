@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
 breadcrumb-title: ''
 description: Use o nó Converter em sRGB para converter texturas de espaço da cor linear para sRGB para fluxos de trabalho de exibição e saída.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Converter em sRGB
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 3%
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/convert-to-srgb-grayscale.png){width="128px"}
+![](convert-to-srgb.resources/convert-to-srgb-grayscale.png){width="128px"}
 
-![](../../../../../../assets/convert-to-srgb.png){width="128px"}
+![](convert-to-srgb.resources/convert-to-srgb.png){width="128px"}
 
-## Converter em sRGB (tons de cinza)
-
-**Entrada:** *Filtros/Ajustes*
-
-**Simples**
+<b>Entrada:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Converte uma entrada Linear em um espaço de cores sRGB. Útil ao trabalhar e converter com material de referência de foto, por exemplo.
-
-## Parâmetros
-
-*Nenhum Parâmetro.*
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
 
 </td>
 </tr>

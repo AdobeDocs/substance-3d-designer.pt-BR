@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/invert.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/invert.html"
 breadcrumb-title: ''
-description: Use o nó Inverter para inverter valores de cores em texturas para criar efeitos negativos e inversões de máscara.
+description: Use o nó Inverter para inverter valores de cor no textura a fim de criar efeitos negativos e inversões de máscara.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Invert
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Inverter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/invert-greyscale.png){width="128px"}
+![](invert.resources/invert-greyscale.png){width="128px"}
 
-![](../../../../../../assets/invert-3.png){width="128px"}
+![](invert.resources/invert-3.png){width="128px"}
 
-## Inverter (Tons de cinza)
-
-**Entrada:** *Filtros/Ajustes*
-
-**Simples**
+<b>Entrada:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -43,16 +39,24 @@ Inverte as cores de entrada.
 
 Importante: certifique-se de usar a versão apropriada para sua entrada! Use “Inverter” para entradas de cor e “Inverter escala de cinza” para entradas de escala de cinza.
 
-## Parâmetros
-
-* **Inverter**: *Falso/Verdadeiro* Ativa ou desativa o efeito.
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/invert-gray.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Inverter</b> <i>Falso/Verdadeiro</i> | Ativa ou desativa o efeito. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="invert.resources/invert-gray.png" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
 breadcrumb-title: ''
 description: Use o nó Damas de Desgaste para gerar padrões de desgaste semelhantes a máscaras para criar detalhes ornamentados de superfícies envelhecidas.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Damas de desgaste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungedamas.jpg){width="200px"}
+![](grunge-damas.resources/grungedamas.jpg){width="200px"}
 
-**Entrada:** *Geradores De Textura**/Ruídos*
-
-**Simples**
+<b>Entrada:</b> geradores de textura > Ruídos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,19 +39,29 @@ O nó **Damas de Desgaste** gera um mapa de desgaste semelhante a um padrão de 
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parâmetros
 
-* **Equilíbrio** *Flutuante* Ajusta o equilíbrio entre valores escuros e brilhantes.
-* **Contraste** *Flutuar* Ajusta o contraste da imagem.
-* **Inverter** *Booleano* Inverte a saída da imagem usando uma operação `1-x`.
-* **Expansão não quadrada** *Booleano* Habilita a compensação de squash e alongamento com proporções não quadradas.
-* Avançado
-  * **Distorção** *Flutuante* Ajusta a quantidade de distorção no padrão.
-  * **Divisões** *Inteiro* Ajusta a quantidade de divisões, ou repetições de gradiente, no padrão.
-  * **Ondas** *Inteiro* Ajusta a quantidade de ondas no padrão.
-  * **Detalhes** *Flutuante* Ajusta a intensidade das distorções menores.
-  * **Rotação aleatória** *Flutuação* Ajusta a aleatoriedade da rotação para cada onda.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
+| <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
+| <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+| <b>Avançado</b> |  |
+| <b>Distorção</b> <i>Flutuante</i> | Ajusta a quantidade de distorção no padrão. |
+| <b>Divisões</b> <i>Inteiro</i> | Ajusta a intensidade de divisões ou repetições de gradiente no padrão. |
+| <b>Ondas</b> <i>Inteiro</i> | Ajusta a quantidade de ondas no padrão. |
+| <b>Detalhes</b> <i>Flutuante</i> | Ajusta a intensidade das distorções menores. |
+| <b>Rotação aleatória</b> <i>Flutuante</i> | Ajusta a aleatoriedade da rotação para cada onda. |
 
-## Imagens de exemplo
+## Exemplos
 
-![](../../../../../../assets/grungedamas-variant.jpg){width="256px"}
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-damas.resources/grungedamas-variant.jpg" />
+        </td>
+    </tr>
+</table>

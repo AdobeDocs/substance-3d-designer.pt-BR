@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: Use o nó Entrada para criar parâmetros de entrada para gráficos de Substance que podem ser expostos e ajustados pelos usuários.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Entrada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nó atômico: cor de entrada](../../../../assets/comp_inputcolor_1.png "Nó atômico: cor de entrada"){width="200px"}
+![Nó atômico: cor de entrada](input.resources/comp_inputcolor_1.png "Nó atômico: cor de entrada"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nó atômico: escala de cinza de entrada](../../../../assets/comp_inputgrayscale_1.png "Nó atômico: escala de cinza de entrada"){width="200px"}
+![Nó atômico: escala de cinza de entrada](input.resources/comp_inputgrayscale_1.png "Nó atômico: escala de cinza de entrada"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nó atômico: valor de entrada](../../../../assets/comp_inputnumeric_1.png "Nó atômico: valor de entrada"){width="200px"}
+![Nó atômico: valor de entrada](input.resources/comp_inputnumeric_1.png "Nó atômico: valor de entrada"){width="200px"}
 
 </td>
 </tr>
@@ -44,7 +44,7 @@ Os nós de entrada são um tipo especial de nó que cria um slot dinâmico no gr
 
 Diferentemente dos [nós de saída](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), você deve inserir explicitamente uma entrada Color, Grayscale ou Value. Não é possível criar suas próprias entradas “agnósticas” que alteram o tipo dependendo do que está conectado a elas.
 
-Os nós de entrada não são tão cruciais quanto os [Nós de saída](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): você pode ter Gráficos avançados em perfeito funcionamento que não precisam de uma Entrada. As entradas só são usadas quando você deseja basear o resultado de uma Instância de Gráfico ou nó em uma entrada externa, por exemplo, ao criar uma [Instância](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ou um [Filtro](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/effects/filter) para o Substance 3D Painter.
+Os nós de entrada não são tão cruciais quanto os [Nós de saída](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): você pode ter Gráficos avançados em perfeito funcionamento que não precisam de uma Entrada. As entradas só são usadas quando você deseja basear o resultado de uma Instância de Gráfico ou nó em uma entrada externa, por exemplo, ao criar uma [Instância](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ou um [Filtro](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) para o Substance 3D Painter.
 
 <table>
 <tr style="border: 0;">
@@ -124,7 +124,7 @@ Os parâmetros base incluem, entre outros, <b>Tamanho de Saída</b>, <b>Formato 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Entrada primária no Substance](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Entrada primária no Substance](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>
@@ -145,11 +145,11 @@ Finalmente, você pode substituir qualquer valor de um determinado atributo defi
 
 >[!IMPORTANT]
 >
-> O método de herança *Relativo à entrada* para nós de entrada *não tem suporte* em [Ativos do Substance 3D (SBSAR)](https://helpx.adobe.com/br/substance-3d-assets.html). Defina todos os métodos de herança dos nós de entrada como *Relativo ao pai* antes de publicar o pacote.
+> O método de herança *Relativo à entrada* para nós de entrada *não tem suporte* em [Ativos do Substance 3D (SBSAR)](https://helpx.adobe.com/substance-3d-assets.html). Defina todos os métodos de herança dos nós de entrada como *Relativo ao pai* antes de publicar o pacote.
 
 ## Atributos de integração
 
-As entradas não são enviadas diretamente para o Modo de Exibição 3D, mas seus Atributos de Uso são usados pelo [Substance 3D Painter](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/home) para preencher automaticamente slots com determinados mapas (usados principalmente com [Filtros](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/effects/filter)).
+As entradas não são enviadas diretamente para o Modo de Exibição 3D, mas seus Atributos de Uso são usados pelo [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) para preencher automaticamente slots com determinados mapas (usados principalmente com [Filtros](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
 
 Além disso, os atributos de Uso também são usados com os [Modos de Criação de Link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), para corresponder aos slots de entrada e saída corretos.
 

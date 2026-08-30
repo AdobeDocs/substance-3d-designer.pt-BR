@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: Aprenda a usar atalhos de teclado no Substance 3D Designer para acelerar seu fluxo de trabalho e melhorar a produtividade.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atalhos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 17%
@@ -32,11 +32,11 @@ Nesta página, você pode encontrar uma visão geral de todos os atalhos para o 
 
 **Windows**
 
-![Atalhos de teclado no Windows](../../assets/keyboard_shortcuts_win.png "Atalhos de teclado no Windows"){zoomable="yes"}
+![Atalhos de teclado no Windows](shortcuts.resources/keyboard_shortcuts_win.png "Atalhos de teclado no Windows"){zoomable="yes"}
 
 **macOS**
 
-![Atalhos de teclado no macOS](../../assets/keyboard_shortcuts_mac.png "Atalhos de teclado no macOS"){zoomable="yes"}
+![Atalhos de teclado no macOS](shortcuts.resources/keyboard_shortcuts_mac.png "Atalhos de teclado no macOS"){zoomable="yes"}
 
 ## Listas de atalhos
 
@@ -66,7 +66,7 @@ Nesta página, você pode encontrar uma visão geral de todos os atalhos para o 
 | Colar | Ctrl + V | ⌘ + V |
 | Menu contextual | RMB | RMB |
 | Menu Nó | Barra de espaço | Barra de espaço |
-| Percorrer [pinos de navegação](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
+| Ciclo de [fixares de navegação](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
 <b>Modos de criação do link</b>
 

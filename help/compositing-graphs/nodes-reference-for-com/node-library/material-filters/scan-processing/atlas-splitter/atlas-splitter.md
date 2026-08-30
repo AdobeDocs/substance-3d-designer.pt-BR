@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
 breadcrumb-title: ''
 description: Use o nó Atlas splitter para dividir atlas de textura em texturas individuais para processar materiais digitalizados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas splitter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/atlas-splitter.png "Ícone de nó")
+![Ícone de nó](atlas-splitter.resources/atlas-splitter.png "Ícone de nó")
 
 <b>Entrada:</b> Filtros de Material/Processamento de Digitalização
 
@@ -43,68 +43,30 @@ O nó funciona como um aplicativo avançado do nó [Flood Fill](../../../../../.
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parâmetros
 
-<b>Exibição de grade</b> *Booleano*\
-Exibe todas as formas detectadas em uma grade.
-
-<b>Opacidade da grade</b> *Flutuante*\
-Define a opacidade das linhas de grade quando a visualização de grade é verdadeira. Opção Depurar
-
-<b>Opacidade da Seleção de Grade</b> *Flutuante*\
-Define a Opacidade do realce de Seleção de grade se a Exibição de grade for Verdadeira. Opção Depurar
-
-<b>Escala automática</b> *Booleano*\
-Dimensione automaticamente as formas para ajustá-las à célula da grade.
-
-<b>Corte Automático</b> *Booleano*\
-Corta automaticamente o tamanho da saída de acordo com a maior forma para minimizar o espaço vazio.
-
-<b>Seleção de forma</b> *Inteiro*\
-Na visualização Grade define qual célula é destacada, fora da visualização Grade define qual célula é retornada.
-
-<b>Ignorar Forma Menor Que</b> *Flutuante*\
-Ignora formas cujo tamanho diagonal é inferior ao valor especificado.
-
-<b>Rotação Automática</b> *Booleano*\
-Gira automaticamente a forma de acordo com a proporção de tamanho da caixa delimitadora.
-
-<b>Rotação</b> *Flutuante*\
-Ângulo de rotação da forma global
-
-<b>Formato Normal de Entrada</b> *Inteiro*\
-Define o formato da entrada normal. Definir o formato errado levará a um resultado incorreto.
-
-<b>Reduzir Máscara De Opacidade</b> *Inteiro*\
-Reduz a Máscara de opacidade para remover ruídos potenciais ou pixels isolados. Impede a detecção de formas indesejadas e também aumenta o desempenho.
-
-<b>Largura de Dilatação</b> *Flutuante*\
-Aplica um efeito de dilatação com base na máscara de Opacidade em todos os canais, exceto no Normal e no Height.
-
-<b>Habilitar Entradas Adicionais</b> *Booleano*\
-Disponibiliza as entradas e configurações do Usuário 1 e do Usuário 2 para todos os mapas adicionais não cobertos.
-
-<b>Cor de fundo personalizada</b> *Booleano*\
-Permite escolher uma cor de fundo personalizada, em vez de uma dilatação do conteúdo da camada.
-
-<b>Cor De Base Do Blog</b> *Flutuante3*\
-Cor de fundo personalizada para a cor de base.
-
-<b>Cor De Erro Normal</b> *Flutuante3*\
-Cor de fundo personalizada para o mapa normal.
-
-<b>Cores Metálicas De Fundo</b> *Flutuante*\
-Cor de fundo personalizada para metálico.
-
-<b>Cor De Borrão Da Aspereza</b> *Flutuante*\
-Cor de fundo personalizada para aspereza
-
-<b>Cor do Blog do Height</b> *Flutuante*\
-Cor de fundo personalizada para o Height
-
-<b>Cor De Bg Do Usuário 1</b> *Flutuante*\
-Cor de fundo personalizada para o mapa personalizado do usuário 1
-
-<b>Cor De Bg Do Usuário 2</b> *Flutuar* Cor de fundo personalizada para o mapa personalizado de Usuário 1
-
-## Exemplos
+|  |  |
+|:---|:---|
+| <b>Exibição de grade</b> <i>Booleano</i> | Exibe todas as formas detectadas em uma grade. |
+| <b>Opacidade da grade</b> <i>Flutuante</i> | Define a opacidade das linhas de grade quando a visualização de grade é verdadeira. Opção Depurar |
+| <b>Opacidade da Seleção de Grade</b> <i>Flutuante</i> | Define a Opacidade do realce de Seleção de grade se a Exibição de grade for Verdadeira. Opção Depurar |
+| <b>Escala automática</b> <i>Booleano</i> | Dimensione automaticamente as formas para ajustá-las à célula da grade. |
+| <b>Corte Automático</b> <i>Booleano</i> | Corta automaticamente o tamanho da saída de acordo com a maior forma para minimizar o espaço vazio. |
+| <b>Seleção de forma</b> <i>Inteiro</i> | Na visualização Grade define qual célula é destacada, fora da visualização Grade define qual célula é retornada. |
+| <b>Ignorar Forma Menor Que</b> <i>Flutuante</i> | Ignora formas cujo tamanho diagonal é inferior ao valor especificado. |
+| <b>Rotação Automática</b> <i>Booleano</i> | Gira automaticamente a forma de acordo com a proporção de tamanho da caixa delimitadora. |
+| <b>Rotação</b> <i>Flutuante</i> | Ângulo de rotação da forma global |
+| <b>Formato Normal de Entrada</b> <i>Inteiro</i> | Define o formato da entrada normal. Definir o formato errado levará a um resultado incorreto. |
+| <b>Reduzir Máscara De Opacidade</b> <i>Inteiro</i> | Reduz a Máscara de opacidade para remover ruídos potenciais ou pixels isolados. Impede a detecção de formas indesejadas e também aumenta o desempenho. |
+| <b>Largura de Dilatação</b> <i>Flutuante</i> | Aplica um efeito de dilatação com base na máscara de Opacidade em todos os canais, exceto no Normal e no Height. |
+| <b>Habilitar Entradas Adicionais</b> <i>Booleano</i> | Disponibiliza as entradas e configurações do Usuário 1 e do Usuário 2 para todos os mapas adicionais não cobertos. |
+| <b>Cor de fundo personalizada</b> <i>Booleano</i> | Permite escolher uma cor de fundo personalizada, em vez de uma dilatação do conteúdo da camada. |
+| <b>Cor do Blog de Cor de base</b> <i>Flutuante3</i> | Cor de fundo personalizada para a cor de base. |
+| <b>Cor De Erro Normal</b> <i>Flutuante3</i> | Cor de fundo personalizada para o mapa normal. |
+| <b>Cores Metálicas De Fundo</b> <i>Flutuante</i> | Cor de fundo personalizada para metálico. |
+| <b>Cor De Borrão Da Aspereza</b> <i>Flutuante</i> | Cor de fundo personalizada para aspereza |
+| <b>Cor do Blog do Height</b> <i>Flutuante</i> | Cor de fundo personalizada para o Height |
+| <b>Cor De Bg Do Usuário 1</b> <i>Flutuante</i> | Cor de fundo personalizada para o mapa personalizado do usuário 1 |
+| <b>Cor De Bg Do Usuário 2</b> <i>Flutuante</i> | Cor de fundo personalizada para o mapa personalizado do usuário 1 |

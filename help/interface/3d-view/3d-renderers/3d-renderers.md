@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Escolha entre os renderizadores rasterizador e pathtracer na visualização 3D para obter diferentes qualidade e desempenho de visualização.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderizadores 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ A visualização 3D oferece quatro renderizadores:
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizador</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU Pathtracer</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Graças à sua dependência do USD, ele pode aproveitar o [plug-in USDFileFormat
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizador</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Graças à sua dependência do USD, ele pode aproveitar o [plug-in USDFileFormat
 
 +++
 
-![Rasterizador - Exemplo 1](../../../assets/3dRendererRasterizer.jpg "Rasterizador - Exemplo 1"){zoomable="yes"}
+![Rasterizador - Exemplo 1](3d-renderers.resources/3dRendererRasterizer.jpg "Rasterizador - Exemplo 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -125,9 +125,9 @@ Graças à sua dependência do USD, ele pode aproveitar o [plug-in USDFileFormat
 | **Habilitar deslocamento** Booleano | Especifica se o deslocamento deve ser habilitado. |
 | **Limite de Deslocamento** flutuante | Configura um limite para habilitar/desabilitar a tesselação da GPU. |
 | **Habilitar remoção de face de fundo** booleano | Um valor verdadeiro permitirá a remoção de malhas triangulares que têm normais que estão voltadas para longe da câmera. Um valor false desabilitará a remoção de face de fundo. |
-| **Tipo de ciclo de pixels** Inteiro | Especifica a técnica a ser usada para diminuir a resolução de computação para renderização interativa:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Sem ciclo:</i> desabilita o ciclo de pixels e computa cada amostra de pixel completa.</li> <li data-preserve-html="true"><i>Ideal para dispositivos:</i> seleciona a resolução de ciclos de pixel ideal com base no dispositivo usado para renderização.</li> <li data-preserve-html="true"><i>4x4:</i> Amostra 1/16 dos pixels por passagem de ciclo.</li> <li data-preserve-html="true"><i>8x8:</i> Amostra 1/64 dos pixels por passagem de ciclo.</li><li data-preserve-html="true"><i>Ruído azul:</i> faz a amostragem adaptativamente de um número de pixels e os divide para atingir uma taxa de quadros de objetivo.</li> </ul> |
+| **Tipo de ciclo de pixels** Inteiro | Especifica a técnica a ser usada para diminuir a resolução de computação para renderização interativa:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Sem ciclo:</i> desabilita o ciclo de pixels e computa cada amostra de pixel completa.</li> <li data-preserve-html="true"><i>Ideal para dispositivos:</i> seleciona a resolução de ciclos de pixel ideal com base no dispositivo usado para renderização.</li> <li data-preserve-html="true"><i>4x4:</i> Amostra 1/16 dos pixels por passagem de ciclo.</li> <li data-preserve-html="true"><i>8x8:</i> Amostra 1/64 dos pixels por passagem de ciclo.</li><li data-preserve-html="true"><i>Ruído azul:</i> faz a amostragem adaptativamente de um número de pixels e os divide para atingir uma taxa de quadro de objetivo.</li> </ul> |
 | **Modo de diagnóstico** Inteiro | Determina o modo de diagnóstico a ser renderizado. |
-| **Exibir plano de fundo através da transmissão** Booleano | Um valor verdadeiro permite que a imagem de fundo seja vista através de objetos transmissivos ou refrativos.   Quando for falso, objetos transmissivos mostrarão a imagem refratada do ambiente da cena. |
+| **Exibir plano de fundo através da transmissão** Booleano | Um valor verdadeiro permite que a imagem de fundo seja vista através de objetos de transmissivo ou refrativos.   Quando for falso, os objetos de transmissivo mostrarão a imagem refratada do ambiente da cena. |
 
 +++
 
@@ -140,12 +140,12 @@ Graças à sua dependência do USD, ele pode aproveitar o [plug-in USDFileFormat
 | **Intensidade da sombra** flutuante | Quando as sombras estão ativadas, controla a opacidade das sombras projetadas no plano do solo, de 0,0 (sem sombras) a 1,0 (sombras completas). |
 | **Habilitar luzes locais** booleano | Controla se a iluminação direta das luzes locais contribui para os detectores de sombra. |
 | **Habilitar reflexos** booleano | Controla a visibilidade de todos os reflexos no plano do solo. |
-| **Opacidade dos reflexos** flutuante | Quando os reflexos estão ativados, controla a opacidade dos reflexos, entre 0,0 (nenhum reflexo) e 1,0 (reflexos completos). |
-| **Aspereza de reflexos** flutuante | Quando os reflexos estão ativados, controla a aspereza do material do plano do solo que contribui para os reflexos, de 0,0 (totalmente brilhante) a 1,0 (totalmente áspero). |
+| **Precisão decimal de opacidade de reflexos** | Quando os reflexos estão ativados, controla a opacidade dos reflexos, entre 0,0 (nenhum reflexo) e 1,0 (reflexos completos). |
+| **Precisão decimal de aspereza de reflexos** | Quando os reflexos estão ativados, controla a aspereza do material do plano do solo que contribui para os reflexos, de 0,0 (totalmente brilhante) a 1,0 (totalmente áspero). |
 
 +++
 
-![GPU pathtracer - Exemplo 1](../../../assets/3dRendererPathtracer.jpg "GPU pathtracer - Exemplo 1"){zoomable="yes"}
+![GPU pathtracer - Exemplo 1](3d-renderers.resources/3dRendererPathtracer.jpg "GPU pathtracer - Exemplo 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -178,7 +178,7 @@ Duas técnicas estão disponíveis para visualizar o height:
 
 <b>Tesselação + Deslocamento</b> - Subdivide a geometria e desloca os vértices ao longo de suas normais.
 
-O Material Padrão da Adobe está documentado em detalhes nesta [seção](https://experienceleague.adobe.com/pt-br/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de nossa documentação.
+O Material Padrão da Adobe está documentado em detalhes nesta [seção](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de nossa documentação.
 
 +++
 
@@ -296,4 +296,4 @@ O Designer também oferece a possibilidade de configurar seus próprios sombread
 > 
 > Este renderizador está **obsoleto**: ele não receberá novos recursos e será desativado em uma versão futura do Designer.
 
-![OpenGL - Exemplo 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Exemplo 1"){zoomable="yes"}
+![OpenGL - Exemplo 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - Exemplo 1"){zoomable="yes"}

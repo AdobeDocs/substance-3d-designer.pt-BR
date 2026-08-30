@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
 breadcrumb-title: ''
 description: Acesse nós constantes nos gráficos de função do Substance 3D Designer para definir valores e parâmetros constantes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Constante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Inteiros constantes geram números inteiros e têm uma etapa de 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo inteiro](../../../../assets/fn-constant-integer.png "Ícone de tipo inteiro")
+![Ícone de tipo inteiro](constant-nodes.resources/fn-constant-integer.png "Ícone de tipo inteiro")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ Um inteiro possui um único componente. É útil como um índice para fazer sele
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Integer2](../../../../assets/fn-constant-integer2.png "Ícone de tipo Integer2")
+![Ícone de tipo Integer2](constant-nodes.resources/fn-constant-integer2.png "Ícone de tipo Integer2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Inteiro2 não é comum, mas é usado, por exemplo, para definir X e Y 2D lado a 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Integer3](../../../../assets/fn-constant-integer3.png "Ícone de tipo Integer3")
+![Ícone de tipo Integer3](constant-nodes.resources/fn-constant-integer3.png "Ícone de tipo Integer3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ O inteiro 3 não é comum e provavelmente não será encontrado muito.<b>\
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Integer4](../../../../assets/fn-constant-integer4.png "Ícone de tipo Integer4")
+![Ícone de tipo Integer4](constant-nodes.resources/fn-constant-integer4.png "Ícone de tipo Integer4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Flutuações Constantes geram números fracionários, não números inteiros, o 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo flutuante](../../../../assets/fn-constant-float.png "Ícone de tipo flutuante")
+![Ícone de tipo flutuante](constant-nodes.resources/fn-constant-float.png "Ícone de tipo flutuante")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ Um Float, tem um único componente, o (1) é omitido do nome para abreviação. 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Float2](../../../../assets/fn-constant-float2.png "Ícone de tipo Float2")
+![Ícone de tipo Float2](constant-nodes.resources/fn-constant-float2.png "Ícone de tipo Float2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -157,7 +157,7 @@ Um nó Float2 gera um vetor flutuante estático de 2 componentes. Os componentes
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Float3](../../../../assets/fn-constant-float3.png "Ícone de tipo Float3")
+![Ícone de tipo Float3](constant-nodes.resources/fn-constant-float3.png "Ícone de tipo Float3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -175,7 +175,7 @@ Um nó Float3 gera um vetor flutuante estático de 3 componentes. Os componentes
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Float4](../../../../assets/fn-constant-float4.png "Ícone de tipo Float4")
+![Ícone de tipo Float4](constant-nodes.resources/fn-constant-float4.png "Ícone de tipo Float4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -197,7 +197,7 @@ Existem dois tipos de dados adicionais dentro dos gráficos de função Substanc
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo booliano](../../../../assets/fn-constant-boolean.png "Ícone de tipo booliano")
+![Ícone de tipo booliano](constant-nodes.resources/fn-constant-boolean.png "Ícone de tipo booliano")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -214,7 +214,7 @@ Um booleano é o tipo de dados mais simples que existe, conhecendo apenas dois e
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo de cadeia de caracteres](../../../../assets/fn-constant-string.png "Ícone de tipo de cadeia de caracteres")
+![Ícone de tipo de cadeia de caracteres](constant-nodes.resources/fn-constant-string.png "Ícone de tipo de cadeia de caracteres")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
 breadcrumb-title: ''
-description: Use o nó SDF de textura 3D para gerar texturas de campo de distância assinadas a partir de dados 3D para criar formas e efeitos suaves.
+description: Use o nó SDF de Textura 3D para gerar texturas de campo de distância assinadas a partir de dados 3D para criar formas e efeitos suaves.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture SDF
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: SDF de textura 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '139'
 ht-degree: 2%
 
 ---
@@ -22,59 +22,52 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturesdf.png){width="200px"}
+![](3d-texture-sdf.resources/3dtexturesdf.png){width="200px"}
 
-**Entrada:** *Filtro/Efeito*
-
-**Simples**
+<b>Entrada:</b> Filtro > Efeito
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-O nó **SDF** de Textura 3D gera o *campo de distância assinado* de uma forma a partir da máscara de textura *3D* da **Entrada** que representa as fatias do *volume* da forma.
+O nó **SDF** de Textura 3D gera o *campo de distância assinado* de uma forma a partir da máscara *textura 3D* da **Entrada** que representa as fatias do *volume* da forma.
 
 </td>
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada de máscara</b> <i>Tons de cinza</i> | A máscara de <i>textura 3D</i> que representa as fatias do <i>volume</i> de uma forma. |
+
+<a name="parameters"></a>
+
 ## Parâmetros
 
-### Entradas
+|  |  |
+|:---|:---|
+| <b>Limite</b> <i>Flutuante</i> | Quando o volume da forma é descrito por um <i>gradiente de desvanecimento</i>, define o valor do gradiente no qual a <i>superfície</i> da forma é <i>detectada</i>. |
+| <b>Saída</b> <i>Inteiro</i> | O tipo de campo de distância que deve ser gerado:<br>- <i>Campo de distância</i>: gera um campo de distância que descreve as distâncias <i>fora</i> da forma.<br>- <i>Campo de distância sinalizado</i>: gera um campo de distância que descreve as distâncias <i>fora</i> (positivas) e <i>dentro</i> (negativas) da forma. |
 
-* **Entrada de máscara** *Tons de cinza*\
-  A máscara de *textura 3D* que representa as fatias do *volume* de uma forma.
+## Exemplos
 
-### Parâmetros
-
-* **Limite** *Flutuante*\
-  Quando o volume da forma é descrito por um *gradiente de desvanecimento*, define o valor do gradiente no qual a *superfície* da forma é *detectada*.
-* **Saída** *Inteiro*\
-  O tipo de campo de distância que deve ser gerado:
-  * *Campo de distância*: gera um campo de distância que descreve as distâncias *fora* da forma.
-  * *Campo de distância sinalizado*: gera um campo de distância que descreve as distâncias *fora* (positivas) e *dentro* (negativas) da forma.
-
-## Imagens de exemplo
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-node.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-sdf.resources/3dtexturesdf-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-sdf.resources/3dtexturesdf-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-sdf.resources/3dtexturesdf-node.png" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ''
 description: ''
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Saída
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Saída](../../../../assets/comp_output_1.png "Nó atômico: Saída"){width="200px"}
+![Nó atômico: Saída](output.resources/comp_output_1.png "Nó atômico: Saída"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -52,7 +52,7 @@ Todo gráfico de Substance deve ter *pelo menos um* nó de saída. Se não houve
 | <b>Identificador</b> *Cadeia de Caracteres* | O identificador exclusivo da saída. Esta propriedade não pode ser deixada em branco e não pode conter caracteres especiais ou espaços.   O identificador é usado porque o rótulo do nó é a propriedade &#39;Label&#39; deixada em branco. Ele também pode ser usado para nomear [texturas exportadas](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Descrição</b> *Cadeia de Caracteres* | A descrição opcional usada como dica de ferramenta da saída é Substance graphics. |
 | <b>Rótulo</b> *Cadeia de Caracteres* | Isso é usado como um rótulo para o nó de saída e seu conector correspondente nos [nós de instância](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) que representam esse gráfico. O rótulo pode conter espaços e caracteres especiais. |
-| <b>Dados do usuário</b> *Cadeia de Caracteres* | Metadados opcionais que podem ser usados para operações de filtragem específicas. O [Substance 3D Painter](https://www.adobe.com/br/products/substance3d/apps/painter.html) usa esses dados para [orientar alguns recursos](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
+| <b>Dados do usuário</b> *Cadeia de Caracteres* | Metadados opcionais que podem ser usados para operações de filtragem específicas. O [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) usa esses dados para [orientar alguns recursos](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data). |
 | <b>Grupo</b> *Cadeia de Caracteres* | Atributo usado para agrupar saídas para os [modos de criação de link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) do Designer.   Saídas com um atributo &#39;Group&#39; idêntico são apresentadas como uma única conexão no modo de criação de link &#39;Compact Material&#39;. |
 
 ## Atributos de integração
@@ -101,11 +101,11 @@ Aqui está um exemplo de nós de instância antes e depois de definir uma saída
 <table>
   <tr style="border: 0">
     <td style="border: 0">
-      <img src="../../../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="output.resources/defaultouput2.png" alt="defaultouput2">
       <br><i>Antes</i>
     </td>
     <td style="border: 0">
-      <img src="../../../../assets/defaultouput1.png" alt="defaultouput1">
+      <img src="output.resources/defaultouput1.png" alt="defaultouput1">
       <br><i>Depois</i>
     </td>
   </tr>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-morph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-morph.html"
 breadcrumb-title: ''
-description: Use o nó Morph do vetor para combinar texturas entre duas entradas usando campos de vetor para transições suaves.
+description: Use o nó Morph do vetor para fazer texturas entre duas entradas usando campos de vetor para transições suaves.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Vector Morph
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Morph de vetor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-morph-grayscale.png)![](../../../../../../assets/vector-morph.png)
+![](vector-morph.resources/vector-morph-grayscale.png)![](vector-morph.resources/vector-morph.png)
 
-## Morph vetorial (tons de cinza)
-
-**Entrada:** *Filtros/Efeitos*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -43,19 +39,23 @@ Esse nó em si não é o mais difícil de usar, mas criar um mapa vetorial aprop
 
 A Morph do vetor é muito semelhante à [Distorção de vetor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md): a principal diferença é que esse nó de Morph não faz “loop” ou “ladrilha” o resultado quando ele é empurrado para fora dos limites da tela. Em vez disso, ela aperta e repete as bordas.
 
-## Parâmetros
-
-### Entradas
-
-* **Entrada**: *Entrada de cor/tons de cinza* A entrada de origem que deve ser o destino da distorção.
-* **Campo Vetorial**: *Entrada de Cores* O Mapa Vetorial usado para orientar a distorção.
-
-### Parâmetros
-
-* **Valor**: *0.0 - 1.0* Define a intensidade do efeito de distorção e funciona como um multiplicador para o Mapa de Vetor.
-
-## Imagens de exemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada</b> <i>Entrada de Cores/Tons de Cinza</i> | A entrada de origem que deve ser o destino da distorção. |
+| <b>Campo de vetor</b> <i>Entrada de cores</i> | O Mapa de vetor usado para direcionar a distorção. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Valor</b> <i>0.0 - 1.0</i> | Define a intensidade do efeito de distorção, que funciona como um multiplicador para o Mapa de vetor. |

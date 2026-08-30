@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
 breadcrumb-title: ''
 description: Use o nó Graxa para gerar máscaras de acumulação de graxa com base na geometria da malha e nas áreas de contato.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Graxa
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 2%
+source-wordcount: '184'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grease.png){width="128px"}
+![](grease.resources/grease.png){width="128px"}
 
-## Graxa
-
-**Entrada:** *Geradores Baseados Em Malha**/Geradores De Máscara*
-
-**Simples**
+<b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,30 +37,37 @@ Gera uma máscara em preto e branco com base em mapas baked e configurações do
 
 Essa máscara destina-se especificamente a faces de caracteres e outras áreas específicas. Gera um tipo de máscara de graxa de pele em áreas de baixo thickness.
 
-## Parâmetros
-
-### Entradas
-
-* **Thickness**: *Entrada em Tons de Cinza*\
-  Mapa de Thicknesss cozidos no qual todo o efeito é baseado. Obrigatório!
-* **Ruído**: *Entrada em Tons de Cinza*\
-  Mapa de ruído opcional para substituir o desgaste de graxa.
-* **Máscara (opcional)**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Nível**: *0.0 - 1.0*\
-  Define a quantidade total de efeito a ser exibida.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta o contraste do resultado.
-* **Limite de Thickness**: *0.0 - 1.0* Define um thickness mínimo no qual o efeito deve aparecer. Igualmente importante como o Level; ajuste-o para se ajustar ao seu mapa de Thickness.
-* **Substituir ruído**: *falso/verdadeiro* Defina para substituir o mapa de desgaste de graxa interno pelo slot de entrada personalizado.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/grease-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Thickness</b> <i>Entrada em tons de cinza</i> | Mapa de Espessura feito bake no qual o efeito inteiro se baseia. Obrigatório! |
+| <b>Ruído</b> <i>Entrada em tons de cinza</i> | Mapa de ruído opcional para substituir o desgaste de graxa. |
+| <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Nível</b> <i>0.0 - 1.0</i> | Define a quantidade total de efeito a ser exibida. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta o contraste do resultado. |
+| <b>Limite de Thicknesss</b> <i>0.0 - 1.0</i> | Define um thickness mínimo no qual o efeito deve aparecer. Igualmente importante como o Nível; ajuste-o para se ajustar ao seu mapa de Espessura. |
+| <b>Substituir Ruído</b> <i>Falso/Verdadeiro</i> | Defina para substituir o mapa de desgaste de graxa interno pelo slot de entrada personalizado. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grease.resources/grease-ex.gif" />
+        </td>
+    </tr>
 </table>

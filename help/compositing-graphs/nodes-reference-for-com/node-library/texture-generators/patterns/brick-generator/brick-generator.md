@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-generator.html"
 breadcrumb-title: ''
-description: Use o nó Gerador de tijolos para criar padrões de tijolos de procedimentos com propriedades personalizáveis de tamanho, deslocamento e argamassa.
+description: Use o nó Gerador de tijolos para criar padrões processuais de tijolos com propriedades personalizáveis de tamanho, deslocamento e argamassa.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Brick Generator
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Gerador de tijolos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 0%
+source-wordcount: '211'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/brick-generator.png){width="128px"}
+![](brick-generator.resources/brick-generator.png){width="128px"}
 
-## Gerador de tijolos
-
-**Entrada:** *Geradores De Textura**/Padrões*
-
-**Intermediário**
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,26 +37,35 @@ Gerador de padrão de tijolo avançado. Tem muitas opções para gerar especific
 
 Para obter mais opções, consulte [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
 
-## Parâmetros
-
-* **Tijolos**: *1 - 64* Define a quantidade de tijolos nos eixos X e Y.
-* **Chanfro**: *0.0 - 1.0* Altera o perfil de chanfro dos tijolos, permite alterar em duas direções, bem como definir o perfil de declínio e o arredondamento de canto.
-* **Manter Proporção**: *Falso/Verdadeiro* Torna o perfil de Bisel vinculado ao tamanho do tijolo ou não.
-* **Espaço**: *0.0 - 1.0* Espaço para deixar entre tijolos. Lembre-se de que o chanfro também apresenta uma lacuna, portanto, definir chanfros também significa compensar com esse parâmetro.
-* **Tamanho Médio**: *0.0 - 1.0* Deslocamento de padrão de tijolo, altera o tamanho de cada outra coluna ou linha.
-* **Height**: *-1.0 - 1.0* Modifica perfis de height. Permite a introdução da variação de luminância e todos os tipos de aleatorização.
-* **Inclinação**: *-1.0 - 1.0* Introduz uma inclinação por tijolo, como se certos tijolos estivessem deitados em ângulo.
-* **Deslocamento**: *0.0 - 1.0*\
-  Desloca os tijolos em uma base de linha, afeta o espaçamento por linha.
-* **Expansão não quadrada**: *Falso/Verdadeiro*\
-  Permite a compensação de esmagamento e alongamento com proporções não quadradas.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/brick-generator-ex-01.gif)
-
-![](../../../../../../assets/brick-generator-ex-02.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Tijolos</b> <i>1 - 64</i> | Define a quantidade de tijolos nos eixos X e Y. |
+| <b>Chanfro</b> <i>0.0 - 1.0</i> | Altera o perfil de chanfro dos tijolos, permite alterar em duas direções, bem como definir o perfil de declínio e o arredondamento de canto. |
+| <b>Manter Proporção</b> <i>Falso/Verdadeiro</i> | Torna o perfil de chanfro vinculado ao tamanho do tijolo ou não. |
+| <b>Lacuna</b> <i>0.0 - 1.0</i> | Espaço para deixar entre tijolos. Lembre-se de que o chanfro também apresenta uma lacuna, portanto, definir chanfros também significa compensar com esse parâmetro. |
+| <b>Tamanho Médio</b> <i>0.0 - 1.0</i> | Deslocamento de padrão de tijolo, altera o tamanho de todas as outras colunas ou linhas. |
+| <b>Height</b> <i>-1.0 - 1.0</i> | Modifica perfis de height. Permite a introdução da variação de luminância e todos os tipos de aleatorização. |
+| <b>Inclinação</b> <i>-1.0 - 1.0</i> | Introduz uma inclinação por tijolo, como se certos tijolos estivessem deitados em ângulo. |
+| <b>Deslocamento</b> <i>0.0 - 1.0</i> | Desloca os tijolos em uma base de linha, afeta o espaçamento por linha. |
+| <b>Expansão não quadrada</b> <i>Falso/Verdadeiro</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="brick-generator.resources/brick-generator-ex-01.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="brick-generator.resources/brick-generator-ex-02.gif" />
+        </td>
+    </tr>
 </table>
