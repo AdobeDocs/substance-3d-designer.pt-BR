@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ''
 description: Use o nó 2D de transformação para aplicar transformações 2D a texturas, incluindo conversão, rotação e dimensionamento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformação 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Transformação 2D](../../../../assets/comp_transformation_1.png "Nó atômico: Transformação 2D"){width="200px"}
+![Nó atômico: Transformação 2D](transformation-2d.resources/comp_transformation_1.png "Nó atômico: Transformação 2D"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ No entanto, ela não pode ser uma combinação perfeita para determinados aplica
 > 
 > Defina o [método de herança](../../../../glossary/glossary.md) do &#39;Modo de divisão em blocos gráficos&#39; [parâmetro base](../../../../glossary/glossary.md) como &#39;Absoluto&#39;, que permite definir o valor do parâmetro como &#39;Sem divisão em blocos gráficos&#39;:
 > 
-> ![](../../../../assets/tilingmode.png)
+> ![](transformation-2d.resources/tilingmode.png)
 
 >[!NOTE]
 >

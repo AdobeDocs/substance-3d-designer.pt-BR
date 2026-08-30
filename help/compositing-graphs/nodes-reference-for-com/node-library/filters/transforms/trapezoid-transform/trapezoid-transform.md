@@ -1,58 +1,63 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/trapezoid-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/trapezoid-transform.html"
 breadcrumb-title: ''
-description: Use o nó Transformação trapezoide para aplicar distorção trapezoidal às texturas para criar efeitos de correção de perspectiva.
+description: Use o nó do Transformo Trapezoide para aplicar distorção trapezoidal às texturas para criar efeitos de correção de Perspectiva.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Trapezoid Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Transformação Trapezoide
+title: Transformo Trapezoide
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '104'
+ht-degree: 6%
 
 ---
 
 
-# Transformação Trapezoide
+# Transformo Trapezoide
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/trapeze-transform.png){width="128px"}
+![](trapezoid-transform.resources/trapeze-transform.png){width="128px"}
 
-![](../../../../../../assets/trapeze-transform-grayscale.png){width="128px"}
+![](trapezoid-transform.resources/trapeze-transform-grayscale.png){width="128px"}
 
-## Transformação Trapezoide (Tons de Cinza)
-
-**Entrada:** *Filtros/Transformações*
-
-**Simples**
+<b>Entrada:</b> Filtros > Transformas
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-Nó de transformação especial que modifica a entrada em uma maneira de distorção de perspectiva/trapezoide. Tem controle para alongamento superior e inferior. Os valores podem ser ultrapassados os limites para efeitos mais fortes.
-
-## Parâmetros
-
-* **Esticamento superior**: *0.0 - 1.0* Defina a quantidade de esticamento ou esmagamento na parte superior.
-* **Esticamento inferior**: *0.0 - 1.0* Defina a quantidade de esticamento ou esmagamento na parte inferior.
-* **Cor do plano de fundo**: *(valor de Tons de Cinza/Cor)*\
-  Defina a cor do plano de fundo sólido caso a divisão em blocos gráficos esteja desativada.
-* **Amostragem**: *Bilinear, Mais Próximo* Defina a qualidade da amostragem.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/trapeze-example.gif)
+Nó de transformo especial que modifica a entrada de uma maneira de distorção Perspectiva/trapezoide. Tem controle para alongamento superior e inferior. Os valores podem ser ultrapassados os limites para efeitos mais fortes.
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Esticamento Superior</b> <i>0.0 - 1.0</i> | Defina a quantidade de esticar ou esmagar na parte superior. |
+| <b>Esticamento inferior</b> <i>0.0 - 1.0</i> | Defina a quantidade de esticar ou esmagar na parte inferior. |
+| <b>Cor do plano de fundo</b> <i>(Valor de tons de cinza/cor)</i> | Defina a cor do plano de fundo sólido caso a divisão em blocos gráficos esteja desativada. |
+| <b>Amostragem</b> <i>Bilinear, Mais Próximo</i> | Defina a qualidade da amostragem. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="trapezoid-transform.resources/trapeze-example.gif" />
+        </td>
+    </tr>
 </table>

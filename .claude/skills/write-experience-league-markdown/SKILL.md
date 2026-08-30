@@ -2,10 +2,10 @@
 name: write-experience-league-markdown
 description: ""
 Source: https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
-source-git-commit: ec58342925d3e608b0180b67a1e20ffaeb1f306a
+source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 5%
+source-wordcount: '647'
+ht-degree: 6%
 
 ---
 
@@ -62,11 +62,13 @@ rótulo, por exemplo, `Getting started{#getting-started}`.
 
 * `![Alt text](path/to/image.png "Optional hover title")`.
 * Parâmetros de consulta de dimensionamento/otimização opcionais são compatíveis:
-  `![Adobe logo](assets/logo.png?width=750&format=png&optimize=medium)`.
+  `![Adobe logo](my-page.resources/logo.png?width=750&format=png&optimize=medium)`.
 * **O texto alternativo não deve conter sublinhados**; eles não são renderizados corretamente;
 em vez disso, use hifens ou espaços.
-* Imagens específicas de página em tempo real `<page-name>.resources/`; ícones compartilhados/de aplicativo
-em `help/assets/` (consulte CLAUDE.md).
+* Imagens específicas de página ficam em uma pasta irmã `<page-name>.resources/`
+ao lado de `.md`, com referência relativa (por exemplo,
+  `<page-name>.resources/image.png`). `help/assets/` é um legado compartilhado
+  — não adicione novas imagens (consulte CLAUDE.md).
 
 ## Tabelas
 
@@ -91,7 +93,7 @@ do que inventar um novo HTML em linha, a menos que seja necessário.
 
 * Código incorporado: mochilões únicos.
 * Blocos cercados: triplos backticks, com uma linguagem opcional para sintaxe
-realçando (` `&#x200B;``python `, ` ``&#x200B;`javascript ` etc.).
+realçando (` ```python `, ` ```javascript ` etc.).
 
 ## Blocos de notas/alertas
 

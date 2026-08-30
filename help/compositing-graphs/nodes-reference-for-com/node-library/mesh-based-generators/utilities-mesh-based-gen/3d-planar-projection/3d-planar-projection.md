@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/3d-planar-projection.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/3d-planar-projection.html"
 breadcrumb-title: ''
-description: Use o nó Projeção planar 3D para projetar texturas em superfícies de malha usando projeção planar para mapeamento de textura.
+description: Use o nó Projeção Planar 3D para projetar texturas em superfícies de malha usando projeção planar para mapeamento de textura.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > 3D Planar Projection
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Projeção planar 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 1%
+source-wordcount: '253'
+ht-degree: 7%
 
 ---
 
@@ -22,54 +22,59 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-planar-gray.png)![](../../../../../../assets/3d-planar.png)
+![](3d-planar-projection.resources/3d-planar-gray.png)![](3d-planar-projection.resources/3d-planar.png)
 
-## Projeção planar 3D (cor)
-
-**Entrada:** *Geradores Baseados Em Malha**/Utilitários*
-
-**Complexo**
+<b>Entrada:</b> Geradores Baseados Em Malha > Utilitários
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-Executa uma projeção planar com base em dados de malha cozida (mapas de posição e normais mundiais). Permite projetar e inserir decalques em emendas, independentemente do mapeamento UV original.
-
-## Parâmetros
-
-### Entradas
-
-* **Mapa De Posição**: *Entrada De Cores* Mapa De Posição Assado
-* **Espaço Mundial Normal**: *Entrada de Cores* Mapa do Espaço Mundial Normal Assado
-* **Textura Projetada**: *Entrada de Cores* Textura de entrada para projetar no destino.
-
-### Parâmetros
-
-* **Posicionamento**
-  * **Entrada do Projeto**: *Posição UV, Posição do Espaço Mundial* Escolha se a posição da projeção está definida em 2D/UV ou no espaço 3D/Mundo.
-  * **Posição UV de Destino**:\
-    Somente com a Entrada de posição UV, mais adequada para escolher um ponto na exibição 2D do mapa de posição.
-  * **Posição de destino**: *(valor da cor)*Somente com a Entrada da Posição do Espaço Mundial, permite definir uma coordenada 3D exata.
-  * **Destino Normal**: *(Valor da cor)*
-  * **Rotação**: *0.0 - 1.0\
-    Gira a textura projetada ao longo de seu eixo normal.*
-  * **Escala**: *0.0 - 1.0*\
-    Defina a escala global para a textura projetada.
-  * **Tamanho**: *0.0 - 2.0* Execute um dimensionamento não uniforme na textura projetada.
-* **Mascaramento**
-  * **Profundidade máxima**: *0.0 - 1.0* Controla a profundidade em que a textura projetada aparecerá, quando ela será cortada.
-  * **Desvanecimento da Profundidade**: *0.0 - 1.0* Defina a transição para que a profundidade de corte seja repentina ou desbotada.
-  * **Limite Normal**: *-1.0 - 1.0* Defina o limite para superfícies não alinhadas exatamente com o normal de projeção.
-  * **Desvanecer normal**: *0.0 - 1.0* Defina a transição para superfícies não alinhadas para repentina ou desvanecer.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/3d-planar-projection-ex.gif)
+Executa uma projeção planar com base nos dados de malha feitos bake (posição e Mapas normais mundiais). Permite projetar e inserir decalques em emendas, independentemente do mapeamento UV original.
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Mapa de posições</b> <i>Entrada de cores</i> | Mapa de posição feito bake |
+| <b>Espaço Mundial Normal</b> <i>Entrada de cores</i> | Mapa normal do espaço feito bake |
+| <b>Textura Projetada</b> <i>Entrada de cores</i> | Inserir textura para projetar no destino. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Posicionamento</b> |  |
+| <b>Entrada do projeto</b> <i>Posição UV, Posição do Espaço Mundial</i> | Escolha se a posição de projeção é definida em 2D/UV ou no espaço 3D/Mundial. |
+| <b>Posição UV de Destino</b> | Somente com a Entrada de posição UV, mais adequada para escolher um ponto no Visualização 2D do mapa de posição. |
+| <b>Posição de Destino</b> <i>(Valor da cor)</i> | Somente com a Entrada da posição do espaço mundial, é possível definir uma coordenada 3D exata. |
+| <b>Destino Normal</b> <i>(Valor da cor)</i> |  |
+| <b>Rotação</b> <i>0.0 - 1.0</i> | Gira a textura projetada ao longo do eixo normal. |
+| <b>Escala</b> <i>0.0 - 1.0</i> | Defina a escala global para a textura projetada. |
+| <b>Tamanho</b> <i>0.0 - 2.0</i> | Executar dimensionamento não uniforme na textura projetada. |
+| <b>Mascaramento</b> |  |
+| <b>Profundidade máxima</b> <i>0.0 - 1.0</i> | Controla a profundidade em que a textura projetada será exibida, quando cortada. |
+| <b>Desvanecer Profundidade</b> <i>0.0 - 1.0</i> | Defina a transição para que a profundidade de corte seja repentina ou desbotada. |
+| <b>Limite Normal</b> <i>-1.0 - 1.0</i> | Defina o limite para superfícies não exatamente alinhadas com a normal de projeção. |
+| <b>Desvanecimento Normal</b> <i>0.0 - 1.0</i> | Defina a transição para superfícies não alinhadas a repentinas ou atenuadas. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-planar-projection.resources/3d-planar-projection-ex.gif" />
+        </td>
+    </tr>
 </table>

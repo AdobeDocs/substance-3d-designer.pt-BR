@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: Saiba mais sobre as diretrizes de otimização de desempenho para o Substance 3D Designer para melhorar o desempenho do gráfico e reduzir o tempo de processamento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Diretrizes de otimização de desempenho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -105,7 +105,7 @@ Estes incluem [Ruído Branco Rápido](../../compositing-graphs/nodes-reference-f
 +++
 
 +++Cuidado com funções pesadas de amostragem de imagem em alguns casos
-As funções são executadas no mecanismo da CPU, exceto em [Processadores de Pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md). Se você estiver fazendo muita amostragem de imagens pesadas (alterando as coordenadas do $pos) nos [Processadores de Valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) ou nos [FXmaps](../../function-graphs/fxmaps/fxmaps.md), haverá muita troca entre o VRAM e a RAM da CPU, causando atrasos de desempenho.
+As funções são executadas no mecanismo da CPU, exceto em [Processadores de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md). Se você estiver fazendo muita amostragem de imagens pesadas (alterando as coordenadas do $pos) em [Processadores de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) ou [FXmaps](../../function-graphs/fxmaps/fxmaps.md), haverá muita troca entre o VRAM e a RAM da CPU, causando atrasos de desempenho.
 
 +++
 
@@ -141,11 +141,11 @@ Dessa forma, o tamanho do bitmap será alterado com base no gráfico pai, e voc�
 
 >[!WARNING]
 >
-> Definir um nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) como “Relativo ao pai” e [publicar](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) o gráfico em um ativo do Substance 3D (SBSAR) salvará o bitmap em uma resolução de **256x256** em vez do tamanho original. Em vez disso, é aconselhável manter o [método de herança](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) dos nós de Bitmap&#39; [Tamanho de Saída](../../compositing-graphs/output-size/output-size.md) como &#39;Absoluto&#39; e usar um nó [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) definido como &#39;Relativo ao pai&#39; logo após o nó de Bitmap.
+> Definir um nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) como “Relativo ao pai” e [publicar](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) o gráfico em um ativo do Substance 3D (SBSAR) salvará o bitmap em uma resolução de **256x256** em vez do tamanho original. Em vez disso, é aconselhável manter o [método de herança](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) dos nós de Bitmap&#39; [Tamanho de Saída](../../compositing-graphs/output-size/output-size.md) como &#39;Absoluto&#39; e usar um nó [Transformação 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) definido como &#39;Relativo ao pai&#39; logo após o nó de Bitmap.
 
-![Otimização de bitmaps incorporados 1](../../assets/input-1.jpg "Otimização de bitmaps incorporados 1")
+![Otimização de bitmaps incorporados 1](performance-optimization-guidelines.resources/input-1.jpg "Otimização de bitmaps incorporados 1")
 
-![Otimização de bitmaps incorporados 2](../../assets/relativetoparent.jpg "Otimização de bitmaps incorporados 2")
+![Otimização de bitmaps incorporados 2](performance-optimization-guidelines.resources/relativetoparent.jpg "Otimização de bitmaps incorporados 2")
 
 <table>
 <tr style="border: 0;">
@@ -156,7 +156,7 @@ Além disso, é aconselhável definir o formato dos recursos de bitmap para Jpeg
 </td>
 <td style="border: 0;" valign="top">
 
-![Otimização de bitmaps incorporados 3](../../assets/format.jpg "Otimização de bitmaps incorporados 3")
+![Otimização de bitmaps incorporados 3](performance-optimization-guidelines.resources/format.jpg "Otimização de bitmaps incorporados 3")
 
 </td>
 </tr>

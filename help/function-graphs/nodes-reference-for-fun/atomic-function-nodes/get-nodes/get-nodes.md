@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Acesse os nós Obter nos gráficos de função do Substance 3D Designer para recuperar valores de variáveis e dados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variáveis
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 Variáveis são uma forma de <b>armazenar valores</b> para buscá-los posteriormente (<b>Obter</b>) e/ou modificá-los (<b>Definir</b>).
 
-![gráfico de função Substance - Obter gráfico de função float](../../../../assets/assign-getfloat.gif "Substance - Obter float"){zoomable="yes"}
+![gráfico de função Substance - Obter gráfico de função float](get-nodes.resources/assign-getfloat.gif "Substance - Obter float"){zoomable="yes"}
 
 O que um nó Get essencialmente faz é pegar uma variável dinâmica e retorná-la a partir da saída Get Nodes para uso em uma função. Estes nós Get formam o vínculo entre os Parâmetros de Entrada definidos nos [parâmetros de gráfico](../../../../compositing-graphs/graph-parameters/graph-parameters.md) e nas [funções de parâmetro](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
@@ -58,7 +58,7 @@ Quando um parâmetro é [exposto](../../../../compositing-graphs/manage-paramete
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Obter flutuação2 - Ícone](../../../../assets/fn_variables_getfloat2.png "Obter flutuação2 - Ícone"){width="200px"}
+![Obter flutuação2 - Ícone](get-nodes.resources/fn_variables_getfloat2.png "Obter flutuação2 - Ícone"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -81,32 +81,32 @@ Nós &#39;Get&#39; algumas limitações que você precisa ter em mente:
 >
 > Variáveis internas
 > 
-> Vários nós &#39;Get&#39; oferecerão variáveis internas para acessar valores existentes de acordo com o contexto atual - por exemplo: a posição atual do pixel em um processador de pixels, o modo de divisão em blocos gráficos atual de um nó, ...
+> Vários nós &#39;Get&#39; oferecerão variáveis internas para acessar valores existentes de acordo com o contexto atual - por exemplo: a posição atual do pixel em um Processador de pixels, o modo de divisão em blocos gráficos atual de um nó, ...
 > 
 > Todas as variáveis internas estão listadas em [esta página dedicada](../../../../function-graphs/variables/system-variables/system-variables.md).
 
 ### Obter nós
 
 +++Flutuações
-![Obter flutuação - Ícone](../../../../assets/fn_variables_getfloat.png "Obter flutuação - Ícone"){width="200px"}
+![Obter flutuação - Ícone](get-nodes.resources/fn_variables_getfloat.png "Obter flutuação - Ícone"){width="200px"}
 
 
 
 Obter Float
 
-![Obter flutuação2 - Ícone](../../../../assets/fn_variables_getfloat2.png "Obter flutuação2 - Ícone"){width="200px"}
+![Obter flutuação2 - Ícone](get-nodes.resources/fn_variables_getfloat2.png "Obter flutuação2 - Ícone"){width="200px"}
 
 
 
 Obter Float2
 
-![Obter flutuante3 - Ícone](../../../../assets/fn_variables_getfloat3.png "Obter flutuante3 - Ícone"){width="200px"}
+![Obter flutuante3 - Ícone](get-nodes.resources/fn_variables_getfloat3.png "Obter flutuante3 - Ícone"){width="200px"}
 
 
 
 Obter Float3
 
-![Obter flutuação4 - Ícone](../../../../assets/fn_variables_getfloat4.png "Obter flutuação4 - Ícone"){width="200px"}
+![Obter flutuação4 - Ícone](get-nodes.resources/fn_variables_getfloat4.png "Obter flutuação4 - Ícone"){width="200px"}
 
 
 
@@ -115,25 +115,25 @@ Obter Float4
 +++
 
 +++Inteiros
-![Obter inteiro - Ícone](../../../../assets/fn_variables_getint.png "Obter inteiro - Ícone"){width="200px"}
+![Obter inteiro - Ícone](get-nodes.resources/fn_variables_getint.png "Obter inteiro - Ícone"){width="200px"}
 
 
 
 Obter Integer
 
-![Obter inteiro2 - Ícone](../../../../assets/fn_variables_getint2.png "Obter inteiro2 - Ícone"){width="200px"}
+![Obter inteiro2 - Ícone](get-nodes.resources/fn_variables_getint2.png "Obter inteiro2 - Ícone"){width="200px"}
 
 
 
 Obter Integer2
 
-![Obter inteiro3 - Ícone](../../../../assets/fn_variables_getint3.png "Obter inteiro3 - Ícone"){width="200px"}
+![Obter inteiro3 - Ícone](get-nodes.resources/fn_variables_getint3.png "Obter inteiro3 - Ícone"){width="200px"}
 
 
 
 Obter Integer3
 
-![Obter inteiro4 - Ícone](../../../../assets/fn_variables_getint4.png "Obter inteiro4 - Ícone"){width="200px"}
+![Obter inteiro4 - Ícone](get-nodes.resources/fn_variables_getint4.png "Obter inteiro4 - Ícone"){width="200px"}
 
 
 
@@ -142,13 +142,13 @@ Obter Integer4
 +++
 
 +++Outros
-![Obter booleano - Ícone](../../../../assets/fn_variables_getboolean.png "Obter booleano - Ícone"){width="200px"}
+![Obter booleano - Ícone](get-nodes.resources/fn_variables_getboolean.png "Obter booleano - Ícone"){width="200px"}
 
 
 
 Obter booleano
 
-![Obter cadeia de caracteres - Ícone](../../../../assets/fn_variables_getstring.png "Obter cadeia de caracteres - Ícone"){width="200px"}
+![Obter cadeia de caracteres - Ícone](get-nodes.resources/fn_variables_getstring.png "Obter cadeia de caracteres - Ícone"){width="200px"}
 
 
 
@@ -162,7 +162,7 @@ Obter string
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Definir: ícone de nó](../../../../assets/fn_variables_set.png "Definir: ícone de nó"){width="200px"}
+![Definir: ícone de nó](get-nodes.resources/fn_variables_set.png "Definir: ícone de nó"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -179,7 +179,7 @@ Texto
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Está definido: ícone de nó](../../../../assets/fn_variables_isdefined.png "Está definido: ícone de nó"){width="200px"}
+![Está definido: ícone de nó](get-nodes.resources/fn_variables_isdefined.png "Está definido: ícone de nó"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

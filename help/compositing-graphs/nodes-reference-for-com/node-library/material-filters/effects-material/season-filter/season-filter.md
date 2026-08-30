@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
 breadcrumb-title: ''
 description: Use o nó Filtro de estação para aplicar efeitos sazonais aos materiais para criar variações de primavera, verão, outono e inverno.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Filtro de Temporada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 0%
+source-wordcount: '427'
+ht-degree: 11%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/default-icon.png){width="128px"}
+![](season-filter.resources/default-icon.png){width="128px"}
 
-## Filtro de Temporada
-
-**Entrada:** *Filtros/Efeitos de Material*
-
-**Complexo**
+<b>Em:</b> Filtros Materiais > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -43,66 +39,52 @@ Lembre-se de que este é um filtro mais antigo que não deve ser totalmente corr
 
 O nó requer um conjunto adequado de entradas de material, principalmente com um Heightmap ou Normalmap detalhadamente.
 
-## Parâmetros
-
-### Entradas
-
-* **Máscara** : *Entrada Em Tons De Cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó. Pode ser alternado com o parâmetro “Máscara”.
-
-### Parâmetros
-
-* **Canais**
-  * Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza.
-* **Avançado**
-  * **Formato Normal**: *DirectX, OpenGL*\
-    Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde).
-  * **Máscara**: *Falso/Verdadeiro*\
-    Ativa ou desativa o uso do Mapa de máscaras.
-  * **Intensidade da luz**: *0.0 - 1.0*\
-    Intensidade da luz (simulada).
-  * **Ângulo de Luz**: *0.0 - 1.0*\
-    Ângulo de incidência da luz (falsa)
-* **Efeito**
-  * **Efeito do Height ou Normal**: *Height, Normal* Escolhe qual mapa de entrada orienta os efeitos.
-  * **Nível da água**: *0.0 - 1.0* Aumenta ou diminui o nível da água com base nas informações de Height/Normal.
-  * **Detalhes da Água**: *0.0 - 1.0* Define a quantidade de detalhes na água.
-  * **Refração**: *0.0 - 1.0* Define a quantidade de refração falsa no efeito.
-  * **Reflexo**: *0.0 - 1.0* Define a quantidade de reflexo falso no efeito.
-  * **Distância de Reflexo**: *0.0 - 1.0* Controla os visuais de reflexo.
-  * **Ângulo de Reflexo**: *0.0 - 1.0* Controla os visuais de reflexo.
-  * **Direção do fluxo**: *0.0 - 1.0* Controla o fluxo de animação (use Substance Player para visualizar).
-  * **Gelo**: *0.0 - 1.0* Define o quanto a água está congelada.
-  * **Detalhes do Gelo**: *0.0 - 1.0* Define a quantidade de detalhes no gelo.
-  * **Snow**: *0.0 - 1.0* Define a quantidade de cobertura de neve.
-  * **Moss**: *0.0 - 1.0* Define a quantidade de cobertura de musgo.
-  * **Escala do musgo**: *1 - 4* Define a escala da textura do musgo gerada.
-  * **Cor do musgo**: *(valor da cor)*Define a cor do musgo.
-  * **Cor da água**: *(valor da cor)*Define a cor da água, incluindo alfa/opacidade.
-* **Mesclagem**
-  * **Intensidade Difusa**: *0.0 - 1.0*\
-    Intensidade de mesclagem do Difusa.
-  * **Intensidade de cor base**: *0.0 - 1.0*\
-    Intensidade de mesclagem da Cor de base.
-  * **Intensidade Normal**: *0.0 - 1.0*\
-    Intensidade de mesclagem do Normal.
-  * **Intensidade de Specular**: *0.0 - 1.0*\
-    Intensidade de mistura do Specular.
-  * **Intensidade de textura reluzente**: *0.0 - 1.0*\
-    Intensidade de mistura da Textura reluzente.
-  * **Intensidade de aspereza**: *0.0 - 1.0*\
-    Intensidade de mistura da aspereza.
-  * **Intensidade de Oclusão do ambiente**: *0.0 - 1.0*\
-    Intensidade de mesclagem da Oclusão ambiente.
-  * **Intensidade de Height**: *0.0 - 1.0*\
-    Intensidade de mistura do Height.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Máscara</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. Pode ser alternado com o parâmetro “Máscara”. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Canais</b> | Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza. |
+| <b>Avançado</b> |  |
+| <b>Formato Normal</b> <i>DirectX, OpenGL</i> | Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde). |
+| <b>Máscara</b> <i>Falso/Verdadeiro</i> | Ativa ou desativa o uso do Mapa de máscaras. |
+| <b>Intensidade da luz</b> <i>0.0 - 1.0</i> | Intensidade da luz (simulada). |
+| <b>Ângulo de luz</b> <i>0.0 - 1.0</i> | Ângulo de incidência da luz (falsa) |
+| <b>Efeito</b> |  |
+| <b>Efeito do Height ou Normal</b> <i>Height, Normal</i> | Escolhe qual mapa de entrada direciona os efeitos. |
+| <b>Nível de água</b> <i>0.0 - 1.0</i> | Aumenta ou diminui o nível da água com base em informações de Height/Normal. |
+| <b>Detalhes da Água</b> <i>0.0 - 1.0</i> | Define a quantidade de detalhes na água. |
+| <b>Refração</b> <i>0.0 - 1.0</i> | Define a quantidade de refração falsa no efeito. |
+| <b>Reflexo</b> <i>0.0 - 1.0</i> | Define a quantidade de reflexão falsa no efeito. |
+| <b>Distância de Reflexo</b> <i>0.0 - 1.0</i> | Controla os visuais de reflexo. |
+| <b>Ângulo de Reflexo</b> <i>0.0 - 1.0</i> | Controla os visuais de reflexo. |
+| <b>Direção do Fluxo</b> <i>0.0 - 1.0</i> | Controla o fluxo de animação (use Substance Player para visualizar). |
+| <b>Gelo</b> <i>0.0 - 1.0</i> | Define o quão congelada a água está. |
+| <b>Detalhes do gelo</b> <i>0.0 - 1.0</i> | Define a quantidade de detalhes no gelo. |
+| <b>Snow</b> <i>0.0 - 1.0</i> | Define a quantidade de cobertura de neve. |
+| <b>Moss</b> <i>0.0 - 1.0</i> | Define a quantidade de cobertura de musgo. |
+| <b>Escala do Moss</b> <i>1 - 4</i> | Define a escala da textura de musgo gerada. |
+| <b>Cor do musgo</b> <i>(Valor da cor)</i> | Define a cor do musgo. |
+| <b>Cor da água</b> <i>(Valor da cor)</i> | Define a cor da água, incluindo alfa/opacidade. |
+| <b>Mesclagem</b> |  |
+| <b>Intensidade de Difusão</b> <i>0.0 - 1.0</i> | Intensidade de mesclagem do Difusa. |
+| <b>Intensidade de Cor de base</b> <i>0.0 - 1.0</i> | Intensidade de mesclagem da Cor de base. |
+| <b>Intensidade normal</b> <i>0.0 - 1.0</i> | Intensidade de mesclagem do Normal. |
+| <b>Intensidade de Specular</b> <i>0.0 - 1.0</i> | Intensidade de mistura do Specular. |
+| <b>Intensidade de brilho</b> <i>0.0 - 1.0</i> | Intensidade de mistura da Textura reluzente. |
+| <b>Intensidade de aspereza</b> <i>0.0 - 1.0</i> | Intensidade de mistura da aspereza. |
+| <b>Intensidade de Oclusão de ambiente</b> <i>0.0 - 1.0</i> | Intensidade de mesclagem da Oclusão ambiente. |
+| <b>Intensidade de Height</b> <i>0.0 - 1.0</i> | Intensidade de mistura do Height. |

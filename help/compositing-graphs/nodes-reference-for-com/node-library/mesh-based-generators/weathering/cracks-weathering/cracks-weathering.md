@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
 breadcrumb-title: ''
 description: Use o nó de intemperismo do Rachadura para adicionar padrões de fissura a materiais baseados em curvatura de malha e pontos de tensão.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rachadura Weathering
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 1%
+source-wordcount: '210'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cracks-weathering.png){width="128px"}
+![](cracks-weathering.resources/cracks-weathering.png){width="128px"}
 
-## Rachadura Weathering
-
-**Entrada:** *Geradores Baseados Em Malha**/Clima*
-
-**Complexo**
+<b>Entrada:</b> Geradores Baseados em Malha > Clima
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,36 +37,41 @@ Esse é um efeito de material completo que funciona em vários canais de uma só
 
 Certifique-se de entender corretamente os [Modos de Criação de Link](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) ao trabalhar com materiais completos.
 
-## Parâmetros
-
-### Entradas
-
-* **Curvatura**: *Entrada em tons de cinza*\
-  Mapa cozido ou gerado usado para efeitos internos e mascaramento.
-* **Height** : *Entrada em Tons de Cinza*\
-  Mapa cozido ou gerado usado para efeitos internos e mascaramento.
-* **Máscara** : *Entrada Em Tons De Cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó. Pode ser alternado com o parâmetro “Máscara”.
-
-### Parâmetros
-
-* **Canais**
-  * Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza.
-* **Avançado**
-  * **Formato Normal**: *DirectX, OpenGL*\
-    Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde).
-  * **Máscara**: *Falso/Verdadeiro*\
-    Ativa ou desativa o uso do Mapa de máscaras.
-* **Efeito**
-  * **Propagação do Rachadura**: *0.0 - 1.0* Até onde o rachadura deve se espalhar. Esse é o principal controle desse efeito.
-  * **Profundidade do Rachadura**: *0.0 - 1.0* Profundidade do efeito de rachadura. Isso afeta principalmente o height e afeta ligeiramente o thickness visual.
-* **Mesclagem**
-  * Controla a intensidade de mesclagem do efeito em cada canal resultante.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/cracks-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Mapa cozido ou gerado usado para efeitos internos e mascaramento. |
+| <b>Height</b> <i>Entrada em tons de cinza</i> | Mapa cozido ou gerado usado para efeitos internos e mascaramento. |
+| <b>Máscara</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. Pode ser alternado com o parâmetro “Máscara”. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Canais</b> | Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza. |
+| <b>Avançado</b> |  |
+| <b>Formato Normal</b> <i>DirectX, OpenGL</i> | Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde). |
+| <b>Máscara</b> <i>Falso/Verdadeiro</i> | Ativa ou desativa o uso do Mapa de máscaras. |
+| <b>Efeito</b> |  |
+| <b>Propagação do Rachadura</b> <i>0.0 - 1.0</i> | Até onde as rachaduras devem se espalhar. Esse é o principal controle desse efeito. |
+| <b>Profundidade DO Rachadura</b> <i>0.0 - 1.0</i> | Profundidade do efeito de fissura. Isso afeta principalmente o height e afeta ligeiramente o thickness visual. |
+| <b>Mesclagem</b> | Controla a intensidade de mesclagem do efeito em cada canal resultante. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="cracks-weathering.resources/cracks-ex.gif" />
+        </td>
+    </tr>
 </table>

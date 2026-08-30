@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Saiba como usar arquivos de configuração de projeto SBSPRJ no Substance 3D Designer para gerenciar configurações de projeto.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Arquivos de configuração de projeto - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Eles são especiais porque você pode usar vários arquivos de configuração de
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Ícone de arquivo SBSPRJ](../../assets/sbsprj.png "ícone de arquivo SBSPRJ")
+![Ícone de arquivo SBSPRJ](project-configuration-files-sbsprj.resources/sbsprj.png "ícone de arquivo SBSPRJ")
 
 </td>
 </tr>
@@ -55,13 +55,13 @@ No entanto, há algumas configurações que <b>se expandem</b> nas configuraçõ
 
 Os arquivos de projeto podem conter as seguintes configurações:
 
-<b>Exibição 3D: </b>Sombreador padrão, HDR e definições de estado de cena.
+<b>Visualização 3D: </b>Sombreador padrão, HDR e definições de estado de cena.
 
 <b>Aliases: </b>Aliases de palavras-chave para caminhos relativos.
 
-<b>Preparação: </b>Configurações para convenções de nomenclatura de cozimento.
+<b>Fazendo bake: </b>Configurações para fazer bake convenções de nomenclatura.
 
-<b>Geral: </b>Modelos de gráfico, plug-ins de espaço tangente, padrões de formato normal e de imagem.
+<b>Geral: </b>Modelos de gráfico, plug-ins de Espaço tangente, padrões de formato normal e de imagem.
 
 <b>Biblioteca: </b>caminhos observados a serem exibidos na biblioteca.
 
@@ -85,7 +85,7 @@ Para o Windows, o [Bloco de Notas++](https://notepad-plus-plus.org) é uma boa o
 
 Depois de abrir o arquivo SBSPRJ em um editor, você verá um layout estruturado bastante direto, com seções correspondentes a guias na interface do usuário. Nem todas as configurações serão documentadas aqui, pois isso é razoavelmente autoexplicativo.
 
-![Edição de XML](../../assets/project-xml.png "Edição de XML")
+![Edição de XML](project-configuration-files-sbsprj.resources/project-xml.png "Edição de XML")
 
 ## Caminhos e aliases relativos
 
@@ -104,7 +104,7 @@ Um <b>alias</b> é uma palavra-chave que substitui (parte de) um caminho. É sem
 > | <b>sbs</b> | *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages* |
 > | <b>personalizado</b> | *D:\Dev\CustomProject\Substance* |
 > 
-> A biblioteca padrão está localizada, por padrão, em *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages*. Todos os gráficos que usam o conteúdo padrão fazem referência a esse diretório. Em vez de referenciar o caminho completo, um alias de &#39;<b>SBS</b>&#39; (sem aspas) é definido. No caso de uma biblioteca padrão, o valor exato do caminho do SBS é definido na instalação para o diretório que o usuário escolher para o Designer.
+> A biblioteca padrão está localizada, por padrão, em *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages*. Todos os gráficos que usam o conteúdo padrão fazem referência a esse diretório. Em vez de referenciar o caminho completo, um alias de &#39;<b>SBS</b>&#39; (sem aspas) é definido. No caso de uma biblioteca padrão, o valor exato do caminho SBS é definido na instalação para o diretório que o usuário escolher para o Designer.
 > 
 > Internamente, uma referência é modificada da seguinte maneira, quando contém um caminho com um alias:
 > 

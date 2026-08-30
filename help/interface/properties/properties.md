@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Use o painel Propriedades no Substance 3D Designer para exibir e editar propriedades de nó e parâmetros de gráfico.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Propriedades
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,7 +33,7 @@ O painel <b>Propriedades </b> é um painel sensível ao contexto que muda com ba
 </td>
 <td style="border: 0;" valign="top">
 
-![Áreas de propriedades](../../assets/image2020-11-9-13-49-48.png "Áreas de propriedades")
+![Áreas de propriedades](properties.resources/image2020-11-9-13-49-48.png "Áreas de propriedades")
 
 </td>
 </tr>

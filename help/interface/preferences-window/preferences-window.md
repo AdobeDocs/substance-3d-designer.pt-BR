@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Acesse a janela Preferências no Substance 3D Designer para personalizar as configurações e o comportamento do aplicativo.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferências
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Janela Preferências
 
-![Janela Preferências](../../assets/image2021-6-22-20-56-1.png "Janela Preferências")
+![Janela Preferências](preferences-window.resources/image2021-6-22-20-56-1.png "Janela Preferências")
 
 Esta página apresenta a janela <b>Preferências</b> e todas as suas configurações.
 
@@ -141,30 +141,30 @@ Consulte a página [Configurações de projetos](../../interface/preferences-win
 | --- | --- |
 | <b>A tecla Tab mostra o menu do nó</b>  *Padrão: Verificado* | Se marcada, a tecla &#39;Tab&#39; abrirá o <b>menu Nó</b>, replicando a funcionalidade da tecla &#39;Espaço&#39;. |
 | <b>Habilite a criação de nós arrastando conectores com clique</b>  *Padrão: Verificado* | Se marcada, quando você clica em qualquer conector, arraste o cursor e solte o link criado no espaço vazio do gráfico para exibir o <b>menu Nó</b>.   O menu também será *filtrado* de acordo com o tipo do conector no qual você clicou. Isso significa que somente os nós compatíveis com o conector clicado serão exibidos. |
-| <b>Exibir saídas na exibição 3D ao abrir um gráfico</b>  *Padrão: Verificado* | Se marcada, todas as saídas de gráfico serão aplicadas automaticamente na [Exibição 3D](../../interface/3d-view/3d-view.md) quando o gráfico for aberto.   Isso também tem o efeito de renderizar todos os nós que fazem parte de um fluxo que leva a um nó [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
+| <b>Exibir saídas na exibição 3D ao abrir um gráfico</b>  *Padrão: Verificado* | Se marcada, todas as saídas do gráfico serão aplicadas automaticamente no [Visualização 3D](../../interface/3d-view/3d-view.md) quando esse gráfico for aberto.   Isso também tem o efeito de renderizar todos os nós que fazem parte de um fluxo que leva a um nó [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
 
 ### Gráfico de composição do Substance
 
 |  |  |
 | --- | --- |
 | <b>Calcular automaticamente todas as miniaturas de nós ao abrir um gráfico</b>  *Padrão: Verificado* | Se esta opção estiver marcada, todas as miniaturas de nós serão renderizadas automaticamente ao carregar o gráfico. |
-| <b>Exibir saída em exibição 2D ao abrir um gráfico</b>  *Padrão: Verificado* | Se marcada, a primeira saída de gráfico será exibida automaticamente na [Exibição 2D](../../interface/2d-view/2d-view.md) quando o gráfico for aberto. Isso também tem o efeito de renderizar todos os nós que fazem parte de um fluxo que leva a esse nó [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
-| <b>Exibir automaticamente o nó de composição recém-criado</b>  *Padrão: Verificado* | Se marcada, a [Exibição 2D](../../interface/2d-view/2d-view.md) será atualizada automaticamente para exibir a saída de um nó recém-criado. |
-| <b>Inserir automaticamente nó de conversão de cor/escala de cinza</b>  *Padrão: Desmarcado* | Se marcada, resolva automaticamente as inconsistências de tipos de conexão de Cor/Tons de Cinza, *colocando nós específicos* para executar a conversão apropriada.   Quando uma saída *Tons de Cinza* (conector cinza) é conectada a uma entrada *Cor* (conector amarelo), um nó [Mapa de Degradê](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) é colocado automaticamente entre os dois conectores.   Quando uma saída *colorida* (conector amarelo) é conectada a uma entrada *tons de cinza* (conector cinza), um nó [conversão de tons de cinza](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) é colocado automaticamente entre os dois conectores. |
+| <b>Exibir saída no Visualização 2D ao abrir um gráfico</b>  *Padrão: Verificado* | Se marcada, a primeira saída de gráfico será exibida automaticamente no [Visualização 2D](../../interface/2d-view/2d-view.md) quando esse gráfico for aberto. Isso também tem o efeito de renderizar todos os nós que fazem parte de um fluxo que leva a esse nó [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md). |
+| <b>Exibir automaticamente o nó de composição recém-criado</b>  *Padrão: Verificado* | Se marcado, o [Visualização 2D](../../interface/2d-view/2d-view.md) será atualizado automaticamente para exibir a saída de um nó recém-criado. |
+| <b>Inserir automaticamente nó de conversão de cor/escala de cinza</b>  *Padrão: Desmarcado* | Se marcada, resolva automaticamente as inconsistências de tipos de conexão de Cor/Tons de Cinza, *colocando nós específicos* para executar a conversão apropriada.   Quando uma saída *Tons de Cinza* (conector cinza) é conectada a uma entrada *Cor* (conector amarelo), um nó [Mapa de gradiente](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) é colocado automaticamente entre os dois conectores.   Quando uma saída *Colorida* (conector amarelo) é conectada a uma entrada *Tons de Cinza* (conector cinza), um nó [Conversão em escala cinza](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) é colocado automaticamente entre os dois conectores. |
 | <b>Habilitar edição de gráfico no contexto</b>  *Padrão: Desmarcado* | Por padrão, ao abrir um gráfico referenciado por um [nó de instância](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) com um clique com o botão direito do mouse no nó e selecionando <b>Abrir Referência</b>, esse gráfico é carregado e editado *isoladamente*.   Se marcada, você pode editar gráficos referenciados por instâncias *usando as informações passadas na instância* pelo gráfico atual. Para fazer isso, clique com o botão direito do mouse em um nó de instância e selecione <b>Abrir Referência no Contexto</b> ou use o pressionamento de tecla Ctrl+E.   Isso significa que um gráfico com instância pode ser editado no contexto do gráfico no qual a instância é inserida. Isso é muito útil para visualizar os efeitos das edições no gráfico em que você estava trabalhando. Veja o exemplo abaixo.  **Observação:** as guias <b>Visualização</b> e <b>Predefinições</b> estão *desabilitadas* nas [propriedades de gráfico](../../compositing-graphs/graph-parameters/graph-parameters.md) ao usar a edição em contexto. |
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Edição do contexto interno desabilitada](../../assets/substance3ddesigner_incontext_no.gif "Edição do contexto interno desabilitada")
+![Edição do contexto interno desabilitada](preferences-window.resources/substance3ddesigner_incontext_no.gif "Edição do contexto interno desabilitada")
 
 *Abrir Referência*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Edição do contexto interno habilitada](../../assets/substance3ddesigner_incontext_yes.gif "Edição do contexto interno habilitada")
+![Edição do contexto interno habilitada](preferences-window.resources/substance3ddesigner_incontext_yes.gif "Edição do contexto interno habilitada")
 
 *Abrir Referência No Contexto*
 
@@ -191,7 +191,7 @@ Consulte a página [Configurações de projetos](../../interface/preferences-win
 
 |  |  |
 | --- | --- |
-| <b>Rastreamento de raios do GPU</b>  *Padrão: Verificado* | Se marcado, o rastreamento de raios será executado na GPU para [padeiros compatíveis](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/features/gpu-raytracing).   As seguintes infraestruturas de Rastreamento de raios do GPU serão o padrão, dependendo da arquitetura da GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing e mais recentes</li> <li data-preserve-html="true"><i>Optix</i>: Pascal e Maxwell</li> </ul>  **Observação:** mais informações sobre padeiros alimentados por GPU estão disponíveis na seção [Rastreamento de raios do GPU](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/features/gpu-raytracing) da documentação do [Substance Bakers](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/home).  **Dica:** você pode usar os *argumentos de linha de comando* a seguir ao iniciar o aplicativo para *forçar* o uso de uma infraestrutura de Rastreamento de raios do GPU diferente: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forçar o uso do Optix na Turing da Nvidia ou GPUs mais novas</li> <li data-preserve-html="true"><code>—force-dxr</code> : forçar o uso de DXR em GPUs Nvidia Pascal</li> </ul> |
+| <b>Rastreamento de raios do GPU</b>  *Padrão: Verificado* | Se marcado, o rastreamento de raios será executado na GPU para [padeiros compatíveis](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).   As seguintes infraestruturas de Rastreamento de raios do GPU serão o padrão, dependendo da arquitetura da GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing e mais recentes</li> <li data-preserve-html="true"><i>Optix</i>: Pascal e Maxwell</li> </ul>  **Observação:** mais informações sobre padeiros alimentados por GPU estão disponíveis na seção [Rastreamento de raios do GPU](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) da documentação do [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Dica:** você pode usar os *argumentos de linha de comando* a seguir ao iniciar o aplicativo para *forçar* o uso de uma infraestrutura de Rastreamento de raios do GPU diferente: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forçar o uso do Optix na Turing da Nvidia ou GPUs mais novas</li> <li data-preserve-html="true"><code>—force-dxr</code> : forçar o uso de DXR em GPUs Nvidia Pascal</li> </ul> |
 
 ## Biblioteca
 

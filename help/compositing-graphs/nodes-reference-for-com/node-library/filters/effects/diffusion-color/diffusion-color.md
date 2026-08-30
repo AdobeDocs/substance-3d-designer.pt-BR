@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
 breadcrumb-title: ''
 description: Use o nó Cor de difusão para aplicar efeitos de difusão de cores para criar transições e misturas de cores suaves.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cor de difusão
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 3%
+source-wordcount: '263'
+ht-degree: 4%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-color-icon.png){width="200px"}
+![](diffusion-color.resources/diffusion-color-icon.png){width="200px"}
 
-**Entrada:** *Filtros/Efeitos*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -43,78 +41,59 @@ Somente as cores de pixels correspondentes à máscara são difusas; outros pixe
 </tr>
 </table>
 
-## Parâmetros
-
-* **Iterações**: *0.0 - 64.0* O número de iterações de difusão a serem executadas (maior é melhor, mas mais lento). Os valores úteis estão no intervalo [8, 48].\
-  Observe que, se você não estiver procurando por correção matemática, os valores baixos são ótimos ou até melhores.\
-  **Distância**: **0.0 - 1.0** Ajusta a distância máxima da difusão.
-* **Habilitar Pontilhamento**: *Verdadeiro/Falso* Controla o método de amostragem de cada passagem. O pontilhamento permite a convergência em menos passagens, mas introduz ruído.\
-  Sem ele, cada passagem é mais rápida, mas são necessárias mais passagens para obter um resultado suave sem artefatos de faixa.
-* **É Mapa Normal**: *Verdadeiro/Falso* Adiciona uma normalização em valores em cada etapa.
-* **Usar Alpha como Máscara**: *Verdadeiro/Falso* Usar o canal alfa da entrada *Origem* como a máscara de difusão, em vez da entrada *Máscara*.
+<a name="inputs"></a>
 
 ## Entradas
 
-* **Origem** *Cor*\
-  A imagem a ser difundida.
-* **Máscara** *Tons de cinza*\
-  Máscara de difusão: os pixels brancos são amostrados em *Origem* e difundidos em pixels pretos. A imagem deve ser preta e branca. Se a máscara incluir gradientes, o valor de corte será 0,5.
-* **Intensidade** *Tons de cinza*\
-  Define localmente o grau de aplicação do processo de difusão. Este mapa deve ser *contrastado* para obter um efeito perceptível.
+|  |  |
+|:---|:---|
+| <b>Origem</b> <i>Cor</i> | A imagem a ser difundida. |
+| <b>Máscara</b> <i>Tons de cinza</i> | Máscara de difusão: os pixels brancos são amostrados em <i>Origem</i> e difundidos em pixels pretos. A imagem deve ser preta e branca. Se a máscara incluir gradientes, o valor de corte será 0,5. |
+| <b>Intensidade</b> <i>Tons de cinza</i> | Define localmente o grau de aplicação do processo de difusão. Este mapa deve ser <i>contrastado</i> para obter um efeito perceptível. |
 
-## Imagens de exemplo
+<a name="parameters"></a>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+## Parâmetros
 
-![](../../../../../../assets/diffusion-color-02-before.jpg){width="256px"}
+|  |  |
+|:---|:---|
+| <b>Iterações</b> <i>0.0 - 64.0</i> | O número de iterações de difusão a serem executadas (maior é melhor, mas mais lento). Os valores úteis estão no intervalo [8, 48].<br>Observe que, se você não estiver procurando correção matemática, os valores baixos serão ótimos ou até melhores. |
+| <b>Distância</b> <i>0.0 - 1.0</i> | Ajusta a distância máxima da difusão. |
+| <b>Habilitar Pontilhamento</b> <i>Verdadeiro/Falso</i> | Controla o método de amostragem de cada passagem. O pontilhamento permite a convergência em menos passagens, mas introduz ruído.<br>Sem ela, cada passagem é mais rápida, mas são necessárias mais passagens para obter um resultado suave sem artefatos de faixa. |
+| <b>É Mapa normal</b> <i>Verdadeiro/Falso</i> | Adiciona uma normalização em valores em cada etapa. |
+| <b>Usar Alpha como Máscara</b> <i>Verdadeiro/Falso</i> | Use o canal alfa da entrada <i>Origem</i> como máscara de difusão, em vez da entrada <i>Máscara</i>. |
 
-</td>
-<td style="border: 0;" valign="top">
+## Exemplos
 
-![](../../../../../../assets/diffusion-color-02a-after.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-color-02b-after.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-color-01-before.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-after-1.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01a-after-1.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-color-normal.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-color-normal-render.jpg){width="512px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-02-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-02a-after.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-02b-after.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-01-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-uv-01b-after-1.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-uv-01a-after-1.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-normal.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-normal-render.jpg" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
 breadcrumb-title: ''
 description: Use o nó Highpass de luminância para extrair detalhes de luminância de alta frequência das texturas para aprimorar os detalhes da superfície.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Highpass de luminância
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 6%
+source-wordcount: '102'
+ht-degree: 9%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/luminance-highpass.png){width="128px"}
+![](luminance-highpass.resources/luminance-highpass.png){width="128px"}
 
-## Highpass de luminância
-
-**Entrada:** *Filtros/Ajustes*
-
-**Simples**
+<b>Entrada:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,16 +37,24 @@ Cancela as informações de iluminação executando um [highpass](../../../../..
 
 Faz um trabalho um pouco melhor na preservação de cores do que [Cancelamento de iluminação em baixas frequências.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)
 
-## Parâmetros
-
-* **Raio**: *0.0 - 64.0* Raio do efeito highpass. Um raio menor cancela uma iluminação menor, ajuste para corresponder às imagens de entrada.
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/luminance-highpass-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Raio</b> <i>0.0 - 64.0</i> | Raio do efeito highpass. Um raio menor cancela uma iluminação menor, ajuste para corresponder às imagens de entrada. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="luminance-highpass.resources/luminance-highpass-example.png" />
+        </td>
+    </tr>
 </table>

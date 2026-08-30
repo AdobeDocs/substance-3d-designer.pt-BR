@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Encontre soluções para avisos e erros comuns no Substance 3D Designer para solucionar problemas rapidamente.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Avisos e erros
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '816'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ Geralmente, avisos e erros são exibidos no item que os acionou e *aparecem em c
 
 ### Explorer
 
-Para qualquer item no painel [Explorer](../../interface/the-explorer-window/the-explorer-window.md) que tenha um aviso, esse aviso é exibido com um ícone ![](../../assets/warning-icon.png) na borda mais à direita da entrada do item na lista. Deixe o cursor sobre esse ícone por alguns segundos para exibir uma *dica de ferramenta* listando todos os avisos detalhadamente.
+Para qualquer item no painel [Explorer](../../interface/the-explorer-window/the-explorer-window.md) que tenha um aviso, esse aviso é exibido com um ícone ![](warnings-and-errors.resources/warning-icon.png) na borda mais à direita da entrada do item na lista. Deixe o cursor sobre esse ícone por alguns segundos para exibir uma *dica de ferramenta* listando todos os avisos detalhadamente.
 
 Eles seguem estas regras:
 
@@ -48,7 +48,7 @@ Eles seguem estas regras:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-explorer.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-explorer.png){width="256px"}
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ Eles seguem estas regras:
 
 ### Exibição de gráfico
 
-Para qualquer item no painel [Exibição gráfica](../../interface/the-graph-view/the-graph-view.md) que tenha um aviso, esse aviso é exibido com texto colorido no *canto inferior esquerdo* do visor. Se o aviso for disparado por um nó específico, esse nó terá um emblema de aviso ![](../../assets/warning-badge.png). Deixe o cursor sobre essa medalha por alguns segundos para exibir uma *dica de ferramenta* listando todos os avisos em detalhes.
+Para qualquer item no painel [Exibição gráfica](../../interface/the-graph-view/the-graph-view.md) que tenha um aviso, esse aviso é exibido com texto colorido no *canto inferior esquerdo* do visor. Se o aviso for disparado por um nó específico, esse nó terá um emblema de aviso ![](warnings-and-errors.resources/warning-badge.png). Deixe o cursor sobre essa medalha por alguns segundos para exibir uma *dica de ferramenta* listando todos os avisos em detalhes.
 
 Eles seguem estas regras:
 
@@ -71,7 +71,7 @@ Eles seguem estas regras:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-graph.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-graph.png){width="256px"}
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Eles seguem estas regras:
 
 ### Propriedades
 
-Para qualquer item no painel [Propriedades](../../interface/properties/properties.md) que tenha um aviso, esse aviso é exibido com um ícone ![](../../assets/warning-icon.png) na borda mais à direita da entrada do item na lista. Deixe o cursor sobre esse ícone por alguns segundos para exibir uma *dica de ferramenta* listando todos os avisos detalhadamente.
+Para qualquer item no painel [Propriedades](../../interface/properties/properties.md) que tenha um aviso, esse aviso é exibido com um ícone ![](warnings-and-errors.resources/warning-icon.png) na borda mais à direita da entrada do item na lista. Deixe o cursor sobre esse ícone por alguns segundos para exibir uma *dica de ferramenta* listando todos os avisos detalhadamente.
 
 Eles seguem estas regras:
 
@@ -94,7 +94,7 @@ Eles seguem estas regras:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-properties.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-properties.png){width="256px"}
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Aviso e erros estão relatados no painel **Console**, que você pode acessar por
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-console.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-console.png){width="256px"}
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Veja uma lista de avisos e erros que você pode encontrar no Designer, classific
 ### Avisos em gráficos do Substance
 
 * Nenhum nó de saída definido
-* A função do parâmetro [x] possui alguns avisos
+* A função do parâmetro `[x]` possui alguns avisos
 * Os dados referenciados têm alguns avisos
 * Recurso de referência não encontrado
 * O nó de texto usa fonte inválida

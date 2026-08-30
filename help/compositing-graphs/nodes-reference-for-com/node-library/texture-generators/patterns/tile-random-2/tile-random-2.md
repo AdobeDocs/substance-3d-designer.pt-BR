@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
 breadcrumb-title: ''
 description: Use o nó Aleatório de bloco 2 para criar padrões de bloco aleatórios com controles avançados de variação no Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Mosaico aleatório 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tilerandom2.jpg){width="200px"}
+![](tile-random-2.resources/tilerandom2.jpg){width="200px"}
 
-**Entrada:** *Geradores De Textura* */Padrões*
-
-**Complexo**
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -49,157 +47,91 @@ Uma saída dedicada permite que você insira os **UVs** da forma em **Flood Fill
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Mapa de Tamanho Aleatório</b> <i>Tons de cinza</i> | A imagem de entrada em tons de cinza que controla a escala aleatória das formas.<br><br>Seu impacto é controlado pelo parâmetro <b>Multiplicador de Mapa de Entrada de Tamanho Aleatório</b>. |
+| <b>Mapa de Inclinação Aleatório</b> <i>Tons de cinza</i> | A imagem de entrada em tons de cinza que controla a inclinação aleatória das formas.<br><br>Seu impacto é controlado pelo parâmetro <b>Multiplicador de Mapa de Entrada Inclinada Aleatória</b>. |
+| <b>Mapa do Raio dos Cantos Arredondados</b> <i>Tons de cinza</i> | A imagem de entrada em tons de cinza que controla o raio dos cantos arredondados das formas.<br><br>Seu impacto é controlado pelo <b>Módulo de Mapa de Entrada do Raio dos Cantos Arredondados.</b> parâmetro. |
+| <b>Mapa de distância de chanfro</b> <i>Tons de cinza</i> | A imagem de entrada em tons de cinza que controla o chanfro das formas.<br><br>Seu impacto é controlado pelo <b>Módulo de Mapa de Entrada de Distância de Chanfro.</b> parâmetro. |
+| <b>Mapa de máscaras</b> <i>Tons de cinza</i> | A imagem de entrada em tons de cinza que controla o mascaramento das formas.<br><br>Seu impacto é controlado pelos parâmetros <b>Início da entrada do mapa de máscaras</b> e <b>Fim da entrada do mapa de máscaras</b>. |
+
+<a name="parameters"></a>
+
 ## Parâmetros
 
-### Entradas
+|  |  |
+|:---|:---|
+| <b>Valor X</b> <i>Inteiro</i> | O número de células no eixo <b>X</b>. |
+| <b>Valor Y</b> <i>Inteiro</i> | O número de células no eixo <b>Y</b>. |
+| <b>Tamanho</b> |  |
+| <b>Multiplicador de Tamanho Aleatório</b> <i>Flutuante</i> | Aplica um ajuste <i>global</i> à intensidade do dimensionamento aleatório. |
+| <b>Multiplicador de Mapa de Entrada de Tamanho Aleatório</b> <i>Flutuante</i> | Ajusta a intensidade do dimensionamento aleatório usando os valores <i>amostrados</i> da entrada <b>Mapa de Tamanho Aleatório</b>. |
+| <b>Tamanho Aleatório X</b> <i>Flutuante</i> | Ajusta a intensidade do dimensionamento aleatório no eixo <b>X</b> <i>somente</i>. |
+| <b>Tamanho aleatório Y</b> <i>Flutuante</i> | Ajusta a intensidade do dimensionamento aleatório no eixo <b>Y</b> <i>somente</i>. |
+| <b>Distribuição de Tamanho Aleatório</b> <i>Inteiro</i> | Controla o método de distribuição de valores de escala aleatória:<br><br>- <i>Uniforme</i>: a escala aleatória é aplicada da <i>mesma forma</i> em todas as células<br>- <i>Ruído azul</i>: a escala aleatória é <i>ajustada</i> usando um padrão de ruído azul |
+| <b>Proporção da forma - Transformar</b> |  |
+| <b>Thickness Interstice</b> <i>Flutuante</i> | Ajusta o thickness do espaço entre as formas. É <i>igual para todas as formas</i>. |
+| <b>Multiplicador de Posição Aleatória</b> <i>Flutuante</i> | Aplica um deslocamento de posição aleatório à forma até ela <i>atingindo a borda da célula</i>. |
+| <b>Raio dos cantos arredondados</b> <i>Flutuante</i> | Ajusta o <i>raio</i> dos cantos arredondados das formas. Um valor de <b>0</b> significa que nenhum arredondamento foi aplicado.<br><br><i>Observação</i>: esse efeito não pode ser aplicado quando o parâmetro <b>Habilitar por Controle de Chanfro de Eixo</b> está definido como <i>Verdadeiro</i>. |
+| <b>Mapa De Entrada Do Raio Dos Cantos Arredondados Mult.</b> <i>Flutuante</i> | Ajusta a intensidade com que o mapa de entrada <b>Mapa do Raio dos Cantos Arredondados</b> afeta o raio dos cantos arredondados.<br><br>O mapa atua como um multiplicador <i>por pixel</i> para o parâmetro <b>Raio dos cantos arredondados</b>.<br><br><i>Observação</i>: esse efeito não pode ser aplicado quando o parâmetro <b>Habilitar controle de chanfro por eixo</b> está definido como <i>Verdadeiro</i>. |
+| <b>Multiplicador de Escala</b> <i>Flutuante</i> | Ajusta o tamanho de cada forma, como uma proporção da <i>área de sua célula</i>. |
+| <b>Escala aleatória</b> <i>Flutuante</i> | Ajusta a intensidade com que uma escala aleatória é aplicada a <i>cada</i> forma. |
+| <b>Rotação</b> <i>Flutuante</i> | Gira formas em suas células movendo cada <i>canto</i> para seu <i>vizinho</i> ao longo da borda da célula.<br><br>Este método resulta na aplicação de uma quantidade de <i>distorção</i> e <i>dimensionamento</i> à forma em seus giros. |
+| <b>Rotação aleatória</b> <i>Flutuante</i> | Ajusta a intensidade com que uma quantidade aleatória de rotação é aplicada a cada forma.<br><br>O método de rotação está descrito no parâmetro <b>Rotação</b>. |
+| <b>Posição dos cantos aleatória</b> <i>Flutuante</i> | Distorce as formas aplicando um valor aleatório de <i>deslocamento</i> em cada um dos <i>cantos</i> ao longo da borda da célula. |
+| <b>Inclinar</b> |  |
+| <b>Multiplicador de inclinação aleatória</b> <i>Flutuante</i> | Aplica um ajuste <i>global</i> à intensidade da inclinação aleatória. |
+| <b>Multiplicador de Mapa de Entrada Inclinado Aleatório</b> <i>Flutuante</i> | Ajusta a intensidade da inclinação aleatória usando os valores <i>amostrados</i> da entrada <b>Mapa de inclinação aleatória</b>. |
+| <b>Inclinação Aleatória X</b> <i>Flutuante</i> | Ajusta a intensidade da inclinação aleatória no eixo <b>X</b> <i>somente</i>. |
+| <b>Inclinação aleatória Y</b> <i>Flutuante</i> | Ajusta a intensidade da inclinação aleatória no eixo <b>Y</b> <i>somente</i>. |
+| <b>Distribuição de Inclinação Aleatória</b> <i>Inteiro</i> | Controla o método de distribuição de valores de inclinação aleatória:<br><br>- <i>Uniforme</i>: a inclinação aleatória é aplicada da <i>mesma forma</i> em todas as células<br>- <i>Ruído azul</i>: a inclinação aleatória é <i>ajustada</i> usando um padrão de ruído azul |
+| <b>Chanfro</b> |  |
+| <b>Modo de distância de chanfro</b> <i>Inteiro</i> | Define o método de <i>aquisição da distância</i> pela qual as formas devem ser chanfradas:<br><br>- <i>Em relação ao tamanho da grade</i>: as formas são chanfradas pela <i>proporção especificada de seu tamanho de grade</i><br>- <i>Em relação ao tamanho da forma</i>: as formas são chanfradas pela <i>proporção especificada de seu tamanho</i><br>- <i>Em relação ao tamanho da imagem</i>: as formas são chanfradas pela <i>proporção especificada da imagem</i> |
+| <b>Multiplicador de distância de chanfro</b> <i>Flutuante</i> | Aplica um ajuste <i>global</i> à distância do chanfro. |
+| <b>Mapa de Entrada de Distância de Chanfro Mult.</b> <i>Flutuante</i> | Ajusta a distância do chanfro usando o mapa de entrada <b>Mapa de distância de chanfro</b> como um multiplicador de <i>por pixel</i>. |
+| <b>Curva arredondada chanfrada</b> <i>Flutuante</i> | Ajusta a intensidade do arredondamento aplicado ao ângulo de chanfro para torná-lo mais <i>convexo</i>. |
+| <b>Habilitar Controle de Chanfro por Eixo</b> <i>Booleano</i> | Quando <i>Verdadeiro</i>, o chanfro pode ser aplicado e ajustado <i>separadamente</i> nos eixos <b>X</b> e <b>Y</b>.<br><br><i>Observação</i>: este <i>cancela</i> o efeito <b>Cantos arredondados</b>. |
+| <b>Distância X Do Chanfro</b> <i>Flutuante</i> | Ajusta a distância do chanfro no eixo <b>X</b> <i>somente</i>. Essa distância depende do valor do parâmetro <b>Modo de distância de chanfro</b>.<br><br><i>Observação</i>: esse parâmetro só está disponível quando o parâmetro <b>Habilitar por controle de chanfro de eixo</b> está definido como <i>True</i>. |
+| <b>Distância Y do chanfro</b> <i>Flutuante</i> | Ajusta a distância do chanfro no eixo <b>Y</b> <i>somente</i>. Essa distância depende do valor do parâmetro <b>Modo de distância de chanfro</b>.<br><br><i>Observação</i>: esse parâmetro só está disponível quando o parâmetro <b>Habilitar por controle de chanfro de eixo</b> está definido como <i>True</i>. |
+| <b>Máscara</b> |  |
+| <b>Inversão aleatória da máscara</b> <i>Booleano</i> | Inverte a máscara aleatória de formas. |
+| <b>Início aleatório da máscara</b> <i>Flutuante</i> | Para uma determinada <b>Distribuição aleatória</b>, o mascaramento pseudoaleatório é aplicado seguindo uma <i>ordem específica</i> de uma forma inicial para uma forma final. Este parâmetro permite <i>deslocar o índice</i> da forma <i>inicial</i>.<br><br><i>Observação</i>: isso determina um limite de um <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>maior</i> do que o valor de <b>Fim aleatório da máscara</b>. |
+| <b>Fim aleatório da máscara</b> <i>Flutuante</i> | Para uma determinada <b>Distribuição aleatória</b>, o mascaramento pseudoaleatório é aplicado seguindo uma <i>ordem específica</i> de uma forma inicial para uma forma final. Este parâmetro permite <i>deslocar o índice</i> da forma <i>fim</i>.<br><br><i>Observação</i>: isso determina um limite de um <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>maior</i> do que o valor de <b>Início aleatório da máscara</b>. |
+| <b>Inverter máscara por área da célula</b> <i>Booleano</i> | Inverte o mascaramento de formas pela área de suas células. |
+| <b>Início da Máscara por Área de Célula</b> <i>Flutuante</i> | Ajusta o <i>limite mínimo</i> da área da célula para mascaramento de formas.<br><br><i>Observação</i>: isso determina um limite de um <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>maior</i> do que o valor <b>Fim da Máscara por Área de Célula</b>. |
+| <b>Fim da Máscara por Área de Célula</b> <i>Flutuante</i> | Ajusta o <i>limite máximo</i> da área da célula para mascaramento de formas.<br><br><i>Observação</i>: isso determina um limite de um <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>menor</i> do que o valor <b>Início da Máscara por Área de Célula</b>. |
+| <b>Inversão de entrada de mapa de máscara</b> <i>Booleano</i> | Inverte o mascaramento de formas pelo mapa de entrada <b>Mapa de máscaras</b>. |
+| <b>Início da Entrada do Mapa de Máscaras</b> <i>Flutuante</i> | Ajusta o <i>limite mínimo de valor em tons de cinza</i> no mapa de entrada <b>Mapa de Máscaras</b> para mascarar formas.<br><br><i>Observação</i>: isso determina um limite de <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>maior</i> do que o valor <b>Fim de entrada do mapa de máscaras</b>. |
+| <b>Fim da Entrada do Mapa de Máscaras</b> <i>Flutuante</i> | Ajusta o <i>limite máximo de valor em tons de cinza</i> no mapa de entrada do <b>Mapa de máscaras</b> para formas de mascaramento.<br><br><i>Observação</i>: isso determina um limite de <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>menor</i> do que o valor de <b>Início da Entrada do Mapa de Máscaras</b>. |
 
-* **Mapa de Tamanho Aleatório** *Tons de Cinza*\
-  A imagem de entrada em tons de cinza que controla a escala aleatória das formas.\
-  Seu impacto é controlado pelo parâmetro **Multiplicador de Mapa de Entrada de Tamanho Aleatório**.
-* **Mapa de Inclinação Aleatório** *Tons de Cinza* A imagem de entrada em tons de cinza que controla a inclinação aleatória das formas.\
-  Seu impacto é controlado pelo parâmetro **Multiplicador de Mapa de Entrada Inclinado Aleatório**.
-* **Mapa do Raio dos Cantos Arredondados** *Tons de Cinza*\
-  A imagem de entrada em tons de cinza que controla o raio dos cantos arredondados das formas.\
-  Seu impacto é controlado pelo **Mapa de Entrada do Raio dos Cantos Arredondados** parâmetro.
-* **Mapa de distância de chanfro** *Tons de cinza*\
-  A imagem de entrada em tons de cinza que controla o chanfro das formas.\
-  Seu impacto é controlado pelo **Módulo de Mapa de Entrada de Distância de Chanfro.** parâmetro.
-* **Mapa de máscaras** *Tons de cinza*\
-  A imagem de entrada em tons de cinza que controla o mascaramento das formas.\
-  Seu impacto é controlado pelos parâmetros **Início da Entrada do Mapa de Máscara** e **Fim da Entrada do Mapa de Máscara**.
+## Exemplos
 
-### Parâmetros
-
-* **Valor X** *Inteiro*\
-  O número de células no eixo **X**.
-* **Valor Y** *Inteiro*\
-  O número de células no eixo **Y**.
-* Tamanho
-  * **Multiplicador de Tamanho Aleatório** *Flutuante*\
-    Aplica um ajuste *global* à intensidade do dimensionamento aleatório.
-  * **Multiplicador de Mapa de Entrada de Tamanho Aleatório** *Flutuante*\
-    Ajusta a intensidade do dimensionamento aleatório usando os valores *amostrados* da entrada **Mapa de Tamanho Aleatório**.
-  * **Tamanho Aleatório X** *Flutuante*\
-    Ajusta a intensidade do dimensionamento aleatório no eixo **X** *somente*.
-  * **Tamanho Aleatório Y** *Flutuante*\
-    Ajusta a intensidade do dimensionamento aleatório no eixo **Y** *somente*.
-  * **Distribuição de Tamanho Aleatório** *Inteiro*\
-    Controla o método de distribuição de valores de dimensionamento aleatório:
-    * *Uniforme*: a escala aleatória é aplicada da *mesma forma* em todas as células
-    * *Ruído azul*: a escala aleatória é *ajustada* usando um padrão de ruído azul
-* Forma - Transformar
-  * **Thickness interstício** *Flutuante* Ajusta o thickness do espaço entre as formas. É *igual para todas as formas*.
-  * **Multiplicador de Posição Aleatória** *Flutuante*\
-    Aplica um deslocamento de posição aleatório à forma até ela *atingindo a borda da célula*.
-  * **Raio dos cantos arredondados** *Flutuante* Ajusta o *raio* dos cantos arredondados das formas. Um valor de **0** significa que nenhum arredondamento foi aplicado.\
-    *Observação*: este efeito não pode ser aplicado quando o parâmetro **Habilitar por Controle de Chanfro de Eixo** está definido como *True*.
-  * **Mapa De Entrada Do Raio Dos Cantos Arredondados Mult.** *Flutuante* Ajusta a intensidade com que o mapa de entrada **Mapa do Raio dos Cantos Arredondados** afeta o raio dos cantos arredondados.\
-    O mapa atua como um multiplicador de *por pixel* para o parâmetro **Raio dos cantos arredondados**.\
-    *Observação*: este efeito não pode ser aplicado quando o parâmetro **Habilitar por Controle de Chanfro de Eixo** está definido como *True*.
-  * **Multiplicador de Escala** *Flutuante*\
-    Ajusta o tamanho de cada forma, como uma proporção da *área de sua célula*.
-  * **Escala aleatória** *Flutuação* Ajusta a intensidade com que uma escala aleatória é aplicada a *cada* forma.
-  * **Rotação** *Flutuar* Gira as formas em suas células movendo cada *canto* para seu *vizinho* ao longo da borda da célula.\
-    Este método resulta em alguma quantidade de *distorção* e *dimensionamento* aplicados à forma em seus giros.
-  * **Rotação aleatória** *Flutuação* Ajusta a intensidade com que uma quantidade aleatória de rotação é aplicada a cada forma.\
-    O método de rotação está descrito no parâmetro **Rotação**.
-  * **Posição dos cantos aleatória** *Flutuar* Distorce as formas aplicando um valor aleatório de *deslocamento* em cada um de seus *cantos* ao longo da borda da célula.
-* Inclinar
-  * **Multiplicador de inclinação aleatória** *Flutuante*\
-    Aplica um ajuste *global* à intensidade da inclinação aleatória.
-  * **Multiplicador de Mapa de Entrada Inclinado Aleatório** *Flutuante*\
-    Ajusta a intensidade da inclinação aleatória usando os valores *amostrados* da entrada **Mapa de inclinação aleatória**.
-  * **Inclinação Aleatória X** *Flutuante*\
-    Ajusta a intensidade da inclinação aleatória\
-    no eixo **X** *somente*.
-  * **Inclinação aleatória Y** *Flutuante*\
-    Ajusta a intensidade da inclinação aleatória\
-    no eixo **Y** *somente*.
-  * **Distribuição inclinada aleatória** *Inteiro*\
-    Controla o método de distribuição de valores de inclinação aleatórios:
-    * *Uniforme*: a inclinação aleatória é aplicada da *mesma maneira* em todas as células
-    * *Ruído azul*: a inclinação aleatória é *ajustada* usando um padrão de ruído azul
-* Chanfro
-  * **Modo de distância de chanfro** *Inteiro*\
-    Define o método de *aquisição da distância* pela qual as formas devem ser chanfradas:
-    * *Em relação ao tamanho da grade*: as formas são chanfradas pela *proporção especificada de seu tamanho de grade*- *Em relação ao tamanho da forma*: as formas são chanfradas pela *proporção especificada de seu tamanho*
-    * *Em relação ao tamanho da imagem*: as formas são chanfradas pela *proporção especificada da imagem*
-  * **Multiplicador de Distância do Chanfro** *Flutuante*\
-    Aplica um ajuste *global* à distância do chanfro.
-  * **Mapa de Entrada de Distância de Chanfro Mult.** *Flutuante*\
-    Ajusta a distância do chanfro usando o mapa de entrada **Mapa de distância de chanfro** como um multiplicador de *por pixel*.
-  * **Curva arredondada chanfrada** *Flutuante*\
-    Ajusta a intensidade do arredondamento aplicado ao ângulo de chanfro para torná-lo mais *convexo*.
-  * **Habilitar Controle de Chanfro por Eixo** *Booleano*\
-    Quando *Verdadeiro*, o chanfro pode ser aplicado e ajustado *separadamente* nos eixos **X** e **Y**.\
-    *Observação*: este *cancela* o efeito **Cantos arredondados**.
-  * **Distância Do Chanfro X** *Flutuante*\
-    Ajusta a distância do chanfro no eixo **X** *somente*. Essa distância depende do valor do parâmetro **Modo de distância de chanfro**.\
-    *Observação*: este parâmetro só está disponível quando o parâmetro **Habilitar por Controle de Chanfro de Eixo** está definido como *True*.
-  * **Distância do chanfro Y** *Flutuante*\
-    Ajusta a distância do chanfro no eixo **Y** *somente*. Essa distância depende do valor do parâmetro **Modo de distância de chanfro**.\
-    *Observação*: este parâmetro só está disponível quando o parâmetro **Habilitar por Controle de Chanfro de Eixo** está definido como *True*.
-* Máscara
-  * **Inversão aleatório de máscara** *Booleano*\
-    Inverte a máscara aleatória de formas.
-  * **Início Aleatório da Máscara** *Flutuante*\
-    Para uma determinada **Distribuição aleatória**, o mascaramento pseudoaleatório é aplicado seguindo uma *ordem específica* de uma forma inicial para uma forma final. Este parâmetro permite *deslocar o índice* da forma *inicial*.\
-    *Observação*: determina um limite de *intervalo de valores* para mascaramento. Portanto, o valor pode ser *maior* do que o valor de **Fim aleatório da máscara**.
-  * **Fim aleatório da máscara** *Flutuante* Para uma determinada **Distribuição aleatória**, o mascaramento pseudo-aleatório é aplicado seguindo uma *ordem específica* de uma forma inicial para uma forma final. Este parâmetro permite *deslocar o índice* da forma *fim*.\
-    *Observação*: determina um limite de *intervalo de valores* para mascaramento. Portanto, o valor pode ser *maior* do que o valor de **Início aleatório da máscara**.
-  * **Inverter máscara por área da célula** *Booleano*\
-    Inverte o mascaramento de formas pela área de suas células.
-  * **Início da Máscara por Área de Célula** *Flutuante*\
-    Ajusta o limite mínimo de *1&rbrace; da área da célula para mascarar formas.*\
-    *Observação*: determina um limite de *intervalo de valores* para mascaramento. Portanto, o valor pode ser *maior* do que o valor **Fim da Máscara por Área de Célula**.
-  * **Fim da Máscara por Área de Célula** *Flutuante* Ajusta o *limite máximo* da área da célula para mascarar formas.\
-    *Observação*: determina um limite de *intervalo de valores* para mascaramento. Portanto, o valor pode ser *menor* do que o valor **Início da Máscara por Área de Célula**.
-  * **Inversão de entrada de mapa de máscara** *Booleano*\
-    Inverte o mascaramento de formas pelo mapa de entrada **Mapa de máscaras**.
-  * **Início da Entrada do Mapa de Máscaras** *Flutuante*\
-    Ajusta o *valor mínimo de tons de cinza* no mapa de entrada **Mapa de Máscaras** para o mascaramento de formas.\
-    *Observação*: determina um limite de *intervalo de valores* para mascaramento. Portanto, o valor pode ser *maior* do que o valor **Fim de entrada do mapa de máscaras**.
-  * **Fim de entrada do mapa de máscaras** *Flutuante* Ajusta o *valor máximo em tons de cinza* no mapa de entrada **Mapa de máscaras** para formas de mascaramento.\
-    *Observação*: determina um limite de *intervalo de valores* para mascaramento. Portanto, o valor pode ser *menor* do que o valor de **Início da Entrada do Mapa de Máscaras**.
-
-## Imagens de exemplo
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/tilerandom2-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/tilerandom2-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/tilerandom2-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/tilerandom2-inputs.gif){width="512px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/tilerandom2-demo.gif){width="512px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/tilerandom2-demo2.gif){width="512px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/tilerandom2-node.png){width="340px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="tile-random-2.resources/tilerandom2-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-random-2.resources/tilerandom2-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-random-2.resources/tilerandom2-variant3.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-random-2.resources/tilerandom2-inputs.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-random-2.resources/tilerandom2-demo.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-random-2.resources/tilerandom2-demo2.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="tile-random-2.resources/tilerandom2-node.png" />
+        </td>
+    </tr>
 </table>

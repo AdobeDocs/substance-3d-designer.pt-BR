@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: Saiba mais sobre como exportar texturas e bitmaps do gráfico de composição de Substance para uso em aplicativos e fluxos de trabalho externos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exportação de bitmaps
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Esta página explica como o Substance 3D Designer pode exportar para muitos formatos de arquivo Bitmap diferentes e como exportar vários blocos UV em lotes.Se você deseja [exportar para arquivos de PSD](../exporting-psd-files/exporting-psd-files.md), há uma página dedicada separada para isso.
 
-![Exportando simplificado](../../assets/exportflow.png "Exportando simplificado")
+![Exportando simplificado](exporting-bitmaps.resources/exportflow.png "Exportando simplificado")
 
 ## Exportação de conceitos
 
@@ -43,14 +43,14 @@ Quando estiver pronto para exportar, há duas maneiras de acessar a caixa de di�
 
 Na janela do [Explorer](../../interface/the-explorer-window/the-explorer-window.md), clique com o botão direito do mouse no gráfico para exportar e escolha **”Exportar saídas como bitmaps”**
 
-![](../../assets/export-explorer.gif)
+![](exporting-bitmaps.resources/export-explorer.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-Na [Exibição de Gráfico](../../interface/the-graph-view/the-graph-view.md), clicando no botão Ferramentas ![](../../assets/image2019-9-17-14-44-17.png) e escolhendo **”Exportar Saídas...”**
+Na [Exibição de Gráfico](../../interface/the-graph-view/the-graph-view.md), clicando no botão Ferramentas ![](exporting-bitmaps.resources/image2019-9-17-14-44-17.png) e escolhendo **”Exportar Saídas...”**
 
-![](../../assets/export-graph.gif)
+![](exporting-bitmaps.resources/export-graph.gif)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ A versão mostrada à direita é a caixa de diálogo padrão. Alterar a resoluç
 1. <b>Exportação automática:</b> botão de alternância para habilitar a reexportação automática de saídas de gráfico assim que uma alteração for feita. Somente para o gráfico atual. Pode ser pesado e lento, dependendo das configurações.
 1. <b>Botão Exportar:</b> exporta com as configurações atuais ou fecha a caixa de diálogo.
 
-![Caixa de diálogo Exportar saídas](../../assets/fromgraph-1.png "Caixa de diálogo Exportar saídas")
+![Caixa de diálogo Exportar saídas](exporting-bitmaps.resources/fromgraph-1.png "Caixa de diálogo Exportar saídas")
 
 ## Caixa de diálogo Exportar (blocos em lote/UV)
 
@@ -90,4 +90,4 @@ Inicie a caixa de diálogo com os mesmos métodos detalhados acima, apenas verif
 1. <b>Blocos UV:</b> Assim como com as Saídas, permite ativar ou desativar a exportação de Blocos UV específicos.
 1. <b>[Tamanho da saída](../../compositing-graphs/output-size/output-size.md): </b>substitua a resolução de exportação, permitindo que você trabalhe menor e mais eficiente ao exportar no tamanho máximo.
 
-![Caixa de diálogo de saídas de exportação em lote](../../assets/batch.png "Caixa de diálogo de saídas de exportação em lote")
+![Caixa de diálogo de saídas de exportação em lote](exporting-bitmaps.resources/batch.png "Caixa de diálogo de saídas de exportação em lote")

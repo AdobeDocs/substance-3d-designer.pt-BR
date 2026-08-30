@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Saiba mais sobre gráficos de composição de Substance no Substance 3D Designer para criar texturas de procedimento e fluxos de trabalho de material.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gráficos do Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](substance-compositing-graphs.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,18 +44,18 @@ gráficos de Substance são[o tipo de gráfico mais amplamente suportado](../get
 Abaixo você pode encontrar alguns exemplos típicos de casos de uso comuns.
 
 +++Forma simples
-![Forma simples no gráfico de Substance](../assets/simpleshape.png "Forma simples no gráfico de Substance"){width="512px"}
+![Forma simples no gráfico de Substance](substance-compositing-graphs.resources/simpleshape.png "Forma simples no gráfico de Substance"){width="512px"}
 
 
 
-Uma forma de máscara simples para um decalque é criada gerando[um pedaço de texto](../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) e uma [forma de disco](../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extraindo a borda](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) do disco e finalmente [mesclando-os](../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) antes de defini-los como saída final [9&rbrace;.](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+Uma forma de máscara simples para um decalque é criada gerando[um pedaço de texto](../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) e uma [forma de disco](../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extraindo a borda](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) do disco e finalmente [mesclando-os](../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) antes de defini-los como saída final [9}.](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 
 O Texto com o número, ou o thickness da aresta, pode ser exposto externamente para tornar este um gráfico mais dinâmico.
 
 +++
 
 +++Filtro de ajuste
-![Filtro de ajuste no gráfico de Substance](../assets/simplefilter.png "Filtro de ajuste no gráfico de Substance"){width="512px"}
+![Filtro de ajuste no gráfico de Substance](substance-compositing-graphs.resources/simplefilter.png "Filtro de ajuste no gráfico de Substance"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ Os valores de contraste definidos no Histograma podem ser expostos, tornando-o u
 +++
 
 +++Material completo
-![Material completo no gráfico de Substance](../assets/simplematerial.png "Material completo no gráfico de Substance"){width="512px"}
+![Material completo no gráfico de Substance](substance-compositing-graphs.resources/simplematerial.png "Material completo no gráfico de Substance"){width="512px"}
 
 
 

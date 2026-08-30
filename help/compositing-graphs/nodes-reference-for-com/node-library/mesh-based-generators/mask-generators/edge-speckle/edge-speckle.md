@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-speckle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-speckle.html"
 breadcrumb-title: ''
 description: Use o nó Manchas de borda para gerar padrões de desgaste manchados nas bordas da malha a fim de criar efeitos realistas de danos às bordas.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Edge Speckle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 2%
+source-wordcount: '181'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-speckle.png){width="128px"}
+![](edge-speckle.resources/edge-speckle.png){width="128px"}
 
-## Edge Speckle
-
-**Entrada:** *Geradores Baseados Em Malha**/Geradores De Máscara*
-
-**Intermediário**
+<b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,31 +37,38 @@ Gera uma máscara em preto e branco com base em mapas baked e configurações do
 
 Essa máscara representa as bordas com um leve respingo adicionado para quebrá-las. Consulte também [Dirt de borda](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md).
 
-## Parâmetros
-
-### Entradas
-
-* **Curvatura**: *Entrada em tons de cinza*\
-  Mapa baked usado para realce de Aresta. Obrigatório!
-* **Máscara de Variação**: *Entrada em Tons de Cinza*\
-  Slot de máscara opcional usado para mascarar os efeitos do nó. Ative com “substituir máscara de variação”.
-* **Máscara (opcional)**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Nível**: *0.0 - 1.0*\
-  Define a quantidade total de realce de borda.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta o contraste do resultado.
-* **Seleção de borda**: *0.0 - 1.0* Define a influência de bordas convexas.
-* **Variação**: *0.0 - 1.0* Define a extensão na qual a máscara de variação divide o efeito.
-* **Substituir máscara de variação**: *Falso/Verdadeiro* Substitui a máscara interna pelo slot de entrada personalizado.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/edge-speckle-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para realce de Aresta. Obrigatório! |
+| <b>Máscara de Variação</b> <i>Entrada em tons de cinza</i> | Slot de máscara opcional usado para mascarar os efeitos do nó. Ative com “substituir máscara de variação”. |
+| <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Nível</b> <i>0.0 - 1.0</i> | Define a quantidade total de realce de borda. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta o contraste do resultado. |
+| <b>Seleção de borda</b> <i>0.0 - 1.0</i> | Define a influência de bordas convexas. |
+| <b>Variação</b> <i>0.0 - 1.0</i> | Define a extensão em que a máscara de variação divide o efeito. |
+| <b>Substituir máscara de variação</b> <i>Falso/Verdadeiro</i> | Substitui a máscara interna com o slot de entrada personalizado. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-speckle.resources/edge-speckle-ex.gif" />
+        </td>
+    </tr>
 </table>

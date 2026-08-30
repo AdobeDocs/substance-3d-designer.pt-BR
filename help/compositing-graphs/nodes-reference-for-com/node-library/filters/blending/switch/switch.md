@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
 breadcrumb-title: ''
 description: Use o nó Alternar para alternar entre duas texturas de entrada com base em uma máscara para seleção de textura condicional.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Alterar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 4%
+source-wordcount: '134'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/switch-1.png){width="128px"}
+![](switch.resources/switch-1.png){width="128px"}
 
-![](../../../../../../assets/switch-grayscale.png){width="128px"}
+![](switch.resources/switch-grayscale.png){width="128px"}
 
-## Chave (Tons de cinza)
-
-**Entrada:** *Filtros/Mesclagem*
-
-**Simples**
+<b>Entrada:</b> Filtros > Mesclagem
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -45,19 +41,23 @@ Muito útil para expor uma opção booleana (Verdadeiro/Falso) em um gráfico, e
 
 Importante: certifique-se de usar a versão apropriada para sua entrada! Use “Alternar” para entradas de cor e “Alternar escala de cinza” para entradas de escala de cinza.
 
-## Parâmetros
-
-### Entradas
-
-* **Entrada 1 (Verdadeira)**: *Entrada Colorida ou em Escala de Cinza*
-* **Entrada 2 (Falso)**: *Entrada colorida ou em tons de cinza*
-
-### Parâmetros
-
-* **Alternar**: *Falso/Verdadeiro* Alterna entre a Entrada 1 (Verdadeiro) e a Entrada 2 (Falso).
-
-## Imagens de exemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada 1 (Verdadeira)</b> <i>Entrada colorida ou em tons de cinza</i> |  |
+| <b>Entrada 2 (Falso)</b> <i>Entrada colorida ou em tons de cinza</i> |  |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Alternar</b> <i>Falso/Verdadeiro</i> | Alterna entre a Entrada 1 (True) e a Entrada 2 (False). |

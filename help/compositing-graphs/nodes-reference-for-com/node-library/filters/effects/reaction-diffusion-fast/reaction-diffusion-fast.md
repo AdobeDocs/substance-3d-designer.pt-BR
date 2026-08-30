@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
 description: Use o nó Difusão de reação rápida para gerar padrões orgânicos usando algoritmos de difusão de reação rápida para texturas de procedimento.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Difusão de reação rápida
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó de Difusão de Reação](../../../../../../assets/reaction-diffusion.png "ícone de nó de Difusão de Reação")
+![Ícone de nó de Difusão de Reação](reaction-diffusion-fast.resources/reaction-diffusion.png "ícone de nó de Difusão de Reação")
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -43,20 +43,30 @@ Esse nó é otimizado para desempenho e faz algumas compensações de precisão 
 </tr>
 </table>
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Entrada</b> *Tons de cinza* A imagem em tons de cinza à qual o efeito de difusão de reação deve ser aplicado.
+## Entradas
 
-## Conectores de saída
+|  |  |
+|:---|:---|
+| <b>Entrada</b> <i>Tons de cinza</i> | A imagem em tons de cinza à qual o efeito de difusão-reação deve ser aplicado. |
 
-<b>Saída </b>*Tons de cinza* A imagem em tons de cinza que representa o efeito de difusão de reação aplicado à imagem de entrada.
+<a name="outputs"></a>
+
+## Saídas
+
+|  |  |
+|:---|:---|
+| <b>Saída</b> <i>Tons de cinza</i> | A imagem em tons de cinza que representa o efeito de difusão de reação aplicado à imagem de entrada. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Raio</b> *Flutuar* Até onde o efeito deve se espalhar.
-
-<b>Contraste</b> *Flutuante*\
-Ajusta o contraste da entrada, serve como um tipo de limite.
+|  |  |
+|:---|:---|
+| <b>Raio</b> *Flutuante* | Até onde o efeito deve se espalhar. |
+| <b>Contraste</b> *Flutuante* | Ajusta o contraste da entrada, serve como um tipo de limite. |
 
 ## Exemplos
 
@@ -64,17 +74,17 @@ Ajusta o contraste da entrada, serve como um tipo de limite.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo 1](../../../../../../assets/reactdiff03.png "Exemplo 1")
+![Exemplo 1](reaction-diffusion-fast.resources/reactdiff03.png "Exemplo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo 2](../../../../../../assets/reactdiff02.png "Exemplo 2")
+![Exemplo 2](reaction-diffusion-fast.resources/reactdiff02.png "Exemplo 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo 3](../../../../../../assets/reactdiff01.gif "Exemplo 3")
+![Exemplo 3](reaction-diffusion-fast.resources/reactdiff01.gif "Exemplo 3")
 
 </td>
 </tr>

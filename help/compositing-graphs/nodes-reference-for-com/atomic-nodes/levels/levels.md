@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ''
 description: Use o nó Níveis para ajustar o brilho, o contraste e a gama tonal das texturas para correção e aprimoramento de cores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Níveis
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Níveis](../../../../assets/comp_levels_1.png "Nó atômico: Níveis"){width="200px"}
+![Nó atômico: Níveis](levels.resources/comp_levels_1.png "Nó atômico: Níveis"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ O botão amarelo realçado alterna a interface entre os controles deslizantes (i
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](../../../../assets/levels-2-1.png)
+![](levels.resources/levels-2-1.png)
 
-![](../../../../assets/levels-1-1.png)
+![](levels.resources/levels-1-1.png)
 
 </td>
 </tr>
@@ -90,8 +90,8 @@ O botão amarelo realçado alterna a interface entre os controles deslizantes (i
 | <b>Nível no alto</b> *Flutuante/Flutuante4* | Define os níveis de realce da imagem de entrada.  Mapeia novamente os valores de entrada Altos para um branco completo. |
 | <b>Nível no meio</b> *Flutuante/Flutuante4* | Define os níveis de tons médios da imagem de entrada.  Mapeia novamente os valores de entrada do Meio para se tornarem cinza médio. |
 | <b>Nivelar abaixo</b> *Flutuante/Flutuante4* | Define os níveis de luz baixa da imagem de saída.  Agrava os valores de saída de Preto para definir o limite. |
-| <b>Nivelar acima</b> *Flutuante/Flutuante4* | Define os níveis de realce da imagem de saída.  Limita os valores de branco de saída para definir o limite. |
-| <b>Pincel intermediário</b> *Booleano* | Determina se o valor de entrada transformado é fixado a [0, 1] antes do nível de saída de computação. |
+| <b>Nivelar acima</b> *Flutuante/Flutuante4* | Define os níveis de realce da imagem de saída.  Restringe os valores de branco de saída para definir o limite. |
+| <b>Pincel intermediário</b> *Booleano* | Determina se o valor de entrada transformado é fixado a [0, 1] antes do cálculo do nível de saída. |
 
 ## Guia de uso
 
@@ -101,11 +101,11 @@ Confira esta visão geral em vídeo do nó Níveis e seu editor de histograma:
 
 Na barra de cabeçalho &#39;Parâmetros específicos&#39;, você pode encontrar botões para acessar funções convenientes do histograma:
 
-![Ações rápidas do nó de níveis](../../../../assets/levels-2.png "Ações rápidas do nó de níveis")
+![Ações rápidas do nó de níveis](levels.resources/levels-2.png "Ações rápidas do nó de níveis")
 
-<b>1 - Inverter:</b> alterna os valores dos parâmetros &#39;Nível externo baixo&#39; e &#39;Nível externo alto&#39;.
+<b>1 - Inverter:</b> alterna os valores dos parâmetros &#39;Nível para baixo&#39; e &#39;Nível da saída do realce&#39;.
 
-<b>2 - Nível automático:</b> ajusta automaticamente os valores dos parâmetros &#39;Nível em baixo&#39; e &#39;Nível em alto&#39; respectivamente para o menor e maior valor presente na imagem.
+<b>2 - Nível automático:</b> ajusta automaticamente os valores dos parâmetros &#39;Nivel em sombras&#39; e &#39;Nivel em realce&#39; respectivamente para o valor mais baixo e mais alto presente na imagem.
 
 <b>3 - Interfaces de alternância:</b> alterna entre os editores do histograma e do controle deslizante.
 
@@ -113,7 +113,7 @@ Na barra de cabeçalho &#39;Parâmetros específicos&#39;, você pode encontrar 
 
 O editor de histograma é destinado a ajustes visuais rápidos em que valores precisos não são realmente necessários e a exposição de parâmetros não é importante. Geralmente, é a maneira mais rápida e fácil de trabalhar com Níveis.
 
-![](../../../../assets/levels-histo.gif)
+![](levels.resources/levels-histo.gif)
 
 Dependendo do tipo de entrada (Cor ou Tons de cinza), é possível usar a lista suspensa acima do Histograma para escolher o canal que será modificado.
 

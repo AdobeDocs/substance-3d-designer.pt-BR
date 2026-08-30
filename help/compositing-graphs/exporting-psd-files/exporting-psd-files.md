@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
 breadcrumb-title: ''
 description: Saiba como exportar gráficos de composição de Substance como arquivos de PSD para uso no Adobe Photoshop e em outros fluxos de trabalho de edição de imagens.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exportação de arquivos PSD
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -26,13 +26,13 @@ O Substance 3D Designer permite exportar texturas para o Documento ou arquivo PS
 
 ## caixa de diálogo de exportação de PSD
 
-A caixa de diálogo Exportar PSD só pode ser aberta por um método. Na [exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) do gráfico que você deseja exportar para o PSD, clique no botão ![](../../assets/image2019-9-17-14-44-17.png) <b>Ferramentas</b> e selecione <b>PSD Exportador</b>. A interface torna-se visível na <b>Exibição de gráfico</b>.
+A caixa de diálogo Exportar PSD só pode ser aberta por um método. Na [exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) do gráfico que você deseja exportar para o PSD, clique no botão ![](exporting-psd-files.resources/image2019-9-17-14-44-17.png) <b>Ferramentas</b> e selecione <b>Exportar PSD</b>. A interface torna-se visível na <b>Exibição de gráfico</b>.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![interface de usuário do PSD Exporter](../../assets/psd-dialog.png "interface de usuário do PSD Exporter")
+![interface de usuário do PSD Exporter](exporting-psd-files.resources/psd-dialog.png "interface de usuário do PSD Exporter")
 
 </td>
 <td style="border: 0;" valign="top">

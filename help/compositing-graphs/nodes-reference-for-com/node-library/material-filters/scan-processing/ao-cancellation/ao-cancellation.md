@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
 breadcrumb-title: ''
-description: Use o nó Cancelamento de AO para remover a oclusão ambiente dos materiais digitalizados para o processamento de textura limpa.
+description: Use o nó Cancelamento de AO para remover a oclusão de ambiente de materiais digitalizados para processamento de textura limpa.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > AO Cancellation
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cancelamento de AO
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 1%
+source-wordcount: '133'
+ht-degree: 4%
 
 ---
 
@@ -22,36 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/ao-cancel.png){width="128px"}
+![](ao-cancellation.resources/ao-cancel.png){width="128px"}
 
-## Cancelamento de AO
-
-**Entrada:** *Filtros de Material/Processamento de Digitalização*
-
-**Simples**
+<b>Entrada:</b> Filtros Materiais > Processamento de materiais escaneados
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-Este nó tenta remover qualquer informação de iluminação de Oclusão ambiente do mapa de Albedo (cor base), com base em uma entrada de mapa AO separada. Ele pode ser usado para garantir que as informações do seu Albedo sejam PBR corretas e na maior parte do tempo desprovidas de informações de iluminação (fortes).
+Este nó tenta remover qualquer informação de iluminação de Oclusão de ambiente do mapa de Albedo (Cor de base), com base em uma entrada de mapa AO separada. Ele pode ser usado para garantir que as informações do seu Albedo sejam PBR corretas e na maior parte do tempo desprovidas de informações de iluminação (fortes).
 
-Um nó útil para quando você tem um mapa de AO cozido a partir de uma malha digitalizada, ou, alternativamente, até mesmo um mapa de AO gerado a partir de informações de Height ou Normal.
-
-## Parâmetros
-
-* **Cancelamento de AO**: *0.0 - 1.0* Intensidade com a qual remover informações de iluminação.
-* **Saturação do AO**: *0.0 - 1.0*(De)Compensação de saturação para áreas onde a iluminação é removida. Isso pode ser usado para retornar qualquer perda de cor em áreas mais escuras.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
+Um nó útil para quando você tem um mapa de AO feito bake de uma malha digitalizada, ou, alternativamente, até mesmo um mapa de AO gerado a partir de informações de Height ou Normais.
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Cancelamento de AO</b> <i>0.0 - 1.0</i> | Intensidade com a qual remover informações de iluminação. |
+| <b>Saturação do AO</b> <i>0.0 - 1.0</i> | Compensação de (De)Saturação para áreas onde a iluminação é removida. Isso pode ser usado para retornar qualquer perda de cor em áreas mais escuras. |

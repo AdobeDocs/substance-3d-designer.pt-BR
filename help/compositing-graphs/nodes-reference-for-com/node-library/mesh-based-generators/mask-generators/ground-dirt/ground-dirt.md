@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/ground-dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/ground-dirt.html"
 breadcrumb-title: ''
 description: Use o nó Dirt terrestre para gerar máscaras de acúmulo de dirt com base na posição da malha e orientação relativas ao solo.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dirt terrestre
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 1%
+source-wordcount: '150'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/ground-dirt.png){width="128px"}
+![](ground-dirt.resources/ground-dirt.png){width="128px"}
 
-## Dirt terrestre
-
-**Entrada:** *Geradores Baseados Em Malha**/Geradores De Máscara*
-
-**Simples**
+<b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,25 +37,35 @@ Gera uma máscara em preto e branco com base em mapas baked e configurações do
 
 Esta máscara representa o dirt acumulado desde o início, o oposto de [De baixo para cima](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/bottom-to-top/bottom-to-top.md) ou [Dust](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/dust/dust.md). Não há substituição de mapa personalizada.
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Entradas
 
-* **Posição**: *Entrada em Tons de Cinza*\
-  Mapa de posição cozido no qual o efeito base será ativado. Obrigatório!
-* **Máscara (opcional)**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
+|  |  |
+|:---|:---|
+| <b>Posição</b> <i>Entrada em tons de cinza</i> | Feito bake o mapa de posição para o efeito base. Obrigatório! |
+| <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
-* **Nível**: *0.0 - 1.0*\
-  Define o nível de aparência total do dirt.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta o contraste do resultado.
-* **Height de Dirt**: *0.0 - 1.0* Define até qual height (proporcionalmente) o dirt deve aparecer.
+|  |  |
+|:---|:---|
+| <b>Nível</b> <i>0.0 - 1.0</i> | Define o nível de aparência total do dirt. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta o contraste do resultado. |
+| <b>Height DO Dirt</b> <i>0.0 - 1.0</i> | Define até qual height (proporcionalmente) o dirt deve aparecer. |
 
-## Imagens de exemplo
+## Exemplos
 
-![](../../../../../../assets/ground-dirt-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ground-dirt.resources/ground-dirt-ex.gif" />
+        </td>
+    </tr>
 </table>

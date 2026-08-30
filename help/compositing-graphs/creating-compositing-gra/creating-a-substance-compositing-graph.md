@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: Saiba como criar gráficos de composição de Substance no Substance 3D Designer para criar fluxos de trabalho de textura de procedimentos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Criação de um gráfico do Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 1%
@@ -28,7 +28,7 @@ A criação de texturas no Designer começa com a criação de um gráfico de Su
 
 Para iniciar o processo de criação de um novo gráfico de [Substance](../../compositing-graphs/substance-compositing-graphs.md), você pode usar um destes métodos:
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -38,13 +38,13 @@ Para iniciar o processo de criação de um novo gráfico de [Substance](../../co
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Caixa de diálogo Novo gráfico de Substance - Criar da Tela Inicial](../../assets/newGraphDialog-create-homeScreen.png "Caixa de diálogo Novo gráfico de Substance - Criar da Tela Inicial"){zoomable="yes"}
+  ![Caixa de diálogo Novo gráfico de Substance - Criar da Tela Inicial](creating-a-substance-compositing-graph.resources/newGraphDialog-create-homeScreen.png "Caixa de diálogo Novo gráfico de Substance - Criar da Tela Inicial"){zoomable="yes"}
 
   </td>
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -54,29 +54,29 @@ Para iniciar o processo de criação de um novo gráfico de [Substance](../../co
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Caixa de diálogo Novo gráfico de Substance - Criar a partir do Explorer](../../assets/newGraphDialog-create-explorer.png "Caixa de diálogo Novo gráfico de Substance - Criar a partir do Explorer"){zoomable="yes"}
+  ![Caixa de diálogo Novo gráfico de Substance - Criar a partir do Explorer](creating-a-substance-compositing-graph.resources/newGraphDialog-create-explorer.png "Caixa de diálogo Novo gráfico de Substance - Criar a partir do Explorer"){zoomable="yes"}
 
   </td>
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  Na barra de ferramentas principal, clique no botão ![](../../assets/image2021-6-22-20-36-44.png) <b>Novo Substance</b>.
+  Na barra de ferramentas principal, clique no botão ![](creating-a-substance-compositing-graph.resources/image2021-6-22-20-36-44.png) <b>Novo Substance</b>.
 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Caixa de diálogo Novo gráfico de Substance - Criar da barra de ferramentas principal](../../assets/newGraphDialog-create-mainToolbar.png "Caixa de diálogo Novo gráfico de Substance - Criar da barra de ferramentas principal"){zoomable="yes"}
+  ![Caixa de diálogo Novo gráfico de Substance - Criar da barra de ferramentas principal](creating-a-substance-compositing-graph.resources/newGraphDialog-create-mainToolbar.png "Caixa de diálogo Novo gráfico de Substance - Criar da barra de ferramentas principal"){zoomable="yes"}
 
   </td>
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Para iniciar o processo de criação de um novo gráfico de [Substance](../../co
   </td>
   <td style="border: 0;" valign="top">
 
-  ![](../../assets/newGraphDialog-create-mainMenu.png)
+  ![](creating-a-substance-compositing-graph.resources/newGraphDialog-create-mainMenu.png)
 
   </td>
   </tr>
@@ -102,7 +102,7 @@ Não importa o método escolhido, você verá a caixa de diálogo <b>Novo gráfi
 
 Independentemente do método usado para criar um novo gráfico de Substance, você sempre verá a caixa de diálogo <b>Novo gráfico de Substance</b>, que permite configurar o novo gráfico.
 
-![Caixa de diálogo Novo gráfico de Substance - Materiais](../../assets/newGraphDialog-materials.png "Caixa de diálogo Novo gráfico de Substance - Materiais"){zoomable="yes"}
+![Caixa de diálogo Novo gráfico de Substance - Materiais](creating-a-substance-compositing-graph.resources/newGraphDialog-materials.png "Caixa de diálogo Novo gráfico de Substance - Materiais"){zoomable="yes"}
 
 ### Modelos
 
@@ -139,7 +139,7 @@ Nos modos de exibição <b>Lista</b>, <b>Pacotes</b> e <b>Diretórios</b>, o sub
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Caixa de diálogo de novo gráfico de Substance - Cartão de miniatura](../../assets/newGraphDialog-thumbnailCard.png "Caixa de diálogo de novo gráfico de Substance - Cartão de miniatura")
+![Caixa de diálogo de novo gráfico de Substance - Cartão de miniatura](creating-a-substance-compositing-graph.resources/newGraphDialog-thumbnailCard.png "Caixa de diálogo de novo gráfico de Substance - Cartão de miniatura")
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Você também pode acessar as amostras diretamente na tela inicial, usando o bot
 
 Todas as amostras são baseadas no [modelo de material de OpenPBR](../../interface/3d-view/material-properties/material-properties.md#openpbr).
 
-![Amostras de materiais - Banner da tela inicial](../../assets/materialSamples-banner.png "Amostras de materiais - Banner da tela inicial"){zoomable="yes"}
+![Amostras de materiais - Banner da tela inicial](creating-a-substance-compositing-graph.resources/materialSamples-banner.png "Amostras de materiais - Banner da tela inicial"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -174,7 +174,7 @@ Passar o mouse sobre o ícone de informações para cada item de modelo exibe um
 </td>
 <td style="border: 0;" valign="top">
 
-![Caixa de diálogo Novo gráfico de Substance - Dica de ferramenta de modelo](../../assets/newGraphDialog-tooltipTemplate.png "Caixa de diálogo Novo gráfico de Substance - Dica de ferramenta de modelo"){zoomable="yes"}
+![Caixa de diálogo Novo gráfico de Substance - Dica de ferramenta de modelo](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipTemplate.png "Caixa de diálogo Novo gráfico de Substance - Dica de ferramenta de modelo"){zoomable="yes"}
 
 </td>
 </tr>
@@ -193,14 +193,14 @@ A filtragem executada pela categoria selecionada e pelo arquivo de projeto é ap
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Caixa de diálogo Novo gráfico de Substance - Modos de exibição](../../assets/newGraphDialog-viewModes.png "Caixa de diálogo Novo gráfico de Substance - Modos de exibição"){zoomable="yes"}
+![Caixa de diálogo Novo gráfico de Substance - Modos de exibição](creating-a-substance-compositing-graph.resources/newGraphDialog-viewModes.png "Caixa de diálogo Novo gráfico de Substance - Modos de exibição"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
 +++Modos de visualização
-![Caixa de diálogo Novo gráfico de Substance - Exibição de miniaturas](../../assets/newGraphDialog-viewMode-thumbnails.png "caixa de diálogo Novo gráfico de Substance - Exibição de miniaturas"){zoomable="yes"}
+![Caixa de diálogo Novo gráfico de Substance - Exibição de miniaturas](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-thumbnails.png "caixa de diálogo Novo gráfico de Substance - Exibição de miniaturas"){zoomable="yes"}
 
 
 
@@ -208,7 +208,7 @@ A filtragem executada pela categoria selecionada e pelo arquivo de projeto é ap
 
 Cartões com miniaturas que fornecem uma visualização ou um ícone do tipo de modelo.
 
-![Caixa de diálogo Novo gráfico de Substance - Exibição em lista](../../assets/newGraphDialog-viewMode-list.png "Caixa de diálogo Novo gráfico de Substance - Exibição em lista"){zoomable="yes"}
+![Caixa de diálogo Novo gráfico de Substance - Exibição em lista](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-list.png "Caixa de diálogo Novo gráfico de Substance - Exibição em lista"){zoomable="yes"}
 
 
 
@@ -216,7 +216,7 @@ Cartões com miniaturas que fornecem uma visualização ou um ícone do tipo de 
 
 Os modelos são listados somente por seu rótulo.
 
-![Caixa de diálogo do novo gráfico de Substance - Exibição de pacotes](../../assets/newGraphDialog-viewMode-packages.png "caixa de diálogo do novo gráfico de Substance - Exibição de pacotes"){zoomable="yes"}
+![Caixa de diálogo do novo gráfico de Substance - Exibição de pacotes](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-packages.png "caixa de diálogo do novo gráfico de Substance - Exibição de pacotes"){zoomable="yes"}
 
 
 
@@ -226,7 +226,7 @@ Os modelos são listados por seu rótulo como filhos do arquivo de pacote ao qua
 
 Passe o mouse sobre um item de arquivo de pacote para exibir uma dica de ferramenta com seu caminho completo.
 
-![Caixa de diálogo Novo gráfico de Substance - exibição de diretórios](../../assets/newGraphDialog-viewMode-directories.png "caixa de diálogo Novo gráfico de Substance - exibição de diretórios"){zoomable="yes"}
+![Caixa de diálogo Novo gráfico de Substance - exibição de diretórios](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-directories.png "caixa de diálogo Novo gráfico de Substance - exibição de diretórios"){zoomable="yes"}
 
 
 
@@ -252,7 +252,7 @@ Depois de selecionar o modelo, você pode configurar informações básicas sobr
 
 Passe o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta com um botão que vincula diretamente a esta página, para que você possa consultar esta documentação novamente conforme necessário.
 
-![Caixa de diálogo Novo gráfico de Substance - Dica de ferramenta de Ajuda](../../assets/newGraphDialog-tooltipHelp.png "Caixa de diálogo Novo gráfico de Substance - Dica de ferramenta de Ajuda"){zoomable="yes"}
+![Caixa de diálogo Novo gráfico de Substance - Dica de ferramenta de Ajuda](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipHelp.png "Caixa de diálogo Novo gráfico de Substance - Dica de ferramenta de Ajuda"){zoomable="yes"}
 
 <a name="managing-templates"></a>
 
@@ -271,7 +271,7 @@ Use a caixa de combinação <b>Categoria</b> para selecionar a categoria pela qu
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Caixa de diálogo Novo gráfico de Substance - Filtrando por categoria](../../assets/newGraphDialog-categories.png "Caixa de diálogo Novo gráfico de Substance - Filtrando por categoria"){zoomable="yes"}
+![Caixa de diálogo Novo gráfico de Substance - Filtrando por categoria](creating-a-substance-compositing-graph.resources/newGraphDialog-categories.png "Caixa de diálogo Novo gráfico de Substance - Filtrando por categoria"){zoomable="yes"}
 
 </td>
 </tr>
@@ -290,7 +290,7 @@ Categorias personalizadas podem ser configuradas nos modelos fornecidos pelos ar
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![Caixa de diálogo Novo gráfico de Substance - Configurando a categoria do modelo](../../assets/newGraphDialog-templateCategorySetup.png "Caixa de diálogo Novo gráfico de Substance - Configurando a categoria do modelo"){zoomable="yes"}
+![Caixa de diálogo Novo gráfico de Substance - Configurando a categoria do modelo](creating-a-substance-compositing-graph.resources/newGraphDialog-templateCategorySetup.png "Caixa de diálogo Novo gráfico de Substance - Configurando a categoria do modelo"){zoomable="yes"}
 
 </td>
 </tr>
@@ -309,7 +309,7 @@ Em seguida, use o botão <b>Filtrar por arquivo de projeto</b> para restringir a
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Caixa de diálogo Novo gráfico de Substance - Filtrando por arquivo de projeto](../../assets/newGraphDialog-projectFiles.png "Caixa de diálogo Novo gráfico de Substance - Filtrando por arquivo de projeto"){zoomable="yes"}
+![Caixa de diálogo Novo gráfico de Substance - Filtrando por arquivo de projeto](creating-a-substance-compositing-graph.resources/newGraphDialog-projectFiles.png "Caixa de diálogo Novo gráfico de Substance - Filtrando por arquivo de projeto"){zoomable="yes"}
 
 </td>
 </tr>

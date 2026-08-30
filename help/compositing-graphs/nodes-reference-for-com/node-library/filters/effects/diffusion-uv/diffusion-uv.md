@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
 breadcrumb-title: ''
 description: Use o nó Difusão UV para aplicar efeitos de difusão no espaço UV para criar transições e mesclagens de cores suaves.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Difusão UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
+![](diffusion-uv.resources/diffusion-uv-icon.png){width="200px"}
 
-**Entrada:** *Filtros/Efeitos*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -49,45 +47,40 @@ Isso pode levar a resultados indesejados ao usar este filtro para *deformação 
 </tr>
 </table>
 
-## Parâmetros
-
-* **Iterações**: *0.0 - 64.0* O número de iterações de difusão a serem executadas (maior é melhor, mas mais lento). Os valores úteis estão no intervalo [8, 48].\
-  Observe que, se você não estiver procurando por correção matemática, os valores baixos são ótimos ou até melhores.
+<a name="inputs"></a>
 
 ## Entradas
 
-* **Origem** *Cor*\
-  Os UVs se difundem. Observe que a divisão em blocos gráficos é tratada de maneira especial neste filtro (consulte *Descrição*).
-* **Máscara** *Tons de cinza* A máscara de difusão: os pixels brancos são amostrados em *Origem* e difundidos em pixels pretos. A imagem deve ser preta e branca. Se a máscara incluir gradientes, o valor de corte será 0,5.
+|  |  |
+|:---|:---|
+| <b>Origem</b> <i>Cor</i> | Os UVs se difundem. Observe que a divisão em blocos gráficos é tratada de maneira especial neste filtro (consulte <i>Descrição</i>). |
+| <b>Máscara</b> <i>Tons de cinza</i> | A máscara de difusão: os pixels brancos são amostrados em <i>Origem</i> e difundidos em pixels pretos. A imagem deve ser preta e branca. Se a máscara incluir gradientes, o valor de corte será 0,5. |
 
-## Imagens de exemplo
+<a name="parameters"></a>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+## Parâmetros
 
-![](../../../../../../assets/diffusion-uv-01a-before.jpg){width="256px"}
+|  |  |
+|:---|:---|
+| <b>Iterações</b> <i>0.0 - 64.0</i> | O número de iterações de difusão a serem executadas (maior é melhor, mas mais lento). Os valores úteis estão no intervalo [8, 48].<br>Observe que, se você não estiver procurando correção matemática, os valores baixos serão ótimos ou até melhores. |
 
-</td>
-<td style="border: 0;" valign="top">
+## Exemplos
 
-![](../../../../../../assets/diffusion-uv-01a-after.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-before.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-after.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-01a-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-01a-after.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-01b-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-01b-after.jpg" />
+        </td>
+    </tr>
 </table>

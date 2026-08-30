@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
 breadcrumb-title: ''
 description: Use o nó Acrescentar spline para anexar várias splines para criar caminhos contínuos mais longos.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Acrescentar Spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/spline-append-icon.png "Ícone de nó")
+![Ícone de nó](spline-append.resources/spline-append-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -45,82 +45,45 @@ A ordem das listas é preservada, o que significa acrescentar uma lista D-E-F a 
 >
 > Esteja ciente da ordem na qual você acrescenta splines, pois essa ordem é levada em consideração em outros nós, como [Dispersão em splines](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md), [Ponte de spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md), etc.
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Visualizar #1</b> *Tons de cinza* A visualização do primeiro conjunto de splines de entrada como uma imagem em tons de cinza.
+## Entradas
 
-<b>Spline #1 Coords</b> *Cor* As coordenadas do primeiro conjunto de pontos de splines de entrada codificadas nos canais RGBA de uma imagem colorida.\
-<b>R</b> - Posição X\
-<b>G</b> - posição Y\
-<b>B</b> - Height\
-<b>A</b> - Dados empacotados:\
-* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-* Valor absoluto: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Visualizar #1</b> <i>Tons de cinza</i> | A visualização do primeiro conjunto de splines de entrada como uma imagem em tons de cinza. |
+| <b>Spline #1 Coords</b> <i>Cor</i> | As coordenadas do primeiro conjunto de pontos das linhas divisórias de entrada codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Posição X<br><b>G</b> - Posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br>- Sinal: a linha divisória é fechada (negativa) ou aberta (positiva);<br>- Valor absoluto: Thickness + 1. |
+| <b>Dados de Spline #1</b> <i>Cor</i> | Dados adicionais do primeiro conjunto de splines de entrada codificados nos canais RGBA de uma imagem colorida.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Não Usadas<br><b>A</b> - Não Usadas |
+| <b>Valor de Spline #1</b> <i>Inteiro</i> | O número de splines de entrada no primeiro conjunto. |
+| <b>Visualizar #2</b> <i>Tons de cinza</i> | A visualização do segundo conjunto de splines de entrada como uma imagem em tons de cinza. |
+| <b>Spline #2 Coords</b> <i>Cor</i> | As coordenadas do segundo conjunto de pontos das linhas divisórias de entrada codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Posição X<br><b>G</b> - Posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br>- Sinal: a linha divisória é fechada (negativa) ou aberta (positiva);<br>- Valor absoluto: Thickness + 1. |
+| <b>Dados de Spline #2</b> <i>Cor</i> | Dados adicionais do segundo conjunto de splines de entrada codificados nos canais RGBA de uma imagem colorida.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Não Usadas<br><b>A</b> - Não Usadas |
+| <b>Valor de Spline #2</b> <i>Inteiro</i> | O número de splines de entrada no segundo conjunto. |
 
-<b>Dados de Spline #1</b> *Cor* Dados adicionais do primeiro conjunto de splines de entrada codificados nos canais RGBA de uma imagem colorida.\
-<b>R</b> - Tangentes X\
-<b>G</b> - Tangentes Y\
-<b>B</b> - Não Usado\
-<b>A</b> - Não Usado
+<a name="outputs"></a>
 
-<b>Valor de Spline #1</b> *Inteiro* O número de splines de entrada no primeiro conjunto.
+## Saídas
 
-<b>Visualizar #2</b> *Tons de cinza* A visualização do segundo conjunto de splines de entrada como uma imagem em tons de cinza.
+|  |  |
+|:---|:---|
+| <b>Visualizar</b> <i>Tons de cinza</i> | A visualização das linhas de saída como uma imagem em tons de cinza. |
+| <b>Cordas de spline</b> <i>Cor</i> | As coordenadas dos pontos das linhas divisórias de saída codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Posição X<br><b>G</b> - Posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br>- Sinal: a linha divisória é fechada (negativa) ou aberta (positiva);<br>- Valor absoluto: Thickness + 1. |
+| <b>Dados de Spline</b> <i>Cor</i> | Dados adicionais das splines de saída codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Não Usadas<br><b>A</b> - Não Usadas |
+| <b>Valor da spline</b> <i>Inteiro</i> | O número de splines de saída. |
 
-<b>Spline #2 Coords</b> *Cor* As coordenadas do segundo conjunto de pontos de splines de entrada codificadas nos canais RGBA de uma imagem colorida.\
-<b>R</b> - Posição X\
-<b>G</b> - posição Y\
-<b>B</b> - Height\
-<b>A</b> - Dados empacotados:\
-* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-* Valor absoluto: Thickness + 1.
-
-<b>Dados de Spline #2</b> *Cor* Dados adicionais do segundo conjunto de splines de entrada codificados nos canais RGBA de uma imagem colorida.\
-<b>R</b> - Tangentes X\
-<b>G</b> - Tangentes Y\
-<b>B</b> - Não Usado\
-<b>A</b> - Não Usado
-
-<b>Valor de Spline #2</b> *Inteiro* O número de splines de entrada no segundo conjunto.
-
-## Conectores de saída
-
-<b>Visualizar</b> *Tons de cinza* A visualização das linhas divisórias de saída como uma imagem em tons de cinza.
-
-<b>Cordas de spline</b> *Cor* As coordenadas dos pontos das linhas divisórias de saída codificadas nos canais RGBA de uma imagem colorida.\
-<b>R</b> - Posição X\
-<b>G</b> - posição Y\
-<b>B</b> - Height\
-<b>A</b> - Dados empacotados:\
-* Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-* Valor absoluto: Thickness + 1.
-
-<b>Dados de Spline</b> *Cor* Dados adicionais das splines de saída codificados nos canais RGBA de uma imagem colorida.\
-<b>R</b> - Tangentes X\
-<b>G</b> - Tangentes Y\
-<b>B</b> - Não Usado\
-<b>A</b> - Não Usado
-
-<b>Valor da spline</b> *Inteiro* O número de splines de saída.
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Inverter spline #1 Direção </b>*Booleano* Inverte a direção das splines no primeiro conjunto.
-
-<b>Inverter spline #2 Direção </b>*Booleano* Inverte a direção das splines no segundo conjunto.
-
-+++Visualização
-<b>Valor de Segmentos</b> *Inteiro* Ajusta o número de segmentos usados para desenhar a visualização de spline na saída da Visualização.\
-Um valor mais alto resulta em uma linha mais suave.
-
-<b>Mostrar Auxiliar de Direção</b> *Booleano* Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização.
-
-<b>Mostrar Envelope de Thickness</b> *Booleano*\
-Exibe linhas adicionais nas bordas do thickness da spline.
-
-<b>Thickness (px)</b> *Flutuante* Ajusta o thickness da visualização da spline em pixels na saída da Visualização.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Inverter Spline #1 Direção</b> <i>Booleano</i> | Inverte a direção das linhas no primeiro conjunto. |
+| <b>Inverter Spline #2 Direção</b> <i>Booleano</i> | Inverte a direção das linhas no segundo conjunto. |
+| <b>Visualizar</b> |  |
+| <b>Valor de Segmentos</b> <i>Inteiro</i> | Ajusta o número de segmentos usados para desenhar a visualização de spline na saída da Visualização. Um valor mais alto resulta em uma linha mais suave. |
+| <b>Mostrar Auxiliar de Direção</b> <i>Booleano</i> | Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização. |
+| <b>Mostrar Envelope de Thickness</b> <i>Booleano</i> | Exibe linhas adicionais nas bordas do thickness da spline. |
+| <b>Thickness (px)</b> <i>Flutuante</i> | Ajusta o thickness da visualização da spline em pixels na saída da Visualização. |
 
 ## Exemplos
 
@@ -128,15 +91,15 @@ Exibe linhas adicionais nas bordas do thickness da spline.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/SplineAppend-Demo.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](spline-append.resources/SplineAppend-Demo.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/SplineAppend-Graph.jpg "Exemplo de nó 2")
+![Exemplo de nó 2](spline-append.resources/SplineAppend-Graph.jpg "Exemplo de nó 2")
 
 </td>
 </tr>
 </table>
 
-![Demonstração de nó](../../../../../../assets/SplineAppend-Demo2.gif "Demonstração de nó")
+![Demonstração de nó](spline-append.resources/SplineAppend-Demo2.gif "Demonstração de nó")

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
 breadcrumb-title: ''
 description: Use o nó Quantificar cor para reduzir o número de níveis de cores para efeitos de posterização estilizados.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Quantificar cor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Quantizar Cor](../../../../../../assets/QuantizeColor.png "ícone Quantizar Cor"){width="200px"}
+![Ícone Quantizar Cor](quantize-color.resources/QuantizeColor.png "ícone Quantizar Cor"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -51,45 +51,31 @@ Isso fornece algum controle sobre as cores extraídas.
 
 Este nó pode ser usado em combinação com os seguintes nós: [Criar paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md), [Aplicar paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md), [Modificar paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md), [Exibir paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md).
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-</tr>
-</table>
-
-## Conectores de entrada
+## Entradas
 
 |  |  |
-| --- | --- |
-| <b>Entrada</b> *Cor* PRIMÁRIA | A imagem colorida que deve ser quantizada. |
+|:---|:---|
+| <b>Entrada</b> <i>Cor</i> PRIMÁRIA | A imagem colorida que deve ser quantizada. |
 
-## Conectores de saída
+<a name="outputs"></a>
+
+## Saídas
 
 |  |  |
-| --- | --- |
-| <b>Saída</b> *Cor* | A imagem colorida quantizada. |
-| <b>ID</b> *Tons de cinza* | Um mapa onde cada cor quantizada recebe um identificador de número inteiro exclusivo.   Isso pode ser usado para:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Extraia uma máscara</b> de algumas áreas quantizadas com o nó [ID para máscara](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)</li> <li data-preserve-html="true"><b>Recolorir</b> a imagem quantificada com os nós [Aplicar paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) ou [Modificar paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)</li> </ul> |
-| <b>Paleta</b> *Cor* | A paleta extraída da imagem, mantendo as cores restantes após a quantização.   A imagem é uma lista ordenada de cores de RGB codificadas como uma linha de pixels e pode conter um máximo de 256 cores.   A paleta pode ser visualizada com o nó [Exibir paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
-| <b>Valor de cores da paleta</b> *Inteiro* | A quantidade de cores armazenadas na paleta. |
+|:---|:---|
+| <b>Saída</b> <i>Cor</i> | A imagem colorida quantizada. |
+| <b>ID</b> <i>Tons de cinza</i> | Um mapa onde cada cor quantizada recebe um identificador de número inteiro exclusivo.   Isso pode ser usado para:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Extraia uma máscara</b> de algumas áreas quantizadas com o nó [ID para máscara](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)</li> <li data-preserve-html="true"><b>Recolorir</b> a imagem quantificada com os nós [Aplicar paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) ou [Modificar paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)</li> </ul> |
+| <b>Paleta</b> <i>Cor</i> | A paleta extraída da imagem, mantendo as cores restantes após a quantização.   A imagem é uma lista ordenada de cores de RGB codificadas como uma linha de pixels e pode conter um máximo de 256 cores.   A paleta pode ser visualizada com o nó [Exibir paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
+| <b>Valor de cores da paleta</b> <i>Inteiro</i> | A quantidade de cores armazenadas na paleta. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Máx. quantidade de cores</b> *Inteiro* | A quantidade máxima de cores que deve ser usada na imagem quantizada.   Esse valor é o mesmo usado na Paleta extraída da imagem.   “Máximo” significa que este montante pode não ser respeitado devido à técnica de quantificação utilizada. Verifique a saída da “Quantidade de cores da paleta” para a quantidade real de cores extraídas. |
 | <b>Suavização do contorno</b> *Flutuante* | Controla o raio de um efeito de suavização aplicado à imagem de entrada, usado para simplificar a imagem quantificada em formas mais sólidas e coesas.   Observação: Essa suavização requer cálculos intensos, aumentando esse valor visivelmente o tempo de computação do nó. |
 | <b>Pontilhamento</b> *Flutuante* | Aplica um padrão de pontilhamento para recriar os gradientes e misturas de cores na imagem original, ainda usando apenas as cores restantes após a quantização.   Certifique-se de usar um valor de “Suavização do contorno” igual a 0 para produzir o efeito de pontilhamento esperado. |
@@ -104,11 +90,11 @@ Este nó pode ser usado em combinação com os seguintes nós: [Criar paleta de 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
+      <img src="quantize-color.resources/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
+      <img src="quantize-color.resources/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -117,11 +103,11 @@ Este nó pode ser usado em combinação com os seguintes nós: [Criar paleta de 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
+      <img src="quantize-color.resources/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
+      <img src="quantize-color.resources/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -130,11 +116,11 @@ Este nó pode ser usado em combinação com os seguintes nós: [Criar paleta de 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
+      <img src="quantize-color.resources/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
+      <img src="quantize-color.resources/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -143,11 +129,11 @@ Este nó pode ser usado em combinação com os seguintes nós: [Criar paleta de 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
+      <img src="quantize-color.resources/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
+      <img src="quantize-color.resources/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -156,11 +142,11 @@ Este nó pode ser usado em combinação com os seguintes nós: [Criar paleta de 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
+      <img src="quantize-color.resources/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
+      <img src="quantize-color.resources/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
       <br><i>Depois</i>
     </td>
   </tr>

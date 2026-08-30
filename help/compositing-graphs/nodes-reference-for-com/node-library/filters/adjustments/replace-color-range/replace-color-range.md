@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color-range.html"
 breadcrumb-title: ''
 description: Use o nó Substituir intervalo de cores para substituir cores dentro de um intervalo especificado por novas cores para a correção de cores.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Substituir gama de cores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 1%
+source-wordcount: '124'
+ht-degree: 5%
 
 ---
 
@@ -22,39 +22,42 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/replace-color-range.png){width="128px"}
+![](replace-color-range.resources/replace-color-range.png){width="128px"}
 
-## Substituir gama de cores
-
-**Entrada:** *Filtros/Ajustes*
-
-**Simples**
+<b>Entrada:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-Substitui a cor de origem pela cor de destino, com controles adicionais. Pode, por exemplo, ser usado para recolorir partes de um mapa de ID de material (bolo).
+Substitui a cor de origem pela cor de destino, com controles adicionais. Pode, por exemplo, ser usado para recolorir partes de um mapa de ID de material (faço bake).
 
 Para uma versão mais avançada, consulte [Correspondência de cores.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md)
 
-## Parâmetros
-
-* **Cor de origem**: *(valor da cor)*Cor para substituir.
-* **Cor de destino**: *(valor da cor)*Cor pela qual substituir.
-* **Intervalo de Origem**: *0.0 -* 1.0\
-  Faixa ou tolerância da Origem separada. Pode ser aumentado para que outras cores vizinhas também tenham o matiz alterado.
-* **Limite**: *0.0 - 1.0* Queda/contraste para o intervalo. Defina como baixo para substituir apenas a cor de origem, definido como um valor maior para substituir as cores misturadas na origem.
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/replace-color-range-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Cor de origem</b> <i>(Valor da cor)</i> | Cor para substituir. |
+| <b>Cor de Destino</b> <i>(Valor da cor)</i> | Cor para substituir. |
+| <b>Intervalo de Origem</b> <i>0.0 - 1.0</i> | Faixa ou tolerância da Origem separada. Pode ser aumentado para que outras cores vizinhas também tenham o matiz alterado. |
+| <b>Limite</b> <i>0.0 - 1.0</i> | Queda/contraste da faixa. Defina como baixo para substituir apenas a cor de origem, definido como um valor maior para substituir as cores misturadas na origem. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="replace-color-range.resources/replace-color-range-example.png" />
+        </td>
+    </tr>
 </table>

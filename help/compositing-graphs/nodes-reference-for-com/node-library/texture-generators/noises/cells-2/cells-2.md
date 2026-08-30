@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-2.html"
 breadcrumb-title: ''
 description: Use o nó do Células 2 para gerar padrões celulares intermediários a fim de criar efeitos de textura orgânica e biológica.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: CÉLULAS 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 1%
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Células 2 - Ícone](../../../../../../assets/cells_2.png "Células 2 - Ícone"){width="200px"}
+![Células 2 - Ícone](cells-2.resources/cells_2.png "Células 2 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -47,22 +43,26 @@ Veja também: [Células 1](../../../../../../compositing-graphs/nodes-reference-
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## Saídas
 
 |  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza* | O ruído gerado como bitmap em tons de cinza. |
+|:---|:---|
+| <b>Saída</b> <i>Tons de cinza</i> | O ruído gerado como bitmap em tons de cinza. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
 |  |  |
-| --- | --- |
-| <b>Escala</b> Inteiro | A subdivisão da grade usada para gerar os blocos de ruído.    Um valor mais alto resulta no desenho de mais ladrilhos e em um ruído mais denso. |
-| <b>Largura da borda</b> flutuante | Ajusta o thickness das paredes entre as células, como uma proporção da grade. (Ou seja, não depende da resolução) |
-| <b>Inverter</b> Booleano | Alterna pretos e brancos na imagem de saída. |
-| <b>Desordem</b> Flutuante | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
-| <b>Velocidade do distúrbio</b> flutuante | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
-| <b>Expansão não quadrada</b> Booleana | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
+|:---|:---|
+| <b>Escala</b> <i>Inteiro</i> | A subdivisão da grade usada para gerar os blocos de ruído.    Um valor mais alto resulta no desenho de mais ladrilhos e em um ruído mais denso. |
+| <b>Largura da borda</b> <i>Flutuante</i> | Ajusta o thickness das paredes entre as células, como uma proporção da grade. (Ou seja, não depende da resolução) |
+| <b>Inverter</b> <i>Booleano</i> | Alterna pretos e brancos na imagem de saída. |
+| <b>Desordem</b> <i>Flutuante</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
+| <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
+| <b>Expansão não quadrada</b> <i>Booleano</i> | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
 
 ## Exemplos
 
@@ -70,26 +70,12 @@ Veja também: [Células 1](../../../../../../compositing-graphs/nodes-reference-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Células 2 - Exemplo 1](../../../../../../assets/cells_2_1.png "Células 2 - Exemplo 1"){zoomable="yes"}
+![Células 2 - Exemplo 1](cells-2.resources/cells_2_1.png "Células 2 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Células 2 - Exemplo 2](../../../../../../assets/noise_cells_2_v2_speed0.3_aniso0.6.gif "Células 2 - Exemplo 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Células 2 - Exemplo 2](cells-2.resources/noise_cells_2_v2_speed0.3_aniso0.6.gif "Células 2 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>

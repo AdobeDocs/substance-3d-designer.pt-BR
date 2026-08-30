@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
 breadcrumb-title: ''
 description: Use o nó Transformação quadrilateral para aplicar transformações quadrilaterais às texturas para correção de perspectiva e distorção.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Transformação quádrupla
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 1%
+source-wordcount: '110'
+ht-degree: 2%
 
 ---
 
@@ -22,40 +22,46 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/quad-transform-grayscale.png){width="128px"}
+![](quad-transform.resources/quad-transform-grayscale.png){width="128px"}
 
-![](../../../../../../assets/quad-transform.png){width="128px"}
+![](quad-transform.resources/quad-transform.png){width="128px"}
 
-## Transformação quadruplicada (tons de cinza)
-
-**Entrada:** *Filtros/Transformações*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Transformas
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Nó de transformação especial que permite a transformação de uma forma quádrupla por meio da interação com seus pontos de vértice. Permite transformações muito específicas de maneira prática.
 
-## Parâmetros
-
-* **p00**: ponto superior esquerdo.
-* **p01**: Ponto Inferior Esquerdo
-* **p10**: Ponto Superior Direito.
-* **p11**: Ponto Inferior Direito.
-* **Remoção**: *somente frente, somente trás, frente sobre trás, trás sobre frente* Defina a remoção/ocultação da forma quando os pontos se cruzarem.
-* **Habilitar divisão em blocos gráficos**: *Falso/Verdadeiro*
-* **Cor do plano de fundo**: *(valor em tons de cinza)*Cor do plano de fundo sólida se a divisão em blocos gráficos estiver desativada.
-* **Amostragem**: *Bilinear, Mais Próximo* Defina a qualidade da amostragem.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/quad-example.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>p00</b> | Ponto superior esquerdo. |
+| <b>p01</b> | Ponto inferior esquerdo |
+| <b>p10</b> | Ponto Superior Direito. |
+| <b>p11</b> | Ponto inferior direito. |
+| <b>Selecionando</b> <i>Somente frente, somente trás, frente sobre trás, frente sobre frente</i> | Definir remoção/ocultação de forma quando os pontos se cruzam. |
+| <b>Habilitar divisão em blocos</b> <i>Falso/Verdadeiro</i> |  |
+| <b>Cor do plano de fundo</b> <i>(Valor em tons de cinza)</i> | Cor de fundo sólida se a divisão em blocos gráficos estiver desativada. |
+| <b>Amostragem</b> <i>Bilinear, Mais Próximo</i> | Defina a qualidade da amostragem. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="quad-transform.resources/quad-example.gif" />
+        </td>
+    </tr>
 </table>

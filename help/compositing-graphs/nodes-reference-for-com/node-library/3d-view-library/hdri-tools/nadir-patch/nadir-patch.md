@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
 breadcrumb-title: ''
 description: Use o nó Nadir patch para corrigir a região inferior dos panoramas HDRI para corrigir artefatos inferiores em mapas de ambiente.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Nadir patch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-nadir-patch.png){width="200px"}
+![](nadir-patch.resources/panorama-nadir-patch.png){width="200px"}
 
-## Nadir patch
-
-**Entrada:** *Exibição 3D/Ferramentas HDRI*
-
-**Complexo**
+<b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,42 +37,44 @@ Este nó fornece funcionalidade para corrigir o ponto central do solo (nadir) de
 
 o efeito pode ser verificado e validado rapidamente com o [Nadir extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md).
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Entradas
 
-* **Entrada**: *Entrada de Cores*
-* **Entrada de máscara**: *entrada em tons de cinza*\
-  Slot de máscara opcional usado para mascarar o patch. Funciona como um alfa.
+|  |  |
+|:---|:---|
+| <b>Entrada</b> <i>Entrada de cores</i> |  |
+| <b>Entrada de máscara</b> <i>Entrada em tons de cinza</i> | Slot de máscara opcional usado para mascarar o patch. Funciona como um alfa. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
-* **Habilitar**: *Falso/Verdadeiro*\
-  Ativar ou desativar o efeito de patch.
-* **Mostrar auxiliar de quadros**: *Falso/Verdadeiro*\
-  Mostrar ou ocultar as linhas auxiliares, para fins de depuração.
-* **Thickness de quadros**: *0.0 - 1.0*\
-  Thickness de linhas auxiliares.
-* **Escala de Correção**: *0.0 - 1.0*\
-  Escala de correção global e uniforme. Afeta a origem e o destino.
-* **Tamanho do Patch**: *0.0 - 1.0*\
-  Tamanho não uniforme do patch.
-* **Rotação de Correção**: *0.0 - 1.0*\
-  Rotação da correção. Afeta a origem e o destino.
-* **Alpha de Correção**: *Quadrado Suave, Gaussiano, Entrada de Máscara*\
-  Defina qual alfa será usado para mesclar a correção com o fundo.
-* **Dureza do Patch**: *0.0 - 1.0*\
-  Definir dureza/contraste de alfa.
-* **Deslocamento da Rotação da Origem**: *0.0 - 1.0*\
-  Rotação somente para a origem do patch.
-* **Coordenadas de Posição**
-  * **Posição de Origem**:\
-    Posição da origem. Possui alça na exibição 2D.
-  * **Posição da correção**:\
-    Posição de destino. Possui alça na exibição 2D.
+|  |  |
+|:---|:---|
+| <b>Habilitar</b> <i>Falso/Verdadeiro</i> | Ativar ou desativar o efeito de patch. |
+| <b>Mostrar Auxiliar de Quadros</b> <i>Falso/Verdadeiro</i> | Mostrar ou ocultar as linhas auxiliares, para fins de depuração. |
+| <b>Thickness DO Quadro</b> <i>0.0 - 1.0</i> | Thickness de linhas auxiliares. |
+| <b>Escala de correção</b> <i>0.0 - 1.0</i> | Escala de correção global e uniforme. Afeta a origem e o destino. |
+| <b>Tamanho da correção</b> <i>0.0 - 1.0</i> | Tamanho não uniforme do patch. |
+| <b>Rotação de correção</b> <i>0.0 - 1.0</i> | Rotação da correção. Afeta a origem e o destino. |
+| <b>Alpha de correção</b> <i>Quadrado suave, Gaussiano, Entrada de máscara</i> | Defina qual alfa será usado para mesclar a correção com o fundo. |
+| <b>Dureza do patch</b> <i>0.0 - 1.0</i> | Definir dureza/contraste de alfa. |
+| <b>Deslocamento da Rotação da Origem</b> <i>0.0 - 1.0</i> | Rotação somente para a origem do patch. |
+| <b>Coordenadas de Posição</b> |  |
+| <b>Posição de Origem</b> | Posição da origem. Possui alça na exibição 2D. |
+| <b>Posição da correção</b> | Posição de destino. Possui alça na exibição 2D. |
 
-## Imagens de exemplo
+## Exemplos
 
-![](../../../../../../assets/nadir-patch-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="nadir-patch.resources/nadir-patch-ex.gif" />
+        </td>
+    </tr>
 </table>

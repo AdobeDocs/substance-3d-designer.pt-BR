@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/user-interface-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/user-interface-issues.html"
 breadcrumb-title: ''
 description: Solucione problemas de interface do usuário no Substance 3D Designer, incluindo problemas de exibição e falhas na interface.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemas na interface do usuário
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 5%
@@ -28,14 +28,14 @@ Esta página lista problemas técnicos relacionados à [interface de usuário](.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-**![(出错)](../../assets/error.svg) Problema**
+**![(出错)](user-interface-issues.resources/error.svg) Problema**
 
 Os elementos da interface do usuário são muito pequenos ou muito grandes.
 
 </td>
 <td style="border: 0;" valign="top">
 
-**![(滴答)](../../assets/check.svg) Etapas recomendadas**
+**![(滴答)](user-interface-issues.resources/check.svg) Etapas recomendadas**
 
 O Designer adquire a escala específica de elementos da interface do usuário *do sistema operacional*. Portanto, qualquer ajuste no dimensionamento da interface de usuário deve ser feito nas configurações de exibição do SO.
 

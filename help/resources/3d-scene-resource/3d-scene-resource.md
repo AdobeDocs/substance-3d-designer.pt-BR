@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Saiba como importar e usar recursos de cena 3D no Substance 3D Designer para visualização e teste de material.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Recurso de cena 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Os seguintes formatos de arquivo de cena 3D são compatíveis:
 
 Cenas 3D *somente* podem ser vinculadas, o que significa que elas permanecem no local em disco e acabam de ser referenciadas no aplicativo.
 
-Quando um pacote com um recurso de cena 3D é publicado como um ativo do [Substance 3D](https://www.adobe.com/br/products/substance3d/3d-augmented-reality.html) (SBSAR), a malha *não é incorporada*, mas descartada.
+Quando um pacote com um recurso de cena 3D é publicado como um ativo do [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBSAR), a malha *não é incorporada*, mas descartada.
 
 ## Mapas de malha de cozimento
 
@@ -56,7 +56,7 @@ Vincular uma cena 3D ao seu pacote é a única maneira de [preparar mapas de mal
 * Com o recurso carregado no [Explorer](../../interface/the-explorer-window/the-explorer-window.md), clique em *RMB* nele e selecione a opção <b>Preparar informações do modelo</b> no menu contextual
 * A caixa de diálogo [Informações sobre o modelo de malha](../../bakers/bakers.md) é exibida para que você configure e execute quaisquer bolos de mapas de malha
 
-![Criando mapas de malha](../../assets/bake-model-information.gif "Preparando mapas de malha"){width="512px"}
+![Criando mapas de malha](3d-scene-resource.resources/bake-model-information.gif "Preparando mapas de malha"){width="512px"}
 
 ## Uso de UDIM/blocos UV
 

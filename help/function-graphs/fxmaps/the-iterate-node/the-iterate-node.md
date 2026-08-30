@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
 breadcrumb-title: ''
-description: Use o nó Iterar em FXMaps para criar padrões repetitivos e variações de procedimento em seus materiais.
+description: Use o nó Iterar em FXMaps para criar padrões repetitivos e variações processuais em seus materiais.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > The Iterate Node
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: O nó Iterar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -24,7 +24,7 @@ O nó Iterar permite multiplicar as imagens de um nó Quadrante e é essencialme
 
 O nó Iterar não tem outras propriedades além do parâmetro “How repetitions do you want?”. O resultado é que as novas imagens são, por padrão, simplesmente sobrepostas e mescladas com as produzidas pelo nó Quadrante.
 
-O nó Iterar repete a imagem de entrada recebida. O número de repetições é definido por sua propriedade Iterations:
+O nó Iterar repete a imagem de entrada recebida. O número de repetições é definido por sua propriedade Iteração:
 
 A chave para usar o nó Iterar é que quaisquer funções dinâmicas anexadas a cada imagem repetida também serão processadas. Isso significa que cada repetição pode ter seu próprio conjunto de ajustes exclusivos. Você pode usar a propriedade Distribuição aleatória do nó Iterar para modificar como isso funciona. Você também pode acessar a variável de sistema *$number* em suas funções dinâmicas para determinar qual repetição está sendo renderizada no momento e modificar o resultado da função adequadamente.
 
@@ -36,6 +36,6 @@ Todos os mesmos recursos dinâmicos disponíveis no nó Quadrante também se apl
 
 Cada nó Iterate tem dois conectores ao longo de sua base. O conector esquerdo é um conector de passagem. A imagem que ele recebe é passada diretamente para o conector de saída do nó, onde é mesclada com todas as imagens repetidas:
 
-Observe que a imagem de passagem sempre passa intacta, independentemente da configuração do parâmetro Iteration.
+Observe que a imagem de passagem sempre passa intacta, independentemente da configuração do parâmetro de Iteração.
 
-![](../../../assets/iterate.jpg)
+![](the-iterate-node.resources/iterate.jpg)

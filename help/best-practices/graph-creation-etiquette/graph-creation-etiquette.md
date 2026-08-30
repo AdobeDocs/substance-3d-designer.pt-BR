@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/best-practices/graph-creation-etiquette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
 breadcrumb-title: ''
 description: Saiba mais sobre as práticas recomendadas e etiqueta para criar gráficos de Substance para garantir fluxos de trabalho limpos, sustentáveis e eficientes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Etiqueta de criação de gráfico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Itens de gráfico são objetos auxiliares que podem ser colocados ao lado e ao r
 
 A primeira coisa que leva a gráficos mais limpos e fáceis de ler é o posicionamento dos quadros em torno dos grupos principais do seu gráfico. Sem quadros, um gráfico grande é quase ilegível e até mesmo os gráficos pequenos se tornam muito mais fáceis de entender depois de desenhados. Uma grande vantagem dos Quadros é que seus nomes <b> são sempre renderizados na mesma escala </b>, mesmo se você reduzir muito.
 
-![Quadros em gráficos de Substance](../../assets/frames.gif "Quadros em gráficos de Substance")
+![Quadros em gráficos de Substance](graph-creation-etiquette.resources/frames.gif "Quadros em gráficos de Substance")
 
 Os quadros facilitam a compreensão do que está acontecendo em um gráfico. Eles podem ajudá-lo, como autor, voltando ao seu trabalho meses depois ou outro usuário, como um colega, a encontrar o caminho ao redor de um gráfico ao qual não estão acostumados.
 
@@ -50,22 +50,22 @@ Use os seguintes critérios ao inserir quadros:
 
 Comentários e pinos são apenas secundários para Quadros e não são uma necessidade absoluta para gráficos bem criados. Eles podem ser usados nos seguintes cenários:
 
-* Os comentários são bons para adicionar texto além do que a descrição de um quadro permite. Você pode adicionar pequenos pedaços de texto por nó, principalmente para pequenas informações detalhadas. Os comentários não são bem dimensionados e não leem de um nível de zoom distante.
-* Os Pinos de navegação permitem percorrer áreas específicas do Gráfico usando o atalho F2. Isso pode ser útil para gráficos muito grandes nos quais é necessário saltar entre duas áreas que estão muito distantes uma da outra.
+* Os comentários são bons para adicionar texto além do que a descrição de uma Quadro permite. Você pode adicionar pequenos pedaços de texto por nó, principalmente para pequenas informações detalhadas. Os comentários não são bem dimensionados e não leem de um nível de zoom distante.
+* Os Fixares de navegação permitem percorrer áreas específicas do gráfico usando o atalho F2. Isso pode ser útil para gráficos muito grandes nos quais é necessário saltar entre duas áreas que estão muito distantes uma da outra.
 
 ### Posicionamento de entrada e saída
 
 As entradas e saídas devem ser colocadas nas extremidades dos gráficos: todas as saídas à direita, todas as entradas à esquerda, cada uma alinhada verticalmente. Isso facilita a localização e a identificação deles.
 
-![Posicionamento de entrada e saída](../../assets/inout.gif "Posicionamento de entrada e saída")
+![Posicionamento de entrada e saída](graph-creation-etiquette.resources/inout.gif "Posicionamento de entrada e saída")
 
-O exemplo acima é um caso extremo: os quadros nem sempre são necessários ou possíveis, mas deve ficar claro que o alinhamento vertical de Entradas e Saídas é muito mais claro do que o posicionamento aleatório embaralhado.
+O exemplo acima é um caso extremo: Quadros nem sempre são necessários ou possíveis, mas deve ficar claro que o alinhamento vertical de Entradas e Saídas é muito mais claro do que o posicionamento aleatório embaralhado.
 
 ### Redirecionamento de link
 
 Em gráficos grandes e muito longos, às vezes os vínculos são criados em uma extensão muito grande. Isso leva a fios confusos de Link atravessando o gráfico sem muito controle. O atalho “Alt + Shift arrastar” permite reorganizar esses links, redirecionando-os em um caminho diferente, subdividindo um link e adicionando uma alça extra no meio. Recomenda-se fazer uso disso em cenários onde faz sentido.
 
-![Redirecionamento de link](../../assets/linkjreroute.gif "Redirecionamento de link")
+![Redirecionamento de link](graph-creation-etiquette.resources/linkjreroute.gif "Redirecionamento de link")
 
 ### Rótulo, identificador e uso
 
@@ -73,15 +73,15 @@ Qualquer gráfico destinado a compartilhamento ou publicação deve ter o cuidad
 
 Os rótulos sugeridos padrão nunca são suficientes. Reserve um tempo e esforço para adicionar rótulos personalizados aos parâmetros expostos e suas entradas e saídas.
 
-![Identificador e rótulo](../../assets/output-label.png "Identificador e rótulo")
+![Identificador e rótulo](graph-creation-etiquette.resources/output-label.png "Identificador e rótulo")
 
-Tente não ter um identificador e um rótulo diferentes demais: caso o identificador seja usado em outro lugar (em várias funções), pode ser muito difícil encontrar qual propriedade da interface do usuário está relacionada a qual variável.
+Tente não ter o identificador e o Rótulo diferentes demais: caso o Identificador seja usado em outro lugar (em várias Funções), pode ser muito difícil encontrar qual propriedade da interface do usuário está relacionada a qual variável.
 
-![Claridade do identificador](../../assets/labelvsidentifier.png "Claridade do identificador")
+![Claridade do Identificador](graph-creation-etiquette.resources/labelvsidentifier.png "Claridade do Identificador")
 
-Tente combinar seus Rótulos com os termos que você usa em Quadros (Rótulos de quadro) e comentários. Isso facilita a localização de qual seção do gráfico está vinculada ao parâmetro exposto
+Tente combinar seus Rótulos com os termos que você usa em Quadros (Rótulos de Quadro) e comentários. Isso facilita a localização de qual seção do gráfico está vinculada ao parâmetro exposto
 
-![Correspondência de rótulos de quadro e parâmetro](../../assets/match-labels.png "Correspondência de rótulos de quadro e parâmetro")
+![Correspondência de rótulos de quadro e parâmetro](graph-creation-etiquette.resources/match-labels.png "Correspondência de rótulos de quadro e parâmetro")
 
 ### Configurações de parâmetro
 
@@ -103,7 +103,7 @@ Ao expor Parâmetros, mais do que apenas o Rótulo e o Identificador são import
 * O ideal é que os dados sejam mantidos em tons de cinza o máximo possível e sejam convertidos somente quando absolutamente necessários. Isso reduz a complexidade e economiza em desempenho.
 * As Entradas e Saídas devem ser criadas ou configuradas com o tipo correto em mente: por exemplo, não faz sentido ter uma entrada “máscara” definida para cor se ela for convertida em tons de cinza para uso como uma máscara binária.
 
-![Conversões de cores e tons de cinza](../../assets/colorgray01.png "Conversões de cores e tons de cinza")
+![Conversões de cores e tons de cinza](graph-creation-etiquette.resources/colorgray01.png "Conversões de cores e tons de cinza")
 
 ### Controle de resolução
 

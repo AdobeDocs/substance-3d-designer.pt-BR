@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
 breadcrumb-title: ''
 description: Use o nó Rotação não uniforme para aplicar transformações de rotação não uniformes para criar efeitos de espiral e vórtice.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Rotação não uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -22,29 +22,27 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/nonuniformrotationgrayscale.png){width="200px"}
+![](non-uniform-rotation.resources/nonuniformrotationgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/nonuniformrotationcolor.png){width="200px"}
+![](non-uniform-rotation.resources/nonuniformrotationcolor.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-**Em:** Filtros*/Transformações*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Transformas
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -57,51 +55,41 @@ Valores positivos na entrada **Mapa de rotação** resultam em uma rotação *ho
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada</b> <i>Tons de cinza/Cor</i> | A imagem em tons de cinza de entrada que deve ser girada. |
+| <b>Mapa de rotação</b> <i>Tons de cinza</i> | O mapa usado para controlar a quantidade de rotação, em *número de rotações*. Os valores amostrados são multiplicados pelo **Multiplicador do ângulo de rotação**. Valores negativos resultam em uma rotação *no sentido anti-horário*. |
+| <b>Mapa de Posição de pivô de Rotação</b> <i>Cor</i> | A imagem usada para especificar a posição da rotação *dinâmica*. A posição **X/Y** está mapeada para os canais **R/G** da imagem. |
+
+<a name="parameters"></a>
+
 ## Parâmetros
 
-### Entradas
+|  |  |
+|:---|:---|
+| <b>Multiplicador de Ângulo de Rotação</b> <i>Flutuante</i> | Ajusta a intensidade da entrada de **Mapa de rotação**. |
+| <b>Deslocamento do Ângulo de Rotação</b> <i>Flutuante</i> | Aplica a quantidade adicional especificada de rotação. |
+| <b>Usar o Mapa de Posição de pivô</b> <i>Booleano</i> | Use uma *entrada de bitmap* para especificar a posição da tabela dinâmica de rotação. A posição **X/Y** está mapeada para os canais **R/G** da entrada **Mapa de Posições**. |
+| <b>Posição de pivô</b> <i>Flutuante2</i> | A posição da tabela dinâmica em torno da qual a imagem é girada. |
+| <b>Cor do plano de fundo</b> <i>Flutuante/Flutuante4</i> | Cor do plano de fundo para exibir *fora* dos limites da imagem caso a divisão em blocos gráficos não esteja definida como **Divisão em blocos gráficos em H e V**. |
+| <b>Modo de Filtragem</b> <i>Inteiro</i> | Define como tratar os resultados de amostra ao *interpolar* entre pixels:<br><br>- *Mais próximo*: obterá uma amostra exatamente do *mesmo* valor (mais rápido)<br>- *Bilinear*: aplicará um filtro bilinear no resultado para uma aparência *mais suave* |
 
-* **Entrada** *Tons de Cinza/Cor*\
-  A imagem em tons de cinza de entrada que deve ser girada.
-* **Mapa de rotação** *Tons de cinza* O mapa usado para controlar a intensidade de rotação, em *número de voltas*. Os valores amostrados são multiplicados pelo **Multiplicador do ângulo de rotação**. Valores negativos resultam em uma rotação *no sentido anti-horário*.
-* **Mapa de Posição de pivô de Rotação** *Cor*\
-  A imagem usada para especificar a posição da rotação *dinâmica*. A posição **X/Y** está mapeada para os canais **R/G** da imagem.
+## Exemplos
 
-### Parâmetros
-
-* **Multiplicador De Ângulo De Rotação** *Flutuante*\
-  Ajusta a intensidade da entrada de **Mapa de rotação**.
-* **Deslocamento Do Ângulo De Rotação** *Flutuante*\
-  Aplica a quantidade adicional especificada de rotação.
-* **Usar Mapa de Posição de pivô** *Booleano*\
-  Use uma *entrada de bitmap* para especificar a posição da tabela dinâmica de rotação. A posição **X/Y** está mapeada para os canais **R/G** da entrada **Mapa de Posições**.
-* **Posição de pivô** *Flutuante2*\
-  A posição da tabela dinâmica em torno da qual a imagem é girada.
-* **Cor do plano de fundo** *Flutuante/Flutuante4*\
-  Cor do plano de fundo para exibir *fora* dos limites da imagem caso a divisão em blocos gráficos não esteja definida como **Divisão em blocos gráficos em H e V**.
-* **Modo de Filtragem** *Inteiro*\
-  Define como tratar os resultados de amostra ao *interpolar* entre pixels:
-  * *Mais próximo*: fará uma amostra exatamente do valor *igual* (mais rápido)
-  * *Bilinear*: aplicará um filtro bilinear no resultado para uma aparência *mais suave*
-
-## Imagens de exemplo
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/nonuniformrotation-demo-02-resized.gif){width="768px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/nonuniformrotation-variant-png.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/nonuniformrotation-node.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="non-uniform-rotation.resources/nonuniformrotation-demo-02-resized.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="non-uniform-rotation.resources/nonuniformrotation-variant-png.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="non-uniform-rotation.resources/nonuniformrotation-node.png" />
+        </td>
+    </tr>
 </table>

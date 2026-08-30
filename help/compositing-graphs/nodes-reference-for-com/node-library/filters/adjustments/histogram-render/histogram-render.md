@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
 breadcrumb-title: ''
 description: Use o nó Renderização do histograma para visualizar dados do histograma como uma textura para análise e depuração.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Renderização de histograma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 1%
+source-wordcount: '215'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Anisotrópico de Escala de Cinza Kuwahara](../../../../../../assets/histogram_render.png "Ícone Anisotrópico de Escala de Cinza Kuwahara"){width="200px"}
+![Ícone Anisotrópico de Escala de Cinza Kuwahara](histogram-render.resources/histogram_render.png "Ícone Anisotrópico de Escala de Cinza Kuwahara"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -39,42 +39,28 @@ Desenha o histograma de uma imagem em tons de cinza.
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-</tr>
-</table>
-
-## Conectores de entrada
+## Entradas
 
 |  |  |
-| --- | --- |
-| <b>Entrada</b> *Tons de cinza* PRIMÁRIO | A imagem para a qual o histograma deve ser desenhado. |
+|:---|:---|
+| <b>Entrada</b> <i>Tons de cinza</i> PRIMÁRIO | A imagem para a qual o histograma deve ser desenhado. |
 
-## Conectores de saída
+<a name="outputs"></a>
+
+## Saídas
 
 |  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza* | A visualização do histograma foi calculada a partir da imagem de entrada. |
+|:---|:---|
+| <b>Saída</b> <i>Tons de cinza</i> | A visualização do histograma foi calculada a partir da imagem de entrada. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Resolução do histograma</b> *Inteiro* | A largura do histograma. Um valor mais alto permite uma melhor distribuição de valores.   As resoluções disponíveis são, em pixels: 256, 512, 1024, 2048, 4096 |
 | <b>Escala automática</b> *Booleano* | Quando &#39;Verdadeiro&#39;, remapeia o histograma para usar o height completo da imagem.   Quando &#39;Falso&#39;, cada coluna usa quantos pixels em height houver ocorrências de um valor na imagem de entrada. |
 | <b>Escala</b> *Flutuante* | Dimensiona o histograma verticalmente, onde o valor 1 é o height completo do histograma. |
@@ -83,6 +69,6 @@ Desenha o histograma de uma imagem em tons de cinza.
 
 ## Exemplos
 
-![Renderização do histograma: Exemplo 1](../../../../../../assets/histogram_render_example_1.png "Renderização do histograma: Exemplo 1"){zoomable="yes"}
+![Renderização do histograma: Exemplo 1](histogram-render.resources/histogram_render_example_1.png "Renderização do histograma: Exemplo 1"){zoomable="yes"}
 
-![Renderização do histograma: Exemplo 2](../../../../../../assets/histogram_render_example_2.png "Renderização do histograma: Exemplo 2"){zoomable="yes"}
+![Renderização do histograma: Exemplo 2](histogram-render.resources/histogram_render_example_2.png "Renderização do histograma: Exemplo 2"){zoomable="yes"}

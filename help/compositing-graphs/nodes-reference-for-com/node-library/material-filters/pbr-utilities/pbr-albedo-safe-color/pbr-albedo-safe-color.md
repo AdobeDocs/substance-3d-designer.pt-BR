@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
 breadcrumb-title: ''
 description: Use o nó Cor de segurança de Albedo PBR para garantir que as cores do albedo estejam dentro de intervalos fisicamente plausíveis para materiais PBR.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cor segura para Albedo PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 1%
+source-wordcount: '140'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-albedo-safe-color.png){width="128px"}
+![](pbr-albedo-safe-color.resources/pbr-albedo-safe-color.png){width="128px"}
 
-## Cor segura para Albedo PBR
-
-**Entrada:** *Filtros de Material/Utilitários PBR*
-
-**Simples**
+<b>Entrada:</b> Filtros Materiais > Utilitários PBR
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -43,17 +39,15 @@ Consulte também [PBR BaseColor / Metallic Validate](../../../../../../compositi
 
 Isso é útil como uma ferramenta de correção rápida, especialmente quando ainda se está aprendendo PBR, mas não tem a intenção de ser uma medida absoluta que sempre deve ser correta.
 
-## Parâmetros
-
-* **Fluxo de Trabalho de PBR**: *Cor Base - Metálica, Difusa - Specular* Alterna entre dois fluxos de trabalho de PBR diferentes.
-* **Tolerância**: *0.0 - 1.0* Valor de tolerância para valores fora do intervalo.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Fluxo de trabalho de PBR</b> <i>Cor de base - Metálica, Difusão - Specular</i> | Alterna entre dois fluxos de trabalho de PBR diferentes. |
+| <b>Tolerância</b> <i>0.0 - 1.0</i> | Valor de tolerância para valores fora do intervalo. |

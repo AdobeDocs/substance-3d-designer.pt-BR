@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
 description: Use o nó Combinador de dados de malha para combinar várias entradas de dados de malha para a geração avançada de textura baseada em malha.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Combinador de dados de malha
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '142'
 ht-degree: 1%
 
 ---
@@ -22,49 +22,41 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-data-combiner.png){width="128px"}
+![](mesh-data-combiner.resources/mesh-data-combiner.png){width="128px"}
 
-## Combinador de dados de malha
-
-**Entrada:** *Geradores Baseados Em Malha**/Utilitários*
-
-**Simples**
+<b>Entrada:</b> Geradores Baseados Em Malha > Utilitários
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-Este é um nó muito simples que “compacta” dados de malha cozidos em um único grupo, para uso com o “Modo de material compacto”.
+Este é um nó muito simples que “compacta” os dados de malha feitos bake em um único grupo, para uso com o “Modo de material compacto”.
 
-Este nó é principalmente um auxiliar que facilita o trabalho com muitas entradas assadas em determinados nós da galeria, como o [Mesh de material Data Blender](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md). Ele permite que você evite conectar manualmente tudo.
-
-## Parâmetros
-
-### Parâmetros
-
-Alterna quais entradas de mapa habilitar e exportar para o resultado empacotado.
-
-* **Oclusão de ambiente**: *Falso/Verdadeiro*
-* **Máscaras UV**: *Falso/Verdadeiro*
-* **Curvatura**: *Falso/Verdadeiro*
-* **Height**: *Falso/Verdadeiro*
-* **Posição (Tons de Cinza)**: *Falso/Verdadeiro*
-* **Thickness**: *Falso/Verdadeiro*
-* **Normal**: *Falso/Verdadeiro*
-* **Posição (RGB)**: *Falso/Verdadeiro*
-* **ID de Cor**: *Falso/Verdadeiro*
-* **Direção do Espaço Mundial**: *Falso/Verdadeiro*
-* **Espaço Mundial Normal**: *Falso/Verdadeiro*
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
+Este nó é principalmente um auxiliar que facilita o trabalho com muitas entradas feitas bake em determinados nós da galeria, como o [Mesh de material Data Blender](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md). Ele permite que você evite conectar manualmente tudo.
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+Alterna quais entradas de mapa habilitar e exportar para o resultado empacotado.
+
+|  |  |
+|:---|:---|
+| <b>Oclusão de ambiente</b> <i>Falso/Verdadeiro</i> |  |
+| <b>Máscaras UV</b> <i>Falso/Verdadeiro</i> |  |
+| <b>Curvatura</b> <i>Falso/Verdadeiro</i> |  |
+| <b>Height</b> <i>Falso/Verdadeiro</i> |  |
+| <b>Posição (Tons de Cinza)</b> <i>Falso/Verdadeiro</i> |  |
+| <b>Thickness</b> <i>Falso/Verdadeiro</i> |  |
+| <b>Normal</b> <i>Falso/Verdadeiro</i> |  |
+| <b>Posição (RGB)</b> <i>Falso/Verdadeiro</i> |  |
+| <b>ID de cor</b> <i>Falso/Verdadeiro</i> |  |
+| <b>Direção do Espaço Mundial</b> <i>Falso/Verdadeiro</i> |  |
+| <b>Espaço Mundial Normal</b> <i>Falso/Verdadeiro</i> |  |

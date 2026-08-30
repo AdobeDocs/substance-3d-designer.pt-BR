@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
 breadcrumb-title: ''
 description: Saiba mais sobre os formatos de arquivo do Substance 3D e como eles armazenam materiais de procedimento e texturas para uso em todos os aplicativos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: O que é um arquivo do Substance 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # O que é um arquivo Substance 3D?
 
-![Material paramétrico da parede de tijolos](../../../assets/MaterialsOverview.gif "Material paramétrico da parede de tijolos")
+![Material paramétrico da parede de tijolos](what-is-a-substance-3d-file.resources/MaterialsOverview.gif "Material paramétrico da parede de tijolos")
 
 *Exemplo de material de parede de tijolos feito por Käy Vriend.\
 Os parâmetros podem ser alterados para controlar dinamicamente a aparência do material.*

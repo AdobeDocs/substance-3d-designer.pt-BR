@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
 breadcrumb-title: ''
 description: Use o nó Mosaico para criar efeitos de ladrilho do mosaico, dividindo texturas em blocos e padrões pixelados.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mosaico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 3%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mosaic-1.png){width="128px"}
+![](mosaic.resources/mosaic-1.png){width="128px"}
 
-![](../../../../../../assets/mosaic-grayscale.png){width="128px"}
+![](mosaic.resources/mosaic-grayscale.png){width="128px"}
 
-## Mosaico (tons de cinza)
-
-**Entrada:** *Filtros/Efeitos*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -43,25 +39,34 @@ Enfatiza um mapa de degradê existente, suave e em declive executando um efeito 
 
 Isso é útil para adicionar mais definição a mapas em tons de cinza, como o Mapa de altura, pois pode introduzir mais definição em formas.
 
-## Parâmetros
-
-### Entradas
-
-* **Cor**: *Entrada Colorida/Em Tons De Cinza*
-* **Mapa De Mosaico**: *Entrada Em Tons De Cinza*\
-  Distorcer mapa de driver. Pode ser o mesmo que a primeira entrada.
-
-### Parâmetros
-
-* **Amostras**: *0 - 16* Determina a qualidade de várias amostras.
-* **Intensidade**: *0.0 - 1.0* Intensidade do efeito.
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mosaci-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Cor</b> <i>Entrada de Cores/Tons de Cinza</i> |  |
+| <b>Mapa de mosaico</b> <i>Entrada em tons de cinza</i> | Distorcer mapa de driver. Pode ser o mesmo que a primeira entrada. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Amostras</b> <i>0 - 16</i> | Determina a qualidade de várias amostras. |
+| <b>Intensidade</b> <i>0.0 - 1.0</i> | Intensidade do efeito. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mosaic.resources/mosaci-ex.png" />
+        </td>
+    </tr>
 </table>
