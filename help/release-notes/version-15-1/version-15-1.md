@@ -199,8 +199,8 @@ Por exemplo, detectar a ausência de uma variável permite fornecer um valor de 
 * [Exibição 3D] O Specular level não foi aplicado corretamente
 * [Exibição 3D] O Specular edge color não funciona ao usar o rasterizador de Eclair
 * [Exibição 3D] O material adicionado do usuário não é aplicado em cenas padrão
-* [3D View][Padarias] A cor do material fica muito escura depois de substituída ou ao usar um padeiro “Colorido”
-* [Exibição 3D][Padeiros] Sem cor material do arquivo FBX
+* [3D View]&#x200B;[Padarias] A cor do material fica muito escura depois de substituída ou ao usar um padeiro “Colorido”
+* [Exibição 3D]&#x200B;[Padeiros] Sem cor material do arquivo FBX
 * [Padeiros] As cores do material em arquivos FBX não são detectadas corretamente
 * [Bakers] A opção &#39;recompute\_tangents&#39; é sempre &#39;false&#39; nas exportações predefinidas JSON
 * [Bakers] CLI: Falha ao executar o mesmo panificador consecutivamente através do arquivo JSON

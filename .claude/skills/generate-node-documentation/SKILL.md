@@ -26,7 +26,7 @@ lint gotchas) siga a habilidade `write-experience-league-markdown`.
   `.../node-library/<category>/<subcategory>/<node-name>/<node-name>.md`.
 * A pasta é nomeada como o título do nó kebab-case; ela contém o arquivo **one** `.md`
 nomeados de forma idêntica.
-* Todas as mídias incorporadas para a página (ícone, imagens de exemplo, GIF) estão em um irmão **  `<node-name>.resources/` pasta **ao lado de `.md` e são referenciadas com um
+* Todas as mídias incorporadas para a página (ícone, imagens de exemplo, GIF) estão em um irmão **&#x200B;  `<node-name>.resources/` pasta &#x200B;** ao lado de `.md` e são referenciadas com um
   caminho relativo (por exemplo, `<node-name>.resources/<file>.png`). Não aponte páginas de nó para
   a pasta compartilhada `help/assets/`, que é um padrão herdado sendo descontinuado; novo e
   as páginas editadas usam sua própria pasta `.resources`.
