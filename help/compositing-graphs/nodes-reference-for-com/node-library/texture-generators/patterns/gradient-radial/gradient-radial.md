@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Gradiente radial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '121'
 ht-degree: 1%
 
 ---
@@ -22,33 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-radial.png){width="128px"}
+![](gradient-radial.resources/gradient-radial-01.png){width="128px"}
 
-## Gradiente radial
-
-**Entrada:** *Geradores De Textura**/Padrões*
-
-**Simples**
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Semelhante à [Circular gradiente](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-circular/gradient-circular.md), cria uma transição de gradiente em tons de cinza definida por dois pontos personalizados de maneira radial. A transição é de a a b, definida pelo ponto central e pelo raio. Lembre-se que os resultados nem sempre serão lado a lado.
 
-## Parâmetros
-
-* **Forma: *Cone, Hemisfério***Determina o perfil de transição. Cone é uma transição linear e nítida, o Hemisfério é suave e arredondado no centro.
-* **Ponto 1**:\
-  Ponto central do gradiente. Começa branco.
-* **Ponto 2**:\
-  Ponto de raio para determinar a extensão do gradiente. Termina em preto.
-* **Expansão não quadrada**: *Falso/Verdadeiro*\
-  Habilite a compensação de abóbora e estiramento com proporções não quadradas.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Forma</b> <i>Cone, Hemisfério</i> | Determina o perfil de transição. Cone é uma transição linear e nítida, o Hemisfério é suave e arredondado no centro. |
+| <b>Ponto 1</b> | Ponto central do gradiente. Começa branco. |
+| <b>Ponto 2</b> | Ponto de raio para determinar a extensão do gradiente. Termina em preto. |
+| <b>Expansão não quadrada</b> <i>Falso/Verdadeiro</i> | Habilite a compensação de abóbora e estiramento com proporções não quadradas. |

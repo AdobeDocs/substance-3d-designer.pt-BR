@@ -10,10 +10,10 @@ helpx_tags: ""
 title: PBR dielétrico F0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 1%
+source-wordcount: '112'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-dielectric-f0.png){width="128px"}
+![](pbr-dielectric-f0.resources/pbr-dielectric-f0-01.png){width="128px"}
 
-## PBR dielétrico F0
-
-**Entrada:** *Filtros de Material/Utilitários PBR*
-
-**Simples**
+<b>Entrada:</b> Filtros Materiais > Utilitários PBR
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,18 +37,16 @@ Um nó “Predefinição” de utilitário para valores de Specular ao usar o mo
 
 Útil para obter rapidamente os valores corretos como ponto de partida, para que você possa evitar a separação de cores de um gráfico.
 
-## Parâmetros
-
-* **Specular F0**: *Plástico, Madeira, Pedra, Tijolo, Areia, Concreto, Tecido, Metal Enferrujado, Água, Gelo, Vidro, IOR Personalizado* Escolhe uma faixa de Specular predefinida.
-* **Intervalo de Speculares**: *0.01 - 1.0* Ajusta o valor do Specular dentro do intervalo da predefinição selecionada. Permite alguns ajustes.
-* **IOR**: *1.0 - 5.0* Somente habilitado quando definido como IOR Personalizado. Escolha seu próprio valor.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Specular F0</b> <i>Plástico, Madeira, Pedra, Tijolo, Areia, Concreto, Tecido, Metal Enferrujado, Água, Gelo, Vidro, IOR Personalizado</i> | Separa uma faixa de Speculares predefinida. |
+| <b>Intervalo de Speculares</b> <i>0.01 - 1.0</i> | Ajusta o valor do Specular dentro do intervalo da predefinição selecionada. Permite alguns ajustes. |
+| <b>IOR</b> <i>1.0 - 5.0</i> | Habilitado somente quando definido como IOR personalizada. Escolha seu próprio valor. |

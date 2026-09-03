@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Amostras de materiais
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 73b37bdd1591868533dfe176d431774c93b83b07
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Amostras de materiais
 
-![Amostras de materiais - Cartões de modelo](../../../assets/materialSamples-cards.png "Amostras de materiais - Cartões de modelo")
+![Amostras de materiais - Cartões de modelo](material-samples.resources/material-samples-01.png "Amostras de materiais - Cartões de modelo")
 
 O Designer oferece uma seleção com curadoria de gráficos de amostra, abrangendo vários tipos de materiais para aprender e experimentar.
 
@@ -36,14 +36,14 @@ Ao criar um novo gráfico de Substance, você encontrará as amostras na [caixa 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Caixa de diálogo Novo gráfico de Substance - Amostras de materiais](../../../assets/newGraphDialog-samples-1.png "Caixa de diálogo Novo gráfico de Substance - Amostras de materiais"){zoomable="yes"}
+![Caixa de diálogo Novo gráfico de Substance - Amostras de materiais](material-samples.resources/material-samples-02.png "Caixa de diálogo Novo gráfico de Substance - Amostras de materiais"){zoomable="yes"}
 
 Abra a caixa de combinação <b>Categoria</b> e selecione <b>Amostras de materiais</b> para listar os modelos disponíveis.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Amostras de material - Botão de banner](../../../assets/materialSamples-bannerButton.png "Amostras de material - Botão de banner"){zoomable="yes"}
+![Amostras de material - Botão de banner](material-samples.resources/material-samples-03.png "Amostras de material - Botão de banner"){zoomable="yes"}
 
 Você pode ir diretamente para a lista de amostras na caixa de diálogo, usando o botão <b>Ir para amostras</b> posicionado de forma conveniente
 na <b>tela inicial</b>.
@@ -62,7 +62,7 @@ exploradas na amostra.
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Amostras de material - Dica de ferramenta do cartão de modelo](../../../assets/newGraphDialog-sampleTooltip.png "Amostras de material - Dica de ferramenta do cartão de modelo"){zoomable="yes"}
+![Amostras de material - Dica de ferramenta do cartão de modelo](material-samples.resources/material-samples-04.png "Amostras de material - Dica de ferramenta do cartão de modelo"){zoomable="yes"}
 
 </td>
 </tr>
@@ -80,8 +80,8 @@ Portanto, seu espaço de trabalho é configurado automaticamente e você está p
 
 >[!NOTE]
 > 
-> As amostras de material usam o <code>OpenPBR v1.1</code> modelo de material e exibição na Visualização 3D significa
-> o material na Exibição 3D mudará automaticamente para a Superfície do OpenPBR <code></code> sombreador para
+> As amostras de material usam o <code>OpenPBR v1.1</code> modelo de material e exibição no Visualização 3D significa
+> o material no Visualização 3D mudará automaticamente para a Superfície do OpenPBR <code></code> sombreador para
 > visualize a amostra com precisão.
 
-![Amostra de material - Gráfico](../../../assets/materialSamples-graph.png "Amostra de material - Gráfico"){zoomable="yes"}
+![Amostra de material - Gráfico](material-samples.resources/material-samples-05.png "Amostra de material - Gráfico"){zoomable="yes"}

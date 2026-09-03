@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Amostra de gráficos de função
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 5%
@@ -32,12 +32,12 @@ Esta página lista arquivos de exemplo do [Substance 3D Designer](https://www.ad
 
 Este projeto serve como uma introdução geral aos gráficos de função e como eles podem ser usados para expandir o controle que você tem nos parâmetros do nó em [gráficos de composição de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-[![ícone do arquivo de exemplo de gráfico da função Substance](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/c5aa6fa1-b72e-488b-60b2-eda2c85e5515)
+[![ícone do arquivo de exemplo de gráfico da função Substance](sample-function-graphs.resources/sample-function-graphs-01.png){width="64px"}](https://shared-assets.adobe.com/link/c5aa6fa1-b72e-488b-60b2-eda2c85e5515)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/demo-functions.png){width="512px"}
+![](sample-function-graphs.resources/sample-function-graphs-02.png){width="512px"}
 
 </td>
 </tr>

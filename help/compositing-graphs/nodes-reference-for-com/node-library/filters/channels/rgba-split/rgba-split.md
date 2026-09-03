@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Divisão de RGBA
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '84'
+ht-degree: 1%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgba-split.png){width="128px"}
+![](rgba-split.resources/rgba-split-01.png){width="128px"}
 
-## Divisão de RGBA
-
-**Entrada:** *Filtros/Canais*
-
-**Simples**
+<b>Entrada:</b> Filtros > Canais
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-Divide uma imagem de entrada em seus respectivos canais Vermelho, Verde, Azul e Alpha. “Descompacta” efetivamente uma imagem.
+Divide uma imagem de entrada em seus respectivos canais vermelho, verde, azul e alfa. “Descompacta” efetivamente uma imagem.
 
-Útil para analisar e usar canais compactados separadamente. Ao usar um mapa de posição ou um mapa de espaço global normalizado cozido para efeitos em Substance Painter, ele permite destacar o componente X-, Y- ou Z, por exemplo.
-
-## Parâmetros
-
-*Nenhum Parâmetro.*
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
+Útil para analisar e usar canais compactados separadamente. Ao usar um mapa de posição feita bake ou um mapa normal do espaço mundial feito bake para efeitos em Substance Painter, ele permite isolar o componente X-, Y- ou Z, por exemplo.
 
 </td>
 </tr>

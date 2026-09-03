@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gradiente (dinâmico)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: dinâmico do gradiente](../../../../assets/comp_dyngradient_1.png "Nó atômico: dinâmico do gradiente"){width="200px"}
+![Nó atômico: dinâmico do gradiente](gradient-dynamic.resources/gradient-dynamic-01.png "Nó atômico: dinâmico do gradiente"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -94,7 +94,7 @@ Como alternativa, o controle deslizante Posição de entrada de gradiente pode s
 
 |  |  |
 | --- | --- |
-| <b>Endereçamento de gradiente</b> *Booleano* | Define se o Gradiente se repete (blocos) ou grampos.   Esse parâmetro determina como os pixels HDR do intervalo [0, 1] da entrada em tons de cinza são tratados: apertados ou dobrados até [0, 1]. |
+| <b>Endereçamento de gradiente</b> *Booleano* | Define se o Gradiente se repete (blocos) ou grampos.   Esse parâmetro determina como os pixels HDR do intervalo [0, 1] da entrada em tons de cinza são tratados: apertados ou dobrados até [0, 1]. |
 | <b>Orientação do gradiente</b> *Inteiro* | Define o eixo ao longo do qual a “Entrada de gradiente” deve ser amostrada:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Horizontal:</i> faça uma amostra de uma linha de pixels no eixo X.</li> <li data-preserve-html="true"><i>Vertical:</i> faça uma amostra de uma coluna de pixels no eixo Y.</li> </ul> |
 | <b>Posição de entrada do gradiente</b> *Flutuante* | A posição normalizada da linha ou coluna de pixels a serem amostrados em &#39;Entrada de gradiente&#39;. |
 

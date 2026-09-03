@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Conversão em tons de cinza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: conversão em tons de cinza](../../../../assets/comp_grayscaleconversion_1.png "Nó atômico: conversão em tons de cinza"){width="200px"}
+![Nó atômico: conversão em tons de cinza](grayscale-conversion.resources/grayscale-conversion-01.png "Nó atômico: conversão em tons de cinza"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -92,9 +92,9 @@ Isso significa que um nó de conversão de tons de cinza geralmente só é reser
 
 |  |  |
 | --- | --- |
-| <b>Espessuras de canal</b> *Flutuante4* | Define o peso de cada um dos canais de RGBA na conversão de tons de cinza.   Por padrão, uma divisão uniforme é feita nos canais da RGB. |
-| <b>Achatar alfa</b> *Booleano* | Define o comportamento do Alpha no resultado final da escala de cinza, pois os valores da escala de cinza não podem conter informações de Alpha.   Quando *Verdadeiro*, a conversão em tons de cinza é multiplicada no canal de Alpha da imagem de entrada |
-| <b>Valor do plano de fundo</b> *Flutuante* | Define o valor base do plano de fundo quando a entrada tem uma máscara alfa. Ou seja, determina quais pixels devem ser tratados como transparentes.   *Disponível quando &#39;Achatar alfa&#39; estiver definido como &#39;Verdadeiro&#39;.* |
+| <b>Espessuras de canal</b> *Flutuante4* | Define o peso de cada um dos canais de RGBA na conversão de tons de cinza.   Por padrão, uma divisão uniforme é feita nos canais da RGB. |
+| <b>Achatar alfa</b> *Booleano* | Define o comportamento do Alpha no resultado final da escala de cinza, pois os valores da escala de cinza não podem conter informações de Alpha.   Quando *Verdadeiro*, a conversão em tons de cinza é multiplicada no canal de Alpha da imagem de entrada |
+| <b>Valor do plano de fundo</b> *Flutuante* | Define o valor base do plano de fundo quando a entrada tem uma máscara alfa. Ou seja, determina quais pixels devem ser tratados como transparentes.   *Disponível quando &#39;Achatar alfa&#39; estiver definido como &#39;Verdadeiro&#39;.* |
 
 ## Conectores de entrada
 

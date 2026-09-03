@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
 breadcrumb-title: ''
-description: Use o nó Height de amostra de spline para obter amostras de valores de height ao longo de splines para efeitos de deslocamento de procedimento.
+description: Use o nó Height de amostra de spline para obter amostras de valores de height ao longo das splines para efeitos de deslocamento processuais.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Sample Height
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Height de amostra de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,9 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/spline-sample-height-icon.png "Ícone de nó")
+![Ícone de nó](spline-sample-height.resources/spline-sample-height-01.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -37,7 +33,7 @@ ht-degree: 0%
 
 ## Descrição
 
-Modifica o height das splines de entrada mapeando um mapa de Height de entrada nelas.
+Modifica o height das splines de entrada mapeando um mapa de altura de entrada nelas.
 
 O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mesclagem e a opacidade desse efeito.
 
@@ -45,76 +41,43 @@ O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mescl
 </tr>
 </table>
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Visualizar</b> *Tons de cinza* A visualização das linhas divisórias de entrada como uma imagem em tons de cinza.
+## Entradas
 
-<b>Cordas de spline</b> *Cor* As coordenadas dos pontos das splines de entrada codificadas nos canais RGBA de uma imagem colorida:\
-<b> R</b> - Posição X\
-<b> G</b> - posição Y\
-<b> B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Visualizar</b> <i>Tons de cinza</i> | A visualização das linhas de entrada como uma imagem em tons de cinza. |
+| <b>Cordas de spline</b> <i>Cor</i> | As coordenadas dos pontos das linhas divisórias de entrada codificadas nos canais RGBA de uma imagem colorida:<br><b>R</b> - posição X<br><b>G</b> - posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br> - Sinal: a linha divisória é fechada (negativa) ou aberta (positiva);<br> - Valor absoluto: Thickness + 1. |
+| <b>Dados de Spline</b> <i>Cor</i> | Dados adicionais das splines de entrada codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Não Usadas<br><b>A</b> - Não Usadas |
+| <b>Valor da spline</b> <i>Inteiro</i> | O número de splines de entrada. |
+| <b>Mapa de Heights</b> <i>Tons de cinza</i> | A imagem em tons de cinza de entrada usada para alterar o height da spline de entrada. |
 
-<b>Dados de Spline</b> *Cor* Dados adicionais das splines de entrada codificados nos canais RGBA de uma imagem colorida.\
-<b> R</b> - Tangentes X\
-<b> G</b> - Tangentes Y\
-<b> B</b> - Não Usado\
-<b> A</b> - Não Usado
+<a name="outputs"></a>
 
-<b>Valor da spline</b> *Inteiro* O número de splines de entrada.
+## Saídas
 
-<b>Mapa de Heights</b> *Tons de cinza* A imagem em tons de cinza de entrada usada para alterar o height da spline de entrada.
+|  |  |
+|:---|:---|
+| <b>Visualizar</b> <i>Tons de cinza</i> | A visualização das linhas de saída como uma imagem em tons de cinza. |
+| <b>Cordas de spline</b> <i>Cor</i> | As coordenadas dos pontos das linhas divisórias de saída codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Posição X<br><b>G</b> - Posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br> - Sinal: a linha divisória é fechada (negativa) ou aberta (positiva);<br> - Valor absoluto: Thickness + 1. |
+| <b>Dados de Spline</b> <i>Cor</i> | Dados adicionais das splines de saída codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Não Usadas<br><b>A</b> - Não Usadas |
+| <b>Valor da spline</b> <i>Inteiro</i> | O número de splines de saída. |
 
-## Conectores de saída
-
-<b>Visualizar</b> *Tons de cinza* A visualização das linhas divisórias de saída como uma imagem em tons de cinza.
-
-<b>Cordas de spline</b> *Cor* As coordenadas dos pontos das linhas divisórias de saída codificadas nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
-
-<b>Dados de Spline</b> *Cor* Dados adicionais das splines de saída codificados nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Não Usado\
-    <b>A</b> - Não Usado
-
-<b>Valor da spline</b> *Inteiro* O número de splines de saída.
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Modo de amostragem</b> *Inteiro* O método de mapear os valores no Mapa de Heights para as linhas de spline:\
-*- Espaço de textura*: os valores são aplicados às splines nos quais estariam se fossem colocados em uma textura usando as coordenadas UV da textura. Isso aplica efetivamente o valor aos splines “in place”;\
-*- Horizontal ao longo da spline*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords da spline), onde cada linha é aplicada a uma spline diferente de cima para baixo;\
-*- Hora. ao longo do spline (rand. deslocamento X)*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento horizontal aleatório no mapa de Escala para cada spline (ou seja, cada linha em Coords de spline);\
-*- Hora. ao longo do spline (rand. deslocamento Y)*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento vertical aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de spline).
-
-<b>Opacidade</b> *Flutuante* Um multiplicador para a intensidade da contribuição da entrada do Mapa de Height para o height da spline.<b></b>
-
-<b>Modo de Mesclagem</b> *Inteiro* O método de mesclar os dados do Mapa de Height com o height da spline de entrada:\
-*- Copiar*: substitui o height da spline pelos valores do Mapa de Height;\
-*- Adicionar*: adiciona os valores de Mapa de Height ao height da spline;\
-*- Subtrair*: subtrai os valores do Mapa de Height ao height da spline;\
-*- Multiplicar*: multiplica os valores do Mapa de Height em relação ao height da spline.
-
-+++Visualização
-<b>Valor de Segmentos</b> *Inteiro* Ajusta o número de segmentos usados para desenhar a visualização de spline na saída da Visualização.\
-Um valor mais alto resulta em uma linha mais suave.
-
-<b>Mostrar Auxiliar de Direção</b> *Booleano* Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização.
-
-<b>Mostrar Envelope de Thickness</b> *Booleano*\
-Exibe linhas adicionais nas bordas do thickness da spline.
-
-<b>Thickness (px)</b> *Flutuante* Ajusta o thickness da visualização da spline em pixels na saída da Visualização.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Modo de amostragem</b> <i>Inteiro</i> | O método de mapear os valores no Mapa de Altura para os splines:<br>- <i>espaço de Textura</i>: os valores são aplicados aos splines nos quais estariam se colocados em uma textura usando as coordenadas UV da textura. Isso aplica efetivamente o valor às linhas de spline “no local”;<br>- <i>Horizontal ao longo da linha de spline</i>: os valores são aplicados diretamente às coordenadas das linhas de spline codificadas (consulte a entrada de Palavras de spline), onde cada linha é aplicada a uma linha de spline diferente de cima para baixo;<br>- <i>Hor. ao longo do spline (rand. deslocamento X)</i>: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte a entrada de Coords de spline), com um deslocamento horizontal aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de Spline);<br>- <i>Hora. ao longo do spline (rand. deslocamento Y)</i>: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento vertical aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de spline). |
+| <b>Opacidade</b> <i>Flutuante</i> | Um multiplicador da intensidade da contribuição da entrada do Mapa de altura para o height da spline. |
+| <b>Modo de Mesclagem</b> <i>Inteiro</i> | O método de mesclar os dados do Mapa de Altura com o height da spline de entrada:<br>- <i>Copiar</i>: substituir o height da spline pelos valores do Mapa de Altura;<br>- <i>Adicionar</i>: adicionar os valores do Mapa de Altura ao height da spline;<br>- <i>Subtrair</i>: Subtrair os valores do Mapa de Altura ao height da spline;<br>- <i>Multiplicar</i>: multiplicar os valores do Mapa de Altura em relação ao height da spline. |
+| <b>Visualizar</b> |  |
+| <b>Valor de Segmentos</b> <i>Inteiro</i> | Ajusta o número de segmentos usados para desenhar a visualização de spline na saída da Visualização.<br>Um valor mais alto resulta em uma linha mais suave. |
+| <b>Mostrar Auxiliar de Direção</b> <i>Booleano</i> | Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização. |
+| <b>Mostrar Envelope de Thickness</b> <i>Booleano</i> | Exibe linhas adicionais nas bordas do thickness da spline. |
+| <b>Thickness (px)</b> <i>Flutuante</i> | Ajusta o thickness da visualização da spline em pixels na saída da Visualização. |
 
 ## Exemplos
 
@@ -125,11 +88,11 @@ Exibe linhas adicionais nas bordas do thickness da spline.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="spline-sample-height.resources/spline-sample-height-03.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -141,11 +104,11 @@ Exibe linhas adicionais nas bordas do thickness da spline.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="spline-sample-height.resources/spline-sample-height-04.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -159,26 +122,12 @@ Exibe linhas adicionais nas bordas do thickness da spline.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](spline-sample-height.resources/spline-sample-height-05.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/SplineSampleHeight-Demo.gif "Exemplo de nó 2")
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Exemplo de nó 2](spline-sample-height.resources/spline-sample-height-06.gif "Exemplo de nó 2")
 
 </td>
 </tr>

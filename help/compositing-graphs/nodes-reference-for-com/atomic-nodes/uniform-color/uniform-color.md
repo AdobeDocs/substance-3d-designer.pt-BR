@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cor uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: cor uniforme](../../../../assets/comp_uniform_1.png "Nó atômico: cor uniforme"){width="200px"}
+![Nó atômico: cor uniforme](uniform-color.resources/uniform-color-01.png "Nó atômico: cor uniforme"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -96,7 +96,7 @@ Gera um valor plano de tons de cinza ou de cor.
 |  |  |
 | --- | --- |
 | <b>Modo de cores</b> *Booleano* | Alterna entre uma imagem em tons de cinza e uma imagem colorida de saída. |
-| <b>Cor de saída</b> *Flutuante/Flutuante4* | Seleciona a cor uniforme a ser usada na imagem de saída.   Ao usar o modo de cores “Cor”, o canal Alpha é usado para opacidade, onde 0 é totalmente transparente e 1 é totalmente opaco. |
+| <b>Cor de saída</b> *Flutuante/Flutuante4* | Seleciona a cor uniforme a ser usada na imagem de saída.   Ao usar o modo de cores “Cor”, o canal Alpha é usado para opacidade, onde 0 é totalmente transparente e 1 é totalmente opaco. |
 
 ## Conectores de saída
 

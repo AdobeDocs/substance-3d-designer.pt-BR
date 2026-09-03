@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Converter em sRGB
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 3%
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/convert-to-srgb-grayscale.png){width="128px"}
+![](convert-to-srgb.resources/convert-to-srgb-01.png){width="128px"}
 
-![](../../../../../../assets/convert-to-srgb.png){width="128px"}
+![](convert-to-srgb.resources/convert-to-srgb-02.png){width="128px"}
 
-## Converter em sRGB (tons de cinza)
-
-**Entrada:** *Filtros/Ajustes*
-
-**Simples**
+<b>Entrada:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Converte uma entrada Linear em um espaço de cores sRGB. Útil ao trabalhar e converter com material de referência de foto, por exemplo.
-
-## Parâmetros
-
-*Nenhum Parâmetro.*
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
 
 </td>
 </tr>

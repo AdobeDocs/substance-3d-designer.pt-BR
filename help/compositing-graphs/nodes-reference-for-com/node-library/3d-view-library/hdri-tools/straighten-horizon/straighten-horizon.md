@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Endireitar horizonte
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 1%
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -22,36 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/straighten-horizon.png){width="200px"}
+![](straighten-horizon.resources/straighten-horizon-01.png){width="200px"}
 
-## Endireitar horizonte
-
-**Entrada:** *Exibição 3D/Ferramentas HDRI*
-
-**Simples**
+<b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Para HDRIs com um horizonte que não é reto, este nó fornece uma maneira fácil e fácil de corrigir para isso.
 
-## Parâmetros
-
-* **Habilitar Correção Horizontal**: *Falso/Verdadeiro*\
-  Ativar e desativar o efeito. Permite alternar para comparar antes e encontrar pontos corretos.
-* **Posição #1 do Ponto Horizontal**:\
-  O primeiro ponto tem uma alça de Exibição 2D.
-* **Posição #2 do Ponto Horizontal**:\
-  Segundo ponto, tem uma alça de visualização 2D.
-* **Rotação Horizontal**: *0.0 - 1.0\
-  Rotação adicional ao redor do eixo central.*
-
-## Imagens de exemplo
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Habilitar Correção Horizontal</b> <i>Falso/Verdadeiro</i> | Ativar e desativar o efeito. Permite alternar para comparar antes e encontrar pontos corretos. |
+| <b>Posição #1 do Ponto Horizontal</b> | Primeiro ponto, tem Visualização 2D. |
+| <b>Posição #2 do Ponto Horizontal</b> | Segundo ponto, tem Visualização 2D. |
+| <b>Rotação horizontal</b> <i>0.0 - 1.0</i> | Rotação adicional em torno do eixo central. |

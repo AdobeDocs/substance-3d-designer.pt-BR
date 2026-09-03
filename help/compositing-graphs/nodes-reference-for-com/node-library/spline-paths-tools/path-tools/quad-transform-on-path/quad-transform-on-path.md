@@ -7,13 +7,13 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Transformação quádrupla no caminho
+title: Transformo Quad no Caminho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/quad-transform-on-paths-icon.png "Ícone de nó")
+![Ícone de nó](quad-transform-on-path.resources/quad-transform-on-path-01.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -39,29 +39,32 @@ Deforme um caminho usando 4 alças.
 </tr>
 </table>
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Caminhos</b> *Cor*\
-Uma lista de caminhos de segmentos codificados. Conecte esta entrada ao resultado de uma [Máscara para Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou a outro nó de processamento de *Caminho*.
+## Entradas
 
-## Conectores de saída
+|  |  |
+|:---|:---|
+| <b>Caminhos</b> <i>Cor</i> | Uma lista de caminhos de segmentos codificados. Conecte esta entrada ao resultado de uma [Máscara para Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou a outro nó de processamento de *Caminho*. |
 
-<b>Caminhos</b> *Cor*\
-Os caminhos transformados. Você pode usar [Visualizar Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) para ter uma ideia do que o resultado representa, usar outro nó de processamento de Caminhos ou inseri-lo em um [Caminhos para Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para processá-lo posteriormente como Splines.
+<a name="outputs"></a>
+
+## Saídas
+
+|  |  |
+|:---|:---|
+| <b>Caminhos</b> <i>Cor</i> | Os caminhos transformados. Você pode usar [Visualizar Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) para ter uma ideia do que o resultado representa, usar outro nó de processamento de Caminhos ou inseri-lo em um [Caminhos para Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para processá-lo posteriormente como Splines. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>p00</b> *Flutuante2*\
-A posição da alça superior esquerda.
-
-<b>p01</b> *Flutuante2*\
-A posição da alça superior direita.
-
-<b>p02</b> *Flutuante2*\
-A posição da alça inferior esquerda.
-
-<b>p03</b> *Flutuante2*\
-A posição da alça inferior direita.
+|  |  |
+|:---|:---|
+| <b>p00</b> <i>Flutuante2</i> | A posição da alça superior esquerda. |
+| <b>p01</b> <i>Flutuante2</i> | A posição da alça superior direita. |
+| <b>p02</b> <i>Flutuante2</i> | A posição da alça inferior esquerda. |
+| <b>p03</b> <i>Flutuante2</i> | A posição da alça inferior direita. |
 
 ## Exemplos
 
@@ -72,11 +75,11 @@ A posição da alça inferior direita.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-03.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -88,11 +91,11 @@ A posição da alça inferior direita.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-04.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -106,12 +109,12 @@ A posição da alça inferior direita.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/QuadTransformOnPaths-Demo2.gif "Exemplo de nó 1")
+![Exemplo de nó 1](quad-transform-on-path.resources/quad-transform-on-path-05.gif "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/QuadTransformOnPaths-Demo1.gif "Exemplo de nó 2")
+![Exemplo de nó 2](quad-transform-on-path.resources/quad-transform-on-path-06.gif "Exemplo de nó 2")
 
 </td>
 </tr>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Predefinições de parâmetro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ As predefinições de parâmetro oferecem ao usuário a capacidade de armazenar 
 
 Há duas maneiras de armazenar e carregar predefinições. Ambas têm casos de uso diferentes, detalhados abaixo.
 
-![Menu suspenso Carregar/Salvar predefinição](../../../assets/preset-menu.gif "Menu suspenso Carregar/Salvar predefinição"){width="512px"}
+![Menu suspenso Carregar/Salvar predefinição](parameter-presets.resources/parameter-presets-01.gif "Menu suspenso Carregar/Salvar predefinição"){width="512px"}
 
 ## Predefinições externas
 
 As predefinições externas envolvem um arquivo externo no disco e um arquivo \*.SBSPRS. Eles podem ser transferidos entre diferentes gráficos e nós, mas somente dentro do aplicativo. O seu principal objetivo é exatamente este: transferir um número de valores demasiado grande para copiar um por um.
 
-As predefinições externas estão disponíveis para todos os Parâmetros Específicos em [Instâncias de Gráfico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), para a maioria dos Parâmetros Específicos em [nós Atômicos](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([as exceções são aqueles parâmetros que não podem ser expostos](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) e para os Parâmetros de Entrada expostos nas Propriedades de um [Gráfico.](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)
+As predefinições externas estão disponíveis para todos os Parâmetros Específicos em [Instâncias de Gráfico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), para a maioria dos Parâmetros Específicos em [nós Atômicos](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([as exceções são aqueles parâmetros que não podem ser expostos](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) e para os parâmetros de entrada expostos em um gráfico de Substance [parâmetros](../../graph-parameters/graph-parameters.md)parâmetros.
 
 Eles são simplesmente salvos e carregados através deste menu. Os arquivos SBSPRS salvos podem ser carregados em qualquer outro nó ou gráfico.
 
@@ -38,7 +38,7 @@ Eles são simplesmente salvos e carregados através deste menu. Os arquivos SBSP
 >
 > Mesmo correspondências parciais funcionarão: os parâmetros armazenados em um SBSPRS que não existem no nó carregado, serão simplesmente ignorados. Isso significa que você pode transferir propriedades entre nós que são mais semelhantes, [como a versão colorida e em tons de cinza do Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)! Todos os parâmetros compartilhados serão carregados. A correspondência ocorre no identificador e no tipo.
 
-![Edição de predefinições incorporadas](../../../assets/preset-embed.gif "Edição de predefinições incorporadas"){width="512px"}
+![Edição de predefinições incorporadas](parameter-presets.resources/parameter-presets-02.gif "Edição de predefinições incorporadas"){width="512px"}
 
 ## Predefinições incorporadas
 

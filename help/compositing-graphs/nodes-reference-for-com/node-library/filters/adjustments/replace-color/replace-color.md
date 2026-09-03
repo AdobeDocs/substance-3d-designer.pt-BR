@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Substituir cor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 2%
+source-wordcount: '66'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/replace-color.png){width="128px"}
+![](replace-color.resources/replace-color-01.png){width="128px"}
 
-## Substituir cor
-
-**Entrada:** *Filtros/Ajustes*
-
-**Simples**
+<b>Entrada:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,17 +37,25 @@ O matiz muda a cor de origem para a cor de destino.
 
 Consulte [Substituir intervalo de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color-range/replace-color-range.md) ou [Correspondência de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md) para obter as versões mais avançadas.
 
-## Parâmetros
-
-* **Cor de origem**: *(valor da cor)*Cor para começar a deslocar o matiz.
-* **Cor de destino**: *(valor da cor)*Cor para a qual o matiz será deslocado.
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/replace-color-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Cor de origem</b> <i>(Valor da cor)</i> | Cor para começar a alterar o matiz. |
+| <b>Cor de Destino</b> <i>(Valor da cor)</i> | Cor para a qual mudar a matiz. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="replace-color.resources/replace-color-02.png" />
+        </td>
+    </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gráficos do Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](substance-compositing-graphs.resources/substance-compositing-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ gráficos de Substance são[o tipo de gráfico mais amplamente suportado](../get
 Abaixo você pode encontrar alguns exemplos típicos de casos de uso comuns.
 
 +++Forma simples
-![Forma simples no gráfico de Substance](../assets/simpleshape.png "Forma simples no gráfico de Substance"){width="512px"}
+![Forma simples no gráfico de Substance](substance-compositing-graphs.resources/substance-compositing-graphs-02.png "Forma simples no gráfico de Substance"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ O Texto com o número, ou o thickness da aresta, pode ser exposto externamente p
 +++
 
 +++Filtro de ajuste
-![Filtro de ajuste no gráfico de Substance](../assets/simplefilter.png "Filtro de ajuste no gráfico de Substance"){width="512px"}
+![Filtro de ajuste no gráfico de Substance](substance-compositing-graphs.resources/substance-compositing-graphs-03.png "Filtro de ajuste no gráfico de Substance"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ Os valores de contraste definidos no Histograma podem ser expostos, tornando-o u
 +++
 
 +++Material completo
-![Material completo no gráfico de Substance](../assets/simplematerial.png "Material completo no gráfico de Substance"){width="512px"}
+![Material completo no gráfico de Substance](substance-compositing-graphs.resources/substance-compositing-graphs-04.png "Material completo no gráfico de Substance"){width="512px"}
 
 
 

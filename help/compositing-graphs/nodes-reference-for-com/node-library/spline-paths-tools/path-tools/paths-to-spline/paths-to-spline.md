@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Caminhos para a spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/paths-to-splines-icon.png "Ícone de nó")
+![Ícone de nó](paths-to-spline.resources/paths-to-spline-01.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -47,35 +47,31 @@ Converte um caminho em splines que podem ser visualizadas usando um nó de [Rend
 >
 > Este nó pode ser usado após o nó [Mascarar para Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) para formar uma cadeia que converta uma máscara em splines.
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Cores</b> e *Caminhos*\
-Uma lista de caminhos de segmentos codificados. Conecte esta entrada ao resultado de uma [Máscara para Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou a outro nó de processamento de Caminho.
+## Entradas
 
-## Conectores de saída
+|  |  |
+|:---|:---|
+| <b>Caminhos</b> <i>Cor</i> | Uma lista de caminhos de segmentos codificados. Conecte esta entrada ao resultado de uma [Máscara para Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou a outro nó de processamento de Caminho. |
 
-<b>Cores de spline </b>*As coordenadas dos pontos de spline de entrada codificadas nos canais RGBA de uma imagem colorida:*\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+<a name="outputs"></a>
 
-<b>Dados de Spline</b> *Cor*\
-Dados adicionais das linhas de entrada codificadas nos canais RGBA de uma imagem <b>colorida</b>:\
-<b>R</b> - Tangentes X\
-<b>G</b> - Tangentes Y\
-<b>B</b> - Não Usado\
-<b>A</b> - Não Usado
+## Saídas
 
-<b>Valor da spline</b> *Inteiro*\
-O número de splines de entrada.
+|  |  |
+|:---|:---|
+| <b>Cordas de spline</b> <i>Cor</i> | As coordenadas dos pontos das linhas divisórias de entrada codificadas nos canais RGBA de uma imagem colorida:<br><b>R</b> - posição X<br><b>G</b> - posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br> * Sinal: a linha divisória é fechada (negativa) ou aberta (positiva);<br> * Valor absoluto: Thickness + 1. |
+| <b>Dados de Spline</b> <i>Cor</i> | Dados adicionais das splines de entrada codificadas nos canais RGBA de uma imagem <b>colorida</b>:<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Não Usadas<br><b>A</b> - Não Usadas |
+| <b>Valor da spline</b> <i>Inteiro</i> | O número de splines de entrada. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Precisão de Splines</b> *Inteiro*\
-O logaritmo de base 2 (log2) do número de vértices amostrados em cada caminho da entrada de Caminhos para construir a spline correspondente.
+|  |  |
+|:---|:---|
+| <b>Precisão de Splines</b> <i>Inteiro</i> | O logaritmo de base 2 (log2) do número de vértices amostrados em cada caminho da entrada de Caminhos para construir a spline correspondente. |
 
 ## Exemplos
 
@@ -86,11 +82,11 @@ O logaritmo de base 2 (log2) do número de vértices amostrados em cada caminho 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-Before.jpg" alt="PathsToSpline-Variant1-Before">
+      <img src="paths-to-spline.resources/paths-to-spline-02.jpg" alt="PathsToSpline-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-After.jpg" alt="PathsToSpline-Variant1-After">
+      <img src="paths-to-spline.resources/paths-to-spline-03.jpg" alt="PathsToSpline-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -102,11 +98,11 @@ O logaritmo de base 2 (log2) do número de vértices amostrados em cada caminho 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-to-spline.resources/paths-to-spline-04.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-After.jpg" alt="PathsToSpline-Variant2-After">
+      <img src="paths-to-spline.resources/paths-to-spline-05.jpg" alt="PathsToSpline-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Multiângulo para normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 1%
+source-wordcount: '245'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-angle-to-normal.png){width="128px"}
+![](multi-angle-to-normal.resources/multi-angle-to-normal-01.png){width="128px"}
 
-## Multiângulo para normal
-
-**Entrada:** *Filtros de Material/Processamento de Digitalização*
-
-**Intermediário**
+<b>Entrada:</b> Filtros Materiais > Processamento de materiais escaneados
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -45,27 +41,26 @@ Este nó constrói um mapa normal a partir de um conjunto de fotografias/digital
 >
 > Consulte [Vários ângulos para Albedo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) para obter a versão de albedo deste nó. Se você quiser pré-processar suas entradas, o [Multi Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), o [Multi Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) e o [Multi Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) podem ser úteis, pois devem ser combinados com esses nós.
 
-## Parâmetros
-
-### Entradas
-
-* **Entrada 1-8**: *Entrada de Cores*
-
-### Parâmetros
-
-* **Formato Normal**: *DirectX, OpenGL*\
-  Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde).
-* **Quantidade de amostras**: *2 - 8* Define a quantidade de amostras (entradas) a serem processadas.
-* **Intensidade**: *0.0 - 1.0* Define A Intensidade Do Mapa Normal.
-* **Primeira amostra de ângulo de luz**: *0.0 - 360.0* Define a direção do ângulo de iluminação da primeira entrada.
-* **Próximo Ângulo de Luz de Amostra**: *No sentido anti-horário, no sentido horário* Define em que direção a iluminação na próxima amostra se move.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada 1-8</b> <i>Entrada de cores</i> |  |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Formato Normal</b> <i>DirectX, OpenGL</i> | Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde). |
+| <b>Quantidade de Amostras</b> <i>2 - 8</i> | Define a quantidade de amostras (entradas) a serem processadas. |
+| <b>Intensidade</b> <i>0.0 - 1.0</i> | Define a intensidade do mapa normal. |
+| <b>Ângulo de Luz da Primeira Amostra</b> <i>0.0 - 360.0</i> | Define a direção do ângulo de iluminação da primeira entrada. |
+| <b>Próximo Ângulo de Luz de Amostra</b> <i>Sentido anti-horário, sentido horário</i> | Define em que direção a iluminação na próxima amostra se move. |

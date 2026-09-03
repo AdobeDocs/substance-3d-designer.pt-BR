@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Sobel normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 2%
+source-wordcount: '79'
+ht-degree: 5%
 
 ---
 
@@ -22,35 +22,28 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-hq.png){width="128px"}
+![](normal-sobel.resources/normal-sobel-01.png){width="128px"}
 
-## Sobel normal
-
-**Entrada:** *Filtros/Mapa Normal*
-
-**Simples**
+<b>Entrada:</b> Filtros > Mapa normal
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Converte uma entrada Heightmap em uma saída Normalmap. Uma versão um pouco mais avançada do [Nó Atômico Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md), esse nó usa amostragem Sobel em vez do método de amostragem padrão.
 
-## Parâmetros
-
-* **Intensidade**: *0.0 - 3.0* Intensidade dos normais convertidos.
-* **Formato Normal**: *OpenGL, DirectX*\
-  Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde).
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Intensidade</b> <i>0.0 - 3.0</i> | Intensidade dos normais convertidos. |
+| <b>Formato Normal</b> <i>OpenGL, DirectX</i> | Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde). |

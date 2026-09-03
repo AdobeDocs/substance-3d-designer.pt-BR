@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Estrela
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
@@ -22,32 +22,28 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/star-5.png)
+![](star.resources/star-01.png)
 
-## Estrela
-
-**Entrada:** *Geradores De Textura**/Padrões*
-
-**Simples**
+<b>Em:</b> Textura Geradores > Padrões
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Gera uma estrela de cinco pontas.
 
-## Parâmetros
-
-* **Escala**: *0.0 - 1.0*\
-  Dimensiona a forma inteira uniformemente.
-* **Expansão não quadrada**: *Falso/Verdadeiro*\
-  Permite a compensação de esmagamento e alongamento com proporções não quadradas.
-
-## Imagens de exemplo
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Escala</b> <i>0.0 - 1.0</i> | Dimensiona a forma inteira uniformemente. |
+| <b>Expansão não quadrada</b> <i>Falso/Verdadeiro</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |

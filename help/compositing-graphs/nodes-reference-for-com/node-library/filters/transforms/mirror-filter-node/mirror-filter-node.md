@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Espelho (Nó de Filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 1%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -22,40 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mirror-2.png){width="128px"}
+![](mirror-filter-node.resources/mirror-filter-node-01.png){width="128px"}
 
-![](../../../../../../assets/mirror-grayscale.png){width="128px"}
+![](mirror-filter-node.resources/mirror-filter-node-02.png){width="128px"}
 
-## Espelho (tons de cinza)
-
-**Entrada:** *Filtros/Transformações*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Transformas
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Espelha a imagem de entrada sobre um eixo escolhido, a partir de um lado escolhido. Maneira muito útil e rápida de obter efeitos simétricos.
 
-## Parâmetros
-
-* **Modo**: *Eixo do espelho X, Eixo do espelho Y, Espelho* *Canto* Escolha espelhar esquerda-direita, superior-inferior ou ambos.
-* **Deslocamento X do Eixo**: *0.0 - 1.0* Usado apenas quando o Eixo X é escolhido; defina um deslocamento.
-* **Deslocamento Y do Eixo**: *0.0 - 1.0* Usado apenas quando o Eixo Y é escolhido; defina um deslocamento.
-* **Inverter Eixo X**: *Falso/Verdadeiro* Usado somente quando o Eixo X for escolhido, Inverter direção.
-* **Inverter eixo Y**: *Falso/Verdadeiro* Usado somente quando o Eixo Y é escolhido. Virar direção.
-* **Tipo de canto**: *Superior esquerdo, Superior direito, Inferior esquerdo, Inferior direito* Usado somente quando o tipo de canto é escolhido; defina de qual canto espelhar.
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mirror-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Modo</b> <i>Eixo do espelho X, Eixo do espelho Y, Canto Espelhado</i> | Opte por espelhar a esquerda-direita, a parte superior-inferior ou ambas. |
+| <b>Deslocamento X Do Eixo</b> <i>0.0 - 1.0</i> | Usado apenas quando o Eixo X é escolhido; defina um deslocamento. |
+| <b>Deslocamento Y do Eixo</b> <i>0.0 - 1.0</i> | Usado apenas quando o Eixo Y é escolhido; defina um deslocamento. |
+| <b>Inverter Eixo X</b> <i>Falso/Verdadeiro</i> | Usado somente quando o Eixo X é escolhido. Inverter direção. |
+| <b>Inverter Eixo Y</b> <i>Falso/Verdadeiro</i> | Usado somente quando o Eixo Y é escolhido. Virar direção. |
+| <b>Tipo de Canto</b> <i>Superior esquerdo, Superior direito, Inferior esquerdo, Inferior direito</i> | Usado apenas quando o tipo de canto é escolhido. Defina de qual canto espelhar. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mirror-filter-node.resources/mirror-filter-node-03.png" />
+        </td>
+    </tr>
 </table>

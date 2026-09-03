@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Aumento de ruído 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '132'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-3.resources/noise-upscale-3-01.png){width="128px"}
 
-## Aumento de ruído 3
-
-**Entrada:** *Filtros/Transformações*
-
-**Simples**
+<b>Entrada:</b> Filtros > Transformas
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -43,23 +39,25 @@ Este nó é destinado principalmente para otimizar gráficos lentos que usam ru�
 
 Veja também [Aumento de Ruído 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md) e [Aumento de Ruído 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md), que na maioria dos casos tendem a ser um pouco melhores para ocultar ladrilhos.
 
-## Parâmetros
-
-### Entradas
-
-* **Escala de cinza**: *Entrada em escala de cinza*\
-  Imagem de ruído de destino.
-* **Máscara**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-*Nenhum Parâmetro.*
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/noise3ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Tons de cinza</b> <i>Entrada em tons de cinza</i> | Imagem de ruído de destino. |
+| <b>Máscara</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="noise-upscale-3.resources/noise-upscale-3-02.png" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Alternar material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 3%
+source-wordcount: '86'
+ht-degree: 2%
 
 ---
 
@@ -22,37 +22,28 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-switch.png){width="128px"}
+![](material-switch.resources/material-switch-01.png){width="128px"}
 
-## Alternar material
-
-**Entrada:** *Filtros/Mesclagem de Material*
-
-**Simples**
+<b>Em:</b> Filtros Materiais > Mesclagem
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Este nó é a versão de material Completa e Multicanal do [Switch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md). Ele usa dois materiais como entrada e retorna apenas um deles com base no parâmetro switch.
 
-## Parâmetros
-
-### Parâmetros
-
-* **Canais**\
-  Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza.
-* **Chave**: *Falso/Verdadeiro* Chave para retornar Material 1 ou 2.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Canais</b> | Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza. |
+| <b>Alternar</b> <i>Falso/Verdadeiro</i> | Alterne para devolver o Material 1 ou 2. |

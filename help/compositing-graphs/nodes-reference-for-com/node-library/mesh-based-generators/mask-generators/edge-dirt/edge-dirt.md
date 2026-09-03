@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Edge Dirt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 2%
+source-wordcount: '160'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-dirt.png){width="128px"}
+![](edge-dirt.resources/edge-dirt-01.png){width="128px"}
 
-## Edge Dirt
-
-**Entrada:** *Geradores Baseados Em Malha**/Geradores De Máscara*
-
-**Simples**
+<b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,30 +37,37 @@ Gera uma máscara em preto e branco com base em mapas baked e configurações do
 
 Essa máscara representa um efeito de dirt que se acumula ao redor das bordas, com base apenas em um mapa de curvatura.
 
-## Parâmetros
-
-### Entradas
-
-* **Curvatura**: *Entrada em tons de cinza*\
-  Mapa baked usado para posicionamento do efeito. Obrigatório!
-* **Máscara de Variação**: *Entrada em Tons de Cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó, usado somente quando o parâmetro de substituição está ativado.
-* **Máscara (opcional)**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Nível**: *0.0 - 1.0*\
-  Define a quantidade de dirt.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta o contraste do resultado.
-* **Variação**: *0.0 - 1.0* Combina a quantidade de máscaras/separações em grande escala que devem ocorrer.
-* **Substituir máscara de variação**: *Falso/Verdadeiro*
-
-## Imagens de exemplo
-
-![](../../../../../../assets/edge-dirt-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para posicionamento do efeito. Obrigatório! |
+| <b>Máscara de Variação</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó, usado somente quando o parâmetro de substituição está ativado. |
+| <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Nível</b> <i>0.0 - 1.0</i> | Define a quantidade de dirt. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta o contraste do resultado. |
+| <b>Variação</b> <i>0.0 - 1.0</i> | Combinar em quanto máscaras/separações em grande escala devem acontecer. |
+| <b>Substituir máscara de variação</b> <i>Falso/Verdadeiro</i> |  |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-dirt.resources/edge-dirt-02.gif" />
+        </td>
+    </tr>
 </table>

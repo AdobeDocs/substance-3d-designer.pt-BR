@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Bloco Automático Inteligente
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '393'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/smart-auto-tile.png){width="128px"}
+![](smart-auto-tile.resources/smart-auto-tile-01.png){width="128px"}
 
-## Bloco Automático Inteligente
-
-**Entrada:** *Filtros de Material/Processamento de Digitalização*
-
-**Complexo**
+<b>Entrada:</b> Filtros Materiais > Processamento de materiais escaneados
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,44 +37,40 @@ Esse nó transforma um conjunto não ladrilhado de mapas Basecolor, Normal e Hei
 
 Para usar este nó, comece definindo a área Cortada e use as configurações de Borda para determinar como as bordas lado a lado são mescladas no centro. Os parâmetros de limiar são de importância fundamental para isso! Lembre-se de que áreas grandes e uniformes não funcionam muito bem com esse efeito. Quanto mais detalhes e formas existirem, mais será necessário trabalhar com elas.
 
-## Parâmetros
-
-### Entradas
-
-* **Máscara**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó. Pode ser alternado com o parâmetro “Usar máscara”.
-
-### Parâmetros
-
-* **Cortar**
-  * **Tamanho de entrada**: *0 - 8192* Resolução e proporções das imagens de entrada. Muito importante para imagens não quadradas.
-  * **Transformar**: *(Matriz de Transformação)*\
-    Gira e dimensiona o resultado. O resultado pode ser modificado ao interagir diretamente com a tela.
-  * **Deslocamento**: *0.0 - 1.0*\
-    Move ou traduz o resultado. O resultado pode ser modificado ao interagir diretamente com a tela.
-* **Borda**
-  * **Detectar bordas**: *Falso/Verdadeiro* Ativa ou desativa a mesclagem de bordas especiais detectadas.
-  * **Usar Limite por Canal**: *Falso/Verdadeiro* Alterna entre um valor de limite global ou um para cada canal.
-  * **Limite**: *0.0 - 1.0*
-  * **Cor Base do Limite**: *0.0 - 1.0*
-  * **Limite Normal**: *0.0 - 1.0*
-  * **Height de Limite**: *0.0 - 1.0*
-  * **Deslocamento do corte**: *0.0 - 0.5* O controle principal para mover o corte, os eixos X e Y, são separados.
-  * **Desfoque**: *0.0 - 2.0* Desfoca a transição de mesclagem.
-  * **Smoothness**: *0.0 - 2.0* Controla a irregularidade dos resultados da análise de borda.
-  * **Resolução da grade**: *1 - 11* Resolução de qualidade da análise de borda.
-  * **Usar cor base**: *Falso/Verdadeiro* Alterna o processamento de cor base (entrada e saída).
-  * **Usar Normal**: *Falso/Verdadeiro* Alterna o processamento Normal (entrada e saída).
-  * **Usar Height**: *Falso/Verdadeiro* Alterna o processamento Normal (entrada e saída).
-  * **Usar máscara**: *Falso/Verdadeiro*\
-    Ativa ou desativa o uso do Mapa de máscaras para formas de máscara de carimbo personalizadas.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Máscara</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. Pode ser alternado com o parâmetro “Usar máscara”. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Cortar</b> |  |
+| <b>Tamanho de entrada</b> <i>0 - 8192</i> | Insira a resolução e as proporções das imagens. Muito importante para imagens não quadradas. |
+| <b>Transformar</b> <i>(Matriz de Transformação)</i> | Gira e dimensiona o resultado. O resultado pode ser modificado ao interagir diretamente com a tela. |
+| <b>Deslocamento</b> <i>0.0 - 1.0</i> | Move ou traduz o resultado. O resultado pode ser modificado ao interagir diretamente com a tela. |
+| <b>Borda</b> |  |
+| <b>Detectar bordas</b> <i>Falso/Verdadeiro</i> | Ativa ou desativa a mesclagem de borda especial detectada. |
+| <b>Usar Limite Por Canal</b> <i>Falso/Verdadeiro</i> | Alterna entre um valor de limite global ou um para cada canal. |
+| <b>Limite</b> <i>0.0 - 1.0</i> |  |
+| <b>Cor de base de Limite</b> <i>0.0 - 1.0</i> |  |
+| <b>Limite Normal</b> <i>0.0 - 1.0</i> |  |
+| <b>Height de Limite</b> <i>0.0 - 1.0</i> |  |
+| <b>Cortar deslocamento</b> <i>0.0 - 0.5</i> | Controle principal para mover o corte, ambos os eixos X e Y são separados. |
+| <b>Desfoque</b> <i>0.0 - 2.0</i> | Desfoca a transição de mesclagem. |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> | Controla a irregularidade dos resultados da análise de borda. |
+| <b>Resolução da Grade</b> <i>1 - 11</i> | Resolução de qualidade da análise de bordas. |
+| <b>Usar Cor de base</b> <i>Falso/Verdadeiro</i> | Alterna o processamento de Cor de base (entrada e saída). |
+| <b>Usar Normal</b> <i>Falso/Verdadeiro</i> | Alterna o processamento Normal (entrada e saída). |
+| <b>Usar Height</b> <i>Falso/Verdadeiro</i> | Alterna o processamento Normal (entrada e saída). |
+| <b>Usar máscara</b> <i>Falso/Verdadeiro</i> | Ativa ou desativa o uso do Mapa de máscaras para formas de máscara de carimbo personalizadas. |

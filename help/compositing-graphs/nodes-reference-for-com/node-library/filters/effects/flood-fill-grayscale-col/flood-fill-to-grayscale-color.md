@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill para Tons de cinza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-grayscale.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-01.png){width="128px"}
 
-![](../../../../../../assets/floodfill-to-color.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-02.png){width="128px"}
 
-## Flood Fill para tons de cinza/cor aleatórios
-
-**Entrada:** *Filtros/Efeitos*
-
-**&#x200B;**&#x200B;Simples&#x200B;**&#x200B;**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -43,18 +39,24 @@ Usa dados de Flood Fill para gerar amostras de valores de tons de cinza ou de co
 
 É um sistema poderoso para dar a cada célula um valor ou cor única, mas ainda manter o controle e baseá-lo em uma entrada predeterminada.
 
-## Parâmetros
-
-### Entradas
-
-* **Flood Fill**: *Entrada de cores*
-* **Entrada em Tons de Cinza/Cores**: *Entrada em Tons de Cinza/Cores*
-
-### Parâmetros
-
-* **Ajuste de Luminância/Cor**: *-1.0 - 1.0* Defina o valor de polarização ou base para o nó. Quando uma entrada Tons de cinza ou Cor é usada, isso é usado para alterar esse valor inicial como ponto de partida.
-* **Luminância/Cor Aleatória**: *-1.0 - 1.0* Defina a quantidade de variação.
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Flood Fill</b> <i>Entrada de cores</i> |  |
+| <b>Entrada em Tons de Cinza/Cores</b> <i>Entrada em Tons de Cinza/Cores</i> |  |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Ajuste de luminância/cor</b> <i>-1.0 - 1.0</i> | Defina o valor de polarização ou base para o nó. Quando uma entrada Tons de cinza ou Cor é usada, isso é usado para alterar esse valor inicial como ponto de partida. |
+| <b>Luminância/Cor Aleatória</b> <i>-1.0 - 1.0</i> | Defina o valor da variação. |

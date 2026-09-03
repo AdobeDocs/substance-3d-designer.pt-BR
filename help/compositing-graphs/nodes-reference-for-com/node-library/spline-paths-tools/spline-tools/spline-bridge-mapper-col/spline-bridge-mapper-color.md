@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Cor do mapeador da ponte de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 0%
+source-wordcount: '385'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/spline-bridge-mapper-color-icon.png "Ícone de nó")
+![Ícone de nó](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-01.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -49,48 +49,39 @@ Mapeia uma imagem colorida em uma lista de splines de entrada para que a imagem 
 >
 > Consulte também [Escala de cinza do mapeador da ponte de spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md).
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Cordas de spline</b> *Cor* As coordenadas dos pontos das splines de entrada codificadas nos canais RGBA de uma imagem colorida:\
-<b> R</b> - Posição X\
-<b> G</b> - posição Y\
-<b> B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+## Entradas
 
-<b>Dados de Spline</b> *Cor* Dados adicionais das splines de entrada codificados nos canais RGBA de uma imagem colorida.\
-<b> R</b> - Tangentes X\
-<b> G</b> - Tangentes Y\
-<b> B</b> - Não Usado\
-<b> A</b> - Não Usado
+|  |  |
+|:---|:---|
+| <b>Cordas de spline</b> <i>Cor</i> | As coordenadas dos pontos das linhas divisórias de entrada codificadas nos canais RGBA de uma imagem colorida:<br><b>R</b> - Posição X<br><b>G</b> - Posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br>- Sinal: a linha divisória é fechada (negativa) ou aberta (positiva);<br>- Valor absoluto: Thickness + 1. |
+| <b>Dados de Spline</b> <i>Cor</i> | Dados adicionais das splines de entrada codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Não Usadas<br><b>A</b> - Não Usadas |
+| <b>Valor da spline</b> <i>Inteiro</i> | O número de splines de entrada. |
+| <b>Mapa de cores</b> <i>Cor</i> | A imagem de cor de entrada que deve ser mapeada nas linhas de entrada. |
 
-<b>Valor da spline</b> *Inteiro* O número de splines de entrada.
+<a name="outputs"></a>
 
-<b>Mapa de cores </b>*Cor* A imagem de cores de entrada que deve ser mapeada nas linhas de entrada.
+## Saídas
 
-## Conectores de saída
+|  |  |
+|:---|:---|
+| <b>Cor</b> <i>Tons de cinza</i> | O resultado do mapeamento da imagem de cor de entrada nas linhas sobre o plano de fundo, como uma imagem colorida. |
+| <b>Height</b> <i>Tons de cinza</i> | O height dos splines mapeados através deles, como uma imagem em tons de cinza. |
+| <b>UV</b> <i>Cor</i> | Os UVs (isto é, coordenadas) da imagem mapeada, codificados nos canais vermelho (U) e verde (V) de uma imagem colorida. |
+| <b>Máscara</b> <i>Tons de cinza</i> | Uma máscara do mapeamento através das splines. |
 
-<b>Cor</b> *Tons de cinza* Resultado do mapeamento da imagem colorida de entrada pelas linhas sobre o plano de fundo como uma imagem colorida.
-
-<b>Height</b> *Tons de cinza* O height das splines mapeadas através delas, como uma imagem em tons de cinza.
-
-<b>UV</b> *Cor* Os UVs (isto é, as coordenadas) da imagem mapeada, codificados nos canais vermelho (U) e verde (V) de uma imagem colorida.
-
-<b>Máscara</b> *Tons de cinza* Uma máscara do mapeamento nas linhas.
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Valor de Segmentos</b> *Inteiro* As splines são simplificadas em segmentos antes que as coordenadas da imagem os atravessem.\
-Uma quantidade maior de segmentos resulta em um mapeamento mais suave ao longo das curvas.
-
-<b>Reduzir Ampliação de UVs</b> *Booleano* Ajusta o método usado para interpolar as coordenadas da imagem de uma spline para a próxima para minimizar o alongamento quando a distância entre as splines é irregular.
-
-<b>Escala UV</b> *Flutuante2* Ajusta a escala das coordenadas da imagem. Valores mais altos resultam em uma imagem ladrilhada mais densa.
-
-<b>Rotação UV</b> *Flutuar* Gira as coordenadas da imagem em torno de seu centro.
-
-<b>Cor do plano de fundo</b> *Flutuante4* A cor do plano de fundo na imagem de saída.
+|  |  |
+|:---|:---|
+| <b>Valor de Segmentos</b> <i>Inteiro</i> | As splines são simplificadas em segmentos antes que as coordenadas da imagem os atravessem. Uma quantidade maior de segmentos resulta em um mapeamento mais suave ao longo das curvas. |
+| <b>Reduzir Ampliação de UVs</b> <i>Booleano</i> | Ajusta o método usado para interpolar as coordenadas da imagem de uma spline para a próxima para minimizar o esticamento quando a distância entre as splines for irregular. |
+| <b>Escala UV</b> <i>Flutuante2</i> | Ajusta a escala das coordenadas da imagem. Valores mais altos resultam em uma imagem ladrilhada mais densa. |
+| <b>Rotação UV</b> <i>Flutuante</i> | Gira as coordenadas da imagem em torno do centro. |
+| <b>Cor do plano de fundo</b> <i>Flutuante4</i> | A cor do plano de fundo na imagem de saída. |
 
 ## Exemplos
 
@@ -101,11 +92,11 @@ Uma quantidade maior de segmentos resulta em um mapeamento mais suave ao longo d
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-03.jpg" alt="SplineBridgeMapperColor-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -114,7 +105,7 @@ Uma quantidade maior de segmentos resulta em um mapeamento mais suave ao longo d
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/SplineBridgeMapperColor-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-04.gif "Exemplo de nó 2")
 
 </td>
 </tr>
@@ -124,12 +115,12 @@ Uma quantidade maior de segmentos resulta em um mapeamento mais suave ao longo d
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/SplineBridgeMapperColor-Variant1-After1.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-05.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/SplineBridgeMapperColor-Graph.jpg "Exemplo de nó 2")
+![Exemplo de nó 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-06.jpg "Exemplo de nó 2")
 
 </td>
 </tr>

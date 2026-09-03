@@ -10,10 +10,10 @@ helpx_tags: ""
 title: SunSky físico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
 
@@ -22,45 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-physical-sun-sky.png){width="200px"}
+![](physical-sun-sky.resources/physical-sun-sky-01.png){width="200px"}
 
-## Sol/céu físico
-
-**Entrada:** *Exibição 3D/Ferramentas HDRI*
-
-**Intermediário**
+<b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Implementação física de Sun e Sky baseada no modelo de claraboia Hosek-Wikie. Fornece uma base excelente para um HDRI artificial.
 
-## Parâmetros
-
-* **Posição do Sol**:\
-  gama = [0,1]x[0,1] (ângulos de longitude e latitude)
-* **Turbidez**: *1.0 - 10.0*\
-  A turbidez varia de 1 a 10
-* **Albedo**: *0.0 - 1.0*\
-  O albedo varia de 0 a 1.
-* **Cor do solo**: *(valor da cor)*\
-  Cor do plano do solo.
-* **Exposição (EV)**: *-1.0 - 4.0*\
-  Valor da exposição da saída resultante.
-* **Tamanho do Sol**: *0.0 - 4.0*\
-  Escala do Sol, qualquer valor diferente de 1 é fisicamente incorreto. O valor tem efeitos sutis!
-* **Intensidade do Sol**: *0.0 - 1.0*\
-  Intensidade do disco solar. O disco solar é relativamente pequeno, por isso o efeito não é imediatamente visível.
-* **Intensidade do céu**: *0.0 - 1.0* Intensidade do céu. Também afeta a queima do sol no céu, não no disco em si.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/sky-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Posição do Sol</b> | gama = [0,1]x[0,1] (ângulos de longitude e latitude) |
+| <b>Turvação</b> <i>1.0 - 10.0</i> | A turbidez varia de 1 a 10 |
+| <b>Albedo</b> <i>0.0 - 1.0</i> | O albedo varia de 0 a 1. |
+| <b>Cor do solo</b> <i>(Valor da cor)</i> | Cor do plano do solo. |
+| <b>Exposição (EV)</b> <i>-1.0 - 4.0</i> | Valor da exposição da saída resultante. |
+| <b>Tamanho do Sol</b> <i>0.0 - 4.0</i> | Escala do Sol, qualquer valor diferente de 1 é fisicamente incorreto. O valor tem efeitos sutis! |
+| <b>Intensidade do Sol</b> <i>0.0 - 1.0</i> | Intensidade do disco solar. O disco solar é relativamente pequeno, por isso o efeito não é imediatamente visível. |
+| <b>Intensidade do céu</b> <i>0.0 - 1.0</i> | Intensidade do céu. Também afeta a queima do sol no céu, não no disco em si. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="physical-sun-sky.resources/physical-sun-sky-02.gif" />
+        </td>
+    </tr>
 </table>

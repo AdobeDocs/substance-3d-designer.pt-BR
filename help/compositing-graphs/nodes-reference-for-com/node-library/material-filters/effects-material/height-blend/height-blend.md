@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mesclagem de height
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 2%
+source-wordcount: '153'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-blend.png){width="128px"}
+![](height-blend.resources/height-blend-01.png){width="128px"}
 
-## Mesclagem de height
-
-**Entrada:** *Filtros/Efeitos de Material*
-
-**Simples**
+<b>Em:</b> Filtros Materiais > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,30 +37,27 @@ Combina dois mapas de altura com base nas informações do height. Gera um mapa 
 
 Isso é útil quando você tem dois mapas de altura de alta qualidade para combinar, mas não necessariamente um material completo, como é necessário para a [Mesclagem de Height de material](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md).
 
-## Parâmetros
-
-### Entradas
-
-* **Parte Superior do Height**: *Entrada em Tons de Cinza*
-* **Parte Inferior do Height**: *Entrada em Tons de Cinza*
-* **Máscara (opcional)**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Deslocamento de Height**: *0.0 - 1.0* Desloca mapas de altura para que o nível de mesclagem seja movido ao longo do eixo de height. Esse é o principal controle da mesclagem.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta o contraste da mesclagem, torna as transições mais nítidas.
-* **Modo**: *height Equilibrado, Prioridade de height inferior* Alterna entre dois modos de mesclagem diferentes.
-* **Opacidade**: *0.0 - 1.0*\
-  Mesclando a Opacidade do height de primeiro plano, ela aparece ou desaparece gradualmente.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Height Superior</b> <i>Entrada em tons de cinza</i> |  |
+| <b>Parte Inferior do Height</b> <i>Entrada em tons de cinza</i> |  |
+| <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Deslocamento de Height</b> <i>0.0 - 1.0</i> | Desloca mapas de altura para que o nível de mesclagem seja movido ao longo do eixo do height. Esse é o principal controle da mesclagem. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta o contraste da mesclagem, torna as transições mais nítidas. |
+| <b>Modo</b> <i>height balanceado, prioridade de height inferior</i> |  |
+| <b>Opacidade</b> <i>0.0 - 1.0</i> | Mesclando a Opacidade do height de primeiro plano, ela aparece ou desaparece gradualmente. |

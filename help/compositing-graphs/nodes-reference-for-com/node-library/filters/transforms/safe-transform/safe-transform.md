@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Transformação segura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 1%
+source-wordcount: '185'
+ht-degree: 5%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/safe-transform.png)
+![](safe-transform.resources/safe-transform-01.png)
 
-![](../../../../../../assets/safe-transform-grayscale.png)
+![](safe-transform.resources/safe-transform-02.png)
 
-## Transformação segura (tons de cinza)
-
-**Entrada:** *Filtros/Transformações*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Transformas
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -43,25 +39,22 @@ Versão lado a lado de [Transformar 2D](../../../../../../compositing-graphs/nod
 
 Útil para transformar o ruído quando o controle máximo ou a nitidez perfeita são necessários.
 
-## Parâmetros
-
-* **Bloco**: *1 - 16* Reduz a entrada colocando-a lado a lado.
-* **Modo de Deslocamento**: *Manual, Aleatório* Alterna para um deslocamento aleatório em vez de um definido manualmente.
-* **Deslocamento**: *0.0 - 1.0*\
-  Move ou traduz o resultado. Verifica se os pixels são encaixados e não interpolados.
-* **Rotação**: *0.0 - 1.0* Gira a entrada ao longo do ângulo.
-* **Rotação segura de blocos**: *Falso/Verdadeiro* Determina o comportamento da Rotação, se ela deve se ajustar a valores seguros que não desfocam nenhum pixel.
-* **Simetria**: *nenhuma, X, Y, X+Y*
-* **Cor do plano de fundo**: *(Valor da cor) (Somente versão da cor)*
-* **Modo de mipmap**: *Automático, Manual* Determina o modo de mipmapping. Defini-lo como Manual leva a resultados mais nítidos.
-* **Nível do mipmap**: *0 - 10* Quando o modo Mipmap está definido como Manual, você pode escolher um Mipmap diferente.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Bloco</b> <i>1 - 16</i> | Reduz a entrada colocando-a lado a lado. |
+| <b>Modo de Deslocamento</b> <i>Manual, Aleatório</i> | Alterna para um deslocamento aleatório em vez de um definido manualmente. |
+| <b>Deslocamento</b> <i>0.0 - 1.0</i> | Move ou traduz o resultado. Verifica se os pixels são encaixados e não interpolados. |
+| <b>Rotação</b> <i>0.0 - 1.0</i> | Gira a entrada na horizontal. |
+| <b>Rotação Segura de Blocos</b> <i>Falso/Verdadeiro</i> | Determina o comportamento da Rotação, se ela deve aderir a valores seguros que não desfocam nenhum pixel. |
+| <b>Simetria</b> <i>nenhum, X, Y, X+Y</i> |  |
+| <b>Cor do plano de fundo</b> <i>(Valor da cor) (Somente Versão da Cor)</i> |  |
+| <b>Modo Mipmap</b> <i>Automático, Manual</i> | Determina o modo mipmapping. Defini-lo como Manual leva a resultados mais nítidos. |
+| <b>Nível do mipmap</b> <i>0 - 10</i> | Quando o modo Mipmap está definido como Manual, isso permite escolher um Mipmap diferente. |

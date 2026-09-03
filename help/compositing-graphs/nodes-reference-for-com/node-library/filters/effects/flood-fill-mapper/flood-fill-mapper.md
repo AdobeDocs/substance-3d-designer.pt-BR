@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mapeador de Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 0%
+source-wordcount: '666'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-mapper-gray.png)![](../../../../../../assets/floodfill-mapper-color.png)
+![](flood-fill-mapper.resources/flood-fill-mapper-01.png)![](flood-fill-mapper.resources/flood-fill-mapper-02.png)
 
-## Mapeador de Flood Fill (tons de cinza)
-
-**Entrada:** *Filtros/Efeitos*
-
-**Complexo**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,66 +37,74 @@ O Mapeador de Flood Fill permite o remapeamento de um Padrão ou Textura existen
 
 A versão Cor tem controles adicionais para trabalhar com Mapas Normais, onde pode [compensar rotações de Mapa de Normap do espaço tangente](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md).
 
-## Parâmetros
-
-### Entradas
-
-* **Flood Fill Bbox**: *Entrada de cores* Entrada de Flood Fill padrão, necessária.
-* **Entrada de Padrão 1-8**: *Entrada em Tons de Cinza/Cores*\
-  Entrada de imagem de padrão personalizado.
-* **Mapa de Distribuição de Padrões**: *Entrada em Tons de Cinza* Mapa de ID para determinar qual padrão vai para qual célula. Pode vir de outro Mapa de Flood Fill, como Flood Fill para Índice.
-* **Mapa de Escala**: *Entrada em Tons de Cinza* Mapeie para determinar a Escala por célula.
-* **Mapa de rotação**: *Entrada em tons de cinza* Mapeie para determinar a Rotação por Célula.
-* **Mapa de deslocamento de luminância**: *Entrada em tons de cinza* Mapa para definir a luminância por célula
-
-### Parâmetros
-
-* **Modo de divisão em blocos gráficos**: *Não há divisão em blocos gráficos, H+V* Defina se deseja usar divisão em blocos gráficos ou não. Visível apenas se Tamanho ou Escala estiverem definidos abaixo de 1.
-* **Padrão**
-  * **Número de Entrada do Padrão**: *1 - 8* Defina a quantidade de Entradas do Padrão Personalizado a ser usada.
-  * **Modo de Distribuição de Padrão**: *Aleatório, Tamanho da Forma, Entrada do Mapa de Distribuição* Defina o método para determinar qual Padrão é mostrado em uma Célula.
-  * **Tremulação de Distribuição de Padrão**: *0.0 - 1.0* Permite uma ligeira variação ou Deslocamento na distribuição de Padrão sem alterar tudo através da Distribuição Aleatória.
-* **Tamanho**
-  * **Modo de Tamanho**: *Em relação à Textura, em relação à Forma BSphere, em relação à Forma Maior, em relação à Forma Menor, Ajustar Caixa de Forma* Defina como o tamanho do padrão em cada célula é determinado.
-  * **Tamanho**: *0.0 - 1.0* Permite o dimensionamento não uniforme do Padrão.
-  * **Escala**: *0.0 - 1.0*\
-    Defina a escala global (uniforme) do efeito.
-  * **Multiplicador de Mapa de Escala**: *0.0 - 1.0* Defina a influência do Mapa de Escala opcional.
-  * **Escala aleatória**: *-1.0 - 1.0* Defina a quantidade de variação aleatória dentro da escala de padrão.
-* **Rotação**
-  * **Rotação**: *0.0 - 1.0* Defina a rotação global e uniforme para cada célula.
-  * **Multiplicador de Mapas de rotação**: *0.0 - 1.0* Defina a influência do Mapa de rotação opcional.
-  * **Rotação aleatória**: *0.0 - 1.0* Defina a quantidade de rotação aleatória para cada célula.
-  * **Autoescala da Rotação**: *Falso/Verdadeiro* Defina se um padrão deve ajustar sua escala para caber em uma célula quando girado.
-* **Posição**
-  * **Deslocamento de Posição**: *0.0 - 1.0* Defina o deslocamento de Posição global para cada célula.
-  * **Alinhamento do deslocamento da posição**: *Textura, Padrão* Defina para alinhar o deslocamento de 0 ponto à célula Padrão ou à textura.
-  * **Deslocamento de posição aleatório**: *0.0 - 1.0* Defina a quantidade de deslocamento de posição aleatório por célula.
-* **Cor** (Somente para a versão em tons de cinza)
-  * **Intervalo de luminância**: *0.0 - 1.0* Define o contraste global na textura, onde 0 se torna cinza médio.
-  * **Intervalo de luminância aleatório**: *0.0 - 1.0* Define a quantidade de aleatoriedade para o Intervalo de luminância.
-  * **Deslocamento de luminância**: *-1.0 - 1.0* Define o deslocamento para a Luminância, trabalhando como um controle de brilho.
-  * **Deslocamento de luminância aleatório**: *0.0 - 1.0* Define a quantidade de aleatoriedade para o Deslocamento de luminância.
-  * **Multiplicador de Mapa de Deslocamento de Luminância**: *0.0 - 1.0* Define a influência do mapa de Deslocamento de Luminância opcional.
-  * **Cor do plano de fundo**: *(valor de tons de cinza)*Define a cor do plano de fundo na qual as texturas são mescladas.
-* **Cor** (Somente para a versão Colorida)
-  * **É um Mapa Normal**: *Falso/Verdadeiro* Defina para interpretar a Entrada de Padrão como um Mapa Normal. Compensará e corrigirá a rotação de espaço Tangente Normal.
-  * **Formato Normal**: *DirectX, OpenGL*\
-    Alternar entre Formatos de mapa normais diferentes (inverte o canal verde). Somente ativo quando Is Normal Map é verdadeiro.
-  * **Ajuste de HSL**: *-1.0 - 1.0* Ajustar HSL globalmente.
-  * **Aleatório HSL**: *-1.0 - 1.0* Definir aleatório HSL por célula.
-  * **Ajuste de Alpha**: *-1.0 - 1.0* Defina o ajuste de Alpha global, reduz o contraste de Alpha.
-  * **Alpha Aleatório**: *-1.0 - 1.0* Definir aleatório de ajuste de Alpha por célula.
-  * **Cor do plano de fundo**: *(valor da cor)*Define a cor do plano de fundo na qual as texturas são mescladas.
-
-.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/floodfill-mapper-ex01.png)
-
-![](../../../../../../assets/floodfill-mapper-ex02.jpg)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Flood Fill Bbox</b> <i>Entrada de cores</i> | Entrada de Flood Fill padrão, necessária. |
+| <b>Entrada de padrão 1-8</b> <i>Entrada em Tons de Cinza/Cores</i> | Entrada de imagem de padrão personalizado. |
+| <b>Mapa de Distribuição de Padrões</b> <i>Entrada em tons de cinza</i> | Mapa de ID para determinar qual padrão vai para qual célula. Pode vir de outro Mapa de Flood Fill, como Flood Fill para Índice. |
+| <b>Mapa de Escala</b> <i>Entrada em tons de cinza</i> | Mapa para determinar a Escala por célula. |
+| <b>Mapa de rotação</b> <i>Entrada em tons de cinza</i> | Mapa para determinar a Rotação por Célula. |
+| <b>Mapa de deslocamento de luminância</b> <i>Entrada em tons de cinza</i> | Mapa para definir a Luminância por Célula |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Modo Revestimento</b> <i>Sem divisão em blocos gráficos, H+V</i> | Define se deseja usar a divisão em blocos gráficos ou não. Visível apenas se Tamanho ou Escala estiverem definidos abaixo de 1. |
+| <b>Padrão</b> |  |
+| <b>Número de Entrada de Padrão</b> <i>1 - 8</i> | Defina a quantidade de Entradas de Padrão Personalizado a ser usada. |
+| <b>Modo de Distribuição de Padrão</b> <i>Aleatório, Tamanho Da Forma, Entrada Do Mapa De Distribuição</i> | Defina o método para determinar qual Padrão é mostrado em uma Célula. |
+| <b>Tremulação de Distribuição de Padrão</b> <i>0.0 - 1.0</i> | Permite uma pequena variação ou Deslocamento na distribuição do padrão sem alterar tudo pela Distribuição aleatória. |
+| <b>Tamanho</b> |  |
+| <b>Modo de Tamanho</b> <i>Em relação à Textura, em relação à forma BSphere, em relação à forma maior, em relação à forma menor, ajustar caixa de forma</i> | Define como o tamanho do padrão em cada célula é determinado. |
+| <b>Tamanho</b> <i>0.0 - 1.0</i> | Permite um dimensionamento não uniforme do padrão. |
+| <b>Escala</b> <i>0.0 - 1.0</i> | Defina a escala global (uniforme) do efeito. |
+| <b>Multiplicador de Mapa de Escala</b> <i>0.0 - 1.0</i> | Defina a influência do Mapa de escala opcional. |
+| <b>Escala aleatória</b> <i>-1.0 - 1.0</i> | Define a quantidade de variação aleatória na escala de padrão. |
+| <b>Rotação</b> |  |
+| <b>Rotação</b> <i>0.0 - 1.0</i> | Define a rotação global e uniforme para cada célula. |
+| <b>Multiplicador de Mapas de rotação</b> <i>0.0 - 1.0</i> | Definir influência do Mapa de rotação opcional. |
+| <b>Rotação aleatória</b> <i>0.0 - 1.0</i> | Define o valor de rotação aleatória para cada célula. |
+| <b>Escala Automática de Rotação</b> <i>Falso/Verdadeiro</i> | Defina se um padrão deve ajustar sua escala para caber dentro de uma célula quando girado. |
+| <b>Posição</b> |  |
+| <b>Deslocamento de Posição</b> <i>0.0 - 1.0</i> | Defina o deslocamento global da posição para cada célula. |
+| <b>Alinhamento de Deslocamento de Posição</b> <i>Textura, Padrão</i> | Defina para alinhar o deslocamento de 0 ponto à célula Padrão ou à textura. |
+| <b>Deslocamento de Posição Aleatório</b> <i>0.0 - 1.0</i> | Defina a quantidade de deslocamento aleatório de Posição por célula. |
+| <b>Cor (Somente para a versão em tons de cinza)</b> |  |
+| <b>Intervalo de luminância</b> <i>0.0 - 1.0</i> | Define o contraste global na textura, onde 0 se torna cinza médio. |
+| <b>Intervalo de luminância aleatório</b> <i>0.0 - 1.0</i> | Define a quantidade de aleatorização para o Intervalo de luminância. |
+| <b>Deslocamento de luminância</b> <i>-1.0 - 1.0</i> | Define o deslocamento para a Luminância, trabalhando como um controle de brilho. |
+| <b>Deslocamento de luminância aleatório</b> <i>0.0 - 1.0</i> | Define a quantidade de aleatorização para o Deslocamento de luminância. |
+| <b>Multiplicador de Mapa de Deslocamento de Luminância</b> <i>0.0 - 1.0</i> | Define a influência do mapa opcional de Deslocamento de luminância. |
+| <b>Cor do plano de fundo</b> <i>(Valor em tons de cinza)</i> | Define a cor do plano de fundo na qual as texturas são mescladas. |
+| <b>Cor (Somente para a versão Colorida)</b> |  |
+| <b>É Mapa normal</b> <i>Falso/Verdadeiro</i> | Defina para interpretar a Entrada de padrão como uma Mapa normal. Compensará e corrigirá a rotação de espaço Tangente Normal. |
+| <b>Formato Normal</b> <i>DirectX, OpenGL</i> | Alternar entre Formatos de mapa normais diferentes (inverte o canal verde). Somente ativo quando Is Mapa normal é verdadeiro. |
+| <b>Ajuste de HSL</b> <i>-1.0 - 1.0</i> | Ajustar o HSL globalmente. |
+| <b>HSL Aleatório</b> <i>-1.0 - 1.0</i> | Definir aleatorização por HSL por célula. |
+| <b>Ajuste de Alpha</b> <i>-1.0 - 1.0</i> | Definir ajuste de Alpha global, reduz o contraste de Alpha. |
+| <b>Alpha aleatório</b> <i>-1.0 - 1.0</i> | Definir aleatoriedade de ajuste de Alpha por célula. |
+| <b>Cor do plano de fundo</b> <i>(Valor da cor)</i> | Define a cor do plano de fundo na qual as texturas são mescladas. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-mapper.resources/flood-fill-mapper-03.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-mapper.resources/flood-fill-mapper-04.jpg" />
+        </td>
+    </tr>
 </table>

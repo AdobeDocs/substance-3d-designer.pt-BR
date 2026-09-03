@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Tabela de Área Somada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '42'
 ht-degree: 2%
 
 ---
@@ -22,20 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/summedareatable.png){width="200px"}
+![](summed-area-table.resources/summed-area-table-01.png){width="200px"}
 
-## Tabela de Área Somada
-
-**Entrada:** *Filtros/Efeitos*
-
-**Simples**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
-### Descrição
+## Descrição
 
 Retorna a *soma* dos valores de pixel da imagem, começando do pixel *canto superior esquerdo*.
 

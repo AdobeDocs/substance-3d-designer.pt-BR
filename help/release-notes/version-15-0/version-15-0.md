@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Esta atualização traz um renderizador 3D totalmente novo, com modos rasterizad
 
 *Data de lançamento: 15 de julho de 2025*
 
-![Banner](../../assets/banner-47.png "Banner da versão 15.0")
+![Banner](version-15-0.resources/version-15-0-01.png "Banner da versão 15.0")
 
 ## Novo renderizador 3D
 
@@ -32,7 +32,7 @@ Esta atualização traz um renderizador 3D totalmente novo, com modos rasterizad
 
 Esta nova versão oferece acesso a um [renderizador 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) avançado, com um modo rasterizador (para ter uma visualização em tempo real enquanto você trabalha no material) e um modo rastreador de caminho (um modo rastreado de raio para obter uma renderização perfeita e precisa). Este novo renderizador aprimora a funcionalidade com recursos como sombras no modo rasterizador, melhora a qualidade e o desempenho e foi projetado para dar suporte a tecnologias futuras como o [MaterialX](https://materialx.org/). Ele complementa os renderizadores OpenGL e Iray existentes no Designer e se alinha aos renderizadores disponíveis no Substance 3D Viewer e no Substance 3D Sampler, garantindo uma experiência uniforme em todo o ecossistema.
 
-![sombras e translucidez no rasterizador](../../assets/feature_1b.png)
+![sombras e translucidez no rasterizador](version-15-0.resources/version-15-0-02.png)
 
 A [barra de ferramentas de exibição 3d](../../interface/3d-view/3d-view.md) foi atualizada para ter acesso rápido a alguns dos novos recursos disponíveis neste renderizador:
 
@@ -51,13 +51,13 @@ Além disso, a tecla de atalho para girar a luz ambiente foi alterada para corre
 * <b>Mapeamento de tons: </b>o intervalo de cores com perfis para obter um efeito de intervalo dinâmico alto (HDR).
 * A <b>Profundidade de campo:</b> simula as propriedades de foco de uma lente de câmera (somente rasterizador).
 
-![Post FX no Designer 15.0](../../assets/postfx.gif)
+![Post FX no Designer 15.0](version-15-0.resources/version-15-0-03.gif)
 
 ## Edição de ativo em contexto
 
 Ao trabalhar em seus materiais, talvez você queira [visualizá-los no contexto de uma cena 3D específica](../../working-with-3d-scenes/working-with-3d-scenes.md). É por isso que adicionamos a possibilidade de importar e renderizar uma cena completa, com todas as suas texturas, câmeras e luzes. E cereja em cima, se esta cena faz referência a sombreadores MaterialX, eles serão renderizados corretamente com o rasterizador!
 
-Cena ![USD carregada e renderizada no Designer](../../assets/feature_2.png)
+Cena ![USD carregada e renderizada no Designer](version-15-0.resources/version-15-0-04.png)
 
 Depois de importado, você pode trabalhar em sua cena selecionando uma malha (com um SHIFT + clique ou graças ao navegador de cena) e [substituindo qualquer um de seus materiais](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). Você pode então:
 
@@ -76,17 +76,17 @@ Dicas de ferramentas avançadas foram introduzidas para demonstrar melhor o prop
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![nó de mesclagem](../../assets/blend.gif)
+![nó de mesclagem](version-15-0.resources/version-15-0-05.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![nó de desfoque](../../assets/blur.gif)
+![nó de desfoque](version-15-0.resources/version-15-0-06.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![nó de distância](../../assets/distance.gif)
+![nó de distância](version-15-0.resources/version-15-0-07.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Dicas de ferramentas avançadas foram introduzidas para demonstrar melhor o prop
 
 Se você precisar trabalhar com texturas não quadradas, essa nova opção é feita para você. Nas [propriedades do material](../../interface/3d-view/material-properties/material-properties.md) da exibição 3D, nas opções de UVs para controlar a divisão em blocos gráficos, agora você pode definir um valor diferente para ambos os eixos.
 
-![escala em V U diferente](../../assets/nonsquare.png){zoomable="yes"}
+![escala em V U diferente](version-15-0.resources/version-15-0-08.png){zoomable="yes"}
 
 ## Baking
 
@@ -110,7 +110,7 @@ Todos os anos, a [Plataforma de Referência VFX](https://vfxplatform.com/) publi
 
 ## Vídeo
 
-[![Atualização do Substance 3D Designer: novo renderizador, pós-FX e edição de contexto | Adobe Substance 3D](../../assets/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Atualização do Substance 3D Designer: novo renderizador, pós-FX e edição de contexto | Adobe Substance 3D](version-15-0.resources/version-15-0-09.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## Notas de versão
 

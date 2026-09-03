@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Scratches de desgaste sujo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungescratchesdirty.jpg){width="200px"}
+![](grunge-scratches-dirty.resources/grunge-scratches-dirty-01.jpg){width="200px"}
 
-**Entrada:** *Geradores De Textura* */Ruídos*
-
-**Simples**
+<b>Entrada:</b> Geradores de Textura > Ruídos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,29 +39,29 @@ O nó **Scratches de Desgaste Sujo** gera um mapa de desgaste semelhante a uma s
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parâmetros
 
-* **Equilíbrio** *Flutuante* Ajusta o equilíbrio entre valores escuros e brilhantes.
-* **Contraste** *Flutuar* Ajusta o contraste da imagem.
-* **Inverter** *Booleano* Inverte a saída da imagem usando uma operação `1-x`.
-* **Expansão não quadrada** *Booleano* Habilita a compensação de squash e alongamento com proporções não quadradas.
-* Avançado
-  * **Intensidade de Desgaste base** *Flutuante* Ajusta a intensidade do mapa de desgaste aplicado à superfície base.
-  * **Intensidade dos Scratches** *Flutuante* Ajusta a intensidade dos arranhões na superfície base.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
+| <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
+| <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+| <b>Avançado</b> |  |
+| <b>Intensidade de Desgaste base</b> <i>Flutuante</i> | Ajusta a intensidade do mapa de desgaste aplicado à superfície base. |
+| <b>Intensidade de Scratches</b> <i>Flutuante</i> | Ajusta a intensidade dos arranhões na superfície base. |
 
-## Imagens de exemplo
+## Exemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungescratchesdirty-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungescratchesdirty-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-scratches-dirty.resources/grunge-scratches-dirty-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-scratches-dirty.resources/grunge-scratches-dirty-03.jpg" />
+        </td>
+    </tr>
 </table>

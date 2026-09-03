@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Não é possível criar um carregamento de projeto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Esta página lista as causas comuns para falhas ao criar ou carregar projetos no
 
 ## O aplicativo é muito antigo para abrir a URL
 
-**![(erro)](../../assets/error.svg) Problema**
+**![(erro)](cannot-create-load-a-project.resources/error.svg) Problema**
 
 O **arquivo do Substance 3D (SBS)** está sendo carregado por uma versão do Substance 3D Designer que *não oferece suporte ao seu formato*. O arquivo do Substance 3D provavelmente foi *salvo em uma versão mais recente* do software que usa um formato atualizado para esses arquivos.
 
-**![(tick)](../../assets/check.svg) Etapas recomendadas**
+**![(tick)](cannot-create-load-a-project.resources/check.svg) Etapas recomendadas**
 
 À medida que o Substance 3D Designer evolui, o formato de arquivo Substance 3D (SBS) também evolui. Na maioria das vezes, uma nova versão do software precisará *atualizar seus arquivos* para que eles possam oferecer suporte aos recursos mais recentes.
 
@@ -43,7 +43,7 @@ Você é *solicitado* a executar esta atualização ao *carregar o arquivo pela 
 Primeiro, verifique se você está usando a versão mais recente do Substance 3D Designer permitida por sua licença atual. Veja a seguir os pontos de acesso às atualizações de cada edição:
 
 * <b>Assinatura do Adobe Substance 3D:</b> acesse a seção Atualizações da guia Aplicativos no aplicativo [Adobe Creative Cloud para desktop](https://creativecloud.adobe.com/en/apps/download/creative-cloud)
-* Assinatura do <b>[Substance3d.com](http://Substance3d.com):</b> atualize quando solicitado no Substance 3D Designer ou baixe o instalador mais recente na seção [Minhas Licenças](https://store.substance3d.com/user) do site [Substance3d.com](http://substance3d.com)
+* assinatura do <b>[Substance3d.com](http://Substance3d.com):</b> atualize quando solicitado no Substance 3D Designer ou baixe o instalador mais recente na seção [Minhas licenças](https://store.substance3d.com/user) do site [Substance3d.com](http://substance3d.com)
 * <b>Vapor:</b> o aplicativo será atualizado automaticamente por padrão. Você pode acionar manualmente a atualização iniciando o Substance 3D Designer ou acessando a tela Downloads
 
 >[!WARNING]
@@ -54,7 +54,7 @@ Primeiro, verifique se você está usando a versão mais recente do Substance 3D
 
 ## Falha ao criar ou carregar um projeto
 
-<b>![(erro)](../../assets/error.svg) Problema</b>
+<b>![(erro)](cannot-create-load-a-project.resources/error.svg) Problema</b>
 
 Uma falha ao criar ou carregar um projeto geralmente é causada por um erro durante a inicialização da [Exibição 3D](../../interface/3d-view/3d-view.md), que ocorre quando o espaço de trabalho está sendo configurado.
 
@@ -62,7 +62,7 @@ Se o sistema for um laptop, um aplicativo de terceiros poderá impor um *plano d
 
 Também pode ocorrer uma falha quando a *configuração de exibição ou o dimensionamento* foi alterado entre as sessões, de modo que o quadro de renderização de Exibição 3D é criado em coordenadas inválidas.
 
-<b>![(tick)](../../assets/check.svg) Etapas recomendadas</b>
+<b>![(tick)](cannot-create-load-a-project.resources/check.svg) Etapas recomendadas</b>
 
 Considerando as várias causas possíveis dessa falha, sugerimos seguir as seguintes etapas de solução de problemas em ordem:
 
@@ -74,7 +74,7 @@ Forçar melhor desempenho
 
 Procure qualquer software que gerencie o *plano de energia* do seu sistema (por exemplo, o AOS Armory Crate), especialmente quando o sistema for um laptop.
 
-Alguns aplicativos de gerenciamento de energia podem limitar o acesso de outros aplicativos à GPU do sistema ou prejudicar o desempenho da GPU, o que pode resultar em falhas. Se um aplicativo de gerenciamento de energia existir e estiver ativo, mude para o plano que permite o melhor desempenho.
+Alguns aplicativos de gerenciamento de energia podem limitar o acesso de outros aplicativos à GPU do sistema ou prejudicar o desempenho da GPU, o que pode resultar em falhas. Se um aplicativo de gerenciamento de energia existir e estiver ativo, mude para o plano que permite o melhor desempenho.
 
 Forçar o uso de GPU separada
 
@@ -127,13 +127,13 @@ Desconecte o segundo monitor do sistema e conecte-o novamente (ignore esta etapa
 
 Inicie o Designer, mas *não* crie ou abra um projeto
 
-* Na barra superior, abra o menu <b>Janelas</b> e selecione a opção <b>Nova Exibição 3D</b>
+* Na barra superior, abra o menu <b>Janelas</b> e selecione a opção <b>Novo Visualização 3D</b>
 
-Na barra superior, abra o menu <b>Janelas</b> e selecione a opção <b>Nova Exibição 3D</b>
+Na barra superior, abra o menu <b>Janelas</b> e selecione a opção <b>Novo Visualização 3D</b>
 
-* Verifique se a <b>Exibição 3D</b> foi inicializada corretamente e tente outras malhas de visualização no menu <b>Cena</b> da barra superior do painel
+* Verifique se o <b>Visualização 3D</b> foi inicializado corretamente e tente visualizar malhas diferentes no menu <b>Cena</b> da barra superior do painel
 
-Verifique se a <b>Exibição 3D</b> foi inicializada corretamente e tente outras malhas de visualização no menu <b>Cena</b> da barra superior do painel
+Verifique se o <b>Visualização 3D</b> foi inicializado corretamente e tente visualizar malhas diferentes no menu <b>Cena</b> da barra superior do painel
 
 * Criar ou abrir um material
 
@@ -180,13 +180,13 @@ Desconecte o segundo monitor do sistema e conecte-o novamente (ignore esta etapa
 
 Inicie o Designer, mas *não* crie ou abra um projeto
 
-* Na barra superior, abra o menu <b>Janelas</b> e selecione a opção <b>Nova Exibição 3D</b>
+* Na barra superior, abra o menu <b>Janelas</b> e selecione a opção <b>Novo Visualização 3D</b>
 
-Na barra superior, abra o menu <b>Janelas</b> e selecione a opção <b>Nova Exibição 3D</b>
+Na barra superior, abra o menu <b>Janelas</b> e selecione a opção <b>Novo Visualização 3D</b>
 
-* Verifique se a <b>Exibição 3D</b> foi inicializada corretamente e tente outras malhas de visualização no menu <b>Cena</b> da barra superior do painel
+* Verifique se o <b>Visualização 3D</b> foi inicializado corretamente e tente visualizar malhas diferentes no menu <b>Cena</b> da barra superior do painel
 
-Verifique se a <b>Exibição 3D</b> foi inicializada corretamente e tente outras malhas de visualização no menu <b>Cena</b> da barra superior do painel
+Verifique se o <b>Visualização 3D</b> foi inicializado corretamente e tente visualizar malhas diferentes no menu <b>Cena</b> da barra superior do painel
 
 * Criar ou abrir um material
 

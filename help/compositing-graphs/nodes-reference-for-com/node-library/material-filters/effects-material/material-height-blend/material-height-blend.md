@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mesclagem de Height de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 1%
+source-wordcount: '203'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-height-blend.png){width="128px"}
+![](material-height-blend.resources/material-height-blend-01.png){width="128px"}
 
-## Mesclagem de Height de material
-
-**Entrada:** *Filtros/Efeitos de Material*
-
-**Intermediário**
+<b>Em:</b> Filtros Materiais > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -43,26 +39,19 @@ Isso pode ser útil para combinar dois materiais diferentes e de alta qualidade 
 
 Se você quiser se misturar na água ou na neve, os nós [Snow Cover](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md) e [Water Level](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md) estão disponíveis.
 
-## Parâmetros
-
-### Parâmetros
-
-* **Canais**\
-  Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza.
-* **Deslocamento de Height**: *0.0 - 1.0* Desloca mapas de altura para que o nível de mesclagem seja movido ao longo do eixo de height. Esse é o principal controle da mesclagem.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta o contraste da mesclagem, torna as transições mais nítidas.
-* **Modo**: *height Equilibrado, Prioridade de height inferior* Alterna entre dois modos de mesclagem diferentes.
-* **Opacidade**: *0.0 - 1.0*\
-  Mesclando a Opacidade do height de primeiro plano, ela aparece ou desaparece gradualmente.
-* **Correspondência de Albedo**: *0.0 - 1.0* A quantidade de correspondência de cor interna a ser executada entre as cores do Albedo.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Canais</b> | Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza. |
+| <b>Deslocamento de Height</b> <i>0.0 - 1.0</i> | Desloca mapas de altura para que o nível de mesclagem seja movido ao longo do eixo do height. Esse é o principal controle da mesclagem. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta o contraste da mesclagem, torna as transições mais nítidas. |
+| <b>Modo</b> <i>height balanceado, prioridade de height inferior</i> |  |
+| <b>Opacidade</b> <i>0.0 - 1.0</i> | Mesclando a Opacidade do height de primeiro plano, ela aparece ou desaparece gradualmente. |
+| <b>Correspondência de Albedo</b> <i>0.0 - 1.0</i> | A quantidade de correspondência de cor interna a ser executada entre cores de Albedo. |

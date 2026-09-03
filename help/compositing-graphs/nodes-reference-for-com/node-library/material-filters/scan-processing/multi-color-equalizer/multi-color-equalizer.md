@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Multi Color Equalizer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 1%
+source-wordcount: '314'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-equalizer-multi.png){width="128px"}
+![](multi-color-equalizer.resources/multi-color-equalizer-01.png){width="128px"}
 
-## Multi Color Equalizer
-
-**Entrada:** *Filtros de Material/Processamento de Digitalização*
-
-**Complexo**
+<b>Entrada:</b> Filtros Materiais > Processamento de materiais escaneados
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -43,42 +39,39 @@ Esta é a versão de várias entradas do [Color Equalizer](../../../../../../com
 >
 > Consulte o [Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/color-equalizer/color-equalizer.md) original para obter mais informações.
 
-## Parâmetros
-
-### Entradas
-
-* **Entrada 1-8**: *Entrada de cores* Várias entradas para processar.
-* **Entrada de máscara**: *entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Contagem de entradas**: *1 - 8* Define o número de entradas a serem processadas em paralelo.
-* **Entrada lado a lado**: *Falso/Verdadeiro* Preserva opcionalmente a divisão em blocos gráficos nas bordas.
-* **Raio**: *0.0 - 50.0* Define o raio de equalização. Um raio maior removerá apenas grandes diferenças de cores. Isso requer ajustes para cada imagem.
-* **Equilíbrio claro/escuro**: *0.0 - 1.0* Configuração de polarização para deixar ou remover tons mais escuros.
-* **Variação de cor personalizada**: *False/True* Permite variar o efeito em direção a uma cor especificada pelo usuário.
-* **Variação de cor**\
-  Ativa somente se a Variação de cor personalizada estiver ativada. As configurações permitem selecionar um deslocamento de tom no qual equalizar.
-  * **Matiz**: *0.0 - 360.0*
-  * **Croma**: *0.0 - 1.0*
-  * **Luma**: *0.0 - 1.0*
-* **Origem da Máscara**: *Nenhuma, Média de Imagens, Parâmetro de Cor, Entrada* Define se algum mascaramento deve acontecer. O parâmetro de cor ativa as configurações adicionais abaixo, a entrada alterna para uma entrada de máscara definida pelo usuário.
-* **Máscara**\
-  Ativo somente com o mascaramento do parâmetro de cor. Contém parâmetros de mascaramento adicionais para determinar a máscara com base na própria imagem. Os parâmetros abaixo permitem converter com precisão um matiz em uma máscara binária na qual a equalização é aplicada. Observe que os efeitos do parâmetro Raio podem se tornar muito menos pronunciados ao usar essas configurações.
-  * **Cor**: *(valor da cor)*
-  * **Intervalo de matiz**: *0.0 - 360.0*
-  * **Intervalo Cromático**: *0.0 - 1.0*
-  * **Intervalo Luma**: *0.0 - 1.0*
-  * **Desfoque**: *0.0 - 2.0*
-  * **Smoothness**: *0.0 - 2.0*
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada 1-8</b> <i>Entrada de cores</i> | Várias entradas para processar. |
+| <b>Entrada de máscara</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Contagem de entradas</b> <i>1 - 8</i> | Define o número de entradas a serem processadas em paralelo. |
+| <b>Entrada lado a lado</b> <i>Falso/Verdadeiro</i> | Opcionalmente, preserva a divisão em blocos gráficos nas bordas. |
+| <b>Raio</b> <i>0.0 - 50.0</i> | Define o raio de equalização. Um raio maior removerá apenas grandes diferenças de cores. Isso requer ajustes para cada imagem. |
+| <b>Equilíbrio de brilho/escuro</b> <i>0.0 - 1.0</i> | Configuração de polarização para deixar ou remover tons mais escuros. |
+| <b>Variação de cor personalizada</b> <i>Falso/Verdadeiro</i> | Permite variar o efeito em direção a uma cor especificada pelo usuário. |
+| <b>Variação de cor</b> | Ativa somente se a Variação de cor personalizada estiver ativada. As configurações permitem selecionar um deslocamento de tom no qual equalizar. |
+| <b>Matiz</b> <i>0.0 - 360.0</i> |  |
+| <b>Croma</b> <i>0.0 - 1.0</i> |  |
+| <b>Luma</b> <i>0.0 - 1.0</i> |  |
+| <b>Origem da máscara</b> <i>Nenhum, Média De Imagens, Parâmetro De Cor, Entrada</i> | Define se algum mascaramento deve acontecer. O parâmetro de cor ativa as configurações adicionais abaixo, a entrada alterna para uma entrada de máscara definida pelo usuário. |
+| <b>Máscara</b> | Ativo somente com o mascaramento do parâmetro de cor. Contém parâmetros de mascaramento adicionais para determinar a máscara com base na própria imagem. Os parâmetros abaixo permitem converter com precisão um matiz em uma máscara binária na qual a equalização é aplicada. Observe que os efeitos do parâmetro Raio podem se tornar muito menos pronunciados ao usar essas configurações. |
+| <b>Cor</b> <i>(Valor da cor)</i> |  |
+| <b>Intervalo de matiz</b> <i>0.0 - 360.0</i> |  |
+| <b>Intervalo cromático</b> <i>0.0 - 1.0</i> |  |
+| <b>Intervalo Luma</b> <i>0.0 - 1.0</i> |  |
+| <b>Desfoque</b> <i>0.0 - 2.0</i> |  |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> |  |

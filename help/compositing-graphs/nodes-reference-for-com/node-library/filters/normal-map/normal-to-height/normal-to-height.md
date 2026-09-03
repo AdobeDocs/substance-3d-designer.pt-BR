@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Normal para Height
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 1%
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-to-height.png){width="128px"}
+![](normal-to-height.resources/normal-to-height-01.png){width="128px"}
 
-## Normal para Height
-
-**Entrada:** *Filtros/Mapa Normal*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Mapa normal
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,19 +37,26 @@ Nó de conversão reversa que tenta converter um Normalmap de espaço tangente e
 
 Útil quando você tem apenas uma origem Normalmap, mas ainda deseja executar operações que a combinam com um Heightmap. Lembre-se de que isso nunca poderá fornecer um resultado 100% correto, pois as informações são perdidas por natureza do processo quando o Height é convertido para Normal. Se você ajustar as configurações de acordo, esta versão não-HQ faz um trabalho decente de converter detalhes simples.
 
-## Parâmetros
-
-* **Equilíbrio de Relevos**: *0.0 - 1.0* Ajuste a extensão em que as diferentes frequências influenciam o resultado final. Isso é amplamente dependente do mapa de entrada e requer um pouco de ajustes.
-* **Formato Normal**: *DirectX, OpenGL*\
-  Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde).
-* **Opacidade global**: *0.0 - 1.0* Ajusta a opacidade global do efeito.
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/normal2heightex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Saldo do Relevo</b> <i>0.0 - 1.0</i> | Ajuste a extensão em que as diferentes frequências influenciam o resultado final. Isso é amplamente dependente do mapa de entrada e requer um pouco de ajustes. |
+| <b>Formato Normal</b> <i>DirectX, OpenGL</i> | Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde). |
+| <b>Opacidade Global</b> <i>0.0 - 1.0</i> | Ajusta a opacidade global do efeito. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="normal-to-height.resources/normal-to-height-02.png" />
+        </td>
+    </tr>
 </table>

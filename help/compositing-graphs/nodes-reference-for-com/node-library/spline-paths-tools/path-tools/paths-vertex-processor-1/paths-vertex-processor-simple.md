@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Caminhos Processador de vértice simples
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 0%
+source-wordcount: '327'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/paths-vertex-processor-simple-icon.png "Ícone de nó")
+![Ícone de nó](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-01.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -55,28 +55,31 @@ Você também pode acessar as variáveis *vertex.corner* (bool) e *path.id* (flo
 >
 > Consulte também [Processador de vértice de caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md).
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Caminhos</b> *Cor*\
-Uma lista de caminhos de segmentos codificados. Conecte esta entrada ao resultado de uma [Máscara para Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou a outro nó de processamento de Caminho.
+## Entradas
 
-<b>Entrada #</b> *Cores/Tons de Cinza*\
-Entradas para imagens que devem ser amostradas na função de parâmetro <b>Função por vértice</b>.
+|  |  |
+|:---|:---|
+| <b>Caminhos</b> <i>Cor</i> | Uma lista de caminhos de segmentos codificados. Conecte esta entrada ao resultado de uma [Máscara para Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou a outro nó de processamento de Caminho. |
+| <b>Entrada #</b> <i>Cores/Tons de Cinza</i> | Entradas para imagens que devem ser amostradas na função de parâmetro <b>Função por vértice</b>. |
 
-## Conectores de saída
+<a name="outputs"></a>
 
-<b>Caminhos</b> *Cor*\
-Os caminhos transformados. Você pode usar [Visualizar Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) para ter uma ideia do que o resultado representa, usar outro nó de processamento de Caminhos ou inseri-lo em um [Caminhos para Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para processá-lo posteriormente como Splines.
+## Saídas
+
+|  |  |
+|:---|:---|
+| <b>Caminhos</b> <i>Cor</i> | Os caminhos transformados. Você pode usar [Visualizar Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) para ter uma ideia do que o resultado representa, usar outro nó de processamento de Caminhos ou inseri-lo em um [Caminhos para Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para processá-lo posteriormente como Splines. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Contagem de entrada de imagem</b> *Inteiro* O número de conectores de entrada <b>de #</b> visíveis para conectar imagens que devem ser amostradas na função de parâmetro <b>Função por vértice</b>.\
-Quando terminar de configurar todas as amostras desejadas, você poderá ocultar os pinos não utilizados, reduzindo o valor desse parâmetro de volta a 0.\
-Se você precisar de mais entradas, use o [Processador de Vértice de Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md).
-
-<b>Função por vértice</b> *Flutuante2*\
-Função aplicada para cada vértice. É necessário retornar a nova posição de vértice.\
-Consulte a seção <b>Descrição</b> nesta página para obter orientações.
+|  |  |
+|:---|:---|
+| <b>Contagem de entrada de imagem</b> <i>Inteiro</i> | O número de conectores de entrada <b>de #</b> visíveis para conectar imagens que devem ser amostrados na função de parâmetro <b>Função por vértice</b>.<br>Depois de concluir a configuração de todas as amostras desejadas, você pode ocultar fixares não utilizados, reduzindo o valor deste parâmetro de volta para 0.<br>Se precisar de mais entradas, use o [Processador de Vértice de Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md). |
+| <b>Função por vértice</b> <i>Flutuante2</i> | Função aplicada para cada vértice. É necessário retornar a nova posição de vértice.<br>Consulte a seção <b>Descrição</b> nesta página para obter orientações. |
 
 ## Exemplos
 
@@ -84,7 +87,7 @@ Consulte a seção <b>Descrição</b> nesta página para obter orientações.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Exemplo de nó 2")
+![Exemplo de nó 2](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-02.gif "Exemplo de nó 2")
 
 </td>
 <td style="border: 0;" valign="top">

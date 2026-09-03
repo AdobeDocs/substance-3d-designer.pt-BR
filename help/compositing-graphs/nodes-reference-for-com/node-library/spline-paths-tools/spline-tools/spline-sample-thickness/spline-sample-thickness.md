@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Thickness de amostra de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,9 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/spline-sample-thickness-icon.png "Ícone de nó")
+![Ícone de nó](spline-sample-thickness.resources/spline-sample-thickness-01.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -45,76 +41,43 @@ O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mescl
 </tr>
 </table>
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Visualizar</b> *Tons de cinza* A visualização das linhas divisórias de entrada como uma imagem em tons de cinza.
+## Entradas
 
-<b>Cordas de spline</b> *Cor* As coordenadas dos pontos das splines de entrada codificadas nos canais RGBA de uma imagem colorida:\
-<b> R</b> - Posição X\
-<b> G</b> - posição Y\
-<b> B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Visualizar</b> <i>Tons de cinza</i> | A visualização das linhas de entrada como uma imagem em tons de cinza. |
+| <b>Cordas de spline</b> <i>Cor</i> | As coordenadas dos pontos das linhas divisórias de entrada codificadas nos canais RGBA de uma imagem colorida:<br><b>R</b> - posição X<br><b>G</b> - posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br> - Sinal: a linha divisória é fechada (negativa) ou aberta (positiva);<br> - Valor absoluto: Thickness + 1. |
+| <b>Dados de Spline</b> <i>Cor</i> | Dados adicionais das splines de entrada codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Não Usadas<br><b>A</b> - Não Usadas |
+| <b>Valor da spline</b> <i>Inteiro</i> | O número de splines de entrada. |
+| <b>Mapa de Espessura</b> <i>Tons de cinza</i> | A imagem em tons de cinza de entrada usada para alterar o thickness da spline de entrada. |
 
-<b>Dados de Spline</b> *Cor* Dados adicionais das splines de entrada codificados nos canais RGBA de uma imagem colorida.\
-<b> R</b> - Tangentes X\
-<b> G</b> - Tangentes Y\
-<b> B</b> - Não Usado\
-<b> A</b> - Não Usado
+<a name="outputs"></a>
 
-<b>Valor da spline</b> *Inteiro* O número de splines de entrada.
+## Saídas
 
-<b>Mapa de Thicknesss</b> *Tons de cinza* A imagem em tons de cinza de entrada usada para alterar o thickness da spline de entrada.
+|  |  |
+|:---|:---|
+| <b>Visualizar</b> <i>Tons de cinza</i> | A visualização das linhas de saída como uma imagem em tons de cinza. |
+| <b>Cordas de spline</b> <i>Cor</i> | As coordenadas dos pontos das linhas divisórias de saída codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Posição X<br><b>G</b> - Posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br> - Sinal: a linha divisória é fechada (negativa) ou aberta (positiva);<br> - Valor absoluto: Thickness + 1. |
+| <b>Dados de Spline</b> <i>Cor</i> | Dados adicionais das splines de saída codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Não Usadas<br><b>A</b> - Não Usadas |
+| <b>Valor da spline</b> <i>Inteiro</i> | O número de splines de saída. |
 
-## Conectores de saída
-
-<b>Visualizar</b> *Tons de cinza* A visualização das linhas divisórias de saída como uma imagem em tons de cinza.
-
-<b>Cordas de spline</b> *Cor* As coordenadas dos pontos das linhas divisórias de saída codificadas nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
-
-<b>Dados de Spline</b> *Cor* Dados adicionais das splines de saída codificados nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Não Usado\
-    <b>A</b> - Não Usado
-
-<b>Valor da spline</b> *Inteiro* O número de splines de saída.
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Modo de amostragem</b> *Inteiro* O método de mapear os valores no Mapa de Thicknesss para as linhas de spline:\
-*- Espaço de textura*: os valores são aplicados às splines nos quais estariam se fossem colocados em uma textura usando as coordenadas UV da textura. Isso aplica efetivamente o valor aos splines “in place”;\
-*- Horizontal ao longo da spline*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords da spline), onde cada linha é aplicada a uma spline diferente de cima para baixo;\
-*- Hora. ao longo do spline (rand. deslocamento X)*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento horizontal aleatório no mapa de Escala para cada spline (ou seja, cada linha em Coords de spline);\
-*- Hora. ao longo do spline (rand. deslocamento Y)*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento vertical aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de spline).
-
-<b>Opacidade</b> *Flutuante* Um multiplicador para a intensidade da contribuição da entrada do Mapa de Thickness para o thickness da spline.<b></b>
-
-<b>Modo de Mesclagem</b> *Inteiro* O método de mesclar os dados do Mapa de Thickness com o thickness <span id="_Hlk135820484"></span>da spline de entrada:\
-*- Copiar*: substitui o thickness da spline pelos valores do Mapa de Height;\
-*- Adicionar*: adiciona os valores de Mapa de Thickness ao thickness da spline;\
-*- Subtrair*: subtrai os valores do Mapa de Thickness ao thickness da spline;\
-*- Multiplicar*: multiplica os valores do Mapa de Thickness em relação ao thickness da spline.
-
-+++Visualização
-<b>Valor de Segmentos</b> *Inteiro* Ajusta o número de segmentos usados para desenhar a visualização de spline na saída da Visualização.\
-Um valor mais alto resulta em uma linha mais suave.
-
-<b>Mostrar Auxiliar de Direção</b> *Booleano* Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização.
-
-<b>Mostrar Envelope de Thickness</b> *Booleano*\
-Exibe linhas adicionais nas bordas do thickness da spline.
-
-<b>Thickness (px)</b> *Flutuante* Ajusta o thickness da visualização da spline em pixels na saída da Visualização.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Modo de amostragem</b> <i>Inteiro</i> | O método de mapear os valores no Mapa de Espessura para os splines:<br>- <i>espaço de Textura</i>: os valores são aplicados aos splines nos quais estariam se colocados em uma textura usando as coordenadas UV da textura. Isso aplica efetivamente o valor às linhas de spline “no local”;<br>- <i>Horizontal ao longo da linha de spline</i>: os valores são aplicados diretamente às coordenadas das linhas de spline codificadas (consulte a entrada de Palavras de spline), onde cada linha é aplicada a uma linha de spline diferente de cima para baixo;<br>- <i>Hor. ao longo do spline (rand. deslocamento X)</i>: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte a entrada de Coords de spline), com um deslocamento horizontal aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de Spline);<br>- <i>Hora. ao longo do spline (rand. deslocamento Y)</i>: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento vertical aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de spline). |
+| <b>Opacidade</b> <i>Flutuante</i> | Um multiplicador da intensidade da contribuição da entrada do Mapa de espessura para o thickness do spline. |
+| <b>Modo de Mesclagem</b> <i>Inteiro</i> | O método de mesclar os dados do Mapa de Espessura com o <span id="_Hlk135820484"></span>thickness:<br>- <i>Copiar</i> da spline de entrada: substitua o thickness da spline pelos valores do Mapa de Altura;<br>- <i>Adicionar</i>: adicione os valores do Mapa de Espessura ao thickness da spline;<br>- <i>Subtrair</i>: Subtrair os valores do Mapa de Espessura para o thickness da spline;<br>- <i>Multiplicar</i>: multiplique os valores do Mapa de Espessura com os thickness de spline. |
+| <b>Visualizar</b> |  |
+| <b>Valor de Segmentos</b> <i>Inteiro</i> | Ajusta o número de segmentos usados para desenhar a visualização de spline na saída da Visualização.<br>Um valor mais alto resulta em uma linha mais suave. |
+| <b>Mostrar Auxiliar de Direção</b> <i>Booleano</i> | Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização. |
+| <b>Mostrar Envelope de Thickness</b> <i>Booleano</i> | Exibe linhas adicionais nas bordas do thickness da spline. |
+| <b>Thickness (px)</b> <i>Flutuante</i> | Ajusta o thickness da visualização da spline em pixels na saída da Visualização. |
 
 ## Exemplos
 
@@ -125,11 +88,11 @@ Exibe linhas adicionais nas bordas do thickness da spline.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
+      <img src="spline-sample-thickness.resources/spline-sample-thickness-02.jpg" alt="SplineSampleThickness-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant1-After.jpg" alt="EspessuraAmostraEspessura-Variante1-Depois">
+      <img src="spline-sample-thickness.resources/spline-sample-thickness-03.jpg" alt="EspessuraAmostraEspessura-Variante1-Depois">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -141,11 +104,11 @@ Exibe linhas adicionais nas bordas do thickness da spline.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
+      <img src="spline-sample-thickness.resources/spline-sample-thickness-04.jpg" alt="SplineSampleThickness-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
+      <img src="spline-sample-thickness.resources/spline-sample-thickness-05.jpg" alt="SplineSampleThickness-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -159,26 +122,12 @@ Exibe linhas adicionais nas bordas do thickness da spline.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/SplineSampleThickness-Variant1-After1.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](spline-sample-thickness.resources/spline-sample-thickness-06.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/SplineSampleThickness-Demo.gif "Exemplo de nó 2")
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Exemplo de nó 2](spline-sample-thickness.resources/spline-sample-thickness-07.gif "Exemplo de nó 2")
 
 </td>
 </tr>

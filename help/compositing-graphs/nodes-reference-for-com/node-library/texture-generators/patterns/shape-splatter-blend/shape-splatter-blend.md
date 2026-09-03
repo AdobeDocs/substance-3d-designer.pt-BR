@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mesclagem de respingos de forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 2%
+source-wordcount: '105'
+ht-degree: 14%
 
 ---
 
@@ -22,43 +22,45 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-blend.png){width="128px"}
+![](shape-splatter-blend.resources/shape-splatter-blend-01.png){width="128px"}
 
-## Mesclagem de respingos de forma (cor)
-
-**Entrada:** *Geradores De Textura**/Padrões*
-
-**Complexo**
+<b>Em:</b> Textura Geradores > Padrões
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Usa os dados do [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) como entrada para gerar mapas de cores ou tons de cinza.
 
-## Parâmetros
-
-* **Cor Do Plano De Fundo**: *Entrada De Cores*
-* **Padrão 1-8**: *Entrada de Cores*
-* **Entrada de cores**: *Entrada de cores*
-* **Dados De Respingo 1**: *Entrada De Cores*
-* **Dados De Respingo 2**: *Entrada De Cores*
-
-### Parâmetros
-
-* **Número de Padrão**: *1 - 8*
-* **Atribuição de Padrão Aleatória (Somente Cor)**: *0.0 - 1.0*
-* **&#x200B; Is Normal Map &#x200B;**(Color Only)***: *False/True*
-* **Ajuste de HSL/Luminância**: *-1.0 - 1.0*
-* **HSL/Luminância Aleatória**: *-1.0 - 1.0*
-* **&#x200B;Ângulo Normal Aleatório &#x200B;**(Somente Cor)***: *0.0 - 1.0*
-* **Opacidade De Entrada De Cores**: *0.0 - 1.0*
-
-## Imagens de exemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Cor do plano de fundo</b> <i>Entrada de cores</i> |  |
+| <b>Padrão 1-8</b> <i>Entrada de cores</i> |  |
+| <b>Entrada de cores</b> <i>Entrada de cores</i> |  |
+| <b>Dados de respingo 1</b> <i>Entrada de cores</i> |  |
+| <b>Dados de respingo 2</b> <i>Entrada de cores</i> |  |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Número de Padrão</b> <i>1 - 8</i> |  |
+| <b>Atribuição De Padrão Aleatória (Somente Cores)</b> <i>0.0 - 1.0</i> |  |
+| <b>É Mapa normal (Somente Cor)</b> <i>Falso/Verdadeiro</i> |  |
+| <b>Ajuste de HSL/Luminância</b> <i>-1.0 - 1.0</i> |  |
+| <b>HSL/Luminância aleatória</b> <i>-1.0 - 1.0</i> |  |
+| <b>Ângulo Normal Aleatório (Somente Cor)</b> <i>0.0 - 1.0</i> |  |
+| <b>Opacidade de entrada de cores</b> <i>0.0 - 1.0</i> |  |

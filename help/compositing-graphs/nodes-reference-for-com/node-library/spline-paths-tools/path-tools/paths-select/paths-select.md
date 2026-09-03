@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Seleção de demarcadores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/paths-select-icon.png "Ícone de nó")
+![Ícone de nó](paths-select.resources/paths-select-01.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -39,31 +39,32 @@ Isole um caminho entre vários contidos em Caminhos.
 </tr>
 </table>
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Rótulo</b> *Tipo*\
-Uma lista de caminhos de segmentos codificados. Conecte esta entrada ao resultado de uma [Máscara para Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou a outro nó de processamento de Caminho.
+## Entradas
 
-## Conectores de saída
+|  |  |
+|:---|:---|
+| <b>Rótulo</b> <i>Tipo</i> | Uma lista de caminhos de segmentos codificados. Conecte esta entrada ao resultado de uma [Máscara para Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) ou a outro nó de processamento de Caminho. |
 
-<b>Caminhos</b> *Cor*\
-A entrada Caminhos com apenas um caminho. Você pode usar [Visualizar Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) para ter uma ideia do que o resultado representa, usar outro nó de processamento de Caminhos ou inseri-lo em um [Caminhos para Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para processá-lo posteriormente como Splines.
+<a name="outputs"></a>
+
+## Saídas
+
+|  |  |
+|:---|:---|
+| <b>Caminhos</b> <i>Cor</i> | A entrada Caminhos com apenas um caminho. Você pode usar [Visualizar Caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) para ter uma ideia do que o resultado representa, usar outro nó de processamento de Caminhos ou inseri-lo em um [Caminhos para Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para processá-lo posteriormente como Splines. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Modo de Seleção</b> *Inteiro* O método usado para selecionar os Caminhos:\
-*- Por ID:* Seleciona o caminho na lista cujo índice corresponde ao especificado em <b>ID do Caminho</b>;\
-*- Por Comprimento:* Seleciona os caminhos cujo comprimento está acima ou abaixo do limite especificado em <b>Comprimento de Destino</b>.
-
-<b>ID do Caminho</b> *Inteiro* (Disponível quando o <b>Modo de Seleção</b> está definido como *Por ID*)\
-O índice do caminho selecionado.\
-Um valor maior que o número de caminhos em <b>Caminhos *resulta em*</b> uma saída em branco.
-
-<b>Comprimento Maior ou Menor?</b> *Booleano* (Disponível quando o <b>Modo de Seleção</b> está definido como *Por Comprimento*)\
-Controla se a seleção deve incluir um comprimento maior ou menor que <b>Tamanho de Destino</b>.
-
-<b>Comprimento de Destino</b> *Flutuante*(Disponível quando o <b>Modo de Seleção</b> está definido como *Por Comprimento*)\
-O limite de comprimento usado para selecionar splines.
+|  |  |
+|:---|:---|
+| <b>Modo de Seleção</b> <i>Inteiro</i> | O método usado para selecionar os Caminhos:<br>*- Por ID:* Seleciona o caminho na lista cujo índice corresponde ao especificado em <b>ID do Caminho</b>;<br>*- Por Comprimento:* Seleciona os caminhos cujo comprimento está acima ou abaixo do limite especificado em <b>Comprimento de Destino</b>. |
+| <b>ID do Caminho</b> <i>Inteiro</i> (Disponível quando o <b>Modo de Seleção</b> está definido como *Por ID*) | O índice do caminho selecionado.<br>Um valor maior que o número de caminhos em <b>Caminhos *resulta em*</b> uma saída em branco. |
+| <b>Comprimento Maior ou Menor?</b> <i>Booleano</i> (Disponível quando o <b>Modo de Seleção</b> está definido como *Por Comprimento*) | Controla se a seleção deve incluir um comprimento maior ou menor que <b>Tamanho de Destino</b>. |
+| <b>Comprimento de Destino</b> <i>Precisão decimal</i> (Disponível quando o <b>Modo de Seleção</b> está definido como *Por Comprimento*) | O limite de comprimento usado para selecionar splines. |
 
 ## Exemplos
 
@@ -74,11 +75,11 @@ O limite de comprimento usado para selecionar splines.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
+      <img src="paths-select.resources/paths-select-03.jpg" alt="PathsSelect-Variant1">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -90,11 +91,11 @@ O limite de comprimento usado para selecionar splines.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
+      <img src="paths-select.resources/paths-select-04.jpg" alt="PathsSelect-Variant2">
       <br><i>Depois</i>
     </td>
   </tr>

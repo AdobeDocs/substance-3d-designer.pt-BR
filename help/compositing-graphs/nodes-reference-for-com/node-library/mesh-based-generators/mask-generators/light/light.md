@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Luz
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 3%
+source-wordcount: '138'
+ht-degree: 9%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/light-2.png){width="128px"}
+![](light.resources/light-01.png){width="128px"}
 
-## Luz
-
-**Entrada:** *Geradores Baseados Em Malha**/Geradores De Máscara*
-
-**Simples**
+<b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,17 +37,27 @@ Gera uma máscara em preto e branco com base em mapas baked e configurações do
 
 Esta máscara é um pouco diferente de outros Geradores: ela faz puramente iluminação falsa, com base no World Space Normalmap, retornando uma máscara “lightmap” em preto e branco.
 
-## Parâmetros
-
-* **Ângulo horizontal**: *0.0 - 1.0* Define o ângulo horizontal da luz falsa.
-* **Ângulo vertical**: *0.0 - 1.0* Define o ângulo vertical da luz falsa.
-* **Brilho do realce**: *0.0 - 0.999* Define a dispersão da área realçada.
-* **Nível de Realce**: *0.0 - 1.0* Define o nível de brilho da área realçada.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/light-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Ângulo Horizontal</b> <i>0.0 - 1.0</i> | Define o ângulo horizontal da luz falsa. |
+| <b>Ângulo Vertical</b> <i>0.0 - 1.0</i> | Define o ângulo vertical da luz falsa. |
+| <b>Brilho do destaque</b> <i>0.0 - 0.999</i> | Define a página espelhada invertida da área realçada. |
+| <b>Nível de realce</b> <i>0.0 - 1.0</i> | Define o nível de brilho da área realçada. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="light.resources/light-02.gif" />
+        </td>
+    </tr>
 </table>

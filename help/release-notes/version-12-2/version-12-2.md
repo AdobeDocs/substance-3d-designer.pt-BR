@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 12.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -24,7 +24,7 @@ O <b>Substance 3D Designer 12.2</b> traz suporte nativo para computadores com Ap
 
 Data de lançamento: *19 de julho de 2022*
 
-![](../../assets/final3.png)
+![](version-12-2.resources/version-12-2-01.png)
 
 ## Principais recursos
 
@@ -32,20 +32,20 @@ Data de lançamento: *19 de julho de 2022*
 
 A versão 12.2 do Designer é a primeira com suporte nativo completo para novos computadores Apple baseados no chip M1. Embora o Designer pudesse ser executado tecnicamente em dispositivos Apple Silicon anteriormente, o suporte nativo trará a você uma experiência mais rápida e eficiente. Como você pode ver na imagem abaixo, os cálculos são *até duas vezes mais rápidos* com essa nova versão nesses computadores.
 
-![](../../assets/ds-perf-applem1.png){width="600px"}
+![](version-12-2.resources/version-12-2-02.png){width="600px"}
 
 ### Melhorias para gráficos de modelo de Substance
 
 * <b>Dicas de ferramentas em nós\
-  </b>Nem sempre é possível explicar o que um nó está fazendo com apenas um ícone e um título. É por isso que agora temos uma dica de ferramenta com uma *descrição completa do nó* quando você está na Biblioteca ou na Exibição de Gráfico. Ele ajudará você a encontrar o nó que está procurando ou a entender melhor quais são suas capacidades. ![](../../assets/tootlipnode.png)
+  </b>Nem sempre é possível explicar o que um nó está fazendo com apenas um ícone e um título. É por isso que agora temos uma dica de ferramenta com uma *descrição completa do nó* quando você está na Biblioteca ou na Exibição de Gráfico. Ele ajudará você a encontrar o nó que está procurando ou a entender melhor quais são suas capacidades. ![](version-12-2.resources/version-12-2-03.png)
 
 * <b>Atalhos para criação de nó\
-  </b>Para acelerar a criação dos nós mais usados, agora você pode definir seus próprios atalhos nas Preferências, como para os outros tipos de gráficos.![](../../assets/shorcuts.png)
+  </b>Para acelerar a criação dos nós mais usados, agora você pode definir seus próprios atalhos nas Preferências, como para os outros tipos de gráficos.![](version-12-2.resources/version-12-2-04.png)
 
 * <b>Visualizar nó no menu contextual do nó\
   </b>Na versão mais recente, adicionamos a possibilidade de visualizar um nó na Exibição 3D graças a um atalho de teclado (*SHIFT + clique* em um nó). Este recurso agora também está disponível no *menu contextual de nó* para torná-lo mais detectável.
 
-  ![](../../assets/previewnode.gif){width="600px"}
+  ![](version-12-2.resources/version-12-2-05.gif){width="600px"}
 * <b>Pesquisar com base na compatibilidade do nó\
   </b>Quando você está procurando um nó no menu de nós (acessível ao pressionar a *Barra de Espaços* na Exibição de Gráfico), os nós agora são filtrados corretamente para mostrar apenas os que são *compatíveis com o selecionado atualmente* no gráfico. Ele ajuda a localizar rapidamente o nó que você está procurando.
 
@@ -54,12 +54,12 @@ A versão 12.2 do Designer é a primeira com suporte nativo completo para novos 
 * <b>Melhorias no modo de exibição 2D</b>\
   Quando era possível, em versões anteriores, visualizar as saídas do gráfico na Visualização 3D por meio do *menu contextual* do gráfico de Substance, não era possível visualizar uma saída do gráfico na Visualização 2D. Esta opção foi adicionada ao menu, com um submenu listando todas as saídas do gráfico a serem exibidas na visualização 2D.\
   O botão “Visualizar saídas” na barra de ferramentas de Visualização 2D também foi atualizado com uma seta para baixo e uma dica de ferramenta para tornar seu comportamento mais claro.\
-  Por fim, a opção “Saídas automáticas do gráfico de exibição ao carregar um gráfico” nas Preferências foi *dividida em duas configurações separadas* - para a Exibição 2D e Exibição 3D, respectivamente - para permitir que você controle qual exibição deve ser aberta e preenchida automaticamente ao carregar um gráfico.
+  Por fim, a opção “Saídas automáticas do gráfico de exibição ao carregar um gráfico” nas Preferências foi *dividida em duas configurações separadas* - para o Visualização 2D e o Visualização 3D, respectivamente - para permitir que você controle qual exibição deve ser aberta e preenchida automaticamente ao carregar um gráfico.
 
 * <b>Modelo CLO</b>\
   Para melhorar a interoperabilidade com o software CLO, adicionamos um *novo modelo dedicado*. Ele adicionará automaticamente ao seu gráfico todos os *metadados* necessários para importar corretamente o material no CLO.
 
-  ![](../../assets/clo.png){width="600px"}
+  ![](version-12-2.resources/version-12-2-06.png){width="600px"}
 
 * <b>Requisitos da Plataforma de Referência VFX</b>\
   Todos os anos, a plataforma de referência VFX publica uma lista de ferramentas e versões de bibliotecas a serem usadas em todos os softwares para o setor de VFX a fim de minimizar as incompatibilidades entre softwares. Como de costume, *atualizamos todas as nossas dependências* para respeitar todas essas recomendações.
@@ -77,7 +77,7 @@ A versão 12.2 do Designer é a primeira com suporte nativo completo para novos 
 * [Substance gráfico de modelo] Exibe dicas de ferramentas de nó na Biblioteca
 * [Gráfico de modelo de Substance] Adicionar uma entrada de menu contextual para visualizar nós
 * [Substance model graph] Permite que o usuário crie atalhos para a criação de nós
-* [UI] Adicionar a opção “Exibir saída em exibição 2D” no menu contextual do gráfico de Substance
+* [UI] Adicionar a opção “Exibir saída em Visualização 2D” no menu contextual do gráfico de Substance
 * [UI] Dividir a configuração “Exibição automática de saídas” em configurações específicas de exibição 2D/exibição 3D
 * [UI] Adicionar seta suspensa e dica de ferramenta ao botão “Exibir saída” na barra de ferramentas de exibição 2D
 * [IU] Repalavra e reordenação de itens no painel Informações do Explorer

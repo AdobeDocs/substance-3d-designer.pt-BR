@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 # Versão 13.1
 
-O <b>Substance 3D Designer 13.1</b> adiciona muitas melhorias de qualidade de vida ao gráfico de nós, principalmente em relação a quadros, para aprimorar a experiência de criação de material. Há também a adição da exportação de AxF, que permite um fluxo de trabalho de interoperabilidade para usuários que trabalham com o formato AxF. 
+O <b>Substance 3D Designer 13.1</b> adiciona muitas melhorias de qualidade de vida ao gráfico de nós, principalmente em relação a quadros, para aprimorar a experiência de criação de material. Há também a adição da exportação de AxF, que permite um fluxo de trabalho de interoperabilidade para usuários que trabalham com o formato AxF.
 
 *Data de lançamento: 12 de dezembro de 2023*
 
-![Banner do Substance 3D Designer 13.1](../../assets/24-library-hero-1920x620.png "banner do Substance 3D Designer 13.1")
+![Banner do Substance 3D Designer 13.1](version-13-1.resources/version-13-1-01.png "banner do Substance 3D Designer 13.1")
 
 ## Melhorias para quadros
 
@@ -34,19 +34,19 @@ Os quadros são uma ferramenta obrigatória para mantê-lo um gráfico bem organ
 
 À medida que o gráfico cresce, o conteúdo dos quadros pode precisar ser reorganizado. Os nós podem mudar para criar espaço para adições ou o conteúdo pode precisar ser espaçado mais para promover a legibilidade. Para facilitar esses ajustes, agora é possível expandir automaticamente um quadro ao mover os objetos incluídos: mantenha pressionado o <b>Shift</b> em qualquer ponto ao mover um objeto para que as bordas do quadro se ajustem automaticamente para manter esse objeto dentro de seus limites.
 
-![expansão automática](../../assets/autoexpand.gif)
+![expansão automática](version-13-1.resources/version-13-1-02.gif)
 
 ### Ajustar tamanho ao conteúdo
 
 Conforme você faz ajustes no gráfico, um quadro pode não ser mais ajustado normalmente ao seu conteúdo. Esse novo comando permite ajustar automaticamente a posição e o tamanho do quadro para que ele se ajuste à extensão de seu conteúdo, com um preenchimento de uma célula de grade média. Se o quadro tiver uma descrição, ele será ajustado para usar qualquer espaço vazio ao lado da descrição, se possível.
 
-![tamanho da imagem](../../assets/fitsize.gif)
+![tamanho da imagem](version-13-1.resources/version-13-1-03.gif)
 
 ### Descrições aprimoradas
 
 Graças ao código HTML, agora é possível formatar o texto na descrição de um quadro. Isso também se aplica a comentários.
 
-![richtext](../../assets/description-3.png)
+![richtext](version-13-1.resources/version-13-1-04.png)
 
 ### <b>...E muito mais!</b>
 
@@ -64,7 +64,7 @@ Muitas coisas foram repensadas, como regras de pertença para serem mais toleran
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Ícone de arquivo AxF](../../assets/axf-file-icon.png "Ícone de arquivo AxF")
+![Ícone de arquivo AxF](version-13-1.resources/version-13-1-05.png "Ícone de arquivo AxF")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Nesta nova versão, apresentamos a possibilidade de editar os materiais do AxF n
 </tr>
 </table>
 
-![Exportar AxF](../../assets/exportaxf.gif)
+![Exportar AxF](version-13-1.resources/version-13-1-06.gif)
 
 ## API
 
@@ -158,7 +158,7 @@ Finalmente, esta versão 13.1 continua a melhorar a API Python, adicionando mais
 ### PROBLEMAS CONHECIDOS
 
 * [AxF OpenGL Shader] Ala incorreta para distribuição anisotrópica
-* [AxF OpenGL Shader] Aspereza padrão incorreta
+* [Sombreador AxF OpenGL] Aspereza padrão incorreta
 * [AxF OpenGL Shader] Rotação incorreta da base do sombreamento
 * [AxF OpenGL Shader] Detecção incorreta de raio abaixo do hemisfério
 * [AxF OpenGL Shader] Detecção de contribuição incorreta

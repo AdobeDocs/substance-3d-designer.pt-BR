@@ -10,19 +10,19 @@ helpx_tags: ""
 title: Exportação de bitmaps
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 1%
+source-wordcount: '577'
+ht-degree: 2%
 
 ---
 
 
 # Exportação de bitmaps
 
-Esta página explica como o Substance 3D Designer pode exportar para muitos formatos de arquivo Bitmap diferentes e como exportar vários blocos UV em lotes.[Se você deseja exportar para arquivos PSD,](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html) [há uma página dedicada separada para isso.](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+Esta página explica como o Substance 3D Designer pode exportar para muitos formatos de arquivo Bitmap diferentes e como exportar vários blocos UV em lotes.Se você deseja [exportar para arquivos de PSD](../exporting-psd-files/exporting-psd-files.md), há uma página dedicada separada para isso.
 
-![Exportando simplificado](../../assets/exportflow.png "Exportando simplificado")
+![Exportando simplificado](exporting-bitmaps.resources/exporting-bitmaps-01.png "Exportando simplificado")
 
 ## Exportação de conceitos
 
@@ -31,7 +31,7 @@ Esta página explica como o Substance 3D Designer pode exportar para muitos form
 * Você <b> exporta de um Graph</b>, não de um Pacote. Um pacote não gera conteúdo de imagem por si só.
 * O número (e a resolução) de bitmaps exportados é determinado pelas <b>Saídas</b> de um Gráfico.
 * O tipo de arquivo é definido para todas as saídas/bitmaps.
-* A exportação é diferente da [Publicação](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Verifique se você entendeu bem a diferença!
+* Exportar é diferente de [publicar](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md). Certifique-se de entender bem a diferença!
 
 ## Métodos de exportação
 
@@ -41,16 +41,16 @@ Quando estiver pronto para exportar, há duas maneiras de acessar a caixa de di�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Na [janela do Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), clique com o botão direito do mouse no gráfico para exportar e escolha **”Exportar saídas como bitmaps”**
+Na janela do [Explorer](../../interface/the-explorer-window/the-explorer-window.md), clique com o botão direito do mouse no gráfico para exportar e escolha **”Exportar saídas como bitmaps”**
 
-![](../../assets/export-explorer.gif)
+![](exporting-bitmaps.resources/exporting-bitmaps-02.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-Na [Exibição de Gráfico](../../interface/the-graph-view/the-graph-view.md), clicando no botão Ferramentas ![](../../assets/image2019-9-17-14-44-17.png) e escolhendo **”Exportar Saídas...”**
+Na [Exibição de Gráfico](../../interface/the-graph-view/the-graph-view.md), clicando no botão Ferramentas ![](exporting-bitmaps.resources/exporting-bitmaps-03.png) e escolhendo **”Exportar Saídas...”**
 
-![](../../assets/export-graph.gif)
+![](exporting-bitmaps.resources/exporting-bitmaps-04.gif)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ A versão mostrada à direita é a caixa de diálogo padrão. Alterar a resoluç
 1. <b>Exportação automática:</b> botão de alternância para habilitar a reexportação automática de saídas de gráfico assim que uma alteração for feita. Somente para o gráfico atual. Pode ser pesado e lento, dependendo das configurações.
 1. <b>Botão Exportar:</b> exporta com as configurações atuais ou fecha a caixa de diálogo.
 
-![Caixa de diálogo Exportar saídas](../../assets/fromgraph-1.png "Caixa de diálogo Exportar saídas")
+![Caixa de diálogo Exportar saídas](exporting-bitmaps.resources/exporting-bitmaps-05.png "Caixa de diálogo Exportar saídas")
 
 ## Caixa de diálogo Exportar (blocos em lote/UV)
 
@@ -90,4 +90,4 @@ Inicie a caixa de diálogo com os mesmos métodos detalhados acima, apenas verif
 1. <b>Blocos UV:</b> Assim como com as Saídas, permite ativar ou desativar a exportação de Blocos UV específicos.
 1. <b>[Tamanho da saída](../../compositing-graphs/output-size/output-size.md): </b>substitua a resolução de exportação, permitindo que você trabalhe menor e mais eficiente ao exportar no tamanho máximo.
 
-![Caixa de diálogo de saídas de exportação em lote](../../assets/batch.png "Caixa de diálogo de saídas de exportação em lote")
+![Caixa de diálogo de saídas de exportação em lote](exporting-bitmaps.resources/exporting-bitmaps-06.png "Caixa de diálogo de saídas de exportação em lote")

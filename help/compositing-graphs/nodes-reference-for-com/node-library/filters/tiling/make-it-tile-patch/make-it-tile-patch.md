@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Tornar um patch de bloco
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 0%
+source-wordcount: '268'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/make-it-tile-patch.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-01.png)
 
-![](../../../../../../assets/make-it-tile-patch-grayscale.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-02.png)
 
-## Torná-lo um patch de bloco (tons de cinza)
-
-**Entrada:** *Filtros/Divisão em blocos*
-
-**Complexo**
+<b>Em:</b> Filtros > Lado a Lado
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -47,27 +43,36 @@ Lembre-se de que isso é diferente de [Make-It-Tile Photo](../../../../../../com
 
 Para fazer isso com um material inteiro, consulte [Bloco Automático Inteligente](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md).
 
-## Parâmetros
-
-* **Tamanho da máscara**: *0.0 - 1.0* Tamanho da máscara redonda usada ao carimbar a correção.
-* **Precisão da Máscara**: *0.0 - 1.0* Precisão de queda/smoothness da máscara.
-* **Distorção de máscara**: *-100.0 - 100.0* Introduz a distorção nas bordas da máscara. Bom para evitar transições suaves e indefinidas entre patches.
-* **Largura do tamanho do padrão**: *0.0 - 1000.0* Altera a largura do patch de maneira não uniforme.
-* **height de tamanho de padrão**: *0.0 - 1000.0* Altera o height do patch de maneira não uniforme.
-* **Desordem**: *0.0 - 1.0*\
-  Apresenta a aleatoriedade translacional, alternando ligeiramente as manchas ao redor.
-* **Variação de Tamanho**: *0.0 - 100.0* Introduz a variação de tamanho para a máscara.
-* **Oitava**: *0 - 6* Este é o controle principal que determina o tamanho geral.
-* **Rotação**: *-360.0 - 360.0* Pré-gira o patch.
-* **Variação de Rotação**: *0.0 - 360.0* Introduz a rotação aleatória para cada carimbo de correção.
-* **Cor do plano de fundo**: *(valor da cor)*Define a cor do plano de fundo para áreas em que nenhuma correção aparece.
-* **Variação de cor**: *0.0 - 1.0 (somente versão de cor)*Introduz a variação de cor por correção.
-* **Variação de luminosidade** *(somente versão em tons de cinza)*Introduz a variação de luminosidade por correção.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/patch-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Tamanho da máscara</b> <i>0.0 - 1.0</i> | Tamanho da máscara redonda usada ao carimbar o patch. |
+| <b>Precisão da Máscara</b> <i>0.0 - 1.0</i> | Precisão de queda/smoothness da máscara. |
+| <b>Distorção de máscara</b> <i>-100.0 - 100.0</i> | Introduz a deformação nas bordas da máscara. Bom para evitar transições suaves e indefinidas entre patches. |
+| <b>Largura do tamanho do padrão</b> <i>0.0 - 1000.0</i> | Altera a largura da correção de maneira não uniforme. |
+| <b>height de tamanho de padrão</b> <i>0.0 - 1000.0</i> | Altera o height do patch de maneira não uniforme. |
+| <b>Desordem</b> <i>0.0 - 1.0</i> | Apresenta a aleatoriedade translacional, alternando ligeiramente as manchas ao redor. |
+| <b>Variação de Tamanho</b> <i>0.0 - 100.0</i> | Introduz a variação de tamanho para a máscara. |
+| <b>Oitava</b> <i>0 - 6</i> | Esse é o controle principal que determina o tamanho geral. |
+| <b>Rotação</b> <i>-360.0 - 360.0</i> | Gira previamente o patch. |
+| <b>Variação de Rotação</b> <i>0.0 - 360.0</i> | Introduz uma rotação aleatória para cada carimbo de correção. |
+| <b>Cor do plano de fundo</b> <i>(Valor da cor)</i> | Define a cor do plano de fundo para áreas em que nenhuma correção é exibida. |
+| <b>Variação de cor</b> <i>0.0 - 1.0 (Somente Versão de Cores)</i> | Introduz a variação de cor por correção. |
+| <b>Variação de luminosidade</b> <i>(somente versão em tons de cinza)</i> | Introduz a variação de luminosidade por correção. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="make-it-tile-patch.resources/make-it-tile-patch-03.gif" />
+        </td>
+    </tr>
 </table>

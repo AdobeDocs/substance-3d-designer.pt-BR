@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Desgaste de couro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: '253'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/leather-wear.png){width="128px"}
+![](leather-wear.resources/leather-wear-01.png){width="128px"}
 
-## Desgaste de couro
-
-**Entrada:** *Geradores Baseados Em Malha**/Geradores De Máscara*
-
-**Intermediário**
+<b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,32 +37,40 @@ Gera uma máscara em preto e branco com base em mapas baked e configurações do
 
 Essa máscara representa um desgaste com um padrão de couro, com mais desgaste nas bordas com base na curvatura. É semelhante à [Edge Wear de vidro de fibra](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear/fiber-glass-edge-wear.md) em funcionalidade e tem, em sua maioria, os mesmos parâmetros.
 
-## Parâmetros
-
-### Entradas
-
-* **Curvatura**: *Entrada em tons de cinza*\
-  Mapa baked usado para o posicionamento de bordas. Obrigatório!
-* **Oclusão De Ambiente**: *Entrada Em Tons De Cinza*\
-  Mapa baked usado para ocultar determinadas áreas. Recomendado, mas não obrigatório.
-* **Entrada de Desgaste**: *Entrada em Tons de Cinza*\
-  Slot de entrada opcional do mapa de Desgaste que pode ser alternado pelo parâmetro “Usar Desgaste personalizado”.
-* **Máscara (opcional)**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Nível de desgaste**: *0.0 - 1.0* Define o nível de desgaste global, revelando gradualmente.
-* **Usar contraste**: *0.0 - 1.0* Define o contraste do efeito.
-* **Quantidade de Desgaste**: *0.0 - 1.0* Define a quantidade de desgaste (padrão de couro) a ser mesclada entre as bordas.
-* **Mascaramento de Oclusão de ambiente**: *0.0 - 1.0* Define a extensão em que o AO mascara os efeitos de desgaste.
-* **Espessura da curvatura**: *0.0 - 1.0* Define a extensão em que as bordas da curvatura afetam o resultado final. Mesmo se definido como 0, você ainda precisa de um mapa de curvatura.
-* **Usar Desgaste Personalizado**: *Falso/Verdadeiro* Habilita a substituição do padrão de couro padrão interno. Em vez disso, use um slot de entrada personalizado.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/leather-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para o posicionamento de bordas. Obrigatório! |
+| <b>Oclusão de ambiente</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para ocultar determinadas áreas. Recomendado, mas não obrigatório. |
+| <b>Entrada de Desgaste</b> <i>Entrada em tons de cinza</i> | Slot de entrada opcional do mapa de Desgaste que pode ser alternado pelo parâmetro “Usar Desgaste personalizado”. |
+| <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Nível de desgaste</b> <i>0.0 - 1.0</i> | Define o nível de desgaste global, revelando gradualmente. |
+| <b>Usar Contraste</b> <i>0.0 - 1.0</i> | Define o contraste do efeito. |
+| <b>Valor do Desgaste</b> <i>0.0 - 1.0</i> | Define a quantidade de desgaste (padrão de couro) a ser mesclada entre as bordas. |
+| <b>Mascaramento de Oclusão de ambiente</b> <i>0.0 - 1.0</i> | Define a extensão em que o AO mascara os efeitos de desgaste. |
+| <b>Espessura da Curvatura</b> <i>0.0 - 1.0</i> | Define a extensão em que as bordas da curvatura afetam o resultado final. Mesmo se definido como 0, você ainda precisa de um mapa de curvatura. |
+| <b>Usar Desgaste Personalizado</b> <i>Falso/Verdadeiro</i> | Permite a substituição do padrão de couro incorporado. Em vez disso, use um slot de entrada personalizado. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="leather-wear.resources/leather-wear-02.gif" />
+        </td>
+    </tr>
 </table>

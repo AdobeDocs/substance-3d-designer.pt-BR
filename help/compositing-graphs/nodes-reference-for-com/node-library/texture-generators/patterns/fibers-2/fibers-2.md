@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fibras 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 2%
+source-wordcount: '80'
+ht-degree: 6%
 
 ---
 
@@ -22,34 +22,38 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fibers-2.png){width="128px"}
+![](fibers-2.resources/fibers-2-01.png){width="128px"}
 
-## Fibras 2
-
-**Entrada:** *Geradores De Textura**/Padrões*
-
-**Simples**
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Padrão simples em forma de pano. Pode ser usado para malha, pano ou outros Heights orgânicos e mapas de detalhes. Consulte também [Fibras 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/fibers-1/fibers-1.md) para uma versão menor.
 
-## Parâmetros
-
-* **Divisão em blocos gráficos**: *1 - 16*\
-  Define a quantidade de vezes que o resultado deve ser colocado lado a lado.
-* **Expansão não quadrada**: *Falso/Verdadeiro*\
-  Permite a compensação de esmagamento e alongamento com proporções não quadradas.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/fibers-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Divisão em blocos gráficos</b> <i>1 - 16</i> | Define a quantidade de vezes que o resultado deve ser colocado lado a lado. |
+| <b>Expansão não quadrada</b> <i>Falso/Verdadeiro</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fibers-2.resources/fibers-2-02.gif" />
+        </td>
+    </tr>
 </table>

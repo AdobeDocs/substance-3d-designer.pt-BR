@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Quantificar escala de cinza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Quantizar Escala de Cinza](../../../../../../assets/quantize-grayscale.png "ícone Quantizar Escala de Cinza"){width="200px"}
+![Ícone Quantizar Escala de Cinza](quantize-grayscale.resources/quantize-grayscale-01.png "ícone Quantizar Escala de Cinza"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -39,21 +39,19 @@ Gera uma única spline na forma de um círculo.
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parâmetros
 
-<b>Etapas</b> *Inteiro* O número de valores separados para os quais o intervalo de entrada deve ser aproximado.
-
-<b>Deslocamento</b> *Flutuante* Aplica um deslocamento ao intervalo de entrada, que *desloca* os resultados ao longo do intervalo.
-
-<b>Inclinação</b> *Flutuante* Aplica um gradiente de inclinação às *transições* entre valores aproximados, até o *intervalo completo de uma etapa*.
-
-<b>Curva de Inclinação</b> *Inteiro* Define o método de aquisição da curva para a inclinação definida pelo parâmetro <b>Inclinação</b>:
-* *Linear*: aplica uma curva linear, resultando em uma inclinação reta
-* *Etapa suave*: aplica uma curva de etapa suave, resultando em uma inclinação suave
-* *Entrada de curva*: aplica a curva descrita pelo mapa de entrada <b>Entrada de curva</b>. Você pode usar um nó [Curva](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) para descrever esta curva com uma grande quantidade de controle.
+|  |  |
+|:---|:---|
+| <b>Etapas</b> *Inteiro* | O número de valores separados para os quais o intervalo de entrada deve ser aproximado. |
+| <b>Deslocamento</b> *Flutuante* | Aplica um deslocamento ao intervalo de entrada, que *desloca* os resultados ao longo do intervalo. |
+| <b>Inclinação</b> *Flutuante* | Aplica um gradiente de inclinação às *transições* entre valores aproximados, até o *intervalo completo de uma etapa*. |
+| <b>Curva de Inclinação</b> *Inteiro* | Define o método de aquisição da curva para a inclinação definida pelo parâmetro <b>Inclinação</b>:<ul data-preserve-html="true"> <li data-preserve-html="true">*Linear*: aplica uma curva linear, resultando em uma inclinação reta</li> <li data-preserve-html="true">*Etapa suave*: aplica uma curva de etapa suave, resultando em uma inclinação suave</li> <li data-preserve-html="true">*Entrada de curva*: aplica a curva descrita pelo mapa de entrada <b>Entrada de curva</b>. Você pode usar um nó [Curva](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) para descrever esta curva com uma grande quantidade de controle.</li> </ul> |
 
 ## Exemplos
 
-![Exemplo 1](../../../../../../assets/quantizegrayscale.gif "Exemplo 1")
+![Exemplo 1](quantize-grayscale.resources/quantize-grayscale-02.gif "Exemplo 1")
 
-![Exemplo 2](../../../../../../assets/quantizegrayscale.png "Exemplo 2")
+![Exemplo 2](quantize-grayscale.resources/quantize-grayscale-03.png "Exemplo 2")

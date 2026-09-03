@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Dirt seletivo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 5%
+source-wordcount: '168'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/selective-dirt.png){width="128px"}
+![](selective-dirt.resources/selective-dirt-01.png){width="128px"}
 
-## Dirt seletivo
-
-**Entrada:** *Geradores Baseados Em Malha**/Geradores De Máscara*
-
-**Simples**
+<b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,30 +37,37 @@ Gera uma máscara em preto e branco com base em mapas baked e configurações do
 
 Esta máscara do [Substance 3D Designer](https://www.adobe.com/br/products/substance3d-designer.html) representa um efeito de dirt simples em bordas convexas.
 
-## Parâmetros
-
-### Entradas
-
-* **Curvatura**: *Entrada em tons de cinza*\
-  Mapa baked usado para efeitos internos e mascaramento.
-* **Máscara de Variação**: *Entrada em Tons de Cinza*\
-  O mapa de variação opcional pode ser ativado por meio de parâmetros.
-* **Máscara (opcional)**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Nível**: *0.0 - 1.0*\
-  Define o nível total do efeito, revelando gradualmente.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta o contraste do resultado.
-* **Variação**: *0.0 - 1.0* Define a quantidade de variação/desgaste a ser mesclada no efeito.
-* **Substituir máscara de variação**: *Falso/Verdadeiro* Permite substituir a variação por um slot de entrada personalizado.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/selective-dirt-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para efeitos internos e mascaramento. |
+| <b>Máscara de Variação</b> <i>Entrada em tons de cinza</i> | O mapa de variação opcional pode ser ativado por meio de parâmetros. |
+| <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Nível</b> <i>0.0 - 1.0</i> | Define o nível total do efeito, revelando gradualmente. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta o contraste do resultado. |
+| <b>Variação</b> <i>0.0 - 1.0</i> | Define o valor de variação/desgaste para mesclar no efeito. |
+| <b>Substituir máscara de variação</b> <i>Falso/Verdadeiro</i> | Permite substituir a variação por um slot de entrada personalizado. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="selective-dirt.resources/selective-dirt-02.gif" />
+        </td>
+    </tr>
 </table>

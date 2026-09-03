@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Máscara de volume 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvolumemask.png){width="256px"}
+![](3d-volume-mask.resources/3d-volume-mask-01.png){width="256px"}
 
-**Entrada:** Gerador*/Padrão*
-
-**Simples**
+<b>Entrada:</b> Gerador > Padrão
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,61 +39,44 @@ O nó **Máscara de Volume 3D** gera uma representação de uma *forma primitiva
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Posição</b> <i>Cor</i> | O mapa que descreve as *coordenadas de espaço 3D* nas quais a primitiva é representada.<br><br>As coordenadas **X/Y/Z** são mapeadas para os canais **R/G/B**, respectivamente. |
+
+<a name="parameters"></a>
+
 ## Parâmetros
 
-### Entradas
+|  |  |
+|:---|:---|
+| <b>Forma</b> <i>Inteiro</i> | A forma primitiva que deve ser representada:<br><br>- *Cubo*<br>- *Cilindro*<br>- *Esfera* |
+| <b>Escala</b> <i>Precisão decimal</i> | Define a escala *global* da primitiva, aplicada *uniformemente* em todos os eixos. |
+| <b>Tamanho</b> <i>Precisão decimal 3</i> | Define o tamanho da forma em cada eixo. |
+| <b>Entrada de Posição</b> <i>Inteiro</i> | O método de *representar o espaço* por meio da entrada **Posição**:<br><br>- *Posição UV*: use um *mapa UV*. As coordenadas X/Y (U/V) são mapeadas para os canais R/G, respectivamente. Presume-se que o eixo Z seja o vetor *ortogonal à frente*.<br>- *Posição do espaço mundial*: use um *mapa de posição* para mapear a primitiva no espaço 3D. As coordenadas X/Y/Z são mapeadas para os canais R/G/B, respectivamente. |
+| <b>Posição UV</b> <i>Precisão decimal 2</i> | A posição da primitiva no espaço UV.<br><br>*Observação*: este parâmetro só está disponível quando o parâmetro **Entrada de posição** está definido como *Posição UV*. |
+| <b>Posição</b> <i>Precisão decimal 3</i> | A posição da primitiva no espaço global.<br><br>*Observação*: este parâmetro só está disponível quando o parâmetro **Entrada de Posição** está definido como *Posição no Espaço Mundial*. |
+| <b>Rotação</b> <i>Precisão decimal 3</i> | Define a rotação da forma no espaço global. |
+| <b>Largura da Difusão</b> <i>Precisão decimal</i> | Ajusta a largura do *gradiente de atenuação* da superfície primitiva para dentro. |
 
-* **Posição** *Cor*\
-  O mapa que descreve as *coordenadas de espaço 3D* nas quais a primitiva é representada.\
-  As coordenadas **X/Y/Z** são mapeadas para os canais **R/G/B**, respectivamente.
+## Exemplos
 
-### Parâmetros
-
-* **Forma** *Inteiro*\
-  A forma primitiva que deve ser representada:
-  * *Cubo*- *Cilindro*- *Esfera*
-* **Escala** *Flutuante*\
-  Define a escala *global* da primitiva, aplicada *uniformemente* em todos os eixos.
-* **Tamanho** *Flutuante3*\
-  Define o tamanho da forma em cada eixo.
-* **Entrada de Posição** *Inteiro*\
-  O método de *representar espaço* através da entrada **Posição**:
-  * *Posição UV*: use um *mapa UV*. As coordenadas X/Y (U/V) são mapeadas para os canais R/G, respectivamente. Presume-se que o eixo Z seja o vetor *ortogonal à frente*.
-  * *Posição do espaço mundial*: use um *mapa de posições* para mapear a primitiva no espaço 3D. As coordenadas X/Y/Z são mapeadas para os canais R/G/B, respectivamente.
-* **Posição UV** *Flutuante2*\
-  A posição da primitiva no espaço UV.\
-  *Observação*: este parâmetro só está disponível quando o parâmetro **Entrada de Posição** está definido como *Posição UV*.
-* **Posição** *Flutuante3*\
-  A posição da primitiva no espaço do mundo.\
-  *Observação*: este parâmetro só está disponível quando o parâmetro **Entrada de Posição** está definido como *Posição do Espaço Mundial*.
-* **Rotação** *Flutuante3*\
-  Define a rotação da forma no espaço global.
-* **Largura da Difusão** *Flutuante*\
-  Ajusta a largura do *gradiente de atenuação* da superfície primitiva para dentro.
-
-## Imagens de exemplo
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvolumemask-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvolumemask-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvolumemask-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvolumemask-variant4.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-volume-mask.resources/3d-volume-mask-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-volume-mask.resources/3d-volume-mask-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-volume-mask.resources/3d-volume-mask-04.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-volume-mask.resources/3d-volume-mask-05.jpg" />
+        </td>
+    </tr>
 </table>

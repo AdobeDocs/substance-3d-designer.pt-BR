@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
 breadcrumb-title: ''
-description: Use o nó Avançado da Conversão de Tons de Cinza para converter cores em tons de cinza com controle avançado sobre os métodos de conversão.
+description: Use o nó Avançado de Conversão em escala cinza para converter cores em tons de cinza com controle avançado sobre os métodos de conversão.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Grayscale Conversion Advanced
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Conversão de tons de cinza avançada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 2%
+source-wordcount: '80'
+ht-degree: 3%
 
 ---
 
@@ -22,33 +22,37 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grayscale-conversion-advanced.png){width="128px"}
+![](grayscale-conversion-advanced.resources/grayscale-conversion-advanced-01.png){width="128px"}
 
-## Conversão de tons de cinza avançada
-
-**Entrada:** *Filtros/Ajustes*
-
-**Simples**
+<b>Entrada:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Nó avançado de conversão rápida em tons de cinza que oferece alguns modos de conversão predefinidos.
 
-## Parâmetros
-
-* **Tipo de escala de cinza**: *Dessaturação, Luma, Média, Máx, Mín* A dessaturação define o valor da saturação como 0, Luma usa espessuras oficiais de Luminância, Média é a mesma que o nó atômico e Máx e Mín usarão o valor mais claro para cada canal, respectivamente.
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/grayscale-conversion-advanced-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Tipo de tons de cinza</b> <i>Dessaturação, Luma, Média, Máx, Mín</i> | A dessaturação define o valor de saturação como 0, a Luma usa os pesos oficiais de Luminância, a Média é a mesma que o nó atômico e o Máx e o Mín usarão o valor mais claro para cada canal, respectivamente. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grayscale-conversion-advanced.resources/grayscale-conversion-advanced-02.png" />
+        </td>
+    </tr>
 </table>

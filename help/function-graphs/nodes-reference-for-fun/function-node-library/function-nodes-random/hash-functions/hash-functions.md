@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Funções de hash
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó de hash: ícone](../../../../../assets/hash-icon.png "Nó de hash: ícone"){width="200px"}
+![Nó de hash: ícone](hash-functions.resources/hash-functions-01.png "Nó de hash: ícone"){width="200px"}
 
 <b>Em:</b> Funções > Aleatório
 
@@ -49,22 +49,22 @@ Versões disponíveis, com seu tipo de entrada e tipo de saída:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Hash 11:</b> Flutuante → Flutuante
+<b>Hash 11:</b> Precisão decimal → Precisão decimal
 
-<b>Hash 14:</b> Flutuante → Flutuante4
+<b>Hash 14:</b> Precisão decimal → Precisão decimal 4
 
-<b>Hash 21:</b> Flutuante2 → Flutuante
+<b>Hash 21:</b> Precisão decimal 2 → Precisão decimal
 
-<b>Hash 22:</b> Flutuante2 → Flutuante2
+<b>Hash 22:</b> Precisão decimal2 → Precisão decimal2
 
 </td>
 <td style="border: 0;" valign="top">
 
-<b>Hash 24:</b> Flutuante2 → Flutuante4
+<b>Hash 24:</b> Precisão decimal2 → Precisão decimal4
 
-<b>Hash31:</b> Flutuante3 → Flutuante
+<b>Hash31:</b> Precisão decimal 3 → Precisão decimal
 
-<b>Hash 32:</b> Flutuante3 → Flutuante2
+<b>Hash 32:</b> Precisão decimal3 → Precisão decimal2
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Versões disponíveis, com seu tipo de entrada e tipo de saída:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de hash 14](../../../../../assets/hash14-example.png "Exemplo de hash 14"){zoomable="yes"}
+![Exemplo de hash 14](hash-functions.resources/hash-functions-02.png "Exemplo de hash 14"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de hash 32](../../../../../assets/hash32-example.png "Exemplo de hash 32"){zoomable="yes"}
+![Exemplo de hash 32](hash-functions.resources/hash-functions-03.png "Exemplo de hash 32"){zoomable="yes"}
 
 </td>
 </tr>

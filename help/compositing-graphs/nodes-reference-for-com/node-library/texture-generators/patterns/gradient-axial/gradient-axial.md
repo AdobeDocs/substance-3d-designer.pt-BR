@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Gradiente axial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 3%
+source-wordcount: '90'
+ht-degree: 2%
 
 ---
 
@@ -22,34 +22,29 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-axial.png){width="128px"}
+![](gradient-axial.resources/gradient-axial-01.png){width="128px"}
 
-## Gradiente axial
-
-**Entrada:** *Geradores De Textura**/Padrões*
-
-**Simples**
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Cria uma transição de gradiente em tons de cinza entre dois pontos definidos pelo cliente. Permite a criação de gradientes lineares em qualquer ângulo, mas tenha em mente que os resultados nem sempre serão colocados lado a lado.
 
-## Parâmetros
-
-### Parâmetros
-
-* **Ponto 1**:\
-  Primeiro ponto de partida do gradiente (preto)
-* **Ponto 2**:\
-  Segundo ponto para terminar o gradiente em (branco)
-* **Expansão não quadrada**: *Falso/Verdadeiro*\
-  Habilite a compensação de abóbora e estiramento com proporções não quadradas.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Ponto 1</b> | Primeiro ponto de partida do gradiente (preto) |
+| <b>Ponto 2</b> | Segundo ponto para terminar o gradiente em (branco) |
+| <b>Expansão não quadrada</b> <i>Falso/Verdadeiro</i> | Habilite a compensação de abóbora e estiramento com proporções não quadradas. |

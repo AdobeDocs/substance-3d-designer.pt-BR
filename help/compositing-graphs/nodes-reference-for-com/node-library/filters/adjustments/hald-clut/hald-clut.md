@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Hald CLUT
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '90'
 ht-degree: 4%
 
 ---
@@ -22,37 +22,46 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hald-clut.png){width="128px"}
+![](hald-clut.resources/hald-clut-01.png){width="128px"}
 
-## Hald CLUT
-
-**Entrada:** *Filtros/Ajustes*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Aplica uma LUT na imagem de entrada. A LUT deve estar no formato Hald na resolução 4096\*4096. Consulte <http://www.quelsolaar.com/technology/clut.html> para obter mais informações.
 
-### Entradas
+</td>
+</tr>
+</table>
 
-* **entrada**: *entrada de cores*\
-  Imagem na qual aplicar o LUT.
-* **lut**: *Entrada de cor* slot de entrada Lut. Deve ser de 4096 x 4096.
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>entrada</b> <i>Entrada de cores</i> | Imagem na qual aplicar o LUT. |
+| <b>lut</b> <i>Entrada de cores</i> | Slot de entrada Lut. Deve ser de 4096 x 4096. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
-* **Intensidade LUT por Alpha**: *False/True* Define se o efeito LUT é ponderado pelo canal alfa.
+|  |  |
+|:---|:---|
+| <b>Intensidade LUT por Alpha</b> <i>Falso/Verdadeiro</i> | Define se o efeito LUT é ponderado pelo canal alfa. |
 
-Exemplos
+## Exemplos
 
-![](../../../../../../assets/content-hald-clut.jpg)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="hald-clut.resources/hald-clut-02.jpg" />
+        </td>
+    </tr>
 </table>

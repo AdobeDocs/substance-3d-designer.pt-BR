@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
 breadcrumb-title: ''
-description: Use o nó de pele 1 para gerar texturas básicas de pele para criar efeitos de cabelo, tecido e materiais fibrosos.
+description: Use o nó de pele 1 para gerar texturas de pele básicas para criar efeitos de cabelo, tecido e materiais fibrosos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 1
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pele 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 2%
+source-wordcount: '73'
+ht-degree: 9%
 
 ---
 
@@ -22,36 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fur-1.png){width="128px"}
+![](fur-1.resources/fur-1-01.png){width="128px"}
 
-## Pele 1
-
-**Entrada:** *Geradores De Textura**/Ruídos*
-
-**Simples**
+<b>Entrada:</b> Geradores de Textura > Ruídos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Isso gera um tipo de ruído de pelo reto.
 
-## Parâmetros
-
-* **Escala**: *1 - 8*\
-  Define a escala global do efeito.
-* **Desordem**: *0.0 - 1.0*\
-  Muda a fase do ruído para introduzir uma pequena variação.
-* **Expansão não quadrada**: *Falso/Verdadeiro*\
-  Permite a compensação de esmagamento e alongamento com proporções não quadradas.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/fur-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Escala</b> <i>1 - 8</i> | Define a escala global do efeito. |
+| <b>Desordem</b> <i>0.0 - 1.0</i> | Muda a fase do ruído para introduzir uma pequena variação. |
+| <b>Expansão não quadrada</b> <i>Falso/Verdadeiro</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fur-1.resources/fur-1-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Conversor de aspereza metálica de BaseColor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '139'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-convert.png){width="128px"}
+![](basecolor-metallic-roughness-converter.resources/basecolor-metallic-roughness-converter-01.png){width="128px"}
 
-## Conversor de BaseColor / Metálico / Aspereza
-
-**Entrada:** *Filtros de Material/Utilitários PBR*
-
-**Simples**
+<b>Entrada:</b> Filtros Materiais > Utilitários PBR
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,17 +37,15 @@ Este nó converte os mapas de Basecolor, Metallic e Roughness em diferentes saí
 
 Isso é útil se você tiver gráficos ou materiais criados com um modelo de PBR, enquanto seu destino requer um modelo diferente.
 
-## Parâmetros
-
-* **Usar entrada SpecularLevel**: *False/True* Expõe um slot de entrada extra para a entrada SpecularLevel. Isso também é levado em conta durante a conversão.
-* ***Destino**: *PBR Difusa/Specular/Brilho, Vray (GGX), Corona, Corona 1.6+, Redshift 1.x, Arnold 4 (AiStandard), Arnold 4 (AlSurface), RenderMan (PxrSurface)**Define o modelo de destino de conversão.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Usar entrada SpecularLevel</b> <i>Falso/Verdadeiro</i> | Expõe um slot de entrada extra para a entrada SpecularLevel. Isso também é levado em conta durante a conversão. |
+| <b>Destino</b> <i>Difusões/Speculares/Brilho PBR, Vray (GGX), Corona, Corona 1.6+, Redshift 1.x, Arnold 4 (AiStandard), Arnold 4 (AlSurface), RenderMan (PxrSurface)</i> | Define o modelo de destino de conversão. |

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Deslocamento do histograma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-shift-1.png){width="128px"}
+![](histogram-shift.resources/histogram-shift-01.png){width="128px"}
 
-## Deslocamento do histograma
-
-**Entrada:** *Filtros/Ajustes*
-
-**Simples**
+<b>Entrada:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,17 +37,27 @@ Alterna completamente todo o intervalo da imagem, envolvendo-o ao atingir os lim
 
 [Clique aqui para assistir a um vídeo do Substance Academy sobre Histograma Shift.](https://youtu.be/p9wcmJBFyGA?t=492)
 
-## Parâmetros
-
-* **Posição**: *0.0 - 1.0*\
-  Por quanto deslocar a entrada. 1.0 é uma rotação completa e é igual a 0.0.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/histogram-shift.gif)
-
-![](../../../../../../assets/histogram-shift2.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Posição</b> <i>0.0 - 1.0</i> | Por quanto deslocar a entrada. 1.0 é uma rotação completa e é igual a 0.0. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-shift.resources/histogram-shift-02.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="histogram-shift.resources/histogram-shift-03.gif" />
+        </td>
+    </tr>
 </table>

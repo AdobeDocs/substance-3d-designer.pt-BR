@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Reflexão de metal PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '109'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-metal-reflectance.png){width="128px"}
+![](pbr-metal-reflectance.resources/pbr-metal-reflectance-01.png){width="128px"}
 
-## Reflexão de metal PBR
-
-**Entrada:** *Filtros de Material/Utilitários PBR*
-
-**Simples**
+<b>Entrada:</b> Filtros Materiais > Utilitários PBR
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,16 +37,14 @@ Este é um nó auxiliar Predefinição rápida para retornar as cores de reflexo
 
 Esse nó é útil quando você deseja um ponto de partida para um metal puro e permite evitar a separação de cores de um gráfico.
 
-## Parâmetros
-
-* **Cor metálica**: *Ouro, Prata, Alumínio, Ferro, Cobre, Titânio, Níquel, Cobalto, Platina* Escolhe um valor metálico predefinido.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Cor de metal</b> <i>Ouro, Prata, Alumínio, Ferro, Cobre, Titânio, Níquel, Cobalto, Platina</i> | Escolhe um valor metálico predefinido. |

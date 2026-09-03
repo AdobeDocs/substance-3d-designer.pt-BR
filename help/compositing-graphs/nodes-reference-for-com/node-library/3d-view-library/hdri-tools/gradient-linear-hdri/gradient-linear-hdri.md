@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Gradiente linear (HDRI)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '102'
+ht-degree: 4%
 
 ---
 
@@ -22,38 +22,40 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-linear.png){width="200px"}
+![](gradient-linear-hdri.resources/gradient-linear-hdri-01.png){width="200px"}
 
-## Gradiente linear
-
-**Entrada:** *Exibição 3D/Ferramentas HDRI*
-
-**Simples**
+<b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Cria um gradiente linear ao longo do centro e com um ponto inserido pelo usuário. O resultado final é ajustado de acordo com a projeção esférica, diferentemente do [Gradiente linear 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md) normal.
 
-## Parâmetros
-
-* **Posição do Ponto**:\
-  Posição do ponto usada para determinar a direção do gradiente.
-* **Cor Superior**: *(valor da cor)*\
-  Cor da parte superior do gradiente (no ponto)
-* **Cor Inferior**: *(Valor da cor)*\
-  Cor da parte inferior do gradiente (longe do ponto).
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta o contraste do resultado.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/gradient-ex1.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Posição do Ponto</b> | Posição do ponto usada para determinar a direção do gradiente. |
+| <b>Cor Superior</b> <i>(Valor da cor)</i> | Cor da parte superior do gradiente (no ponto) |
+| <b>Cor Inferior</b> <i>(Valor da cor)</i> | Cor da parte inferior do gradiente (longe do ponto). |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta o contraste do resultado. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gradient-linear-hdri.resources/gradient-linear-hdri-02.gif" />
+        </td>
+    </tr>
 </table>

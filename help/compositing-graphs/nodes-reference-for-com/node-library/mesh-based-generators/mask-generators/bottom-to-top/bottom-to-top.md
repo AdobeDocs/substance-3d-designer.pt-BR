@@ -10,10 +10,10 @@ helpx_tags: ""
 title: De baixo para cima
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 1%
+source-wordcount: '199'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/bottom-to-top.png){width="128px"}
+![](bottom-to-top.resources/bottom-to-top-01.png){width="128px"}
 
-## De baixo para cima
-
-**Entrada:** *Geradores Baseados Em Malha/Geradores De Máscara*
-
-**Simples**
+<b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,29 +37,36 @@ Gera uma máscara em preto e branco com base em mapas baked e configurações do
 
 Isso gera uma transição de branco para preto da parte inferior para a parte superior de um modelo, útil para fazer falhas e seleções baseadas em geometria.
 
-## Parâmetros
-
-### Entradas
-
-* **Posição**: *Entrada de cores*\
-  Mapa da posição cozida. Obrigatório!
-* **Aspereza:** *Entrada em tons de cinza*\
-  Isso não tem nada a ver com a rugosidade do PBR, mas é um mapa de variação (opcional) para quebrar a transição. Aparece somente quando a Aspereza está definida como maior que 0.
-* **Máscara (opcional)**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Nível**: *0.0 - 1.0*\
-  Desloca o nível médio do resultado entre preto ou branco, como um ajuste de brilho.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta o contraste da transição.
-* **Variação\_de_aspereza**: *0.0 - 1.0* Determina a quantidade do mapa de aspereza a ser mesclada para a variação. Aumentar isso em 0 revela o slot do mapa.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/bottom-to-top-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Posição</b> <i>Entrada de cores</i> | Mapa da posição cozida. Obrigatório! |
+| <b>Aspereza</b> <i>Entrada em tons de cinza</i> | Isso não tem nada a ver com a rugosidade do PBR, mas é um mapa de variação (opcional) para quebrar a transição. Aparece somente quando a Aspereza está definida como maior que 0. |
+| <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Nível</b> <i>0.0 - 1.0</i> | Desloca o nível médio do resultado entre preto ou branco, como um ajuste de brilho. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta o contraste da transição. |
+| <b>Variação_Aspereza</b> <i>0.0 - 1.0</i> | Determina a quantidade do mapa de aspereza a ser mesclada para variação. Aumentar isso em 0 revela o slot do mapa. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="bottom-to-top.resources/bottom-to-top-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Visualizador de intervalo HDR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 2%
+source-wordcount: '66'
+ht-degree: 10%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-range-viewer-grayscale.png){width="128px"}
+![](hdr-range-viewer.resources/hdr-range-viewer-01.png){width="128px"}
 
-![](../../../../../../assets/hdr-range-viewer.png){width="128px"}
+![](hdr-range-viewer.resources/hdr-range-viewer-02.png){width="128px"}
 
-## Visualizador de intervalo HDR (Tons de cinza)
-
-**Entrada:** *Filtros/Ajustes*
-
-**Simples**
+<b>Entrada:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Ferramenta de depuração para verificar áreas exatas com Intervalo dinâmico. As versões Cor e Tons de cinza existem.
 
-## Parâmetros
-
-* **Intervalo mínimo**: *-2.0 - 0.0* Intervalo mínimo para iniciar o realce.
-* **Intervalo Máximo**: *1.0 - 3.0* Intervalo máximo para realçar até.
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/hdr-viewer-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Intervalo Mínimo</b> <i>-2.0 - 0.0</i> | Intervalo mínimo para iniciar o realce. |
+| <b>Intervalo Máximo</b> <i>1.0 - 3.0</i> | Intervalo máximo para realçar até. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="hdr-range-viewer.resources/hdr-range-viewer-03.png" />
+        </td>
+    </tr>
 </table>

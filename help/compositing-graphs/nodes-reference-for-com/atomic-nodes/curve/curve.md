@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curva
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: curva](../../../../assets/comp_curve_1.png "Nó atômico: curva"){width="200px"}
+![Nó atômico: curva](curve.resources/curve-01.png "Nó atômico: curva"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -91,7 +91,7 @@ Ao contrário da maioria dos outros nós, o nó Curva não tem uma interface pad
 | --- | --- |
 | <b>Aplicar/Expor curva</b> *Booleano* | Permite copiar a curva do usuário para a saída em vez de aplicá-la à imagem de entrada |
 | <b>Endereçamento de curva</b> *Booleano* | Esse parâmetro determina como os pixels HDR fora do intervalo [0, 1] na entrada são tratados: apertados ou dobrados até [0, 1]. |
-| <b>Curva</b> *Matriz de chaves curvas* | A curva personalizada usada para mapear os valores de tons de cinza de entrada.   Pode ser editado usando o [Editor de curvas](#curve-editor). |
+| <b>Curva</b> *Matriz de chaves curvas* | A curva personalizada usada para mapear os valores de tons de cinza de entrada.   Pode ser editado usando o [Editor de curvas](#curve-editor). |
 
 ## Editor de curva
 
@@ -99,7 +99,7 @@ Ao contrário da maioria dos outros nós, o nó Curva não tem uma interface pad
 
 Para criar um ponto, basta clicar duas vezes em qualquer lugar na Visualização de curva:
 
-![](../../../../assets/createmovepoint.gif)
+![](curve.resources/curve-02.gif)
 
 ### Controle da influência do ponto
 
@@ -112,31 +112,31 @@ Para obter resultados precisos, os nós curvos oferecem modos diferentes para ca
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-5-36.png)
+![](curve.resources/curve-03.png)
 
 </td>
 </tr>
 </table>
 
-![](../../../../assets/image2017-2-17-14-13-27.png) Redefina o modo de ponto para o valor padrão.
+![](curve.resources/curve-04.png) Redefina o modo de ponto para o valor padrão.
 
-![](../../../../assets/image2017-2-17-14-12-6.png) Bloqueie/desbloqueie os 2 manipuladores de bézier para que o usuário possa movê-los juntos ou independentemente.
+![](curve.resources/curve-05.png) Bloqueie/desbloqueie os 2 manipuladores de bézier para que o usuário possa movê-los juntos ou independentemente.
 
-![](../../../../assets/image2017-2-17-14-14-0.png) Ambos os lados do ponto são controlados por um manipulador de Bezier.
+![](curve.resources/curve-06.png) Ambos os lados do ponto são controlados por um manipulador de Bezier.
 
-![](../../../../assets/image2017-2-17-14-16-22.png) O lado direito do ponto é controlado por um manipulador de Bezier enquanto o lado esquerdo permanece plano.
+![](curve.resources/curve-07.png) O lado direito do ponto é controlado por um manipulador de Bezier enquanto o lado esquerdo permanece plano.
 
-![](../../../../assets/image2017-2-17-14-18-25.png) O lado esquerdo do ponto é controlado por um manipulador de Bezier enquanto o lado direito permanece plano.
+![](curve.resources/curve-08.png) O lado esquerdo do ponto é controlado por um manipulador de Bezier enquanto o lado direito permanece plano.
 
-![](../../../../assets/image2017-2-17-14-19-32.png) Os lados do ponto permanecem planos
+![](curve.resources/curve-09.png) Os lados do ponto permanecem planos
 
-![](../../../../assets/curvepointsmodes.gif)
+![](curve.resources/curve-10.gif)
 
 ### Mostrar histograma de entrada
 
-Você pode mostrar/ocultar o histograma de sua entrada apenas clicando em ![](../../../../assets/image2017-2-17-14-50-13.png)
+Você pode mostrar/ocultar o histograma de sua entrada apenas clicando em ![](curve.resources/curve-11.png)
 
-![](../../../../assets/image2017-2-17-14-48-35.png)
+![](curve.resources/curve-12.png)
 
 ### Controle de cada canal individualmente (entrada de cores)
 
@@ -151,15 +151,15 @@ Basta selecionar a curva que deseja ajustar na lista suspensa localizada na part
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-52-43.png)
+![](curve.resources/curve-13.png)
 
 </td>
 </tr>
 </table>
 
-No modo de curva de RGB, você pode ocultar/mostrar as curvas de canais individuais pressionando/despressionando ![](../../../../assets/image2017-2-17-14-55-0.png):
+No modo de curva de RGB, você pode ocultar/mostrar as curvas de canais individuais pressionando/despressionando ![](curve.resources/curve-14.png):
 
-![](../../../../assets/image2017-2-17-14-55-38.png)
+![](curve.resources/curve-15.png)
 
 ### Alinhamento, espelhamento e inversão
 
@@ -178,7 +178,7 @@ Se você clicar com o botão direito do mouse na vista de curva, irá obter mais
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-6-27-16-11-9.png)
+![](curve.resources/curve-16.png)
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ Desenhe uma caixa de seleção.
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/ctrl.gif)
+![](curve.resources/curve-17.gif)
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ Restringir o movimento nos eixos X ou Y.
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/shift.gif)
+![](curve.resources/curve-18.gif)
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ Quebre temporariamente as alças para movê-las de forma independente.
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/altclick.gif)
+![](curve.resources/curve-19.gif)
 
 </td>
 </tr>
@@ -247,11 +247,11 @@ Quebre temporariamente as alças para movê-las de forma independente.
 
 Ao ajustar os manipuladores, você pode estar no caso em que um manipulador está passando sobre a visualização da curva.
 
-Nesse caso, você pode usar o botão ![](../../../../assets/image2017-2-20-19-11-53.png) para ajustar o tamanho ao conteúdo.
+Nesse caso, você pode usar o botão ![](curve.resources/curve-20.png) para ajustar o tamanho ao conteúdo.
 
-O botão ![](../../../../assets/image2017-2-20-19-12-45.png) redefine o nível de zoom como 1
+O botão ![](curve.resources/curve-21.png) redefine o nível de zoom como 1
 
-![](../../../../assets/viewzoom.gif)
+![](curve.resources/curve-22.gif)
 
 ## Conectores de entrada
 

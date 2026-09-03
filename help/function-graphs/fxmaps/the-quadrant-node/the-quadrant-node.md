@@ -10,7 +10,7 @@ helpx_tags: ""
 title: O Nó Quadrante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 2%
@@ -86,7 +86,7 @@ Por padrão, a opção Nenhum padrão está selecionada, portanto nenhuma imagem
 
 A próxima opção, *Imagem de entrada*, é usar uma imagem fornecida para o nó FX-Map. O nó FX-Map aceita imagens coloridas ou em tons de cinza para uso como plano de fundo ou como substituição de um dos padrões integrados. Observe que o nó Quadrante só pode renderizar uma imagem de entrada em tons de cinza em um Fx-Map em tons de cinza e, inversamente, só pode renderizar uma imagem de entrada colorida em um FX-Map colorido. Se quiser misturar tipos de cores, é necessário converter as entradas antes no gráfico.
 
-Finalmente, você pode escolher um dos padrões incorporados: Quadrado, Disco, paraboloide, Sino, Gaussiano, Espinho, Pirâmide, Tijolo, Gradação, Ondas, Meio Sino, Sino Ondulado, Crescente e Cápsula.
+Finalmente, você pode escolher um dos padrões incorporados: Quadrado, Disco, parabolóide, Sino, Gaussiano, Espinho, Pirâmide, Tijolo, Gradação, Ondas, Meio sino, Sino ondulado, Crescente e Cápsula.
 
 Observação adicional: você tem a possibilidade de criar uma função dinâmica neste parâmetro, mas ela funcionará somente no Substance 3D Designer. Para ter acesso à entrada de imagem por uma função dinâmica, você terá que usar valores de 256 (entrada de imagem 1) a valores mais altos (257 para entrada de imagem 2 etc.).
 
@@ -102,12 +102,12 @@ O parâmetro Variação de padrão ajusta um recurso definido do padrão.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../assets/fxmap-quadrants.png){width="80px"}
+![](the-quadrant-node.resources/the-quadrant-node-01.png){width="80px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../assets/quadrant-parameters.jpg)
+![](the-quadrant-node.resources/the-quadrant-node-02.jpg)
 
 </td>
 </tr>

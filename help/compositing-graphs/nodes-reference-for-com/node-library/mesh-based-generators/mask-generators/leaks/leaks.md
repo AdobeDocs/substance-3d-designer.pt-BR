@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Vazamentos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -22,59 +22,59 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/leaks.png){width="128px"}
+![](leaks.resources/leaks-01.png){width="128px"}
 
-## Vazamentos
-
-**Entrada:** *Geradores Baseados Em Malha**/Geradores De Máscara*
-
-**Intermediário**
+<b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras Inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) do [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Esse nó representa listras de vazamento de dirt e sujeira provenientes de bordas nítidas. À medida que as listras são geradas com a Posição assada, elas sempre correm para baixo.
+Esse nó representa listras de vazamento de dirt e sujeira provenientes de bordas nítidas. À medida que as listras são geradas com a Posição feita bake, elas sempre correm para baixo.
 
-Experimente alterar a máscara de variação: como ela orienta o posicionamento das listras, pode ter uma influência muito maior do que com outros geradores de máscaras.
-
-## Parâmetros
-
-### Entradas
-
-* **Posição**: *Entrada em Tons de Cinza*\
-  Mapa de posição assado, usado para direções de riscas. Obrigatório!
-* **Curvatura**: *Entrada em tons de cinza*\
-  Mapa baked usado para o posicionamento da faixa. Obrigatório!
-* **Oclusão De Ambiente**: *Entrada Em Tons De Cinza*\
-  Mapa baked usado para efeitos internos e mascaramento. Recomendado, mas você pode usar branco plano.
-* **Espaço Mundial Normal**: *Entrada De Cores*\
-  Baked World Space Normalmap, usado para a direção da faixa. Obrigatório!
-* **Máscara de Variação**: *Entrada em Tons de Cinza*\
-  Máscara de variação opcional, ative definindo a substituição como True.
-* **Máscara (opcional)**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Nível**: *0.0 - 1.0*\
-  Nível total do resultado. Progressivamente revela o efeito, afeta o comprimento também. Deve ser ajustado razoavelmente alto para obter gotas longas.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta o contraste do resultado.
-* **Variação**: *0.0 - 1.0* Define a quantidade de variação de larga escala usada para mascarar as listras. Definir esse valor como 0 leva a listras totalmente uniformes, portanto, evite isso.
-* **Comprimento**: *0.0 - 8.0* Comprimento das gotas de listras. A definição desse valor muito alto em uma escala pequena resultará em etapas visíveis. Brinque também com o Level.
-* **Ocultar**: *X, Y, Z, None* Define a direção que o AO deve afetar.
-* **Substituir máscara de variação**: *Falso/Verdadeiro* Permite substituir a máscara de variação por um slot de entrada personalizado. Usar máscaras mais esparsas ou mais densas pode ser interessante e é uma boa maneira de controlar os gotejamentos.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/leaks-ex.gif)
+Experimente alterar a máscara de variação: como ela orienta o posicionamento das listras, pode ter uma influência muito maior do que com outras Geradores de máscara.
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Posição</b> <i>Entrada em tons de cinza</i> | Mapa de posição feito bake, usado para direções de listras. Obrigatório! |
+| <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para o posicionamento da faixa. Obrigatório! |
+| <b>Oclusão de ambiente</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para efeitos internos e mascaramento. Recomendado, mas você pode usar branco plano. |
+| <b>Espaço Mundial Normal</b> <i>Entrada de cores</i> | Fez bake o World Space Normalmap, usado para direção da faixa. Obrigatório! |
+| <b>Máscara de Variação</b> <i>Entrada em tons de cinza</i> | Máscara de variação opcional, ative definindo a substituição como True. |
+| <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Nível</b> <i>0.0 - 1.0</i> | Nível total do resultado. Progressivamente revela o efeito, afeta o comprimento também. Deve ser ajustado razoavelmente alto para obter gotas longas. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta o contraste do resultado. |
+| <b>Variação</b> <i>0.0 - 1.0</i> | Define a quantidade de variação de grande escala usada para mascarar as listras. Definir esse valor como 0 leva a listras totalmente uniformes, portanto, evite isso. |
+| <b>Comprimento</b> <i>0.0 - 8.0</i> | Comprimento das gotas da faixa. A definição desse valor muito alto em uma escala pequena resultará em etapas visíveis. Brinque também com o Level. |
+| <b>Ocultar</b> <i>X, Y, Z, Nenhum</i> | Define a direção que o AO deve afetar. |
+| <b>Substituir máscara de variação</b> <i>Falso/Verdadeiro</i> | Permite a substituição da máscara de variação por um slot de entrada personalizado. Usar máscaras mais esparsas ou mais densas pode ser interessante e é uma boa maneira de controlar os gotejamentos. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="leaks.resources/leaks-02.gif" />
+        </td>
+    </tr>
 </table>

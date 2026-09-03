@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
-description: Saiba mais sobre a interface herdada dos padeiros da Substance 3D Designer para usuários familiarizados com versões mais antigas.
+description: Conheça a interface herdada do Substance 3D Designer baker para usuários familiarizados com versões mais antigas.
 helpx_creative_field: ""
 helpx_description: Designer > Bakers > Bakers Legacy Interface
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Interface herdada de padarias
+title: Interface herdada de baker
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 3%
@@ -18,59 +18,59 @@ ht-degree: 3%
 ---
 
 
-# Interface herdada de padarias
+# Interface herdada de baker
 
-Esta é a descrição da interface de panificação disponível nas versões do [Adobe Substance 3D Designer](https://www.adobe.com/br/products/substance3d-designer.html) anteriores à 6.0.4.
+Esta é a descrição da interface do baker disponível nas versões do [Adobe Substance 3D Designer](https://www.adobe.com/br/products/substance3d-designer.html) anteriores à 6.0.4.
 
 ## Visão geral
 
-![](../../assets/image2017-3-13-9-33-40.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-01.png)
 
-O painel do padeiro divide-se em 4 partes:
+O painel baker está dividido em 4 partes:
 
 ### 1: Cena
 
-![](../../assets/image2017-3-13-9-35-53.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-02.png)
 
-Permite definir qual parte da malha está envolvida no processo de cozimento.
+Permite definir qual parte da malha está envolvida no processo de fça bake.
 
 Novo na versão 6, você também pode selecionar por material:
 
-![](../../assets/image2017-3-13-9-45-26.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-03.png)
 
-### 2: Padarias
+### 2: Baker
 
-![](../../assets/image2017-3-13-9-46-26.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-04.png)
 
-Pressionando o botão ![](../../assets/image2017-3-13-9-47-47.png), você pode adicionar os preparadores desejados à lista de processamento
+Pressionando o botão ![](bakers-legacy-interface.resources/bakers-legacy-interface-05.png), você pode adicionar os baker desejados à lista de processamento
 
 >[!NOTE]
 >
-> Os cozidos são processados seguindo a ordem da lista (de cima para baixo): isso pode ser importante se você quiser reutilizar o resultado de um cozido (como o mapa normal) em outro processo de cozimento
+> Os padings são processados seguindo a ordem da lista (de cima para baixo): isso pode ser importante se você quiser reutilizar o resultado de um faço bake (como o mapa normal) em outro processo de fça bake
 
-Clicar no “+” no layout de padeiros permite adicionar os padeiros em uma pilha (Você pode colocar quantos padeiros quiser em uma pilha).
+Clicar no “+” no layout baker permite adicionar os baker em uma pilha (Você pode colocar quantos baker quiser em uma pilha).
 
-.![](../../assets/image2017-3-13-9-52-8.png)
+.![](bakers-legacy-interface.resources/bakers-legacy-interface-06.png)
 
-Você pode remover um processo de cozimento da lista pressionando ![](../../assets/image2017-3-13-9-54-33.png)
+Você pode remover um processo de fça bake da lista pressionando ![](bakers-legacy-interface.resources/bakers-legacy-interface-07.png)
 
-Você pode reordenar a lista de processos de cozimento selecionando um processo de cozimento e usando ![](../../assets/image2017-3-13-9-55-33.png)
+Você pode reordenar a lista de processos de fça bake selecionando um processo de fça bake e usando ![](bakers-legacy-interface.resources/bakers-legacy-interface-08.png)
 
-### 3: Parâmetros de padeiros
+### 3: parâmetros de Baker
 
-![](../../assets/image2017-3-13-13-24-0.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-09.png)
 
-Esta seção exibe as opções específicas para o padeiro atualmente selecionado.
+Esta seção exibe as opções específicas para o baker selecionado atualmente.
 
 ### 4: Parâmetros Comuns
 
-![](../../assets/image2017-3-13-13-28-12.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-10.png)
 
-Exibe os parâmetros que são compartilhados entre padeiros.
+Exibe os parâmetros compartilhados entre baker.
 
 >[!NOTE]
 >
-> Por padrão, alterar um desses parâmetros afetará todos os padeiros, exceto se você marcar Substituir parâmetros, comuns a todos os padeiros: nesse caso, as alterações serão locais para o padeiro atual.
+> Por default, alterar um desses parâmetros afetará todos os baker, exceto se você marcar Sobrepor Parâmetros, comum a todos os baker: nesse caso, as alterações serão locais para o baker atual.
 
 * O campo **Nome do Recurso** permite alterar o nome do bitmap gerado, se desejado.
 * A lista suspensa **Formato de Arquivo** permite alterar o formato de arquivo do padrão (formato de Bitmap do Windows ou OS/2, “BMP”).
@@ -78,8 +78,8 @@ Exibe os parâmetros que são compartilhados entre padeiros.
 * **O Método** permite definir se o novo recurso de bitmap deve ser vinculado ou incorporado no pacote de Substance.
 * **A pasta** permite definir onde salvar os mapas.
 
-Pressionar o botão OK na parte inferior direita da janela de padaria iniciará o processo de cozimento.
+Pressionar o botão OK no canto inferior direito da janela baker iniciará o processo de fça bake.
 
-Novo na versão 6: agora você pode cancelar o processo de cozimento com o botão cancelar:
+Novo na versão 6: agora você pode cancelar o processo de fça bake com o botão Cancelar:
 
-![](../../assets/image2017-3-13-13-50-4.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-11.png)

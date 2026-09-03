@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Visão geral
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ O [Substance 3D Designer](https://www.adobe.com/br/products/substance3d-designer
 
 Veja como ele se compara a outros aplicativos:
 
-|  | <div><img alt="Ícone do Substance 3D Sampler" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Ícone do Substance 3D Sampler" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Ícone do Substance 3D Painter" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Ícone do Substance 3D Designer" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Ícone do Substance 3D Designer" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Ícone do Substance 3D Sampler" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/overview-01.png" title="Ícone do Substance 3D Sampler" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Ícone do Substance 3D Painter" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/overview-02.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Ícone do Substance 3D Designer" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/overview-03.png" title="Ícone do Substance 3D Designer" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>Curva de aprendizado</b> | Baixa | Média | Alta |
 | <b>Materiais de criação</b> | Sim | Sim | Sim |
@@ -46,11 +46,11 @@ O Substance 3D Designer é um editor baseado em nó que permite criar conteúdo 
 
 <b>[Não linear](../../compositing-graphs/substance-compositing-graphs.md) </b>: você pode criar várias saídas de textura de uma só vez. Edite uma máscara ou um controle deslizante e, automaticamente, qualquer saída conectada será recalculada. Não é mais necessário criar mapas separadamente, como Basecolor, Aspereza, Normal etc.
 
-<b> [Não destrutivo](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: você pode reverter qualquer ação *sem* perder seu trabalho. Torna-se muito mais rápido iterar e experimentar, encontrando fluxos de trabalho ainda mais eficientes.
+<b>[Não destrutivo](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: você pode reverter qualquer ação *sem* perder seu trabalho. Torna-se muito mais rápido iterar e experimentar, encontrando fluxos de trabalho ainda mais eficientes.
 
-<b> [Preparação integrada](../../bakers/bakers.md) </b>: acesse ferramentas avançadas de malha de alta velocidade diretamente no software. Você não precisa mais executar cozimento em um software separado e executar processos demorados de importação e exportação.
+<b>[Preparação integrada](../../bakers/bakers.md) </b>: acesse ferramentas avançadas de malha de alta velocidade diretamente no software. Você não precisa mais executar cozimento em um software separado e executar processos demorados de importação e exportação.
 
-<b> [Parametric](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: você pode configurar para controlar quase qualquer aspecto de uma textura por meio de um único controle deslizante ou lista suspensa. Isso permite adicionar controle e variação infinitos a apenas um ativo.
+<b>[Paramétrico](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: você pode configurar para controlar quase qualquer aspecto de uma textura por meio de um único controle deslizante ou lista suspensa. Isso permite adicionar controle e variação infinitos a apenas um ativo.
 
 ## Tipos de arquivo
 
@@ -60,7 +60,7 @@ O aplicativo e seu ecossistema usam 4 tipos diferentes de arquivos. Para deixar 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/ds-sbs-48.png)
+![](overview.resources/overview-04.png)
 
 ### Arquivo do Substance 3D
 
@@ -71,7 +71,7 @@ Os Arquivos Substance são os **principais arquivos de origem** do Designer. Ao 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/sbsar-48.png)
+![](overview.resources/overview-05.png)
 
 ### Ativo do Substance 3D
 
@@ -82,7 +82,7 @@ Os arquivos de Substance são <b> arquivos de Substance compilados, otimizados <
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/bmp-96.png){width="48px"}
+![](overview.resources/overview-06.png){width="48px"}
 
 ### Arquivos estáticos
 
@@ -104,7 +104,7 @@ Os arquivos do Substance 3D podem conter uma grande variedade de recursos que se
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](overview.resources/overview-07.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Os gráficos de Substance permitem gerar e processar *dados de imagem 2D* e depo
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](overview.resources/overview-08.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ Os gráficos de Substance permitem gerar e processar *dados de imagem 2D* e depo
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](overview.resources/overview-09.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -155,9 +155,9 @@ Existem os seguintes tipos de recursos:
 
 * [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md)
 * [Gráficos vetoriais (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [Malha 3D e cena](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [Fonte](../../resources/font-resource/font-resource.md)
-* [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [Cenas 3D](../../resources/3d-scene-resource/3d-scene-resource.md)
+* [Fontes](../../resources/font-resource/font-resource.md)
+* [Arquivos AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>

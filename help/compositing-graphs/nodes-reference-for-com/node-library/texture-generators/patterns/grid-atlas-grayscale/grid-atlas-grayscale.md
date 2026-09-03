@@ -1,7 +1,7 @@
 ---
 title: Grade de atlas em escala de cinza
 description: Designer > Gráficos de composição de Substance > Referência de nós para gráficos de composição de Substance > Biblioteca de nós > Gerador > Padrão > Tons de cinza de Grade de atlas
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de Grade de atlas de tons de cinza](grid-atlas-grayscale.resources/grid-atlas-grayscale.png "Grade de atlas de tons de cinza")
+![Ícone de Grade de atlas de tons de cinza](grid-atlas-grayscale.resources/grid-atlas-grayscale-01.png "Grade de atlas de tons de cinza")
 
 <b>Entrada:</b> Gerador > Padrão
 
@@ -75,5 +75,5 @@ Consulte também [cor de Grade de atlas](../grid-atlas-color/grid-atlas-color.md
 
 ## Exemplos
 
-<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-graph.png" alt="Grade de atlas nó de escala de cinza no contexto de um gráfico" style="width: 50%"><br>
+<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-02.png" alt="Grade de atlas nó de escala de cinza no contexto de um gráfico" style="width: 50%"><br>
 <i>Grade de atlas nó de tons de cinza no contexto de um gráfico</i>

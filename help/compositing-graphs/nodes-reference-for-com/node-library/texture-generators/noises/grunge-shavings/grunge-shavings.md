@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Economia de desgaste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '152'
 ht-degree: 5%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeshavings.jpg){width="200px"}
+![](grunge-shavings.resources/grunge-shavings-01.jpg){width="200px"}
 
-**Entrada:** *Geradores De Textura* */Ruídos*
-
-**Simples**
+<b>Entrada:</b> Geradores de Textura > Ruídos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,31 +39,31 @@ O nó **Barbeamento de Desgaste** no [Substance 3D Designer](https://www.adobe.c
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parâmetros
 
-* **Equilíbrio** *Flutuante* Ajusta o equilíbrio entre valores escuros e brilhantes.
-* **Contraste** *Flutuar* Ajusta o contraste da imagem.
-* **Inverter** *Booleano* Inverte a saída da imagem usando uma operação `1-x`.
-* **Expansão não quadrada** *Booleano* Habilita a compensação de squash e alongamento com proporções não quadradas.
-* Avançado
-  * **Quantidade de manchas de arranhão** *Flutuação* A quantidade e a *cobertura* do efeito de manchas de arranhões usado para gerar as aparas.
-  * **Divisão em blocos gráficos de manchas de rascunho** *Inteiro* A quantidade de divisão em blocos gráficos do efeito de manchas de rascunho usada para gerar aparas.
-  * **Intensidade do Dust** *Flutuar* A intensidade da sobreposição do dust na superfície.
-  * **Intensidade da nitidez** *Flutuar* A intensidade do efeito de nitidez global.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
+| <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
+| <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+| <b>Avançado</b> |  |
+| <b>Quantidade de Pontos de Rascunho</b> <i>Flutuante</i> | A quantidade e *cobertura* do efeito de manchas arranhadas usado para gerar as aparas. |
+| <b>Divisão em Blocos Gráficos</b> <i>Inteiro</i> | A quantidade de divisão em blocos gráficos do efeito de manchas arranhadas usada para gerar as aparas. |
+| <b>Intensidade de Dust</b> <i>Flutuante</i> | A intensidade da sobreposição do dust na superfície. |
+| <b>Intensidade de nitidez</b> <i>Flutuante</i> | A intensidade do efeito de nitidez global. |
 
-## Imagens de exemplo
+## Exemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeshavings-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeshavings-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-shavings.resources/grunge-shavings-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-shavings.resources/grunge-shavings-03.jpg" />
+        </td>
+    </tr>
 </table>

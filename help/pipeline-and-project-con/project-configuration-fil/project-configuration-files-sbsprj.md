@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Arquivos de configuração de projeto - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Eles são especiais porque você pode usar vários arquivos de configuração de
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Ícone de arquivo SBSPRJ](../../assets/sbsprj.png "ícone de arquivo SBSPRJ")
+![Ícone de arquivo SBSPRJ](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-01.png "ícone de arquivo SBSPRJ")
 
 </td>
 </tr>
@@ -55,17 +55,15 @@ No entanto, há algumas configurações que <b>se expandem</b> nas configuraçõ
 
 Os arquivos de projeto podem conter as seguintes configurações:
 
-<b>Exibição 3D: </b>Sombreador padrão, HDR e definições de estado de cena.
+<b>Visualização 3D: </b>Sombreador padrão, HDR e definições de estado de cena.
 
 <b>Aliases: </b>Aliases de palavras-chave para caminhos relativos.
 
-<b>Preparação: </b>Configurações para convenções de nomenclatura de cozimento.
+<b>Fazendo bake: </b>Configurações para fazer bake convenções de nomenclatura.
 
 <b>Geral: </b>Modelos de gráfico, plug-ins de espaço tangente, padrões de formato normal e de imagem.
 
-<b>Biblioteca: </b>caminhos observados a serem exibidos na Biblioteca, bem como [filtros e categorias para a exibição Biblioteca](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
-
-<b>MDL: </b>caminhos observados de MDL.
+<b>Biblioteca: </b>caminhos observados a serem exibidos na biblioteca.
 
 <b>Script: </b>Scripts e interpretadores de retorno de chamada.
 
@@ -79,7 +77,7 @@ As configurações de projeto são, como todos os outros tipos, salvas como arqu
 
 Consulte a página [Configurações do projeto](../../interface/preferences-window/project-settings/project-settings.md) para saber mais sobre como gerenciar arquivos de projeto e alterar as configurações do projeto.
 
-Os arquivos de projeto também incluem <b>categorias</b> e <b>filtros</b> personalizados para a [Biblioteca](../../interface/the-library/the-library.md), sobre a qual você pode saber mais na página [Gerenciar conteúdo e filtros personalizados](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
+Os arquivos de projeto também incluem <b>categorias</b> e <b>filtros</b> personalizados para a [Biblioteca](../../interface/the-library/the-library.md), sobre a qual você pode saber mais na página [Gerenciar conteúdo e filtros personalizados](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md).
 
 ## Editar XML Externamente
 
@@ -87,11 +85,11 @@ Para o Windows, o [Bloco de Notas++](https://notepad-plus-plus.org) é uma boa o
 
 Depois de abrir o arquivo SBSPRJ em um editor, você verá um layout estruturado bastante direto, com seções correspondentes a guias na interface do usuário. Nem todas as configurações serão documentadas aqui, pois isso é razoavelmente autoexplicativo.
 
-![Edição de XML](../../assets/project-xml.png "Edição de XML")
+![Edição de XML](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-02.png "Edição de XML")
 
 ## Caminhos e aliases relativos
 
-Os caminhos relativos combinados com aliases são uma das partes mais complicadas, mas importantes, de uma configuração de projeto. Esta seção irá esclarecê-los. A adição de aliases personalizados para um arquivo de projeto específico é feita em [Configurações do Projeto](../../interface/preferences-window/project-settings/project-settings.md).
+Os caminhos relativos combinados com aliases são uma das partes mais complicadas, mas importantes, de uma configuração de projeto. Esta seção irá esclarecê-los. A adição de aliases personalizados para um arquivo de projeto específico é feita em [Configurações do Projeto](../../interface/preferences-window/project-settings/project-settings.md).
 
 Um dos principais problemas com arquivos que fazem referência a outros arquivos em um sistema no computador de vários usuários é que os caminhos de arquivo absolutos não funcionarão. Os usuários podem definir seus repositórios SVN em locais completamente diferentes (por exemplo, C:/John/Gamedev/SubstanceLibrary ou D:/Dev/SubstanceLibrary). Aliases e caminhos relativos funcionam juntos para resolver esse problema. Caso contrário, você pode abrir o arquivo de outra pessoa e ele tentará procurar o nó personalizado usado no local específico em que o usuário o tinha localmente, o que você provavelmente não terá definido exatamente da mesma maneira.
 
@@ -106,7 +104,7 @@ Um <b>alias</b> é uma palavra-chave que substitui (parte de) um caminho. É sem
 > | <b>sbs</b> | *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages* |
 > | <b>personalizado</b> | *D:\Dev\CustomProject\Substance* |
 > 
-> A biblioteca padrão está localizada, por padrão, em *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages*. Todos os gráficos que usam o conteúdo padrão fazem referência a esse diretório. Em vez de referenciar o caminho completo, um alias de &#39;<b>SBS</b>&#39; (sem aspas) é definido. No caso de uma biblioteca padrão, o valor exato do caminho do SBS é definido na instalação para o diretório que o usuário escolher para o Designer.
+> A biblioteca padrão está localizada, por padrão, em *C:\Program Files\Adobe\Adobe Substance 3D Designer\resources\packages*. Todos os gráficos que usam o conteúdo padrão fazem referência a esse diretório. Em vez de referenciar o caminho completo, um alias de &#39;<b>SBS</b>&#39; (sem aspas) é definido. No caso de uma biblioteca padrão, o valor exato do caminho SBS é definido na instalação para o diretório que o usuário escolher para o Designer.
 > 
 > Internamente, uma referência é modificada da seguinte maneira, quando contém um caminho com um alias:
 > 

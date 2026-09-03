@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Transformação não quadrada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/safe-transform.png)
+![](non-square-transform.resources/non-square-transform-01.png)
 
-![](../../../../../../assets/safe-transform-grayscale.png)
+![](non-square-transform.resources/non-square-transform-02.png)
 
-## Transformação não quadrada (tons de cinza)
-
-**Entrada:** *Filtros/Transformações*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Transformas
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -47,22 +43,29 @@ Certifique-se de entender completamente os [Parâmetros de Gráfico](../../../..
 * Defina o Tamanho de Saída do **nó** de Transformação Não Quadrada como “*Relativo ao Pai*”.
 * Defina o modo de divisão em blocos gráficos do **nó** como “*Sem divisão em blocos gráficos*” se desejar transformar apenas a entrada em uma única posição.
 
-## Parâmetros
-
-* **Modo Lado a Lado**: *Automático, Manual* Habilite ou não compensações automáticas não quadradas.
-* **Bloco**: *1 - 16* Acessível somente quando o Modo Bloco está definido como Manual. Permite alterar a escala de maneira segura para a divisão em blocos gráficos.
-* **Deslocamento**: *0.0 - 1.0*\
-  Move ou traduz o resultado. Clique duas vezes no controle deslizante para inserir valores negativos.
-* **Rotação**: *0.0 - 1.0* Gira a imagem de entrada.
-* **Rotação segura (somente quadriculados)**: *Falso/Verdadeiro* Ajusta aos valores seguros para manter a nitidez dos pixels.
-* **Cor do plano de fundo**: *(valor da cor)*Cor do plano de fundo para preencher a imagem. Visível somente quando o [Modo de Enquadramento em Parâmetros Básicos estiver definido como “*Sem Enquadramento*”](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md).
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/nonsquare-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Modo Lado a Lado</b> <i>Automático, Manual</i> | Habilite compensações automáticas não quadradas ou não. |
+| <b>Bloco</b> <i>1 - 16</i> | Acessível somente quando o Modo lado a lado está definido como Manual. Permite alterar a escala de maneira segura para a divisão em blocos gráficos. |
+| <b>Deslocamento</b> <i>0.0 - 1.0</i> | Move ou traduz o resultado. Clique duas vezes no controle deslizante para inserir valores negativos. |
+| <b>Rotação</b> <i>0.0 - 1.0</i> | Gira a imagem de entrada. |
+| <b>Rotação Segura (Somente Quadrados)</b> <i>Falso/Verdadeiro</i> | Ajusta aos valores seguros para manter a nitidez dos pixels. |
+| <b>Cor do plano de fundo</b> <i>(Valor da cor)</i> | Cor do plano de fundo para preencher a imagem. Visível somente quando o [Modo de Enquadramento em Parâmetros Básicos estiver definido como “*Sem Enquadramento*”](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md). |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="non-square-transform.resources/non-square-transform-03.png" />
+        </td>
+    </tr>
 </table>

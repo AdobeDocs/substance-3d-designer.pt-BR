@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: SVG](../../../../assets/comp_svg_1.png "Nó atômico: SVG"){width="200px"}
+![Nó atômico: SVG](svg.resources/svg-01.png "Nó atômico: SVG"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -99,8 +99,8 @@ Você pode criar o nó do zero ou soltar um arquivo de SVG na visualização Gr�
 |  |  |
 | --- | --- |
 | <b>Modo de cores</b> *Booleano* | Determina o tipo de saída do nó, para retornar em cor ou em escala de cinza. |
-| <b>Cor do plano de fundo</b> *Cores/Tons de Cinza* | Define a cor de fundo da imagem de saída para usar em áreas não cobertas por uma forma vetorial.   *É substituído pela entrada &#39;[Background](#inputs)&#39; quando essa entrada está conectada.* |
-| <b>Caminho do recurso PKG</b> *Cadeia de Caracteres* | Caminho para o [recurso SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) que está sendo referenciado pelo nó.   É recomendável não digitar manualmente, mas copiar um recurso do explorador e colá-lo no campo de texto de parâmetro ou arrastar e soltar um recurso de bitmap diretamente do [Explorador](../../../../interface/the-explorer-window/the-explorer-window.md) para o nó SVG no gráfico. |
+| <b>Cor do plano de fundo</b> *Cores/Tons de Cinza* | Define a cor de fundo da imagem de saída para usar em áreas não cobertas por uma forma vetorial.   *É substituído pela entrada &#39;[Background](#inputs)&#39; quando essa entrada está conectada.* |
+| <b>Caminho do recurso PKG</b> *Cadeia de Caracteres* | Caminho para o [recurso SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) que está sendo referenciado pelo nó.   É recomendável não digitar manualmente, mas copiar um recurso do explorador e colá-lo no campo de texto de parâmetro ou arrastar e soltar um recurso de bitmap diretamente do [Explorador](../../../../interface/the-explorer-window/the-explorer-window.md) para o nó SVG no gráfico. |
 
 ## Ferramentas de edição de vetor
 
@@ -110,7 +110,7 @@ Formas vetoriais podem ser editadas no Designer. Saiba mais sobre as ferramentas
 
 |  |  |
 | --- | --- |
-| <b>Fundo</b> *Tons de Cinza/Cor* PRIMÁRIO | Define a cor de fundo da imagem de saída para usar em áreas não cobertas por uma forma vetorial.   *Substitui o parâmetro &#39;[Cor do plano de fundo](#parameters)&#39; quando conectado.* |
+| <b>Fundo</b> *Tons de Cinza/Cor* PRIMÁRIO | Define a cor de fundo da imagem de saída para usar em áreas não cobertas por uma forma vetorial.   *Substitui o parâmetro &#39;[Cor do plano de fundo](#parameters)&#39; quando conectado.* |
 
 ## Conectores de saída
 

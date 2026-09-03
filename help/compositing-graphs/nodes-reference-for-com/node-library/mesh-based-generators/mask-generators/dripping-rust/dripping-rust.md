@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Ferrugem de gotejamento
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 1%
+source-wordcount: '211'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dripping-rust.png){width="128px"}
+![](dripping-rust.resources/dripping-rust-01.png){width="128px"}
 
-## Ferrugem de gotejamento
-
-**Entrada:** *Geradores Baseados Em Malha**/Geradores De Máscara*
-
-**Intermediário**
+<b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,32 +37,40 @@ Gera uma máscara em preto e branco com base em mapas baked e configurações do
 
 Essa máscara representa lascas e manchas de ferrugem, com vazamentos diminuindo.
 
-## Parâmetros
-
-### Entradas
-
-* **Curvatura**: *Entrada em tons de cinza*\
-  Mapa planejado ou gerado para ajudar com o posicionamento das ferrugens.
-* **Oclusão De Ambiente**: *Entrada Em Tons De Cinza*\
-  Mapa planejado ou gerado para ajudar com o posicionamento das ferrugens.
-* **Posição**: *Entrada em Tons de Cinza*\
-  Mapa cozido ou gerado para direções de gotejamento.
-* **Máscara (opcional)**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Propagação de Ferrugem**: *0.0 - 1.0* Controle principal para a quantidade de ferrugem.
-* **Contraste de Ferrugem**: *0.0 - 1.0* Define a quantidade de contraste nas manchas de ferrugem geradas (não afeta as gotas).
-* **Smoothness de propagação**: *0.0 - 1.0* Quantidade de efeito de desfoque/mancha a ser aplicada às manchas de ferrugem.
-* **Intensidade de gotas**: *0.0 - 1.0* Define a intensidade e o comprimento das gotas de manchas.
-* **Smoothness de gotas**: *0.0 - 1.0* Quantidade de desfoque e suavização a ser aplicada a gotas.
-* **Quantidade de Amostras de Gotas**: *0 - 32* Define o nível de qualidade (etapas) para o efeito de gotas. Tem um pequeno efeito na velocidade.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/dripping-rust-ex3.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Mapa feito bake ou gerado para ajudar com o posicionamento das ferrugens. |
+| <b>Oclusão de ambiente</b> <i>Entrada em tons de cinza</i> | Mapa feito bake ou gerado para ajudar com o posicionamento das ferrugens. |
+| <b>Posição</b> <i>Entrada em tons de cinza</i> | Mapa feito bake ou gerado para direções de gotejamento. |
+| <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Propagação de Ferrugem</b> <i>0.0 - 1.0</i> | Controle principal para a quantidade de ferrugem. |
+| <b>Contraste de Ferrugem</b> <i>0.0 - 1.0</i> | Define a quantidade de contraste nas manchas de ferrugem geradas (não afeta as gotas). |
+| <b>Espalhando Smoothness</b> <i>0.0 - 1.0</i> | Quantidade de efeito de desfoque/mancha a ser aplicada às manchas de ferrugem. |
+| <b>Intensidade de gotas</b> <i>0.0 - 1.0</i> | Define a intensidade e o comprimento das gotas de manchas. |
+| <b>Smoothness de gotas</b> <i>0.0 - 1.0</i> | Quantidade de desfoque e suavização a ser aplicada a gotas. |
+| <b>Quantidade de Amostras de Gotas</b> <i>0 - 32</i> | Define o nível de qualidade (etapas) do efeito gotas. Tem um pequeno efeito na velocidade. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dripping-rust.resources/dripping-rust-02.gif" />
+        </td>
+    </tr>
 </table>

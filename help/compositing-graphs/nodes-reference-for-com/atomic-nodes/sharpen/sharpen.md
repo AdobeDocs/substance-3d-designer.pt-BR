@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nitidez
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone do nó de nitidez](../../../../assets/sharpen-4.png "ícone do nó de nitidez")
+![Ícone do nó de nitidez](sharpen.resources/sharpen-01.png "ícone do nó de nitidez")
 
 <b>Entrada:</b> Nós Atômicos
 
@@ -43,7 +43,7 @@ O Nó de nitidez executa uma operação de nitidez em uma entrada. É um nó út
 
 ## Entradas
 
-<b>Entrada</b> *Cores/Tons de Cinza* (Primária)\
+<b>Entrada</b> *Cores/Tons de Cinza* (Primário)\
 A imagem que deve ter a nitidez ajustada.
 
 ## Parâmetros
@@ -56,4 +56,4 @@ Determina se o canal alfa da imagem deve ter a nitidez ajustada ou permanecer in
 
 ## Exemplos
 
-![Nó de nitidez - Exemplo 1](../../../../assets/sharpen-ex.png "Nó de nitidez - Exemplo 1")
+![Nó de nitidez - Exemplo 1](sharpen.resources/sharpen-02.png "Nó de nitidez - Exemplo 1")

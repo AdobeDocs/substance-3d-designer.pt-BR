@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Recursos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '155'
 ht-degree: 7%
 
 ---
@@ -26,7 +26,7 @@ Recursos são o conteúdo dos pacotes da Substance 3D Designer. Eles são usados
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/graph-5.png)
+![](resources.resources/resources-01.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -46,7 +46,7 @@ Os recursos de gráfico são os principais recursos criados no Designer. Cada um
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/folder-4.png)
+![](resources.resources/resources-02.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,10 +55,10 @@ Os recursos de gráfico são os principais recursos criados no Designer. Cada um
 
 Recursos não gráficos são geralmente recursos auxiliares usados como dados adicionais em Gráficos ou para ajudar a visualizar resultados de Gráficos. Os seguintes tipos existem, cada um tem uma subpágina nesta seção dos documentos:
 
-* [Bitmap](../resources/bitmap-resource/bitmap-resource.md)
-* [Gráficos vetoriais (SVG)](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [Recurso de cena 3D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [Fonte](../resources/font-resource/font-resource.md)
+* [Bitmap](bitmap-resource/bitmap-resource.md)
+* [Gráficos vetoriais (SVG)](vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [Recurso de cena 3D](3d-scene-resource/3d-scene-resource.md)
+* [Fonte](font-resource/font-resource.md)
 
 </td>
 </tr>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Desgaste concreto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '159'
 ht-degree: 1%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeconcrete.jpg){width="200px"}
+![](grunge-concrete.resources/grunge-concrete-01.jpg){width="200px"}
 
-**Entrada:** *Geradores De Textura**/Ruídos*
-
-**Simples**
+<b>Entrada:</b> geradores de textura > Ruídos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,20 +39,30 @@ O nó **Concreto de Desgaste** gera um mapa de desgaste semelhante ao mapa de he
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parâmetros
 
-* **Equilíbrio** *Flutuante* Ajusta o equilíbrio entre valores escuros e brilhantes.
-* **Contraste** *Flutuar* Ajusta o contraste da imagem.
-* **Inverter** *Booleano* Inverte a saída da imagem usando uma operação `1-x`.
-* **Expansão não quadrada** *Booleano* Habilita a compensação de squash e alongamento com proporções não quadradas.
-* Avançado
-  * **Base Noisiness** *Float* Ajusta o ruído da textura base.
-  * **Opacidade das manchas de Dirt** *Flutuação* Ajusta a opacidade das manchas de dirt.
-  * **Inverter Dirt** *Booleano* Inverte o impacto das manchas de dirt.
-  * **Opacidade dos Scratches** *Flutuante* Ajusta a opacidade dos arranhões.
-  * **Ajustar nitidez** *Flutuar* Ajusta a intensidade de um efeito de nitidez aplicado à imagem.
-  * **Intensidade de variação grande** *Flutuante* Ajusta as variações de escala grande (frequência baixa) aplicadas à textura base.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
+| <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
+| <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+| <b>Avançado</b> |  |
+| <b>Ruído Base</b> <i>Flutuante</i> | Ajusta o ruído da textura base. |
+| <b>Opacidade de Manchas de Dirt</b> <i>Flutuante</i> | Ajusta a opacidade das manchas de dirt. |
+| <b>Inverter Dirt</b> <i>Booleano</i> | Inverte o impacto das manchas de dirt. |
+| <b>Opacidade de Scratches</b> <i>Flutuante</i> | Ajusta a opacidade dos arranhões. |
+| <b>Ajustar nitidez</b> <i>Flutuante</i> | Ajusta a intensidade de um efeito de nitidez aplicado à imagem. |
+| <b>Intensidade de variação grande</b> <i>Flutuante</i> | Ajusta as variações de escala grande (frequência baixa) aplicadas à textura base. |
 
-## Imagens de exemplo
+## Exemplos
 
-![](../../../../../../assets/grungeconcrete-variant.jpg){width="256px"}
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-concrete.resources/grunge-concrete-02.jpg" />
+        </td>
+    </tr>
+</table>

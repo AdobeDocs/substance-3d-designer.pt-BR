@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Renderização de histograma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 1%
+source-wordcount: '215'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Anisotrópico de Escala de Cinza Kuwahara](../../../../../../assets/histogram_render.png "Ícone Anisotrópico de Escala de Cinza Kuwahara"){width="200px"}
+![Ícone Anisotrópico de Escala de Cinza Kuwahara](histogram-render.resources/histogram-render-01.png "Ícone Anisotrópico de Escala de Cinza Kuwahara"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -39,50 +39,36 @@ Desenha o histograma de uma imagem em tons de cinza.
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-</tr>
-</table>
-
-## Conectores de entrada
+## Entradas
 
 |  |  |
-| --- | --- |
-| <b>Entrada</b> *Tons de cinza* PRIMÁRIO | A imagem para a qual o histograma deve ser desenhado. |
+|:---|:---|
+| <b>Entrada</b> <i>Tons de cinza</i> PRIMÁRIO | A imagem para a qual o histograma deve ser desenhado. |
 
-## Conectores de saída
+<a name="outputs"></a>
+
+## Saídas
 
 |  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza* | A visualização do histograma foi calculada a partir da imagem de entrada. |
+|:---|:---|
+| <b>Saída</b> <i>Tons de cinza</i> | A visualização do histograma foi calculada a partir da imagem de entrada. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
 |  |  |
-| --- | --- |
-| <b>Resolução do histograma</b> *Inteiro* | A largura do histograma. Um valor mais alto permite uma melhor distribuição de valores.   As resoluções disponíveis são, em pixels: 256, 512, 1024, 2048, 4096 |
-| <b>Escala automática</b> *Booleano* | Quando &#39;Verdadeiro&#39;, remapeia o histograma para usar o height completo da imagem.   Quando &#39;Falso&#39;, cada coluna usa quantos pixels em height houver ocorrências de um valor na imagem de entrada. |
-| <b>Escala</b> *Flutuante* | Dimensiona o histograma verticalmente, onde o valor 1 é o height completo do histograma. |
+|:---|:---|
+| <b>Resolução do histograma</b> *Inteiro* | A largura do histograma. Um valor mais alto permite uma melhor distribuição de valores.   As resoluções disponíveis são, em pixels: 256, 512, 1024, 2048, 4096 |
+| <b>Escala automática</b> *Booleano* | Quando &#39;Verdadeiro&#39;, remapeia o histograma para usar o height completo da imagem.   Quando &#39;Falso&#39;, cada coluna usa quantos pixels em height houver ocorrências de um valor na imagem de entrada. |
+| <b>Escala</b> *Precisão decimal* | Dimensiona o histograma verticalmente, onde o valor 1 é o height completo do histograma. |
 | <b>Amostragem</b> *Inteiro* | O método de filtrar a imagem do histograma, que afeta o resultado quando a resolução do histograma e a resolução de renderização são incompatíveis:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Bilinear:</b> aplica filtragem bilinear ao histograma, resultando em pontos interpolados</li> <li data-preserve-html="true"><b>Mais próximo:</b> faz a amostragem do pixel mais próximo sem filtragem, resultando em etapas simples</li> </ul> |
 | <b>Virar eixo Y</b> *Booleano* | Quando &#39;Verdadeiro&#39;, espelha o histograma verticalmente. |
 
 ## Exemplos
 
-![Renderização do histograma: Exemplo 1](../../../../../../assets/histogram_render_example_1.png "Renderização do histograma: Exemplo 1"){zoomable="yes"}
+![Renderização do histograma: Exemplo 1](histogram-render.resources/histogram-render-02.png "Renderização do histograma: Exemplo 1"){zoomable="yes"}
 
-![Renderização do histograma: Exemplo 2](../../../../../../assets/histogram_render_example_2.png "Renderização do histograma: Exemplo 2"){zoomable="yes"}
+![Renderização do histograma: Exemplo 2](histogram-render.resources/histogram-render-03.png "Renderização do histograma: Exemplo 2"){zoomable="yes"}

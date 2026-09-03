@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ''
-description: Use o nó Distorcer para aplicar efeitos de distorção a texturas para criar efeitos de deformação e de deslocamento.
+description: Use o nó Distorcer para aplicar efeitos de distorção ao textura para criar efeitos de distorção e de deslocamento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Warp
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distorcer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 9%
@@ -24,14 +24,14 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Distorcer](../../../../assets/comp_warp_1.png "Nó atômico: Distorcer"){width="200px"}
+![Nó atômico: Distorcer](warp.resources/warp-01.png "Nó atômico: Distorcer"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 Desloca os valores de pixel na imagem de entrada de acordo com as inclinações calculadas a partir de uma entrada de gradiente separada, resultando em deformação.
 
-Diferentemente da Distorção direcional, esse nó afasta uniformemente das áreas brancas, em uma direção definida pela inclinação ou gradiente da Entrada de gradiente.
+Diferentemente da Deformação direcional, esse nó afasta uniformemente das áreas brancas, em uma direção definida pela inclinação ou gradiente da Entrada de gradiente.
 
 </td>
 </tr>
@@ -39,7 +39,7 @@ Diferentemente da Distorção direcional, esse nó afasta uniformemente das áre
 
 O nó pode ser um pouco complicado de trabalhar, pois o resultado do efeito é muito dependente da entrada de gradiente: pequenos ajustes ao gradiente podem fazer uma grande diferença visual com os mesmos valores de intensidade. Experimente o Contraste, a Luminância e a escala da Entrada de gradiente, bem como o controle deslizante de Intensidade neste nó.
 
-Se você estiver familiarizado com mapas Normais, poderá imaginar o funcionamento desse nó como sendo semelhante à conversão da Entrada de gradiente em um [mapa Normal](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) e, em seguida, distorcer a Entrada Base na direção definida pelos vetores de mapa Normais. Na verdade, essa mesma coisa pode ser obtida com a [Distorção de vetor](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md). Efeitos semelhantes também podem ser encontrados no [Desfoque de Inclinação](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
+Se você estiver familiarizado com Mapas normais, pode imaginar o funcionamento desse nó como sendo semelhante ao de converter a Entrada de gradiente em um [Mapa normal](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) e, em seguida, distorcer a Entrada base na direção definida pelos vetores de Mapa normal. Na verdade, essa mesma coisa pode ser obtida com a [Distorção de vetor](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md). Efeitos semelhantes também podem ser encontrados no [Desfoque de Inclinação](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
 
 <table>
 <tr style="border: 0;">

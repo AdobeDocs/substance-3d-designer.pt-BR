@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderizadores 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ A visualização 3D oferece quatro renderizadores:
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizador</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3d-renderers-02.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU Pathtracer</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Graças à sua dependência do USD, ele pode aproveitar o [plug-in USDFileFormat
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizador</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3d-renderers-03.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -73,7 +73,7 @@ Graças à sua dependência do USD, ele pode aproveitar o [plug-in USDFileFormat
 
 >[!TIP]
 >
-> Você pode selecionar o renderizador usado por padrão ao iniciar uma nova visualização 3D na seção [”Visualização 3D” das configurações do projeto](../../../interface/preferences-window/project-settings/project-settings.md).
+> Você pode selecionar o renderizador usado por padrão ao iniciar uma nova Visualização 3D na seção [”Exibição 3D” das configurações do projeto](../../../interface/preferences-window/project-settings/project-settings.md).
 
 <a name="rasterizer"></a>
 
@@ -83,19 +83,19 @@ Graças à sua dependência do USD, ele pode aproveitar o [plug-in USDFileFormat
 
 |                                                                 |                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Amostras** flutuantes | Especifica o número de amostras de pixels a serem computadas antes que a imagem seja considerada convergida. |
-| **Opacidade de oclusão do ambiente** flutuante | Especifica o valor da opacidade da oclusão do ambiente. |
+| **Amostras** Precisão decimal | Especifica o número de amostras de pixels a serem computadas antes que a imagem seja considerada convergida. |
+| Precisão decimal de **opacidade de Oclusão de ambiente** | Especifica o valor da opacidade da oclusão do ambiente. |
 | **Habilitar deslocamento** Booleano | Especifica se o deslocamento deve ser habilitado. |
-| **Limite de Deslocamento** flutuante | Configura um limite para habilitar/desabilitar a tesselação da GPU. |
+| **Precisão decimal de limite de Deslocamento** | Configura um limite para habilitar/desabilitar a tesselação da GPU. |
 | **Habilitar remoção de face de fundo** booleano | Um valor verdadeiro permitirá a remoção de malhas triangulares que têm normais que estão voltadas para longe da câmera. Um valor false desabilitará a remoção de face de fundo. |
 | **Modo de diagnóstico** Inteiro | Determina o modo de diagnóstico a ser renderizado. |
 | **Modo de sombra do rasterizador** Inteiro | Especifica a técnica a ser usada para renderizar sombras:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Nenhuma sombra:</i> nenhuma sombra será renderizada.</li> <li data-preserve-html="true"><i>Voxel marchou:</i> marche os raios de sombra em uma cena voxelizada.</li> </ul> |
 | **Contagem de amostra de sombra do rasterizador** Inteiro | Especifica quantos raios de sombra são traçados por pixel. |
-| **Opacidade de sombra do rasterizador** flutuante | Especifica a opacidade das sombras, de 0,0 (sem sombras) a 1,0 (sombras completas). |
+| **Precisão decimal de opacidade de sombra do rasterizador** | Especifica a opacidade das sombras, de 0,0 (sem sombras) a 1,0 (sombras completas). |
 | **Transparência independente de ordem do rasterizador habilitada** Booleano | Não considera a ordem das superfícies transparentes ao renderizá-las. Isso sacrifica um pouco a precisão para uma renderização mais rápida de superfícies transparentes. |
 | **Habilitar SSS de rasterizador** Booleano | Alterna o efeito de dispersão da subsuperfície. |
 | **Contagem de exemplo de SSS de rasterizador** Inteiro | Especifica quantas amostras são tiradas por pixel para renderizar a dispersão da subsuperfície. |
-| **Habilitar suavização de acumulação de rasterizador** booleano | Alterna a suavização de borda de acumulação, que melhora o smoothness ou as bordas da imagem renderizada, realizando triturações e calculando a cor média local de cada pixel, cumulativamente. Ou seja, ele acumula valores para calcular uma média. |
+| **Habilitar suavização de contornos de acúmulo de rasterizador** booliano | Alterna a suavização de contornos de acumulação, que melhora o smoothness ou as bordas da imagem renderizada por renderizações irregulares e pelo cálculo da cor média local de cada pixel, cumulativamente. Ou seja, ele acumula valores para calcular uma média. |
 | **Resolução da grade de voxels rasterizada** Inteiro | Determina a resolução da grade de voxel usada em voxel que marca o rasterizador.   Valores mais altos resultam em sombras mais precisas em detrimento do desempenho. |
 | **Contagem de exemplo de tempo de execução de IBL de rasterizador** Inteiro | Especifica quantas amostras são usadas para calcular os reflexos de specular de IBL quando a técnica está definida como `runtimeSampled`. |
 
@@ -111,7 +111,7 @@ Graças à sua dependência do USD, ele pode aproveitar o [plug-in USDFileFormat
 
 +++
 
-![Rasterizador - Exemplo 1](../../../assets/3dRendererRasterizer.jpg "Rasterizador - Exemplo 1"){zoomable="yes"}
+![Rasterizador - Exemplo 1](3d-renderers.resources/3d-renderers-04.jpg "Rasterizador - Exemplo 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -121,9 +121,9 @@ Graças à sua dependência do USD, ele pode aproveitar o [plug-in USDFileFormat
 
 |                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Amostras** flutuantes | Especifica o número de amostras de pixels a serem computadas antes que a imagem seja considerada convergida. |
+| **Amostras** Precisão decimal | Especifica o número de amostras de pixels a serem computadas antes que a imagem seja considerada convergida. |
 | **Habilitar deslocamento** Booleano | Especifica se o deslocamento deve ser habilitado. |
-| **Limite de Deslocamento** flutuante | Configura um limite para habilitar/desabilitar a tesselação da GPU. |
+| **Precisão decimal de limite de Deslocamento** | Configura um limite para habilitar/desabilitar a tesselação da GPU. |
 | **Habilitar remoção de face de fundo** booleano | Um valor verdadeiro permitirá a remoção de malhas triangulares que têm normais que estão voltadas para longe da câmera. Um valor false desabilitará a remoção de face de fundo. |
 | **Tipo de ciclo de pixels** Inteiro | Especifica a técnica a ser usada para diminuir a resolução de computação para renderização interativa:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Sem ciclo:</i> desabilita o ciclo de pixels e computa cada amostra de pixel completa.</li> <li data-preserve-html="true"><i>Ideal para dispositivos:</i> seleciona a resolução de ciclos de pixel ideal com base no dispositivo usado para renderização.</li> <li data-preserve-html="true"><i>4x4:</i> Amostra 1/16 dos pixels por passagem de ciclo.</li> <li data-preserve-html="true"><i>8x8:</i> Amostra 1/64 dos pixels por passagem de ciclo.</li><li data-preserve-html="true"><i>Ruído azul:</i> faz a amostragem adaptativamente de um número de pixels e os divide para atingir uma taxa de quadros de objetivo.</li> </ul> |
 | **Modo de diagnóstico** Inteiro | Determina o modo de diagnóstico a ser renderizado. |
@@ -145,7 +145,7 @@ Graças à sua dependência do USD, ele pode aproveitar o [plug-in USDFileFormat
 
 +++
 
-![GPU pathtracer - Exemplo 1](../../../assets/3dRendererPathtracer.jpg "GPU pathtracer - Exemplo 1"){zoomable="yes"}
+![GPU pathtracer - Exemplo 1](3d-renderers.resources/3d-renderers-05.jpg "GPU pathtracer - Exemplo 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -296,4 +296,4 @@ O Designer também oferece a possibilidade de configurar seus próprios sombread
 > 
 > Este renderizador está **obsoleto**: ele não receberá novos recursos e será desativado em uma versão futura do Designer.
 
-![OpenGL - Exemplo 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Exemplo 1"){zoomable="yes"}
+![OpenGL - Exemplo 1](3d-renderers.resources/3d-renderers-06.jpg "OpenGL - Exemplo 1"){zoomable="yes"}

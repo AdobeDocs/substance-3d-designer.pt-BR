@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Varredura de histograma não uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 1%
+source-wordcount: '210'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-scan-non-uniform.png){width="128px"}
+![](histogram-scan-non-uniform.resources/histogram-scan-non-uniform-01.png){width="128px"}
 
-## Varredura de histograma não uniforme
-
-**Entrada:** *Filtros/Ajustes*
-
-**Complexo**
+<b>Entrada:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,23 +37,27 @@ Versão avançada do [Varredura de histograma](../../../../../../compositing-gra
 
 É muito mais complexo de usar do que a [Verificação do histograma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) comum, portanto, certifique-se de estar familiarizado antes de tentar usar a versão Não Uniforme.
 
-## Parâmetros
-
-### Entradas
-
-* **Entrada**: *Entrada em tons de cinza* Resultado da origem a ser modificado.
-* **Mapa de Posição**: *Entrada em Tons de Cinza* Slot de entrada para definir o parâmetro de Posição. Ativado quando “Usar entrada de posição” estiver definido como Verdadeiro. O intervalo de valores efetivo é pequeno e depende do mapa e da configuração de Contraste.
-* **Mapa de Contraste**: *Entrada em Tons de Cinza* slot de entrada para definir o parâmetro de contraste. Ativado quando “Usar entrada de contraste” estiver definido como Verdadeiro. O intervalo de valor efetivo é pequeno.
-
-### Parâmetros
-
-* **Usar Entrada de Posição**: *Falso/Verdadeiro* Alterna o uso do slot de entrada do Mapa de Posição.
-* **posição**: *0.0 - 1.0* controla ou modifica os resultados do mapa para orientar a configuração de posição.
-* **Usar a Entrada de Contraste**: *Falso/Verdadeiro* Alterna o uso do slot de entrada do Mapa de Contraste.
-* **contraste**: *0.0 - 1.0* controla ou modifica os resultados do mapa para orientar a configuração de contraste.
-
-## Imagens de exemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada</b> <i>Entrada em tons de cinza</i> | Resultado de origem a ser modificado. |
+| <b>Mapa de posições</b> <i>Entrada em tons de cinza</i> | Slot de entrada para o parâmetro de posição da unidade. Ativado quando “Usar entrada de posição” estiver definido como Verdadeiro. O intervalo de valores efetivo é pequeno e depende do mapa e da configuração de Contraste. |
+| <b>Mapa de Contraste</b> <i>Entrada em tons de cinza</i> | Slot de entrada para definir o parâmetro de contraste. Ativado quando “Usar entrada de contraste” estiver definido como Verdadeiro. O intervalo de valor efetivo é pequeno. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Usar Entrada de Posição</b> <i>Falso/Verdadeiro</i> | Alternar o uso do slot de entrada do Mapa de Posição. |
+| <b>posição</b> <i>0.0 - 1.0</i> | Controla ou modifica os resultados do mapa para orientar a configuração de posição. |
+| <b>Usar entrada de contraste</b> <i>Falso/Verdadeiro</i> | Alterna o uso do slot de entrada do Mapa de Contraste. |
+| <b>contraste</b> <i>0.0 - 1.0</i> | Controla ou modifica os resultados do mapa para orientar a configuração de contraste. |

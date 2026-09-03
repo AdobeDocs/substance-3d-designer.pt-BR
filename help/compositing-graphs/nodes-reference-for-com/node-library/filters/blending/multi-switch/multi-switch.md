@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Comutador múltiplo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-switch-greyscale.png){width="128px"}
+![](multi-switch.resources/multi-switch-01.png){width="128px"}
 
-![](../../../../../../assets/multi-switch.png){width="128px"}
+![](multi-switch.resources/multi-switch-02.png){width="128px"}
 
-## Chave Múltipla (Tons de Cinza)
-
-**Entrada:** *Filtros/Mesclagem*
-
-**Simples**
+<b>Entrada:</b> Filtros > Mesclagem
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -45,19 +41,23 @@ Muito útil para adicionar muitas opções diferentes em um gráfico. Combinado 
 
 Importante: certifique-se de usar a versão apropriada para sua entrada! Use “Múltiplo switch” para entradas de cor, “Múltiplo switch de tons de cinza” para entradas de tons de cinza.
 
-## Parâmetros
-
-### Entradas
-
-* **Entrada 1-20**: *Entrada de Cores*
-
-### Parâmetros
-
-* **Número de entrada**: *2 - 20* Quantidade de entradas a serem expostas. Importante: não remove conexões quando o número é reduzido!
-* **Seleção de Entrada**: *1 - 20* Qual entrada deve retornar como resultado.
-
-## Imagens de exemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada 1-20</b> <i>Entrada de cores</i> |  |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Número de Entrada</b> <i>2 - 20</i> | Quantidade de entradas a serem expostas. Importante: não remove conexões quando o número é reduzido! |
+| <b>Seleção de Entrada</b> <i>1 - 20</i> | A entrada a ser retornada como resultado. |

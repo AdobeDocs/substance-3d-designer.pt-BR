@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Gerador de Scratches
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/scratches-generator.png)
+![](scratches-generator.resources/scratches-generator-01.png)
 
-## Gerador de Scratches (normal)
-
-**Entrada:** *Geradores De Textura**/Padrões*
-
-**Complexo**
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,37 +37,46 @@ Isso coloca riscos aleatórios com várias opções de personalização, por exe
 
 Há uma versão especial de Scratches Generator, Scratches Generator Normal, que gera Normalmaps com base na profundidade desses arranhões. A maioria das opções é exatamente a mesma, mas ela tem alguns parâmetros extras claramente marcados para as configurações de Normal (veja abaixo).
 
-## Parâmetros
-
-* **Número de spline**: *1 - 512* Quantidade de arranhões (splines) a serem colocados.
-* **Máximo de Segmentos por Spline**: *2 - 256* Quantidade de segmentos/subdivisões ao longo do comprimento de um rascunho. Leva a curvas e distorções mais suaves. O efeito é mais perceptível com valores de Distorção mais altos.
-* **Rotação de spline**: *0.0 - 1.0* Rotação uniforme de todas as splines, para orientá-las em uma direção.
-* **Rotação de spline aleatória**: *0.0 - 1.0* Variação de ângulo, gira aleatoriamente cada spline.
-* **Escala de spline**: *0.0 - 1.0* Dimensiona uniformemente todas as splines.
-* **Escala de spline aleatória**: *0.0 - 1.0* Dimensiona aleatoriamente cada spline individualmente.
-* **Distorção de spline**: *0.0 - 1.0* Nível de distorção uniforme em todas as splines.
-* **Distorção de spline aleatória**: *0.0 - 1.0* Aleatoriamente o nível de distorção de cada spline individualmente.
-* **Frequência de Distorção de spline**: *0.0 - 1.0* Define a frequência de distorção e controla a escala dos detalhes de distorção.
-* **Largura da spline**: *0.0 - 2.0* Define a largura de todas as splines uniformemente.
-* **Aleatório na Largura da spline**: *0.0 - 1.0* Torna aleatória a largura da spline de cada spline individualmente.
-* **Posição da spline aleatória**: *0.0 - 1.0* Aleatoriamente torna a posição de cada spline individual. Quanto menor esse valor, mais splines serão agrupadas no centro da tela. Pode ser usado para criar manchas de arranhões.
-* **Definir a Largura da Curva em px**: *Falso/Verdadeiro* Determina as unidades usadas para as configurações de largura da curvatura.
-* **Luminância aleatória (somente versão em Tons de Cinza)**: *0.0 - 1.0* Torna aleatória a Luminância de cada spline individualmente.
-* **Intensidade normal (somente versão normal)**: *0.0 - 1.0* Define a intensidade do efeito Normal para cada spline globalmente.
-* **&#x200B; Normal Intensity Random &#x200B;**(Apenas na versão normal)***: *0.0 - 1.0*Torna aleatória a intensidade normal para cada spline individualmente.
-* **&#x200B; Formato Normal &#x200B;**(Somente versão normal)***: *DirectX, OpenGL*\
-  Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde).
-* **Modo de Atenuação**: *Nenhum, Início, Fim, Início + Fim* Define se e em que direção as linhas de spline desaparecem.
-* **Comprimento do fade**: *0.0 - 1.0* Define o comprimento do efeito de fade, se habilitado acima.
-* **Expansão não quadrada**: *Falso/Verdadeiro*\
-  Permite a compensação de esmagamento e alongamento com proporções não quadradas.
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/scratches-ex1.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/scratches-ex2.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Número de Spline</b> <i>1 - 512</i> | Quantidade de arranhões (splines) para inserir. |
+| <b>Máximo De Segmentos Por Spline</b> <i>2 - 256</i> | Quantidade de segmentos/subdivisões no comprimento de um rascunho. Leva a curvas e distorções mais suaves. O efeito é mais perceptível com valores de Distorção mais altos. |
+| <b>Rotação de spline</b> <i>0.0 - 1.0</i> | Rotação uniforme de todos os splines, para orientá-los em uma direção. |
+| <b>Rotação de spline aleatória</b> <i>0.0 - 1.0</i> | Variação de ângulo, gira aleatoriamente cada spline. |
+| <b>Escala de spline</b> <i>0.0 - 1.0</i> | Dimensiona uniformemente todos os splines. |
+| <b>Escala de spline aleatória</b> <i>0.0 - 1.0</i> | Dimensiona aleatoriamente cada spline individualmente. |
+| <b>Distorção de spline</b> <i>0.0 - 1.0</i> | Nível de distorção uniforme em todas as linhas. |
+| <b>Distorção de spline aleatória</b> <i>0.0 - 1.0</i> | Aleatório o nível de distorção de cada spline individualmente. |
+| <b>Frequência de Distorção da spline</b> <i>0.0 - 1.0</i> | Define a frequência de distorção e controla a escala de detalhes da distorção. |
+| <b>Largura da spline</b> <i>0.0 - 2.0</i> | Define a largura de todas as linhas uniformemente. |
+| <b>Largura da spline aleatória</b> <i>0.0 - 1.0</i> | Dispõe aleatoriamente a largura da spline individualmente. |
+| <b>Posição da spline aleatória</b> <i>0.0 - 1.0</i> | Dispõe aleatoriamente a posição de cada spline individualmente. Quanto menor esse valor, mais splines serão agrupadas no centro da tela. Pode ser usado para criar manchas de arranhões. |
+| <b>Definir a largura da spline em px</b> <i>Falso/Verdadeiro</i> | Determina as unidades usadas para as configurações de largura da spline. |
+| <b>Luminância aleatória (somente versão em tons de cinza)</b> <i>0.0 - 1.0</i> | Dispõe aleatoriamente a luminância de cada spline individualmente. |
+| <b>Intensidade normal (somente versão normal)</b> <i>0.0 - 1.0</i> | Define a intensidade do efeito Normal para cada spline globalmente. |
+| <b>Intensidade normal aleatória (somente versão normal)</b> <i>0.0 - 1.0</i> | Dispõe aleatoriamente a intensidade normal para cada spline individualmente. |
+| <b>Formato normal (somente versão normal)</b> <i>DirectX, OpenGL</i> | Alterna entre diferentes formatos de Mapas Normais (inverte o canal verde). |
+| <b>Modo de Atenuação</b> <i>Nenhum, Início, Fim, Início + Fim</i> | Define se e em que direção os splines desaparecem. |
+| <b>Comprimento do fade</b> <i>0.0 - 1.0</i> | Define a duração do efeito de fade, se ativado acima. |
+| <b>Expansão não quadrada</b> <i>Falso/Verdadeiro</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="scratches-generator.resources/scratches-generator-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="scratches-generator.resources/scratches-generator-03.png" />
+        </td>
+    </tr>
 </table>

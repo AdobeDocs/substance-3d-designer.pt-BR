@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Fibras bagunçadas 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 2%
+source-wordcount: '326'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Fibras bagunçadas 1 - Ícone](../../../../../../assets/messy_fibers_1.png "Fibras bagunçadas 1 - Ícone"){width="200px"}
+![Fibras bagunçadas 1 - Ícone](messy-fibers-1.resources/messy-fibers-1-01.png "Fibras bagunçadas 1 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -41,46 +41,30 @@ Veja também: [Fibras confusas 2](../../../../../../compositing-graphs/nodes-ref
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Saídas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
+<a name="outputs"></a>
 
 ## Saídas
 
 |  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza* | O ruído gerado como bitmap em tons de cinza. |
+|:---|:---|
+| <b>Saída</b> <i>Tons de cinza</i> | O ruído gerado como bitmap em tons de cinza. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
 |  |  |
-| --- | --- |
-| <b>Escala</b> Inteiro | A subdivisão da grade usada para gerar os blocos de ruído.    Um valor mais alto resulta no desenho de mais ladrilhos e em um ruído mais denso. |
-| <b>Desordem</b> Flutuante | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
-| <b>Velocidade do distúrbio</b> flutuante | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
-| <b>anisotropia de desordem</b> flutuante | Controla a extensão das direções do deslocamento aplicadas pelo parâmetro <b>Desordem</b>, em que um valor mais alto resulta em uma direção mais estreita e definida.    A direção é controlada pelo parâmetro <b>Ângulo de anisotropia de desordem</b>. |
-| <b>Ângulo de anisotropia do distúrbio</b> flutuante | Controla a direção do deslocamento aplicado pelo parâmetro <b>Desordem</b> quando o parâmetro &#39;anisotropia de Desordem&#39; não é zero. |
-| <b>Ângulo</b> Flutuante | O ângulo usado para definir a direção dos encadeamentos, em número de voltas e começando da direita horizontal. |
-| <b>Ângulo aleatório</b> flutuante | O valor máximo de variação aleatória aplicado ao valor <b>Ângulo</b>, em número de voltas. |
-| <b>Número de linhas</b> flutuante | A quantidade de divisão em blocos gráficos aplicada aos encadeamentos de base, em que um valor mais alto resulta em encadeamentos mais densos e mais finos. |
-| <b>Deslocamento do bloco</b> flutuante2 | Controla a posição da parte de plano infinito usada para renderizar o ruído. |
-| <b>Expansão não quadrada</b> Booleana | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
+|:---|:---|
+| <b>Escala</b> <i>Inteiro</i> | A subdivisão da grade usada para gerar os blocos de ruído.    Um valor mais alto resulta no desenho de mais ladrilhos e em um ruído mais denso. |
+| <b>Desordem</b> <i>Flutuante</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
+| <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
+| <b>anisotropia de distúrbio</b> <i>Flutuante</i> | Controla a extensão das direções do deslocamento aplicadas pelo parâmetro <b>Desordem</b>, em que um valor mais alto resulta em uma direção mais estreita e definida.    A direção é controlada pelo parâmetro <b>Ângulo de anisotropia de desordem</b>. |
+| <b>ângulo de anisotropia de desordem</b> <i>Flutuante</i> | Controla a direção do deslocamento aplicado pelo parâmetro <b>Desordem</b> quando o parâmetro &#39;anisotropia de Desordem&#39; não é zero. |
+| <b>Ângulo</b> <i>Precisão decimal</i> | O ângulo usado para definir a direção dos encadeamentos, em número de voltas e começando da direita horizontal. |
+| <b>Ângulo aleatório</b> <i>Flutuante</i> | O valor máximo de variação aleatória aplicado ao valor <b>Ângulo</b>, em número de voltas. |
+| <b>Número de linhas</b> <i>Precisão decimal</i> | A quantidade de divisão em blocos gráficos aplicada aos encadeamentos de base, em que um valor mais alto resulta em encadeamentos mais densos e mais finos. |
+| <b>Deslocamento do bloco</b> <i>Precisão decimal 2</i> | Controla a posição da parte de plano infinito usada para renderizar o ruído. |
+| <b>Expansão não quadrada</b> <i>Booleano</i> | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
 
 ## Exemplos
 
@@ -88,12 +72,12 @@ Veja também: [Fibras confusas 2](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fibras bagunçadas 1 - Ícone](../../../../../../assets/messy_fibers_1_1.png "Fibras bagunçadas 1 - Ícone"){zoomable="yes"}
+![Fibras bagunçadas 1 - Ícone](messy-fibers-1.resources/messy-fibers-1-02.png "Fibras bagunçadas 1 - Ícone"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fibras bagunçadas 1 - Exemplo 2](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso0.gif "Fibras bagunçadas 1 - Exemplo 2"){zoomable="yes"}
+![Fibras bagunçadas 1 - Exemplo 2](messy-fibers-1.resources/messy-fibers-1-03.gif "Fibras bagunçadas 1 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -103,12 +87,12 @@ Veja também: [Fibras confusas 2](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fibras bagunçadas 1 - Exemplo 3](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso1.gif "Fibras bagunçadas 1 - Exemplo 3"){zoomable="yes"}
+![Fibras bagunçadas 1 - Exemplo 3](messy-fibers-1.resources/messy-fibers-1-04.gif "Fibras bagunçadas 1 - Exemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fibras bagunçadas 1 - Exemplo 4](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso0.6.gif "Fibras bagunçadas 1 - Exemplo 4"){zoomable="yes"}
+![Fibras bagunçadas 1 - Exemplo 4](messy-fibers-1.resources/messy-fibers-1-05.gif "Fibras bagunçadas 1 - Exemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

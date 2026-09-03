@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Variáveis
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -45,13 +45,13 @@ No Substance 3D Designer você tem duas famílias de variáveis: Numéricos e Bo
 Variáveis numéricas são basicamente números. Mas fazemos uma distinção clara entre dois tipos de números:
 
 * Inteiros : 0 | 1 | -1 | 203568, etc...
-* Flutuações: 0,23 | 1,0 | -0,3546 | etc.
+* Precisão decimal: 0.23 | 1,0 | -0,3546 | etc.
 
 >[!WARNING]
 >
 > O Designer faz uma distinção clara entre inteiros e flutuantes : por padrão você não pode operá-los juntos.
 > 
-> Felizmente, você pode usar os nós *Para Inteiro* ou Para Flutuante para executar conversões de tipo.
+> Felizmente, você pode usar os nós *Para Inteiro* ou Para Precisão decimal para executar conversões de tipo.
 
 ### Vários valores numéricos na mesma variável
 
@@ -61,7 +61,7 @@ Mais uma vez, todos os valores devem ser do mesmo tipo.
 
 Para fazer isso, você tem a opção entre todos esses valores numéricos:
 
-![](../../assets/image2015-12-18-14-10-36.png)
+![](variables.resources/variables-01.png)
 
 ## Boolean
 

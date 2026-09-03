@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Non Uniform Directional Warp
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 1%
+source-wordcount: '293'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/non-uniform-directional-warp-color.png)![](../../../../../../assets/non-uniform-directional-warp-grayscale.png)
+![](non-uniform-directional-warp.resources/non-uniform-directional-warp-01.png)![](non-uniform-directional-warp.resources/non-uniform-directional-warp-02.png)
 
-## Diretório Não Uniforme Distorcer (tons de cinza)
-
-**Entrada:** *Filtros/Efeitos*
-
-**Complexo**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,35 +37,30 @@ A Distorção de Direção Não Uniforme é uma versão avançada da [Distorçã
 
 É diferente de [Distorção Multidirecional](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md), pois permite o controle sobre o Ângulo por meio de uma entrada de Mapa personalizada, enquanto a Distorção Multidirecional só permite o controle da Direção por meio de parâmetros. Isso significa que você pode criar efeitos avançados de curva e de direita que, de outra forma, não seriam possíveis.
 
-## Parâmetros
-
-### Entradas
-
-* **Entrada**: *Entrada em Tons de Cinza*\
-  Mapa base ao qual a distorção será aplicada.
-* **Entrada de Intensidade**: *Entrada em Tons de Cinza*\
-  O mapa de máscara obrigatório que direciona a intensidade do efeito de distorção deve ser em tons de cinza.
-* **Entrada de Ângulo de Distorção**: *Entrada em Tons de Cinza*\
-  O mapa de máscara obrigatório que orienta o Ângulo do efeito de distorção deve ser em tons de cinza.
-
-### Parâmetros
-
-* **Intensidade**: *0.0 - 20.0*\
-  Define a intensidade do efeito de distorção, em que distância os pixels devem ser empurrados para fora.
-* **Ângulo de Distorção**: *0.0 - 1.0*\
-  Define o Ângulo ou a direção na qual aplicar o efeito Distorcer.
-* **Multiplicador de Entrada de Ângulo de Distorção**: *0.0 - 1.0*\
-  Define o efeito do Mapa de entrada do Ângulo de distorção. O mapa de entrada Ângulo de distorção será usado para interpolar de 0 ao valor desse parâmetro.
-* **Modo De Rastreamento**: *Mín, Máx, Média*\
-  Define como as Trilhas são mescladas.
-* **Comprimento da Trilha**: *0.0 - 1.0*\
-  Define o comprimento das trilhas.
-* **Desvanecimento da Trilha**: *0.0 - 1.0*\
-  Define o quanto cada Trilha deve desvanecer-se
-* **Curva de trilha**: *-1.0 - 1.0* Só tem efeito se o Desvanecimento da trilha não for 0. Define o comportamento do efeito de esmaecimento.
-
-## Imagens de exemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada</b> <i>Entrada em tons de cinza</i> | Mapa base ao qual a distorção será aplicada. |
+| <b>Entrada de Intensidade</b> <i>Entrada em tons de cinza</i> | O mapa de máscara obrigatório que direciona a intensidade do efeito de distorção deve ser em tons de cinza. |
+| <b>Entrada de Ângulo de Distorção</b> <i>Entrada em tons de cinza</i> | O mapa de máscara obrigatório que orienta o Ângulo do efeito de distorção deve ser em tons de cinza. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Intensidade</b> <i>0.0 - 20.0</i> | Define a intensidade do efeito de distorção, em que distância os pixels devem ser empurrados para fora. |
+| <b>Ângulo de distorção</b> <i>0.0 - 1.0</i> | Define o Ângulo ou a direção na qual aplicar o efeito Distorcer. |
+| <b>Multiplicador de Entrada de Ângulo de Distorção</b> <i>0.0 - 1.0</i> | Define o efeito do Mapa de entrada do Ângulo de distorção. O mapa de entrada Ângulo de distorção será usado para interpolar de 0 ao valor desse parâmetro. |
+| <b>Modo de Rastreamento</b> <i>Mín., Máx., Média</i> | Define como as Trilhas são mescladas. |
+| <b>Comprimento da Trilha</b> <i>0.0 - 1.0</i> | Define o comprimento das trilhas. |
+| <b>Desvanecimento da Trilha</b> <i>0.0 - 1.0</i> | Define o quanto cada Trilha deve desvanecer-se |
+| <b>Curva de Trilha</b> <i>-1.0 - 1.0</i> | Só tem efeito se o Desvanecimento da trilha não for 0. Define o comportamento do efeito de esmaecimento. |

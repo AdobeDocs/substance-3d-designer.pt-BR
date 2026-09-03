@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Principais conceitos do gráfico MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Os materiais do MDL usam uma descrição destinada a soluções de renderizaçã
 </td>
 <td style="border: 0;" valign="top">
 
-[![Logotipo da NVIDIA Iray](../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![Logotipo da NVIDIA Iray](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-01.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -52,9 +52,9 @@ Por exemplo, se você deseja trabalhar em um material semelhante ao vidro, talve
 
 O nó Raiz inclui uma miniatura exibindo uma visualização de sua saída atual.
 
-![Nó raiz do gráfico MDL](../../assets/mdl-root-hl.png "Nó raiz do gráfico MDL")
+![Nó raiz do gráfico MDL](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-02.png "Nó raiz do gráfico MDL")
 
-*Nó raiz em um gráfico MDL e suas propriedades exibidas no painel [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* **
+*Nó raiz em um gráfico MDL e suas propriedades exibidas no painel [Propriedades](../../interface/properties/properties.md)* &lbrace;3 **
 
 ## Conectores e tipos
 
@@ -71,7 +71,7 @@ Veja alguns exemplos:
 * uma amostra de <b>Textura</b> é *variável*, pois os valores são afetados pelo pixel amostrado
 * um valor de <b>Cor</b> é *uniforme*, pois é transmitido igualmente, independentemente do contexto
 * um <b>BRDF</b> é *variável*, pois os valores são afetados pelo ângulo de incidência
-* um valor de <b>Flutuante</b> ou <b>Booleano</b> é *uniforme*, pois é passado igualmente, independentemente do contexto
+* um valor de <b>Precisão decimal</b> ou <b>Booleano</b> é *uniforme*, pois é passado igualmente, independentemente do contexto
 
 Cor do conector
 
@@ -81,7 +81,7 @@ O *tipo de dados* que sai de um conector de saída ou é esperado por um conecto
 >
 > Somente conectores para *tipos de dados correspondentes* podem ser vinculados. O único objetivo da codificação por cores é aumentar a legibilidade em relação ao tipo de dados que estão sendo passados no gráfico, e quais conectores podem ser ligados juntos.
 
-![Tipos de conector de nó MDL](../../assets/mdl-connector-types.png "Tipos de conector de nó MDL"){width="512px"}
+![Tipos de conector de nó MDL](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-03.png "Tipos de conector de nó MDL"){width="512px"}
 
 *O aspecto dos conectores varia de acordo com o tipo de valor de E/S, exibido entre parênteses após o identificador de E/S*
 
@@ -101,7 +101,7 @@ Convém lembrar as *regras* aplicadas à filtragem:
 * se o menu Nó for exibido ao *arrastar um link* para fora de um conector de *saída*, a lista incluirá nós em que o tipo de dados da *primeira entrada* corresponda ao tipo de dados da *saída* selecionado
 * se o menu Nó for exibido ao *arrastar um link* de um conector de *entrada*, a lista incluirá nós em que o tipo de dados da *saída* corresponda ao tipo de dados da *entrada selecionada*
 
-![Criação de nó filtrado](../../assets/mdl-filtered-node-creation.gif "Criação de nó filtrado")
+![Criação de nó filtrado](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-04.gif "Criação de nó filtrado")
 
 *Criação de nó filtrado no gráfico MDL; observe as alterações da lista de acordo com o tipo de valor do conector*
 
@@ -111,6 +111,6 @@ Os materiais MDL podem receber dados de fontes externas, na forma de valores e t
 
 Os dados podem ser passados para o nó exposto dependendo de seu *tipo*. Por exemplo, valores Float podem ser passados para um nó <b>float</b> exposto, e uma textura pode ser passada para um nó <b>color</b> exposto (nesse caso, os valores RGBA do pixel amostrado são passados como um valor de cor).
 
-![Entradas de gráfico expostas](../../assets/mdl-graph-inputs-samplers.png "Entradas de gráfico expostas")
+![Entradas de gráfico expostas](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-05.png "Entradas de gráfico expostas")
 
 *Os nós expostos criam entradas de gráfico que são entradas de valor bruto e classificadores de texturas*

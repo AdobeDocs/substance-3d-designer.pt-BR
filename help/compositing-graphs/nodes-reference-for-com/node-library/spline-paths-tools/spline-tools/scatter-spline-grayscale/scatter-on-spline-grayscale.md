@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Dispersão em Tons de Cinza Spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '2812'
+source-wordcount: '2853'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/scatter-on-spline-grayscale-icon.png "Ícone de nó")
+![Ícone de nó](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-01.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -47,269 +47,109 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 >
 > Consulte também [Dispersão na cor da spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md).
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Plano de fundo </b>*Tons de Cinza* (Primário)A imagem em tons de cinza sobre a qual as linhas divisórias devem ser desenhadas.
+## Entradas
 
-<b>Cordas de spline</b> *Cor* As coordenadas dos pontos das splines de entrada codificadas nos canais RGBA de uma imagem colorida:\
-<b> R</b> - Posição X\
-<b> G</b> - posição Y\
-<b> B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Fundo</b> <i>Tons de cinza</i> (Primário) | A imagem em tons de cinza sobre a qual as splines devem ser desenhadas. |
+| <b>Cordas de spline</b> <i>Cor</i> | As coordenadas dos pontos das linhas divisórias de entrada codificadas nos canais RGBA de uma imagem colorida:<br><b>R</b> - Posição X<br><b>G</b> - Posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br>- Sinal: a linha divisória é fechada (negativa) ou aberta (positiva);<br>- Valor absoluto: Thickness + 1. |
+| <b>Dados de Spline</b> <i>Cor</i> | Dados adicionais das splines de entrada codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Não Usadas<br><b>A</b> - Não Usadas |
+| <b>Valor da spline</b> <i>Inteiro</i> | O número de splines de entrada. |
+| <b>Entrada de padrão #</b> <i>Tons de cinza</i> | O(s) padrão(ões) que devem ser espalhados ao longo dos splines. |
+| <b>Mapa de Escala</b> <i>Tons de cinza</i> | O mapa que controla a escala dos padrões dispersos. O efeito desse mapa é controlado pelo parâmetro &#39;Multiplicador de Entrada de Mapa de Escala&#39; e é combinado com outros parâmetros no grupo &#39;Tamanho&#39;. |
+| <b>Mapa de altura</b> <i>Tons de cinza</i> | O mapa que controla o height dos padrões dispersos. O efeito desse mapa é controlado pelo parâmetro &#39;Multiplicador de entrada de Height&#39; e é combinado com outros parâmetros &#39;Cor&#39; no grupo &#39;Cor&#39;. |
+| <b>Mapa de máscaras</b> <i>Tons de cinza</i> | O mapa que controla o mascaramento dos padrões dispersos. O efeito desse mapa é controlado pelo parâmetro &#39;Limite de mapa de máscara&#39; e é combinado com outros parâmetros &#39;Máscara&#39; no grupo &#39;Cor&#39;. |
 
-<b>Dados de Spline</b> *Cor* Dados adicionais das splines de entrada codificados nos canais RGBA de uma imagem colorida.\
-<b> R</b> - Tangentes X\
-<b> G</b> - Tangentes Y\
-<b> B</b> - Não Usado\
-<b> A</b> - Não Usado
+<a name="outputs"></a>
 
-<b>Valor da spline</b> *Inteiro* O número de splines de entrada.
+## Saídas
 
-<b>Entrada de padrão #</b> *Tons de cinza* O(s) padrão(ões) que deve(m) ser espalhado(s) ao longo das splines.
+|  |  |
+|:---|:---|
+| <b>Saída</b> <i>Tons de cinza</i> | A imagem que representa o(s) padrão(ões) espalhado(s) ao longo da(s) spline(s) de entrada sobre o plano de fundo de entrada. |
 
-<b>Mapa de Escala</b> *Escala de cinza* O mapa que controla a escala dos padrões dispersos. O efeito deste mapa é controlado pelo parâmetro “Scale Map Input Multiplier” e é combinado com os outros parâmetros do grupo “Size”.
-
-<b>Mapa de Heights</b> *Tons de cinza* O mapa que controla o height dos padrões dispersos. O efeito deste mapa é controlado pelo parâmetro “Multiplicador de entrada de Height” e é combinado com os outros parâmetros “Cor” no grupo “Cor”.
-
-<b>Mapa de máscaras</b> *Tons de cinza* O mapa que controla o mascaramento dos padrões dispersos. O efeito desse mapa é controlado pelo parâmetro “Limite de mapa da máscara” e é combinado com os outros parâmetros “Máscara” no grupo “Cor”.
-
-## Conectores de saída
-
-<b>Saída</b> *Tons de cinza* A imagem que representa o(s) padrão(ões) espalhado(s) ao longo da(s) spline(s) de entrada sobre o plano de fundo de entrada.
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Entrada de spline</b> *Inteiro* O método de selecionar quais splines devem ser usados para padrões de dispersão:
-* *Todas as splines*: usar todas as splines da lista de entrada;
-* *spline única*: use somente a spline especificada na lista de entrada;
-* *Intervalo de spline*: use somente as splines no intervalo especificado da lista de entrada.
-
-<b>Índice de Spline</b> *Inteiro* (Disponível quando “Entrada de spline” está definido como “Spline simples”)O índice de lista da spline que deve ser usado para padrões de dispersão.
-
-<b>Intervalo de spline</b> *Inteiro2* (Disponível quando “Entrada de spline” está definido como “Intervalo de spline”)O intervalo de índices de lista, incluindo as splines, que deve ser usado para padrões de dispersão.
-
-<b>Modo de Dispersão</b> *Inteiro* O método de dispersão dos padrões ao longo das splines, o que afeta a quantidade de padrões em cada spline:
-* Quantidade da forma: a quantidade especificada de padrões com espaçamento uniforme é dispersa;
-* Espaçamento entre formas: o número de padrões é ajustado automaticamente para se ajustar ao espaçamento uniforme especificado.\
-  Em ambos os casos, o primeiro e o último padrões caem exatamente no início e no final de cada spline, respectivamente.
-
-<b>Quantidade de forma</b> *Inteiro* (Disponível quando o “Modo de Dispersão” estiver definido como “Quantidade da forma”)A quantidade de padrões espaçados uniformemente espalhados ao longo de cada spline.
-
-<b>Distribuição De Formas Ao Longo Da Spline</b> *Inteiro* (Disponível quando o &#39;Modo de Dispersão&#39; estiver definido como &#39;Quantidade da forma&#39;)O método de distribuição dos padrões ao longo de uma spline:
-* *Da origem*: o espaçamento dos padrões é influenciado pelas tangentes do ponto de spline, onde as formas estão mais distantes perto de pontos com tangentes longas;
-* *Uniforme*: os padrões são espaçados uniformemente ao longo da spline, independentemente de suas tangentes e trajetória.
-
-<b>Espaçamento entre formas</b> *Flutuante* (Disponível quando o “Modo de Dispersão” está definido como “Espaçamento de forma”)A distância mínima ao longo de uma spline pela qual os padrões devem ser espaçados, enquanto ainda descarrega o primeiro e o último padrão no início e no final de cada spline, respectivamente.
-
-<b>Iniciar</b> *Flutuante*<span id="_Hlk135680521"></span> Desloca o ponto do início de uma spline onde a dispersão começa. O valor é o comprimento normalizado de cada spline.
-
-<b>Fim</b> *Flutuante* Desloca o ponto do início de uma spline onde a dispersão termina. O valor é o comprimento normalizado de cada spline.
-
-<b>Tabela Dinâmica de Formas</b> *Flutuante2* Desloca a tabela dinâmica do padrão X e Y no espaço tangente da spline.\
-Considerando que o pivô é o que é colocado no spline, isso efetivamente desloca os padrões ao longo ou perpendicularmente ao spline.\
-Observação: as posições dos pivôs afetam o efeito dos parâmetros “Escala” e “Rotação (pivô)”.
-
-+++Padrão
-<b>Padrão</b> *Inteiro* O padrão que deve ser espalhado ao longo das linhas:\
-*- Entrada de Padrão*: Usar os padrões fornecidos para as entradas ‘Entrada de Padrão #’;\
-*- Quadrado;
-* Disco;
-* Paraboloide;
-* Campainha;
-* Gaussiana;
-* Thorn
-* Pirâmide;
-* Tijolo;
-* Gradação;
-* Ondas;
-* Meio-sino;
-* Sino ondulado;
-* Crescente
-* Cápsula;
-* Cone;
-* Gradação w. offset;
-* Hemisfério.*
-
-<b>Número de Entrada de Padrão</b> *Inteiro* (Disponível quando “Padrão” está definido como “Entrada de Padrão”)Seleciona o índice do padrão de entrada que deve ser disperso.
-
-<b>Distribuição de Entrada de Padrão</b> *Inteiro* (Disponível quando “Padrão” está definido como “Entrada de Padrão”)O método usado para selecionar quais dos padrões de entrada devem ser dispersos em uma determinada spline:\
-*- Aleatório*: um padrão é selecionado aleatoriamente;\
-*- Ao longo da spline*: o índice de padrão aumenta gradualmente ao longo da spline;\
-*- Índice de Padrão*: Executa um loop sobre o índice de padrões de entrada ao longo de cada spline;\
-*- Índice de Spline*: repete o índice de padrões de entrada de uma spline para a próxima na lista de splines de entrada.
-
-<b>Tremulação de Distribuição</b> *Flutuante* (Disponível quando “Distribuição de Entrada de Padrão” está definida como “Ao Longo da Curva”)Aumenta ou diminui aleatoriamente o índice selecionado de padrões na curvatura.
-
-<b>Substituir o primeiro padrão</b> *Booleano* Selecione manualmente o índice do padrão que deve ser colocado no início de cada spline.
-
-<b>Primeiro Índice de Entrada de Padrão</b> *Inteiro* (Disponível quando “Substituir primeiro padrão” estiver definido como “Verdadeiro”)O índice do padrão que deve ser colocado no início de cada spline.
-
-<b>Substituir último padrão</b> *Booleano* Selecione manualmente o índice do padrão que deve ser colocado no final de cada spline.
-
-<b>Último Índice de Entrada de Padrão</b> *Inteiro* (Disponível quando “Substituir último padrão” estiver definido como “Verdadeiro”)O índice do padrão que deve ser colocado no final de cada spline.
-
-+++
-
-+++Duplicatas
-<b>Modo de Distribuição</b> *Inteiro* O método usado para colocar os padrões duplicados:\
-*- Linear*: as duplicatas são espaçadas uniformemente ao longo do normal da spline a partir do local original do padrão;\
-*- Circular*: duplicado é organizado ao longo de um círculo virtual centralizado na spline no local original do padrão.
-
-<b>Valor Duplicado</b> *Inteiro* O número de padrões duplicados.
-
-<b>Deslocamento</b> *Flutuante2* (Disponível quando o “Modo de Distribuição” estiver definido como “Linear”)Aplica um deslocamento às posições das duplicatas ao longo da tangente (paralela) e do normal (perpendicular) da spline.\
-As duplicatas em lados opostos da spline são movidas em direções opostas.
-
-<b>Centro de Deslocamento</b> *Flutuante2* (Disponível quando ‘Modo de Distribuição’ estiver definido como ‘Linear’)Aplica um deslocamento às duplicatas ao longo da spline em X (paralelo) e Y (perpendicular).
-
-<b>Ângulo de Propagação</b> *Flutuante* (Disponível quando o &#39;Modo de Distribuição&#39; está definido como &#39;Circular&#39;)O arco do círculo virtual ao longo do qual as duplicatas são distribuídas, como o ângulo desse arco onde 1 é o círculo completo.
-
-<b>Distância de deslocamento</b> *Flutuante* (Disponível quando o &#39;Modo de Distribuição&#39; está definido como &#39;Circular&#39;)O raio do círculo virtual ao longo do qual as duplicatas são distribuídas.
-
-<b>Rotação</b> *Flutuante* Gira o círculo virtual ao longo do qual as duplicatas são distribuídas.
-
-<b>Atenuação De Início/Término De Deslocamento</b> *Flutuante2* Fatores na distância do ponto médio da spline até seu Início e Fim, ao aplicar deslocamentos a duplicatas.\
-Isso significa que os deslocamentos são diminuídos para duplicatas mais próximas dos membros de um spline.
-
-<b>Atenuação de deslocamento por Thickness</b> *Flutuar* Fatores no thickness da spline ao aplicar deslocamentos a duplicatas.\
-Isso significa que os deslocamentos são diminuídos para duplicatas em uma parte de uma spline com um thickness inferior.
-
-+++
-
-+++Tamanho
-<b>Modo de Tamanho</b> *Inteiro* O método de definir o tamanho dos padrões dispersos:\
-*- Normal*: O tamanho é controlado uniformemente usando um parâmetro global &#39;Scale&#39;;\
-*- Usar Thickness da spline*: o tamanho é determinado pelo thickness da spline.
-
-<b>O Thickness Afeta</b> *Inteiro* (Disponível quando “Modo de Tamanho” estiver definido como “Usar Thickness da Spline”)Especifica qual eixo da escala de um padrão deve ser orientado pelo thickness da spline:
-* X e Y: o Thickness é multiplicado pelo tamanho nos eixos X e Y;\
-  <span id="_Hlk135741125"></span>- X: o Thickness é multiplicado somente em relação ao tamanho no eixo X;
-* Y: o Thickness é multiplicado pelo tamanho somente no eixo Y.\
-  Quando não multiplicada, a escala original do padrão é a extensão completa da imagem.\
-  Isso significa que, no modo “X”, o tamanho no eixo Y é a extensão completa da imagem e precisa ser ajustado usando o parâmetro Size. O mesmo se aplica ao tamanho no eixo X quando se utiliza o modo “Y”.
-
-<b>Tamanho</b> *Flutuante2* O tamanho original dos padrões em X e Y antes que outros ajustes sejam feitos por outros parâmetros.
-
-<b>Tamanho aleatório</b> *Float2* Aplica um multiplicador aleatório até o valor especificado para reduzir o tamanho dos padrões em X e Y.
-
-<b>Escala de Thickness</b> *Flutuante* (Disponível quando o &#39;Modo de Tamanho&#39; estiver definido como &#39;Usar Thickness da spline&#39;)Um multiplicador adicional para a escala dos padrões quando acionado pelo thickness da spline.
-
-<b>Escala</b> *Flutuante* (Disponível quando ‘Modo de Tamanho’ estiver definido como ‘Normal’)Um controle global para o tamanho de todos os padrões, onde 1 é o tamanho total da imagem.\
-A escala é aplicada relativamente à tabela dinâmica de um padrão. A posição de pivô pode ser deslocada usando o parâmetro “Tabela Dinâmica de Forma”.
-
-<b>Escala aleatória</b> *Flutuante* Aplica um multiplicador aleatório até o valor especificado para diminuir o tamanho dos padrões.
-
-<b>Multiplicador de Entrada de Mapa de Escala</b> *Flutuante* Controla a intensidade da entrada do Mapa de Escala. Esse mapa atua como um multiplicador para o tamanho atual dos padrões.\
-O efeito deste mapa é combinado com os outros parâmetros do grupo “Tamanho”.
-
-<b>Modo de Amostragem de Entrada de Escala</b> *Espaço de Textura* O método de mapear os valores no Mapa de Escala para as splines:\
-*- Espaço de textura*: os valores são aplicados às splines nos quais estariam se fossem colocados em uma textura usando as coordenadas UV da textura. Isso aplica efetivamente o valor aos splines “in place”;\
-*- Horizontal ao longo da spline*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords da spline), onde cada linha é aplicada a uma spline diferente de cima para baixo;\
-*- Hora. ao longo do spline (rand. deslocamento X)*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento horizontal aleatório no mapa de Escala para cada spline (ou seja, cada linha em Coords de spline);\
-*- Hora. ao longo do spline (rand. deslocamento Y)*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento vertical aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de spline).
-
-<b>Atenuação de Início/Término</b> *Flutuante2* Fatores na distância do ponto médio da spline até seu Início e Fim ao dimensionar os padrões.\
-Isso significa que o tamanho é diminuído para padrões mais próximos aos membros de um spline.
-
-+++
-
-+++Posição
-<b>Deslocamento local</b> *Flutuante2* Aplica um deslocamento às posições dos padrões ao longo da tangente (paralela) e do normal (perpendicular) da spline.
-
-<b>Deslocamento Local Aleatório</b> *Flutuante2* Aplica um deslocamento aleatório adicional às posições dos padrões ao longo da tangente (paralela) e do normal (perpendicular) da spline.
-
-<b>Centro Aleatório de Deslocamento Local</b> *Flutuante2* Desloca o centro do deslocamento aleatório aplicado pelo parâmetro Deslocamento Local Aleatório ao longo da tangente (paralela) e do normal (perpendicular) da spline.
-
-<b>Atenuação De Início/Fim Do Deslocamento Local</b> *Flutuante2* Fator na distância do ponto médio da spline até seu Início e Fim ao aplicar deslocamentos de posição aos padrões.\
-Isso significa que os deslocamentos são diminuídos para padrões mais próximos aos membros de uma spline.
-
-<b>Atenuação de Deslocamento Local por Thickness</b> *Flutuar* Fatores no thickness da spline ao aplicar deslocamentos a padrões.\
-Isso significa que os deslocamentos são diminuídos para duplicatas em uma parte de uma spline com um thickness inferior.
-
-<b>Deslocamento na spline</b> *Flutuante* Aplica um deslocamento de posição aos padrões ao longo das linhas.
-
-<b>Deslocamento aleatório na spline</b> *Flutuante* Aplica um deslocamento de posição adicional aos padrões ao longo das linhas divisórias.
-
-+++
-
-+++Giro
-<b>Alinhar com Tangent</b> *Booleano* Gira os padrões para corresponder à direção da spline em seu local.
-
-<b>Rotação (Dinâmica)</b> *Flutuar* Gira os padrões ao redor de suas tabelas dinâmicas.\
-A posição de pivô pode ser deslocada usando o parâmetro “Tabela Dinâmica de Forma”.
-
-<b>Rotação Aleatória (Dinâmica)</b> *Flutuante* Aplica uma rotação aleatória adicional aos padrões ao redor de suas tabelas dinâmicas.\
-A posição de pivô pode ser deslocada usando o parâmetro “Tabela Dinâmica de Forma”.
-
-<b>Rotação Aleatória Centralizada (Tabela Dinâmica)</b> *Flutuar* Gira em torno dos pivôs do padrão o centro das rotações aleatórias aplicadas pelo parâmetro Rotação Aleatória.
-
-<b>Rotação (Centro)</b> *Flutuar* Gira os padrões ao redor de seu centro.
-
-<b>Rotação aleatória (ao centro)</b> *Flutuante* Aplica uma rotação aleatória adicional aos padrões ao redor de seu centro.
-
-<b>Rotação aleatória centralizada (centro)</b> *Flutuar* Gira em torno do centro do padrão o centro das rotações aleatórias aplicadas pelo parâmetro Rotação Aleatória.
-
-+++
-
-+++Cor
-<b>Modo de Mesclagem</b> *Inteiro* O método de mesclar as cores de padrões com o plano de fundo e outros padrões sobrepostos:\
-*- Máx*: Usar a cor mais clara;\
-*- Adicionar*: adicione as cores juntas.
-
-<b>Cor Base Da Forma</b> *Flutuante* A cor base dos padrões.
-
-<b>Multiplicador de Cores Base da Forma</b> *Flutuante* A intensidade da Cor de Base da Forma dos padrões.\
-Nota: A cor de saída é o resultado ponderado de todos os multiplicadores de cores.
-
-<b>Multiplicador de Thickness de spline</b> *Flutuante* A intensidade com que a cor de cada padrão é multiplicada em relação ao thickness da spline em sua localização.\
-Nota: A cor de saída é o resultado ponderado de todos os multiplicadores de cores.
-
-<b>Multiplicador do Índice de Forma</b> *Flutuante* A intensidade com que a cor de cada padrão é multiplicada em relação ao seu índice normalizado.\
-Nota: A cor de saída é o resultado ponderado de todos os multiplicadores de cores.
-
-<b>Modo de Height do Hemisfério</b> *Inteiro* (Disponível quando “Padrão” está definido como “Hemisfério”)O efeito do height da spline em um padrão de Hemisfério espalhado nele:\
-*- Deslocamento*: o height da spline é adicionado ao height do Hemisfério;\
-*- Escala*: o height de spline é multiplicado em relação ao height do Hemisfério.
-
-<b>Multiplicador de Height de spline</b> *Flutuante* A intensidade com que a cor de cada padrão é multiplicada em relação ao height da spline em sua localização.\
-Nota: A cor de saída é o resultado ponderado de todos os multiplicadores de cores.
-
-<b>Multiplicador de Escala de Forma</b> *Flutuante* A intensidade com que a cor de cada padrão é multiplicada em relação à sua escala.\
-Nota: A cor de saída é o resultado ponderado de todos os multiplicadores de cores.
-
-<b>Luminância aleatória</b> *Flutuante* Aplica um multiplicador aleatório até o valor especificado para diminuir a luminância dos padrões.\
-Nota: A cor de saída é o resultado ponderado de todos os multiplicadores de cores.
-
-<b>Multiplicador de Entrada de Height</b> *Flutuante* Controla a intensidade da entrada do Mapa de Heights. Esse mapa atua como um multiplicador da luminância atual dos padrões.\
-O efeito deste mapa é combinado com os outros parâmetros do grupo “Cor”.\
-Nota: A cor de saída é o resultado ponderado de todos os multiplicadores de cores.
-
-<b>Modo de Amostragem de Entrada do Mapa de Heights</b> *Inteiro* O método de mapear os valores no Mapa de Heights para as linhas de spline:\
-*- Espaço de textura*: os valores são aplicados às splines nos quais estariam se fossem colocados em uma textura usando as coordenadas UV da textura. Isso aplica efetivamente o valor aos splines “in place”;\
-*- Horizontal ao longo da spline*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords da spline), onde cada linha é aplicada a uma spline diferente de cima para baixo;\
-*- Hora. ao longo do spline (rand. deslocamento X)*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento horizontal aleatório no mapa de Escala para cada spline (ou seja, cada linha em Coords de spline);\
-*- Hora. ao longo do spline (rand. deslocamento Y)*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento vertical aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de spline).
-
-<b>Máscara aleatória</b> *Flutuante* Ajusta o intervalo do mascaramento aleatório de padrões, onde 0 significa que nenhum padrão está mascarado e 1 significa que todos os padrões estão.
-
-<b>Limite de mapa de máscaras</b> *Flutuante* Os valores no Mapa de Máscara abaixo desse valor limite são processados como preto, enquanto os valores acima do limite são processados como branco.\
-Isso significa que todos os padrões em áreas do Mapa de máscara abaixo desse valor serão mascarados.
-
-<b>Modo de Amostragem de Entrada do Mapa de Máscaras</b> *Inteiro* O método de mapear os valores no Mapa de Máscara para as splines:\
-*- Espaço de textura*: os valores são aplicados às splines nos quais estariam se fossem colocados em uma textura usando as coordenadas UV da textura. Isso aplica efetivamente o valor aos splines “in place”;\
-*- Horizontal ao longo da spline*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords da spline), onde cada linha é aplicada a uma spline diferente de cima para baixo;\
-*- Hora. ao longo do spline (rand. deslocamento X)*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento horizontal aleatório no mapa de Escala para cada spline (ou seja, cada linha em Coords de spline);\
-*- Hora. ao longo do spline (rand. deslocamento Y)*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento vertical aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de spline).
-
-<b>Inverter mapa de máscara</b> *Booleano* Inverte os valores do Mapa de Máscara usando uma operação ‘Um menos’ (1 - x).
-
-<b>Inversão de máscara</b> *Booleano* Inverte o mascaramento dos padrões.
-
-+++
-
-<b>Correção Não Quadrada</b> *Booleano* Ajuste as posições dos pontos para manter a forma de spline em resoluções não quadradas.
+|  |  |
+|:---|:---|
+| <b>Entrada de spline</b> <i>Inteiro</i> | O método de selecionar quais splines devem ser usados para padrões de dispersão:<br><br>- <i>Todas as splines</i>: use todas as splines na lista de entrada;<br>- <i>Única Spline</i>: use somente a spline especificada na lista de entrada;<br>- <i>Intervalo de Spline</i>: use somente as splines no intervalo especificado da lista de entrada. |
+| <b>Índice de Spline</b> <i>Inteiro</i> (Disponível quando &#39;Entrada Spline&#39; está definido como &#39;Spline Simples&#39;) | O índice de lista da spline que deve ser usado para padrões de dispersão. |
+| <b>Intervalo de spline</b> <i>Inteiro2</i> (Disponível quando &#39;Entrada Spline&#39; estiver definido como &#39;Intervalo Spline&#39;) | O intervalo de índices de lista, incluindo as splines, que deve ser usado para padrões de dispersão. |
+| <b>Modo de Dispersão</b> <i>Inteiro</i> | O método de dispersão dos padrões nas linhas divisórias, que afeta a quantidade de padrões em cada linha divisória:<br><br>- Quantidade de forma: a quantidade especificada de padrões com espaçamento uniforme é dispersa;<br>- Espaçamento entre formas: o número de padrões é ajustado automaticamente para se ajustar ao espaçamento uniforme especificado.<br><br>Em ambos os casos, o primeiro e o último padrões caem exatamente no início e no final de cada spline, respectivamente. |
+| <b>Quantidade de forma</b> <i>Inteiro</i> (Disponível quando o &#39;Modo de Dispersão&#39; estiver definido como &#39;Quantidade de forma&#39;) | A quantidade de padrões com espaçamento uniforme espalhados ao longo de cada spline. |
+| <b>Distribuição De Formas Ao Longo Da Spline</b> <i>Inteiro</i> (Disponível quando o &#39;Modo de Dispersão&#39; estiver definido como &#39;Quantidade de forma&#39;) | O método de distribuição dos padrões ao longo de uma spline:<br><br>- <i>Da Origem</i>: o espaçamento dos padrões é influenciado pelas tangentes do ponto de spline, onde as formas estão mais distantes perto de pontos com tangentes longas;<br>- <i>Uniformes</i>: os padrões são espaçados uniformemente ao longo da spline, independentemente de suas tangentes e trajetória. |
+| <b>Espaçamento entre formas</b> <i>Precisão decimal</i> (Disponível quando o &#39;Modo de Dispersão&#39; estiver definido como &#39;Espaçamento de forma&#39;) | A distância mínima ao longo de uma spline pela qual os padrões devem ser espaçados, enquanto ainda aterrissam o primeiro e o último padrão no início e no final de cada spline, respectivamente. |
+| <b>Iniciar</b> <i>Flutuante</i> | <span id="_Hlk135680521"></span>Desloca o ponto do início de uma spline onde a dispersão começa. O valor é o comprimento normalizado de cada spline. |
+| <b>Fim</b> <i>Flutuante</i> | Desloca o ponto a partir do início de uma spline onde a dispersão termina. O valor é o comprimento normalizado de cada spline. |
+| <b>Tabela Dinâmica de Formas</b> <i>Flutuante2</i> | Desloca a tabela dinâmica do padrão X e Y no espaço tangente da spline.<br>Considerando que a tabela dinâmica é o que é colocado na spline, isso desloca efetivamente os padrões ao longo ou perpendicularmente à spline.<br>Observação: as posições das tabelas dinâmicas afetam o efeito dos parâmetros &#39;Escala&#39; e &#39;Rotação (Tabela Dinâmica)&#39;. |
+| <b>Padrão</b> |  |
+| <b>Padrão</b> <i>Inteiro</i> | O padrão que deve ser espalhado ao longo das splines:<br><br>- <i>Entrada de Padrão</i>: Use os padrões fornecidos para as entradas &#39;Entrada de Padrão #&#39;;<br>- Quadrado;<br>- Disco;<br>- Parabolóide;<br>- Sino;<br>- Gaussiano;<br>- Espinho;<br>- Pirâmide;<br>- Tijolo;<br>- Gradação;<br>- Ondas;<br>- Meio sino;<br>- Cúpulo Sino;<br>- Crescente;<br>- Cápsula;<br>- Cone;<br>- Gradação w. offset;<br>- Hemisfério. |
+| <b>Número de Entrada de Padrão</b> <i>Inteiro</i> (Disponível quando &#39;Padrão&#39; está definido como &#39;Entrada de Padrão&#39;) | Seleciona o índice do padrão de entrada que deve ser disperso. |
+| <b>Distribuição de Entrada de Padrão</b> <i>Inteiro</i> (Disponível quando &#39;Padrão&#39; está definido como &#39;Entrada de Padrão&#39;) | O método usado para selecionar quais dos padrões de entrada devem ser espalhados em uma determinada spline:<br><br>- <i>Aleatório</i>: um padrão é selecionado aleatoriamente;<br>- <i>Ao longo da spline</i>: o índice de padrão aumenta gradualmente ao longo da spline;<br>- <i>Índice de padrão</i>: repete o índice de padrões de entrada ao longo de cada spline;<br>- <i>Índice de Spline</i>: repete o índice de padrões de entrada de uma spline para a próxima na lista de splines de entrada. |
+| <b>Tremulação de Distribuição</b> <i>Precisão decimal</i> (Disponível quando &#39;Distribuição de Entrada de Padrão&#39; estiver definido como &#39;Na Curva&#39;) | Aumenta ou diminui aleatoriamente o índice selecionado de padrões na spline. |
+| <b>Substituir o primeiro padrão</b> <i>Booleano</i> | Selecione manualmente o índice do padrão que deve ser colocado no início de cada spline. |
+| <b>Primeiro Índice de Entrada de Padrão</b> <i>Inteiro</i> (Disponível quando &#39;Substituir primeiro padrão&#39; estiver definido como &#39;Verdadeiro&#39;) | O índice do padrão que deve ser colocado no início de cada spline. |
+| <b>Substituir último padrão</b> <i>Booleano</i> | Selecione manualmente o índice do padrão que deve ser colocado no final de cada spline. |
+| <b>Último Índice de Entrada de Padrão</b> <i>Inteiro</i> (Disponível quando &#39;Substituir último padrão&#39; estiver definido como &#39;Verdadeiro&#39;) | O índice do padrão que deve ser colocado no final de cada spline. |
+| <b>Duplicatas</b> |  |
+| <b>Modo de Distribuição</b> <i>Inteiro</i> | O método usado para colocar os padrões duplicados:<br><br>- <i>Linear</i>: duplicatas são espaçadas uniformemente ao longo do normal da spline a partir do local original do padrão;<br>- <i>Circular</i>: duplicadas são organizadas ao longo de um círculo virtual centralizado na spline no local original do padrão. |
+| <b>Valor Duplicado</b> <i>Inteiro</i> | O número de padrões duplicados. |
+| <b>Deslocamento</b> <i>Precisão decimal 2</i> (Disponível quando o &#39;Modo de Distribuição&#39; está definido como &#39;Linear&#39;) | Aplica um deslocamento às posições das duplicatas ao longo da tangente (paralela) e do normal (perpendicular) da spline.<br>As duplicatas em lados opostos da spline são movidas em direções opostas. |
+| <b>Centro de Deslocamento</b> <i>Precisão decimal 2</i> (Disponível quando o &#39;Modo de Distribuição&#39; está definido como &#39;Linear&#39;) | Aplica um deslocamento às duplicatas ao longo da spline em X (paralelo) e Y (perpendicular). |
+| <b>Ângulo de Propagação</b> <i>Precisão decimal</i> (Disponível quando o &#39;Modo de Distribuição&#39; está definido como &#39;Circular&#39;) | O arco do círculo virtual ao longo do qual as duplicatas são distribuídas, como o ângulo desse arco onde 1 é o círculo completo. |
+| <b>Distância de deslocamento</b> <i>Precisão decimal</i> (Disponível quando o &#39;Modo de Distribuição&#39; está definido como &#39;Circular&#39;) | O raio do círculo virtual ao longo do qual as duplicatas são distribuídas. |
+| <b>Rotação</b> <i>Precisão decimal</i> | Gira o círculo virtual ao longo do qual as duplicatas são distribuídas. |
+| <b>Atenuação De Início/Término De Deslocamento</b> <i>Flutuante2</i> | Avalia a distância do ponto médio da spline até seu início e fim ao aplicar deslocamentos a duplicatas.<br>Isso significa que os deslocamentos são diminuídos para duplicatas mais próximas aos extremos de uma spline. |
+| <b>Atenuação de deslocamento por Thickness</b> <i>Flutuante</i> | Fatores no thickness da spline ao aplicar deslocamentos a duplicatas.<br>Isso significa que os deslocamentos são reduzidos para duplicatas em uma parte de uma spline com um thickness inferior. |
+| <b>Tamanho</b> |  |
+| <b>Modo de Tamanho</b> <i>Inteiro</i> | O método de definição do tamanho dos padrões dispersos:<br><br>- <i>Normal</i>: o tamanho é controlado uniformemente usando um parâmetro &#39;Scale&#39; global;<br>- <i>Usar Thickness da spline</i>: o tamanho é controlado pelo thickness da spline. |
+| <b>O Thickness Afeta</b> <i>Inteiro</i> (Disponível quando &#39;Modo de Tamanho&#39; estiver definido como &#39;Usar Thickness da Spline&#39;) | Especifica qual eixo da escala de um padrão deve ser orientado pelo thickness da spline:<br><br>- X &amp; Y: o Thickness é multiplicado em relação ao tamanho nos eixos X e Y;<br>- <span id="_Hlk135741125"></span>X: o Thickness é multiplicado em relação ao tamanho somente no eixo X;<br>- Y: o Thickness é multiplicado em relação ao tamanho somente no eixo Y.<br><br>Quando não multiplicada, a escala original do padrão é toda a extensão da imagem.<br>Isso significa que, no modo &#39;X&#39;, o tamanho no eixo Y é a extensão completa da imagem e precisa ser ajustado usando o parâmetro Size. O mesmo se aplica ao tamanho no eixo X ao usar o modo &#39;Y&#39;. |
+| <b>Tamanho</b> <i>Flutuante2</i> | O tamanho original dos padrões em X e Y antes que outros ajustes sejam feitos por outros parâmetros. |
+| <b>Tamanho aleatório</b> <i>Flutuante2</i> | Aplica um multiplicador aleatório até o valor especificado para reduzir o tamanho dos padrões em X e Y. |
+| <b>Escala de Thickness</b> <i>Precisão decimal</i> (Disponível quando &#39;Modo de Tamanho&#39; estiver definido como &#39;Usar Thickness da Spline&#39;) | Um multiplicador adicional para a escala dos padrões quando acionado pelo thickness da spline. |
+| <b>Escala</b> <i>Precisão decimal</i> (Disponível quando &#39;Modo de Tamanho&#39; estiver definido como &#39;Normal&#39;) | Um controle global para o tamanho de todos os padrões, onde 1 é a extensão completa da imagem.<br>O dimensionamento é aplicado relativamente à tabela dinâmica de um padrão. A posição de pivô pode ser deslocada usando o parâmetro &#39;Shape Pivot&#39;. |
+| <b>Escala aleatória</b> <i>Flutuante</i> | Aplica um multiplicador aleatório até o valor especificado para diminuir o tamanho dos padrões. |
+| <b>Multiplicador de Entrada de Mapa de Escala</b> <i>Flutuante</i> | Controla a intensidade da entrada do Mapa de Escala. Esse mapa atua como um multiplicador para o tamanho atual dos padrões.<br>O efeito deste mapa é combinado com outros parâmetros no grupo &#39;Tamanho&#39;. |
+| <b>Modo de Amostragem de Entrada de Escala</b> <i>Espaço de Textura</i> | O método de mapear os valores no Mapa de Escala para os splines:<br><br>- <i>espaço de Textura</i>: os valores são aplicados aos splines nos quais estariam se fossem colocados em uma textura usando as coordenadas UV da textura. Isso aplica efetivamente o valor às linhas de spline &#39;no local&#39;;<br>- <i>Horizontal ao longo da linha de spline</i>: os valores são aplicados diretamente às coordenadas das linhas de spline codificadas (consulte entrada de Palavras de spline), onde cada linha é aplicada a uma linha de spline diferente de cima para baixo;<br>- <i>Hor. ao longo do spline (rand. deslocamento X)</i>: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte a entrada de Coords de spline), com um deslocamento horizontal aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de Spline);<br>- <i>Hora. ao longo do spline (rand. deslocamento Y)</i>: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento vertical aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de spline). |
+| <b>Atenuação de Início/Término</b> <i>Flutuante2</i> | Afeta a distância do ponto médio da spline até seu início e fim ao dimensionar os padrões.<br>Isso significa que o tamanho é reduzido para padrões mais próximos aos extremos de uma spline. |
+| <b>Posição</b> |  |
+| <b>Deslocamento local</b> <i>Flutuante2</i> | Aplica um deslocamento às posições dos padrões ao longo da tangente (paralela) e do normal (perpendicular) da spline. |
+| <b>Deslocamento Local Aleatório</b> <i>Flutuante2</i> | Aplica um deslocamento aleatório adicional às posições dos padrões ao longo da tangente (paralela) e do normal (perpendicular) da spline. |
+| <b>Centro Aleatório de Deslocamento Local</b> <i>Flutuante2</i> | Desloca o centro do deslocamento aleatório aplicado pelo parâmetro Deslocamento local aleatório ao longo da tangente (paralela) e do normal (perpendicular) da spline. |
+| <b>Atenuação De Início/Fim Do Deslocamento Local</b> <i>Flutuante2</i> | Afeta a distância do ponto médio da spline até seu início e fim ao aplicar deslocamentos de posição aos padrões.<br>Isso significa que os deslocamentos são diminuídos para padrões mais próximos aos extremos de uma spline. |
+| <b>Atenuação de Deslocamento Local por Thickness</b> <i>Flutuante</i> | Fatores no thickness da spline ao aplicar deslocamentos a padrões.<br>Isso significa que os deslocamentos são reduzidos para duplicatas em uma parte de uma spline com um thickness inferior. |
+| <b>Deslocamento na spline</b> <i>Flutuante</i> | Aplica um deslocamento de posição aos padrões ao longo das linhas divisórias. |
+| <b>Deslocamento aleatório na spline</b> <i>Flutuante</i> | Aplica um deslocamento de posição adicional aos padrões ao longo das linhas divisórias. |
+| <b>Rotação</b> |  |
+| <b>Alinhar com Tangent</b> <i>Booleano</i> | Gira os padrões para corresponder à direção da spline em seu local. |
+| <b>Rotação (Dinâmica)</b> <i>Flutuante</i> | Gira os padrões ao redor de suas tabelas dinâmicas.<br>A posição de pivô pode ser deslocada usando o parâmetro &#39;Shape Pivot&#39;. |
+| <b>Rotação Aleatória (Dinâmica)</b> <i>Flutuante</i> | Aplica uma rotação aleatória adicional aos padrões ao redor de suas tabelas dinâmicas.<br>A posição de pivô pode ser deslocada usando o parâmetro &#39;Shape Pivot&#39;. |
+| <b>Rotação Aleatória Centralizada (Tabela Dinâmica)</b> <i>Flutuante</i> | Gira ao redor das tabelas dinâmicas do padrão o centro das rotações aleatórias aplicadas pelo parâmetro Rotação aleatória. |
+| <b>Rotação (Centro)</b> <i>Flutuante</i> | Gira os padrões ao redor de seu centro. |
+| <b>Rotação aleatória (ao centro)</b> <i>Flutuante</i> | Aplica uma rotação aleatória adicional aos padrões ao redor de seu centro. |
+| <b>Rotação aleatória centralizada (centro)</b> <i>Flutuante</i> | Gira ao redor do centro do padrão o centro das rotações aleatórias aplicadas pelo parâmetro Rotação aleatória. |
+| <b>Cor</b> |  |
+| <b>Modo de Mesclagem</b> <i>Inteiro</i> | O método de mesclar as cores de padrões com o plano de fundo e outros padrões sobrepostos:<br><br>- <i>Máx</i>: usar a cor mais clara;<br>- <i>Adicionar</i>: adicionar as cores juntas. |
+| <b>Cor Base Da Forma</b> <i>Flutuante</i> | A cor de base dos padrões. |
+| <b>Multiplicador de Cores Base da Forma</b> <i>Flutuante</i> | A intensidade da Cor de base de Forma dos padrões.<br>Observação: a cor de saída é o resultado ponderado de todos os multiplicadores de cores. |
+| <b>Multiplicador de Thickness de spline</b> <i>Flutuante</i> | A intensidade com que a cor de cada padrão é multiplicada em relação ao thickness da spline em seu local.<br>Observação: a cor de saída é o resultado ponderado de todos os multiplicadores de cores. |
+| <b>Multiplicador do Índice de Forma</b> <i>Flutuante</i> | A intensidade com que a cor de cada padrão é multiplicada em relação ao índice normalizado.<br>Observação: a cor de saída é o resultado ponderado de todos os multiplicadores de cores. |
+| <b>Modo de Height do Hemisfério</b> <i>Inteiro</i> (Disponível quando &#39;Padrão&#39; está definido como &#39;Hemisfério&#39;) | O efeito do height da spline em um padrão do Hemisfério espalhado nele:<br><br>- <i>Deslocamento</i>: o height da spline é adicionado ao height do Hemisfério;<br>- <i>Escala</i>: o height da spline é multiplicado em relação ao height do Hemisfério. |
+| <b>Multiplicador de Height de spline</b> <i>Flutuante</i> | A intensidade com que a cor de cada padrão é multiplicada em relação ao height da spline em seu local.<br>Observação: a cor de saída é o resultado ponderado de todos os multiplicadores de cores. |
+| <b>Multiplicador de Escala de Forma</b> <i>Flutuante</i> | A intensidade com que a cor de cada padrão é multiplicada em relação à sua escala.<br>Observação: a cor de saída é o resultado ponderado de todos os multiplicadores de cores. |
+| <b>Luminância aleatória</b> <i>Flutuante</i> | Aplica um multiplicador aleatório até o valor especificado para diminuir a luminância dos padrões.<br>Observação: a cor de saída é o resultado ponderado de todos os multiplicadores de cores. |
+| <b>Multiplicador de Entrada de Height</b> <i>Flutuante</i> | Controla a intensidade da entrada do Mapa de altura. Esse mapa atua como um multiplicador da luminância atual dos padrões.<br>O efeito deste mapa é combinado com outros parâmetros no grupo &#39;Cor&#39;.<br>Observação: a cor de saída é o resultado ponderado de todos os multiplicadores de cores. |
+| <b>Modo de Amostragem de Entrada do Mapa de Heights</b> <i>Inteiro</i> | O método de mapear os valores no Mapa de Altura para os splines:<br><br>- <i>espaço de Textura</i>: os valores são aplicados aos splines nos quais estariam se fossem colocados em uma textura usando as coordenadas UV da textura. Isso aplica efetivamente o valor às linhas de spline &#39;no local&#39;;<br>- <i>Horizontal ao longo da linha de spline</i>: os valores são aplicados diretamente às coordenadas das linhas de spline codificadas (consulte entrada de Palavras de spline), onde cada linha é aplicada a uma linha de spline diferente de cima para baixo;<br>- <i>Hor. ao longo do spline (rand. deslocamento X)</i>: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte a entrada de Coords de spline), com um deslocamento horizontal aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de Spline);<br>- <i>Hora. ao longo do spline (rand. deslocamento Y)</i>: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento vertical aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de spline). |
+| <b>Máscara aleatória</b> <i>Flutuante</i> | Ajusta o intervalo do mascaramento aleatório de padrões, onde 0 significa que nenhum padrão está mascarado e 1 significa que todos os padrões estão. |
+| <b>Limite de mapa de máscaras</b> <i>Flutuante</i> | Os valores no Mapa de máscaras abaixo desse valor de limite são processados como preto, enquanto os valores acima do limite são processados como branco.<br>Isso significa que todos os padrões em áreas do Mapa de Máscara abaixo desse valor serão mascarados. |
+| <b>Modo de Amostragem de Entrada do Mapa de Máscaras</b> <i>Inteiro</i> | O método de mapear os valores no Mapa de Máscara para os splines:<br><br>- <i>espaço de Textura</i>: os valores são aplicados aos splines nos quais estariam se colocados em uma textura usando as coordenadas UV da textura. Isso aplica efetivamente o valor às linhas de spline &#39;no local&#39;;<br>- <i>Horizontal ao longo da linha de spline</i>: os valores são aplicados diretamente às coordenadas das linhas de spline codificadas (consulte entrada de Palavras de spline), onde cada linha é aplicada a uma linha de spline diferente de cima para baixo;<br>- <i>Hor. ao longo do spline (rand. deslocamento X)</i>: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte a entrada de Coords de spline), com um deslocamento horizontal aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de Spline);<br>- <i>Hora. ao longo do spline (rand. deslocamento Y)</i>: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento vertical aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de spline). |
+| <b>Inverter mapa de máscara</b> <i>Booleano</i> | Inverte os valores do Mapa de Máscara usando uma operação &#39;Um menos&#39; (1 - x). |
+| <b>Inversão de máscara</b> <i>Booleano</i> | Inverte o mascaramento dos padrões. |
+| <b>Correção Não Quadrada</b> <i>Booleano</i> | Ajuste as posições dos pontos para manter a forma de spline em resoluções não quadradas. |
 
 ## Exemplos
 
@@ -320,11 +160,11 @@ Isso significa que todos os padrões em áreas do Mapa de máscara abaixo desse 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-03.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -336,11 +176,11 @@ Isso significa que todos os padrões em áreas do Mapa de máscara abaixo desse 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-05.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -354,12 +194,12 @@ Isso significa que todos os padrões em áreas do Mapa de máscara abaixo desse 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-06.gif "Exemplo de nó 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Demonstração de nó 2](../../../../../../assets/ScatterOnSplineGrayscale-Demo2.gif "Demonstração de nó 2")
+![Demonstração de nó 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-07.gif "Demonstração de nó 2")
 
 </td>
 </tr>

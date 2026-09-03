@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Respingo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 0%
+source-wordcount: '340'
+ht-degree: 9%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/splatter.png)
+![](splatter.resources/splatter-01.png)
 
-![](../../../../../../assets/splatter-color.png)
+![](splatter.resources/splatter-02.png)
 
-## Respingo (cor)
-
-**Entrada:** *Geradores De Textura**/Padrões*
-
-**Complexo**
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -45,34 +41,43 @@ O Splatter funciona bem para rapidamente carimbar algumas formas, sem precisar d
 
 Lembre-se de que os parâmetros padrão de Splatter não parecem aleatórios: você precisa ajustar alguns deles para obter aleatoriedade (principalmente parâmetros de desordem). Lembre-se também de que o Splatter requer uma entrada de mapa para funcionar.
 
-## Parâmetros
-
-* **Largura do Tamanho do Padrão**: *0.0 - 1000.0* Número de padrões a serem usados no eixo X.
-* **Height de Tamanho de Padrão**: *0.0 - 1000.0* Número de padrões a serem usados no eixo Y.
-* **Rotação**: *-360.0 - 360.0* Gira cada padrão em um valor definido.
-* **Variação de Rotação**: *0.0 - 360.0* Introduz a rotação aleatória para cada forma separada.
-* **Zoom**: *100.0 - 10000.0* Aumenta o resultado final. Lembre-se de que isso quebra a divisão em blocos gráficos!
-* **Ganho**: *0.0 - 10.0* Ajusta o ganho de mesclagem de cada padrão. Faz com que se destaquem mais.
-* **Panorâmica X**: *-100.0 - 100.0* Panorâmica do resultado inteiro no eixo X.
-* **Panorâmica Y**: *-100.0 - 100.0* Panorâmica do resultado inteiro no eixo Y.
-* **Desordem**: *0.0 - 100.0*\
-  Desloca as formas aleatoriamente.
-* **Número da Grade**: *0 - 8* Salta por diferentes tamanhos de grade para ajustar a escala do resultado. Mantém a divisão em blocos gráficos.
-* **Ângulo do Distúrbio**: *0.0 - 360.0* Controla o ângulo de deslocamento do distúrbio.
-* **Distúrbio Aleatório**: *Falso/Verdadeiro* Aleatório o ângulo do distúrbio, adicionando muito mais caos.
-* **Tamanho do Padrão**: *5 - 12*
-* **Variação de Tamanho**: *0.0 - 100.0* Introduz escala aleatória para cada forma.
-* **Filtragem de Entrada de Imagem (Mecanismo > somente v4)**: *Bilinear + Mipmaps, Bilinear, Mais Próximo* Qual filtragem aplicar à imagem de entrada.
-* **Nível de Saída Mínimo**: *0.0 - 1.0* Ajuste de nível mínimo de saída.
-* **Nível Máximo de Saída**: *0.0 - 1.0* Ajuste de nível máximo de saída.
-* **Cor do plano de fundo**: *(valor de tons de cinza)*Define a cor do plano de fundo sólida.
-* **Variação de luminância**: *0.0 - 1.0 (somente versão em tons de cinza)*Introduz a variação de luminância.
-* **Variação de cor**: *0.0 - 1.0 (Somente versão de cor)*Introduz a variação de cor.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/splatter-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Largura do Tamanho do Padrão</b> <i>0.0 - 1000.0</i> | Número de padrões a serem usados no eixo X. |
+| <b>Height de Tamanho de Padrão</b> <i>0.0 - 1000.0</i> | Número de padrões a serem usados no eixo Y. |
+| <b>Rotação</b> <i>-360.0 - 360.0</i> | Gira cada padrão por um valor definido. |
+| <b>Variação de Rotação</b> <i>0.0 - 360.0</i> | Introduz rotação aleatória para cada forma separada. |
+| <b>Zoom</b> <i>100.0 - 10000.0</i> | Aumenta o resultado final. Lembre-se de que isso quebra a divisão em blocos gráficos! |
+| <b>Ganho</b> <i>0.0 - 10.0</i> | Ajusta o ganho de mesclagem de cada padrão. Faz com que se destaquem mais. |
+| <b>Panorâmica X</b> <i>-100.0 - 100.0</i> | Desloca o resultado inteiro no eixo X. |
+| <b>Panorâmica Y</b> <i>-100.0 - 100.0</i> | Desloca o resultado inteiro no eixo Y. |
+| <b>Desordem</b> <i>0.0 - 100.0</i> | Desloca as formas aleatoriamente. |
+| <b>Número da Grade</b> <i>0 - 8</i> | Salta por diferentes tamanhos de grade para ajustar a escala dos resultados. Mantém a divisão em blocos gráficos. |
+| <b>Ângulo de Desordem</b> <i>0.0 - 360.0</i> | Controla o ângulo de deslocamento da desordem. |
+| <b>Desordem Aleatória</b> <i>Falso/Verdadeiro</i> | Dispõe aleatoriamente o ângulo da desordem, adicionando muito mais caos. |
+| <b>Tamanho do padrão</b> <i>5 - 12</i> |  |
+| <b>Variação de Tamanho</b> <i>0.0 - 100.0</i> | Introduz escala aleatória para cada forma. |
+| <b>Filtragem de Entrada de Imagem (Mecanismo > somente v4)</b> <i>Bilinear + Mipmaps, Bilinear, Mais Próximo</i> | Qual filtragem aplicar à imagem de entrada. |
+| <b>Nível de Saída Mínimo</b> <i>0.0 - 1.0</i> | Ajuste de nível mínimo de saída. |
+| <b>Nível Máximo de Saída</b> <i>0.0 - 1.0</i> | Ajuste de nível máximo de saída. |
+| <b>Cor do plano de fundo</b> <i>(Valor em tons de cinza)</i> | Define a cor sólida do plano de fundo. |
+| <b>Variação de luminância</b> <i>0.0 - 1.0 (somente versão em Tons de Cinza)</i> | Introduz a variação de luminância. |
+| <b>Variação de cor</b> <i>0.0 - 1.0 (Somente Versão de Cores)</i> | Apresenta a variação de cores. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="splatter.resources/splatter-03.gif" />
+        </td>
+    </tr>
 </table>

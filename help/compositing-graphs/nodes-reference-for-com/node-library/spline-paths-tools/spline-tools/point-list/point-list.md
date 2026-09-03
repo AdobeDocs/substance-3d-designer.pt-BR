@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Lista de pontos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 0%
+source-wordcount: '428'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/point-list-icon.png "Ícone de nó")
+![Ícone de nó](point-list.resources/point-list-01.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -49,72 +49,43 @@ Se uma lista de pontos existente for fornecida para as entradas de <b>Ponto</b>,
 >
 > Os conectores da <b>Lista de Pontos</b> e do <b>Número de Pontos</b> são *incompatíveis* com os conectores da <b>Coluna de Spline</b>, dos <b>Dados de Spline</b> e da <b>Quantidade de Spline</b>, pois eles dependem de dados diferentes.
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Visualização </b>*Tons de cinza* A visualização dos pontos como uma imagem em tons de cinza.
+## Entradas
 
-<b>Entrada de Lista de Pontos</b> *Cor*\
-Uma lista de pontos de entrada codificados nos canais RGBA de uma imagem colorida:\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-            * Parte inteira: Smoothness;\
-            * Parte fracionária: Thickness.
+|  |  |
+|:---|:---|
+| <b>Visualizar</b> <i>Tons de cinza</i> | A visualização dos pontos como uma imagem em tons de cinza. |
+| <b>Entrada de Lista de Pontos</b> <i>Cor</i> | Uma lista de pontos de entrada codificados nos canais RGBA de uma imagem colorida:<br><b>R</b> - Posição X<br><b>G</b> - Posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br> * Parte inteira: Smoothness;<br> * Parte fracionária: Thickness. |
+| <b>Entrada de Número de Pontos</b> <i>Inteiro</i> | O número de pontos de entrada. |
 
-<b>Entrada de Número de Pontos</b> *Inteiro*\
-O número de pontos de entrada.
+<a name="outputs"></a>
 
-## Conectores de saída
+## Saídas
 
-<b>Visualização </b>*Tons de cinza* A visualização dos pontos como uma imagem em tons de cinza.
+|  |  |
+|:---|:---|
+| <b>Visualizar</b> <i>Tons de cinza</i> | A visualização dos pontos como uma imagem em tons de cinza. |
+| <b>Lista de pontos</b> <i>Cor</i> | A lista de saída de pontos codificados nos canais RGBA de uma imagem colorida:<br><b>R</b> - Posição X<br><b>G</b> - Posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br> * Parte inteira: Smoothness;<br> * Parte fracionária: Thickness. |
+| <b>Número do Ponto</b> <i>Inteiro</i> | O número de pontos de saída. |
 
-<b>Cor </b>*da Lista de Pontos*\
-A lista de saída de pontos codificados nos canais RGBA de uma imagem colorida:\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-            * Parte inteira: Smoothness;\
-            * Parte fracionária: Thickness.
-
-<b>Número de Ponto </b>*Inteiro*\
-O número de pontos de saída.
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Número do Ponto</b> *Inteiro* O número de pontos gerados.
-
-<b>Ajuste de Smoothness Global</b> *Flutuante* Aplica um deslocamento uniforme ao valor de smoothness de todos os pontos.\
-O valor do smoothness resultante é fixado no intervalo [0;1].
-
-+++Propriedades de Pontos
-<b>p# Propriedades</b> *Flutuante3* Define as propriedades do ponto p#.\
-*- Height:* Ajusta o height do ponto onde um valor mais baixo significa um local mais baixo ou mais profundo;\
-*- Smoothness:* Desloca o início da suavização da spline em p#, onde um valor de 0 resulta em uma trajetória rígida e 1 em uma totalmente suave;\
-*- Thickness:* Ajusta o thickness da spline em p#. O thickness é usado por nós Spline específicos.
-
-+++
-
-+++Coordenadas de pontos
-<b>p#</b> *Flutuante2* Define a posição do ponto p# no espaço de textura.
-
-+++
-
-+++Visualização
-<b>Mostrar Rótulos</b> *Booleanos*\
-Para cada ponto, exibe o nome do ponto ao lado dele na saída “Visualização”.
-
-<b>Tamanho do Rótulo</b> *Flutuante* (Disponível quando &#39;Mostrar Rótulos&#39; estiver definido como &#39;Verdadeiro&#39;)\
-O tamanho do rótulo para cada ponto no espaço de textura, onde 0,1 é um décimo da largura da textura.
-
-<b>Mostrar pontos</b> *Booleano*\
-Exibe os pontos na saída &#39;Preview&#39;.
-
-<b>Tamanho dos Pontos</b> *Flutuante* (Disponível quando &#39;Mostrar Pontos&#39; estiver definido como &#39;Verdadeiro&#39;)\
-O raio dos pontos no espaço de textura, onde 0,1 é um décimo da largura da textura.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Número do Ponto</b> <i>Inteiro</i> | O número de pontos gerados. |
+| <b>Ajuste de Smoothness Global</b> <i>Flutuante</i> | Aplica um deslocamento uniforme ao valor de smoothness de todos os pontos.<br>O valor do smoothness resultante é fixado ao intervalo [0;1]. |
+| <b>Propriedades de Pontos</b> |  |
+| <b>p# Propriedades</b> <i>Flutuante3</i> | Define as propriedades do ponto p#.<br>*- Height:* Ajusta o height do ponto onde um valor mais baixo significa um local mais baixo ou mais profundo;<br>*- Smoothness:* Desloca o início da suavização da spline em p#, onde um valor de 0 resulta em uma trajetória rígida e 1 em uma totalmente suave;<br>*- Thickness:* Ajusta o thickness da spline em p#. O thickness é usado por nós Spline específicos. |
+| <b>Coordenadas de pontos</b> |  |
+| <b>p#</b> <i>Flutuante2</i> | Define a posição do ponto p# no espaço de textura. |
+| <b>Visualizar</b> |  |
+| <b>Mostrar rótulos</b> <i>Booleano</i> | Para cada ponto, exibe o nome do ponto ao lado dele na saída “Visualização”. |
+| <b>Tamanho do Rótulo</b> <i>Precisão decimal</i> (Disponível quando &#39;Mostrar Rótulos&#39; estiver definido como &#39;Verdadeiro&#39;) | O tamanho do rótulo para cada ponto no espaço de textura, onde 0,1 é um décimo da largura da textura. |
+| <b>Mostrar pontos</b> <i>Booleano</i> | Exibe os pontos na saída &#39;Preview&#39;. |
+| <b>Tamanho de pontos</b> <i>Flutuante</i> (Disponível quando &#39;Mostrar Pontos&#39; estiver definido como &#39;Verdadeiro&#39;) | O raio dos pontos no espaço de textura, onde 0,1 é um décimo da largura da textura. |
 
 ## Exemplos
 
@@ -122,12 +93,12 @@ O raio dos pontos no espaço de textura, onde 0,1 é um décimo da largura da te
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/PointList-Variant1.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](point-list.resources/point-list-02.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/PointList-Demo1.gif "Exemplo de nó 2")
+![Exemplo de nó 2](point-list.resources/point-list-03.gif "Exemplo de nó 2")
 
 </td>
 </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Gradiente linear 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 6%
 
 ---
 
@@ -22,34 +22,39 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient3.png)
+![](gradient-linear-3.resources/gradient-linear-3-01.png)
 
-## Gradiente linear 3
-
-**Entrada:** *Geradores De Textura**/Padrões*
-
-**Simples**
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 O gradiente linear mais avançado. Em vez do perfil arredondado semelhante a pipe do [Gradiente linear 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-2/gradient-linear-2.md), esse nó retorna uma inclinação nítida e reta, além de fornecer controle adicional para o ponto médio.
 
-## Parâmetros
-
-* **Divisão em blocos gráficos**: *1 - 16*\
-  Define a quantidade de vezes que o resultado deve ser colocado lado a lado.
-* **Posição**: *0.0 - 1.0* Define onde fica o ponto médio ou o pico do gradiente.
-* **Rotação**: **0, 90°** Altera a direção da esquerda para a direita para cima e para baixo ou vice-versa.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/gradient3-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Divisão em blocos gráficos</b> <i>1 - 16</i> | Define a quantidade de vezes que o resultado deve ser colocado lado a lado. |
+| <b>Posição</b> <i>0.0 - 1.0</i> | Define o ponto médio ou o pico do gradiente. |
+| <b>Rotação</b> <i>0, 90°</i> | Altera a direção da esquerda para a direita para a parte superior ou vice-versa. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gradient-linear-3.resources/gradient-linear-3-02.gif" />
+        </td>
+    </tr>
 </table>

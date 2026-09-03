@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Configuração de Pipeline e Projeto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -39,7 +39,7 @@ A imagem ilustra a relação entre os diferentes arquivos na configuração padr
 </td>
 <td style="border: 0;" valign="top">
 
-![Hierarquia de arquivos de configuração](../assets/filestructureoverview.png "Hierarquia de arquivos de configuração")
+![Hierarquia de arquivos de configuração](pipeline-and-project-configuration.resources/pipeline-and-project-configuration-01.png "Hierarquia de arquivos de configuração")
 
 </td>
 </tr>

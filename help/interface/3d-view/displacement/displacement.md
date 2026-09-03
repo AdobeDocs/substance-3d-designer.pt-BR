@@ -7,10 +7,10 @@ helpx_description: ""
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Exibição 3D - pop-up de Deslocamento
+title: Visualização 3D - pop-up de Deslocamento
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 2%
@@ -23,14 +23,14 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
         <td style="border: 0">
-            <p>O pop-up de Deslocamento disponível na barra de ferramentas Exibição 3D oferece controles diretos para o deslocamento e a mosaico de malhas.</p>
+            <p>O pop-up Deslocamento disponível na barra de ferramentas Visualização 3D oferece controles diretos para o deslocamento e a mosaico de malhas.</p>
             <p>Há três parâmetros:<ul>
                 <li>Escala da altura</li>
                 <li>Nível da altura</li>
                 <li>Tesselação</li></ul>
         </td>
         <td style="width: 60%; margin-left: 32px; border: 0">
-            <img src="./displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Pop-up de deslocamento na Visualização 3D" />
+            <img src="./displacement.resources/displacement-01.gif" alt="pop-up de deslocamento no Visualização 3D" />
         </td>
     </tr>
 </table>
@@ -38,7 +38,7 @@ ht-degree: 2%
 ## Escala da altura
 
 A distância máxima de deslocamento para os vértices de malha ao longo de seu normal, em unidades de cena.<br>
-Essa é a distância percorrida para um valor de 1,0 no mapa de height.
+Essa é a distância percorrida para um valor de 1,0 no mapa de altura.
 
 Quando um gráfico de Substance é conectado a um material e esse gráfico inclui um [nó de saída](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) com
 a <code>heightScale</code> uso, o parâmetro de escala de Height no pop-up será *desabilitado* para esse material
@@ -51,7 +51,7 @@ já que está sendo acionado pelo gráfico.
 
 ## Nível da altura
 
-O valor de tons de cinza no mapa de heights que é usado como o *ponto médio* do height de deslocamentos.
+O valor de tons de cinza no mapa de altura que é usado como o *ponto médio* do height de deslocamento.
 Ou seja, o valor limite usado como elevação 0,0.
 
 Valores abaixo desse limite resultam em vértices deslocados para trás, enquanto valores acima do limite resultam em
@@ -73,7 +73,7 @@ Ao usar o renderizador [Rasterizador](../3d-renderers/3d-renderers.md#rasterizer
 valor de subdivisão.
 
 A subdivisão é contextual: é otimizada de tal forma que apenas a superfície com um *valor de height não uniforme* ou
-um *mapa de height não simples* será subdividido, independentemente do valor do parâmetro.
+um *mapa de altura não simples* será subdividido, independentemente do valor do parâmetro.
 
 ### Por material
 
@@ -90,7 +90,7 @@ As etapas para exibir o wireframe de cada renderizador estão descritas abaixo:
 
 ### Rasterizador/GPU Pathtracer
 
-Use o <img src="../3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="22" /> **Configurações do renderizador**
+Use o <img src="../3d-view.resources/3d-view-18.png" width="22" /> **Configurações do renderizador**
  , em seguida, na área Propriedades, vá para **Configurações de renderização > Modo de diagnóstico** e selecione o **Wireframe
  (espaço global) opção**.
 

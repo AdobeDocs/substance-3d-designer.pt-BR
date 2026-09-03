@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distorção direcional
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: distorção direcional](../../../../assets/comp_directionalwarp_1.png "Nó atômico: distorção direcional"){width="200px"}
+![Nó atômico: distorção direcional](directional-warp.resources/directional-warp-01.png "Nó atômico: distorção direcional"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -102,17 +102,17 @@ O nó Distorcer é um nó bastante simples, mas útil, que serve como uma boa ba
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Distorção Direcional - Exemplo 1](../../../../assets/dir-warp.gif "Distorção Direcional - Exemplo 1"){zoomable="yes"}
+![Distorção Direcional - Exemplo 1](directional-warp.resources/directional-warp-02.gif "Distorção Direcional - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Distorção Direcional - Exemplo 2](../../../../assets/dir-warp02.gif "Distorção Direcional - Exemplo 2"){zoomable="yes"}
+![Distorção Direcional - Exemplo 2](directional-warp.resources/directional-warp-03.gif "Distorção Direcional - Exemplo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Distorção Direcional - Exemplo 3](../../../../assets/dir-warp03.gif "Distorção Direcional - Exemplo 3"){zoomable="yes"}
+![Distorção Direcional - Exemplo 3](directional-warp.resources/directional-warp-04.gif "Distorção Direcional - Exemplo 3"){zoomable="yes"}
 
 </td>
 </tr>

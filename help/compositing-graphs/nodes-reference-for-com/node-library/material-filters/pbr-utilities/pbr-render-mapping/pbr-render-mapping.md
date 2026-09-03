@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mapeamento de renderizações PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 1%
+source-wordcount: '187'
+ht-degree: 2%
 
 ---
 
@@ -22,43 +22,53 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-render-mapping-color.png)![](../../../../../../assets/pbr-render-mapping-grayscale.png)
+![](pbr-render-mapping.resources/pbr-render-mapping-01.png)![](pbr-render-mapping.resources/pbr-render-mapping-02.png)
 
-## Mapeamento de renderizações PBR (cor/tons de cinza)
-
-**Entrada:** *Filtros de Material/Utilitários PBR*
-
-**Simples**
+<b>Entrada:</b> Filtros Materiais > Utilitários PBR
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-Este é um nó de extensão para o [nó de Renderização PBR](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md), que permite mapear uma textura separada na forma de uma [Renderização PBR](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md) anterior. Seu principal objetivo é permitir que você remapeie cada canal separado de sua [Renderização PBR](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md), de volta para a forma, para criar detalhamentos de canal de mapa compostos, como nos exemplos abaixo. Você pode criar seu próprio método composto e máscaras usando os nós de mapeamento de Renderização PBR como componente.
+Este é um nó de extensão para o [nó de Renderização PBR](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md), que permite mapear uma textura separada para a forma de uma [Renderização PBR](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md) anterior. Seu principal objetivo é permitir que você remapeie cada canal separado de sua [Renderização PBR](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md), de volta para a forma, para criar detalhamentos de canal de mapa compostos, como nos exemplos abaixo. Você pode criar seu próprio método composto e máscaras usando os nós de mapeamento de Renderização PBR como componente.
 
 Existem versões de cor e tons de cinza para os dois tipos de dados: use cor para mapas difusos, use tons de cinza para mapas de aspereza, metálicos e outros mapas em tons de cinza.
 
-### Entradas
+</td>
+</tr>
+</table>
 
-* **Textura**: *Entrada Colorida/Em Tons De Cinza*\
-  Textura para mapear na forma.
-* **UVs**: *Entrada de cores* Entrada de dados UV obrigatória de um nó de Renderização PBR [.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Textura</b> <i>Entrada de Cores/Tons de Cinza</i> | Textura para mapear na forma. |
+| <b>UVs</b> <i>Entrada de cores</i> | Entrada de dados UV obrigatória de um nó de Renderização PBR [nódulo.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md) |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
-* **Cor do plano de fundo**: *(valor da cor)*Defina um valor de cor sólida para usar no plano de fundo.
+|  |  |
+|:---|:---|
+| <b>Cor do plano de fundo</b> <i>(Valor da cor)</i> | Defina um valor de cor sólida para usar no plano de fundo. |
 
-## Imagens de exemplo
+## Exemplos
 
 O exemplo é um composto de quatro nós de Mapeamento de Renderização PBR diferentes, usando uma [Seleção de histograma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-select/histogram-select.md) em um [Gradiente linear](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md) como máscaras.
 
-![](../../../../../../assets/pbr-render-mapping-ex.png){width="256px"}
-
-![](../../../../../../assets/pbr-render-mapping-ex-2.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-03.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-04.png" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Direto para Pré-multiplicado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 3%
+source-wordcount: '45'
+ht-degree: 2%
 
 ---
 
@@ -22,32 +22,18 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/straight-pre-multiply.png){width="128px"}
+![](straight-to-pre-multiplied.resources/straight-to-pre-multiplied-01.png){width="128px"}
 
-## Direto para Pré-multiplicado
-
-**Entrada:** *Filtros/Canais*
-
-**Simples**
+<b>Entrada:</b> Filtros > Canais
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Converte um alfa reto em pré-multiplicado, multiplicando uma cor em pixels mesclados com alfa.
-
-## Parâmetros
-
-*Nenhum Parâmetro.*
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
 
 </td>
 </tr>

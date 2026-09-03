@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Barra de ferramentas principal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Esta página descreve a barra de ferramentas principal e o menu do [Substance 3D
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Barra de ferramentas principal](../../assets/mainmenu.png "Barra de ferramentas principal")
+![Barra de ferramentas principal](the-main-toolbar.resources/the-main-toolbar-01.png "Barra de ferramentas principal")
 
 </td>
 </tr>
@@ -37,21 +37,21 @@ Esta página descreve a barra de ferramentas principal e o menu do [Substance 3D
 
 ## Botões de acesso rápido
 
-![](../../assets/newsubstance.png) <b>Novo gráfico de Substance...:</b> (Ctrl+N)Apresenta a janela [Novo gráfico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) e, em seguida, cria um novo pacote com um [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+![](the-main-toolbar.resources/the-main-toolbar-02.png) <b>Novo gráfico de Substance...:</b> (Ctrl+N)Apresenta a janela [Novo gráfico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) e, em seguida, cria um novo pacote com um [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-![](../../assets/open.png) <b>Abrir...:</b> (Ctrl+O) Abra um [pacote de Substance (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md) existente.
+![](the-main-toolbar.resources/the-main-toolbar-03.png) <b>Abrir...:</b> (Ctrl+O) Abra um [pacote de Substance (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md) existente.
 
-![](../../assets/saveall.png) <b>Salvar Tudo:</b> (Ctrl++S) Salva todos os pacotes listados no [Gerenciador](../../interface/the-explorer-window/the-explorer-window.md).
+![](the-main-toolbar.resources/the-main-toolbar-04.png) <b>Salvar Tudo:</b> (Ctrl++S) Salva todos os pacotes listados no [Gerenciador](../../interface/the-explorer-window/the-explorer-window.md).
 
-![](../../assets/undo.png) <b>Desfazer:</b> (Ctrl+Z) Desfaz a última operação.
+![](the-main-toolbar.resources/the-main-toolbar-05.png) <b>Desfazer:</b> (Ctrl+Z) Desfaz a última operação.
 
-![](../../assets/redo.png) <b>Refazer:</b> (Ctrl+Y) Refaz a última operação desfeita.
+![](the-main-toolbar.resources/the-main-toolbar-06.png) <b>Refazer:</b> (Ctrl+Y) Refaz a última operação desfeita.
 
 ## Arquivo
 
 <b>Novo:</b> abre um submenu para criar um gráfico ou pacote:
 
-* <b>Novo gráfico de Substance...:</b>(Ctrl+N) Apresenta a janela [Novo gráfico de Substance](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) que permite configurar um novo gráfico de [Substance](../../compositing-graphs/substance-compositing-graphs.md);
+* <b>Novo gráfico de Substance...:</b>(Ctrl+N) Apresenta a janela [Novo gráfico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) que permite configurar um novo gráfico de [Substance](../../compositing-graphs/substance-compositing-graphs.md);
 * <b>Novo gráfico de função Substance:</b> cria um novo pacote com um [gráfico de função Substance](../../function-graphs/function-graphs.md);
 * <b>Vazio:</b> cria um pacote vazio.
 
@@ -110,19 +110,19 @@ Esta página descreve a barra de ferramentas principal e o menu do [Substance 3D
 
 <b>Não maximizar janela:</b> quando qualquer painel estiver *maximizado*, essa opção não maximiza e restaura o layout como ele estava *antes* de a janela ser maximizada
 
-<b>Explorador:</b> mostra/oculta as [Janelas do Explorador.](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+<b>Explorador:</b> mostre/oculte o [Explorador](../the-explorer-window/the-explorer-window.md).
 
 <b>Gráfico:</b> Mostrar/Ocultar a(s) [Janela(s) do gráfico](../../interface/the-graph-view/the-graph-view.md).
 
-<b>Parâmetros:</b> mostra/oculta a [Janela de Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
+<b>Parâmetros:</b> mostra/oculta as [Propriedades](../properties/properties.md).
 
 <b>Console:</b> mostre/oculte a janela do console.
 
-<b>Exibição 3D:</b> mostra/oculta as [exibições 3D](../../interface/3d-view/3d-view.md).
+<b>Visualização 3D:</b> mostra/oculta [Visualização 3D](../../interface/3d-view/3d-view.md).
 
 <b>Gerenciador de Dependências:</b> mostre/oculte o [Gerenciador de Dependências](../../interface/dependency-manager/dependency-manager.md).
 
-<b>Exibições 2D:</b> mostra/oculta as [exibições 2D.](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
+<b>Exibições 2D:</b> mostra/oculta o [Visualização 2D](../2d-view/2d-view.md).
 
 <b>Biblioteca:</b> mostre/oculte a [Janela Biblioteca.](../../interface/the-library/the-library.md)
 
@@ -153,9 +153,9 @@ Esta página descreve a barra de ferramentas principal e o menu do [Substance 3D
 
 <b>Dar feedback...:</b> abre o navegador da Web na página inicial da [Comunidade de Suporte](https://www.adobe.com/go/Substance-3D-feedback-Designer_br) do Adobe.
 
-<b>Ativos do Substance 3D:</b> procure [conteúdo 3D premium](https://helpx.adobe.com/br/substance-3d/unlisted/assets.html) para assinantes (anteriormente Substance Source).
+<b>Ativos do Substance 3D:</b> procure [conteúdo 3D premium](https://substance3d.adobe.com/assets) para assinantes (anteriormente Substance Source).
 
-<b>Ativos da comunidade do Substance 3D:</b> permite procurar [ativos da comunidade gratuitos](https://helpx.adobe.com/br/substance-3d/unlisted/community-assets.html) (anteriormente Substance share).
+<b>Ativos da comunidade do Substance 3D:</b> permite procurar [ativos da comunidade gratuitos](https://substance3d.adobe.com/community-assets/) (anteriormente Substance share).
 
 <b>Gerenciar minha conta\*:</b> abre a página da Web para sua conta Adobe.
 

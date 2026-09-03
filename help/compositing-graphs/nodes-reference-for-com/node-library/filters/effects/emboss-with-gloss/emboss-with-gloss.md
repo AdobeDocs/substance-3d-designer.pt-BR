@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
 breadcrumb-title: ''
-description: Use o nó Entalhe com brilho para criar efeitos em alto-relevo com mapas de brilho para adicionar profundidade e brilho às texturas.
+description: Use o nó Relevo com brilho para criar efeitos em alto-relevo com mapas de brilho para adicionar profundidade e brilho às texturas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Emboss With Gloss
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Entalhe Com Brilho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 2%
+source-wordcount: '136'
+ht-degree: 6%
 
 ---
 
@@ -22,47 +22,42 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/emboss-with-gloss.png){width="128px"}
+![](emboss-with-gloss.resources/emboss-with-gloss-01.png){width="128px"}
 
-## Entalhe Com Brilho
-
-**Entrada:** *Filtros/Efeitos*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-Executa um efeito de entalhe com brilho (reflexo de specular) adicionado em uma entrada de cor e height. Essencialmente, adiciona iluminação artificial e artificial a uma imagem com base em informações do height. Útil para alguns estilos de texturização que exigem iluminação inserida nas texturas.
+Executa um efeito de entalhe com brilho (reflexo de specular) adicionado em uma entrada de cor e height. Essencialmente, adiciona iluminação feita bake e falsa a uma imagem com base em informações do height. Útil para alguns estilos de texturização que exigem iluminação feita bake nas texturas.
 
-Para uma versão com mais opções, consulte [Entalhe de número](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md). Há também a versão atômica mais simples do [Entalhe](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md).
-
-## Parâmetros
-
-### Entradas
-
-* **Cor**: *Entrada de cores*
-* **Height**: *Entrada em Tons de Cinza*
-
-### Parâmetros
-
-* **Cor de realce**: *(valor da cor)*Cor do realce do specular.
-* **Cor da sombra**: *(valor da cor)*Cor usada em áreas sombreadas/não iluminadas.
-* **Brilho**: *0.0 - 0,5* Tamanho de realce reluzente.
-* **Intensidade**: *0.0 - 10.0* Intensidade do realce.
-* **Ângulo de Luz**: *0.0 - 1.0*\
-  Ângulo de incidência da luz (simulada).
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
+Para uma versão com mais opções, consulte [Uber Relevo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md). Há também a versão atômica mais simples do [Relevo](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md).
 
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Cor</b> <i>Entrada de cores</i> |  |
+| <b>Height</b> <i>Entrada em tons de cinza</i> |  |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Cor de realce</b> <i>(Valor da cor)</i> | Cor do destaque do specular. |
+| <b>Cor da sombra</b> <i>(Valor da cor)</i> | Cor usada em áreas sombreadas/não iluminadas. |
+| <b>Brilho</b> <i>0.0 - 0.5</i> | Tamanho de realce reluzente. |
+| <b>Intensidade</b> <i>0.0 - 10.0</i> | Intensidade do realce. |
+| <b>Ângulo de luz</b> <i>0.0 - 1.0</i> | Ângulo de incidência da luz (simulada). |

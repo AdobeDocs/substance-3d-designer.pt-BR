@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Transformação normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 3%
 
 ---
 
@@ -22,32 +22,29 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-transform.png){width="128px"}
+![](normal-transform.resources/normal-transform-01.png){width="128px"}
 
-## Transformação normal
-
-**Entrada:** *Filtros/Mapa Normal*
-
-**Simples**
+<b>Entrada:</b> Filtros > Mapa normal
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Semelhante ao nó 2D de Transformação atômica, isso permite a transformação de Normalmaps sem quebrar o espaço Tangent, em vez disso, é recalculado na hora, resultando em Normalmaps sempre corretos.
 
-## Parâmetros
-
-* **Matrix2x2**: *(Matriz de Transformação):*\
-  Gire ou dimensione a entrada.
-* **Deslocamento**: *-0.5 - 0.5*\
-  Move ou traduz o resultado. Quando o controle de Transformação está presente, o resultado pode ser modificado ao interagir diretamente com a tela.
-* **Formato Normal**: *DirectX, OpenGL*\
-  Alternar entre Formatos de mapa normais diferentes (inverte o canal verde)
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Matrix2x2</b> <i>(Matriz de Transformação):</i> | Gire ou dimensione a entrada. |
+| <b>Deslocamento</b> <i>-0.5 - 0.5</i> | Move ou traduz o resultado. Quando o controle de Transformação está presente, o resultado pode ser modificado ao interagir diretamente com a tela. |
+| <b>Formato Normal</b> <i>DirectX, OpenGL</i> | Alternar entre Formatos de mapa normais diferentes (inverte o canal verde) |

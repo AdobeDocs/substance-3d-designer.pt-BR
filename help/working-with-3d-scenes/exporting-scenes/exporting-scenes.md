@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exportação de cenas
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Para outros formatos, o conteúdo da cena e sua estrutura interna dependerão do
 >
 > Todos os itens adicionados à cena pelo Designer serão incluídos na cena exportada: a câmera padrão, o ambiente padrão, todos os materiais copiam quaisquer luzes adicionais.
 
-![Ações de exportação de cena](../../assets/exportActions.png "Ações de exportação de cena"){zoomable="yes"}
+![Ações de exportação de cena](exporting-scenes.resources/exporting-scenes-01.png "Ações de exportação de cena"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ Isso significa que as edições na cena original não afetam a cena exportada.
 </td>
 <td style="border: 0;" valign="top">
 
-![Arquivos de cena exportados - Achatados](../../assets/exportFlattened.png "Arquivos de cena exportados - Achatados"){zoomable="yes"}
+![Arquivos de cena exportados - Achatados](exporting-scenes.resources/exporting-scenes-02.png "Arquivos de cena exportados - Achatados"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Isso significa que as edições na cena original são transportadas para a cena 
 </td>
 <td style="border: 0;" valign="top">
 
-![Arquivos de cena exportados - Em camadas](../../assets/exportLayered.png "Arquivos de cena exportados - Em camadas"){zoomable="yes"}
+![Arquivos de cena exportados - Em camadas](exporting-scenes.resources/exporting-scenes-03.png "Arquivos de cena exportados - Em camadas"){zoomable="yes"}
 
 </td>
 </tr>

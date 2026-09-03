@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Criar paleta de cores (16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Quantizar Cor](../../../../../../assets/CreateColorPalette16.png "ícone Quantizar Cor"){width="200px"}
+![Ícone Quantizar Cor](create-color-palette-16.resources/create-color-palette-16-01.png "ícone Quantizar Cor"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -43,46 +43,32 @@ Este nó pode ser usado em combinação com os seguintes nós: [Quantificar cor]
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-</tr>
-</table>
-
-## Conectores de entrada
+## Entradas
 
 |  |  |
-| --- | --- |
-| <b>Paleta</b> *Cor* PRIMÁRIA | Uma lista ordenada de cores de RGB codificadas como uma linha de pixels. A paleta pode conter no máximo 256 cores.   Essa entrada é opcional. Se usadas, as cores configuradas pelo nó serão anexadas a esta paleta.   A paleta pode ser visualizada com o nó [Exibir paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
-| <b>Quantidade de cores da paleta</b> *Inteiro* | A quantidade de cores armazenadas na paleta.   Se esse número não corresponder à quantidade real de cores na entrada da imagem da “Paleta”, a visualização poderá estar incompleta ou ter mais slots em branco do que o absolutamente necessário. |
+|:---|:---|
+| <b>Paleta</b> <i>Cor</i> PRIMÁRIA | Uma lista ordenada de cores de RGB codificadas como uma linha de pixels. A paleta pode conter no máximo 256 cores.   Essa entrada é opcional. Se usadas, as cores configuradas pelo nó serão anexadas a esta paleta.   A paleta pode ser visualizada com o nó [Exibir paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
+| <b>Quantidade de cores da paleta</b> <i>Inteiro</i> | A quantidade de cores armazenadas na paleta.   Se esse número não corresponder à quantidade real de cores na entrada da imagem da “Paleta”, a visualização poderá estar incompleta ou ter mais slots em branco do que o absolutamente necessário. |
 
-## Conectores de saída
+<a name="outputs"></a>
+
+## Saídas
 
 |  |  |
-| --- | --- |
-| <b>Paleta</b> *Cor* | A paleta atualizada com as cores especificadas anexadas a ela. |
-| <b>Quantidade de cores da paleta</b> *Inteiro* | A quantidade atualizada de cores armazenadas na paleta, com a quantidade especificada de cores adicionadas a ela. |
+|:---|:---|
+| <b>Paleta</b> <i>Cor</i> | A paleta atualizada com as cores especificadas anexadas a ela. |
+| <b>Quantidade de cores da paleta</b> <i>Inteiro</i> | A quantidade atualizada de cores armazenadas na paleta, com a quantidade especificada de cores adicionadas a ela. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Quantidade de cores</b> *Inteiro* | A quantidade de cores que devem ser adicionadas à paleta. |
-| <b>Cor #</b> *Flutuante3* *Quantos parâmetros estão disponíveis como o valor &#39;Quantidade de cores&#39;* | Uma cor que deve ser adicionada à paleta.   As cores são adicionadas à paleta na mesma ordem da lista numerada. |
+| <b>Cor #</b> *Precisão decimal 3* *Quantos parâmetros estão disponíveis como o valor &#39;Quantidade de cores&#39;* | Uma cor que deve ser adicionada à paleta.   As cores são adicionadas à paleta na mesma ordem da lista numerada. |
 
 ## Exemplos
 
@@ -90,15 +76,15 @@ Este nó pode ser usado em combinação com os seguintes nós: [Quantificar cor]
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Criar paleta de cores: exemplo 1](../../../../../../assets/create_color_palette_example_1.png "Criar paleta de cores: exemplo 1"){zoomable="yes"}
+![Criar paleta de cores: exemplo 1](create-color-palette-16.resources/create-color-palette-16-02.png "Criar paleta de cores: exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Criar paleta de cores: exemplo 2](../../../../../../assets/create_color_palette_example_2.png "Criar paleta de cores: exemplo 2"){zoomable="yes"}
+![Criar paleta de cores: exemplo 2](create-color-palette-16.resources/create-color-palette-16-03.png "Criar paleta de cores: exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![Criar paleta de cores: exemplo 3](../../../../../../assets/create_color_palette_example_3.png "Criar paleta de cores: exemplo 3"){zoomable="yes"}
+![Criar paleta de cores: exemplo 3](create-color-palette-16.resources/create-color-palette-16-04.png "Criar paleta de cores: exemplo 3"){zoomable="yes"}

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Gradiente 2 pontos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 1%
+source-wordcount: '127'
+ht-degree: 5%
 
 ---
 
@@ -22,41 +22,42 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-2-points.png){width="250px"}
+![](gradient-2-points.resources/gradient-2-points-01.png){width="250px"}
 
-## Gradiente 2 pontos
-
-**Entrada:** *Exibição 3D/Ferramentas HDRI*
-
-**Intermediário**
+<b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Cria um gradiente de 2 cores entre dois pontos selecionados pelo usuário. O resultado é ajustado para projeção esférica. Semelhante ao [HDRI (Gradient Linear)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/gradient-linear-hdri/gradient-linear-hdri.md), mas com dois pontos em vez de um.
 
-## Parâmetros
-
-* **Posição do Ponto 1**:\
-  Posição do primeiro ponto selecionada pelo usuário. Possui alça na exibição 2D.
-* **Cor do ponto 1**: *(valor da cor)*\
-  Cor no início do gradiente.
-* **Contraste do Ponto 1**: *0.0 - 1.0*\
-  Contraste da máscara do primeiro ponto.
-* **Posição do Ponto 2**:\
-  Segunda posição de ponto selecionada pelo usuário. Possui alça na exibição 2D.
-* **Cor do ponto 2**: *(valor da cor)*\
-  Cor no final do gradiente.
-* **Contraste do Ponto 2**: *0.0 - 1.0* Contraste da máscara do segundo ponto.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/gradient-ex2.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Posição do Ponto 1</b> | Posição do primeiro ponto selecionada pelo usuário. Possui alça na exibição 2D. |
+| <b>Cor do ponto 1</b> <i>(Valor da cor)</i> | Cor no início do gradiente. |
+| <b>Contraste do Ponto 1</b> <i>0.0 - 1.0</i> | Contraste da máscara do primeiro ponto. |
+| <b>Posição do Ponto 2</b> | Segunda posição de ponto selecionada pelo usuário. Possui alça na exibição 2D. |
+| <b>Cor do ponto 2</b> <i>(Valor da cor)</i> | Cor no final do gradiente. |
+| <b>Contraste do Ponto 2</b> <i>0.0 - 1.0</i> | Contraste da máscara de segundo ponto. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gradient-2-points.resources/gradient-2-points-02.gif" />
+        </td>
+    </tr>
 </table>

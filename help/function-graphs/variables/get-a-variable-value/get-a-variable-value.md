@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Obter um valor de variável
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -24,11 +24,11 @@ Para usar uma variável em uma função, você precisa “chamá-la”, o que si
 
 Para fazer isso, você precisa usar um nó *Get*:
 
-![](../../../assets/image2015-12-21-7-29-51.png)
+![](get-a-variable-value.resources/get-a-variable-value-01.png)
 
 Há diferentes tipos de nós Obter: escolha o correto de acordo com o tipo de valor que deseja importar:
 
-![](../../../assets/image2015-12-21-7-31-4.png)
+![](get-a-variable-value.resources/get-a-variable-value-02.png)
 
 ## Atribuir uma variável a um nó Get
 
@@ -38,7 +38,7 @@ Para vincular uma variável, vá para os parâmetros e escolha uma variável na 
 
 O nome da variável será exibido no nó:
 
-![](../../../assets/assign-getfloat.gif)
+![](get-a-variable-value.resources/get-a-variable-value-03.gif)
 
 Observe que apenas as variáveis que são do mesmo tipo do nó Get aparecerão na lista.
 

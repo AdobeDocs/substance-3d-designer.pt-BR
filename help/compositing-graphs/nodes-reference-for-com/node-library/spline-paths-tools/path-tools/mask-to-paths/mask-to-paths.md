@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mascarar caminhos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/mask-to-paths-icon.png "Ícone de nó")
+![Ícone de nó](mask-to-paths.resources/mask-to-paths-01.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -47,81 +47,41 @@ Os Caminhos gerados podem ser processados posteriormente usando nós dedicados -
 >
 > O método usado para codificar caminhos é explicado na página [Especificações de formato de caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md).
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Máscara</b> *Tons de cinza*\
-O padrão de entrada que deve ser convertido em uma lista de Caminhos.
+## Entradas
 
-## Conectores de saída
+|  |  |
+|:---|:---|
+| <b>Máscara</b> <i>Tons de cinza</i> | O padrão de entrada que deve ser convertido em uma lista de Caminhos. |
 
-<b>Visualizar</b> *Cor* Uma visualização composta sobre a máscara para ajudar a visualizar os efeitos dos parâmetros.
+<a name="outputs"></a>
 
-<b>Cores</b> e *Caminhos*\
-Uma lista de caminhos codificados em uma imagem colorida. cada caminho descreve uma lista de segmentos codificados.\
-O resultado pode ser processado usando outro nó de processamento de Caminhos ou enviado para um nó [Caminhos para Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para processá-lo posteriormente como Splines.
+## Saídas
+
+|  |  |
+|:---|:---|
+| <b>Visualizar</b> <i>Cor</i> | Uma visualização composta sobre a máscara para ajudar a visualizar os efeitos dos parâmetros. |
+| <b>Caminhos</b> <i>Cor</i> | Uma lista de caminhos codificados em uma imagem colorida. cada caminho descreve uma lista de segmentos codificados.<br>O resultado pode ser processado usando outro nó de processamento de Caminhos ou enviado para um nó [Caminhos para Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) para processá-lo posteriormente como Splines. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Máscara suave</b> *Flutuante*\
-Aplique suavização na máscara de entrada.\
-Útil quando o padrão de entrada tem bordas muito nítidas, o que geralmente causa artefatos.
-
-<b>Valor Limite da Máscara</b> *Flutuante* O valor em tons de cinza da <b>Máscara</b> que será usado para separar o exterior (valores &lt; Valor Limite da Máscara) e o interior (valores > Valor Limite da Máscara) da forma.
-
-<b>Caminho Decimal</b> *Flutuante* controla implicitamente a quantidade de segmentos que será gerada.\
-Uma alta quantidade de decimação tornará as formas arredondadas um pouco poligonais, enquanto nenhuma decimação irá gerar quase um segmento por pixel.\
-Um valor razoável corresponderá melhor à forma de linhas retas e curvas sem criar muitos pontos intermediários para linhas retas.
-
-<b>Fechar caminhos abertos</b> *Booleano* Cria um segmento entre os vértices inicial e final de caminhos abertos.\
-Desativar essa opção poderá corrigir linhas indesejáveis que atravessam o seu padrão de uma forma inesperada, contudo os caminhos poderão deixar de ser fechados.
-
-<b>Limite de Cantos</b> *Flutuante*\
-Cada vértice codificado em caminhos pode conter uma bandeira indicando se é duro (ou seja, um canto) ou suave.\
-Esse parâmetro permite marcar mais ou menos cantos de acordo com o ângulo entre os segmentos adjacentes.\
-*Observação:* este sinalizador de &#39;canto&#39; não tem suporte atualmente em nenhum nó existente, mas está disponível para ser usado em um nó [Processador de Vértice de Caminho](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md). Você também pode visualizar os cantos com o nó [Visualizar caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md).
-
-<b>Modo de Inicialização do Caminho</b> *Inteiro* O método de selecionar qual vértice deve ser o início de cada Caminho gerado ao redor das formas na Máscara.\
-Isso tem um impacto significativo ao converter os <b>Caminhos para Splines</b> gerados usando o nó dedicado, pois vários nós de Spline usam o início e o fim dos Splines.\
-*- Vértice mais agudo:* O vértice que forma o ângulo mais baixo com seus vértices anteriores e seguintes\
-*- Vértice no extremo de uma direção especificada:* O último vértice em uma determinada direção\
-*- Vértice mais próximo de uma posição especificada
-* Vértice o mais distante de uma posição especificada
-* Função de inicialização personalizada:* Use uma função personalizada para selecionar o vértice que deve ser usado como o início de cada caminho
-
-<b>Direção da Inicialização</b> *Flutuante* O ângulo que descreve a direção usada para selecionar o vértice de inicialização. Para cada Caminho, o último vértice nessa direção é selecionado.\
-O valor é um *número de rotações* usado para girar um vetor de direção à esquerda. Isso significa que 0 define um vetor de direção de (-1, 0) e 0,25 (90 graus) define um vetor de direção de (0, 1).\
-*Observação:* este parâmetro está disponível quando o <b>Modo de Inicialização do Caminho</b> está definido como &#39;Vértice na extremidade de uma direção especificada&#39;
-
-<b>Posição de Destino de Inicialização</b> *Flutuante2* A posição na imagem usada para selecionar o vértice de inicialização.\
-Para cada Caminho, o vértice mais próximo ou mais distante desta posição é selecionado, de acordo com o <b>Modo de Inicialização do Caminho</b> selecionado.\
-*Observação:* este parâmetro está disponível quando o <b>Modo de Inicialização do Caminho</b> está definido como &#39;Vértice mais próximo de uma posição especificada&#39; ou &#39;Vértice mais distante de uma posição especificada&#39;
-
-<b>Função de Inicialização</b> *Flutuante* A função usada para selecionar o vértice de inicialização. Retorna um valor Float.\
-Para cada vértice, a função é executada e o vértice para o qual a função retorna o *maior resultado* é selecionado.\
-Variáveis disponíveis:\
-*-* vertex.cornerness(Float)*:* A pontuação do vértice como candidato a ser um vértice\
-*-* vertex.pos(Float2)*:* A posição do vértice no espaço da imagem\
-*Observação:* este parâmetro está disponível quando o Modo de Inicialização do Caminho está definido como &#39;Vértice mais próximo de uma posição especificada&#39; ou &#39;Função de inicialização personalizada&#39;
-
-<b>Modo de Pedido</b> *Inteiro* O método de ordenação dos Caminhos gerados.\
-A *caixa delimitadora* (Bbox) dos Caminhos de posição ou tamanho pode ser usada como critério para ordenar os Caminhos.\
-Isso tem um impacto significativo ao converter os <b>Caminhos para Splines</b> gerados usando o nó dedicado, pois vários nós de Spline usam a ordem dos Splines.\
-*- Herdado (rápido):* O método usado na versão anterior deste nó, que oferece desempenho significativamente melhor\
-*- Por posição central da caixa ao longo da direção:* Os caminhos são ordenados de acordo com a posição do centro de sua caixa, do primeiro ao último ao longo da direção especificada\
-*- Por Bbox Bbox posição superior esquerda ao longo da direção:* Os caminhos são ordenados de acordo com a posição do canto superior esquerdo de sua Bbox, do primeiro ao último ao longo da direção especificada\
-*- Por tamanho de Caixa - Do maior para o menor:* Os caminhos são ordenados de acordo com o tamanho de sua Caixa, do maior para o menor\
-*- Por tamanho de Caixa - Do menor ao maior:* Os caminhos são ordenados de acordo com o tamanho de sua Caixa, do menor ao maior\
-*- Função de ordenação personalizada:* Use uma função personalizada para ordenar os Caminhos
-
-<b>Direção da ordem</b> *Flutuante* O ângulo que descreve a direção usada para ordenar os Caminhos do primeiro para o último ao longo dessa direção.\
-O valor é um *número de voltas* usado para girar um vetor de direção à esquerda. Isso significa que 0 define um vetor de direção de (-1, 0) e 0,25 (90 graus) define um vetor de direção de (0, 1).
-
-<b>Ordenando função</b> *Flutuante* A função usada para ordenar os Caminhos. Retorna um valor Float.\
-Os caminhos são ordenados em *ordem crescente* de acordo com o valor desta função. Em outras palavras, o resultado da função para cada Caminho é a *chave de classificação* usada para ordenar os Caminhos.\
-Variáveis disponíveis:
-* bbox.center (Float2): a posição do centro da caixa Caminho
-* bbox.topleft (Float2): a posição do canto superior esquerdo da caixa Caminho
-* bbox.size (Float2): o tamanho da caixa Caminho (X: largura, Y: height)
+|  |  |
+|:---|:---|
+| <b>Máscara suave</b> <i>Flutuante</i> | Aplique suavização na máscara de entrada.<br>Útil quando o padrão de entrada tem bordas muito nítidas, o que geralmente causa artefatos. |
+| <b>Valor de Limite de Máscara</b> <i>Flutuante</i> | O valor em tons de cinza da <b>Máscara</b> que será usado para separar o exterior (valores &lt; Valor Limite da Máscara) e o interior (valores > Valor Limite da Máscara) da forma. |
+| <b>Decimar Caminho</b> <i>Flutuante</i> | Controla implicitamente a quantidade de segmentos que será gerada.<br>Uma quantidade alta de decimação tornará as formas arredondadas um pouco poligonais, enquanto nenhuma decimação gerará quase um segmento por pixel.<br>Uma quantidade razoável corresponderá melhor à forma de linhas retas e curvas sem criar muitos pontos intermediários para linhas retas. |
+| <b>Fechar caminhos abertos</b> <i>Booleano</i> | Crie um segmento entre os vértices inicial e final de caminhos abertos.<br>Desativar essa opção poderá corrigir linhas indesejáveis que atravessam o padrão de forma inesperada, mas os caminhos talvez não sejam mais fechados. |
+| <b>Limite de Cantos</b> <i>Flutuante</i> | Cada vértice codificado em caminhos pode conter uma bandeira indicando se é duro (ou seja, um canto) ou suave.<br>Este parâmetro permite marcar mais ou menos cantos de acordo com o ângulo entre os segmentos adjacentes.<br><i>Observação:</i> no momento, nenhum nó existente oferece suporte a este sinalizador de &#39;canto&#39;, mas eles estão disponíveis para serem usados em um nó do [Processador de Vértice de Caminho](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md). Você também pode visualizar os cantos com o nó [Visualizar caminhos](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md). |
+| <b>Modo de Inicialização do Caminho</b> <i>Inteiro</i> | O método de selecionar qual vértice deve ser o início de cada Caminho gerado ao redor das formas na Máscara.<br>Isso tem um impacto significativo ao converter os <b>Caminhos para Splines</b> gerados usando o nó dedicado, pois vários nós de Spline usam o início e o fim das Splines.<br>*- Vértice mais agudo:* O vértice que forma o ângulo mais baixo com seus vértices anteriores e seguintes <br>*- Vértice na extremidade de uma direção especificada:* O último vértice em uma determinada direção <br>*- Vértice mais próximo de uma posição especificada<br>* Vértice mais distante de uma direção posição especificada<br>* Função de inicialização personalizada:* Use uma função personalizada para selecionar o vértice que deve ser usado como o início de cada Caminho |
+| <b>Direção da Inicialização</b> <i>Flutuante</i> | O ângulo que descreve a direção usada para selecionar o vértice de inicialização. Para cada Caminho, o último vértice nessa direção é selecionado.<br>O valor é um *número de voltas* usado para girar um vetor de direção X para a esquerda. Isso significa que 0 define um vetor de direção de (-1, 0), e 0,25 (90 graus) define um vetor de direção de (0, 1).<br><i>Observação:</i> este parâmetro está disponível quando o <b>Modo de Inicialização do Caminho</b> está definido como &#39;Vértice no extremo de uma direção especificada&#39; |
+| <b>Posição de Destino de Inicialização</b> <i>Flutuante2</i> | A posição na imagem usada para selecionar o vértice de inicialização.<br>Para cada Caminho, o vértice mais próximo ou mais distante desta posição é selecionado, de acordo com o <b>Modo de Inicialização do Caminho</b> selecionado.<br><i>Observação:</i> este parâmetro está disponível quando o <b>Modo de Inicialização do Caminho</b> está definido como &#39;Vértice mais próximo de uma posição especificada&#39; ou &#39;Vértice mais distante de uma posição especificada&#39; |
+| <b>Função de Inicialização</b> <i>Flutuante</i> | A função usada para selecionar o vértice de inicialização. Retorna um valor Float.<br>Para cada vértice, a função é executada e o vértice para o qual a função retorna o *maior resultado* é selecionado.<br>Variáveis disponíveis:<br>*-* vertex.cornerness(Precisão decimal)*:* A pontuação do vértice como candidato a um vértice <br>*-* vertex.pos(Precisão decimal 2)*:* A posição do vértice no espaço de imagem<br><i>Observação:</i> Este parâmetro está disponível quando o Modo de Inicialização do Caminho está definido como &#39;Vértice mais próximo de uma posição especificada&#39; ou &#39;Função de inicialização personalizada&#39; |
+| <b>Modo de Pedido</b> <i>Inteiro</i> | O método de ordenação dos Caminhos gerados.<br>A *caixa delimitadora* dos Caminhos de posição ou tamanho (Bbox) pode ser usada como critério para ordenar os Caminhos.<br>Isso tem um impacto significativo ao converter os <b>Caminhos gerados em Splines</b> usando o nó dedicado, pois vários nós Spline usam a ordem dos Splines.<br>*- Legado (rápido):* O método usado na versão anterior deste nó, que oferece um desempenho significativamente melhor <br>*- Por posição central da Bbox ao longo da direção:* Os caminhos são ordenados de acordo com a do centro de sua caixa, do primeiro ao último ao longo da direção especificada <br>*- Por caixa de caixa de caixa de caixa de caixa superior à esquerda ao longo da direção:* Os caminhos são ordenados de acordo com a posição do canto superior esquerdo de sua caixa de caixa de caixa de caixa, do primeiro ao último ao longo da direção especificada <br>*- Por tamanho de caixa de bbox - Do maior ao menor:* Os caminhos são ordenados de acordo com o tamanho de sua caixa de bbox, do maior ao menor <br>*- Por tamanho de caixa de bbox - Do menor ao maior:* Os caminhos são ordenados de acordo com o tamanho de sua caixa de bbox, do menor para o maior <br>*- Função de ordenação personalizada:* Use uma função personalizada para ordenar Caminhos |
+| <b>Direção da ordem</b> <i>Flutuante</i> | O ângulo que descreve a direção usada para ordenar os Caminhos do primeiro para o último ao longo dessa direção.<br>O valor é um *número de voltas* usado para girar um vetor de direção X para a esquerda. Isso significa que 0 define um vetor de direção de (-1, 0) e 0,25 (90 graus) define um vetor de direção de (0, 1). |
+| <b>Ordenando função</b> <i>Flutuante</i> | A função usada para ordenar os Caminhos. Retorna um valor Float.<br>Os caminhos são ordenados em *ordem crescente* de acordo com o valor desta função. Em outras palavras, o resultado da função para cada Caminho é a *chave de classificação* usada para ordenar os Caminhos.<br>Variáveis disponíveis:<br>* bbox.center (Precisão decimal 2): a posição do centro da Caixa de Caminho<br>* bbox.topleft (Precisão decimal 2): a posição do canto superior esquerdo da Caixa de Caminho<br>* bbox.size (Precisão decimal 2): o tamanho da Caixa de Caminho (X: width, Y: height) |
 
 ## Exemplos
 
@@ -132,11 +92,11 @@ Variáveis disponíveis:
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
+      <img src="mask-to-paths.resources/mask-to-paths-02.jpg" alt="MaskToPaths-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-Variant2-After">
+      <img src="mask-to-paths.resources/mask-to-paths-03.jpg" alt="MaskToPaths-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -148,11 +108,11 @@ Variáveis disponíveis:
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-Variant1-Before">
+      <img src="mask-to-paths.resources/mask-to-paths-04.jpg" alt="MaskToPaths-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-Variant1-After">
+      <img src="mask-to-paths.resources/mask-to-paths-05.jpg" alt="MaskToPaths-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -166,12 +126,12 @@ Variáveis disponíveis:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/MaskToPaths-Demo2.gif "Exemplo de nó 2"){zoomable="yes"}
+![Exemplo de nó 2](mask-to-paths.resources/mask-to-paths-06.gif "Exemplo de nó 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/MaskToPaths-Demo1.gif "Exemplo de nó 1"){zoomable="yes"}
+![Exemplo de nó 1](mask-to-paths.resources/mask-to-paths-07.gif "Exemplo de nó 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -181,12 +141,12 @@ Variáveis disponíveis:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 3: Modos de inicialização](../../../../../../assets/MaskToPaths-Demo3.gif "Exemplo de nó 3: Modos de inicialização"){zoomable="yes"}
+![Exemplo de nó 3: Modos de inicialização](mask-to-paths.resources/mask-to-paths-08.gif "Exemplo de nó 3: Modos de inicialização"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 3: modos de ordenação](../../../../../../assets/MaskToPaths-Demo4.gif "Exemplo de nó 3: modos de ordenação"){zoomable="yes"}
+![Exemplo de nó 3: modos de ordenação](mask-to-paths.resources/mask-to-paths-09.gif "Exemplo de nó 3: modos de ordenação"){zoomable="yes"}
 
 </td>
 </tr>

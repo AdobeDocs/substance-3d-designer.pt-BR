@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Nível da água
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 1%
+source-wordcount: '282'
+ht-degree: 8%
 
 ---
 
@@ -22,54 +22,48 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/water-level.png){width="128px"}
+![](water-level.resources/water-level-01.png){width="128px"}
 
-## Nível da água
-
-**Entrada:** *Filtros/Efeitos de Material*
-
-**Complexo**
+<b>Em:</b> Filtros Materiais > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Efeito multifuncional que adiciona um nível de água a uma entrada de material completa. O material de entrada deve ter um Heightmap de boa qualidade para que o efeito funcione. O resultado está correto para PBR.
 
-## Parâmetros
-
-### Entradas
-
-* **Máscara**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Canais**\
-  Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza.
-* **Nível da água**: *0.0 - 1.0* Controle principal para aumentar ou diminuir o nível da água.
-* **Escuridão da Água**: *0.0 - 1.0* Define a “transparência” geral da água.
-* **Umidade das Bordas**: *0.0 - 1.0* Determina quanto de uma aparência molhada as bordas da água devem ter.
-* **Distância de Umidade das Bordas**: *0.0 - 1.0* Define o quanto as bordas molhadas atingem.
-* **Quantidade de Desfoque de Profundidade**: *0.0 - 1.0* Define a quantidade de desfoque com base na profundidade abaixo da água. Modifica o raio do desfoque.
-* **Opacidade do desfoque de Profundidade**: *0.0 - 1.0* Determina a quantidade de desfoque de profundidade que é misturada, podendo ser usada para diminuir o efeito do desfoque.
-* **Cor do lodo**: *(valor da cor)*Define a cor do efeito de lodo.
-* **Profundidade de lamas**: *0.0 - 1.0* Define a profundidade em que o lodo começa a aparecer, em relação ao nível da água.
-* **Opacidade do lodo**: *0.0 - 1.0* Define a opacidade global do efeito de lodo.
-* **Geada**: *0.0 - 1.0* Define a quantidade de geada. Começa a aparecer a partir das bordas externas e se move para dentro.
-* **Intensidade da geada**: *0.0 - 1.0* Define a intensidade da geada, controla a “opacidade” do efeito.
-* **Rachaduras de geada**: *0.0 - 1.0* Define a quantidade de rachaduras nas transições de congeladas para líquidas.
-* **Formato normal de geada**: *DirectX/OpenGL* Alterna o canal verde do efeito de mapa normal de geada.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Máscara</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Canais</b> | Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza. |
+| <b>Nível de água</b> <i>0.0 - 1.0</i> | Controlo principal para elevar ou baixar o nível da água. |
+| <b>Escuridão Hídrica</b> <i>0.0 - 1.0</i> | Define a “transparência” geral da água. |
+| <b>Umidade das Bordas</b> <i>0.0 - 1.0</i> | Determina quanto de uma aparência molhada as bordas da água devem ter. |
+| <b>Distância de Umidade das Bordas</b> <i>0.0 - 1.0</i> | Define o quanto as bordas molhadas atingem. |
+| <b>Quantidade de Desfoque de Profundidade</b> <i>0.0 - 1.0</i> | Define a quantidade de desfoque com base na profundidade abaixo da água. Modifica o raio do desfoque. |
+| <b>Opacidade do Desfoque de Profundidade</b> <i>0.0 - 1.0</i> | Determina quanto desfoque de profundidade é mesclado; pode ser usado para diminuir o efeito do desfoque. |
+| <b>Cor de lodo</b> <i>(Valor da cor)</i> | Define a cor do efeito de lodo. |
+| <b>Profundidade de lamas</b> <i>0.0 - 1.0</i> | Define a profundidade em que o lodo começa a aparecer, em relação ao nível da água. |
+| <b>Opacidade do Lodo</b> <i>0.0 - 1.0</i> | Define a opacidade global do efeito de lodo. |
+| <b>Geada</b> <i>0.0 - 1.0</i> | Define a quantidade de geada. Começa a aparecer a partir das bordas externas e se move para dentro. |
+| <b>Intensidade de geada</b> <i>0.0 - 1.0</i> | Define a intensidade da geada, controla a “opacidade” do efeito. |
+| <b>Rachaduras de geada</b> <i>0.0 - 1.0</i> | Define a quantidade de rachaduras nas transições de congelado para líquido. |
+| <b>Formato Normal De Geada</b> <i>DirectX/OpenGL</i> | Alterna o canal verde do efeito Frost Normalmap. |

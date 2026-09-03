@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Desfoque de borda
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '141'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-blur.png){width="128px"}
+![](edge-blur.resources/edge-blur-01.png){width="128px"}
 
-## Desfoque de borda
-
-**Entrada:** *Geradores Baseados Em Malha**/Geradores De Máscara*
-
-**Simples**
+<b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,27 +37,35 @@ Gera uma máscara em preto e branco com base em mapas baked e configurações do
 
 Essa máscara realça as bordas com base em um mapa de curvatura assado. É um dos geradores de máscaras mais simples.
 
-## Parâmetros
-
-### Entradas
-
-* **Curvatura**: *Entrada em tons de cinza*\
-  Mapa baked usado para basear o efeito.
-* **Máscara (opcional)**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Nível**: *0.0 - 1.0*\
-  Define a intensidade de realce de borda.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta o contraste do resultado.
-* **Raio de desfoque**: *0.0 - 8.0* Define a quantidade de desfoque nas bordas destacadas.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/edge-blur-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para basear o efeito. |
+| <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Nível</b> <i>0.0 - 1.0</i> | Define a intensidade de realce de borda. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta o contraste do resultado. |
+| <b>Raio de desfoque</b> <i>0.0 - 8.0</i> | Define a intensidade de desfoque nas bordas realçadas. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-blur.resources/edge-blur-02.gif" />
+        </td>
+    </tr>
 </table>

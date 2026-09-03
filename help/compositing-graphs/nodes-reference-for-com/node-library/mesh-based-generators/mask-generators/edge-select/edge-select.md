@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Seleção de borda
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 1%
+source-wordcount: '276'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-select.png){width="128px"}
+![](edge-select.resources/edge-select-01.png){width="128px"}
 
-## Seleção de borda
-
-**Entrada:** *Geradores Baseados Em Malha**/Geradores De Máscara*
-
-**Intermediário**
+<b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,34 +37,42 @@ Gera uma máscara em preto e branco com base em mapas baked e configurações do
 
 Essa máscara é a melhor maneira de selecionar qualquer tipo de borda com base na curvatura. Convexo, Côncavo em qualquer nível ou contraste pode ser isolado, fornecendo um atalho excelente para evitar fazer isso manualmente por meio de um [nó Níveis](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md).
 
-## Parâmetros
-
-### Entradas
-
-* **Curvatura**: *Entrada em tons de cinza*\
-  Mapa baked usado para realçar bordas. Obrigatório!
-* **Máscara (opcional)**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Nível**: *0.0 - 1.0*\
-  Define a quantidade total de realce de borda para Convexo e Côncavo.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta o contraste do realce para Convexo e Côncavo.
-* **Convexo**
-  * **Largura das Bordas Convexas**: *0.0 - 1.0* Define a largura do realce para bordas Convexas. Lembre-se de que aumentar ligeiramente a Suavidade pode levar a bordas mais finas.
-  * **Suavidade convexa**: *0.0 - 1.0* Defina a suavidade da transição para bordas convexas.
-  * **Intensidade convexa**: *0.0 - 1.0* Define a intensidade máxima do realce de borda para bordas convexas. Defina como 0 para nenhum realce.
-* **Côncavo**
-  * **Largura das Bordas Côncavas**: *0.0 - 1.0* Defina a largura do realce para bordas Côncavas. Lembre-se de que aumentar ligeiramente a Suavidade pode levar a bordas mais finas.
-  * **Suavidade côncava**: *0.0 - 1.0* Defina a suavidade da transição para bordas côncavas.
-  * **Intensidade côncava**: *0.0 - 1.0* Defina a intensidade máxima do realce de borda para bordas côncavas. Defina como 0 para nenhum realce.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/edge-select-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para realçar bordas. Obrigatório! |
+| <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Nível</b> <i>0.0 - 1.0</i> | Define a quantidade total de realce de borda para Convexo e Côncavo. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta o contraste do realce para Convexo e Côncavo. |
+| <b>Convexo</b> |  |
+| <b>Largura das Bordas Convexas</b> <i>0.0 - 1.0</i> | Define a largura do realce para bordas convexas. Lembre-se de que aumentar ligeiramente a Suavidade pode levar a bordas mais finas. |
+| <b>Suavidade convexa</b> <i>0.0 - 1.0</i> | Defina a suavidade da transição para bordas convexas. |
+| <b>Intensidade de convexo</b> <i>0.0 - 1.0</i> | Define a intensidade máxima do realce de Borda para bordas convexas. Defina como 0 para nenhum realce. |
+| <b>Côncavo</b> |  |
+| <b>Largura das Bordas Côncavas</b> <i>0.0 - 1.0</i> | Defina a largura do realce para bordas côncavas. Lembre-se de que aumentar ligeiramente a Suavidade pode levar a bordas mais finas. |
+| <b>Suavidade côncava</b> <i>0.0 - 1.0</i> | Defina a suavidade da transição para bordas côncavas. |
+| <b>Intensidade côncava</b> <i>0.0 - 1.0</i> | Defina a intensidade máxima do realce de Aresta para bordas côncavas. Defina como 0 para nenhum realce. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-select.resources/edge-select-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Explorer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1104'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ O Explorer é onde você começa e termina seus projetos, pois ele permite criar
 </td>
 <td style="border: 0;" valign="top">
 
-![Doca do Explorer](../../assets/explorer-3.jpg "Doca do Explorer")
+![Doca do Explorer](the-explorer-window.resources/the-explorer-window-01.jpg "Doca do Explorer")
 
 </td>
 </tr>
@@ -48,24 +48,24 @@ Você pode fazer algumas ações importantes no Dock do Explorer:
 * Salvar e fechar pacotes carregados
 * [Importar e vincular recursos](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 * [Exportar resultados de gráficos para texturas](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
-* [Publish um pacote para um ativo do Substance 3D (SBSAR)](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)
-* [Enviar pacotes para outros aplicativos da Substance 3D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)
+* [Publish um pacote para um ativo do Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)
+* [Enviar pacotes para outros aplicativos da Substance 3D](send-to-interoperability/send-to-interoperability.md)
 * [Criar mapas a partir de uma malha](../../bakers/bakers.md)
 
 ## Barra de ferramentas superior
 
 Essa barra de ferramentas permite executar rapidamente funções relacionadas ao fluxo de trabalho geral. Todos os botões são *sensíveis ao contexto*, o que significa que eles ativam e alteram seu comportamento com base em sua seleção atual no Explorer.
 
-![](../../assets/save.png) <b>Salvar</b> o pacote selecionado.
+![](the-explorer-window.resources/the-explorer-window-02.png) <b>Salvar</b> o pacote selecionado.
 
-![](../../assets/sendto-icon.jpg) elemento(s) selecionado(s) no <b>Publish ou no [send](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b>:
+![](the-explorer-window.resources/the-explorer-window-03.jpg) elemento(s) selecionado(s) no <b>Publish ou no [send](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b>:
 
 * [Publish qualquer pacote selecionado para um ativo do Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
 * Enviar o pacote selecionado para o [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) ou [Substance 3D Stager](https://www.adobe.com/br/products/substance3d-stager.html).
 
-![](../../assets/republish.png) <b>Publish ou enviar como anterior:</b> Publish ou enviar os elementos selecionados com as mesmas configurações de antes. Esta opção só está disponível em um pacote que já foi publicado *pelo menos uma vez* na sessão *atual*.
+![](the-explorer-window.resources/the-explorer-window-04.png) <b>Publish ou enviar como anterior:</b> Publish ou enviar os elementos selecionados com as mesmas configurações de antes. Esta opção só está disponível em um pacote que já foi publicado *pelo menos uma vez* na sessão *atual*.
 
-![](../../assets/graph-cleaner.jpg) <b>Remover nós não usados</b> nos gráficos selecionados. A ferramenta segue estas regras:
+![](the-explorer-window.resources/the-explorer-window-05.jpg) <b>Remover nós não usados</b> nos gráficos selecionados. A ferramenta segue estas regras:
 
 * A ferramenta só estará disponível se os itens selecionados forem do *mesmo tipo*: somente gráficos, pastas ou pacotes;
 * Quando a seleção inclui pastas ou pacotes, a ferramenta limpa todos os gráficos nela *recursivamente*;
@@ -77,14 +77,14 @@ Saiba mais sobre a ferramenta na seção &#39;Remover nós não usados&#39; da p
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Menu suspenso Publish/Send](../../assets/explorer-sendto-displayed.jpg "Menu suspenso Publish/Send")
+![Menu suspenso Publish/Send](the-explorer-window.resources/the-explorer-window-06.jpg "Menu suspenso Publish/Send")
 
 *Publish/Send*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu suspenso Remover nós não usados](../../assets/explorer-graph-cleaner.jpg "Menu suspenso Remover nós não usados")
+![Menu suspenso Remover nós não usados](the-explorer-window.resources/the-explorer-window-07.jpg "Menu suspenso Remover nós não usados")
 
 *Remover nós não usados*
 
@@ -116,11 +116,11 @@ O espaço vazio só está disponível abaixo dos pacotes abertos no momento. Cli
 
 <b>Recarregar</b>, <b>Salvar, Salvar como</b> e<b> Salvar uma cópia como</b> permitem salvar em disco ou recuperar do disco uma versão salva anteriormente do pacote.
 
-O <b>arquivo .sbsar do Publish</b> e o<b> Republicar arquivo .sbsar</b> permitem que você [Publish seu Substance não compilado e não otimizado em um arquivo SBSAR eficiente e portátil para nós em outros aplicativos e integrações Substance](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Publish como anterior repete a ação anterior do Publish com as mesmas opções, ignorando a caixa de diálogo de opções para uma iteração mais rápida. A barra de ferramentas contém botões com a mesma funcionalidade.
+O <b>arquivo .sbsar do Publish</b> e o<b> Republicar arquivo .sbsar</b> permitem [publicar](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) seu gráfico de Substance não compilado e não otimizado em um arquivo SBSAR eficiente e portátil para nós em outros aplicativos e integrações de Substance. Publish como anterior repete a ação anterior do Publish com as mesmas opções, ignorando a caixa de diálogo de opções para uma iteração mais rápida. A barra de ferramentas contém botões com a mesma funcionalidade.
 
 <b>Exportar com dependências</b> é diferente de salvar e publicar. Ele pega seus arquivos do SBS, coleta todos os recursos e dependências mencionados e cria um pacote independente. A caixa de diálogo permite que você escolha quais bibliotecas coletar e se o arquivo deve ser um arquivo compactado (7-zip). Essa é uma boa opção para compartilhar um arquivo SBS com outra pessoa, sem se preocupar com dependências ausentes.
 
-<b>Enviar para...</b> abre um submenu que permite [enviar o pacote](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html) diretamente para o [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html), o [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html), o [Substance 3D Stager](https://www.adobe.com/br/products/substance3d-stager.html) ou o [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
+<b>Enviar para...</b> abre um submenu que permite [enviar](send-to-interoperability/send-to-interoperability.md) diretamente seu pacote para o [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html), o [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html), o [Substance 3D Stager](https://www.adobe.com/br/products/substance3d-stager.html) ou o [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
 
 <b>Copiar</b> copia o pacote selecionado.
 
@@ -200,9 +200,9 @@ O <b>Gerenciador de Dependências</b> abre a janela do Gerenciador de Dependênc
 
 A barra de ferramentas na parte inferior do Dock do Explorer fornece informações sobre um pacote ou um recurso de pacote:
 
-<b>![](../../assets/explorer-dependencies.jpg) Dependências:</b> Quando um pacote é selecionado, suas dependências de pacote são listadas em um painel dedicado.
+<b>![](the-explorer-window.resources/the-explorer-window-08.jpg) Dependências:</b> Quando um pacote é selecionado, suas dependências de pacote são listadas em um painel dedicado.
 
-<b>![](../../assets/explorer-information.jpg) Informações:</b> Fornece metadados relacionados ao pacote ou recurso atualmente selecionado:
+<b>![](the-explorer-window.resources/the-explorer-window-09.jpg) Informações:</b> Fornece metadados relacionados ao pacote ou recurso atualmente selecionado:
 
 * Pacote: o caminho de arquivo completo do pacote
 * [Recurso de bitmap](../../resources/bitmap-resource/bitmap-resource.md): o caminho de arquivo completo do recurso, seu [perfil ICC](../../color-management/color-management.md), tamanho da imagem e o [método de importação](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) (ou seja, *vinculado* ou *importado*)
@@ -211,14 +211,14 @@ A barra de ferramentas na parte inferior do Dock do Explorer fornece informaçõ
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Painel Dependências](../../assets/explorer-dependencies-displayed.jpg "Painel Dependências")
+![Painel Dependências](the-explorer-window.resources/the-explorer-window-10.jpg "Painel Dependências")
 
 *Dependências*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Painel de informações](../../assets/explorer-information-displayed.jpg "Painel de informações")
+![Painel de informações](the-explorer-window.resources/the-explorer-window-11.jpg "Painel de informações")
 
 *Informações*
 

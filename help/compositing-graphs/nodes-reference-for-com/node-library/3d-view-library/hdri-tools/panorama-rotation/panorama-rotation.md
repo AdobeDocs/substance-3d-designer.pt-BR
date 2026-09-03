@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Rotação de panorama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 2%
+source-wordcount: '69'
+ht-degree: 14%
 
 ---
 
@@ -22,32 +22,30 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-rotation.png){width="200px"}
+![](panorama-rotation.resources/panorama-rotation-01.png){width="200px"}
 
-## Rotação de panorama
-
-**Entrada:** *Exibição 3D/Ferramentas HDRI*
-
-**Simples**
+<b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Gira uma imagem panorâmica de entrada mapeada esfericamente em torno do ponto central, mantendo a projeção/mapeamento correto. Útil para inclinação ou ajuste de imagens HDRI.
 
-## Parâmetros
-
-* **Rotação**: *0.0 - 1.0*
-* **Ângulo de direção**: *0.0 - 1.0*
-* **Pré-rotação em torno do polo**: *-1.0 - 1.0*
-* **Pós-Rotação Ao Redor Do Polo**: *0.0 - 1.0*
-
-## Imagens de exemplo
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Rotação</b> <i>0.0 - 1.0</i> |  |
+| <b>Ângulo de direção</b> <i>0.0 - 1.0</i> |  |
+| <b>Pré-rotação em torno do polo</b> <i>-1.0 - 1.0</i> |  |
+| <b>Pós-Rotação Ao Redor Do Polo</b> <i>0.0 - 1.0</i> |  |

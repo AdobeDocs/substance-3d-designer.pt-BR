@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Color temperature adjustment
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 2%
+source-wordcount: '93'
+ht-degree: 7%
 
 ---
 
@@ -22,35 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-temperature-adjustement.png){width="250px"}
+![](color-temperature-adjustment.resources/color-temperature-adjustment-01.png){width="250px"}
 
-## Color temperature adjustment
-
-**Entrada:** *Exibição 3D/Ferramentas HDRI*
-
-**Simples**
+<b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Ajusta o equilíbrio de cores da imagem de entrada. Semelhante ao ajuste de Equilíbrio de branco na fotografia. Pode ser usado para aquecer ou esfriar cores em imagens HDR que não estão funcionando corretamente.
 
-## Parâmetros
-
-* **Temperatura**: *-1.0 - 1.0*\
-  Mude as cores entre quente e frio.
-* **Magenta-Verde**: *-1.0 - 1.0*\
-  Alterne o tom entre magenta e verde.
-* **Espaço de cores**: *HDR (linear), LDR (sRGB)*Determine como o espaço de cores da imagem de entrada é interpretado.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/color-tempadjust-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| Temperatura <b>1</b> <i>-1.0 - 1.0</i> | Mude as cores entre quente e frio. |
+| <b>Magenta-Verde</b> <i>-1.0 - 1.0</i> | Alterne o tom entre magenta e verde. |
+| <b>Espaço de cores</b> <i>HDR (linear), LDR (sRGB)</i> | Determine como o espaço de cores da imagem de entrada é interpretado. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="color-temperature-adjustment.resources/color-temperature-adjustment-02.gif" />
+        </td>
+    </tr>
 </table>

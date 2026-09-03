@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Desfoque radial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 2%
+source-wordcount: '68'
+ht-degree: 10%
 
 ---
 
@@ -22,34 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/radial-blur.png)![](../../../../../../assets/radial-blur-grayscale.png)
+![](radial-blur.resources/radial-blur-01.png)![](radial-blur.resources/radial-blur-02.png)
 
-## Desfoque radial (tons de cinza)
-
-**Entrada:** *Filtros/Desfoques*
-
-**Simples**
+<b>Entrada:</b> Filtros > Desfoques
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Gera um desfoque giratório do tipo movimento em uma entrada.
 
-## Parâmetros
-
-* **Amostras**: *1 - 128* Defina a qualidade do efeito de desfoque.
-* **Ângulo**: *0.0 - 0.5* Defina a quantidade de “rotação” do efeito.
-* **Posição Central**:\
-  Defina o ponto central do efeito.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/radial-blur-ex01.png)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Amostras</b> <i>1 - 128</i> | Defina a qualidade do efeito de desfoque. |
+| <b>Ângulo</b> <i>0.0 - 0.5</i> | Defina a intensidade de “giro” do efeito. |
+| <b>Posição Central</b> | Defina o ponto central do efeito. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="radial-blur.resources/radial-blur-03.png" />
+        </td>
+    </tr>
 </table>

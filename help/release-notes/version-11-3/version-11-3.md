@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Data de lançamento: *24 de novembro de 2021*
 
 ### Novas funcionalidades de gráfico de modelo
 
-![](../../assets/banner-model.jpg)
+![](version-11-3.resources/version-11-3-01.jpg)
 
 Muitas melhorias foram adicionadas ao gráfico de modelo para expandir os recursos de modelagem:
 
@@ -41,7 +41,7 @@ Muitas melhorias foram adicionadas ao gráfico de modelo para expandir os recurs
   * Corte de partículas
   * Partículas de instâncias
 
-  ![](../../assets/particle-pruning.gif)
+  ![](version-11-3.resources/version-11-3-02.gif)
 
 * <b>Novos nós de modelagem e deformação</b>\
   Novos nós adicionais foram adicionados para criar formas mais complexas. Clique em cada nó para saber mais sobre eles:
@@ -59,7 +59,7 @@ Muitas melhorias foram adicionadas ao gráfico de modelo para expandir os recurs
 
 ### Interoperabilidade aprimorada
 
-![](../../assets/banner-sendto.jpg)
+![](version-11-3.resources/version-11-3-03.jpg)
 
 As ações de envio foram ampliadas, com duas novas possibilidades:
 
@@ -71,24 +71,24 @@ As ações de envio foram ampliadas, com duas novas possibilidades:
 
 ### Diversos
 
-![](../../assets/banner-misc-3.jpg)
+![](version-11-3.resources/version-11-3-04.jpg)
 
 Foram feitas várias melhorias na qualidade de vida:
 
 * **Entradas relativas às entradas**\
   As entradas de gráfico definidas em Em relação às entradas herdarão agora o tamanho do nó conectado, em vez do padrão para o tamanho do gráfico pai. Isso facilita muito o gerenciamento de resoluções diferentes por meio de entradas de tamanhos diferentes.
 
-  ![](../../assets/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/version-11-3-05.jpg){width="400px"}
 
 * **Nova janela de gráfico**\
   A nova janela de gráfico foi reformulada e agora permite ver melhor os detalhes de um modelo específico e criar um novo gráfico diretamente em um pacote existente.
 
-  ![](../../assets/new-graph.png){width="400px"}
+  ![](version-11-3.resources/version-11-3-06.png){width="400px"}
 
 * **Fechar Todos os Pacotes**\
   Uma pequena ação que torna menos tedioso gerenciar muitos pacotes no explorador. Use **Arquivo** > **Fechar tudo** para fechar todos os pacotes abertos no momento.
 
-  ![](../../assets/close-all-packages.png)
+  ![](version-11-3.resources/version-11-3-07.png)
 
 * **Maximizar Modo de Exibição Atual**\
   Use o novo ícone **da barra de título** ou o atalho **SHIFT+Espaço** para expandir uma janela para tela inteira. Isso também pode ser usado em janelas flutuantes.
@@ -98,16 +98,16 @@ Foram feitas várias melhorias na qualidade de vida:
 
 ### Conteúdo
 
-![](../../assets/render-content.jpg)
+![](version-11-3.resources/version-11-3-08.jpg)
 
 Essa versão adiciona novos nós de difusão e melhorias para o nó Renderização PBR:
 
 * <b>Nós de difusão</b>\
   Os novos nós Cor de difusão, Tons de cinza de difusão e Difusão UV permitem gerar desfoques de sangramento suaves com base em uma máscara de entrada.
 
-  ![](../../assets/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/version-11-3-09.jpg){width="230px"}
 
-  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
+  ![](version-11-3.resources/version-11-3-10.jpg) ![](version-11-3.resources/version-11-3-11.jpg)
 
 * **Nó de Renderização PBR aprimorado**\
   Este nó teve as seguintes alterações:
@@ -115,7 +115,7 @@ Essa versão adiciona novos nós de difusão e melhorias para o nó Renderizaç�
   * Novo suporte para dispersão de subsuperfície.
   * O Anisotropia agora segue o modelo Adobe Strand Material (5ASM).
   * A iluminação baseada em imagem foi aprimorada com o suporte da amostragem importante.
-  * A iluminação emissiva foi aprimorada com o suporte da amostragem importante.
+  * A iluminação do emissivo foi aprimorada com o suporte da amostragem importante.
 
 ## Notas de versão
 

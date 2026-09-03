@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Propriedades
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ O painel <b>Propriedades </b> é um painel sensível ao contexto que muda com ba
 </td>
 <td style="border: 0;" valign="top">
 
-![Áreas de propriedades](../../assets/image2020-11-9-13-49-48.png "Áreas de propriedades")
+![Áreas de propriedades](properties.resources/properties-01.png "Áreas de propriedades")
 
 </td>
 </tr>
@@ -55,11 +55,11 @@ Um recurso importante do Ecossistema de Substance, [Expor parâmetros](../../com
 
 ## Gráficos de nós e Substance
 
-Os [nós](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) e os [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) têm um conjunto de categorias de propriedade ligeiramente sobreposto, e sua funcionalidade é semelhante.
+Os nós e [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) têm um conjunto de categorias de propriedades ligeiramente sobreposto, e sua funcionalidade é semelhante.
 
 Os <b>Parâmetros Base</b> e os <b>Atributos</b> são idênticos entre Nós e Gráficos.
 
-Os nós oferecem <b>Parâmetros Específicos</b> ou<b> Parâmetros de Instância</b> (dependendo de se forem [nós Atômicos](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ou [Instâncias](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)), bem como <b>Valores de Entrada</b> para trabalhar com [Valores em gráficos de Substance](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html).
+Os nós oferecem <b>Parâmetros Específicos</b> ou<b> Parâmetros de Instância</b> (dependendo de se forem [nós Atômicos](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ou [Instâncias](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)), bem como <b>Valores de Entrada</b> para trabalhar com [valores](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 Os nós atômicos [de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)e [de saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)são exceções, pois apresentam os <b>Atributos de Integração</b> e as <b>Condições</b> para visibilidade. Esses dois conjuntos de propriedades também podem ser acessados centralmente nas propriedades do gráfico, em Entradas e Saídas.
 
@@ -67,7 +67,7 @@ Os gráficos têm algumas categorias extras. <b>Parâmetros de Entrada</b> lista
 
 ## Recursos e pacotes
 
-O painel Propriedades também responde às alterações de seleção na [janela do Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html). Ele pode servir como outra maneira de selecionar um gráfico (em vez de clicar duas vezes em uma área vazia) e também permite alterar as propriedades de Pacote e [Recurso](../../resources/resources.md).
+O painel Propriedades também responde às alterações de seleção no [Explorer](../the-explorer-window/the-explorer-window.md). Ele pode servir como outra maneira de selecionar um gráfico (em vez de clicar duas vezes em uma área vazia) e também permite alterar as propriedades de Pacote e [Recurso](../../resources/resources.md).
 
 Os pacotes têm seções **Informações**, **Atributos** e **Metadados**. [Os metadados do pacote estão descritos em uma página dedicada.](../../package-metadata/package-metadata.md)
 

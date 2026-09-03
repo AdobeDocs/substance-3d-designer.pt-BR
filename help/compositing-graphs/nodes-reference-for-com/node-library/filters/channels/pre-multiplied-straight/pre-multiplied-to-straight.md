@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pré-multiplicado para reto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '69'
+ht-degree: 1%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pre-multiply-straight.png){width="128px"}
+![](pre-multiplied-to-straight.resources/pre-multiplied-to-straight-01.png){width="128px"}
 
-## Pré-multiplicado para reto
-
-**Entrada:** *Filtros/Canais*
-
-**Simples**
+<b>Entrada:</b> Filtros > Canais
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Remove a cor pré-multiplicada do RGB nas bordas mescladas com alfa. Cancela efetivamente a pré-multiplicação da cor de fundo, mas retira o canal alfa do processo.
 
 Isso remove o efeito de borda às vezes visto em torno das bordas de imagens com um canal alfa.
-
-## Parâmetros
-
-*Nenhum Parâmetro.*
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
 
 </td>
 </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: SOMA FRACTAL 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 4%
+source-wordcount: '153'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Soma fractal 1 - Ícone](../../../../../../assets/fractal_sum_1.png "Soma fractal 1 - Ícone"){width="200px"}
+![Soma fractal 1 - Ícone](fractal-sum-1.resources/fractal-sum-1-01.png "Soma fractal 1 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -45,39 +41,23 @@ Veja também: [base de Soma fractal](../../../../../../compositing-graphs/nodes-
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Saídas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
+<a name="outputs"></a>
 
 ## Saídas
 
 |  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza* | O ruído gerado como bitmap em tons de cinza. |
+|:---|:---|
+| <b>Saída</b> <i>Tons de cinza</i> | O ruído gerado como bitmap em tons de cinza. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
 |  |  |
-| --- | --- |
-| <b>Desordem</b> Flutuante | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
-| <b>Velocidade do distúrbio</b> flutuante | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
-| <b>Expansão não quadrada</b> Booleana | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
+|:---|:---|
+| <b>Desordem</b> <i>Flutuante</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
+| <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
+| <b>Expansão não quadrada</b> <i>Booleano</i> | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
 
 ## Exemplos
 
@@ -85,26 +65,12 @@ Veja também: [base de Soma fractal](../../../../../../compositing-graphs/nodes-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Soma fractal 1 - Exemplo 1](../../../../../../assets/fractal_sum_1_1.png "Soma fractal 1 - Exemplo 1"){zoomable="yes"}
+![Soma fractal 1 - Exemplo 1](fractal-sum-1.resources/fractal-sum-1-02.png "Soma fractal 1 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Soma fractal 1 - Exemplo 2](../../../../../../assets/noise_fractal_sum_1_v2_speed0.6_aniso0.gif "Soma fractal 1 - Exemplo 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Soma fractal 1 - Exemplo 2](fractal-sum-1.resources/fractal-sum-1-03.gif "Soma fractal 1 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>

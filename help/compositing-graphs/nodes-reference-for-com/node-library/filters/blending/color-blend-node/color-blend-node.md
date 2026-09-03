@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Cor (Nó de mesclagem)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '103'
 ht-degree: 4%
 
 ---
@@ -22,41 +22,38 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/difference.png){width="128px"}
+![](color-blend-node.resources/color-blend-node-01.png){width="128px"}
 
-## Cor
-
-**Entrada:** *Filtros/Mesclagem*
-
-**Simples**
+<b>Entrada:</b> Filtros > Mesclagem
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Executa um modo de mesclagem de cores, que preserva a luminância do plano de fundo, ao adotar o matiz e a crominância do primeiro plano.
 
-## Parâmetros
-
-### Entradas
-
-* **Primeiro Plano**: *Entrada de Cores*
-* **Fundo**: *Entrada de Cores*
-* **Máscara**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Opacidade**: *0.0 - 1.0*\
-  Mesclar opacidade entre primeiro plano e plano de fundo.
-* **Mesclagem de Alpha**: *Falso/Verdadeiro*\
-  Alterna a mesclagem dos canais alfa Primeiro plano e Plano de fundo. Se definido como Falso, o canal alfa do primeiro plano é ignorado.
-
-## Imagens de exemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Primeiro Plano</b> <i>Entrada de cores</i> |  |
+| <b>Fundo</b> <i>Entrada de cores</i> |  |
+| <b>Máscara</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Opacidade</b> <i>0.0 - 1.0</i> | Mesclar opacidade entre primeiro plano e plano de fundo. |
+| <b>Mesclagem de alfa</b> <i>Falso/Verdadeiro</i> | Alterna a mesclagem dos canais alfa Primeiro plano e Plano de fundo. Se definido como Falso, o canal alfa do primeiro plano é ignorado. |

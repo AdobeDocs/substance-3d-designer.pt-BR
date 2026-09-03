@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Chanfro (Nó de filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 2%
+source-wordcount: '204'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/bevel.png){width="128px"}
+![](bevel-filter-node.resources/bevel-filter-node-01.png){width="128px"}
 
-## Chanfro
-
-**Entrada:** *Filtros/Efeitos*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,32 +37,39 @@ Executa um efeito de chanfro de borda em um Heightmap em tons de cinza de entrad
 
 Esse é um nó útil para aplicar perfis de curva exatos em um mapa de altura básico idealmente binário (preto/branco de contrato alto).
 
-## Parâmetros
-
-### Entradas
-
-* **entrada**: *entrada em tons de cinza*\
-  Mapa de altura a converter.
-* **Curva Personalizada**: *Entrada Em Tons De Cinza*\
-  Gradiente que determina a curva/inclinação exata. O ideal é um nó Gradiente linear, no qual você pode executar qualquer tipo de ajuste, como [Níveis](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) ou [Curvas](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md). Ativo somente quando “Usar curva personalizada” é Verdadeiro.
-
-### Parâmetros
-
-* **Distância**: *-1.0 - 1.0* A que distância o efeito de chanfro deve chegar.
-* **Tipo de canto**: *Redondo, Angular* Se o perfil de chanfro deve ser arredondado ou reto.
-* **Suavização**: *0.0 - 5.0* Quanta suavização adicional (desfoque) executar após o bisel.
-* **Usar Desfoque Não Uniforme**: *Falso/Verdadeiro* Se a suavização deve ser feita de maneira não uniforme.
-* **Usar curva personalizada**: *Falso/Verdadeiro* Alterna o uso de sua própria curva de height personalizada. Veja acima para obter mais informações.
-* **Intensidade normal**: *0.0 - 50.0* Intensidade do Normalmap gerado.
-* **Formato Normal**: *DirectX, OpenGL*\
-  Alterne entre diferentes formatos de Mapas Normais (inverte o canal Verde).
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/bevel-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>entrada</b> <i>Entrada em tons de cinza</i> | Mapa de altura a converter. |
+| <b>Curva personalizada</b> <i>Entrada em tons de cinza</i> | Gradiente que determina a curva/inclinação exata. O ideal é um nó Gradiente linear, no qual você pode executar qualquer tipo de ajuste, como [Níveis](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) ou [Curvas](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md). Ativo somente quando “Usar curva personalizada” é Verdadeiro. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Distância</b> <i>-1.0 - 1.0</i> | O quanto o efeito de chanfro deve alcançar. |
+| <b>Tipo de Canto</b> <i>Redondo, Angular</i> | Se o perfil de chanfro deve ser arredondado ou reto. |
+| <b>Suavização</b> <i>0.0 - 5.0</i> | Quantidade de suavização adicional (desfoque) a ser executada após o chanfro. |
+| <b>Usar Desfoque Não Uniforme</b> <i>Falso/Verdadeiro</i> | Se a suavização deve ser feita de maneira não uniforme. |
+| <b>Usar curva personalizada</b> <i>Falso/Verdadeiro</i> | Alterna o uso de sua própria curva de height personalizada. Veja acima para obter mais informações. |
+| <b>Intensidade normal</b> <i>0.0 - 50.0</i> | Intensidade do Normalmap gerado. |
+| <b>Formato Normal</b> <i>DirectX, OpenGL</i> | Alterne entre diferentes formatos de Mapas Normais (inverte o canal Verde). |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="bevel-filter-node.resources/bevel-filter-node-02.png" />
+        </td>
+    </tr>
 </table>

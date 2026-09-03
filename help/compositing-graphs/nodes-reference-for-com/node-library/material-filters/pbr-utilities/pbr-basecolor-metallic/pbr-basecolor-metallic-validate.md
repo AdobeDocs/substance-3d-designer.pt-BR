@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Validação metálica de PBR BaseColor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-basecolor-metallic-validate.png){width="128px"}
+![](pbr-basecolor-metallic-validate.resources/pbr-basecolor-metallic-validate-01.png){width="128px"}
 
-## PBR BaseColor / Validação metálica
-
-**Entrada:** *Filtros de Material/Utilitários PBR*
-
-**Simples**
+<b>Entrada:</b> Filtros Materiais > Utilitários PBR
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -43,19 +39,17 @@ Um nó de utilitário que gera um “Heatmap” de boa a ruim no qual os valores
 
 Não use essa ferramenta como uma ferramenta completa, mas sempre tenha certeza de que sabe muito bem por que está quebrando todas as regras que essa ferramenta possa destacar.
 
-## Parâmetros
-
-* **Modo de Validação**: *Albedo, Metal, Combinado* Define se a verificação deve ser feita apenas no Albedo, Metal ou em ambos, combinados como um modo de visão geral.
-* **Limite de Intervalo Escuro de Albedo**: *50 sRGB, 30 sRGB* Define o limite de Albedo inferior para 50 ou 30 sRGB. Pode diminuir ou aumentar a tolerância para áreas vermelhas.
-* **Intervalo de Reflexão Metálica**: *70-100% Reflexivo, 60-100% Reflexivo* Altera o intervalo Metálico para ser considerado correto. Pode diminuir ou aumentar a tolerância para áreas vermelhas.
-* **Mapa de Sobreposição**: *Falso/Verdadeiro* O modo de depuração rápida para sobrepor mapas de entrada permite um rastreamento mais rápido das áreas com problemas.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Modo de Validação</b> <i>Albedo, Metal, Combinados</i> | Define se a verificação deve ser feita somente em Albedo, Metal ou em ambos, combinados como um modo de visão geral. |
+| <b>Limite de Intervalo Escuro do Albedo</b> <i>50 sRGB, 30 sRGB</i> | Define o limite inferior de Albedos como 50 ou 30 sRGB. Pode diminuir ou aumentar a tolerância para áreas vermelhas. |
+| <b>Intervalo de refletância metálica</b> <i>70-100% Reflexivo, 60-100% Reflexivo</i> | Altera o intervalo metálico para ser considerado correto. Pode diminuir ou aumentar a tolerância para áreas vermelhas. |
+| <b>Sobrepor Mapa</b> <i>Falso/Verdadeiro</i> | O modo de depuração rápida para sobrepor mapas de entrada permite um rastreamento mais rápido das áreas com problemas. |

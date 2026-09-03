@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fixar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Ícone de pino de navegação](../../../../assets/graphatomic-pin_1.png "Ícone de pino de navegação")
+![Ícone de pino de navegação](navigation-pin.resources/navigation-pin-01.png "Ícone de pino de navegação")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -54,7 +54,7 @@ Se um atalho de teclado estiver mapeado para o item &#39;Fixar&#39; nas [Prefer�
 +++
 
 +++Menu contextual
-Na Exibição de Gráfico, pressione <b>RMB</b> em espaço vazio e selecione a opção <b>Adicionar Pino</b>.
+Na Exibição de Gráfico, pressione <b>RMB</b> em espaço vazio e selecione a opção <b>Adicionar Fixar</b>.
 
 +++
 
@@ -74,8 +74,8 @@ Na Biblioteca, selecione a categoria <b>Itens de gráfico</b> e arraste e solte 
 
 ## Pulando para pinos
 
-Em qualquer tipo de gráfico, pressionar o <b>F2</b> percorre todos os pinos desse gráfico na ordem de criação.
+Em qualquer tipo de gráfico, pressionar o <b>F2</b> percorre todos os fixares desse gráfico na ordem de criação.
 
 Os pinos serão enquadrados na viewport no nível de zoom atual.
 
-![Pinos: pulando para pinos](../../../../assets/graph-pin_jumping.gif "Pinos: pulando para pinos")
+![Pinos: pulando para pinos](navigation-pin.resources/navigation-pin-02.gif "Pinos: pulando para pinos")

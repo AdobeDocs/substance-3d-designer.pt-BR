@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Versão 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
@@ -30,49 +30,49 @@ Data de lançamento: *31 de janeiro de 2023*
 
 Ao editar o gráfico, às vezes é necessário experimentar várias possibilidades e conectar/desconectar vários nós até o momento em que você obtém o resultado desejado. Então, no final, você tem alguns nós em seu gráfico que não estão conectados a uma saída, portanto, não têm impacto no resultado final. Essa nova ferramenta permitirá que você detecte e exclua automaticamente esses nós para limpar seus gráficos antes de finalizá-los. A ferramenta de limpeza também está opcionalmente procurando em funções de parâmetros e pode ser iniciada no gráfico atual através do botão dedicado na barra de ferramentas Exibição de gráfico ou em uma seleção de gráficos da exibição do Explorer.
 
-![](../../assets/final-clean.gif){width="640px"}
+![](version-12-4.resources/version-12-4-01.gif){width="640px"}
 
 ### Digite fórmulas nos campos de parâmetros
 
-Não é mais necessário usar uma calculadora ou calcular na cabeça quando você deseja inserir valores de parâmetro específicos. Agora você pode inserir fórmulas básicas diretamente, como adições, divisões, multiplicações ou subtrações, ao definir um valor numérico para um parâmetro nas [Propriedades](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) e em outros locais do aplicativo.
+Não é mais necessário usar uma calculadora ou calcular na cabeça quando você deseja inserir valores de parâmetro específicos. Agora, você pode inserir fórmulas básicas diretamente, como adições, divisões, multiplicações ou subtrações, ao definir um valor numérico para um parâmetro nas Propriedades e em outros locais no aplicativo.
 
-![](../../assets/final-formula.gif){width="640px"}
+![](version-12-4.resources/version-12-4-02.gif){width="640px"}
 
 ### Botões de acesso rápido na Visualização 3D
 
 Adicionamos uma barra de ferramentas adicional no [modo de exibição 3D](../../interface/3d-view/3d-view.md) correspondente a todas as opções disponíveis no menu [Exibição](../../interface/3d-view/3d-view.md), para acesso rápido a todas essas opções (por exemplo, Wireframe, Grade, Caixa Delimitadora etc.) à medida que o botão é alternado. Também adicionamos um alternador para mostrar/ocultar o mapa de ambiente.
 
-![](../../assets/final-3dview.gif){width="640px"}
+![](version-12-4.resources/version-12-4-03.gif){width="640px"}
 
 ### Botão para gerar uma Distribuição Aleatória
 
 Agora você pode criar variações diferentes rapidamente usando um novo botão para gerar a semente aleatória para o seu gráfico, em vez de mover um controle deslizante.
 
-![](../../assets/final-seed.gif){width="640px"}
+![](version-12-4.resources/version-12-4-04.gif){width="640px"}
 
 ### Bloquear para o widget Tamanho de saída
 
 Agora você pode bloquear a largura e o height do Tamanho de saída para manter um tamanho quadrado e evitar a manipulação dos dois valores sempre que desejar atualizá-los.
 
-![](../../assets/final-lock.gif){width="640px"}
+![](version-12-4.resources/version-12-4-05.gif){width="640px"}
 
 ### Transformar a entrada da imagem em Cor/Escala de cinza
 
 Alterne rapidamente entre uma [Cor de Entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) e uma [Escala de Cinza de Entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) pelo menu contextual do nó.
 
-![](../../assets/final-switch.gif){width="640px"}
+![](version-12-4.resources/version-12-4-06.gif){width="640px"}
 
 ### Selecione o pino clicado ao exibir o Editor de gradiente
 
 No painel de propriedades, ao clicar em um pino para editar um gradiente, agora você selecionará automaticamente o pino correspondente no [Editor de gradiente](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) exibido.
 
-![](../../assets/final-gradient.gif){width="640px"}
+![](version-12-4.resources/version-12-4-07.gif){width="640px"}
 
 ### Selecionar nós à frente
 
 Nova entrada no [menu contextual de nó](../../interface/the-graph-view/the-graph-view.md) para selecionar todos os nós conectados à saída do(s) nó(s) selecionado(s), direta ou indiretamente. Assim, você seleciona todos os nós afetados pelo nó. Útil para excluir parte do seu gráfico ou para trabalhar novamente o layout do gráfico.
 
-![](../../assets/final-downstream.gif){width="640px"}
+![](version-12-4.resources/version-12-4-08.gif){width="640px"}
 
 ## Atualizações da API Python
 

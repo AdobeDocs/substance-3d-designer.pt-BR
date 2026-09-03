@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Enviar para...  Interoperabilidade
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 # Enviar para...  Interoperabilidade
 
-![Enviar do Designer para aplicativos da Substance 3D](../../../assets/explorer-interop.png "Enviar do Designer para aplicativos da Substance 3D"){width="512px"}
+![Enviar do Designer para aplicativos da Substance 3D](send-to-interoperability.resources/send-to-interoperability-01.png "Enviar do Designer para aplicativos da Substance 3D"){width="512px"}
 
-O Adobe Substance 3D Designer tem interoperabilidade com o [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html), o [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) e o [Substance 3D Stager](https://www.adobe.com/br/products/substance3d-stager.html). Isso permite *enviar* e *reenviar* seu trabalho rapidamente, facilitando a iteração no ecossistema do Substance 3D.
+O Adobe Substance 3D Designer tem interoperabilidade com o [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html), o [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) e o [Substance 3D Stager](https://www.adobe.com/br/products/substance3d-stager.html). Isso permite *enviar* e *reenviar* seu trabalho rapidamente, facilitando a iteração pelo ecossistema do Substance 3D.
 
 O fluxo de trabalho geralmente é o seguinte:
 
 1. Definir o atributo <b>Type</b> nas propriedades de um gráfico [Substance](../../../compositing-graphs/graph-parameters/graph-parameters.md)
-1. No painel [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), selecione o pacote que deseja enviar
+1. No painel [Explorer](../the-explorer-window.md), selecione o pacote que deseja enviar
 1. Na lista suspensa <b>Publish/Send</b> do Explorer, selecione o aplicativo de destino
 1. Fazer alterações no(s) gráfico(s)
 1. Repita a etapa 3 para reenviar o pacote e atualizar o ativo enviado existente com suas alterações
@@ -49,7 +49,7 @@ Na seção <b>Atributos </b>de propriedades de um gráfico [Substance](../../../
 </td>
 <td style="border: 0;" valign="top">
 
-Atributo Type do gráfico ![Substance](../../../assets/type-attribute.jpg "atributo Type do gráfico Substance")
+Atributo Type do gráfico ![Substance](send-to-interoperability.resources/send-to-interoperability-02.jpg "atributo Type do gráfico Substance")
 
 </td>
 </tr>
@@ -75,13 +75,13 @@ O processo de envio envolveu a [publicação](../../../compositing-graphs/publis
 
 O envio de conteúdo pode ser executado das seguintes maneiras:
 
-* Clique com o botão direito em um pacote e abra o <b>Enviar para...submenu </b> no menu contextual, em seguida, escolha o <b>Enviar para...Opção </b> para o aplicativo de destino;
-* Clique no botão ![](../../../assets/sendto-icon.jpg) <b>Publish/Send</b> na parte superior do painel [Explorer](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) e escolha <b>Enviar para...Opção </b> para o aplicativo de destino.
+* Clique com o botão direito do mouse em um pacote e abra o submenu <b>Enviar para...</b> no menu contextual. Em seguida, escolha a opção <b>Enviar para...</b> para o aplicativo de destino;
+* Clique no botão ![](send-to-interoperability.resources/send-to-interoperability-03.jpg) <b>Publish/Send</b> na parte superior do painel do Explorer e escolha a opção <b>Enviar para...</b> para o aplicativo de destino.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu Publish/Enviar para no Explorer](../../../assets/explorer-sendto-displayed.jpg "Menu Publish/Enviar para no Explorer")
+![Menu Publish/Enviar para no Explorer](send-to-interoperability.resources/send-to-interoperability-04.jpg "Menu Publish/Enviar para no Explorer")
 
 </td>
 </tr>

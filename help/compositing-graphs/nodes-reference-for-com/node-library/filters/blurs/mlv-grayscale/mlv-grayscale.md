@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Escala de cinza MLV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 0%
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Escala de cinza MLV: ícone](../../../../../../assets/MLV_Grayscale_Icon.png "Escala de cinza MLV: ícone")
+![Escala de cinza MLV: ícone](mlv-grayscale.resources/mlv-grayscale-01.png "Escala de cinza MLV: ícone")
 
 <b>Entrada:</b> Filtros > Desfoques
 
@@ -45,42 +45,44 @@ O filtro localiza áreas estruturantes em uma imagem e as usa para aumentar a ni
 >
 > Veja também [Cor do MLV](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/mlv-color/mlv-color.md).
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Entrada </b>*Tons de Cinza* A imagem em tons de cinza que deve ser processada.
+## Entradas
 
-## Conectores de saída
+|  |  |
+|:---|:---|
+| <b>Entrada</b> <i>Tons de cinza</i> | A imagem em tons de cinza que deve ser processada. |
 
-<b>Saída </b>*Em Tons de Cinza* A imagem em tons de cinza filtrada.
+<a name="outputs"></a>
+
+## Saídas
+
+|  |  |
+|:---|:---|
+| <b>Saída</b> <i>Tons de cinza</i> | A imagem em tons de cinza filtrada. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Intensidade</b> *Flutuante* A intensidade do filtro aplicado à imagem.\
-Valores mais altos resultam em mais suavização de detalhes e ruído em áreas mais planas.
-
-<b>Smoothness</b> *Flutuação* A intensidade da suavização aplicada às áreas de estruturação, que resulta em áreas mais redondas e diminui o efeito de revisão que pode ocorrer em intensidades de filtragem mais altas.
-
-<b>Critério</b> *Inteiro* O critério usado para selecionar os valores que definirão as áreas de estruturação na imagem.\
-Em outras palavras, como os pixels devem ser *agrupados* em áreas que devem ser suavizadas.\
-*- Variância:* Selecione valores com a menor dispersão em torno da média, o que resulta em clusters de pixels semelhantes uns aos outros\
-*- Coeficiente de variação:* Selecione valores levando em consideração a média, o que resulta em menos variação inversamente nas áreas mais brilhantes
-
-<b>Gaussiano</b> *Booleano* Use uma distribuição Gaussiana para agrupar pixels em áreas de estruturação.\
-Quando &#39;Verdadeiro&#39;, isso resulta em áreas mais suaves e um efeito de nivelamento reduzido.
-
-<b>Iterações</b> *Inteiro* O número de vezes que o filtro é executado, onde cada iteração é aplicada ao resultado da anterior.\
-Mais iterações resultam em áreas de estruturação mais planas e nítidas.
+|  |  |
+|:---|:---|
+| <b>Intensidade</b> *Flutuante* | A intensidade da filtragem aplicada à imagem.<br><br>Valores mais altos resultam em mais suavização de detalhes e ruído em áreas mais planas. |
+| <b>Smoothness</b> *Flutuante* | A intensidade do alisamento aplicado nas áreas de estruturação, que resulta em áreas mais redondas e diminui o efeito de passo, que pode ocorrer em intensidades de filtragem mais altas. |
+| <b>Critério</b> *Inteiro* | O critério usado para selecionar os valores que definirão as áreas de estruturação na imagem.<br><br>Em outras palavras, como os pixels devem ser *agrupados* em áreas que devem ser suavizadas.<br><br>*- Variação:* selecione valores com a menor dispersão ao redor da média, o que resulta em clusters de pixels semelhantes uns aos outros <br>*- Coeficiente de variação:* selecione valores considerando a média, o que resulta em menos variação de áreas mais brilhantes de forma inversa |
+| <b>Gaussiano</b> *Booleano* | Use uma distribuição Gaussiana para agrupar pixels em áreas de estruturação.<br><br>Quando &#39;Verdadeiro&#39;, isso resulta em áreas mais suaves e um efeito de nivelamento reduzido. |
+| <b>Iterações</b> *Inteiro* | O número de vezes que o filtro é executado, onde cada iteração é aplicada no resultado da anterior.<br><br>Mais iterações resultam em áreas de estruturação mais planas e nítidas. |
 
 ## Exemplos
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1A.png" alt="MLV_Variant1A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-02.png" alt="MLV_Variant1A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1B.png" alt="MLV_Variant1B">
+      <img src="mlv-grayscale.resources/mlv-grayscale-03.png" alt="MLV_Variant1B">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -89,11 +91,11 @@ Mais iterações resultam em áreas de estruturação mais planas e nítidas.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-04.png" alt="MLV_Variant2A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2B.png" alt="MLV_Variant2B">
+      <img src="mlv-grayscale.resources/mlv-grayscale-05.png" alt="MLV_Variant2B">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -102,11 +104,11 @@ Mais iterações resultam em áreas de estruturação mais planas e nítidas.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-04.png" alt="MLV_Variant2A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2C.png" alt="MLV_Variant2C">
+      <img src="mlv-grayscale.resources/mlv-grayscale-06.png" alt="MLV_Variant2C">
       <br><i>Depois</i>
     </td>
   </tr>

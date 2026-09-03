@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Desgaste Leaky Paint
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleakypaint.jpg){width="200px"}
+![](grunge-leaky-paint.resources/grunge-leaky-paint-01.jpg){width="200px"}
 
-**Entrada:** *Geradores De Textura* */Ruídos*
-
-**Simples**
+<b>Entrada:</b> geradores de textura > Ruídos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,31 +39,31 @@ O nó **Pintura de Desgaste Vazado** gera um mapa de desgaste semelhante ao gote
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parâmetros
 
-* **Equilíbrio** *Flutuante* Ajusta o equilíbrio entre valores escuros e brilhantes.
-* **Contraste** *Flutuar* Ajusta o contraste da imagem.
-* **Inverter** *Booleano* Inverte a saída da imagem usando uma operação `1-x`.
-* **Expansão não quadrada** *Booleano* Habilita a compensação de squash e alongamento com proporções não quadradas.
-* Avançado
-  * **Intensidade de vazamento** *Flutuante* Ajusta a densidade e a intensidade das gotas.
-  * **Escala de vazamento** *Inteiro* Ajusta a escala da separação de gotas.
-  * **Ângulo de fuga Aleatório** *Flutuante* Ajusta o *ângulo máximo* para o qual gotas podem ser giradas aleatoriamente, em *número de voltas*.
-  * **Vazamento de nitidez** *Flutuar* Ajusta a nitidez e a nitidez das gotas.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
+| <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
+| <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+| <b>Avançado</b> |  |
+| <b>Intensidade de Vazamento</b> <i>Flutuante</i> | Ajusta a densidade e a intensidade dos pingos. |
+| <b>Escala de vazamento</b> <i>Inteiro</i> | Ajusta a escala da separação de gotas. |
+| <b>Ângulo de Vazamento Aleatório</b> <i>Flutuante</i> | Ajusta o *ângulo máximo* de gotas que podem ser girados aleatoriamente, em *número de voltas*. |
+| <b>Vazamento de crocância</b> <i>Flutuante</i> | Ajusta a nitidez e a nitidez dos pingos. |
 
-## Imagens de exemplo
+## Exemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleakypaint-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleakypaint-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-03.jpg" />
+        </td>
+    </tr>
 </table>

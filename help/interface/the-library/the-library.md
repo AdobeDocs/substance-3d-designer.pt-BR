@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Biblioteca
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8cb5aa2a7e1cd668f00808b3cd0e15063990fb8b
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Esta página apresenta o painel da **Biblioteca** do Substance 3D Designer, seu layout e as ferramentas que ele oferece para pesquisa e filtragem de conteúdo.
 
-![Biblioteca](../../assets/library-main.png "Biblioteca")
+![Biblioteca](the-library.resources/the-library-01.png "Biblioteca")
 
 ## Visão geral
 
@@ -82,7 +82,7 @@ O conteúdo da <b>Biblioteca</b> é exibido como *miniaturas rotuladas*. Essas m
 
 * [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) em arquivos [SBS](../../getting-started/overview/overview.md) e [SBSAR](../../getting-started/overview/overview.md) são representados por sua *primeira saída* ou por seu *ícone personalizado* se algum tiver sido definido pelo autor do gráfico
 * [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md) e [gráficos vetoriais (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) são representados por uma *renderização em miniatura* do próprio bitmap
-* [Malhas 3D](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [Gráficos de função](../../function-graphs/the-function-graph/the-function-graph.md), [fontes](../../resources/font-resource/font-resource.md) e arquivos [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) são representados por *ícones genéricos* para cada tipo
+* [Cenas 3D](../../resources/3d-scene-resource/3d-scene-resource.md), [Gráficos de função](../../function-graphs/the-function-graph/the-function-graph.md), [fontes](../../resources/font-resource/font-resource.md) e arquivos [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) são representados por *ícones genéricos* para cada tipo
 
 >[!WARNING]
 >
@@ -103,7 +103,7 @@ Você pode selecionar *vários* itens na seção <b>Conteúdo</b> mantendo a tec
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Descartando um nó da Biblioteca](../../assets/library-create-node.gif "Descartando um nó da Biblioteca")
+![Descartando um nó da Biblioteca](the-library.resources/the-library-02.gif "Descartando um nó da Biblioteca")
 
 </td>
 </tr>
@@ -112,14 +112,14 @@ Você pode selecionar *vários* itens na seção <b>Conteúdo</b> mantendo a tec
 ### Pesquisar um ativo por nome
 
 A barra <b>Pesquisar</b>, localizada na parte superior esquerda da seção <b>Conteúdo</b>, permite pesquisar *qualquer ativo por nome*. Ao procurar conteúdo dessa maneira, a seleção atual na seção <b>Categorias</b> é ignorada e o *conteúdo inteiro* da <b>Biblioteca</b> é pesquisado.\
-Você pode filtrar os resultados da pesquisa por *tipo de gráfico*, usando o ícone ![](../../assets/library-icon-search-filter.png) <b>Filtrar por...</b> ao lado da barra <b>Pesquisa</b>.
+Você pode filtrar os resultados da pesquisa por *tipo de gráfico*, usando o ícone ![](the-library.resources/the-library-03.png) <b>Filtrar por...</b> ao lado da barra <b>Pesquisa</b>.
 
 >[!NOTE]
 >
 > A barra de pesquisa levará em consideração o nome do ativo que você está procurando, mas também as *marcas* que o ativo pode conter ou a *categoria* à qual ele pertence.\
 > Por exemplo, digitar &#39;*Normal*&#39; listará todos os ativos que podem ser usados para gerar ou modificar um mapa normal. Esta é uma boa maneira de descobrir novos nós e, portanto, novas possibilidades!
 
-![Pesquisa de ativos na Biblioteca](../../assets/library-search-2.png "Pesquisa de ativos na Biblioteca")
+![Pesquisa de ativos na Biblioteca](the-library.resources/the-library-04.png "Pesquisa de ativos na Biblioteca")
 
 <table>
 <tr style="border: 0;">
@@ -127,12 +127,12 @@ Você pode filtrar os resultados da pesquisa por *tipo de gráfico*, usando o í
 
 ### Visualização de ativos da biblioteca
 
-Usando o botão suspenso ![](../../assets/library-icon-view-mode.png) <b>Modo de Exibição</b>, você pode selecionar o tamanho de exibição para itens de conteúdo.
+Usando o botão suspenso ![](the-library.resources/the-library-05.png) <b>Modo de Exibição</b>, você pode selecionar o tamanho de exibição para itens de conteúdo.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Modo de exibição de ativos da biblioteca](../../assets/library-display-modes.png "Modo de exibição de ativos da biblioteca")
+![Modo de exibição de ativos da biblioteca](the-library.resources/the-library-06.png "Modo de exibição de ativos da biblioteca")
 
 </td>
 </tr>
@@ -142,12 +142,12 @@ Usando o botão suspenso ![](../../assets/library-icon-view-mode.png) <b>Modo de
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-O botão ![](../../assets/library-icon-toggle-label.png) **Alternar Rótulos** permite exibir ou ocultar os rótulos dos nós.
+O botão ![](the-library.resources/the-library-07.png) **Alternar Rótulos** permite exibir ou ocultar os rótulos dos nós.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Alternar rótulo](../../assets/library-toggle-label.png "Alternar rótulo")
+![Alternar rótulo](the-library.resources/the-library-08.png "Alternar rótulo")
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ Ao colocar o cursor em um item de conteúdo, uma dica de ferramenta aparecerá a
 </td>
 <td style="border: 0;" valign="top">
 
-![Dica de ferramenta de informações do ativo](../../assets/library-item-tooltip.png "Dica de ferramenta de informações do ativo")
+![Dica de ferramenta de informações do ativo](the-library.resources/the-library-09.png "Dica de ferramenta de informações do ativo")
 
 </td>
 </tr>
@@ -180,13 +180,13 @@ Ao colocar o cursor em um item de conteúdo, uma dica de ferramenta aparecerá a
 
 ### Favoritos
 
-Você pode adicionar qualquer item da seção <b>Conteúdo</b> à lista <b>Favoritos</b> usando o botão ![](../../assets/library-icon-favoritepng.png) <b>Adicionar a Favoritos</b>. O botão também permite *remover* conteúdo desta lista se já estiver adicionado.\
+Você pode adicionar qualquer item da seção <b>Conteúdo</b> à lista <b>Favoritos</b> usando o botão ![](the-library.resources/the-library-10.png) <b>Adicionar a Favoritos</b>. O botão também permite *remover* conteúdo desta lista se já estiver adicionado.\
 Quando o conteúdo é adicionado a esta lista, ele fica disponível na categoria <b>Favoritos</b> da <b>Biblioteca</b> e será exibido na *parte superior* da lista de menus <b>Nó</b> ao procurar um nó no gráfico, desde que os termos de pesquisa correspondam a ele.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Favoritos na Biblioteca](../../assets/library-favourites.png "Favoritos na Biblioteca")
+![Favoritos na Biblioteca](the-library.resources/the-library-11.png "Favoritos na Biblioteca")
 
 </td>
 </tr>

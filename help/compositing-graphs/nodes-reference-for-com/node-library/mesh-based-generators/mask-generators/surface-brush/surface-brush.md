@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pincel de superfície
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/surface-brush.png){width="128px"}
+![](surface-brush.resources/surface-brush-01.png){width="128px"}
 
-## Pincel de superfície
-
-**Entrada:** *Geradores Baseados Em Malha**/Geradores De Máscara*
-
-**Intermediário**
+<b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,35 +37,42 @@ Gera uma máscara em preto e branco com base em mapas baked e configurações do
 
 Essa máscara representa um efeito interessante do pincel de metal em uma superfície de objeto, ocultado pela geometria de objetos e pelo AO.
 
-## Parâmetros
-
-### Entradas
-
-* **Espaço Mundial Normal**: *Entrada de Cores*
-* **Curvatura**: *Entrada em tons de cinza*\
-  Mapa baked usado para efeitos internos e mascaramento.
-* **Oclusão De Ambiente**: *Entrada Em Tons De Cinza*\
-  Mapa baked usado para efeitos internos e mascaramento.
-* **Posição**: *Entrada em Tons de Cinza*
-* **Máscara (opcional)**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Nível**: *0.0 - 1.0*\
-  Define o nível de efeito global, revelando gradualmente.
-* **Contraste**: *0.0 - 1.0*\
-  Ajusta o contraste do resultado.
-* **Scratches Comprimento**: *0.0 - 8.0* Define o comprimento dos arranhões. Valores menores são mais como pontos, valores maiores são listras longas.
-* **Ocultar eixo**: *X, Y, Z, nenhum* Eixo do objeto que deve receber riscos. Não altera a direção dos arranhões.
-* **Intensidade do Eixo de Oclusão**: *0.0 - 1.0* Intensidade do efeito de oclusão do eixo.
-* **Oclusão**: *0.0 - 1.0* Força do AO ao ocluir riscos.
-* **Intensidade de nitidez**: *0.0 - 1.0* Defina a quantidade de pós-nitidez a ser aplicada aos arranhões.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/surface-brush-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Espaço Mundial Normal</b> <i>Entrada de cores</i> |  |
+| <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para efeitos internos e mascaramento. |
+| <b>Oclusão de ambiente</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para efeitos internos e mascaramento. |
+| <b>Posição</b> <i>Entrada em tons de cinza</i> |  |
+| <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Nível</b> <i>0.0 - 1.0</i> | Define o nível de efeito global, revelando gradualmente. |
+| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta o contraste do resultado. |
+| <b>Scratches Comprimento</b> <i>0.0 - 8.0</i> | Define o comprimento dos arranhões. Valores menores são mais como pontos, valores maiores são listras longas. |
+| <b>Ocultar Eixo</b> <i>X, Y, Z, nenhum</i> | Eixo do objeto que deve receber arranhões. Não altera a direção dos arranhões. |
+| <b>Ocultar Intensidade do Eixo</b> <i>0.0 - 1.0</i> | Intensidade do efeito de oclusão do eixo. |
+| <b>Oclusão</b> <i>0.0 - 1.0</i> | Força do AO ao ocultar arranhões. |
+| <b>Intensidade de nitidez</b> <i>0.0 - 1.0</i> | Defina a quantidade de pós-nitidez a ser aplicada aos arranhões. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="surface-brush.resources/surface-brush-02.gif" />
+        </td>
+    </tr>
 </table>

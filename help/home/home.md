@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Guia do usuário do Substance 3D Designer
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 61535e3f89e10931c220096577e76abb9799d8df
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -20,9 +20,9 @@ ht-degree: 89%
 
 # Guia do usuário do Substance 3D Designer
 
-![Janela principal do Substance 3D Designer](../assets/sdsummerinterface.jpg "janela principal do Substance 3D Designer")
+![Janela principal do Substance 3D Designer](home.resources/home-01.jpg "janela principal do Substance 3D Designer")
 
-O [Substance 3D Designer](https://www.adobe.com/br/products/substance3d-designer.html) é um software de criação de materiais. Ele permite usar um gráfico de nós para gerar texturas de padrões de procedimentos e ruídos, bem como manipular bitmaps.
+O [Substance 3D Designer](https://www.adobe.com/br/products/substance3d-designer.html) é um software de criação de materiais. Ele permite que você use um gráfico de nós para gerar texturas a partir de padrões e ruídos processuais, bem como manipular bitmaps.
 
 Uma palavra ou conceito usado no Designer não é familiar para você? Consulte nosso [Glossário](../glossary/glossary.md) para saber mais informações.
 
@@ -49,8 +49,8 @@ Se você tiver alguma dúvida que não tenha sido respondida neste manual, fique
 * [Página inicial](../interface/home-screen/home-screen.md) – A página inicial lhe dá as boas-vindas quando você inicia o Substance 3D Designer. Ela está aqui para ajudar você a começar a trabalhar com o software e acessar os links mais úteis.
 * [Personalização do espaço de trabalho](../interface/customizing-your-wor/customizing-your-workspace.md) – Esta página apresenta as maneiras de organizar os painéis na interface de usuário https://www.adobe.com/products/br/substance3d-designer.html do Adobe Substance 3D Designer e de aproveitar seus recursos para aprimorar seus fluxos de trabalho.
 * [Barra de ferramentas principal](../interface/the-main-toolbar/the-main-toolbar.md) – Esta página descreve a barra de ferramentas principal e o menu do Adobe Substance 3D Designer, que aparecem no canto superior esquerdo da janela principal.
-* [Preferências](../interface/preferences-window/preferences-window.md) – Esta página apresenta a janela Preferências e todas as suas configurações.
-* [Explorer](../interface/the-explorer-window/the-explorer-window.md) – Esta página descreve o dock do Explorer no Adobe Substance 3D Designer. Esse dock permite gerenciar pacotes e seus recursos.
+* [Preferências](../interface/preferences-window/preferences-window.md) – Esta página apresenta a janela Preferências e todas as suas configurações.
+* [Explorer](../interface/the-explorer-window/the-explorer-window.md) – Esta página descreve o dock do Explorer no Adobe Substance 3D Designer. Esse dock permite gerenciar pacotes e seus recursos.
 * [Visualização do gráfico](../interface/the-graph-view/the-graph-view.md) – Esta página apresenta a visualização de gráficos do Substance 3D Designer.
 * [Biblioteca](../interface/the-library/the-library.md) – Esta página apresenta o painel Biblioteca do Substance 3D Designer, seu layout e as ferramentas que ele oferece para pesquisa e filtragem de conteúdo.
 * [Propriedades](../interface/properties/properties.md) – Esta página apresenta o painel Propriedades do Substance 3D Designer, seu layout e as diferentes implantações, categorias e parâmetros que você pode encontrar nele. Ela se concentra nas propriedades dos gráficos do Substance. Os gráficos de função Substance e os gráficos FX-Map têm layouts mais simples.

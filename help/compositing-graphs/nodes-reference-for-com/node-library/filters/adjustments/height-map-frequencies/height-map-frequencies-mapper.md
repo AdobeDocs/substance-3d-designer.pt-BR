@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mapeador de Frequências do Mapa de heights
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 3%
+source-wordcount: '60'
+ht-degree: 8%
 
 ---
 
@@ -22,33 +22,37 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-map-frequencies-mapper.png){width="128px"}
+![](height-map-frequencies-mapper.resources/height-map-frequencies-mapper-01.png){width="128px"}
 
-## Mapeador de Frequências do Mapa de heights
-
-**Entrada:** *Filtros/Ajustes*
-
-**Simples**
+<b>Entrada:</b> Filtros > Ajustes
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Separa as frequências de um mapa de altura em dois mapas separados: um com diferenças de grande escala e outro com diferenças de pequena escala.
 
-## Parâmetros
-
-* **Relevo**: *0.0 - 32.0* Controla o tamanho dos detalhes da saída do Deslocamento.
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/heightmap-frequencies.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Relevo</b> <i>0.0 - 32.0</i> | Controla o tamanho dos detalhes da saída do Deslocamento. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="height-map-frequencies-mapper.resources/height-map-frequencies-mapper-02.png" />
+        </td>
+    </tr>
 </table>

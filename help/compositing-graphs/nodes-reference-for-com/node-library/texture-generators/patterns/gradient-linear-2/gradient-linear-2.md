@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Gradiente linear 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 2%
+source-wordcount: '92'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-linear-2.png){width="128px"}
+![](gradient-linear-2.resources/gradient-linear-2-01.png){width="128px"}
 
-## Gradiente linear 2
-
-**Entrada:** *Geradores De Textura**/Padrões*
-
-**Simples**
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,16 +37,25 @@ Gradiente simples e suave de dupla face. Fornece um gradiente preto-branco-preto
 
 Apesar de sua simplicidade, é muito útil e pode servir a muitos propósitos. Experimente com uma [Verificação de histograma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), por exemplo!
 
-## Parâmetros
-
-* **Divisão em blocos gráficos**: *1 - 16*\
-  Define a quantidade de vezes que o resultado deve ser colocado lado a lado.
-* **Rotação**: **0, 90°** Altera a direção da esquerda para a direita para cima e para baixo ou vice-versa.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/gradient-linear-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Divisão em blocos gráficos</b> <i>1 - 16</i> | Define a quantidade de vezes que o resultado deve ser colocado lado a lado. |
+| <b>Rotação</b> <i>0, 90°</i> | Altera a direção da esquerda para a direita para a parte superior ou vice-versa. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gradient-linear-2.resources/gradient-linear-2-02.gif" />
+        </td>
+    </tr>
 </table>

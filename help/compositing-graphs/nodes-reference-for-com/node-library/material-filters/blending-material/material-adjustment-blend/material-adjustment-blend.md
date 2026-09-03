@@ -1,39 +1,35 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
 breadcrumb-title: ''
-description: Use o nó Mesclagem de ajuste de material para mesclar ajustes de material entre materiais a fim de ajustar os efeitos compostos.
+description: Use o nó Combinar de ajuste de material para mesclar ajustes de material entre materiais para ajustar os efeitos compostos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Adjustment Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Mesclagem de ajuste de material
+title: Combinar de ajuste de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 1%
+source-wordcount: '373'
+ht-degree: 2%
 
 ---
 
 
-# Mesclagem de ajuste de material
+# Combinar de ajuste de material
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-adjustment-blend.png){width="128px"}
+![](material-adjustment-blend.resources/material-adjustment-blend-01.png){width="128px"}
 
-## Mesclagem de ajuste de material
-
-**Entrada:** *Filtros/Mesclagem de Material*
-
-**Intermediário**
+<b>Em:</b> Filtros Materiais > Mesclagem
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,55 +37,40 @@ Este nó permite o ajuste de todos e quaisquer canais de um material completo, c
 
 É útil quando você deseja ajustar alguns canais de um material (como tornar difuso mais claro e aspereza mais escuro) com base na mesma máscara.
 
-## Parâmetros
-
-### Entradas
-
-* **Máscara de identificação de cores**: *Entrada de cores*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-* **Máscara em tons de cinza**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Canais**\
-  Ativa e desativa os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza.\
-  Isso também ativa e desativa a aparência dos grupos relevantes do canal.
-* **Difusa**\
-  Executa operações de ajuste no canal Difuso, em áreas definidas pela máscara.
-* **Cor base**\
-  Executa operações de ajuste no canal Cor base, em áreas definidas pela máscara.
-* **Normal**
-  * **Intensidade**: *0.0 - 1,0* Reduz a Intensidade Normal
-* **Specular**\
-  Executa operações de ajuste no canal de Specular, em áreas definidas pela máscara.
-* **Emissivo**\
-  Executa operações de ajuste no canal Emissivo, em áreas definidas pela máscara.
-* **Textura reluzente**\
-  Executa operações de ajuste no canal de Textura reluzente, em áreas definidas pela máscara.
-* **Aspereza**\
-  Executa operações de ajuste no canal de Aspereza, em áreas definidas pela máscara.
-* **Metálico**\
-  Executa operações de ajuste no canal Metálico, em áreas definidas pela máscara.
-* **Specular level**\
-  Executa operações de ajuste no canal do Specular level, em áreas definidas pela máscara.
-* **Oclusão de ambiente**\
-  Executa operações de ajuste no canal Oclusão ambiente, em áreas definidas pela máscara.
-* **Height**\
-  Executa operações de ajuste no canal do Height, em áreas definidas pela máscara.
-* **Opacidade**\
-  Executa operações de ajuste no canal Opacidade, em áreas definidas pela máscara.
-* **Máscara de identificação de cores**: *Falso/Verdadeiro* Defina para usar Máscara de identificação de cores em vez de máscara em tons de cinza.
-* **Grau de seleção**: *0.01 - 1.0* Se a Máscara de identificação de cores estiver habilitada, ela determinará a propagação da cor de seleção da ID de Cor.
-* **Cor**: *(valor da cor)*Define a cor a ser escolhida no mapa de ID de cor e na máscara.
-* **Preenchimento**: *0.0 - 1.0* Determina o contraste/transições de mesclagem do mascaramento de ID de cor.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Máscara de identificação de cores</b> <i>Entrada de cores</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+| <b>Máscara em tons de cinza</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Canais</b> | Ativa e desativa os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza.<br><br>Isso também ativa e desativa a aparência dos grupos relevantes do canal. |
+| <b>Difusa</b> | Executa operações de ajuste no canal da Difusão, em áreas definidas pela máscara. |
+| <b>Cor base</b> | Executa operações de ajuste no canal de Cor de base, em áreas definidas pela máscara. |
+| <b>Normal</b> |  |
+| <b>Intensidade</b> <i>0.0 - 1.0</i> | Reduz a intensidade normal |
+| <b>Specular</b> | Executa operações de ajuste no canal de Specular, em áreas definidas pela máscara. |
+| <b>Emissivo</b> | Executa operações de ajuste no canal Emissivo, em áreas definidas pela máscara. |
+| <b>Textura reluzente</b> | Executa operações de ajuste no canal de Textura reluzente, em áreas definidas pela máscara. |
+| <b>Aspereza</b> | Executa operações de ajuste no canal de Aspereza, em áreas definidas pela máscara. |
+| <b>Metálico</b> | Executa operações de ajuste no canal Metálico, em áreas definidas pela máscara. |
+| <b>Specular level</b> | Executa operações de ajuste no canal do Specular level, em áreas definidas pela máscara. |
+| <b>Oclusão de ambiente</b> | Executa operações de ajuste no canal de Oclusão de ambiente, em áreas definidas pela máscara. |
+| <b>Height</b> | Executa operações de ajuste no canal do Height, em áreas definidas pela máscara. |
+| <b>Opacidade</b> | Executa operações de ajuste no canal Opacidade, em áreas definidas pela máscara. |
+| <b>Máscara de identificação de cores</b> <i>Falso/Verdadeiro</i> | Defina para usar Máscara de identificação de cores em vez de máscara em tons de cinza. |
+| <b>Grau de seleção</b> <i>0.01 - 1.0</i> | Se a Máscara de identificação de cores estiver ativada, isso determina a propagação da cor de seleção da ID de cor. |
+| <b>Cor</b> <i>(Valor da cor)</i> | Define a cor a ser escolhida no mapa de ID de cor e na máscara. |
+| <b>Preenchimento</b> <i>0.0 - 1.0</i> | Determina o contraste/transições de mesclagem do mascaramento de ID de cor. |

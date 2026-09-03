@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Nadir extract
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 2%
+source-wordcount: '86'
+ht-degree: 6%
 
 ---
 
@@ -22,31 +22,29 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/nadir-extract.png){width="200px"}
+![](nadir-extract.resources/nadir-extract-01.png){width="200px"}
 
-## Nadir extract
-
-**Entrada:** *Exibição 3D/Ferramentas HDRI*
-
-**Simples**
+<b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Extrai o ponto central do solo (nadir) de uma imagem de entrada esférica mapeada. Pode ser usado para transferir o nadir de uma imagem para a outra, mascarando a câmera ou o tripé.
 
-## Parâmetros
-
-* **Escala**: *0.0 - 10.0*\
-  Defina o “nível de zoom” para o ponto do solo
-* **Rotação**: *0.0 - 1.0*\
-  Gira em torno do eixo central.
-* **Gama de Saída**: *sRGB, Linear* Gama de Saída.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Escala</b> <i>0.0 - 10.0</i> | Defina o “nível de zoom” para o ponto do solo |
+| <b>Rotação</b> <i>0.0 - 1.0</i> | Gira em torno do eixo central. |
+| <b>Gama de Saída</b> <i>sRGB, Linear</i> | Gama de saída. |

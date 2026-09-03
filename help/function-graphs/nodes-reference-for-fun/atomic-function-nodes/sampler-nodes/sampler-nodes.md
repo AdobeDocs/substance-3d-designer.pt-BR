@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Amostragem
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Nós do Sampler
 
-![Nós do Sampler](../../../../assets/image2016-1-12-14-45-43.png "Nós do Sampler")
+![Nós do Sampler](sampler-nodes.resources/sampler-nodes-01.png "Nós do Sampler")
 
 Estes nós obtêm uma amostra de um valor em uma imagem de entrada nas coordenadas 2D fornecidas:
 
@@ -39,7 +39,7 @@ As posições fora deste intervalo são tratadas de acordo com o <b>Modo de ende
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Coordenadas de pixel](../../../../assets/samplercoords.png "Coordenadas de pixel")
+![Coordenadas de pixel](sampler-nodes.resources/sampler-nodes-02.png "Coordenadas de pixel")
 
 </td>
 </tr>
@@ -79,7 +79,7 @@ Executa um loop sobre o intervalo [0;1] à medida que o valor aumenta.\
 Por exemplo: 3.4 é 0.4, -1.7 é 0.3.
 
 <b>Aperte para a borda</b>\
-Limita valores fora do intervalo [0;1] para o limite mais próximo.\
+Restringe valores fora do intervalo [0;1] para o limite mais próximo.\
 Por exemplo: .3.4 é 1, -1.7 é 0.
 
 +++

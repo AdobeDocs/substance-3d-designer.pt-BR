@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: FX-Map](../../../../assets/fxmap.png "Nó atômico: FX-Map"){width="200px"}
+![Nó atômico: FX-Map](fx-map.resources/fx-map-01.png "Nó atômico: FX-Map"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -75,13 +75,13 @@ Lembre-se de que, diferentemente de outros nós, a maior parte do comportamento 
 
 |  |  |
 | --- | --- |
-| <b>Modo de cores</b> *Booleano* | Alterna entre uma imagem em tons de cinza e uma imagem colorida de saída. A cor será muito mais lenta do que a escala de cinza. |
+| <b>Modo de cores</b> *Booleano* | Alterna entre uma imagem em tons de cinza e uma imagem colorida de saída. A cor será muito mais lenta do que a escala de cinza. |
 | <b>Fundo</b> *Flutuante/Flutuante4* | Define a cor inicial do plano de fundo na qual serão compostos os resultados. |
 | <b>Região de renderização</b> *Flutuante4* | Permite definir o intervalo de pixels inicial para cada lado do FX-Map, resultando em um efeito de amplificação. |
 | <b>Região de divisão</b> *Flutuante4* | Permite que você desloque a distância de divisão em blocos gráficos do FX-Map. |
 | <b>Selecionar para fora</b> *Booleano* | Executa uma otimização por [remoção](../../../../glossary/glossary.md) de padrões que estão fora do intervalo normal. |
-| <b>Aspereza</b> *Flutuante* | Funciona como um multiplicador de profundidade e opacidade. Isso aplica uma tendência ao processo de mesclagem do FX-map. |
-| <b>Opacidade global</b> *Flutuante* | Define a opacidade global da saída do FX-map. |
+| <b>Aspereza</b> *Precisão decimal* | Funciona como um multiplicador de profundidade e opacidade. Isso aplica uma tendência ao processo de mesclagem do FX-map. |
+| <b>Opacidade global</b> *Precisão decimal* | Define a opacidade global da saída do FX-map. |
 
 ## Guia do FX-Map
 
@@ -102,4 +102,4 @@ Lembre-se de que, diferentemente de outros nós, a maior parte do comportamento 
 
 ## Exemplos
 
-![](../../../../assets/image2015-9-10-17-28-32.png)
+![](fx-map.resources/fx-map-02.png)

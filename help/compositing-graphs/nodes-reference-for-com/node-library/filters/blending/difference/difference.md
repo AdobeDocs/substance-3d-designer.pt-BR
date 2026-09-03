@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Diferença
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 6%
+source-wordcount: '99'
+ht-degree: 7%
 
 ---
 
@@ -22,41 +22,38 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/difference.png){width="128px"}
+![](difference.resources/difference-01.png){width="128px"}
 
-## Diferença
-
-**Entrada:** *Filtros/Mesclagem*
-
-**Simples**
+<b>Entrada:</b> Filtros > Mesclagem
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Executa um modo de mesclagem Diferença entre as entradas de Primeiro Plano e Plano de Fundo. Subtrai o plano de fundo do primeiro plano, retornando um resultado absoluto (nunca um valor negativo).
 
-## Parâmetros
-
-### Entradas
-
-* **Fundo**: *Entrada de Cores*
-* **Primeiro Plano**: *Entrada de Cores*
-* **Máscara**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-
-### Parâmetros
-
-* **Opacidade**: *0.0 - 1.0*\
-  Mesclar opacidade entre primeiro plano e plano de fundo.
-* **Mesclagem de Alpha**: *Falso/Verdadeiro*\
-  Alterna a mesclagem dos canais alfa Primeiro plano e Plano de fundo. Se definido como Falso, o canal alfa do primeiro plano é ignorado.
-
-## Imagens de exemplo
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Fundo</b> <i>Entrada de cores</i> |  |
+| <b>Primeiro Plano</b> <i>Entrada de cores</i> |  |
+| <b>Máscara</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Opacidade</b> <i>0.0 - 1.0</i> | Mesclar opacidade entre primeiro plano e plano de fundo. |
+| <b>Mesclagem de alfa</b> <i>Falso/Verdadeiro</i> | Alterna a mesclagem dos canais alfa Primeiro plano e Plano de fundo. Se definido como Falso, o canal alfa do primeiro plano é ignorado. |

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Todas as alterações
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e71846d2834d9c1979fe840f1cf9e321f2d4d93f
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
-source-wordcount: '31814'
+source-wordcount: '32039'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ ht-degree: 0%
 # Todas as alterações
 
 ## Versão 16
+
+### 16.0.5
+
+*(Lançado em 26 de agosto de 2026)*
+
+**Adicionado:**
+
+* [Visualização 3D] Adicionado um botão para selecionar a AOV atual
+* [Content] Perlin/Ruído gaussiano: parâmetro de escala sem pinça
+* [Conteúdo] Ocultar recursos de bitmap desnecessários da biblioteca
+<!--
+* &#91;Legal&#93; To meet generative AI transparency legal requirements, this version is updated to automatically attach Content Credentials to qualifying content created or edited with generative AI tools.  
+-->
+
+**Corrigido:**
+
+* [Visualização 3D] As alterações na visibilidade do ambiente feitas no OpenGL não são transferidas para os renderizadores Eclair
+* [Padeiros] O contexto de cozimento não foi destruído após a atualização de bolos para um recurso de bitmap UDIM excluído
+* [Padeiros] Correção de uma falha ao excluir um recurso de bitmap UDIM enquanto suas cozinhas estavam sendo atualizadas
+* [Conteúdo] respingo de forma v2: o height da forma do cilindro não está correto
+* [Content] Shape splatter v2: mapa de densidade não funciona corretamente quando o tamanho do nó excede 4096
+* [Conteúdo] respingo de forma v2: usar o SDF “Rock” atrás de um If/Else pode levar a um loop infinito
+* [Security] Correção de uma vulnerabilidade de desreferência de ponteiro NULO na análise de arquivo AXF
+* [Security] Correção de uma vulnerabilidade de desreferência de ponteiro NULO na análise de arquivo GLB
+* [Security] Correção de vulnerabilidades de gravação fora dos limites na análise de arquivos SBSAR
+* [Security] Correção de uma vulnerabilidade de corrupção de heap na análise de arquivos DDS
+* [Security] Correção de uma vulnerabilidade de corrupção de heap na análise de arquivo GLB
+* [Segurança] Correção de uma vulnerabilidade de corrupção de heap na análise de arquivos TGA
+* [Security] Correção de uma vulnerabilidade de corrupção de heap na análise de arquivo TIFF
+* [Security] Correção de uma vulnerabilidade de corrupção de pilha na análise de arquivo USDA
+* [Security] Correção de uma vulnerabilidade de corrupção de heap na análise de arquivo WEBP
+* [IU] A caixa de combinação de itens em menus de caixa de seleção persistentes abrange apenas o texto do item
+
 
 ### 16.0.4
 

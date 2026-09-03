@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Lista de mesclagem de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '354'
 ht-degree: 1%
 
 ---
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/spline-merge-list-icon.png "Ícone de nó")
+![Ícone de nó](spline-merge-list.resources/spline-merge-list-01.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -43,61 +39,39 @@ Mescla todas as linhas na lista de entrada em uma única linha.
 </tr>
 </table>
 
-## Conectores de entrada
+<a name="inputs"></a>
 
-<b>Cordas de spline</b> *Cor* As coordenadas dos pontos das splines de entrada codificadas nos canais RGBA de uma imagem colorida:\
-<b> R</b> - Posição X\
-<b> G</b> - posição Y\
-<b> B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
+## Entradas
 
-<b>Dados de Spline</b> *Cor* Dados adicionais das splines de entrada codificados nos canais RGBA de uma imagem colorida.\
-<b> R</b> - Tangentes X\
-<b> G</b> - Tangentes Y\
-<b> B</b> - Não Usado\
-<b> A</b> - Não Usado
+|  |  |
+|:---|:---|
+| <b>Cordas de spline</b> <i>Cor</i> | As coordenadas dos pontos das linhas divisórias de entrada codificadas nos canais RGBA de uma imagem colorida:<br><b>R</b> - posição X<br><b>G</b> - posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br> - Sinal: a linha divisória é fechada (negativa) ou aberta (positiva);<br> - Valor absoluto: Thickness + 1. |
+| <b>Dados de Spline</b> <i>Cor</i> | Dados adicionais das splines de entrada codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Não Usadas<br><b>A</b> - Não Usadas |
+| <b>Valor da spline</b> <i>Inteiro</i> | O número de splines de entrada. |
 
-<b>Valor da spline</b> *Inteiro* O número de splines de entrada.
+<a name="outputs"></a>
 
-## Conectores de saída
+## Saídas
 
-<b>Visualizar</b> *Tons de cinza* A visualização das splines mescladas como uma imagem em tons de cinza.
+|  |  |
+|:---|:---|
+| <b>Visualizar</b> <i>Tons de cinza</i> | A visualização das splines mescladas como uma imagem em tons de cinza. |
+| <b>Cordas de spline</b> <i>Cor</i> | As coordenadas dos pontos das splines mescladas codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Posição X<br><b>G</b> - Posição Y<br><b>B</b> - Height<br><b>A</b> - Dados empacotados:<br> - Sinal: a spline está fechada (negativa) ou aberta (positiva);<br> - Valor absoluto: Thickness + 1. |
+| <b>Dados de Spline</b> <i>Cor</i> | Dados adicionais das splines mescladas codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Não Usadas<br><b>A</b> - Não Usadas |
+| <b>Valor da spline</b> <i>Inteiro</i> | O número de splines mesclados. |
 
-<b>Cordas de spline</b> *Cor* As coordenadas dos pontos de splines mesclados codificados nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Posição X\
-    <b>G</b> - posição Y\
-    <b>B</b> - Height\
-    <b>A</b> - Dados empacotados:\
-        * Sinal: Spline é fechado (negativo) ou aberto (positivo);\
-        * Valor absoluto: Thickness + 1.
-
-<b>Dados de Spline</b> *Cor* Dados adicionais das splines mescladas codificadas nos canais RGBA de uma imagem colorida.\
-    <b>R</b> - Tangentes X\
-    <b>G</b> - Tangentes Y\
-    <b>B</b> - Não Usado\
-    <b>A</b> - Não Usado
-
-<b>Valor da spline</b> *Inteiro* O número de splines mescladas.
+<a name="parameters"></a>
 
 ## Parâmetros
 
-<b>Limite de Distância da Curva Fechada</b> *Flutuação* A distância no espaço de textura abaixo da qual duas extremidades de uma mesma spline são processadas como um único ponto fechando essa spline.\
-Isso evita sobreposições ao espalhar formas ou mapear imagens ao longo das splines.
-
-+++Visualização
-<b>Valor de Segmentos</b> *Inteiro* Ajusta o número de segmentos usados para desenhar a visualização de spline na saída da Visualização.\
-Um valor mais alto resulta em uma linha mais suave.
-
-<b>Mostrar Auxiliar de Direção</b> *Booleano* Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização.
-
-<b>Mostrar Envelope de Thickness</b> *Booleano*\
-Exibe linhas adicionais nas bordas do thickness da spline.
-
-<b>Thickness (px)</b> *Flutuante* Ajusta o thickness da visualização da spline em pixels na saída da Visualização.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Limite de Distância da Curva Fechada</b> <i>Flutuante</i> | A distância no espaço de textura abaixo da qual duas extremidades de um mesmo spline são processadas como um único ponto fechando esse spline.<br>Isso evita sobreposições ao espalhar formas ou mapear imagens ao longo das splines. |
+| <b>Visualizar</b> |  |
+| <b>Valor de Segmentos</b> <i>Inteiro</i> | Ajusta o número de segmentos usados para desenhar a visualização de spline na saída da Visualização.<br>Um valor mais alto resulta em uma linha mais suave. |
+| <b>Mostrar Auxiliar de Direção</b> <i>Booleano</i> | Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização. |
+| <b>Mostrar Envelope de Thickness</b> <i>Booleano</i> | Exibe linhas adicionais nas bordas do thickness da spline. |
+| <b>Thickness (px)</b> <i>Flutuante</i> | Ajusta o thickness da visualização da spline em pixels na saída da Visualização. |
 
 ## Exemplos
 
@@ -108,11 +82,11 @@ Exibe linhas adicionais nas bordas do thickness da spline.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMergeList-Variant2-Before.jpg" alt="SplineMergeList-Variant2-Before">
+      <img src="spline-merge-list.resources/spline-merge-list-02.jpg" alt="SplineMergeList-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMergeList-Variant2-After.jpg" alt="SplineMergeList-Variant2-After">
+      <img src="spline-merge-list.resources/spline-merge-list-03.jpg" alt="SplineMergeList-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -124,11 +98,11 @@ Exibe linhas adicionais nas bordas do thickness da spline.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMergeList-Variant1-Before.jpg" alt="SplineMergeList-Variant1-Before">
+      <img src="spline-merge-list.resources/spline-merge-list-04.jpg" alt="SplineMergeList-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMergeList-Variant1-After.jpg" alt="SplineMergeList-Variant1-After">
+      <img src="spline-merge-list.resources/spline-merge-list-05.jpg" alt="SplineMergeList-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -138,18 +112,4 @@ Exibe linhas adicionais nas bordas do thickness da spline.
 </tr>
 </table>
 
-![Demonstração de nó](../../../../../../assets/SplineMergeList-Demo.gif "Demonstração de nó")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
+![Demonstração de nó](spline-merge-list.resources/spline-merge-list-06.gif "Demonstração de nó")

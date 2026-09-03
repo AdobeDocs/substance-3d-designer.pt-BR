@@ -10,10 +10,10 @@ helpx_tags: ""
 title: CÉLULAS 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 3%
+source-wordcount: '257'
+ht-degree: 1%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Células 4 - Ícone](../../../../../../assets/cells_4.png "Células 4 - Ícone"){width="200px"}
+![Células 4 - Ícone](cells-4.resources/cells-4-01.png "Células 4 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -47,53 +43,34 @@ Veja também: [Células 1](../../../../../../compositing-graphs/nodes-reference-
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Entradas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Saídas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
+<a name="inputs"></a>
 
 ## Entradas
 
 |  |  |
-| --- | --- |
-| <b>Entrada</b> *Tons de cinza* |  |
+|:---|:---|
+| <b>Entrada</b> <i>Tons de cinza</i> |  |
+
+<a name="outputs"></a>
 
 ## Saídas
 
 |  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza* | O ruído gerado como bitmap em tons de cinza. |
+|:---|:---|
+| <b>Saída</b> <i>Tons de cinza</i> | O ruído gerado como bitmap em tons de cinza. |
+
+<a name="parameters"></a>
 
 ## Parâmetros
 
 |  |  |
-| --- | --- |
-| <b>Escala</b> Inteiro | A subdivisão da grade usada para gerar os blocos de ruído.    Um valor mais alto resulta no desenho de mais ladrilhos e em um ruído mais denso. |
-| <b>Desordem</b> Flutuante | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
-| <b>Velocidade do distúrbio</b> flutuante | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
-| <b>Origem da cor</b> Inteiro | A origem da cor simples aplicada às células:<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>Aleatório:</i></b> use uma cor aleatória controlada pela semente aleatória do nó</li> <li data-preserve-html="true"><b><i>Pseudorandom:</i></b> usar uma cor aleatória propagada por um valor separado definido pelo usuário</li> <li data-preserve-html="true"><b><i>Entrada de imagem:</i></b> use a cor amostrada no local da célula na imagem de entrada</li> </ul> |
-| <b>Semente Pseudorandom</b> Inteiro *Disponível quando &#39;Origem da cor&#39; está definido como &#39;Pseudorandom&#39;* | Permite alterar a semente da cor separadamente da semente do nó. |
-| <b>Expansão não quadrada</b> Booleana | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
+|:---|:---|
+| <b>Escala</b> <i>Inteiro</i> | A subdivisão da grade usada para gerar os blocos de ruído.    Um valor mais alto resulta no desenho de mais ladrilhos e em um ruído mais denso. |
+| <b>Desordem</b> <i>Flutuante</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
+| <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
+| <b>Origem da cor</b> <i>Inteiro</i> | A origem da cor simples aplicada às células:<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>Aleatório:</i></b> use uma cor aleatória controlada pela semente aleatória do nó</li> <li data-preserve-html="true"><b><i>Pseudorandom:</i></b> usar uma cor aleatória propagada por um valor separado definido pelo usuário</li> <li data-preserve-html="true"><b><i>Entrada de imagem:</i></b> use a cor amostrada no local da célula na imagem de entrada</li> </ul> |
+| <b>Semente Pseudorandom</b> <i>Inteiro</i>   *Disponível quando &#39;Origem da cor&#39; está definida como &#39;Pseudorandom&#39;* | Permite alterar a semente da cor separadamente da semente do nó. |
+| <b>Expansão não quadrada</b> <i>Booleano</i> | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
 
 ## Exemplos
 
@@ -101,26 +78,12 @@ Veja também: [Células 1](../../../../../../compositing-graphs/nodes-reference-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Células 4 - Exemplo 1](../../../../../../assets/cells_4_1.png "Células 4 - Exemplo 1"){zoomable="yes"}
+![Células 4 - Exemplo 1](cells-4.resources/cells-4-02.png "Células 4 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Células 4 - Exemplo 2](../../../../../../assets/noise_cells_4_v2_speed0.3_aniso0.6.gif "Células 4 - Exemplo 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Células 4 - Exemplo 2](cells-4.resources/cells-4-03.gif "Células 4 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Transformação Trapezoide
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '104'
+ht-degree: 6%
 
 ---
 
@@ -22,37 +22,42 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/trapeze-transform.png){width="128px"}
+![](trapezoid-transform.resources/trapezoid-transform-01.png){width="128px"}
 
-![](../../../../../../assets/trapeze-transform-grayscale.png){width="128px"}
+![](trapezoid-transform.resources/trapezoid-transform-02.png){width="128px"}
 
-## Transformação Trapezoide (Tons de Cinza)
-
-**Entrada:** *Filtros/Transformações*
-
-**Simples**
+<b>Entrada:</b> Filtros > Transformas
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Nó de transformação especial que modifica a entrada em uma maneira de distorção de perspectiva/trapezoide. Tem controle para alongamento superior e inferior. Os valores podem ser ultrapassados os limites para efeitos mais fortes.
 
-## Parâmetros
-
-* **Esticamento superior**: *0.0 - 1.0* Defina a quantidade de esticamento ou esmagamento na parte superior.
-* **Esticamento inferior**: *0.0 - 1.0* Defina a quantidade de esticamento ou esmagamento na parte inferior.
-* **Cor do plano de fundo**: *(valor de Tons de Cinza/Cor)*\
-  Defina a cor do plano de fundo sólido caso a divisão em blocos gráficos esteja desativada.
-* **Amostragem**: *Bilinear, Mais Próximo* Defina a qualidade da amostragem.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/trapeze-example.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Esticamento Superior</b> <i>0.0 - 1.0</i> | Defina a quantidade de esticar ou esmagar na parte superior. |
+| <b>Esticamento inferior</b> <i>0.0 - 1.0</i> | Defina a quantidade de esticar ou esmagar na parte inferior. |
+| <b>Cor do plano de fundo</b> <i>(Valor de tons de cinza/cor)</i> | Defina a cor do plano de fundo sólido caso a divisão em blocos gráficos esteja desativada. |
+| <b>Amostragem</b> <i>Bilinear, Mais Próximo</i> | Defina a qualidade da amostragem. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="trapezoid-transform.resources/trapezoid-transform-03.gif" />
+        </td>
+    </tr>
 </table>

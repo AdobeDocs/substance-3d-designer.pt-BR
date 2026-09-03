@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Simetria
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/symmetry-9.png){width="128px"}
+![](symmetry.resources/symmetry-01.png){width="128px"}
 
-## Simetria
-
-**Entrada:** *Filtros/Transformações*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Transformas
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,17 +37,25 @@ Executa uma variedade de operações de simetria em uma imagem de entrada. Pode 
 
 Este nó é muito semelhante ao [Espelho](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md), mas tem controles extras para modos de mesclagem.
 
-## Parâmetros
-
-* **Modo de simetria**: *Espelho Y, Espelho X, Diagonal Esquerda, Diagonal Direita, Espelho X/Y, Espelho X/Espelho Y, Diagonal Esquerda/Diagonal Direita, Diagonal Direita/Diagonal Esquerda, 8* Escolhe o modo geométrico de simetria.
-* **Modo de Transferência**: *0 - 6* Escolhe o modo de mesclagem de simetria: Copiar, Adicionar, Subtrair, Multiplicar, Adicionar Sub, Max, Min.
-
-## Imagens de exemplo
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/symmetry-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Modo de Simetria</b> <i>Espelho Y, Espelho X, Diagonal Esquerda, Diagonal Direita, Espelho X/Y, Espelho X/Espelho Y, Diagonal Esquerda/Diagonal Direita, Diagonal Direita/Diagonal Esquerda, 8</i> | Escolhe o modo geométrico de simetria. |
+| <b>Modo de Transferência</b> <i>0 - 6</i> | Escolhe o modo de mesclagem de simetria: Copiar, Adicionar, Subtrair, Multiplicar, Adicionar Sub, Max, Min. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="symmetry.resources/symmetry-02.png" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Transformação de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 1%
+source-wordcount: '157'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-transforms.png){width="128px"}
+![](material-transform.resources/material-transform-01.png){width="128px"}
 
-## Transformação de material
-
-**Entrada:** *Filtros/Transformações De Material*
-
-**Simples**
+<b>Em:</b> Filtros Materiais > Transformas
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,23 +37,17 @@ A transformação de material é simplesmente a versão de materiais “multican
 
 Apenas certifique-se de configurar os canais corretamente! Por padrão, as opções Metálico/Aspereza e Specular/Textura reluzente estão ativadas, o que pode levar a alguma confusão.
 
-## Parâmetros
-
-* **Transformação**: *(Matriz de Transformação)*\
-  Gira e dimensiona o resultado. A movimentação/deslocamento é feita por meio do parâmetro Deslocamento
-* **Deslocamento**: *-0.5 - 0.5*\
-  Move ou traduz o resultado. Quando o controle de Transformação está presente, o resultado pode ser modificado por meio da interação direta com a tela.
-* **Formato Normal**\
-  Escolha entre os formatos DirectX e OpenGL (vire o verde).
-* **Canais**\
-  Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Transformação</b> <i>(Matriz de Transformação)</i> | Gira e dimensiona o resultado. A movimentação/deslocamento é feita por meio do parâmetro Deslocamento |
+| <b>Deslocamento</b> <i>-0.5 - 0.5</i> | Move ou traduz o resultado. Quando o controle de Transformação está presente, o resultado pode ser modificado por meio da interação direta com a tela. |
+| <b>Formato Normal</b> | Escolha entre os formatos DirectX e OpenGL (vire o verde). |
+| <b>Canais</b> | Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza. |

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Forma de Panorama
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 0%
+source-wordcount: '208'
+ht-degree: 6%
 
 ---
 
@@ -22,41 +22,38 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-shape-1.png){width="128px"}
+![](panorama-shape.resources/panorama-shape-01.png){width="128px"}
 
-## Forma de Panorama
-
-**Entrada:** *Geradores De Textura**/Padrões*
-
-**Complexo**
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-Este é um nó útil para gerar mapas de panorama do tipo “Estúdio” de procedimento. Permite inserir e modificar imagens de destaque, bem como definir suas propriedades HDR. Ele pode ser encadeado para várias formas.
-
-## Parâmetros
-
-* **Matriz de Formas**\
-  Move ou traduz o resultado, que pode ser modificado ao interagir diretamente com a tela.
-* **Forma**: *quadrado, disco* Define o tipo de forma.
-* **Cor da forma**: *(valor da cor)*Define a cor da forma.
-* **Intensidade da forma**: *0.0 - 100.0* Define a intensidade HDR da forma.
-* **Borda Suave da Forma**: *0.0 - 1.0* Altera a suavidade da borda da forma.
-* **Intensidade do ponto ativo**: *0.0 - 100.0* Define a intensidade HDR do ponto ativo da forma.
-* **Tamanho do Ponto de Acesso**: *0.0 - 1.0* Altera o tamanho do ponto de acesso dentro da forma.
-* **Queda do Ponto de Acesso**: *0.0 - 1.0* Altera a mesclagem de borda de queda do ponto de acesso.
-* **Posição do Ponto de Acesso**: *0.0 - 1.0* Move o ponto de acesso em relação à forma.
-* **Habilitar fundo**: *Falso/Verdadeiro* Habilita o preenchimento do fundo com uma cor sólida. Observe que isso significa que você não pode mais encadeá-los por meio de mesclagem.
-* **Cor do plano de fundo**: *(valor da cor)*Define a cor sólida do plano de fundo.
-* **Habilitar Entrada de Textura**: *False/True* Permite uma entrada personalizada em vez de um tipo de forma predefinido.
-
-## Imagens de exemplo
+Este é um nó útil para gerar mapas panorâmicos processuais do tipo “Studio”. Permite colocar e modificar imagens de holofote, bem como definir suas propriedades HDR. Ele pode ser encadeado para várias formas.
 
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Matriz de Formas</b> | Move ou traduz o resultado, que pode ser modificado ao interagir diretamente com a tela. |
+| <b>Forma</b> <i>quadrado, disco</i> | Define o tipo de forma. |
+| <b>Cor da forma</b> <i>(Valor da cor)</i> | Define a cor da forma. |
+| <b>Intensidade da forma</b> <i>0.0 - 100.0</i> | Define a intensidade do HDR da forma. |
+| <b>Borda Suave da Forma</b> <i>0.0 - 1.0</i> | Altera a suavidade da borda da forma. |
+| <b>Intensidade do Ponto de Acesso</b> <i>0.0 - 100.0</i> | Define a intensidade de HDR do ponto ativo da forma. |
+| <b>Tamanho do Ponto de Acesso</b> <i>0.0 - 1.0</i> | Altera o tamanho do ponto ativo dentro da forma. |
+| <b>Queda do Ponto de Acesso</b> <i>0.0 - 1.0</i> | Altera a mesclagem de borda de declínio do ponto de acesso. |
+| <b>Posição do Ponto de Acesso</b> <i>0.0 - 1.0</i> | Move o ponto ativo em relação à forma. |
+| <b>Habilitar plano de fundo</b> <i>Falso/Verdadeiro</i> | Permite o preenchimento do plano de fundo com uma cor sólida. Observe que isso significa que você não pode mais encadeá-los por meio de mesclagem. |
+| <b>Cor do plano de fundo</b> <i>(Valor da cor)</i> | Define a cor sólida do plano de fundo. |
+| <b>Habilitar Entrada de Textura</b> <i>Falso/Verdadeiro</i> | Permite uma entrada personalizada em vez de um tipo de forma predefinido. |

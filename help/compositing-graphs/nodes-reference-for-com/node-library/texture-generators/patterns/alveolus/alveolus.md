@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Alveolus
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '94'
+ht-degree: 7%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/alveolus-1.png){width="128px"}
+![](alveolus.resources/alveolus-01.png){width="128px"}
 
-## Alveolus
-
-**Entrada:** *Geradores De Textura**/Padrões*
-
-**Simples**
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Um padrão de esfera suave que pode, alternativamente, gerar blocos de hexágono.
 
-## Parâmetros
-
-* **Divisão em blocos gráficos**: *1 - 16*\
-  Define a quantidade de vezes que o resultado deve ser colocado lado a lado.
-* **Células com preenchimento de gradiente**: *Falso/Verdadeiro* Alterna para bordas nítidas, criando blocos hexágonos com bordas afiadas.
-* **Largura interstice**: *0.0 - 1.0* Só funciona quando a opção acima está definida como “False”. Altera o tamanho do interstício.
-* **Expansão não quadrada**: *Falso/Verdadeiro*\
-  Permite a compensação de esmagamento e alongamento com proporções não quadradas.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/alveolus.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Divisão em blocos gráficos</b> <i>1 - 16</i> | Define a quantidade de vezes que o resultado deve ser colocado lado a lado. |
+| <b>Células Preenchidas Com Gradiente</b> <i>Falso/Verdadeiro</i> | Alterna para bordas nítidas, criando blocos hexágonos com bordas nítidas. |
+| <b>Largura interstice</b> <i>0.0 - 1.0</i> | Só funciona quando a opção acima está definida como “False”. Altera o tamanho do interstício. |
+| <b>Expansão não quadrada</b> <i>Falso/Verdadeiro</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="alveolus.resources/alveolus-02.gif" />
+        </td>
+    </tr>
 </table>

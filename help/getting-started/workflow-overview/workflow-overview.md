@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Visão geral do fluxo de trabalho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,15 @@ O Substance 3D Designer é um editor baseado em nó. Isso significa que quase to
 
 [Tipos de gráfico](#graph-types)
 
-![Fluxo de dados simplificado](../../assets/graph-direction.png "Fluxo de dados simplificado")
+![Fluxo de dados simplificado](workflow-overview.resources/workflow-overview-01.png "Fluxo de dados simplificado")
 
 ## Fluxo de trabalho baseado em nó
 
-Trabalhar no Designer é diferente de outros softwares de edição de imagens 2D, como o Photoshop. Em vez de executar uma ação manualmente (como ajustar a saturação indo até uma opção do menu e alterar um controle deslizante), <b>você constrói as etapas lógicas</b> de edição ou criação da imagem. Isso acontece criando uma rede de blocos de construção pequenos, chamados “[Nós](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)”. Os dados da imagem viajam da <b> esquerda para a direita</b> através dos blocos de construção, conectados por Links que determinam o caminho das informações. Cada Nó, se conectado, contribuirá para os resultados finais.
+Trabalhar no Designer é diferente de outros softwares de edição de imagens 2D, como o Photoshop. Em vez de executar uma ação manualmente (como ajustar a saturação indo até uma opção do menu e alterar um controle deslizante), <b>você constrói as etapas lógicas</b> de edição ou criação da imagem. Isso acontece através da construção de uma rede de pequenos blocos de construção chamados &#39;nós&#39;. Os dados da imagem viajam da <b> esquerda para a direita</b> através dos blocos de construção, conectados por Links que determinam o caminho das informações. Cada Nó, se conectado, contribuirá para os resultados finais.
 
 A maior vantagem é que seu fluxo de trabalho se torna <b>não linear</b>. Ao contrário das ações executadas manualmente que entram em uma pilha de histórico, você sempre pode trocar ou modificar um Nó a qualquer momento. Se você decidir que o primeiro ajuste de Contraste, afetando o resultado da imagem até o final, foi muito, ainda será possível voltar e ajustá-lo ou até mesmo recortá-lo completamente, sem perder todo o trabalho que executou depois.
 
-![Instâncias de gráfico simplificadas](../../assets/sub-graph.png "Instâncias de gráfico simplificadas")
+![Instâncias de gráfico simplificadas](workflow-overview.resources/workflow-overview-02.png "Instâncias de gráfico simplificadas")
 
 ## Fluxo de trabalho da instância do gráfico
 
@@ -48,7 +48,7 @@ Criar instâncias de gráficos é um processo importante no Designer. Ele permit
 
 Para obter mais informações sobre Instâncias de Gráfico em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md), há uma [seção dedicada](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) sobre elas na documentação.
 
-![Parâmetros de gráfico simplificados](../../assets/parameters-5.png "Parâmetros de gráfico simplificados")
+![Parâmetros de gráfico simplificados](workflow-overview.resources/workflow-overview-03.png "Parâmetros de gráfico simplificados")
 
 ## Parâmetros personalizados
 
@@ -62,7 +62,7 @@ Você encontrará abaixo um resumo dos três tipos de gráfico que podem ser edi
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/workflow-overview-04.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -84,7 +84,7 @@ gráficos de Substance são[o tipo de gráfico mais amplamente suportado](../../
 Abaixo você pode encontrar alguns exemplos típicos de casos de uso comuns.
 
 +++Forma simples
-![Forma simples no gráfico de Substance](../../assets/simpleshape.png "Forma simples no gráfico de Substance"){width="512px"}
+![Forma simples no gráfico de Substance](workflow-overview.resources/workflow-overview-05.png "Forma simples no gráfico de Substance"){width="512px"}
 
 
 
@@ -95,7 +95,7 @@ O Texto com o número, ou o thickness da aresta, pode ser exposto externamente p
 +++
 
 +++Filtro de ajuste
-![Filtro de ajuste no gráfico de Substance](../../assets/simplefilter.png "Filtro de ajuste no gráfico de Substance"){width="512px"}
+![Filtro de ajuste no gráfico de Substance](workflow-overview.resources/workflow-overview-06.png "Filtro de ajuste no gráfico de Substance"){width="512px"}
 
 
 
@@ -106,7 +106,7 @@ Os valores de contraste definidos no Histograma podem ser expostos, tornando-o u
 +++
 
 +++Material completo
-![Material completo no gráfico de Substance](../../assets/simplematerial.png "Material completo no gráfico de Substance"){width="512px"}
+![Material completo no gráfico de Substance](workflow-overview.resources/workflow-overview-07.png "Material completo no gráfico de Substance"){width="512px"}
 
 
 
@@ -120,7 +120,7 @@ Este exemplo usa os [Modos de Criação de Link](../../interface/the-graph-view/
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/workflow-overview-08.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -129,7 +129,7 @@ Este exemplo usa os [Modos de Criação de Link](../../interface/the-graph-view/
 
 Funções <b>processam valores únicos</b> (inteiros, flutuantes, vetores) em vez de dados de imagem (conjuntos inteiros de pixels). As funções também são Gráficos com redes de nós, mas os [Nós usados](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)e a interface é diferente dos [gráficos de Substance regulares](../../compositing-graphs/substance-compositing-graphs.md). O fluxo de trabalho é completamente baseado em <b>operações matemáticas</b> e não mostra miniaturas de visualização de imagem, tornando-o uma <b>maneira muito mais avançada de trabalhar</b> com o Substance 3D Designer.
 
-As funções podem ser usadas em muitos contextos diferentes, sendo os principais a modificação do comportamento de [um Parâmetro exposto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), a criação do comportamento de [Processadores de Pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) e o uso de [Valores em um Gráfico.](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+As funções podem ser usadas em muitos contextos diferentes, sendo os principais a modificação do comportamento de [um Parâmetro exposto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), a criação do comportamento de [Processadores de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) e o uso de [valores](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) em um gráfico de Substance.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ As funções podem ser usadas em muitos contextos diferentes, sendo os principai
 Abaixo estão alguns exemplos de casos de uso comuns para gráficos de função Substance.
 
 +++Função simples
-![Gráfico de função simples](../../assets/lerpfunction.png "Gráfico de função simples"){width="256px"}
+![Gráfico de função simples](workflow-overview.resources/workflow-overview-09.png "Gráfico de função simples"){width="256px"}
 
 
 
@@ -151,7 +151,7 @@ Esta função também pode ser escrita como *lerp(0.1, 0.8, Intensity)* em um ps
 +++
 
 +++Função avançada
-![Função avançada](../../assets/pixel-function.png "Função avançada"){width="512px"}
+![Função avançada](workflow-overview.resources/workflow-overview-10.png "Função avançada"){width="512px"}
 
 
 

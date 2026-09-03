@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Instâncias e subgrafos do gráfico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b0053a42604f68604350a6bb3a2148970536c3c7
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Instâncias e subgrafos do gráfico
 
-![](../../../assets/sub-graph.png)
+![](graph-instances-sub-graphs.resources/graph-instances-sub-graphs-01.png)
 
 As instâncias de gráfico são nós que <b>fazem referência a outro gráfico</b>. Um gráfico referenciado por um nó de instância em um gráfico host pode ser chamado de <b>subgrafo</b> do gráfico host.
 
@@ -58,18 +58,18 @@ Observe que, embora os conceitos de ocorrência de gráfico e subgrafo também s
 
 ### Posso adicionar minhas próprias instâncias do gráfico à biblioteca de nós?
 
-<b>Sim, isso é possível </b>mas requer alguma configuração específica. Saiba mais na página [Gerenciando conteúdo e filtros personalizados](https://helpx.adobe.com/br/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) desta documentação.
+<b>Sim, isso é possível </b>mas requer alguma configuração específica. Saiba mais na página [Gerenciando conteúdo e filtros personalizados](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) desta documentação.
 
 ### É possível inspecionar o gráfico de origem de uma instância do gráfico?
 
-![(tick)](../../../assets/check.svg) Sim, e *somente* para instâncias de gráficos carregados de um **arquivo Substance 3D (SBS)**. Estes nós de instância têm um rótulo *vermelho-escuro*.\
+![(tick)](graph-instances-sub-graphs.resources/check.svg) Sim, e *somente* para instâncias de gráficos carregados de um **arquivo Substance 3D (SBS)**. Estes nós de instância têm um rótulo *vermelho-escuro*.\
 Clique com o botão direito do mouse no nó para abrir seu menu contextual e selecione a opção **Abrir referência**.
 
 >[!NOTE]
 >
 > Ao inspecionar o gráfico de origem, você poderá usar os dados de entrada do gráfico da instância se a opção **Edição de contexto interno** estiver *marcada* na seção **Gráfico** das [Preferências](../../../interface/preferences-window/preferences-window.md).
 
-![(menos)](../../../assets/forbidden.svg) *Não* é possível inspecionar gráficos carregados de instâncias **de ativos do Substance 3D (SBSAR)**, pois eles já estão compilados. Você só pode carregar o ativo no painel **Explorer** para inspecionar a lista de gráficos expostos e seus parâmetros. Estes nós de instância têm um rótulo *verde*.\
+![(menos)](graph-instances-sub-graphs.resources/forbidden.svg) *Não* é possível inspecionar gráficos carregados de instâncias **de ativos do Substance 3D (SBSAR)**, pois eles já estão compilados. Você só pode carregar o ativo no painel **Explorer** para inspecionar a lista de gráficos expostos e seus parâmetros. Estes nós de instância têm um rótulo *verde*.\
 Clique com o botão direito do mouse no nó para abrir seu menu contextual e selecione a opção **Carregar pacote**.
 
 >[!NOTE]

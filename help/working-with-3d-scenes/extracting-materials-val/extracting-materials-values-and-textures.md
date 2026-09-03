@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Extraindo valores e texturas de materiais
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -58,21 +58,21 @@ Algumas coisas acontecem ao usar esta ação:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Criar gráfico a partir das entradas de textura - Ação no visor &#39;Exibição 3D&#39;](../../assets/createGraphFromTexturesActionViewport.png "Criar gráfico a partir das entradas de textura - Ação no visor &#39;Exibição 3D&#39;"){zoomable="yes"}
+![Criar gráfico a partir das entradas de textura - Ação no visor &#39;Exibição 3D&#39;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-01.png "Criar gráfico a partir das entradas de textura - Ação no visor &#39;Exibição 3D&#39;"){zoomable="yes"}
 
 *Ação no visor 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Criar gráfico a partir das entradas de textura - Ação no menu &#39;Materiais&#39;](../../assets/createGraphFromTexturesActionMaterials.png "Criar gráfico a partir das entradas de textura - Ação no menu &#39;Materiais&#39;"){zoomable="yes"}
+![Criar gráfico a partir das entradas de textura - Ação no menu &#39;Materiais&#39;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-02.png "Criar gráfico a partir das entradas de textura - Ação no menu &#39;Materiais&#39;"){zoomable="yes"}
 
 *Ação no menu Materiais*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Criar gráfico a partir de entradas de textura - Ação no encaixe &#39;Propriedades&#39;](../../assets/createGraphFromTexturesActionProps.png "Criar gráfico a partir de entradas de textura - Ação no encaixe &#39;Propriedades&#39;"){zoomable="yes"}
+![Criar gráfico a partir de entradas de textura - Ação no encaixe &#39;Propriedades&#39;](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-03.png "Criar gráfico a partir de entradas de textura - Ação no encaixe &#39;Propriedades&#39;"){zoomable="yes"}
 
 *Ação na área de Propriedades*
 
@@ -80,12 +80,12 @@ Algumas coisas acontecem ao usar esta ação:
 </tr>
 </table>
 
-![Resultado da criação de gráfico a partir de texturas de material](../../assets/createGraphFromTexturesResult.png "Resultado da criação de gráfico a partir de texturas de material"){zoomable="yes"}
+![Resultado da criação de gráfico a partir de texturas de material](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-04.png "Resultado da criação de gráfico a partir de texturas de material"){zoomable="yes"}
 
 *Resultado da criação do gráfico a partir de texturas de material*
 
 +++Demonstração
-![Criar gráfico a partir de entradas de textura - Demonstração](../../assets/createGraphFromTextures.gif "Criar gráfico a partir de entradas de textura - Demonstração"){zoomable="yes"}
+![Criar gráfico a partir de entradas de textura - Demonstração](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-05.gif "Criar gráfico a partir de entradas de textura - Demonstração"){zoomable="yes"}
 
 
 
@@ -97,7 +97,7 @@ Algumas coisas acontecem ao usar esta ação:
 
 >[!NOTE]
 >
-> Para formatos que usam *texturas incorporadas* (por exemplo: USDZ), as texturas precisam ser extraídas e copiadas em disco. Isso resulta em uma etapa adicional para selecionar o local para o qual as texturas devem ser extraídas.
+> Para formatos que usam o *textura incorporado* (por exemplo: USDZ), as texturas precisam ser extraídas e copiadas em disco. Isso resulta em uma etapa adicional para selecionar o local para o qual as texturas devem ser extraídas.
 
 ## Extrair textura
 
@@ -106,24 +106,24 @@ A ação “Extrair textura para gráfico” cria um novo nó Bitmap em um gráf
 Algumas coisas acontecem ao usar esta ação:
 
 * Um [recurso de bitmap](../../resources/bitmap-resource/bitmap-resource.md) é criado para a textura usada pelo material e colocado em uma pasta nomeada após o material, em uma pasta “Recursos”.
-* No gráfico selecionado, um nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) é criado para esse recurso de bitmap e conectado automaticamente a um nó [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) configurado após a propriedade de material que usa essas texturas.
+* No gráfico selecionado, um nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) é criado para esse recurso de bitmap e conectado automaticamente a um nó [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) configurado após a propriedade de material que usa essa textura.
 
 Se uma Saída configurada para a propriedade de material *já existir* no gráfico, *nenhum nó será criado* e apenas a criação do recurso de bitmap será executada.
 
-Por exemplo: extrair uma textura da propriedade “Cor base” para um gráfico que já hospeda um nó de saída configurado para “Cor base” resultará em nenhum nó criado no gráfico.
+Por exemplo: extrair uma textura da propriedade “Cor de base” para um gráfico que já hospeda um nó de saída configurado para “Cor de base” resultará em nenhum nó criado no gráfico.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Extrair textura para gráfico - Ação no encaixe Propriedades](../../assets/extractTextureAction.png "Extrair textura para gráfico - Ação no encaixe Propriedades"){zoomable="yes"}
+![Extrair textura para gráfico - Ação na área de Propriedades](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-06.png "Extrair textura para gráfico - Ação na área de Propriedades"){zoomable="yes"}
 
 Ação para a propriedade de material na área de Propriedades
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extrair textura para gráfico - caixa de diálogo “Selecionar gráfico de destino”](../../assets/extractTextureSelectGraph.png "Extrair textura para gráfico - caixa de diálogo “Selecionar gráfico de destino”"){zoomable="yes"}
+![Extrair textura para gráfico - caixa de diálogo “Selecionar gráfico de destino”](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-07.png "Extrair textura para gráfico - caixa de diálogo “Selecionar gráfico de destino”"){zoomable="yes"}
 
 Caixa de diálogo “Selecionar gráfico de destino”
 
@@ -136,31 +136,31 @@ Caixa de diálogo “Selecionar gráfico de destino”
 </tr>
 </table>
 
-![Resultado da extração de textura](../../assets/extractTextureResult.png "Resultado da extração de textura"){zoomable="yes"}
+![Resultado da extração da textura](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-08.png "Resultado da extração da textura"){zoomable="yes"}
 
 Resultado da extração da textura
 
 +++Demonstração
-![Extrair textura para gráfico - Demonstração](../../assets/extractTextureToGraph.gif "Extrair textura para gráfico - Demonstração"){zoomable="yes"}
+![Extrair textura para gráfico - Demonstração](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-09.gif "Extrair textura para gráfico - Demonstração"){zoomable="yes"}
 
 
 
 +++
 
-A ação “Extrair textura como recurso” cria apenas um recurso de bitmap para a textura usada pelo material e o coloca em uma pasta nomeada em homenagem ao material, na pasta “Recursos”.
+A ação “Extrair textura como recurso” cria apenas um recurso de bitmap para a textura usada pelo material e o coloca em uma pasta nomeada após o material, na pasta “Recursos”.
 
 >[!NOTE]
 >
-> Para formatos que usam *texturas incorporadas* (por exemplo: USDZ), a textura precisa ser extraída e copiada em disco. Isso resulta em uma etapa adicional para selecionar o local para o qual a textura deve ser extraída.
+> Para formatos que usam o *textura inserido* (por exemplo: USDZ), a textura precisa ser extraída e copiada em disco. Isso resulta em uma etapa adicional para selecionar o local para o qual a textura deve ser extraída.
 
 ## Extrair valor
 
-A ação “Extrair valor para gráfico” cria um novo nó [Processador de valores](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) em um gráfico existente para um valor de propriedade de material.
+A ação “Extrair valor para gráfico” cria um novo nó [Processador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) em um gráfico existente para um valor de propriedade de material.
 
 Algumas coisas acontecem ao usar esta ação:
 
-* No gráfico selecionado, um nó [Processador de valores](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) é criado para esse valor de propriedade e conectado automaticamente a um nó [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) configurado após essa propriedade de material.
-* No [gráfico de função Substance](../../function-graphs/function-graphs.md) do nó Processador de valores, um [nó de constante](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) correspondente ao tipo de valor é criado, definido como o valor extraído conforme definido como a saída do gráfico.
+* No gráfico selecionado, um nó [Processador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) é criado para esse valor de propriedade e conectado automaticamente a um nó [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) configurado após essa propriedade de material.
+* No [gráfico de função Substance](../../function-graphs/function-graphs.md) do nó de Processador de valor, um [nó de constante](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) correspondente ao tipo de valor é criado, definido como o valor extraído conforme definido como a saída do gráfico.
 
 Se uma Saída configurada para a propriedade de material *já existir* no gráfico, *nenhum nó será criado*.
 
@@ -170,21 +170,21 @@ Por exemplo: extrair um valor da propriedade “nível de Anisotropia” para um
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Extrair valor para gráfico - Ação no Dock de propriedades](../../assets/extractValueAction.png "Extrair valor para gráfico - Ação no Dock de propriedades"){zoomable="yes"}
+![Extrair valor para gráfico - Ação no Dock de propriedades](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-10.png "Extrair valor para gráfico - Ação no Dock de propriedades"){zoomable="yes"}
 
 Ação para a propriedade de material na área de Propriedades
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extrair valor para gráfico - caixa de diálogo “Selecionar gráfico de destino”](../../assets/extractValueSelectGraph.png "Extrair valor para gráfico - caixa de diálogo “Selecionar gráfico de destino”"){zoomable="yes"}
+![Extrair valor para gráfico - caixa de diálogo “Selecionar gráfico de destino”](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-11.png "Extrair valor para gráfico - caixa de diálogo “Selecionar gráfico de destino”"){zoomable="yes"}
 
 Caixa de diálogo “Selecionar gráfico de destino”
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extrair valor para o gráfico - Nó constante na função do nó do processador de valores](../../assets/extractValueResult2.png "Extrair valor para o gráfico - Nó constante na função do nó do processador de valores"){zoomable="yes"}
+![Extrair valor para o gráfico - Nó constante na função do nó do processador de valores](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-12.png "Extrair valor para o gráfico - Nó constante na função do nó do processador de valores"){zoomable="yes"}
 
 Nó constante na função do nó do processador de valor
 
@@ -192,12 +192,12 @@ Nó constante na função do nó do processador de valor
 </tr>
 </table>
 
-![Resultado da extração de valor](../../assets/extractValueResult.png "Resultado da extração de valor"){zoomable="yes"}
+![Resultado da extração de valor](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-13.png "Resultado da extração de valor"){zoomable="yes"}
 
 Resultado da extração do valor
 
 +++Demonstração
-![Extrair valor para gráfico - Demonstração](../../assets/extractValueToGraph.gif "Extrair valor para gráfico - Demonstração"){zoomable="yes"}
+![Extrair valor para gráfico - Demonstração](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-14.gif "Extrair valor para gráfico - Demonstração"){zoomable="yes"}
 
 
 

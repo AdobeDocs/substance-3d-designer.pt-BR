@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Vazamentos de desgaste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleaks.jpg){width="200px"}
+![](grunge-leaks.resources/grunge-leaks-01.jpg){width="200px"}
 
-**Entrada:** *Geradores De Textura* */Ruídos*
-
-**Simples**
+<b>Entrada:</b> geradores de textura > Ruídos
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,31 +39,31 @@ O nó **Vazamentos de Desgaste** gera um mapa de desgaste semelhante a gotas em 
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parâmetros
 
-* **Equilíbrio** *Flutuante* Ajusta o equilíbrio entre valores escuros e brilhantes.
-* **Contraste** *Flutuar* Ajusta o contraste da imagem.
-* **Inverter** *Booleano* Inverte a saída da imagem usando uma operação `1-x`.
-* **Expansão não quadrada** *Booleano* Habilita a compensação de squash e alongamento com proporções não quadradas.
-* Avançado
-  * **Comprimento de gotejamento** *Flutuante* Ajusta o comprimento das listras de gotejamento.
-  * **Contraste da forma** *Flutuar* Alterna entre formas claras e escuras, contrastando entre as gotas.
-  * **Nitidez por gotejamento** *Flutuação* Ajusta a nitidez e a inconsistência das gotas.
-  * **Intensidade da nitidez** *Flutuar* Ajuste a suavidade geral da imagem.
+|  |  |
+|:---|:---|
+| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
+| <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
+| <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+| <b>Avançado</b> |  |
+| <b>Comprimento de Gota</b> <i>Flutuante</i> | Ajusta o comprimento das listras de gotejamento. |
+| <b>Contraste de forma</b> <i>Flutuante</i> | Alterna entre formas claras e escuras, contrastando entre os pingos. |
+| <b>Gotas e crocância</b> <i>Flutuante</i> | Ajusta a nitidez e a nitidez dos pingos. |
+| <b>Intensidade de nitidez</b> <i>Flutuante</i> | Ajuste a suavidade geral da imagem. |
 
-## Imagens de exemplo
+## Exemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleaks-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungeleaks-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaks.resources/grunge-leaks-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-leaks.resources/grunge-leaks-03.jpg" />
+        </td>
+    </tr>
 </table>

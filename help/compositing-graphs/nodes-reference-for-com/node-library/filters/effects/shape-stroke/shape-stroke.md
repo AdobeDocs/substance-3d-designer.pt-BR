@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Traçado da forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '158'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-stroke.png){width="128px"}
+![](shape-stroke.resources/shape-stroke-01.png){width="128px"}
 
-![](../../../../../../assets/shape-stroke-grayscale.png){width="128px"}
+![](shape-stroke.resources/shape-stroke-02.png){width="128px"}
 
-## Traçado da forma (tons de cinza)
-
-**Entrada:** *Filtros/Efeitos*
-
-**Intermediário**
+<b>Entrada:</b> Filtros > Efeitos
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -43,20 +39,29 @@ Adiciona um traçado ou contorno em torno de uma máscara em preto e branco (par
 
 Muito útil para diversos efeitos de edição de imagens.
 
-## Parâmetros
-
-* **Largura**: *-1.0 - 1.0* Largura do efeito de traçado.
-* **Opacidade**: *0.0 - 1.0*\
-  Opacidade global do efeito.
-* Cor **(Contorno)**: *(Valor da cor)*Cor usada para o efeito de contorno.
-* **Cor da máscara**: *(Valor da cor) *(Somente versão em tons de cinza)**Cor sólida a ser usada para a saída mapeada de transparência.
-* **A Entrada É Pré-Multiplicada**: *False/True *(Somente Versão de Cor)**Se a entrada deve ser assumida como pré-multiplicada.
-* **Saída de Pré-Multiplicação**: *Falso/Verdadeiro* Se a saída deve ser pré-multiplicada.
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shapestroke-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Largura</b> <i>-1.0 - 1.0</i> | Largura do efeito de traçado. |
+| <b>Opacidade</b> <i>0.0 - 1.0</i> | Opacidade global do efeito. |
+| <b>(Contorno) Cor</b> <i>(Valor da cor)</i> | Cor usada para o efeito de contorno. |
+| <b>Cor da máscara</b> <i>(Valor da cor) (Somente Versão em Tons de Cinza)</i> | Cor sólida a ser usada para a saída mapeada de transparência. |
+| <b>A Entrada É Pré-Multiplicada</b> <i>Falso/Verdadeiro (Somente Versão Colorida)</i> | Se a entrada deve ser assumida como pré-multiplicada. |
+| <b>Saída Pré-Multiplicada</b> <i>Falso/Verdadeiro</i> | Se a saída deve ser pré-multiplicada. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shape-stroke.resources/shape-stroke-03.png" />
+        </td>
+    </tr>
 </table>

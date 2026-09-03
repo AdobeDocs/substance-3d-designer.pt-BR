@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Corte de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crop-material.png){width="128px"}
+![](material-crop.resources/material-crop-01.png){width="128px"}
 
-## Corte de material
-
-**Entrada:** *Filtros de Material/Processamento de Digitalização*
-
-**Simples**
+<b>Entrada:</b> Filtros Materiais > Processamento de materiais escaneados
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -43,25 +39,18 @@ Este nó é a versão de material completo multicanal de [Corte](../../../../../
 >
 > [Veja o](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) [Corte](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) [original para obter mais informações.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
 
-## Parâmetros
-
-### Parâmetros
-
-* **Canais**
-  * Ative e desative os canais de material neste grupo ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza, por exemplo.
-* **Tamanho de entrada**: *0 - 8192* Resolução e proporções da imagem de entrada. Muito importante para imagens não quadradas.
-* **Plano de fundo**: *(Valor da cor) / (Valor da escala de cinza)*Valor uniforme do plano de fundo para áreas não cobertas pelo corte.
-* **Transformar**: *(Matriz de Transformação)*\
-  Gira e dimensiona o resultado. O resultado pode ser modificado interagindo diretamente com a tela.
-* **Deslocamento**: *0.0 - 1.0*\
-  Move ou traduz o resultado. O resultado pode ser modificado interagindo diretamente com a tela.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Canais</b> | Ative e desative os canais de material neste grupo ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza, por exemplo. |
+| <b>Tamanho de entrada</b> <i>0 - 8192</i> | Resolução e proporções da imagem de entrada. Muito importante para imagens não quadradas. |
+| <b>Fundo</b> <i>(Valor da cor) / (Valor em tons de cinza)</i> | Valor uniforme do plano de fundo para as áreas não cobertas pela cultura. |
+| <b>Transformar</b> <i>(Matriz de Transformação)</i> | Gira e dimensiona o resultado. O resultado pode ser modificado interagindo diretamente com a tela. |
+| <b>Deslocamento</b> <i>0.0 - 1.0</i> | Move ou traduz o resultado. O resultado pode ser modificado interagindo diretamente com a tela. |

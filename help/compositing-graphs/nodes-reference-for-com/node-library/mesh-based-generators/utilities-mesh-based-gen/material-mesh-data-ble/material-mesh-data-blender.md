@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Misturador de dados de malha de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 0%
+source-wordcount: '572'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-mesh-data-blender.png){width="128px"}
+![](material-mesh-data-blender.resources/material-mesh-data-blender-01.png){width="128px"}
 
-## Misturador de dados de malha de material
-
-**Entrada:** *Geradores Baseados Em Malha**/Utilitários*
-
-**Complexo**
+<b>Entrada:</b> Geradores Baseados Em Malha > Utilitários
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,75 +37,61 @@ O objetivo desse nó é facilitar bastante a adição de detalhes com base em da
 
 É útil para fazer coisas como adicionar realce de borda com base em curvatura ou outros mapas, mesclar em algum AO com a cor difusa/básica, adicionar Oclusão de Specular com base em curvatura e/ou AO etc.
 
-## Parâmetros
-
-### Entradas
-
-* **Entrada de Material Completa (Grupo “Material”):** Conjunto completo de mapas de material.\
-  Eles são modificados por esse nó e retornados novamente como saída.
-* **Oclusão De Ambiente**: *Entrada Em Tons De Cinza*\
-  Mapa baked usado para efeitos internos e mascaramento.
-* **Curvatura**: *Entrada em tons de cinza*\
-  Mapa baked usado para efeitos internos e mascaramento.
-* **Height**: *Entrada em Tons de Cinza*
-* **Normal**: *Entrada De Cores*
-* **Cor Do Vértice**: *Entrada De Cores*
-* **Espaço Mundial Normal**: *Entrada de Cores*
-
-### Parâmetros
-
-* **Canais**
-  * Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza. Afeta a disponibilidade dos parâmetros abaixo.
-* **Mapas baked**
-  * Se os mapas baked listados devem ou não ser usados para cálculos. Afeta a disponibilidade dos parâmetros abaixo.
-* **AO Difuso**: *0.0 - 1.0* Quantidade de Oclusão Ambiente a ser mesclada no Difuso.
-* **Bordas cortantes difusas**: 0,0 - 1,0\
-  Quantidade do mapa de curvatura para mesclar no Difuso.
-* **Cor Difusa Da Cor Do Vértice**: 0,0 - 1,0\
-  Quantidade de cozimento da Cor do vértice para mesclar no Difuso.
-* **Pré-Iluminação Difusa**: 0.0 - 1.0\
-  Quantidade de pré-iluminação (falsa), com base nos World Space Normals.
-* **Equilíbrio difuso de iluminação do desenho animado**: 0,0 - 1,0\
-  Alterna entre iluminação realista e animada para Difusa.
-* **Desenho animado difuso pré-camadas de iluminação**: 0 - 10\
-  Controla a aparência dos cálculos de iluminação animada.
-* **Contornos Difundidos De Desenho Animado**: 0.0 - 1.0\
-  Controla a aparência dos cálculos de iluminação animada.
-* **Cor base AO**: 0.0 - 1.0\
-  Quantidade de Oclusão ambiente para mesclar na cor de base.
-* **Bordas cortantes de cor base**: 0,0 - 1,0\
-  Quantidade do mapa de curvatura para mesclar com a cor de base.
-* **Cor Base Da Cor Do Vértice**: 0,0 - 1,0\
-  Quantidade de cozimento da Cor de vértice para mesclar na Cor de base.
-* **Intensidade normal do material**: 0,0 - 1,0\
-  Intensidade de mistura do Mapa normal (tangente) assado.
-* **SpecularAO**: 0.0 - 1.0\
-  Intensidade de mistura do AO no Specular.
-* **Bordas cortantes brilhantes do Specular**: 0,0 - 1,0\
-  A intensidade de mistura da Curvatura no Specular.
-* **Contornos de Desenho de Specular**: 0.0 - 1.0\
-  Força de mistura de um efeito de contorno de borda de Specular de desenho animado, com base na Curvatura.
-* **Bordas cortantes escuras e reluzentes**: 0,0 - 1,0\
-  A intensidade de mistura da Curvatura na Textura reluzente.
-* **Aspereza de bordas cortantes brilhantes**: 0,0 - 1,0\
-  A intensidade de mistura da Curvatura na Aspereza.
-* **Contornos do Desenho Animado de Aspereza**: 0.0 - 1.0\
-  Força de mistura de um efeito de contorno de borda de aspereza de desenho animado, com base na Curvatura.
-* **Bordas cortantes brilhantes metálicas**: 0,0 - 1,0\
-  A intensidade de mistura da Curvatura no Metálico.
-* **Contornos de desenhos animados metálicos**: 0.0 - 1.0\
-  Força de mistura de um efeito de contorno de borda metálico de desenho animado, com base na Curvatura.
-* **Intensidade do AO Materiel**: 0,0 - 1,0\
-  Misture a força do AO mapa baked com o AO gerado por material, que grau combinar ambos os mapas de AO em.
-* **Intensidade de material do Height**: 0,0 - 1,0\
-  Combine a força do Height de mapa baked com o Height gerado por material, em que grau combinar os dois mapas de altura.
-* **Tipo De Mesclagem De Material De Height**: Reforçar, Interpolação\
-  Modo de mesclagem para combinar ambos os mapas de altura.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/blenddata-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada Completa De Material (Grupo “Material”)</b> | Conjunto completo de mapas de materiais.<br><br>Eles são modificados por este nó e retornados novamente como saída. |
+| <b>Oclusão de ambiente</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para efeitos internos e mascaramento. |
+| <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para efeitos internos e mascaramento. |
+| <b>Height</b> <i>Entrada em tons de cinza</i> |  |
+| <b>Normal</b> <i>Entrada de cores</i> |  |
+| <b>Cor do vértice</b> <i>Entrada de cores</i> |  |
+| <b>Espaço Mundial Normal</b> <i>Entrada de cores</i> |  |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Canais</b> | Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza. Afeta a disponibilidade dos parâmetros abaixo. |
+| <b>Mapas baked</b> | Se os mapas baked listados devem ou não ser usados para cálculos. Afeta a disponibilidade dos parâmetros abaixo. |
+| <b>Difusão AO</b> <i>0.0 - 1.0</i> | Quantidade de Oclusão de ambiente para se misturar à Difusão. |
+| <b>Bordas cortantes de Difusão</b> <i>0.0 - 1.0</i> | Quantidade do mapa de curvatura para mesclar no Difuso. |
+| <b>Cor Da Difusão Da Cor Do Vértice</b> <i>0.0 - 1.0</i> | Quantidade de cozimento da Cor do vértice para mesclar no Difuso. |
+| <b>Pré-Iluminação de Difusão</b> <i>0.0 - 1.0</i> | Quantidade de pré-iluminação (falsa), com base nos World Space Normals. |
+| <b>Equilíbrio de iluminação do desenho animado de Difusões</b> <i>0.0 - 1.0</i> | Alterna entre iluminação realista e animada para Difusa. |
+| <b>Desenho Animado de Difusões Pré-Camadas de Iluminação</b> <i>0 - 10</i> | Controla a aparência dos cálculos de iluminação animada. |
+| <b>Contornos de Desenho Animado de Difusão</b> <i>0.0 - 1.0</i> | Controla a aparência dos cálculos de iluminação animada. |
+| <b>Cor de base AO</b> <i>0.0 - 1.0</i> | Quantidade de Oclusão ambiente para mesclar na cor de base. |
+| <b>Cor de base bordas cortantes</b> <i>0.0 - 1.0</i> | Quantidade do mapa de curvatura para mesclar com a cor de base. |
+| <b>Cor de base da Cor do Vértice</b> <i>0.0 - 1.0</i> | Quantidade de cozimento da Cor de vértice para mesclar na Cor de base. |
+| <b>Intensidade normal do material</b> <i>0.0 - 1.0</i> | Intensidade de mistura do Mapa normal (tangente) assado. |
+| <b>SpecularAO</b> <i>0.0 - 1.0</i> | Intensidade de mistura do AO no Specular. |
+| <b>Bordas cortantes brilhantes do Specular</b> <i>0.0 - 1.0</i> | A intensidade de mistura da Curvatura no Specular. |
+| <b>Contornos do Desenho Animado de Specular</b> <i>0.0 - 1.0</i> | Força de mistura de um efeito de contorno de borda de Specular de desenho animado, com base na Curvatura. |
+| <b>Bordas cortantes escuras e reluzentes</b> <i>0.0 - 1.0</i> | A intensidade de mistura da Curvatura na Textura reluzente. |
+| <b>Aspereza de bordas cortantes e brilhantes</b> <i>0.0 - 1.0</i> | A intensidade de mistura da Curvatura na Aspereza. |
+| <b>Contornos de Desenho Animado de Aspereza</b> <i>0.0 - 1.0</i> | Força de mistura de um efeito de contorno de borda de aspereza de desenho animado, com base na Curvatura. |
+| <b>Bordas cortantes e brilhantes metálicas</b> <i>0.0 - 1.0</i> | A intensidade de mistura da Curvatura no Metálico. |
+| <b>Contornos de desenhos animados metálicos</b> <i>0.0 - 1.0</i> | Força de mistura de um efeito de contorno de borda metálico de desenho animado, com base na Curvatura. |
+| <b>Intensidade de material do AO</b> <i>0.0 - 1.0</i> | Misture a força do AO mapa baked com o AO gerado por material, que grau combinar ambos os mapas de AO em. |
+| <b>Intensidade de material do Height</b> <i>0.0 - 1.0</i> | Combine a força do Height de mapa baked com o Height gerado por material, em que grau combinar os dois mapas de altura. |
+| <b>Tipo de Mesclagem de Material de Height</b> <i>Reforçar, Interpolação</i> | Modo de mesclagem para combinar ambos os mapas de altura. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="material-mesh-data-blender.resources/material-mesh-data-blender-02.gif" />
+        </td>
+    </tr>
 </table>

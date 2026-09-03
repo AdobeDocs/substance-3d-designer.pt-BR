@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Malha 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
@@ -22,35 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-2.png){width="128px"}
+![](mesh-2.resources/mesh-2-01.png){width="128px"}
 
-## Malha 2
-
-**Entrada:** *Geradores De Textura**/Padrões*
-
-**Simples**
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
 Padrão de malha simples com blocos de gordura. Pode ser usado para criar mapas de heights e detalhes.
 
-## Parâmetros
-
-* **Divisão em blocos gráficos**: *1 - 16*\
-  Define a quantidade de vezes que o resultado deve ser colocado lado a lado.
-* **Girar 45 graus**: *Falso/Verdadeiro* Gira o resultado.
-* **Expansão não quadrada**: *Falso/Verdadeiro*\
-  Permite a compensação de esmagamento e alongamento com proporções não quadradas.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/mesh-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Divisão em blocos gráficos</b> <i>1 - 16</i> | Define a quantidade de vezes que o resultado deve ser colocado lado a lado. |
+| <b>Girar 45 Graus</b> <i>Falso/Verdadeiro</i> | Gira o resultado. |
+| <b>Expansão não quadrada</b> <i>Falso/Verdadeiro</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mesh-2.resources/mesh-2-02.gif" />
+        </td>
+    </tr>
 </table>

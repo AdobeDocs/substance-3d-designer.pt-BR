@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Multiângulo para Albedo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-angle-to-albedo.png){width="128px"}
+![](multi-angle-to-albedo.resources/multi-angle-to-albedo-01.png){width="128px"}
 
-## Multiângulo para Albedo
-
-**Entrada:** *Filtros de Material/Processamento de Digitalização*
-
-**Simples**
+<b>Entrada:</b> Filtros Materiais > Processamento de materiais escaneados
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -47,22 +43,22 @@ Lembre-se de que quanto mais amostras você tiver e quanto maior a diferença no
 > 
 > [A postagem no blog “Seu Smartphone é um scanner de material” ilustra um pouco melhor esse processo.](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
 
-## Parâmetros
-
-### Entradas
-
-* **Entrada 1-8**: *Entrada de cores* O número de entradas é determinado pelo parâmetro Valor de Amostras.
-
-### Parâmetros
-
-* **Quantidade de Amostras**: *2 - 8* Define o número de amostras (entradas) a serem usadas no processamento.
-
-## Imagens de exemplo
-
-|  |
-| --- |
-| Não há imagens anexadas a esta página. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Entrada 1-8</b> <i>Entrada de cores</i> | O número de entradas é determinado pelo parâmetro Quantidade de amostras. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Quantidade de Amostras</b> <i>2 - 8</i> | Define o número de amostras (entradas) a serem usadas no processamento. |

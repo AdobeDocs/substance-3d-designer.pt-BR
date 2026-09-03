@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Desgaste de pano
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cloth-wear.png){width="128px"}
+![](cloth-wear.resources/cloth-wear-01.png){width="128px"}
 
-## Desgaste de pano
-
-**Entrada:** *Geradores Baseados Em Malha**/Geradores De Máscara*
-
-**Simples**
+<b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -41,26 +37,35 @@ Gera uma máscara em preto e branco com base em mapas baked e configurações do
 
 A máscara representa bordas congeladas em materiais de tecido. Ele usa um mapa de altura de detalhe de pano que determina a maior parte da aparência; sem um mapa apropriado, o efeito parece muito básico.
 
-## Parâmetros
-
-### Entradas
-
-* **Height De Pano**: *Entrada Em Tons De Cinza*\
-  Height somente para o padrão de tecido. Esse não é o height do objeto (assado), mas sim um padrão de detalhes de revestimento.
-* **Máscara (opcional)**: *Entrada em tons de cinza*\
-  Slot de máscara usado para mascarar os efeitos do nó.
-* **Curvatura**: *Entrada em tons de cinza*\
-  Curvatura assada/gerada para determinar bordas elevadas.
-
-### Parâmetros
-
-* **Quantidade de Bordas Rígidas**: *0.0 - 1.0*
-* **Suavidade de desgaste**: *0.0 - 5.0* Determina o quão desfocadas/suaves são as bordas gastas.
-
-## Imagens de exemplo
-
-![](../../../../../../assets/cloth-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Entradas
+
+|  |  |
+|:---|:---|
+| <b>Height de pano</b> <i>Entrada em tons de cinza</i> | Height somente para o padrão de tecido. Esse não é o height do objeto (feito bake), mas sim um padrão de detalhes lado a lado. |
+| <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
+| <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Curvatura feita bake/gerada para determinar arestas elevadas. |
+
+<a name="parameters"></a>
+
+## Parâmetros
+
+|  |  |
+|:---|:---|
+| <b>Quantidade de bordas sólidas</b> <i>0.0 - 1.0</i> |  |
+| <b>Usar Suavidade</b> <i>0.0 - 5.0</i> | Determina o nível de desfoque/suavidade das bordas gastas. |
+
+## Exemplos
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="cloth-wear.resources/cloth-wear-02.gif" />
+        </td>
+    </tr>
 </table>
