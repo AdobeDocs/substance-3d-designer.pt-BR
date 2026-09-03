@@ -35,7 +35,7 @@ ht-degree: 10%
 
 ## Descrição
 
-Executa um desfoque gaussiano de alta qualidade no resultado. Qualidade muito melhor do que [o desfoque padrão da caixa atômica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+Executa um desfoque gaussiano de alta qualidade no resultado. Qualidade muito melhor do que [o desfoque padrão da caixa atômica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) [.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 Importante: certifique-se de usar a versão apropriada para sua entrada! Use “Desfoque HQ” para entradas de cor ou “Desfoque HQ em tons de cinza” para entradas em tons de cinza.
 

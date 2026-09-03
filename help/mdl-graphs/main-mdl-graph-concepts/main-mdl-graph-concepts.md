@@ -54,7 +54,7 @@ O nó Raiz inclui uma miniatura exibindo uma visualização de sua saída atual.
 
 ![Nó raiz do gráfico MDL](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-02.png "Nó raiz do gráfico MDL")
 
-*Nó raiz em um gráfico MDL e suas propriedades exibidas no painel [Propriedades](../../interface/properties/properties.md)* {3 **
+*Nó raiz em um gráfico MDL e suas propriedades exibidas no painel [Propriedades](../../interface/properties/properties.md)* &lbrace;3 **
 
 ## Conectores e tipos
 

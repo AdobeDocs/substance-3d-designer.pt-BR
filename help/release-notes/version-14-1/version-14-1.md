@@ -146,7 +146,7 @@ A ferramenta [localizador de nós](../../interface/the-graph-view/node-finder/no
 * [Gráfico de funções] Valores longos aparecem sobrepostos em nós &#39;Float&#39;
 * [Fx-Map] Falha ao exibir as propriedades do nó Quadrante
 * [Graph] [UDIM] Ter uma barra de rolagem na lista UDIM resulta em entradas 1..1 1..2
-* [Graph][Atalhos] O nó criado usando um atalho não é colocado em um link existente após a duplicação do nó
+* [Graph]&#x200B;[Atalhos] O nó criado usando um atalho não é colocado em um link existente após a duplicação do nó
 * [Propriedades] Exibição incorreta de parâmetro quando o valor é inválido
 * [Publish] As dependências recíprocas resultam em um loop infinito ao publicar um pacote
 * [Publish] Falha silenciosa ao usar a ação &#39;Publish&#39; no pacote com dependência descarregada

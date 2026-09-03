@@ -57,7 +57,7 @@ No gráfico MDL, expor um parâmetro ao nível do gráfico - ou seja, para que a
 
 Os nós que podem ser expostos têm uma opção <b>Expor</b> em seu menu contextual. Na maioria dos casos, são nós que geram um valor ou dados, como coordenadas de flutuação, cor ou textura.
 
-Opção ![”Expor” no menu contextual de um nó](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-07.png "&amp;quot;Opção Expor&amp;quot; no menu contextual de um nó")
+Opção ![”Expor” no menu contextual de um nó](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-07.png "&quot;Opção Expor&quot; no menu contextual de um nó")
 
 Opção *”Expor” no menu contextual de um nó*
 

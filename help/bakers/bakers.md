@@ -35,7 +35,7 @@ A janela de cozimento pode ser acessada por meio do arquivo de malha na janela d
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ opção&#39;Informações do modo de cozimento&#39; no menu contextual do recurso de cena 3D](bakers.resources/bakers-01.png " opção&#39;Informações do modo de cozimento&#39; no menu contextual do recurso de cena 3D")
+![&#x200B; opção&#39;Informações do modo de cozimento&#39; no menu contextual do recurso de cena 3D](bakers.resources/bakers-01.png " opção&#39;Informações do modo de cozimento&#39; no menu contextual do recurso de cena 3D")
 
 </td>
 </tr>
