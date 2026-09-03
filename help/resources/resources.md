@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Saiba como importar, criar e gerenciar recursos no Substance 3D Designer, incluindo bitmaps, fontes e cenas 3D.
 helpx_creative_field: ""

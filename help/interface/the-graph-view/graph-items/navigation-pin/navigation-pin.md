@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: Use pinos de navegação na visualização de gráfico para alternar rapidamente entre diferentes locais em gráficos do Substance 3D Designer.
 helpx_creative_field: ""

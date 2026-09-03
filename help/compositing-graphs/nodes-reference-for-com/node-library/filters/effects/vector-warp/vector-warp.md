@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
 breadcrumb-title: ''
 description: Use o nó Distorção de vetor para distorcer texturas usando campos de vetor para criar efeitos de distorção fluidos e orgânicos.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 A Distorção de vetor é um efeito de distorção avançado, semelhante a [Distorção](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) e [Deformação direcional](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md), com a principal diferença sendo que é orientada por um bitmap vetorial (colorido) em vez de um mapa em tons de cinza. Isso significa que ele é mais poderoso e versátil do que seus primos de nó atômico.
 
-O Mapa vetorial é semelhante a um Mapa normal, mas não precisa ser normalizado e apenas os canais R e Verde (X e Y) são usados. Os canais azul e alfa podem ficar pretos, se desejar. Construir um bom Mapa Vetorial pode ser o maior desafio ao usar este nó; você pode [converter mapas em tons de cinza em Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) ou construir o mapa combinando canais com[Mesclagem de RGBA.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md) Como alternativa, um [”Mapa de Fluxo”](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/advanced-channel-painting/flow-map-painting) também é utilizável.
+O Mapa vetorial é semelhante a um Mapa normal, mas não precisa ser normalizado e apenas os canais R e Verde (X e Y) são usados. Os canais azul e alfa podem ficar pretos, se desejar. Construir um bom Mapa Vetorial pode ser o maior desafio ao usar este nó; você pode [converter mapas em tons de cinza em Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) ou construir o mapa combinando canais com[Mesclagem de RGBA.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md) Como alternativa, um [”Mapa de Fluxo”](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/painting/advanced-channel-painting/flow-map-painting) também é utilizável.
 
 Esse nó pode ser útil quando você deseja realizar distorções muito específicas com direções variadas, em que os nós de distorção padrão não o cortam.
 

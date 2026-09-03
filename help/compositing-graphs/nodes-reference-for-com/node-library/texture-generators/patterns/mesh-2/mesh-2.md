@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-2.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-2.html"
 breadcrumb-title: ''
 description: Use o nó Malha 2 para gerar padrões de malha avançados com controles aprimorados para criar texturas geométricas.
 helpx_creative_field: ""

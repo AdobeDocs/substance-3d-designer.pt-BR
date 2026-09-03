@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Saiba como importar e usar recursos de cena 3D no Substance 3D Designer para visualização e teste de material.
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ Os seguintes formatos de arquivo de cena 3D são compatíveis:
 
 Cenas 3D *somente* podem ser vinculadas, o que significa que elas permanecem no local em disco e acabam de ser referenciadas no aplicativo.
 
-Quando um pacote com um recurso de cena 3D é publicado como um ativo do [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) (SBSAR), a malha *não é incorporada*, mas descartada.
+Quando um pacote com um recurso de cena 3D é publicado como um ativo do [Substance 3D](https://www.adobe.com/br/products/substance3d/3d-augmented-reality.html) (SBSAR), a malha *não é incorporada*, mas descartada.
 
 ## Fazendo bake mapas de malha
 

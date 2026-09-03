@@ -60,7 +60,7 @@ A opção <b>Projeto</b> permite filtrar a lista de modelos por arquivo de proje
 A lista de modelos pode ser exibida em modos diferentes usando os *botões* ao lado da caixa de combinação **Projeto**:
 
 * **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-04.png)Exibição usada recentemente**: filtra a lista para exibir os últimos modelos usados na ordem de *mais recentes para menos recentes*, sendo o item superior o mais recente
-* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-05.png)Gráficos de exibição**: os modelos são exibidos somente pelo *rótulo*, na ordem dos arquivos do [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) no diretório de modelos
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-05.png)Gráficos de exibição**: os modelos são exibidos somente pelo *rótulo*, na ordem dos arquivos do [Substance 3D](https://www.adobe.com/br/products/substance3d/3d-augmented-reality.html) no diretório de modelos
 * **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-06.png)Exibir arquivos do Substance 3D**: os modelos são exibidos por seu rótulo como *filhos do arquivo do Substance 3D ao qual pertencem*, na ordem dos arquivos no diretório de modelos
 * **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-07.png)Diretórios de exibição**: os modelos são exibidos por seu rótulo como *filhos do diretório ao qual pertencem*, na ordem dos arquivos no diretório de modelos
 

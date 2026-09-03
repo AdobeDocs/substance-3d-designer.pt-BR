@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 13.1 para saber mais sobre melhorias no gráfico de nós e suporte à exportação de AxF.
 helpx_creative_field: ""
