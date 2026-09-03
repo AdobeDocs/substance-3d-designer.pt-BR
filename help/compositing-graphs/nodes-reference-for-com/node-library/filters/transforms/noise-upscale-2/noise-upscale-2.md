@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
 breadcrumb-title: ''
-description: Use o nó Ruído em escala 2 para aumentar as texturas usando interpolação baseada em ruído para manter a qualidade da textura em tamanhos maiores.
+description: Use o nó Noise Upscale 2 para aumentar as texturas usando a interpolação baseada em ruído para manter a qualidade da textura em tamanhos maiores.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 2
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Aumento de ruído 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](noise-upscale-2.resources/noise-upscale.png){width="128px"}
+![](noise-upscale-2.resources/noise-upscale-2-01.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Transformas
 
@@ -59,7 +59,7 @@ Consulte também [Aumento de Ruído 1](../../../../../../compositing-graphs/node
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="noise-upscale-2.resources/noise2ex.png" />
+            <img src="noise-upscale-2.resources/noise-upscale-2-02.png" />
         </td>
     </tr>
 </table>

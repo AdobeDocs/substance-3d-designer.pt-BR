@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
 breadcrumb-title: ''
 description: Use o nó Renderização PBR para renderizar materiais baseados fisicamente com iluminação realista para visualizar a aparência do material.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderização PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-render.resources/pbr-render.png){width="250px"}
+![](pbr-render.resources/pbr-render-01.png){width="250px"}
 
 <b>Entrada:</b> Filtros Materiais > Utilitários PBR
 
@@ -69,7 +69,7 @@ Este nó requer pelo menos um material PBR completo para ser conectado. Idealmen
 | <b>Irradiância bruta</b> | Os dados de irradiância do mapa de opacidade final de renderização<br><br><i>Alpha:</i> |
 | <b>Specular bruto</b> | Os dados de specular da renderização final<br><br><i>Alpha:</i> mapa de sombras de Specular |
 | <b>Espaço Mundial Normal</b> | Os dados normais do espaço global do renderizador final<br><br><i>Alpha:</i> mapa de altura do espaço global |
-| <b>Espaço Tangente Normal</b> | Os dados normais de espaço tangente do mapa de altura do espaço tangente final<br><br><i>Alpha:</i> |
+| <b>Espaço tangente Normal</b> | Os dados normais de espaço tangente do mapa de altura do espaço tangente final<br><br><i>Alpha:</i> |
 | <b>UVs</b> | Os dados UV do mapa de opacidade final de renderização<br><br><i>Alpha:</i> |
 
 <a name="parameters"></a>
@@ -160,30 +160,30 @@ Todas as imagens foram geradas diretamente dentro do Designer, na viewport 2D, u
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-v2.jpg" />
+            <img src="pbr-render.resources/pbr-render-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-thermal-insulation-panel.jpg" />
+            <img src="pbr-render.resources/pbr-render-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-ominous-obsidian.jpg" />
+            <img src="pbr-render.resources/pbr-render-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-forest-gravel-1.jpg" />
+            <img src="pbr-render.resources/pbr-render-05.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-chesterfield-1.jpg" />
+            <img src="pbr-render.resources/pbr-render-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-carbon-fiber.jpg" />
+            <img src="pbr-render.resources/pbr-render-07.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/plane-inclined-lumber-tiles.jpg" />
+            <img src="pbr-render.resources/pbr-render-08.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/cylinder-medieval-leaded-glass-window.jpg" />
+            <img src="pbr-render.resources/pbr-render-09.jpg" />
         </td>
     </tr>
 </table>

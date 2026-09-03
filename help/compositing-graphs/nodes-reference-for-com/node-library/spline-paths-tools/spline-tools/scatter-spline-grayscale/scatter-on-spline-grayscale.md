@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
 breadcrumb-title: ''
-description: Use o nó Dispersão na spline de tons de cinza para distribuir elementos de tons de cinza nos caminhos da spline para obter padrões processuais.
+description: Use o nó Dispersão na spline em tons de cinza para distribuir elementos em tons de cinza nos caminhos da spline para padrões de procedimento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Scatter on Spline Grayscale
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersão em Tons de Cinza Spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2853'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-icon.png "Ícone de nó")
+![Ícone de nó](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-01.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -59,7 +59,7 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 | <b>Valor da spline</b> <i>Inteiro</i> | O número de splines de entrada. |
 | <b>Entrada de padrão #</b> <i>Tons de cinza</i> | O(s) padrão(ões) que devem ser espalhados ao longo dos splines. |
 | <b>Mapa de Escala</b> <i>Tons de cinza</i> | O mapa que controla a escala dos padrões dispersos. O efeito desse mapa é controlado pelo parâmetro &#39;Multiplicador de Entrada de Mapa de Escala&#39; e é combinado com outros parâmetros no grupo &#39;Tamanho&#39;. |
-| <b>Mapa de Heights</b> <i>Tons de cinza</i> | O mapa que controla o height dos padrões dispersos. O efeito desse mapa é controlado pelo parâmetro &#39;Multiplicador de entrada de Height&#39; e é combinado com outros parâmetros &#39;Cor&#39; no grupo &#39;Cor&#39;. |
+| <b>Mapa de altura</b> <i>Tons de cinza</i> | O mapa que controla o height dos padrões dispersos. O efeito desse mapa é controlado pelo parâmetro &#39;Multiplicador de entrada de Height&#39; e é combinado com outros parâmetros &#39;Cor&#39; no grupo &#39;Cor&#39;. |
 | <b>Mapa de máscaras</b> <i>Tons de cinza</i> | O mapa que controla o mascaramento dos padrões dispersos. O efeito desse mapa é controlado pelo parâmetro &#39;Limite de mapa de máscara&#39; e é combinado com outros parâmetros &#39;Máscara&#39; no grupo &#39;Cor&#39;. |
 
 <a name="outputs"></a>
@@ -102,7 +102,7 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 | <b>Centro de Deslocamento</b> <i>Precisão decimal 2</i> (Disponível quando o &#39;Modo de Distribuição&#39; está definido como &#39;Linear&#39;) | Aplica um deslocamento às duplicatas ao longo da spline em X (paralelo) e Y (perpendicular). |
 | <b>Ângulo de Propagação</b> <i>Precisão decimal</i> (Disponível quando o &#39;Modo de Distribuição&#39; está definido como &#39;Circular&#39;) | O arco do círculo virtual ao longo do qual as duplicatas são distribuídas, como o ângulo desse arco onde 1 é o círculo completo. |
 | <b>Distância de deslocamento</b> <i>Precisão decimal</i> (Disponível quando o &#39;Modo de Distribuição&#39; está definido como &#39;Circular&#39;) | O raio do círculo virtual ao longo do qual as duplicatas são distribuídas. |
-| <b>Rotação</b> <i>Flutuante</i> | Gira o círculo virtual ao longo do qual as duplicatas são distribuídas. |
+| <b>Rotação</b> <i>Precisão decimal</i> | Gira o círculo virtual ao longo do qual as duplicatas são distribuídas. |
 | <b>Atenuação De Início/Término De Deslocamento</b> <i>Flutuante2</i> | Avalia a distância do ponto médio da spline até seu início e fim ao aplicar deslocamentos a duplicatas.<br>Isso significa que os deslocamentos são diminuídos para duplicatas mais próximas aos extremos de uma spline. |
 | <b>Atenuação de deslocamento por Thickness</b> <i>Flutuante</i> | Fatores no thickness da spline ao aplicar deslocamentos a duplicatas.<br>Isso significa que os deslocamentos são reduzidos para duplicatas em uma parte de uma spline com um thickness inferior. |
 | <b>Tamanho</b> |  |
@@ -160,11 +160,11 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-03.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -176,11 +176,11 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-05.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -194,12 +194,12 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-06.gif "Exemplo de nó 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Demonstração de nó 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo2.gif "Demonstração de nó 2")
+![Demonstração de nó 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-07.gif "Demonstração de nó 2")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
 breadcrumb-title: ''
 description: Use o nó Scratches direcional para criar padrões de arranhões direcionais para adicionar efeitos de desgaste e danos aos materiais.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Arranhões direcionais
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Rabiscos direcionais - Ícone](directional-scratches.resources/directional_scratches.png "Rabiscos direcionais - Ícone"){width="200px"}
+![Rabiscos direcionais - Ícone](directional-scratches.resources/directional-scratches-01.png "Rabiscos direcionais - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -72,27 +72,12 @@ Uma dispersão aleatória de padrões de rabisco com ângulo e tamanho ajustáve
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Arranhões Direcionais - Exemplo 1](directional-scratches.resources/directional_scratches_1.png "Arranhões Direcionais - Exemplo 1"){zoomable="yes"}
+![Arranhões Direcionais - Exemplo 1](directional-scratches.resources/directional-scratches-02.png "Arranhões Direcionais - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Arranhões Direcionais - Exemplo 2](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.gif "Arranhões Direcionais - Exemplo 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Arranhões Direcionais - Exemplo 3](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.6.gif "Arranhões Direcionais - Exemplo 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Arranhões Direcionais - Exemplo 4](directional-scratches.resources/noise-directional-scrat-1.gif "Arranhões Direcionais - Exemplo 4"){zoomable="yes"}
+![Arranhões Direcionais - Exemplo 2](directional-scratches.resources/directional-scratches-03.gif "Arranhões Direcionais - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -102,7 +87,22 @@ Uma dispersão aleatória de padrões de rabisco com ângulo e tamanho ajustáve
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Arranhões Direcionais - Exemplo 5](directional-scratches.resources/noise-directional-scrat-2.gif "Arranhões Direcionais - Exemplo 5"){zoomable="yes"}
+![Arranhões Direcionais - Exemplo 3](directional-scratches.resources/directional-scratches-04.gif "Arranhões Direcionais - Exemplo 3"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Arranhões Direcionais - Exemplo 4](directional-scratches.resources/directional-scratches-05.gif "Arranhões Direcionais - Exemplo 4"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Arranhões Direcionais - Exemplo 5](directional-scratches.resources/directional-scratches-06.gif "Arranhões Direcionais - Exemplo 5"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

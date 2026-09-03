@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/operator-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/operator-nodes.html"
 breadcrumb-title: ''
 description: Acessar nós de operador em gráficos de funções do Substance 3D Designer para executar operações matemáticas e lógicas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Operador
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Os nós de operador permitem obter operações matemáticas clássicas nos nós de entrada:
 
-![](operator-nodes.resources/image2015-12-23-10-55-31.png)
+![](operator-nodes.resources/operator-nodes-01.png)
 
 >[!NOTE]
 >

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
 breadcrumb-title: ''
 description: Use o nó Sampler lado a lado para obter amostras e organizar blocos de texturas de entrada para criar padrões lado a lado no Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bloco Sampler
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-sampler.resources/tile-sampler.png){width="128px"}
+![](tile-sampler.resources/tile-sampler-01.png){width="128px"}
 
 <b>Em:</b> Geradores De Textura > Padrões
 
@@ -122,7 +122,7 @@ Certifique-se de estar familiarizado com o [Tile Generator](../../../../../../co
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-sampler.resources/tilesampler-ex2.png" /><br><i>O exemplo mostra como os parâmetros são orientados por mapas de entrada (Distribuição de Padrões, Escala, Rotação).</i>
+            <img src="tile-sampler.resources/tile-sampler-02.png" /><br><i>O exemplo mostra como os parâmetros são orientados por mapas de entrada (Distribuição de Padrões, Escala, Rotação).</i>
         </td>
     </tr>
 </table>

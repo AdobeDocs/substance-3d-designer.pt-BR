@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
-description: Solucionar problemas de visualização 3D no Substance 3D Designer, incluindo problemas de renderização, exibição e desempenho.
+description: Solucione problemas de Visualização 3D no Substance 3D Designer, incluindo problemas de renderização, exibição e desempenho.
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > 3D View issues
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemas de visualização 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 0%
@@ -101,7 +101,7 @@ Você pode continuar usando o renderizador OpenGL por padrão, usando a [nova op
 4. Defina a opção &#39;Renderizador padrão&#39; como &#39;OpenGL (deprecated)&#39;
 5. Clique em &#39;OK&#39; para validar as alterações
 
-Agora, todos os novos Visualização 3D usarão o renderizador OpenGL por padrão, o que permitirá que você continue trabalhando como antes.
+Agora, toda nova visualização 3D usará o renderizador OpenGL por padrão, o que permitirá que você continue trabalhando como antes.
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Depois de trabalhar nos dados enviados para a **saída [do** do Height](../../co
 
 **![(tick)](3d-view-issues.resources/check.svg) Etapas recomendadas**
 
-Verifique se os dados do height estão *convertidos em normais* que estão conectados à saída **Normal** [&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+Verifique se os dados do height estão *convertidos em normais* que estão conectados à saída **Normal** [](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
 Ao usar a técnica de **Deslocamento de mosaico** - consulte “objeto 3D plano” acima - os objetos podem *se deformar* para seguir os dados do height, mas sua superfície *não reagirá de forma diferente à luz* até que seus *normais* também sejam modificados para levar em conta os dados do height.
 
@@ -163,7 +163,7 @@ A solução é bem simples: conecte o último nó do fluxo que leva à saída do
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](3d-view-issues.resources/3dview-height-without-normals.gif){width="256px"}
+![](3d-view-issues.resources/3d-view-issues-01.gif){width="256px"}
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ Abra o menu **Editar** e selecione a opção **Preferências...**. Na janela [Pr
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](3d-view-issues.resources/demo-viewport-scaling-option.png){width="256px"}
+![](3d-view-issues.resources/3d-view-issues-02.png){width="256px"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
 breadcrumb-title: ''
 description: Use o nó Distorção de caminhos para distorcer texturas ao longo de curvas de caminho para criar padrões curvos e orgânicos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distorção de caminhos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](paths-warp.resources/paths-warp-icon.png "Ícone de nó")
+![Ícone de nó](paths-warp.resources/paths-warp-01.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -74,11 +74,11 @@ Deforme os Caminhos de entrada de acordo com a <b>Entrada de gradiente</b>. (Mes
 <table>
   <tr>
     <td>
-      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/paths-warp-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="paths-warp.resources/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
+      <img src="paths-warp.resources/paths-warp-03.jpg" alt="PathsWarp-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -90,11 +90,11 @@ Deforme os Caminhos de entrada de acordo com a <b>Entrada de gradiente</b>. (Mes
 <table>
   <tr>
     <td>
-      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/paths-warp-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="paths-warp.resources/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
+      <img src="paths-warp.resources/paths-warp-04.jpg" alt="PathsWarp-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -108,7 +108,7 @@ Deforme os Caminhos de entrada de acordo com a <b>Entrada de gradiente</b>. (Mes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](paths-warp.resources/PathsWarp-Demo1.gif "Exemplo de nó 1")
+![Exemplo de nó 1](paths-warp.resources/paths-warp-05.gif "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">

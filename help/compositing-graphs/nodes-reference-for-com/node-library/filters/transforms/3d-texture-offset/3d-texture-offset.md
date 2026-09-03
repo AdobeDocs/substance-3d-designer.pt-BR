@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
 breadcrumb-title: ''
-description: Use o nó Deslocamento de textura 3D para deslocar texturas no espaço 3D a fim de criar efeitos de paralaxe e variações de superfície.
+description: Use o nó Deslocamento de Textura 3D para deslocar texturas no espaço 3D a fim de criar efeitos de paralaxe e variações de superfície.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > 3D Texture Offset
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Deslocamento de textura 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 3%
@@ -28,12 +28,12 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3d-texture-offset.resources/3dtextureoffsetgrayscale.png){width="200px"}
+![](3d-texture-offset.resources/3d-texture-offset-01.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3d-texture-offset.resources/3dtextureoffsetcolor.png){width="200px"}
+![](3d-texture-offset.resources/3d-texture-offset-02.png){width="200px"}
 
 </td>
 </tr>
@@ -58,7 +58,7 @@ O nó **Deslocamento de Textura 3D** aplica uma *transformação de deslocamento
 
 |  |  |
 |:---|:---|
-| <b>Entrada</b> <i>Tons de cinza/Cor</i> | A <i>textura 3D</i> que descreve um objeto 3D.<br>O objeto é normalmente descrito em um <i>cubo de unidade</i>. |
+| <b>Entrada</b> <i>Tons de cinza/Cor</i> | A <i>textura 3D</i> descrevendo um objeto 3D.<br>O objeto é normalmente descrito em um <i>cubo de unidade</i>. |
 
 <a name="parameters"></a>
 
@@ -73,10 +73,10 @@ O nó **Deslocamento de Textura 3D** aplica uma *transformação de deslocamento
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-offset.resources/3dtextureoffset-variant.jpg" />
+            <img src="3d-texture-offset.resources/3d-texture-offset-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-offset.resources/3dtextureoffset-node.png" />
+            <img src="3d-texture-offset.resources/3d-texture-offset-04.png" />
         </td>
     </tr>
 </table>

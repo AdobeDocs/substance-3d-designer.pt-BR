@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
 breadcrumb-title: ''
-description: Use o nó Transformo Não Quadrado para aplicar transformações a texturas não quadradas com escala independente X e Y.
+description: Use o nó Transformação não quadrada para aplicar transformações a texturas não quadradas com dimensionamento independente de X e Y.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Non-Square Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Transformo Não Quadrado
+title: Transformação não quadrada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 4%
@@ -18,15 +18,15 @@ ht-degree: 4%
 ---
 
 
-# Transformo Não Quadrado
+# Transformação não quadrada
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](non-square-transform.resources/safe-transform.png)
+![](non-square-transform.resources/non-square-transform-01.png)
 
-![](non-square-transform.resources/safe-transform-grayscale.png)
+![](non-square-transform.resources/non-square-transform-02.png)
 
 <b>Entrada:</b> Filtros > Transformas
 
@@ -35,13 +35,13 @@ ht-degree: 4%
 
 ## Descrição
 
-Versão não segura para quadrados do [Transformo 2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md). Detecta automaticamente proporções não quadradas e pode transformar imagens de entrada quadradas em uma tela não quadrada.
+Versão não segura para quadrados de [Transformar 2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md). Detecta automaticamente proporções não quadradas e pode transformar imagens de entrada quadradas em uma tela não quadrada.
 
 Certifique-se de entender completamente os [Parâmetros de Gráfico](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md)para fazer o melhor uso deste nó, pois você precisará definir algumas configurações corretamente:
 
 * O tamanho do seu **gráfico** não deve ser quadrado, caso contrário, não há necessidade para este nó.
-* Defina o Tamanho de Saída do Transformo Não Quadrado **nó** como “*Relativo ao Pai*”.
-* Defina o modo de divisão em blocos gráficos do **nó** como “*Sem divisão em blocos gráficos*” se desejar transformar sua entrada em uma única posição.
+* Defina o Tamanho de Saída do **nó** de Transformação Não Quadrada como “*Relativo ao Pai*”.
+* Defina o modo de divisão em blocos gráficos do **nó** como “*Sem divisão em blocos gráficos*” se desejar transformar apenas a entrada em uma única posição.
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ Certifique-se de entender completamente os [Parâmetros de Gráfico](../../../..
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="non-square-transform.resources/nonsquare-ex.png" />
+            <img src="non-square-transform.resources/non-square-transform-03.png" />
         </td>
     </tr>
 </table>

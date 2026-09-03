@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
 breadcrumb-title: ''
 description: Use o nó Curvatura Sobel para detectar bordas de curvatura usando operadores Sobel para criar máscaras baseadas em bordas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curvatura Sobel
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](curvature-sobel.resources/curvature-sobel.png){width="128px"}
+![](curvature-sobel.resources/curvature-sobel-01.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -55,7 +55,7 @@ Esse nó é útil para realce ou escurecimento rápido de determinadas bordas. �
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="curvature-sobel.resources/curv-sobel-ex.png" />
+            <img src="curvature-sobel.resources/curvature-sobel-02.png" />
         </td>
     </tr>
 </table>

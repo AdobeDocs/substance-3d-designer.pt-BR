@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
 breadcrumb-title: ''
 description: Use o nó do filtro Sombras para gerar efeitos de sombra das texturas de entrada para adicionar profundidade e realismo aos materiais.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sombras (Nó de filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shadows-filter-node.resources/shadows-1.png){width="128px"}
+![](shadows-filter-node.resources/shadows-filter-node-01.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -57,7 +57,7 @@ Pode ser útil se você estiver logo após a sombra e não quiser trabalhar com 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shadows-filter-node.resources/shadow-ex.png" />
+            <img src="shadows-filter-node.resources/shadows-filter-node-02.png" />
         </td>
     </tr>
 </table>

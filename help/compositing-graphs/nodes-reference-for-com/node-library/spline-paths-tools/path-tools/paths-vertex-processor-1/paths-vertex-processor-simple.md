@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
 breadcrumb-title: ''
 description: Use o nó Processador de vértice de caminhos Simples para processar vértices de caminho com opções de transformação simplificadas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Caminhos Processador de vértice simples
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-icon.png "Ícone de nó")
+![Ícone de nó](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-01.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 Aplica uma transformação na posição dos vértices dos <b>Caminhos</b> de entrada.
 
 1. Edite a função de parâmetro <b>Função por vértice</b>;
-1. Use um nó <b>Get Precisão decimal2</b> da variável *vertex.pos*;
+1. Use um nó <b>Get Float2</b> da variável *vertex.pos*;
 1. Realize algumas operações nesse valor (por exemplo, multiplique-o para dimensionar os caminhos);
 1. Defina o resultado do seu cálculo como saída.
 
@@ -87,7 +87,7 @@ Você também pode acessar as variáveis *vertex.corner* (bool) e *path.id* (flo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](paths-vertex-processor-simple.resources/PathsVertexProcessor-Demo2.gif "Exemplo de nó 2")
+![Exemplo de nó 2](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-02.gif "Exemplo de nó 2")
 
 </td>
 <td style="border: 0;" valign="top">

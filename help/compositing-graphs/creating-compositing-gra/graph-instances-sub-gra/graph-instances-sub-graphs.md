@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: Use instâncias de gráfico e subgrafos para criar componentes de gráfico reutilizáveis e fluxos de trabalho de material modulares.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Instâncias e subgrafos do gráfico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Instâncias e subgrafos do gráfico
 
-![](graph-instances-sub-graphs.resources/sub-graph.png)
+![](graph-instances-sub-graphs.resources/graph-instances-sub-graphs-01.png)
 
 As instâncias de gráfico são nós que <b>fazem referência a outro gráfico</b>. Um gráfico referenciado por um nó de instância em um gráfico host pode ser chamado de <b>subgrafo</b> do gráfico host.
 
@@ -62,7 +62,7 @@ Observe que, embora os conceitos de ocorrência de gráfico e subgrafo também s
 
 ### É possível inspecionar o gráfico de origem de uma instância do gráfico?
 
-![(tick)](graph-instances-sub-graphs.resources/check.svg) Sim, e *somente* para instâncias de gráficos carregados de um **arquivo do Substance 3D (SBS)**. Estes nós de instância têm um rótulo *vermelho-escuro*.\
+![(tick)](graph-instances-sub-graphs.resources/check.svg) Sim, e *somente* para instâncias de gráficos carregados de um **arquivo Substance 3D (SBS)**. Estes nós de instância têm um rótulo *vermelho-escuro*.\
 Clique com o botão direito do mouse no nó para abrir seu menu contextual e selecione a opção **Abrir referência**.
 
 >[!NOTE]

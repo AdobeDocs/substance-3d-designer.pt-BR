@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ''
-description: Use o nó Relevo para criar efeitos em relevo nas texturas para adicionar profundidade e relevo aos detalhes da superfície.
+description: Use o nó Entalhe para criar efeitos em alto-relevo nas texturas para adicionar profundidade e relevo aos detalhes da superfície.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Emboss
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Entalhe
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Relevo](emboss.resources/comp_emboss_1.png "Nó atômico: Relevo"){width="200px"}
+![Nó atômico: Entalhe](emboss.resources/emboss-01.png "Nó atômico: Entalhe"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ Ou seja, o nó executa um sombreamento 2D simples com base em 2 entradas, simula
 </tr>
 </table>
 
-Esse nó não é usado com frequência para projetos do tipo PBR, mas pode servir em determinados casos em que você deseja uma iluminação simples e feita bake na textura. Como alternativa, o [Relevo com Brilho](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) e o [Relevo Uber](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) fornecem uma funcionalidade semelhante, mas mais ampla.
+Esse nó não é usado com frequência para projetos do tipo PBR, mas pode servir em determinados casos em que você deseja uma iluminação assada simples na textura. Como alternativa, o [Entalhe com Brilho](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) e o [Entalhe Uber](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) oferecem uma funcionalidade semelhante, porém mais ampla.
 
 <table>
 <tr style="border: 0;">

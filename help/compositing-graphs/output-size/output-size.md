@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Defina as configurações de tamanho de saída para gráficos de composição de Substance para controlar a resolução e a qualidade da textura.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tamanho da saída
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> Use o botão de bloqueio ![](output-size.resources/props-output-size-lock.jpg) para que o valor de Height *corresponda* ao valor de Largura.
+> Use o botão de bloqueio ![](output-size.resources/output-size-01.jpg) para que o valor de Height *corresponda* ao valor de Largura.
 
 <table>
 <tr style="border: 0;">
@@ -73,7 +73,7 @@ Isso também se aplica quando o valor do Tamanho de Saída é controlado por uma
 
 ## Tamanho relativo
 
-Quando a propriedade Tamanho de Saída usa um *Método de herança Relativo a...*[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), seu valor é expresso como um modificador *relativamente ao valor logarítmico herdado*.
+Quando a propriedade Tamanho de Saída usa um *Método de herança Relativo a...*[](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), seu valor é expresso como um modificador *relativamente ao valor logarítmico herdado*.
 
 Modificadores relativos à resolução herdada variam de -12 a +12 em uma escala logarítmica, com o padrão sendo 0. Isso significa que cada etapa acima ou abaixo resulta na duplicação ou na redução da resolução para a metade. A tabela à direita fornece um exemplo de como a resolução relativa é alterada em uma dimensão para um valor herdado de 9 (ou seja, 512 = 2^9) e 11 (ou seja, 2048 = 2^11):
 
@@ -98,7 +98,7 @@ Na maioria dos casos, o [método de herança](../../compositing-graphs/inheritan
 
 Exiba as propriedades de um nó ou gráfico clicando nesse item e, no painel [Propriedades](../../interface/properties/properties.md), localize a propriedade <b>Tamanho da Saída</b> na seção <b>Parâmetros base</b>. Clique no menu suspenso método de herança e selecione o método de herança desejado.
 
-![Método de herança de tamanho de saída](output-size.resources/change-mode.gif "Método de herança de tamanho de saída"){width="512px"}
+![Método de herança de tamanho de saída](output-size.resources/output-size-02.gif "Método de herança de tamanho de saída"){width="512px"}
 
 ## Exemplos de problemas
 
@@ -107,7 +107,7 @@ Se você for um novo usuário do [Adobe Substance 3D Designer](https://www.adobe
 +++Problema 1
 **![(erro)](output-size.resources/error.svg) Problema**
 
-![Exemplo de problema 1](output-size.resources/problem2-bad.png "Exemplo de problema 1")
+![Exemplo de problema 1](output-size.resources/output-size-03.png "Exemplo de problema 1")
 
 
 
@@ -117,7 +117,7 @@ Nas propriedades do gráfico, o método de herança da propriedade Tamanho de Sa
 
 **![(tick)](output-size.resources/check.svg) Solução**
 
-![Exemplo de problema 1 Solução](output-size.resources/problem2-good.png "Exemplo de problema 1 Solução")
+![Exemplo de problema 1 Solução](output-size.resources/output-size-04.png "Exemplo de problema 1 Solução")
 
 
 
@@ -128,7 +128,7 @@ Defina o método de herança do Tamanho de saída do gráfico como *Relativo ao 
 +++Problema 2
 **![(erro)](output-size.resources/error.svg) Problema**
 
-![Exemplo de problema 2](output-size.resources/problem1-bad.png "Exemplo de problema 2")
+![Exemplo de problema 2](output-size.resources/output-size-05.png "Exemplo de problema 2")
 
 
 
@@ -138,7 +138,7 @@ O problema vem do nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/
 
 **![(tick)](output-size.resources/check.svg) Solução**
 
-![Exemplo de solução do problema 2](output-size.resources/problem1-good.png "Exemplo de solução 2")
+![Exemplo de solução do problema 2](output-size.resources/output-size-06.png "Exemplo de solução 2")
 
 
 
@@ -149,7 +149,7 @@ Defina o método de herança do Tamanho de Saída do nó Bitmap como *Relativo a
 +++Problema 3
 **![(erro)](output-size.resources/error.svg) Problema**
 
-![Exemplo de problema 3](output-size.resources/problem3-bad.png "Exemplo de problema 3")
+![Exemplo de problema 3](output-size.resources/output-size-07.png "Exemplo de problema 3")
 
 
 
@@ -159,7 +159,7 @@ O problema é causado por um modificador relativo de 3 no nó [Transformação 2
 
 **![(tick)](output-size.resources/check.svg) Solução**
 
-![Exemplo de solução do problema 3](output-size.resources/problem3-good.png "Exemplo de solução 3")
+![Exemplo de solução do problema 3](output-size.resources/output-size-08.png "Exemplo de solução 3")
 
 
 

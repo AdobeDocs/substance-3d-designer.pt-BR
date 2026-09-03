@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: Entenda os avisos das dependências de recursos no Substance 3D Designer e como resolvê-los.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Avisos de dependências
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Há duas formas principais de corrigir esse problema:
 
    Em seguida, recarregue o pacote de host clicando nele com o botão direito do mouse no painel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) e selecionando a opção <b>Recarregar</b> no menu contextual.
 
-   ![&#x200B; Solução &#39;Pacote dependente inválido&#39; 1](warnings-from-dependencies.resources/warnings-dep-invalid-dependent-pkg.gif " Solução &#39;Pacote dependente inválido&#39; 1")
+   ![ Solução &#39;Pacote dependente inválido&#39; 1](warnings-from-dependencies.resources/warnings-from-dependencies-01.gif " Solução &#39;Pacote dependente inválido&#39; 1")
 1. <b>Realocar a dependência no pacote</b>
 
    Você pode realocar a dependência usando o [Gerenciador de dependências](../../interface/dependency-manager/dependency-manager.md). Clique em RMB no pacote de host no painel [Explorer](../../interface/the-explorer-window/the-explorer-window.md) e selecione a opção <b>Gerenciador de Dependências</b> no menu contextual.
@@ -47,7 +47,7 @@ Há duas formas principais de corrigir esse problema:
 
    Em seguida, recarregue o pacote de host clicando nele com o botão direito do mouse no painel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) e selecionando a opção <b>Recarregar</b> no menu contextual.
 
-   ![&#x200B; Solução &#39;Pacote dependente inválido&#39; 2](warnings-from-dependencies.resources/warnings-dep-invalid-dependent-pkg-2.gif " Solução &#39;Pacote dependente inválido&#39; 2")
+   ![ Solução &#39;Pacote dependente inválido&#39; 2](warnings-from-dependencies.resources/warnings-from-dependencies-02.gif " Solução &#39;Pacote dependente inválido&#39; 2")
 
 ## ![(erro)](warnings-from-dependencies.resources/error.svg) Verifique se o alias *&#39;X&#39;* está definido em seu projeto
 
@@ -57,7 +57,7 @@ Uma das dependências ou recursos do pacote está sendo carregada de um local co
 
 Pelo menos um dos [arquivos de projeto](../../interface/preferences-window/project-settings/project-settings.md) deve definir o alias que é relatado no aviso.
 
-![&#39;Verificar alias definido&#39; solução](warnings-from-dependencies.resources/warnings-dep-alias.gif "&#39;Verificar alias definido&#39; solução")
+![&#39;Verificar alias definido&#39; solução](warnings-from-dependencies.resources/warnings-from-dependencies-03.gif "&#39;Verificar alias definido&#39; solução")
 
 ## ![(erro)](warnings-from-dependencies.resources/error.svg) Nenhum arquivo correspondente a este recurso foi encontrado
 
@@ -73,12 +73,12 @@ Há duas formas principais de corrigir esse problema:
 
    Vá para o local especificado pelo atributo <b>Caminho do Arquivo</b> do recurso e verifique se existem arquivos seguindo o modelo. Caso contrário, restaure ou recrie o arquivo.
 
-   ![&#39;Nenhum arquivo correspondente ao recurso&#39; solução 1](warnings-from-dependencies.resources/warnings-dep-udim-2.gif "&#39;Nenhum arquivo correspondente ao recurso&#39; solução 1")
+   ![&#39;Nenhum arquivo correspondente ao recurso&#39; solução 1](warnings-from-dependencies.resources/warnings-from-dependencies-04.gif "&#39;Nenhum arquivo correspondente ao recurso&#39; solução 1")
 1. <b>Realocar os arquivos</b>
 
    Se os arquivos tiverem sido movidos ou renomeados, realoce-os clicando no RMB no item de recurso no painel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) e selecione a opção <b>Realocar</b> para vincular esse recurso ao *primeiro arquivo em um conjunto* de imagens UDIM do mesmo tipo.
 
-   ![&#39;Nenhum arquivo correspondente ao recurso&#39; solução 2](warnings-from-dependencies.resources/warnings-dep-udim.gif "&#39;Nenhum arquivo correspondente ao recurso&#39; solução 2")
+   ![&#39;Nenhum arquivo correspondente ao recurso&#39; solução 2](warnings-from-dependencies.resources/warnings-from-dependencies-05.gif "&#39;Nenhum arquivo correspondente ao recurso&#39; solução 2")
 
 ## ![(erro)](warnings-from-dependencies.resources/error.svg) Arquivo vinculado não encontrado
 
@@ -92,12 +92,12 @@ Há duas formas principais de corrigir esse problema:
 
    Vá para o local especificado pelo atributo <b>Caminho do Arquivo</b> do recurso e verifique se o arquivo existe. Caso contrário, restaure ou recrie o arquivo.
 
-   ![&#x200B; Solução &#39;Arquivo vinculado não encontrado&#39; 1](warnings-from-dependencies.resources/warnings-dep-file-not-found.gif " Solução &#39;Arquivo vinculado não encontrado&#39; 1")
+   ![ Solução &#39;Arquivo vinculado não encontrado&#39; 1](warnings-from-dependencies.resources/warnings-from-dependencies-06.gif " Solução &#39;Arquivo vinculado não encontrado&#39; 1")
 1. <b>Realocar o arquivo</b>
 
    Se o arquivo tiver sido movido ou renomeado, realoce-o clicando no RMB no item de recurso no painel [Explorador](../../interface/the-explorer-window/the-explorer-window.md) e selecione a opção <b>Realocar</b> para vincular esse recurso a outro arquivo do mesmo tipo.
 
-   ![&#x200B; Solução &#39;Arquivo vinculado não encontrado&#39; 2](warnings-from-dependencies.resources/warnings-dep-file-not-found-2.gif " Solução &#39;Arquivo vinculado não encontrado&#39; 2")
+   ![ Solução &#39;Arquivo vinculado não encontrado&#39; 2](warnings-from-dependencies.resources/warnings-from-dependencies-07.gif " Solução &#39;Arquivo vinculado não encontrado&#39; 2")
 
 ## ![(erro)](warnings-from-dependencies.resources/error.svg) Espaço de cores não encontrado
 
@@ -113,7 +113,7 @@ Como alternativa, adicione esse espaço de cores ao ambiente atual de [gerenciam
 >
 > Este aviso só é acionado ao usar um modo de gerenciamento de cores diferente de **Herdado** (que é semelhante a desativar o gerenciamento de cores). Você pode habilitar o gerenciamento de cores na seção **Gerenciamento de cores** das [Configurações do projeto](../../interface/preferences-window/project-settings/project-settings.md).
 
-Solução ![&#39;Espaço de cores não encontrado&#39;](warnings-from-dependencies.resources/warnings-dep-color-space.gif "&#39;Solução Espaço de cores não encontrado&#39;")
+Solução ![&#39;Espaço de cores não encontrado&#39;](warnings-from-dependencies.resources/warnings-from-dependencies-08.gif "&#39;Solução Espaço de cores não encontrado&#39;")
 
 ## ![(erro)](warnings-from-dependencies.resources/error.svg) Recurso de referência não encontrado
 
@@ -127,12 +127,12 @@ Há duas formas principais de corrigir esse problema:
 
    Verifique o conteúdo do pacote no painel [Explorer](../../interface/the-explorer-window/the-explorer-window.md) para obter o gráfico especificado na lista <b>Blocos UV</b>. Se não existir, restaure ou recrie o arquivo.
 
-   ![&#x200B; Solução &#39;Recurso de referência não encontrado&#39; 1](warnings-from-dependencies.resources/warnings-dep-udim-graph-2.gif " Solução &#39;Recurso de referência não encontrado&#39; 1")
+   ![ Solução &#39;Recurso de referência não encontrado&#39; 1](warnings-from-dependencies.resources/warnings-from-dependencies-09.gif " Solução &#39;Recurso de referência não encontrado&#39; 1")
 1. <b>Selecione outro gráfico</b>
 
    Atribua outro gráfico no pacote ao bloco UV.
 
-   ![&#x200B; Solução &#39;Recurso de referência não encontrado&#39; 1](warnings-from-dependencies.resources/warnings-dep-udim-graph.gif " Solução &#39;Recurso de referência não encontrado&#39; 2")
+   ![ Solução &#39;Recurso de referência não encontrado&#39; 1](warnings-from-dependencies.resources/warnings-from-dependencies-10.gif " Solução &#39;Recurso de referência não encontrado&#39; 2")
 
 ## ![(erro)](warnings-from-dependencies.resources/error.svg) blocos UV são atribuídos várias vezes
 
@@ -142,7 +142,7 @@ Um bloco UV para um [recurso de cena 3D](../3d-scene-resource/3d-scene-resource.
 
 Para cada conjunto UV de um recurso de malha 3D, verifique se nenhum índice UDIM está presente *mais de uma vez* na lista <b>Blocos UV</b>.
 
-![&#39;blocos UV foram atribuídos várias vezes&#39; solução](warnings-from-dependencies.resources/warnings-dep-udim-same.gif "&#39;blocos UV foram atribuídos várias vezes&#39; solução")
+![&#39;blocos UV foram atribuídos várias vezes&#39; solução](warnings-from-dependencies.resources/warnings-from-dependencies-11.gif "&#39;blocos UV foram atribuídos várias vezes&#39; solução")
 
 ## ![(erro)](warnings-from-dependencies.resources/error.svg) Blocos UV inválidos
 
@@ -156,4 +156,4 @@ Para cada conjunto UV de um recurso de malha 3D, verifique se todos os itens na 
 >
 > Este aviso não pode ser disparado por meio da interface do usuário, pois *somente* lista os UDIMs detectados no recurso vinculado. Modificar apenas os dados no arquivo do Substance 3D (SBS) *diretamente* pode fazer com que este aviso seja disparado.
 
-![&#39;Solução de blocos UV inválidos&#39;](warnings-from-dependencies.resources/warnings-dep-udim-invalid.gif "&#39;Solução de blocos UV inválidos&#39;")
+![&#39;Solução de blocos UV inválidos&#39;](warnings-from-dependencies.resources/warnings-from-dependencies-12.gif "&#39;Solução de blocos UV inválidos&#39;")

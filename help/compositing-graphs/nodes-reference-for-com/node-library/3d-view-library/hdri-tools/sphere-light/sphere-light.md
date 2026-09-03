@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
 breadcrumb-title: ''
 description: Use o nó Luz da esfera para adicionar fontes de luz esféricas a ambientes HDRI para um controle de iluminação aprimorado.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Luz da esfera
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](sphere-light.resources/panorama-sphere-light.png){width="200px"}
+![](sphere-light.resources/sphere-light-01.png){width="200px"}
 
 <b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
@@ -60,7 +60,7 @@ A luz da esfera é bastante versátil e tem opções que lhe permitem não só g
 | <b>Coordenadas de Posição</b> |  |
 | <b>Vetor para cima</b> <i>Z Para Cima, Y Para Cima</i> | Somente com o modo Posição mundial, determine a orientação do sistema de coordenadas. |
 | <b>Posição Mundial da Esfera</b> <i>-2.0 - 2.0</i> | Somente com o modo Posição mundial define a posição da esfera no espaço global. |
-| <b>Posição</b> | Somente com o modo de Distância da origem. Define a posição em relação ao centro. Pode ser manipulado na Visualização 2D. |
+| <b>Posição</b> | Somente com o modo de Distância da origem. Define a posição em relação ao centro. Pode ser manipulado no Visualização 2D. |
 | <b>Distância da origem</b> <i>0.0 - 20.0</i> | Somente com o modo de Distância da origem. Define a distância para a origem, afeta o tamanho visível da esfera. |
 | <b>Modo de Cores da Forma</b> <i>RGB, Temperatura (Kelvin), Entrada De Imagem</i> | Escolha o método a ser usado para definir a cor da forma. A Entrada de imagem permite o uso do segundo slot de entrada. |
 | <b>Cor</b> <i>(Valor da cor)</i> | Somente com o Modo de cor da forma definido como RGB. Escolhe a cor da forma. |
@@ -82,10 +82,10 @@ A luz da esfera é bastante versátil e tem opções que lhe permitem não só g
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="sphere-light.resources/sphere-light-ex.gif" />
+            <img src="sphere-light.resources/sphere-light-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="sphere-light.resources/spherelight-ex1.png" />
+            <img src="sphere-light.resources/sphere-light-03.png" />
         </td>
     </tr>
 </table>

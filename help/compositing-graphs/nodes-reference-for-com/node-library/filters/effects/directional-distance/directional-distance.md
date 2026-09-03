@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
 breadcrumb-title: ''
 description: Use o nó Distância direcional para calcular campos de distância em direções específicas para efeitos de procedimento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distância direcional
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Anisotrópico de Escala de Cinza Kuwahara](directional-distance.resources/directional_distance.png "Ícone Anisotrópico de Escala de Cinza Kuwahara"){width="200px"}
+![Ícone Anisotrópico de Escala de Cinza Kuwahara](directional-distance.resources/directional-distance-01.png "Ícone Anisotrópico de Escala de Cinza Kuwahara"){width="200px"}
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -88,11 +88,11 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_1_before.jpg" alt="directional_distance_example_1_before">
+      <img src="directional-distance.resources/directional-distance-02.jpg" alt="directional_distance_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_1_after.jpg" alt="directional_distance_example_1_after">
+      <img src="directional-distance.resources/directional-distance-03.jpg" alt="directional_distance_example_1_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_3_before.jpg" alt="directional_distance_example_3_before">
+      <img src="directional-distance.resources/directional-distance-04.jpg" alt="directional_distance_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_3_after.jpg" alt="directional_distance_example_3_after">
+      <img src="directional-distance.resources/directional-distance-05.jpg" alt="directional_distance_example_3_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -125,11 +125,11 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_2_before.jpg" alt="directional_distance_example_2_before">
+      <img src="directional-distance.resources/directional-distance-06.jpg" alt="directional_distance_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_2_after.jpg" alt="directional_distance_example_2_after">
+      <img src="directional-distance.resources/directional-distance-07.jpg" alt="directional_distance_example_2_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -141,11 +141,11 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_5_before.jpg" alt="directional_distance_example_5_before">
+      <img src="directional-distance.resources/directional-distance-08.jpg" alt="directional_distance_example_5_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_5_after.jpg" alt="directional_distance_example_5_after">
+      <img src="directional-distance.resources/directional-distance-09.jpg" alt="directional_distance_example_5_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -158,11 +158,11 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 <table>
   <tr>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_4_before.jpg" alt="directional_distance_example_4_before">
+      <img src="directional-distance.resources/directional-distance-10.jpg" alt="directional_distance_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="directional-distance.resources/directional_distance_example_4_after.jpg" alt="directional_distance_example_4_after">
+      <img src="directional-distance.resources/directional-distance-11.jpg" alt="directional_distance_example_4_after">
       <br><i>Depois</i>
     </td>
   </tr>

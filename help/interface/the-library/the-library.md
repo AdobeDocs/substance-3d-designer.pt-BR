@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: Use a Biblioteca no Substance 3D Designer para acessar e gerenciar predefinições de nó, materiais e conteúdo personalizado.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Biblioteca
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Esta página apresenta o painel da **Biblioteca** do Substance 3D Designer, seu layout e as ferramentas que ele oferece para pesquisa e filtragem de conteúdo.
 
-![Biblioteca](the-library.resources/library-main.png "Biblioteca")
+![Biblioteca](the-library.resources/the-library-01.png "Biblioteca")
 
 ## Visão geral
 
@@ -67,12 +67,12 @@ As categorias padrão incluem:
 * [Nós atômicos](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md): lista nós atômicos para [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md)
 * [Nós FX-Map](../../function-graphs/fxmaps/fxmaps.md): inclui nós específicos para gráficos computados por [nós FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 * [Nós de função](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/atomic-function-nodes.md): lista nós atômicos para [gráficos de função](../../function-graphs/function-graphs.md)
-* [geradores de Textura](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/texture-generators.md): contém nós que representam [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) que geram conteúdo de forma autônoma
+* [Geradores de textura](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/texture-generators.md): contêm nós que representam [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) que geram conteúdo de forma autônoma
 * [Filtros](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md): contém nós que representam [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) que modificam uma entrada
 * [Ferramentas de spline e caminhos](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md): o catálogo de nós [Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md) e [Paths](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)
 * [Função SDF](../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions): inclui nós para criação de Funções SDF 3D, a serem usados com os nós [respingo de forma v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) e [visualizador 3D](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)
 * [Funções](../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md): inclui nós que representam [gráficos de função](../../function-graphs/the-function-graph/the-function-graph.md)
-* [exibição 3D](../3d-view/3d-view.md): oferece conteúdo relacionado a mapas usados para iluminação baseada em imagem em uma cena 3D, como no [Visualização 3D](../../interface/3d-view/3d-view.md), como mapas de ambiente e nós para a criação de mapas de ambiente
+* [exibição 3D](../3d-view/3d-view.md): oferece conteúdo relacionado a mapas usados para iluminação baseada em imagem em uma cena 3D, como na [exibição 3D](../../interface/3d-view/3d-view.md), como mapas de ambiente e nós para a criação de mapas de ambiente
 * Materiais PBR: materiais pré-fabricados que podem ser usados como espaços reservados para testar outros nós, “receitas” ou uma configuração de espaço de trabalho personalizada. Para saber mais sobre a criação de materiais, recomendamos dar uma olhada em nossas [amostras de materiais](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) dedicadas.
 * [Valores](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md): nós para gerar valores simples em gráficos de Substance.
 
@@ -80,7 +80,7 @@ As categorias padrão incluem:
 
 O conteúdo da <b>Biblioteca</b> é exibido como *miniaturas rotuladas*. Essas miniaturas terão um aspecto diferente dependendo dos seguintes fatores:
 
-* [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) em arquivos [SBS](../../getting-started/overview/overview.md) e [SBSAR](../../getting-started/overview/overview.md) são representados por sua *primeira saída* ou por seu *ícone personalizado* se algum foi definido pelo autor do gráfico
+* [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) em arquivos [SBS](../../getting-started/overview/overview.md) e [SBSAR](../../getting-started/overview/overview.md) são representados por sua *primeira saída* ou por seu *ícone personalizado* se algum tiver sido definido pelo autor do gráfico
 * [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md) e [gráficos vetoriais (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) são representados por uma *renderização em miniatura* do próprio bitmap
 * [Cenas 3D](../../resources/3d-scene-resource/3d-scene-resource.md), [Gráficos de função](../../function-graphs/the-function-graph/the-function-graph.md), [fontes](../../resources/font-resource/font-resource.md) e arquivos [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) são representados por *ícones genéricos* para cada tipo
 
@@ -103,7 +103,7 @@ Você pode selecionar *vários* itens na seção <b>Conteúdo</b> mantendo a tec
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Descartando um nó da Biblioteca](the-library.resources/library-create-node.gif "Descartando um nó da Biblioteca")
+![Descartando um nó da Biblioteca](the-library.resources/the-library-02.gif "Descartando um nó da Biblioteca")
 
 </td>
 </tr>
@@ -112,14 +112,14 @@ Você pode selecionar *vários* itens na seção <b>Conteúdo</b> mantendo a tec
 ### Pesquisar um ativo por nome
 
 A barra <b>Pesquisar</b>, localizada na parte superior esquerda da seção <b>Conteúdo</b>, permite pesquisar *qualquer ativo por nome*. Ao procurar conteúdo dessa maneira, a seleção atual na seção <b>Categorias</b> é ignorada e o *conteúdo inteiro* da <b>Biblioteca</b> é pesquisado.\
-Você pode filtrar os resultados da pesquisa por *tipo de gráfico*, usando o ícone ![](the-library.resources/library-icon-search-filter.png) <b>Filtrar por...</b> ao lado da barra <b>Pesquisa</b>.
+Você pode filtrar os resultados da pesquisa por *tipo de gráfico*, usando o ícone ![](the-library.resources/the-library-03.png) <b>Filtrar por...</b> ao lado da barra <b>Pesquisa</b>.
 
 >[!NOTE]
 >
 > A barra de pesquisa levará em consideração o nome do ativo que você está procurando, mas também as *marcas* que o ativo pode conter ou a *categoria* à qual ele pertence.\
 > Por exemplo, digitar &#39;*Normal*&#39; listará todos os ativos que podem ser usados para gerar ou modificar um mapa normal. Esta é uma boa maneira de descobrir novos nós e, portanto, novas possibilidades!
 
-![Pesquisa de ativos na Biblioteca](the-library.resources/library-search-2.png "Pesquisa de ativos na Biblioteca")
+![Pesquisa de ativos na Biblioteca](the-library.resources/the-library-04.png "Pesquisa de ativos na Biblioteca")
 
 <table>
 <tr style="border: 0;">
@@ -127,12 +127,12 @@ Você pode filtrar os resultados da pesquisa por *tipo de gráfico*, usando o í
 
 ### Visualização de ativos da biblioteca
 
-Usando o botão suspenso ![](the-library.resources/library-icon-view-mode.png) <b>Modo de Exibição</b>, você pode selecionar o tamanho de exibição para itens de conteúdo.
+Usando o botão suspenso ![](the-library.resources/the-library-05.png) <b>Modo de Exibição</b>, você pode selecionar o tamanho de exibição para itens de conteúdo.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Modo de exibição de ativos da biblioteca](the-library.resources/library-display-modes.png "Modo de exibição de ativos da biblioteca")
+![Modo de exibição de ativos da biblioteca](the-library.resources/the-library-06.png "Modo de exibição de ativos da biblioteca")
 
 </td>
 </tr>
@@ -142,12 +142,12 @@ Usando o botão suspenso ![](the-library.resources/library-icon-view-mode.png) <
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-O botão ![](the-library.resources/library-icon-toggle-label.png) **Alternar Rótulos** permite exibir ou ocultar os rótulos dos nós.
+O botão ![](the-library.resources/the-library-07.png) **Alternar Rótulos** permite exibir ou ocultar os rótulos dos nós.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Alternar rótulo](the-library.resources/library-toggle-label.png "Alternar rótulo")
+![Alternar rótulo](the-library.resources/the-library-08.png "Alternar rótulo")
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ Ao colocar o cursor em um item de conteúdo, uma dica de ferramenta aparecerá a
 </td>
 <td style="border: 0;" valign="top">
 
-![Dica de ferramenta de informações do ativo](the-library.resources/library-item-tooltip.png "Dica de ferramenta de informações do ativo")
+![Dica de ferramenta de informações do ativo](the-library.resources/the-library-09.png "Dica de ferramenta de informações do ativo")
 
 </td>
 </tr>
@@ -180,13 +180,13 @@ Ao colocar o cursor em um item de conteúdo, uma dica de ferramenta aparecerá a
 
 ### Favoritos
 
-Você pode adicionar qualquer item da seção <b>Conteúdo</b> à lista <b>Favoritos</b> usando o botão ![](the-library.resources/library-icon-favoritepng.png) <b>Adicionar a Favoritos</b>. O botão também permite *remover* conteúdo desta lista se já estiver adicionado.\
+Você pode adicionar qualquer item da seção <b>Conteúdo</b> à lista <b>Favoritos</b> usando o botão ![](the-library.resources/the-library-10.png) <b>Adicionar a Favoritos</b>. O botão também permite *remover* conteúdo desta lista se já estiver adicionado.\
 Quando o conteúdo é adicionado a esta lista, ele fica disponível na categoria <b>Favoritos</b> da <b>Biblioteca</b> e será exibido na *parte superior* da lista de menus <b>Nó</b> ao procurar um nó no gráfico, desde que os termos de pesquisa correspondam a ele.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Favoritos na Biblioteca](the-library.resources/library-favourites.png "Favoritos na Biblioteca")
+![Favoritos na Biblioteca](the-library.resources/the-library-11.png "Favoritos na Biblioteca")
 
 </td>
 </tr>

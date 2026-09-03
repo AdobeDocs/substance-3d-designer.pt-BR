@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 13.0 para saber mais sobre novos nós, Substance Engine 9.0 e nós do portal.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Como mencionado na versão anterior, esta versão não é mais compatível com g
 
 *Data de lançamento: 6 de junho de 2023*
 
-![Material usando caminhos](version-13-0.resources/Paths2.png "Material usando caminhos")
+![Material usando caminhos](version-13-0.resources/version-13-0-01.png "Material usando caminhos")
 
 *Ilustração de [Celine Dameron](https://www.artstation.com/cline)*
 
@@ -39,7 +39,7 @@ Esta versão 13.0 traz muito conteúdo novo. Você encontrará principalmente du
 
 Todos esses nós oferecerão muitas possibilidades e terão, com certeza, muitas aplicações criativas. Confira a seção sobre [trabalhando com Caminhos e Ferramentas de linha flexível](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) para obter um tour pelos conceitos importantes a serem compreendidos para se familiarizar com esse conjunto de ferramentas.
 
-![Material que usa splines](version-13-0.resources/Splines.png "Material que usa splines")
+![Material que usa splines](version-13-0.resources/version-13-0-02.png "Material que usa splines")
 
 *Ilustração de [Louise Melin](https://www.artstation.com/troglodette)*
 
@@ -61,22 +61,22 @@ Você também pode criar <b>pontes </b>entre splines para ter um conjunto comple
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Cúbico De Spline](version-13-0.resources/SplineCubic-Demo.gif "Cúbico De Spline")
+![Cúbico De Spline](version-13-0.resources/version-13-0-03.gif "Cúbico De Spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Poli Quadrático de Spline](version-13-0.resources/SplinePolyQuadratic-Demo.gif "Poli Quadrático de Spline")
+![Poli Quadrático de Spline](version-13-0.resources/version-13-0-04.gif "Poli Quadrático de Spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Círculo com Spline](version-13-0.resources/SplineCircle-Demo.gif "Círculo com Spline")
+![Círculo com Spline](version-13-0.resources/version-13-0-05.gif "Círculo com Spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Lista de pontes de spline](version-13-0.resources/SplineBridge-List_Demo.gif "Lista de pontes de spline")
+![Lista de pontes de spline](version-13-0.resources/version-13-0-06.gif "Lista de pontes de spline")
 
 </td>
 </tr>
@@ -94,17 +94,17 @@ Também fornecemos ferramentas para retrabalhar e ajustar seus splines. Você en
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Transformação 2D De Spline](version-13-0.resources/Spline2DTransform-Demo1.gif "Transformação 2D De Spline")
+![Transformação 2D De Spline](version-13-0.resources/version-13-0-07.gif "Transformação 2D De Spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Distorção de spline](version-13-0.resources/SplineWarp-Demo.gif "Distorção de spline")
+![Distorção de spline](version-13-0.resources/version-13-0-08.gif "Distorção de spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Thickness de Exemplo de Spline](version-13-0.resources/SplineSampleThickness-Demo.gif "Thickness de Exemplo de Spline")
+![Thickness de Exemplo de Spline](version-13-0.resources/version-13-0-09.gif "Thickness de Exemplo de Spline")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -125,22 +125,22 @@ Graças ao [Preenchimento de spline](../../compositing-graphs/nodes-reference-fo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersão em Escala de Cinza de Spline](version-13-0.resources/ScatterOnSplineGrayscale-Demo.gif "Dispersão em Escala de Cinza de Spline")
+![Dispersão em Escala de Cinza de Spline](version-13-0.resources/version-13-0-10.gif "Dispersão em Escala de Cinza de Spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Preenchimento de spline](version-13-0.resources/SplineFill-Demo.gif "Preenchimento de spline")
+![Preenchimento de spline](version-13-0.resources/version-13-0-11.gif "Preenchimento de spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cor do mapeador de spline](version-13-0.resources/SplineMapperColor-Demo.gif "Cor do mapeador de spline")
+![Cor do mapeador de spline](version-13-0.resources/version-13-0-12.gif "Cor do mapeador de spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Mapeador de fluxo de spline](version-13-0.resources/SplineFlowMapper-Demo.gif "Mapeador de fluxo de spline")
+![Mapeador de fluxo de spline](version-13-0.resources/version-13-0-13.gif "Mapeador de fluxo de spline")
 
 </td>
 </tr>
@@ -150,18 +150,18 @@ Graças ao [Preenchimento de spline](../../compositing-graphs/nodes-reference-fo
 
 O nó [Máscara para caminhos](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) permite extrair a borda de um padrão em tons de cinza, na forma de uma lista de segmentos.
 
-Em seguida, você pode processar esses caminhos com os nós [Transformo 2D de caminho](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) ou [Distorção de caminhos](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) para ajustar de acordo com suas necessidades.  Graças ao nó [Caminhos para spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md), você pode converter seu Caminho em um Spline e, portanto, aproveitar todos os nós dedicados a splines mencionados anteriormente, como dispersão.
+Em seguida, você pode processar esses caminhos com os nós [Transformação de caminho 2D](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) ou [Distorção de caminhos](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) para ajustar de acordo com suas necessidades.  Graças ao nó [Caminhos para spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md), você pode converter seu Caminho em um Spline e, portanto, aproveitar todos os nós dedicados a splines mencionados anteriormente, como dispersão.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Mascarar para caminhos](version-13-0.resources/MaskToPaths-Demo2.gif "Mascarar para caminhos")
+![Mascarar para caminhos](version-13-0.resources/version-13-0-14.gif "Mascarar para caminhos")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Mascarar para Caminhos 2](version-13-0.resources/MaskToPaths-Demo1.gif "Mascarar para Caminhos 2")
+![Mascarar para Caminhos 2](version-13-0.resources/version-13-0-15.gif "Mascarar para Caminhos 2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -186,16 +186,16 @@ E para ajudá-lo a aprender todos esses novos nós, publicamos dois novos tutori
 
 Todos os novos nós listados acima são baseados na nova versão do Substance Engine, e eles estão aproveitando ao máximo seu novo recurso principal: <b>loops</b>.
 
-Os loops devem ser usados apenas dentro de [gráficos de função Substance](../../function-graphs/function-graphs.md) e é mais provável que você os implemente em um [Processador de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), um [Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) ou um [Processador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md). Os loops permitirão naturalmente que você repita facilmente uma função muitas vezes, até que uma condição seja respeitada. Ele vai ajudá-lo a clarear muito seus gráficos, e ganhar em precisão.
+Os loops devem ser usados apenas dentro dos [gráficos de função Substance](../../function-graphs/function-graphs.md) e é mais provável que você os implemente em um [Processador de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), um [Fx-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) ou um [Processador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md). Os loops permitirão naturalmente que você repita facilmente uma função muitas vezes, até que uma condição seja respeitada. Ele vai ajudá-lo a clarear muito seus gráficos, e ganhar em precisão.
 
 Este [tutorial](https://www.youtube.com/watch?v=Ggoy8G90oDI)dedicado ajudará você a começar a trabalhar com loops.
 
 O Substance Engine v9 também traz as seguintes melhorias:
 
-* Novo modo Sólido no editor de gradiente do nó [Mapa de gradiente](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) (ou seja, nenhuma interpolação)
+* Novo modo sólido no editor de gradiente do nó [Mapa de gradientes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) (ou seja, nenhuma interpolação)
 * Nó atômico pow() em gráficos de função Substance
 * Adicionar opções de quebra de borda (fixação à borda, repetição) em nós do Sampler
-* Amostragem mais próxima nos nós [Distorção](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) e [Deformação direcional](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
+* Amostragem mais próxima nos nós [Distorção](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) e [Distorção direcional](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
 
 ## Nó do portal
 
@@ -205,7 +205,7 @@ Graças a esse recurso, você pode melhorar a legibilidade do gráfico ocultando
 
 Este novo recurso está totalmente explicado neste [tutorial](https://www.adobe.com/go/designer-tutorial-portals) dedicado.
 
-![Nó do portal](version-13-0.resources/PortalNodeFinal.gif "Nó do portal")
+![Nó do portal](version-13-0.resources/version-13-0-16.gif "Nó do portal")
 
 ## Página inicial
 
@@ -216,9 +216,9 @@ Ao iniciar o Designer, você sabe que tem acesso a uma nova [tela inicial](../..
 * Uma página de aprendizado onde você pode encontrar links para recursos de aprendizado, como tutoriais para apresentar novos recursos ou para descobrir dicas rápidas;
 * Links diretos para a tela Novidades, a tela Sobre, o site da Substance 3D, o fórum da comunidade de suporte etc.
 
-![Tela inicial - Tela inicial](version-13-0.resources/HomeScreen.png "Tela inicial - Página inicial")
+![Tela inicial - Tela inicial](version-13-0.resources/version-13-0-17.png "Tela inicial - Página inicial")
 
-![Tela inicial - Saiba](version-13-0.resources/LearnPage.png "Tela inicial - Saiba")
+![Tela inicial - Saiba](version-13-0.resources/version-13-0-18.png "Tela inicial - Saiba")
 
 ## Novos idiomas
 
@@ -281,7 +281,7 @@ Lembre-se: se quiser alterar o idioma no Designer, basta acessar [Preferências]
 * [Mecanismo] Adicionar modo sólido ao gradiente
 * [Engine] Nó atômico pow() no Gráfico de funções
 * [Engine] Adicionar opções de quebra de borda (fixação à borda / repetição) no nó Sampler
-* [Engine] Amostragem mais próxima no nó Distorção e Distorção direcional
+* [Engine] Amostragem mais próxima no nó Distorcer e Deformação direcional
 * [Engine] Adiciona um modo “alfa perfurado” ao filtro Tornar Nítido para entradas de cores
 * [Engine] FxMap: Morfeta do Hemisfério
 * [Engine] Operações Atômicas Get/Set em gráficos de função

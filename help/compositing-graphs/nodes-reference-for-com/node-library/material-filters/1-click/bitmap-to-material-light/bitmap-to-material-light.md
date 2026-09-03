@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
 breadcrumb-title: ''
 description: Use o nó Bitmap para luz de material para converter rapidamente imagens bitmap em materiais com iluminação otimizada para workflows rápidos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bitmap para Luz de Material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bitmap-to-material-light.resources/b2m-light.png)
+![](bitmap-to-material-light.resources/bitmap-to-material-light-01.png)
 
 <b>Entrada:</b> Filtros Materiais > 1 clique
 
@@ -33,7 +33,7 @@ ht-degree: 11%
 
 ## Descrição
 
-Este nó converte uma única entrada Difusão/Basecolor em um material completo. Como a versão simples e “leve” do Bitmap2Material completo do [Allegorithmic, que pode ser comprado separadamente](https://www.allegorithmic.com/products/bitmap2material), ela dá a você um pouco do gosto da versão completa. Pode funcionar bem para casos mais simples.
+Este nó converte uma única entrada Difusa/Basecolor em um material completo. Como a versão simples e “leve” do Bitmap2Material completo do [Allegorithmic, que pode ser comprado separadamente](https://www.allegorithmic.com/products/bitmap2material), ela dá a você um pouco do gosto da versão completa. Pode funcionar bem para casos mais simples.
 
 Embora não haja garantia de resultar em materiais perfeitos e corretos para PBR, essa é uma maneira boa e rápida de começar se você tiver apenas uma única imagem e quiser um material completo.
 

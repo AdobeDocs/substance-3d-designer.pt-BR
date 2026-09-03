@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
 breadcrumb-title: ''
-description: Use o nó Mesclagem de ajuste de material para mesclar ajustes de material entre materiais a fim de ajustar os efeitos compostos.
+description: Use o nó Combinar de ajuste de material para mesclar ajustes de material entre materiais para ajustar os efeitos compostos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Adjustment Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Mesclagem de ajuste de material
+title: Combinar de ajuste de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 ---
 
 
-# Mesclagem de ajuste de material
+# Combinar de ajuste de material
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-adjustment-blend.resources/material-adjustment-blend.png){width="128px"}
+![](material-adjustment-blend.resources/material-adjustment-blend-01.png){width="128px"}
 
 <b>Em:</b> Filtros Materiais > Mesclagem
 
@@ -57,8 +57,8 @@ Este nó permite o ajuste de todos e quaisquer canais de um material completo, c
 |  |  |
 |:---|:---|
 | <b>Canais</b> | Ativa e desativa os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza.<br><br>Isso também ativa e desativa a aparência dos grupos relevantes do canal. |
-| <b>Difusa</b> | Executa operações de ajuste no canal Difuso, em áreas definidas pela máscara. |
-| <b>Cor base</b> | Executa operações de ajuste no canal Cor base, em áreas definidas pela máscara. |
+| <b>Difusa</b> | Executa operações de ajuste no canal da Difusão, em áreas definidas pela máscara. |
+| <b>Cor base</b> | Executa operações de ajuste no canal de Cor de base, em áreas definidas pela máscara. |
 | <b>Normal</b> |  |
 | <b>Intensidade</b> <i>0.0 - 1.0</i> | Reduz a intensidade normal |
 | <b>Specular</b> | Executa operações de ajuste no canal de Specular, em áreas definidas pela máscara. |

@@ -1,7 +1,7 @@
 ---
 title: Cor do mapeador do respingo de forma v2
 description: Designer > Gráficos de composição de Substance > Referência de nós para gráficos de composição de Substance > Biblioteca de nós > Gerador > Padrão > Cor do mapeador Shape splatter v2
-source-git-commit: f688c618b01d3ca8059e67cf0797268e44e94b17
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de cor do mapeador de respingo de forma v2](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color.png "Cor do mapeador de respingo de forma v2")
+![Ícone de cor do mapeador de respingo de forma v2](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-01.png "Cor do mapeador de respingo de forma v2")
 
 <b>Entrada:</b> Gerador > Padrão
 
@@ -86,8 +86,8 @@ Consulte também [Escala de cinza do mapeador de respingo de forma v2](../shape-
 |                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |:-------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>Modo de projeção</b> *Inteiro* | O método de projetar as imagens de entrada nas formas:<br><br>- <b>De UVs de respingo:</b> use os UVs fornecidos pelo nó &#39;Shape splatter v2&#39;.<br>- <b>Triplanar:</b> use a projeção triplanar para mapear as imagens nos eixos XYZ locais das formas.<br>- <b>Função personalizada:</b> crie um gráfico de função para definir o mapeamento das imagens nas formas. |
-| <b>Função personalizada</b> *Flutuante4* | Especifica a cor RGBA por pixel das formas como um Float4.<br><br>As seguintes variáveis estão disponíveis:<br>- <code>shape.position.os</code> (Float3) A posição da superfície da forma no espaço de objeto.<br>- <code>shape.position.ws</code> (Float3) A posição da superfície da forma no espaço mundial*.<br>- <code>shape.normal.os</code> (Float3) Os normais da superfície da forma no espaço de objeto.<br> - <code>shape.normal.ws</code> (Float3) Os normais da superfície da forma no espaço mundial*.<br>- <code>shape.id</code> (Flutuante) O identificador exclusivo da forma.<br>- <code>material.id</code> (Flutuante) A ID de material da superfície da forma, definida pelo nó “Shape splatter v2”.<br><br>*: O espaço global da forma está centralizado em sua tabela dinâmica e não leva em conta o height da forma. Isso significa que a única diferença com o espaço do objeto é a orientação.<br><br>Se a amostragem das entradas do nó &#39;Shape splatter v2 mapper color&#39; for necessária, estes <b>slots de entrada do nó </b> de cor de amostra podem ser usados:<br>- 0: Grade de atlas<br>- 1-8: Entrada de padrão 1-8 |
-| <b>É mapa normal</b> *Booleano* | Especifica se as imagens fornecidas para a <b>entrada de Grade de atlas</b> ou a <b>entrada de padrão #</b> são mapas normais.<br><br>Isso é necessário para habilitar o processamento necessário para manipular corretamente os vetores normais e aplicá-los nas formas. |
+| <b>Função personalizada</b> *Flutuante4* | Especifica a cor RGBA por pixel das formas como uma Precisão decimal 4.<br><br>As seguintes variáveis estão disponíveis:<br>- <code>shape.position.os</code> (Precisão decimal 3) A posição da superfície da forma no espaço de objeto.<br>- <code>shape.position.ws</code> (Precisão decimal 3) A posição da superfície da forma no espaço mundial*.<br>- <code>shape.normal.os</code> (Precisão decimal 3) Os normais da superfície da forma no espaço de objeto.<br> - <code>shape.normal.ws</code> (Precisão decimal 3) Os normais da superfície da forma no espaço mundial*.<br>- <code>shape.id</code> (Precisão decimal) O identificador exclusivo da forma.<br>- <code>material.id</code> (Precisão decimal) A ID de material da superfície da forma, definida pelo nó “Shape splatter v2”.<br><br>*: O espaço de mundo da forma está centralizado em sua tabela dinâmica e não leva em conta o height da forma. Isso significa que a única diferença com o espaço do objeto é a orientação.<br><br>Se a amostragem das entradas do nó &#39;Shape splatter v2 mapper color&#39; for necessária, estes <b>slots de entrada do nó </b> de cor de amostra podem ser usados:<br>- 0: Grade de atlas<br>- 1-8: Entrada de padrão 1-8 |
+| <b>É mapa normal</b> *Booleano* | Especifica se as imagens fornecidas à <b>entrada de Grade de atlas</b> ou à <b>entrada de padrão #</b> são mapas normais.<br><br>Isso é necessário para habilitar o processamento necessário para manipular corretamente os vetores normais e aplicá-los nas formas. |
 | <b>Formato normal de entrada</b> *Inteiro* | O formato dos mapas normais fornecidos para a <b>entrada de Grade de atlas</b> ou a <b>entrada de padrão #</b>.<br><br>Inverte efetivamente o canal verde.<br><br>- <b>DirectX:</b> o eixo Y aponta para cima.<br>- <b>OpenGL:</b> O eixo Y aponta para baixo. |
 | <b>Contraste de mesclagem</b> *Flutuante* | A nitidez das transições entre projeções planas, em que 1 significa que não há gradiente de fade. |
 | <b>Projeção de imagem</b> *Inteiro* | A quantidade de imagens de entrada de <b>Padrão #</b> distribuídas pelas projeções planas que contribuem para o mapeamento triplanar.<br><br>Para cobrir todos os lados de uma forma, uma projeção planar frontal (+) e posterior (-) é executada em cada eixo, totalizando 6 projeções.<br><br>- <b>1 imagem:</b> A entrada Pattern 1 é usada para todas as projeções planares.<br>- <b>3 imagens:</b> Uma entrada Pattern separada é usada para a projeção +/- de cada eixo.<br>- <b>6 imagens:</b> Cada projeção usa uma entrada Pattern separada.<br>- <b>1 imagem por material ID:</b> Use uma entrada Pattern separada por ID de material, onde cada imagem é usada para todas as projeções planares. |
@@ -97,8 +97,8 @@ Consulte também [Escala de cinza do mapeador de respingo de forma v2](../shape-
 | <b>Número de entrada padrão</b> *Inteiro* | A quantidade de imagens de entrada <b>Padrão #</b> que devem ser mapeadas nas formas. |
 | <b>Índice de imagem</b> *Inteiro* | O índice do padrão de entrada da <b>Entrada de padrão #</b> ou da <b>Entrada de Grade de atlas</b> que deve ser mapeada nas formas. |
 | <b>Intervalo aleatório</b> *Inteiro2* | O intervalo de índices da <b>Entrada de padrão #</b> ou da <b>entrada de Grade de atlas</b> em que o padrão deve ser selecionado aleatoriamente para ser mapeado nas formas. |
-| <b>Ajuste HSL</b> *Flutuante3* | Um deslocamento aplicado uniformemente à matiz, à saturação e à luminância (HSL) de todas as formas. |
-| <b>HSL aleatório</b> *Flutuante3* | Um deslocamento aleatório positivo ou negativo aplicado à matiz, saturação e luminância (HSL) das formas, até aos valores especificados. |
+| <b>Ajuste de HSL</b> *Flutuante3* | Um deslocamento aplicado uniformemente à matiz, à saturação e à luminância (HSL) de todas as formas. |
+| <b>HSL aleatório</b> *Flutuante3* | Um deslocamento aleatório positivo ou negativo aplicado à matiz, saturação e luminância (HSL) das formas, até os valores especificados. |
 | <b>Opacidade da entrada de cores</b> *Flutuante* | A intensidade da contribuição da <b>entrada de cores</b> para as cores das formas, de acordo com o <b>modo de mesclagem de entrada de cores</b> selecionado. |
 | <b>Modo de mesclagem de entrada de cores</b> *Inteiro* | A operação de mesclagem de cores usada para combinar as imagens de primeiro plano e plano de fundo.<br><br>Essas operações são idênticas às suas contrapartes no nó <b>Mesclagem</b>.<br><br>Modos disponíveis:<br>- <b>Copiar</b><br>- <b>Adicionar (subexposição linear)</b><br>- <b>Subtrair</b><br>- <b>Multiplicar</b><br>- <b>Sobreposição</b> |
 | <b>Ângulo normal aleatório</b> *Flutuante* | Um vetor de direção é gerado a partir da origem do vetor normal para um ponto aleatório na base de um cone em torno do vetor normal, em seguida, o vetor normal é misturado com esse vetor de direção aleatório.<br><br>Este parâmetro ajusta o <i>ângulo do cone</i>, onde 1 é um hemisfério e 0 significa que o vetor de direção é igual ao vetor normal. |
@@ -113,24 +113,24 @@ Consulte também [Escala de cinza do mapeador de respingo de forma v2](../shape-
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-triplanar-02.gif" /><br><i>Mapeamento triplanar</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-02.gif" /><br><i>Mapeamento triplanar</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" /><br><i>Mapeamento normal</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-03.gif" /><br><i>Mapeamento normal</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" /><br><i>Mapeamento por ID de material de formas SDF</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-04.jpg" /><br><i>Mapeamento por ID de material de formas SDF</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" /><br><i>Ajuste de divisão em blocos com mapeamento triplanar</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-05.gif" /><br><i>Ajuste de divisão em blocos com mapeamento triplanar</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-01.jpg" /><br><i>Mapeamento por ID de material da forma do cilindro</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-06.jpg" /><br><i>Mapeamento por ID de material da forma do cilindro</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-graph.png" /><br><i>Nó no contexto de um gráfico</i>” /&gt;
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-07.png" /><br><i>Nó no contexto de um gráfico</i>” /&gt;
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
 description: Solucione problemas de saída de imagem incorreta no Substance 3D Designer e saiba como corrigir problemas de renderização.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Saída de imagem incorreta
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Se você não precisa especificamente trabalhar com imagens HDR, então a maiori
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/demo-stepping-8-bit.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-2.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-3.png){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-01.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-02.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-03.png){width="256px"}
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ A saída aparece em baixa resolução.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-04.jpg){width="256px"}
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ A saída aparece em baixa resolução.
 
 <b>![(tick)](incorrect-image-output.resources/check.svg) Etapas recomendadas</b>
 
-Verifique se a propriedade [Tamanho de saída](../../compositing-graphs/output-size/output-size.md) de todos os nós [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) está definida como o método de herança [&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) ** Absoluto.
+Verifique se a propriedade [Tamanho de saída](../../compositing-graphs/output-size/output-size.md) de todos os nós [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) está definida como o método de herança ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) *[* Absoluto.
 
 Caso contrário, o [recurso de bitmap](../../resources/bitmap-resource/bitmap-resource.md) referenciado nele será salvo na resolução padrão de 256\*256 no arquivo publicado do Substance 3D, o que* afetará a qualidade* de uma ou mais saídas.
 
@@ -101,12 +101,12 @@ Caso contrário, o [recurso de bitmap](../../resources/bitmap-resource/bitmap-re
 
 **![(erro)](incorrect-image-output.resources/error.svg) Problema**
 
-As formas ficam um pouco desfocadas após o uso de alguns nós, como [Transformação 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) ou [Mesclagem](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
+As formas ficam um pouco desfocadas após o uso de alguns nós, como [Transformação 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) ou [Combinar](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/issues-bilinear.jpg){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-05.jpg){width="256px"}
 
 </td>
 </tr>
@@ -119,9 +119,9 @@ Ao reorganizar pixels em uma imagem, por exemplo, ao redimensionar uma forma ou 
 * **Mais próximo**: o pixel será mapeado para o destino *no estado em que se encontra* na coordenada correspondente. Se o destino for de resolução mais baixa, o pixel pode ser totalmente ignorado. Se o destino tiver uma resolução maior, ele será mapeado para todos os pixels que cubram sua extensão. A saída é *mais nítida* e terá uma aparência levemente *com alias*.
 * **Filtragem bilinear**: um processo de filtragem é aplicado à imagem de origem para que os pixels sejam mapeados para a resolução de destino de forma que *suavize* as transições entre pixels. A saída é *mais suave* e parecerá levemente *desfocada*.
 
-O nó [2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) de transformação fornece uma opção de **método de filtragem** para selecionar qual destes dois métodos de mapeamento deve ser usado.
+O nó [Transformação 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) fornece uma opção de **método de filtragem** para selecionar qual destes dois métodos de mapeamento deve ser usado.
 
-A maioria dos nós, por exemplo, [Mesclagem](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md), usa como padrão a *filtragem bilinear* ao obter a amostra de uma textura de entrada de resolução diferente, o que pode introduzir um desfoque indesejado.\
-Como o nó 2D de Transformação é *atômico* - portanto, muito leve - ele pode ser usado *mesmo que nenhuma transformação seja necessária* para alterar a resolução de uma textura usando sua propriedade [Tamanho de saída](../../compositing-graphs/output-size/output-size.md) antes de enviar a textura para outro nó, para que você possa *controlar o impacto* desse redimensionamento.
+A maioria dos nós, por exemplo, [Combinar](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md), usa como padrão a *filtragem bilinear* ao obter a amostra de uma textura de entrada de resolução diferente, o que pode gerar um desfoque indesejado.\
+Como o nó Transformação 2D é *atômico* - portanto, muito leve - ele pode ser usado *mesmo que nenhuma transformação seja necessária* para alterar uma resolução de textura usando sua propriedade [Tamanho de saída](../../compositing-graphs/output-size/output-size.md) antes de enviar a textura para outro nó, para que você possa *controlar o impacto* desse redimensionamento.
 
-No [gráfico de função](../../function-graphs/function-graphs.md) do nó [processador de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), os nós **Amostra** incluem a *mesma opção* para controlar como a textura amostrada deve ser mapeada para a resolução do nó.
+No [gráfico de função](../../function-graphs/function-graphs.md) do nó [Processador de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), os nós **Amostra** incluem a *mesma opção* para controlar como a textura amostrada deve ser mapeada para a resolução do nó.

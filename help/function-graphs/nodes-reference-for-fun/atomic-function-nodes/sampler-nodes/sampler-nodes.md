@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
-description: Acesse nós do sampler nos gráficos de funções do Substance 3D Designer para obter texturas de amostra e extrair valores de cores.
+description: Acesse nós do sampler nos gráficos de função do Substance 3D Designer para obter amostras de texturas e extrair valores de cores.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Samplers
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Amostragem
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 # Nós do Sampler
 
-![Nós do Sampler](sampler-nodes.resources/image2016-1-12-14-45-43.png "Nós do Sampler")
+![Nós do Sampler](sampler-nodes.resources/sampler-nodes-01.png "Nós do Sampler")
 
 Estes nós obtêm uma amostra de um valor em uma imagem de entrada nas coordenadas 2D fornecidas:
 
-<b>Cinza de Amostra</b> faz a amostragem de um valor de luminância na <b>Posição</b> de entrada em uma imagem em tons de cinza e o gera como um valor de <b>Precisão decimal</b>.
+<b>Cinza de Amostra</b> faz a amostragem de um valor de luminância na <b>Posição</b> de entrada em uma imagem em tons de cinza e o gera como um valor de <b>Flutuante</b>.
 
-<b>Amostra de cor</b> faz a amostragem de um valor RGBA na entrada <b>Posição </b> em uma imagem colorida e a gera como um valor de <b>Precisão decimal 4</b>, em que os componentes R, G, B e A são mapeados para os componentes X, Y, Z e W, respectivamente.
+<b>Amostra de cor</b> faz a amostragem de um valor RGBA na entrada <b>Posição </b> em uma imagem colorida e a gera como um valor <b>Flutuante4</b>, em que os componentes R, G, B e A são mapeados para os componentes X, Y, Z e W, respectivamente.
 
 <table>
 <tr style="border: 0;">
@@ -39,7 +39,7 @@ As posições fora deste intervalo são tratadas de acordo com o <b>Modo de ende
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Coordenadas de pixel](sampler-nodes.resources/samplercoords.png "Coordenadas de pixel")
+![Coordenadas de pixel](sampler-nodes.resources/sampler-nodes-02.png "Coordenadas de pixel")
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ As posições fora deste intervalo são tratadas de acordo com o <b>Modo de ende
 
 >[!NOTE]
 >
-> A entrada <b>Position</b> deve ser um valor Precisão decimal 2 onde as coordenadas X e Y da imagem são mapeadas para os componentes X e Y do valor, respectivamente
+> A entrada <b>Position</b> deve ser um valor Float2 em que as coordenadas X e Y da imagem são mapeadas para os componentes X e Y do valor, respectivamente
 
 ## Parâmetros
 
@@ -79,7 +79,7 @@ Executa um loop sobre o intervalo [0;1] à medida que o valor aumenta.\
 Por exemplo: 3.4 é 0.4, -1.7 é 0.3.
 
 <b>Aperte para a borda</b>\
-Limita valores fora do intervalo [0;1] para o limite mais próximo.\
+Restringe valores fora do intervalo [0;1] para o limite mais próximo.\
 Por exemplo: .3.4 é 1, -1.7 é 0.
 
 +++

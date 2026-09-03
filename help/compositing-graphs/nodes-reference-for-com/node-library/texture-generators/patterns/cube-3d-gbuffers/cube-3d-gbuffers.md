@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
 breadcrumb-title: ''
 description: Use o nó Cubo 3D GBuffers para gerar buffers de geometria a partir de projeções de cubo 3D para efeitos de renderização avançados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cubo 3D GBuffers
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cube-3d-gbuffers.resources/cube3d.png){width="128px"}
+![](cube-3d-gbuffers.resources/cube-3d-gbuffers-01.png){width="128px"}
 
 <b>Em:</b> Geradores De Textura > Padrões
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Descrição
 
-Versão avançada do [Cubo 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) que também gera mapas de posição e normais em vez de apenas mapas de altura.
+Versão avançada do [Cubo 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) que também gera posições e mapas normais em vez de apenas mapas de altura.
 
 </td>
 </tr>

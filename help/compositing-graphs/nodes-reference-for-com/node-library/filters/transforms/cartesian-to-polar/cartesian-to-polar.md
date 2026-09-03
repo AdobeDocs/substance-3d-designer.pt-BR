@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
 breadcrumb-title: ''
 description: Use o nó Cartesiano para polar para converter texturas de Cartesiano para sistemas de coordenadas polares para criar efeitos radiais.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cartesiano para Polar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 3%
@@ -24,9 +24,9 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cartesian-to-polar.resources/cartesian-to-polar.png){width="128px"}
+![](cartesian-to-polar.resources/cartesian-to-polar-01.png){width="128px"}
 
-![](cartesian-to-polar.resources/cartesian-to-polar-grayscale.png){width="128px"}
+![](cartesian-to-polar.resources/cartesian-to-polar-02.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Transformas
 
@@ -46,7 +46,7 @@ Converte uma entrada com coordenadas cartesianas (X&amp;Y) em coordenadas polare
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="cartesian-to-polar.resources/cartesian-to-polar-example.png" />
+            <img src="cartesian-to-polar.resources/cartesian-to-polar-03.png" />
         </td>
     </tr>
 </table>

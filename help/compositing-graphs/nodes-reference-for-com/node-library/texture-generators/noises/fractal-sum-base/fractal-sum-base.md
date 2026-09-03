@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
 breadcrumb-title: ''
 description: Use o nó Base de Soma fractal para gerar padrões de ruído fractal de base para criar texturas orgânicas complexas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Soma fractal base
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Base de Soma fractal - Ícone](fractal-sum-base.resources/fractal_sum_base.png "Base de Soma fractal - Ícone"){width="200px"}
+![Base de Soma fractal - Ícone](fractal-sum-base.resources/fractal-sum-base-01.png "Base de Soma fractal - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -72,12 +72,12 @@ Veja também: [Soma fractal 1](../../../../../../compositing-graphs/nodes-refere
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Base de Soma fractal - Exemplo 1](fractal-sum-base.resources/fractal_sum_base_1.png "Base de Soma fractal - Exemplo 1"){zoomable="yes"}
+![Base de Soma fractal - Exemplo 1](fractal-sum-base.resources/fractal-sum-base-02.png "Base de Soma fractal - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Base de Soma fractal - Exemplo 2](fractal-sum-base.resources/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "Base de Soma fractal - Exemplo 2"){zoomable="yes"}
+![Base de Soma fractal - Exemplo 2](fractal-sum-base.resources/fractal-sum-base-03.gif "Base de Soma fractal - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>

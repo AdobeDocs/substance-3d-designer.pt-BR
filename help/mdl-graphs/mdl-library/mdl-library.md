@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Biblioteca MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Se a biblioteca [vMaterials](https://developer.nvidia.com/vmaterials) da NVIDIA 
 </td>
 <td style="border: 0;" valign="top">
 
-![Recursos MDL na Biblioteca](mdl-library.resources/mdl-library.png "Recursos MDL na Biblioteca")
+![Recursos MDL na Biblioteca](mdl-library.resources/mdl-library-01.png "Recursos MDL na Biblioteca")
 
 Seção *”mdl” na Biblioteca, a biblioteca vMaterials e o conteúdo personalizado estão enquadrados*
 
@@ -71,6 +71,6 @@ Abra o menu <b>Materiais</b> e abra um *submenu de material da cena* para procur
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
 * [Gráficos MDL](../../mdl-graphs/mdl-graphs.md) carregados
 
-![Materiais MDL na Visualização 3D](mdl-library.resources/mdl-apply-in-3dview-material-list.png "Materiais MDL na Visualização 3D")
+![Materiais MDL na Visualização 3D](mdl-library.resources/mdl-library-02.png "Materiais MDL na Visualização 3D")
 
 *Materiais MDL na Visualização 3D*

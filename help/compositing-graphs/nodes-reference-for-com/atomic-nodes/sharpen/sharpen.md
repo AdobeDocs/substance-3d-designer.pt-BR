@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ''
 description: Use o nó Nitidez para aprimorar os detalhes e as bordas da textura e criar detalhes nítidos e definidos da superfície.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nitidez
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone do nó de nitidez](sharpen.resources/sharpen-4.png "ícone do nó de nitidez")
+![Ícone do nó de nitidez](sharpen.resources/sharpen-01.png "ícone do nó de nitidez")
 
 <b>Entrada:</b> Nós Atômicos
 
@@ -56,4 +56,4 @@ Determina se o canal alfa da imagem deve ter a nitidez ajustada ou permanecer in
 
 ## Exemplos
 
-![Nó de nitidez - Exemplo 1](sharpen.resources/sharpen-ex.png "Nó de nitidez - Exemplo 1")
+![Nó de nitidez - Exemplo 1](sharpen.resources/sharpen-02.png "Nó de nitidez - Exemplo 1")

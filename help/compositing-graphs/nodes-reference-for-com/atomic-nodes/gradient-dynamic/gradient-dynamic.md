@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ''
 description: Use o nó Gradiente (dinâmico) para criar gradientes dinâmicos que podem ser controlados por valores e parâmetros de entrada.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gradiente (dinâmico)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: dinâmico do gradiente](gradient-dynamic.resources/comp_dyngradient_1.png "Nó atômico: dinâmico do gradiente"){width="200px"}
+![Nó atômico: dinâmico do gradiente](gradient-dynamic.resources/gradient-dynamic-01.png "Nó atômico: dinâmico do gradiente"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

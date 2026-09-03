@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/mask-builder.html"
 breadcrumb-title: ''
 description: Use o nó Construtor de máscaras para combinar várias entradas de máscara e criar padrões de máscara complexos para efeitos de material.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Construtor de máscaras
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mask-builder.resources/mask-builder.png){width="128px"}
+![](mask-builder.resources/mask-builder-01.png){width="128px"}
 
 <b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
@@ -35,9 +35,9 @@ ht-degree: 10%
 
 Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Essa é basicamente a versão Designer do Construtor de máscaras do Painter.
 
-É uma ferramenta complicada destinada como um criador de máscaras abrangente, com base em mapas baked, parâmetros do usuário e mapas e padrões de desgaste. Destina-se principalmente como um nó de controle completo muito avançado para misturar no dirt de vincos e desgaste de bordas. Este nó é suficientemente poderoso para imitar todos os outros Geradores de máscara.
+É uma ferramenta complicada destinada como um criador de máscaras abrangente, com base em mapas baked, parâmetros do usuário e mapas e padrões de desgaste. Destina-se principalmente como um nó de controle completo muito avançado para misturar no dirt de vincos e desgaste de bordas. Este nó é poderoso o suficiente para imitar todos os outros Geradores de máscaras.
 
-Nenhuma faz bake é explicitamente necessária, mas quanto mais você fornecer, mais esse nó será capaz de fazer.
+Não há necessidade explícita de cozedura, mas quanto mais você fornecer, mais esse nó será capaz de fazer.
 
 </td>
 </tr>

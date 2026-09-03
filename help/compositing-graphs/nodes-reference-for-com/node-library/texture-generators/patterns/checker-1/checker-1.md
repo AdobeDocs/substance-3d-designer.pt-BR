@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
 breadcrumb-title: ''
 description: Use o nó Verificador 1 para gerar padrões de tabuleiro de xadrez com cores e tamanho de ladrilho personalizáveis para teste e texturas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Verificador 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](checker-1.resources/checker-1-1.png){width="128px"}
+![](checker-1.resources/checker-1-01.png){width="128px"}
 
 <b>Em:</b> Geradores De Textura > Padrões
 
@@ -56,7 +56,7 @@ Padrão de verificador muito simples. A divisão em blocos gráficos é delibera
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="checker-1.resources/checker-1-ex.gif" />
+            <img src="checker-1.resources/checker-1-02.gif" />
         </td>
     </tr>
 </table>

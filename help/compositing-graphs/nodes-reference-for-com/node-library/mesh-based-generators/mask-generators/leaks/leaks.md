@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
 breadcrumb-title: ''
 description: Use o nó Vazamentos para gerar padrões de vazamento com base na geometria de malha para criar manchas de água e efeitos de fluido.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vazamentos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](leaks.resources/leaks.png){width="128px"}
+![](leaks.resources/leaks-01.png){width="128px"}
 
 <b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
@@ -35,9 +35,9 @@ ht-degree: 3%
 
 Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras Inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) do [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Esse nó representa listras de vazamento de dirt e sujeira provenientes de bordas nítidas. À medida que as listras são geradas com a Posição assada, elas sempre correm para baixo.
+Esse nó representa listras de vazamento de dirt e sujeira provenientes de bordas nítidas. À medida que as listras são geradas com a Posição feita bake, elas sempre correm para baixo.
 
-Experimente alterar a máscara de variação: como ela orienta o posicionamento das listras, pode ter uma influência muito maior do que com outros geradores de máscaras.
+Experimente alterar a máscara de variação: como ela orienta o posicionamento das listras, pode ter uma influência muito maior do que com outras Geradores de máscara.
 
 </td>
 </tr>
@@ -49,10 +49,10 @@ Experimente alterar a máscara de variação: como ela orienta o posicionamento 
 
 |  |  |
 |:---|:---|
-| <b>Posição</b> <i>Entrada em tons de cinza</i> | Mapa de posição assado, usado para direções de riscas. Obrigatório! |
+| <b>Posição</b> <i>Entrada em tons de cinza</i> | Mapa de posição feito bake, usado para direções de listras. Obrigatório! |
 | <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para o posicionamento da faixa. Obrigatório! |
 | <b>Oclusão de ambiente</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para efeitos internos e mascaramento. Recomendado, mas você pode usar branco plano. |
-| <b>Espaço Mundial Normal</b> <i>Entrada de cores</i> | Baked World Space Normalmap, usado para a direção da faixa. Obrigatório! |
+| <b>Espaço Mundial Normal</b> <i>Entrada de cores</i> | Fez bake o World Space Normalmap, usado para direção da faixa. Obrigatório! |
 | <b>Máscara de Variação</b> <i>Entrada em tons de cinza</i> | Máscara de variação opcional, ative definindo a substituição como True. |
 | <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
 
@@ -74,7 +74,7 @@ Experimente alterar a máscara de variação: como ela orienta o posicionamento 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="leaks.resources/leaks-ex.gif" />
+            <img src="leaks.resources/leaks-02.gif" />
         </td>
     </tr>
 </table>

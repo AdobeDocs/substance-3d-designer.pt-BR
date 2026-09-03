@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
 description: Use o nó Polígono dos caminhos para criar caminhos poligonais a partir de dados de vértice para a geração de padrão geométrico.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Polígono dos caminhos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](paths-polygon.resources/paths-polygon-icon.png "Ícone de nó")
+![Ícone de nó](paths-polygon.resources/paths-polygon-01.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -63,12 +63,12 @@ Use o nó [Transformação 2D de caminho](../../../../../../compositing-graphs/n
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](paths-polygon.resources/PathsPolygon_Variant1_1.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](paths-polygon.resources/paths-polygon-02.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](paths-polygon.resources/PathsPolygon_Variant2.jpg "Exemplo de nó 2")
+![Exemplo de nó 2](paths-polygon.resources/paths-polygon-03.jpg "Exemplo de nó 2")
 
 </td>
 </tr>

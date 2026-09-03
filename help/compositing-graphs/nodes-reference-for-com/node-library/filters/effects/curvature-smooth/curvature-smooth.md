@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
 description: Use o nó Suavização da curvatura para gerar mapas de curvatura suaves a partir de mapas de altura para a extração de detalhes da superfície.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Suavização de curvatura
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó Suave de Curvatura](curvature-smooth.resources/CurvatureSmooth.png "Ícone de nó Suave de Curvatura"){width="200px"}
+![Ícone de nó Suave de Curvatura](curvature-smooth.resources/curvature-smooth-01.png "Ícone de nó Suave de Curvatura"){width="200px"}
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -79,11 +79,11 @@ As áreas côncavas e convexas também são divididas em suas próprias saídas,
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_1_before.jpg" alt="curvature_Smoke_example_1_before">
+      <img src="curvature-smooth.resources/curvature-smooth-02.jpg" alt="curvature_Smoke_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_1_after.jpg" alt="curvature_suave_example_1_after">
+      <img src="curvature-smooth.resources/curvature-smooth-03.jpg" alt="curvature_suave_example_1_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -93,12 +93,12 @@ As áreas côncavas e convexas também são divididas em suas próprias saídas,
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Curvatura suave: Exemplo 2](curvature-smooth.resources/curvature_smooth_example_2.jpg "Curvatura suave: Exemplo 2"){zoomable="yes"}
+![Curvatura suave: Exemplo 2](curvature-smooth.resources/curvature-smooth-04.jpg "Curvatura suave: Exemplo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Curvatura suave: Exemplo 3](curvature-smooth.resources/curvature_smooth_example_3.jpg "Curvatura suave: Exemplo 3"){zoomable="yes"}
+![Curvatura suave: Exemplo 3](curvature-smooth.resources/curvature-smooth-05.jpg "Curvatura suave: Exemplo 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,11 +107,11 @@ As áreas côncavas e convexas também são divididas em suas próprias saídas,
 <table>
   <tr>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_4_before.jpg" alt="curvature_Smoke_example_4_before">
+      <img src="curvature-smooth.resources/curvature-smooth-06.jpg" alt="curvature_Smoke_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="curvature-smooth.resources/curvature_smooth_example_4_after.jpg" alt="curvature_Smoke_example_4_after">
+      <img src="curvature-smooth.resources/curvature-smooth-07.jpg" alt="curvature_Smoke_example_4_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -121,12 +121,12 @@ As áreas côncavas e convexas também são divididas em suas próprias saídas,
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Curvatura suave: exemplo 4](curvature-smooth.resources/curvature_smooth_example_5.jpg "Curvatura suave: exemplo 4"){zoomable="yes"}
+![Curvatura suave: exemplo 4](curvature-smooth.resources/curvature-smooth-08.jpg "Curvatura suave: exemplo 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Curvatura suave: exemplo 5](curvature-smooth.resources/curvature_smooth_example_6.jpg "Curvatura suave: exemplo 5"){zoomable="yes"}
+![Curvatura suave: exemplo 5](curvature-smooth.resources/curvature-smooth-09.jpg "Curvatura suave: exemplo 5"){zoomable="yes"}
 
 </td>
 </tr>

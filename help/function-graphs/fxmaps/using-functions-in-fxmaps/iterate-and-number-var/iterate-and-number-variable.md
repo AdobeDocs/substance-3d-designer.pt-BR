@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
 breadcrumb-title: ''
-description: Aprenda a usar variáveis iterate e number em FXMaps para criar padrões em loop e variações processuais.
+description: Saiba como usar variáveis iterate e number em FXMaps para criar padrões de loop e variações de procedimento.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > Using Functions in FXMaps > Iterate and number variable
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Iterar e variável de número
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Iterar e `$number` variável
 
-![](iterate-and-number-variable.resources/iterate-1.jpg)
+![](iterate-and-number-variable.resources/iterate-and-number-variable-01.jpg)
 
-O nó Iterar renderizará os nós conectados à saída direita durante o tempo especificado pelo valor Iteração.
+O nó Iterar renderizará os nós conectados à saída direita durante o tempo especificado pelo valor de Iterações.
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="iterate-and-number-variable.resources/1-iteration.png"/></div> | 1 iteração: o padrão gaussiano é renderizado uma vez |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="iterate-and-number-variable.resources/iterate-and-number-variable-02.png"/></div> | 1 iteração: o padrão gaussiano é renderizado uma vez |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="iterate-and-number-variable.resources/10-iterations.png"/></div> | Dez iterações: o padrão gaussiano é renderizado dez vezes no mesmo local |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="iterate-and-number-variable.resources/iterate-and-number-variable-03.png"/></div> | 10 iterações: o padrão gaussiano é renderizado 10 vezes no mesmo local |
 
 Ao usar um nó Iterar, você pode usar a variável `$number` para obter o valor de iteração atual. `$number` é um valor float e começa em 0.
 
@@ -34,12 +34,12 @@ Ao usar um nó Iterar, você pode usar a variável `$number` para obter o valor 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](iterate-and-number-variable.resources/position-function.jpg){width="300px"}
+![](iterate-and-number-variable.resources/iterate-and-number-variable-04.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](iterate-and-number-variable.resources/10-iterations-position-function.png){width="300px"}
+![](iterate-and-number-variable.resources/iterate-and-number-variable-05.png){width="300px"}
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
 breadcrumb-title: ''
-description: Use o nó Combinar de cor do material para mesclar canais de cores entre materiais para criar efeitos de material composto.
+description: Use o nó Mesclagem de cores de material para mesclar canais de cores entre materiais para criar efeitos de material composto.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Color Blend
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mistura de cores do material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-color-blend.resources/material-color-blend.png){width="128px"}
+![](material-color-blend.resources/material-color-blend-01.png){width="128px"}
 
 <b>Em:</b> Filtros Materiais > Mesclagem
 
@@ -33,9 +33,9 @@ ht-degree: 2%
 
 ## Descrição
 
-Este nó permite ajustes em um material completo multicanal por meio da mistura de cores sólidas na parte superior. Essa é a principal diferença com o [Combinar de Ajuste de Material](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md), que permite somente ajustes do tipo [Níveis](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) em canais, enquanto esse nó usa ajustes do tipo [Combinar](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) com uma cor sólida.
+Este nó permite ajustes em um material completo multicanal por meio da mistura de cores sólidas na parte superior. Essa é a principal diferença com a [Mesclagem de ajuste de material](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md), que permite somente ajustes do tipo [Níveis](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) em canais, enquanto esse nó usa ajustes do tipo [Mesclar](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) com uma cor sólida.
 
-Esse nó é mais útil quando você deseja introduzir uma dica de cor uniforme em Difusões ou Cores de base, ou então “nivelar” outros canais usando um valor de cor sólido definido.
+Esse nó é mais útil quando você quer introduzir uma dica de cor simples em Cor difusa ou Cor base, ou quer “nivelar” outros canais usando um valor de cor sólido definido.
 
 </td>
 </tr>

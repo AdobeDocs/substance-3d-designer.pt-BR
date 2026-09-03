@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
 breadcrumb-title: ''
 description: Use o nó Quantificar Tons de Cinza para reduzir o número de níveis de tons de cinza para efeitos de posterização.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Quantificar escala de cinza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Quantizar Escala de Cinza](quantize-grayscale.resources/quantize-grayscale.png "ícone Quantizar Escala de Cinza"){width="200px"}
+![Ícone Quantizar Escala de Cinza](quantize-grayscale.resources/quantize-grayscale-01.png "ícone Quantizar Escala de Cinza"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -52,6 +52,6 @@ Gera uma única spline na forma de um círculo.
 
 ## Exemplos
 
-![Exemplo 1](quantize-grayscale.resources/quantizegrayscale.gif "Exemplo 1")
+![Exemplo 1](quantize-grayscale.resources/quantize-grayscale-02.gif "Exemplo 1")
 
-![Exemplo 2](quantize-grayscale.resources/quantizegrayscale.png "Exemplo 2")
+![Exemplo 2](quantize-grayscale.resources/quantize-grayscale-03.png "Exemplo 2")

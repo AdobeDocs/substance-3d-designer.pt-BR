@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
 breadcrumb-title: ''
 description: Use o nó Cor do mapeador da ponte de spline para conectar texturas entre duas splines com o mapeamento de cores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cor do mapeador da ponte de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-icon.png "Ícone de nó")
+![Ícone de nó](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-01.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -92,11 +92,11 @@ Mapeia uma imagem colorida em uma lista de splines de entrada para que a imagem 
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-03.jpg" alt="SplineBridgeMapperColor-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -105,7 +105,7 @@ Mapeia uma imagem colorida em uma lista de splines de entrada para que a imagem 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-04.gif "Exemplo de nó 2")
 
 </td>
 </tr>
@@ -115,12 +115,12 @@ Mapeia uma imagem colorida em uma lista de splines de entrada para que a imagem 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After1.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-05.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Graph.jpg "Exemplo de nó 2")
+![Exemplo de nó 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-06.jpg "Exemplo de nó 2")
 
 </td>
 </tr>

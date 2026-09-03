@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 13.1 para saber mais sobre melhorias no gráfico de nós e suporte à exportação de AxF.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ O <b>Substance 3D Designer 13.1</b> adiciona muitas melhorias de qualidade de vi
 
 *Data de lançamento: 12 de dezembro de 2023*
 
-![Banner do Substance 3D Designer 13.1](version-13-1.resources/24-library-hero-1920x620.png "banner do Substance 3D Designer 13.1")
+![Banner do Substance 3D Designer 13.1](version-13-1.resources/version-13-1-01.png "banner do Substance 3D Designer 13.1")
 
 ## Melhorias para quadros
 
@@ -34,19 +34,19 @@ Os quadros são uma ferramenta obrigatória para mantê-lo um gráfico bem organ
 
 À medida que o gráfico cresce, o conteúdo dos quadros pode precisar ser reorganizado. Os nós podem mudar para criar espaço para adições ou o conteúdo pode precisar ser espaçado mais para promover a legibilidade. Para facilitar esses ajustes, agora é possível expandir automaticamente um quadro ao mover os objetos incluídos: mantenha pressionado o <b>Shift</b> em qualquer ponto ao mover um objeto para que as bordas do quadro se ajustem automaticamente para manter esse objeto dentro de seus limites.
 
-![expansão automática](version-13-1.resources/autoexpand.gif)
+![expansão automática](version-13-1.resources/version-13-1-02.gif)
 
 ### Ajustar tamanho ao conteúdo
 
 Conforme você faz ajustes no gráfico, um quadro pode não ser mais ajustado normalmente ao seu conteúdo. Esse novo comando permite ajustar automaticamente a posição e o tamanho do quadro para que ele se ajuste à extensão de seu conteúdo, com um preenchimento de uma célula de grade média. Se o quadro tiver uma descrição, ele será ajustado para usar qualquer espaço vazio ao lado da descrição, se possível.
 
-![tamanho da imagem](version-13-1.resources/fitsize.gif)
+![tamanho da imagem](version-13-1.resources/version-13-1-03.gif)
 
 ### Descrições aprimoradas
 
 Graças ao código HTML, agora é possível formatar o texto na descrição de um quadro. Isso também se aplica a comentários.
 
-![richtext](version-13-1.resources/description-3.png)
+![richtext](version-13-1.resources/version-13-1-04.png)
 
 ### <b>...E muito mais!</b>
 
@@ -56,7 +56,7 @@ Muitas coisas foram repensadas, como regras de pertença para serem mais toleran
 
 * <b>Melhorias no menu do nó: </b>para economizar tempo ao procurar o nó necessário, melhoramos um pouco o menu do nó. A busca agora é mais indulgente e lhe dará um resultado mesmo se não houver correspondência perfeita. Além disso, agora você pode usar a seta para cima para acessar diretamente o último elemento da lista.
 * <b>Posicionamento do nó: </b>se você quiser ter um layout perfeito para o seu gráfico, essas duas pequenas alterações vão agradá-lo! Quando você copia/cola nós de um gráfico para outro, os nós colados agora são alinhados à grade principal. E quando você adiciona um nó em um link longo, este será colocado no meio da parte visível do link, para torná-lo visível em todas as situações.
-* <b>Opções de Visualização 2D: </b>se você for um usuário intensivo do [Visualização 2D](../../interface/2d-view/2d-view.md), economizará tempo, pois opções como &#39;Mostrar quadro de verificação&#39;, &#39;Manter tamanho da exibição&#39;, &#39;Usar tamanho físico&#39; e &#39;Exibir divisão em blocos gráficos&#39; foram salvas, portanto, você não precisa defini-las novamente quando criar um novo Visualização 2D ou mesmo quando reiniciar o Designer.
+* <b>Opções de exibição 2D: </b>se você for um usuário intensivo da [exibição 2D](../../interface/2d-view/2d-view.md), economizará tempo, pois opções como &#39;Mostrar tabuleiro de xadrez&#39;, &#39;Manter tamanho da exibição&#39;, &#39;Usar tamanho físico&#39; e &#39;Exibir divisão em blocos gráficos&#39; foram salvas, portanto, você não precisa defini-las novamente quando criar uma nova exibição 2D ou mesmo quando reiniciar o Designer.
 
 ## Exportação de AxF
 
@@ -64,12 +64,12 @@ Muitas coisas foram repensadas, como regras de pertença para serem mais toleran
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Ícone de arquivo AxF](version-13-1.resources/axf-file-icon.png "Ícone de arquivo AxF")
+![Ícone de arquivo AxF](version-13-1.resources/version-13-1-05.png "Ícone de arquivo AxF")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-AxF é um formato de [X-Rite](https://www.xrite.com/axf). Ele fornece uma maneira de capturar, armazenar, editar e comunicar características complexas de material usando dados numéricos em todo o fluxo de trabalho de design digital. Nas versões anteriores do Designer, você conseguia [importar arquivos AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) e depois melhorar a divisão em blocos gráficos ou adicionar efeitos processuais, mas depois tinha restrições para exportar alterações como um novo arquivo .sbsar.
+AxF é um formato de [X-Rite](https://www.xrite.com/axf). Ele fornece uma maneira de capturar, armazenar, editar e comunicar características complexas de material usando dados numéricos em todo o fluxo de trabalho de design digital. Nas versões anteriores do Designer, você conseguia [importar arquivos AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) e depois melhorar a divisão em blocos gráficos ou adicionar efeitos de procedimento, mas depois tinha restrições para exportar alterações como um novo arquivo .sbsar.
 
 Nesta nova versão, apresentamos a possibilidade de editar os materiais do AxF no local e, em seguida, [exportar suas alterações](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) como uma nova camada no arquivo AxF importado.
 
@@ -77,7 +77,7 @@ Nesta nova versão, apresentamos a possibilidade de editar os materiais do AxF n
 </tr>
 </table>
 
-![Exportar AxF](version-13-1.resources/exportaxf.gif)
+![Exportar AxF](version-13-1.resources/version-13-1-06.gif)
 
 ## API
 
@@ -158,7 +158,7 @@ Finalmente, esta versão 13.1 continua a melhorar a API Python, adicionando mais
 ### PROBLEMAS CONHECIDOS
 
 * [AxF OpenGL Shader] Ala incorreta para distribuição anisotrópica
-* [AxF OpenGL Shader] Aspereza padrão incorreta
+* [Sombreador AxF OpenGL] Aspereza padrão incorreta
 * [AxF OpenGL Shader] Rotação incorreta da base do sombreamento
 * [AxF OpenGL Shader] Detecção incorreta de raio abaixo do hemisfério
 * [AxF OpenGL Shader] Detecção de contribuição incorreta

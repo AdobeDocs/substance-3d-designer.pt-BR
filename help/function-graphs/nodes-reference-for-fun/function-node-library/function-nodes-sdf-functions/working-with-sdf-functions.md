@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Trabalhar com o Função SDF
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: dd03ffc77a6d09c680dcf3e1fc204e4cb86cc336
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Como ponto de partida, lembre-se de que o fluxo de trabalho básico se parece co
 1. Crie uma Função SDF em um nó do [visualizador 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) para visualizar o resultado.
 2. Copie o gráfico de função final (ou [crie uma instância dele](../../../../glossary/glossary.md#instance-node)) no parâmetro de Função SDF de um nó que ofereça suporte a Função SDF, como o [respingo de forma v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md).
 
-<img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="Gráfico do recurso de nós do Função SDF 3D no Substance 3D Designer" />
+<img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-functions-01.gif" alt="Gráfico do recurso de nós do Função SDF 3D no Substance 3D Designer" />
 
 ## O que é uma Função SDF?
 
@@ -39,7 +39,7 @@ Como ponto de partida, lembre-se de que o fluxo de trabalho básico se parece co
             <p>Assim como funções matemáticas podem ser plotadas em 2D como curvas, elas podem ser plotadas em 3D como superfícies.</p><p>Um campo de distância com sinal é uma função matemática que define uma superfície no espaço 3D calculando a distância de qualquer ponto no espaço até o ponto mais próximo na superfície.</p><p>Vamos detalhar o nome “campo de distância assinado” para entendê-lo melhor:<ul><li><b>Signed</b> significa que a função retorna um valor positivo se o ponto estiver fora/na frente da superfície, um valor negativo se o ponto estiver dentro/atrás da superfície e zero se o ponto estiver exatamente na superfície.</li><li><b>Distância</b> refere-se ao fato de que a função calcula a distância de qualquer ponto no espaço até o ponto *mais próximo* na superfície.</li><li><b>Campo</b> significa que a função descreve um campo de valores, pois cada ponto no espaço tem um valor correspondente que representa sua distância até a superfície mais próxima.</li></ul></p>
         </td>
         <td style="border: 0; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-what-is-an-sdf.gif" alt="Visualização da forma produzida por uma Função SDF, com isolados arrebatadores." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-02.gif" alt="Visualização da forma produzida por uma Função SDF, com isolados arrebatadores." />
         </td>
     </tr>
 </table>
@@ -72,7 +72,7 @@ O que você precisa saber sobre gráficos de função Substance:
 
 +++ Exemplo de um gráfico de função definindo uma Função SDF
 
-![trabalhando-com-função-sdf-gráfico.png](working-with-sdf-functions.resources/working-with-sdf-function-graph.png)
+![trabalhando-com-função-sdf-gráfico.png](working-with-sdf-functions.resources/working-with-sdf-functions-03.png)
 
 +++
 
@@ -86,11 +86,11 @@ O nó oferece recursos dedicados para visualizar aspectos da Função SDF que no
 
 O nó [Sol/céu físico](../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/physical-sun-sky/physical-sun-sky.md) pode ser usado para configurar rapidamente a iluminação do ambiente no visualizador 3D.
 
-<img style="margin-top: 32px; margin-bottom: 32px;" src="./working-with-sdf-functions.resources/working-with-sdf-setup.gif" alt="Configurar o nó do visualizador 3D para visualização de Função SDF." />
+<img style="margin-top: 32px; margin-bottom: 32px;" src="./working-with-sdf-functions.resources/working-with-sdf-functions-04.gif" alt="Configurar o nó do visualizador 3D para visualização de Função SDF." />
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>Todos os nós de Função SDF, bem como seus conectores de entrada, têm dicas de ferramentas que permitirão que você saiba mais sobre seu propósito e como usá-los.</p><p>Não se esqueça de conferi-los!</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-tooltips.png" alt="Dica de ferramenta para o conector de entrada no nó de Função SDF." /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>Todos os nós de Função SDF, bem como seus conectores de entrada, têm dicas de ferramentas que permitirão que você saiba mais sobre seu propósito e como usá-los.</p><p>Não se esqueça de conferi-los!</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-functions-05.png" alt="Dica de ferramenta para o conector de entrada no nó de Função SDF." /></td></tr></table>
 
 ### Configuração de valores de nó
 
@@ -101,11 +101,11 @@ Você pode criá-los da maneira usual através do menu nó, ou pode arrastar uma
 
 A maioria dos conectores de entrada dos nós de Função SDF tem um valor padrão, que é revelado na dica de ferramenta.
 
-<img style="margin-top: 32px; margin-bottom: 32px" src="working-with-sdf-functions.resources/working-with-sdf-constants.gif" alt="Nós constantes usados para editar primitiva SDF." />
+<img style="margin-top: 32px; margin-bottom: 32px" src="working-with-sdf-functions.resources/working-with-sdf-functions-06.gif" alt="Nós constantes usados para editar primitiva SDF." />
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>Se você não precisa manter alguns valores sempre visíveis, encaixe os nós usando a tecla <code>D</code> para economizar espaço e reorganizar o gráfico.</p><p>Também é possível usar comentários para controlar os valores.</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-docked-nodes.png" alt="Dica de ferramenta para o conector de entrada no nó de Função SDF." /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>Se você não precisa manter alguns valores sempre visíveis, encaixe os nós usando a tecla <code>D</code> para economizar espaço e reorganizar o gráfico.</p><p>Também é possível usar comentários para controlar os valores.</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-functions-07.png" alt="Dica de ferramenta para o conector de entrada no nó de Função SDF." /></td></tr></table>
 
 
 ### O quadro delimitador
@@ -116,7 +116,7 @@ A maioria dos conectores de entrada dos nós de Função SDF tem um valor padrã
             <p>O quadro delimitador é uma caixa no espaço 3D que define os <i>limites</i> em que a Função SDF é avaliada e desenhada no nó <a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">respingo de forma v2</a>.</p><p>Se o quadro delimitador for muito pequeno, partes da forma poderão ser cortadas. Se for muito grande, pode levar a cálculos desnecessários e tempos de processamento mais longos.</p><p>O parâmetro <b>Quadro delimitador</b> permite habilitar a visualização do quadro delimitador. Você pode ajustar o tamanho do quadro delimitador alterando os valores do parâmetro <b>Tamanho do quadro delimitador</b>.</p><p>Use o parâmetro <b>Colorir fora do quadro</b> para visualizar as áreas fora do quadro delimitador em vermelho vivo para que você possa ajustar o quadro adequadamente.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-bounding-frame.jpg" alt="Recurso de quadro delimitador do nó do visualizador 3D, para Função SDF." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-08.jpg" alt="Recurso de quadro delimitador do nó do visualizador 3D, para Função SDF." />
         </td>
     </tr>
 </table>
@@ -126,10 +126,10 @@ A maioria dos conectores de entrada dos nós de Função SDF tem um valor padrã
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>Como a transformação de formas envolve realmente a *transformação do espaço* no qual são desenhadas, o resultado dos nós usados após algumas transformações pode ser surpreendente.<br>Nesses casos, é útil visualizar o próprio espaço, o que pode ser feito <i>visualizando o campo de distância</i> da forma.</p><p>Para isso, o nó do visualizador 3D usa <i>isolines</i>, que são linhas de contorno repetidas que representam uma determinada distância da superfície da forma. O parâmetro <b>Isolines do SDF</b> habilita essa visualização.<br>As isolinhas são desenhadas em um plano horizontal colocado no height especificado pelo parâmetro <b>Posição de isolinhas SDF</b>.</p><p>Ver como as isolinhas são deformadas pelas transformações aplicadas à forma pode ajudar a entender como a própria forma é transformada e ajustar os parâmetros dos nós de acordo.</p>
+            <p>Como transformar formas envolve realmente *transformar o espaço* no qual são desenhadas, o resultado dos nós usados após algumas transformações pode ser surpreendente.<br>Nesses casos, é útil visualizar o próprio espaço, o que pode ser feito <i>visualizando o campo de distância</i> da forma.</p><p>Para isso, o nó do visualizador 3D usa <i>isolines</i>, que são linhas de contorno repetidas que representam uma determinada distância da superfície da forma. O parâmetro <b>Isolines do SDF</b> habilita essa visualização.<br>As isolinhas são desenhadas em um plano horizontal colocado no height especificado pelo parâmetro <b>Posição de isolinhas SDF</b>.</p><p>Ver como as isolinhas são deformadas pelas transformações aplicadas à forma pode ajudar a entender como a própria forma é transformada e ajustar os parâmetros dos nós de acordo.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-isolines.jpg" alt="Recurso de quadro delimitador do nó do visualizador 3D, para Função SDF." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-09.jpg" alt="Recurso de quadro delimitador do nó do visualizador 3D, para Função SDF." />
         </td>
     </tr>
 </table>
@@ -142,7 +142,7 @@ Os nós do Função SDF são categorizados na Biblioteca com base em sua funçã
 
 +++ Exemplo de espaço de trabalho
 
-![working-with-sdf-workspace.png](working-with-sdf-functions.resources/working-with-sdf-workspace.png)
+![working-with-sdf-workspace.png](working-with-sdf-functions.resources/working-with-sdf-functions-10.png)
 
 +++
 
@@ -256,7 +256,7 @@ Isso não é apenas uma questão de conveniência, é garantir que os nós SDF f
 
 Veja um exemplo:
 
-![trabalhando-com-sdf-p-entrada.gif](working-with-sdf-functions.resources/working-with-sdf-p-input.gif)
+![trabalhando-com-sdf-p-entrada.gif](working-with-sdf-functions.resources/working-with-sdf-functions-11.gif)
 
 Uma esfera é repetida para visualizar espaço como uma grade 3D. É repetido *repetindo o espaço*.\
 Sem um `P` compartilhado, o cilindro curvo usa o espaço de repetição usado pela esfera.\
@@ -269,10 +269,10 @@ Depois de concluir uma Função SDF no contexto do nó do visualizador 3D, você
 Defina o parâmetro **Tipo de forma** como `SDF function`, vá para o parâmetro **Função SDF de padrão** e clique no botão **Editar função** para abrir o gráfico de função do parâmetro.
 Em seguida, é possível colar a função copiada do nó do visualizador 3D nesse gráfico. (Não se esqueça de definir o nó de saída do gráfico de função novamente!)
 
-Certifique-se de ajustar o parâmetro **Tamanho do quadro delimitador do SDF** para corresponder ao [quadro delimitador](#the-bounding-frame) que você estava usando no nó do visualizador 3D e certifique-se de que a forma foi desenhada corretamente.
+Certifique-se de ajustar o parâmetro **Tamanho do quadro delimitador SDF** para corresponder ao [quadro delimitador](#the-bounding-frame) que você estava usando no nó do visualizador 3D e certifique-se de que a forma foi desenhada corretamente.
 
-![trabalhando-com-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-*respingo de forma v2 com um **tipo de forma**&#x200B;definido como `SDF function`. Observe que o **tamanho do quadro delimitador do SDF**&#x200B;foi ajustado para se ajustar à forma.*
+![trabalhando-com-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-functions-12.png)\
+*respingo de forma v2 com um **tipo de forma**definido como `SDF function`. Observe que o **tamanho do quadro delimitador do SDF**foi ajustado para se ajustar à forma.*
 
 >[!TIP]
 > 
@@ -292,7 +292,7 @@ Observe que superfícies com diferentes IDs de material são divididas com uma b
 Use o nó [Definir ID de material](./sdf-functions-material/set-id/set-id.md) após a parte de uma forma que você deseja marcar com uma ID de material específica e use um nó de constante [Inteiro](../../atomic-function-nodes/constant-nodes/constant-nodes.md) para definir o valor de ID de material desejado.\
 No nó do visualizador 3D, defina o parâmetro **Saída** como `Material ID` para visualizar as IDs de material das formas.
 
-![trabalhando-com-sdf-material-id.png](working-with-sdf-functions.resources/working-with-sdf-material-id-01.png)\
+![trabalhando-com-sdf-material-id.png](working-with-sdf-functions.resources/working-with-sdf-functions-13.png)\
 *À direita, a saída de dois nós do visualizador 3D é composta para mostrar a forma (à esquerda) e suas IDs de material (à direita) para ilustrar como, em formas mescladas, os materiais são interpolados enquanto as IDs de material são divididas.*
 
 As IDs de material podem ser aproveitadas pelos nós complementares do Shape splatter v2:
@@ -302,13 +302,13 @@ As IDs de material podem ser aproveitadas pelos nós complementares do Shape spl
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-06.jpg" alt="IDs de material SDF para mapeamento de cores no nó de cores do mapeador Shape splatter v2."/><i>IDs de material usadas para mapeamento de cores<br>na cor do mapeador do respingo de forma v2</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-14.jpg" alt="IDs de material SDF para mapeamento de cores no nó de cores do mapeador Shape splatter v2."/><i>IDs de material usadas para mapeamento de cores<br>na cor do mapeador do respingo de forma v2</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-04.jpg" alt="IDs de material SDF para mapeamento triplanar no nó de cores do mapeador Shape splatter v2."/><i>IDs de material usadas para mapeamento triplanar<br>na cor do mapeador do respingo de forma v2</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-15.jpg" alt="IDs de material SDF para mapeamento triplanar no nó de cores do mapeador Shape splatter v2."/><i>IDs de material usadas para mapeamento triplanar<br>na cor do mapeador do respingo de forma v2</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-05.jpg" alt="IDs de material SDF para mascaramento no respingo de forma v2 para nó de máscara."/><br><i>IDs de material usadas para mascaramento<br>no respingo de forma v2 para mascarar</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-16.jpg" alt="IDs de material SDF para mascaramento no respingo de forma v2 para nó de máscara."/><br><i>IDs de material usadas para mascaramento<br>no respingo de forma v2 para mascarar</i>
         </td>
     </tr>
 </table>
@@ -324,13 +324,13 @@ Observe que, distintamente das IDs de material, os valores são *interpolados* e
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-color.jpg" alt="Saída de cor SDF do nó Shape splatter v2."/><i>Saída de cores SDF</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-17.jpg" alt="Saída de cor SDF do nó Shape splatter v2."/><i>Saída de cores SDF</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-roughness.jpg" alt="Rugosidade do SDF do nó Shape splatter v2."/><br><i>Saída de aspereza SDF</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-18.jpg" alt="Rugosidade do SDF do nó Shape splatter v2."/><br><i>Saída de aspereza SDF</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-metalness.jpg" alt="Metalidade do SDF do nó Shape splatter v2."/><i>Saída de metalidade SDF</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-19.jpg" alt="Metalidade do SDF do nó Shape splatter v2."/><i>Saída de metalidade SDF</i>
         </td>
     </tr>
 </table>
@@ -343,7 +343,7 @@ Observe que, distintamente das IDs de material, os valores são *interpolados* e
             <p>A <b>amostra de material</b> <a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">de parafusos enferrujados</a> está disponível para saltar para as Funções SDF aplicadas no contexto do nó Shape splatter v2.</p><p>O gráfico é organizado e anotado para guiá-lo através de sua estrutura, configurações de nó e configurações de Função SDF.</p><p>Ele também é <i>totalmente editável</i>. Portanto, pode ser usado como uma sandbox para obter uma compreensão mais prática do respingo de Forma v2 e dos conjuntos de ferramentas do Função SDF. Você pode criar quantos gráficos de amostra quiser, portanto, fique à vontade para brincar.</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="Recurso de quadro delimitador do nó do visualizador 3D, para Função SDF." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-20.png" alt="Recurso de quadro delimitador do nó do visualizador 3D, para Função SDF." />
         </td>
     </tr>
 </table>

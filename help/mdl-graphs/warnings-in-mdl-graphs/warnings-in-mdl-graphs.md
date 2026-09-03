@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Avisos em gráficos MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -37,7 +37,7 @@ O gráfico não tem um nó de saída definido.
 Selecione qualquer nó no gráfico que gera um valor cujo tipo corresponde ao tipo esperado para esta função, se houver, e clique em RMB e selecione a opção <b>Definir como raiz</b> no menu contextual ou clique duas vezes em LMB no nó.\
 O nó de saída de um gráfico de modelo do Substance está colorido com *laranja*.
 
-![&#39;Nenhum nó de saída definido&#39; solução](warnings-in-mdl-graphs.resources/warnings-model-output.gif "&#39;Nenhum nó de saída definido&#39; solução")
+![&#39;Nenhum nó de saída definido&#39; solução](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-01.gif "&#39;Nenhum nó de saída definido&#39; solução")
 
 ### ![(erro)](warnings-in-mdl-graphs.resources/error.svg) Pelo menos um valor de entrada foi rejeitado
 
@@ -47,7 +47,7 @@ O valor fornecido para um parâmetro não resulta em um cálculo válido do nó.
 
 Ajuste o valor para que eles façam sentido para o parâmetro de destino.
 
-![&#39;Pelo menos um valor de entrada foi rejeitado&#39; solução](warnings-in-mdl-graphs.resources/warnings-model-rejected-value.gif "&#39;Pelo menos um valor de entrada foi rejeitado&#39; solução")
+![&#39;Pelo menos um valor de entrada foi rejeitado&#39; solução](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-02.gif "&#39;Pelo menos um valor de entrada foi rejeitado&#39; solução")
 
 ### ![(erro)](warnings-in-mdl-graphs.resources/error.svg) Nenhum valor de entrada
 
@@ -59,7 +59,7 @@ Alguns parâmetros de nó não podem retornar a um valor padrão quando nenhum d
 
 Conecte as entradas do nó a outro conector de saída do nó do tipo correspondente.
 
-![&#39;Nenhum valor de entrada&#39; solução](warnings-in-mdl-graphs.resources/warnings-model-no-input-value.gif "&#39;Nenhum valor de entrada&#39; solução")
+![&#39;Nenhum valor de entrada&#39; solução](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-03.gif "&#39;Nenhum valor de entrada&#39; solução")
 
 ### O nó ![(erro)](warnings-in-mdl-graphs.resources/error.svg) não foi computado
 
@@ -69,7 +69,7 @@ As informações fornecidas ao nó estão incompletas ou não são válidas, por
 
 Suba no gráfico e verifique se há avisos acionados por problemas que impedem que os nós forneçam uma saída válida.
 
-![&#x200B; solução&#39;Nó não foi computado&#39;](warnings-in-mdl-graphs.resources/warnings-model-no-input-value.gif " solução&#39;Nó não foi computado&#39;")
+![ solução&#39;Nó não foi computado&#39;](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-03.gif " solução&#39;Nó não foi computado&#39;")
 
 ### ![(erro)](warnings-in-mdl-graphs.resources/error.svg) Os dados referenciados possuem alguns avisos
 
@@ -85,7 +85,7 @@ No painel Explorador, localize o recurso referenciado e solucione todos os aviso
 * Para gráficos, consulte outros itens nesta página
 * Para qualquer outro tipo de recurso, consulte a página Avisos de dependências
 
-![&#39;Os dados referenciados têm uma solução de &#39;avisos&#39;](warnings-in-mdl-graphs.resources/warnings-model-referenced-data.gif "&#39;Os dados referenciados têm uma solução de &#39;avisos&#39;")
+![&#39;Os dados referenciados têm uma solução de &#39;avisos&#39;](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-04.gif "&#39;Os dados referenciados têm uma solução de &#39;avisos&#39;")
 
 ### ![(erro)](warnings-in-mdl-graphs.resources/error.svg) Recurso referenciado não encontrado
 
@@ -106,7 +106,7 @@ Para nós de recursos de Cena
 Localize os recursos referenciados no painel [Explorer](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion) e verifique se eles existem no local salvo no atributo <b>Caminho do Arquivo</b>.\
 Caso contrário, clique em *RMB* no item de recurso no Explorer e selecione a opção <b>Realocar...</b> no menu contextual para definir um novo arquivo de destino válido para esse recurso.
 
-![&#x200B; solução&#39;Recurso referenciado não encontrado&#39;](warnings-in-mdl-graphs.resources/warnings-model-referenced-resource.gif " solução&#39;Recurso referenciado não encontrado&#39;")
+![ solução&#39;Recurso referenciado não encontrado&#39;](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-05.gif " solução&#39;Recurso referenciado não encontrado&#39;")
 
 ### ![(erro)](warnings-in-mdl-graphs.resources/error.svg) Intervalo flexível não contém o valor
 
@@ -120,7 +120,7 @@ Ajuste o valor padrão ou intervalo suave para que o primeiro seja incluído no 
 >
 > Este aviso não pode ser disparado por meio da interface do usuário, pois *ajusta automaticamente* o intervalo flexível para incluir o valor padrão. Modificar apenas os dados no arquivo do Substance 3D (SBS) *diretamente* pode fazer com que este aviso seja disparado.
 
-![&#39;Intervalo suave não contém a solução de valor&#39;](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "&#39;Intervalo suave não contém a solução de valor&#39;")
+![&#39;Intervalo suave não contém a solução de valor&#39;](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39;Intervalo suave não contém a solução de valor&#39;")
 
 ### ![(erro)](warnings-in-mdl-graphs.resources/error.svg) Intervalo flexível fora do intervalo rígido
 
@@ -134,7 +134,7 @@ Ajuste o intervalo suave ou rígido para que o primeiro seja totalmente incluíd
 >
 > Este aviso não pode ser disparado por meio da interface do usuário, pois *ajusta automaticamente* o intervalo flexível para ser totalmente incluído no intervalo rígido. Modificar apenas os dados no arquivo do Substance 3D (SBS) *diretamente* pode fazer com que este aviso seja disparado.
 
-![&#39;Intervalo suave está fora do intervalo rígido&#39; solução](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "&#39;Intervalo suave está fora do intervalo rígido&#39; solução")
+![&#39;Intervalo suave está fora do intervalo rígido&#39; solução](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39;Intervalo suave está fora do intervalo rígido&#39; solução")
 
 ### Valor ![(erro)](warnings-in-mdl-graphs.resources/error.svg) está fora do intervalo rígido
 
@@ -148,4 +148,4 @@ Ajuste o valor padrão ou intervalo rígido para que o primeiro seja incluído n
 >
 > Este aviso não pode ser disparado por meio da interface do usuário, pois *ajusta automaticamente* o valor padrão a ser incluído no intervalo rígido. Modificar apenas os dados no arquivo do Substance 3D (SBS) *diretamente* pode fazer com que este aviso seja disparado.
 
-![&#39;O valor está fora do intervalo rígido&#39; solução](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "&#39;O valor está fora do intervalo rígido&#39; solução")
+![&#39;O valor está fora do intervalo rígido&#39; solução](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39;O valor está fora do intervalo rígido&#39; solução")

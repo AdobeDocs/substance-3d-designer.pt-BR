@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: Use o Navegador de cena para navegar e gerenciar elementos, materiais e objetos da cena 3D na viewport.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Navegador de cena
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -26,9 +26,9 @@ Ela oferece controles para selecionar objetos, alternar sua visibilidade e selec
 
 Como o Designer usa o [USD](https://openusd.org/release/index.html) para descrever e gerenciar suas cenas, sua terminologia e conceitos são encontrados nessa árvore de cenas.
 
-É exibido clicando em seu botão de alternância dedicado ![](scene-browser.resources/sceneBrowser-toggleButton.png) na [barra de ferramentas Exibir cena 3D](../../../interface/3d-view/3d-view.md).
+É exibido clicando em seu botão de alternância dedicado ![](scene-browser.resources/scene-browser-01.png) na [barra de ferramentas Exibir cena 3D](../../../interface/3d-view/3d-view.md).
 
-![Navegador de cena - Cena 3D carregada](scene-browser.resources/loaded3DScene.png "Navegador de cena - Cena 3D carregada"){zoomable="yes"}
+![Navegador de cena - Cena 3D carregada](scene-browser.resources/scene-browser-02.png "Navegador de cena - Cena 3D carregada"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -63,7 +63,7 @@ Os objetos têm parentesco com outros objetos, até a raiz da cena. Um objeto pa
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Navegador de cena - Árvore de cena](scene-browser.resources/sceneBrowser-sceneTree.png "Navegador de cena - Árvore de cena"){zoomable="yes"}
+![Navegador de cena - Árvore de cena](scene-browser.resources/scene-browser-03.png "Navegador de cena - Árvore de cena"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Esses objetos são incluídos na cena quando [exportados](../../../working-with-
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Navegador de cena - Objetos adicionados pelo Designer listados em negrito](scene-browser.resources/sceneBrowser-addedByDesigner.png "Navegador de cena - Objetos adicionados pelo Designer listados em negrito"){zoomable="yes"}
+![Navegador de cena - Objetos adicionados pelo Designer listados em negrito](scene-browser.resources/scene-browser-04.png "Navegador de cena - Objetos adicionados pelo Designer listados em negrito"){zoomable="yes"}
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Esses objetos são incluídos na cena quando [exportados](../../../working-with-
 
 * <b>Câmera:</b> a câmera padrão da cena. Esta é a única câmera que você pode interagir no Designer. Todas as câmeras incluídas em uma cena carregada são adicionadas como predefinições para a câmera padrão.
 * <b>Ambiente:</b> o ambiente padrão da cena. Qualquer textura aplicada ao ambiente da cena será aplicada somente a esse ambiente. Da mesma forma, girar o ambiente afeta apenas esse ambiente.\
-  Quando uma cena carregada inclui uma ou mais luzes de ambiente ([DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html) em USD), o ambiente padrão é automaticamente desabilitado para não interferir na iluminação do ambiente da cena.
+  Quando uma cena carregada inclui uma ou mais iluminações do ambiente ([DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html) em USD), o ambiente padrão é automaticamente desabilitado para não interferir na iluminação do ambiente da cena.
 * <b>Luz de ponto #:</b> se qualquer uma das luzes de ponto do Designer estiver ativada em Luzes > Editar propriedades, cada luz de ponto será adicionada à cena.
 
 ## Alternar objetos na cena
@@ -111,7 +111,7 @@ Qualquer objeto pode ser ativado e desativado na cena. Quando desativado, um obj
 
 O estado de um objeto pai é transferido para seus filhos, portanto, desativar um objeto pai também desativa seus filhos.
 
-A visibilidade de um objeto pode ser alternada clicando em seu botão de olho ![](scene-browser.resources/sceneBrowser-eyeButton.png) ou em seu menu contextual. O menu oferece mais algumas ações para gerenciar a visibilidade dos objetos da cena:
+A visibilidade de um objeto pode ser alternada clicando em seu botão de olho ![](scene-browser.resources/scene-browser-05.png) ou em seu menu contextual. O menu oferece mais algumas ações para gerenciar a visibilidade dos objetos da cena:
 
 * <b>Ocultar:</b> desabilite o objeto selecionado.
 * <b>Mostrar:</b> habilite o objeto selecionado.
@@ -128,7 +128,7 @@ Os objetos pai têm as seguintes ações adicionais:
 * <b>Expandir todos os filhos:</b> expande recursivamente todas as listas de filhos sob o objeto selecionado.
 * <b>Recolher todos os filhos:</b> Recolher todas as listas de filhos no objeto selecionado, recursivamente.
 
-![Navegador de cena - Alternando a visibilidade do objeto](scene-browser.resources/sceneBrowser-toggleVisibility.gif "Navegador de cena - Alternando a visibilidade do objeto"){zoomable="yes"}
+![Navegador de cena - Alternando a visibilidade do objeto](scene-browser.resources/scene-browser-06.gif "Navegador de cena - Alternando a visibilidade do objeto"){zoomable="yes"}
 
 ### Ambientes
 
@@ -138,13 +138,13 @@ Quando uma luz ambiente é desativada, sua contribuição de iluminação para a
 
 Se mais de uma iluminação ambiente estiver habilitada, suas contribuições de iluminação serão *adicionadas cumulativamente*.
 
-![Navegador de cena - Alternando a visibilidade do ambiente](scene-browser.resources/sceneBrowser-toggleEnvLights.gif "Navegador de cena - Alternando a visibilidade do ambiente"){zoomable="yes"}
+![Navegador de cena - Alternando a visibilidade do ambiente](scene-browser.resources/scene-browser-07.gif "Navegador de cena - Alternando a visibilidade do ambiente"){zoomable="yes"}
 
 ### Luzes
 
 O mesmo vale para todas as luzes na cena: cada uma pode ser alternada individualmente.
 
-![Navegador de cena - Alternando visibilidade da luz](scene-browser.resources/sceneBrowser-toggleLights.gif "Navegador de cena - Alternando visibilidade da luz"){zoomable="yes"}
+![Navegador de cena - Alternando visibilidade da luz](scene-browser.resources/scene-browser-08.gif "Navegador de cena - Alternando visibilidade da luz"){zoomable="yes"}
 
 ## Materiais conectados
 
@@ -163,7 +163,7 @@ Um material substituído oferece um item adicional em seu menu contextual: o sub
 </td>
 <td style="border: 0;" valign="top">
 
-![Navegador de cena - Material conectado](scene-browser.resources/sceneBrowser-connectedMaterial.png "Navegador de cena - Material conectado"){zoomable="yes"}
+![Navegador de cena - Material conectado](scene-browser.resources/scene-browser-09.png "Navegador de cena - Material conectado"){zoomable="yes"}
 
 </td>
 </tr>

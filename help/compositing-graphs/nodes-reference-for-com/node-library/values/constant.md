@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Constante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -27,11 +27,11 @@ Todos eles incluem um nó [Processador de valor](../../atomic-nodes/value-proces
 
 +++ Nós constantes na biblioteca
 
-![constants-library.png](constant.resources/constants-library.png)
+![constants-library.png](constant.resources/constant-01.png)
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Nó flutuante constante" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constant-02.png" alt="Nó de Precisão decimal constante" /></p>
 
 ## Inteiros
 
@@ -43,7 +43,7 @@ Inteiros constantes geram números inteiros e têm uma etapa de 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo inteiro](constant.resources/fn-constant-integer.png "Ícone de tipo inteiro")
+![Ícone de tipo inteiro](constant.resources/constant-03.png "Ícone de tipo inteiro")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Um inteiro possui um único componente. É útil como um índice para fazer sele
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Integer2](constant.resources/fn-constant-integer2.png "Ícone de tipo Integer2")
+![Ícone de tipo Integer2](constant.resources/constant-04.png "Ícone de tipo Integer2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Um caso de uso comum de Integer2 é definir os tamanhos de grade X e Y, como no 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Integer3](constant.resources/fn-constant-integer3.png "Ícone de tipo Integer3")
+![Ícone de tipo Integer3](constant.resources/constant-05.png "Ícone de tipo Integer3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Um nó Integer3 gera um vetor inteiro estático de 3 componentes com componentes
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Integer4](constant.resources/fn-constant-integer4.png "Ícone de tipo Integer4")
+![Ícone de tipo Integer4](constant.resources/constant-06.png "Ícone de tipo Integer4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -118,7 +118,7 @@ Um nó Integer4 gera um vetor inteiro estático de 4 componentes com componentes
 
 ## Flutuações
 
-Os valores de flutuação constantes geram números fracionários, isto é, eles suportam valores após o sinal decimal e podem ser ajustados em etapas menores que 1. (Padrão: 0,01)
+Os valores de Precisão decimal constantes geram números fracionários, ou seja, eles oferecem suporte a valores após o sinal decimal e podem ser ajustados em etapas menores que 1. (Padrão: 0,01)
 
 [As flutuações podem ser convertidas em inteiros](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), mas serão arredondadas para cima ou para baixo até o inteiro mais próximo, significando que dados e precisão serão perdidos.
 
@@ -126,14 +126,14 @@ Os valores de flutuação constantes geram números fracionários, isto é, eles
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo flutuante](constant.resources/fn-constant-float.png "Ícone de tipo flutuante")
+![Ícone de tipo flutuante](constant.resources/constant-07.png "Ícone de tipo flutuante")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Flutuante</b>
 
-Um Float tem um único componente e é muito comumente usado para qualquer valor único que exija precisão.
+Uma Precisão decimal tem um único componente e é muito usada para qualquer valor único que exija precisão.
 
 </td>
 </tr>
@@ -143,16 +143,16 @@ Um Float tem um único componente e é muito comumente usado para qualquer valor
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Float2](constant.resources/fn-constant-float2.png "Ícone de tipo Float2")
+![Ícone de tipo Float2](constant.resources/constant-08.png "Ícone de tipo Float2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Flutuante2</b>
 
-Um nó Float2 gera um vetor de 2 componentes com componentes (X, Y).
+Um nó Precisão decimal2 gera um vetor de 2 componentes com componentes (X, Y).
 
-Float2 é geralmente usado para [coordenadas de amostragem](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md), [transformações de deslocamento](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md) e manipulação geral de vetor 2D.
+A Precisão decimal 2 é geralmente usada para [coordenadas de amostragem](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md), [transformações de deslocamento](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md) e manipulação geral de vetor 2D.
 
 </td>
 </tr>
@@ -162,16 +162,16 @@ Float2 é geralmente usado para [coordenadas de amostragem](../../../../function
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Float3](constant.resources/fn-constant-float3.png "Ícone de tipo Float3")
+![Ícone de tipo Float3](constant.resources/constant-09.png "Ícone de tipo Float3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Flutuante3</b>
 
-Um nó Float3 gera um vetor de 3 componentes (X, Y, Z).
+Um nó Precisão decimal3 gera um vetor de 3 componentes (X, Y, Z).
 
-O Float3 é usado principalmente ao trabalhar com objetos 3D e [coordenadas de escala 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md), como em [nós SDF 3D](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions), e como uma maneira mais simples de armazenar cores RGB, ou seja, sem Alpha.
+O Precisão decimal3 é usado principalmente ao trabalhar com objetos 3D e [coordenadas de escala 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md), como em [nós SDF 3D](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions), e como uma maneira mais simples de armazenar cores RGB, ou seja, sem Alpha.
 
 </td>
 </tr>
@@ -181,16 +181,16 @@ O Float3 é usado principalmente ao trabalhar com objetos 3D e [coordenadas de e
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Float4](constant.resources/fn-constant-float4.png "Ícone de tipo Float4")
+![Ícone de tipo Float4](constant.resources/constant-10.png "Ícone de tipo Float4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Flutuante4</b>
 
-Um Float4 gera um vetor de 4 componentes (X, Y, Z, W).
+Uma Precisão decimal 4 gera um vetor de 4 componentes (X, Y, Z, W).
 
-Float4 é a maneira preferida de armazenar e definir informações de cores na qual os valores XYZW são mapeados para RGBA, como no [Nó de cor uniforme](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md).
+A Precisão decimal 4 é a maneira preferencial de armazenar e definir informações de cores nas quais os valores XYZW são mapeados para RGBA, como no [nó de Cor uniforme](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md).
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Float4 é a maneira preferida de armazenar e definir informações de cores na q
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo booliano](constant.resources/fn-constant-boolean.png "Ícone de tipo booliano")
+![Ícone de tipo booliano](constant.resources/constant-11.png "Ícone de tipo booliano")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

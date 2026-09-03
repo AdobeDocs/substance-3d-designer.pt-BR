@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ''
 description: Use o nó Níveis para ajustar o brilho, o contraste e a gama tonal das texturas para correção e aprimoramento de cores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Níveis
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Níveis](levels.resources/comp_levels_1.png "Nó atômico: Níveis"){width="200px"}
+![Nó atômico: Níveis](levels.resources/levels-01.png "Nó atômico: Níveis"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ O botão amarelo realçado alterna a interface entre os controles deslizantes (i
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-2-1.png)
+![](levels.resources/levels-02.png)
 
-![](levels.resources/levels-1-1.png)
+![](levels.resources/levels-03.png)
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Confira esta visão geral em vídeo do nó Níveis e seu editor de histograma:
 
 Na barra de cabeçalho &#39;Parâmetros específicos&#39;, você pode encontrar botões para acessar funções convenientes do histograma:
 
-![Ações rápidas do nó de níveis](levels.resources/levels-2.png "Ações rápidas do nó de níveis")
+![Ações rápidas do nó de níveis](levels.resources/levels-04.png "Ações rápidas do nó de níveis")
 
 <b>1 - Inverter:</b> alterna os valores dos parâmetros &#39;Nível para baixo&#39; e &#39;Nível da saída do realce&#39;.
 
@@ -113,7 +113,7 @@ Na barra de cabeçalho &#39;Parâmetros específicos&#39;, você pode encontrar 
 
 O editor de histograma é destinado a ajustes visuais rápidos em que valores precisos não são realmente necessários e a exposição de parâmetros não é importante. Geralmente, é a maneira mais rápida e fácil de trabalhar com Níveis.
 
-![](levels.resources/levels-histo.gif)
+![](levels.resources/levels-05.gif)
 
 Dependendo do tipo de entrada (Cor ou Tons de cinza), é possível usar a lista suspensa acima do Histograma para escolher o canal que será modificado.
 

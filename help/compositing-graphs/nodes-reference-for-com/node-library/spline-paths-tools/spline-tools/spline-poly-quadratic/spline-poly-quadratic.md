@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
 breadcrumb-title: ''
 description: Use o nó Quadrático de polígono de spline para criar splines quadráticas complexas com vários pontos de controle.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (Poli Quadrático)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](spline-poly-quadratic.resources/spline-poly-quadratic-icon.png "Ícone de nó")
+![Ícone de nó](spline-poly-quadratic.resources/spline-poly-quadratic-01.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -94,15 +94,15 @@ A trajetória do spline pode ser suavizada a partir de seus pontos intermediári
 | <b>Propriedades de Pontos</b> |  |
 | <b>p# Propriedades</b> <i>Flutuante3</i> | Define as propriedades do ponto p#.<br>- <i>Height:</i> ajusta o height do ponto onde um valor mais baixo significa um local mais baixo ou mais profundo;<br>- <i>Smoothness:</i> Desloca o início da suavização da spline em p#, onde um valor de 0 resulta em uma trajetória rígida e 1 em uma totalmente suave;<br>- <i>Thickness:</i> ajusta o thickness da spline em p#. O thickness é usado por nós Spline específicos. |
 | <b>Coordenadas de pontos</b> |  |
-| <b>p#</b> <i>Flutuante2</i> | Define a posição do ponto p# no espaço de textura. |
+| <b>p#</b> <i>Precisão decimal 2</i> | Define a posição do ponto p# no espaço de textura. |
 | <b>Visualizar</b> |  |
 | <b>Mostrar Tangentes</b> <i>Booleano</i> | Exibe as tangentes dos pontos p1 e p3 para p2 na saída da Visualização. |
 | <b>Mostrar Auxiliar de Direção</b> <i>Booleano</i> | Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização. |
 | <b>Mostrar Envelope de Thickness</b> <i>Booleano</i> | Exibe linhas adicionais nas bordas do thickness da spline. |
 | <b>Mostrar Rótulo de Pontos</b> <i>Booleano</i> | Para cada ponto, exibe o nome do ponto ao lado dele na saída “Visualização”. |
-| <b>Tamanho do Rótulo de Pontos</b> <i>Flutuante</i> | (Disponível quando a opção &#39;Mostrar Rótulo de Pontos&#39; estiver definida como &#39;Verdadeiro&#39;) O tamanho do rótulo para cada ponto no espaço de textura, onde 0,1 é um décimo da largura da textura. |
+| <b>Tamanho do Rótulo de Pontos</b> <i>Precisão decimal</i> | (Disponível quando a opção &#39;Mostrar Rótulo de Pontos&#39; estiver definida como &#39;Verdadeiro&#39;) O tamanho do rótulo para cada ponto no espaço de textura, onde 0,1 é um décimo da largura da textura. |
 | <b>Mostrar pontos</b> <i>Booleano</i> | Exibe os pontos de controle da spline. |
-| <b>Tamanho de pontos</b> <i>Flutuante</i> | (Disponível quando a opção &#39;Mostrar pontos&#39; estiver definida como &#39;Verdadeiro&#39;) O raio dos pontos no espaço de textura, onde 0,1 é um décimo da largura da textura. |
+| <b>Tamanho de pontos</b> <i>Precisão decimal</i> | (Disponível quando a opção &#39;Mostrar pontos&#39; estiver definida como &#39;Verdadeiro&#39;) O raio dos pontos no espaço de textura, onde 0,1 é um décimo da largura da textura. |
 | <b>Valor de Segmentos</b> <i>Inteiro</i> | Ajusta o número de segmentos usados para desenhar a visualização de spline na saída da Visualização.<br>Um valor mais alto resulta em uma linha mais suave. |
 | <b>Thickness (px)</b> <i>Flutuante</i> | Ajusta o thickness da visualização da spline em pixels na saída da Visualização. |
 
@@ -115,11 +115,11 @@ A trajetória do spline pode ser suavizada a partir de seus pontos intermediári
 <table>
   <tr>
     <td>
-      <img src="spline-poly-quadratic.resources/SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadratic-Variant1-Before">
+      <img src="spline-poly-quadratic.resources/spline-poly-quadratic-02.jpg" alt="SplinePolyQuadratic-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-poly-quadratic.resources/SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadratic-Variant1-After">
+      <img src="spline-poly-quadratic.resources/spline-poly-quadratic-03.jpg" alt="SplinePolyQuadratic-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -128,7 +128,7 @@ A trajetória do spline pode ser suavizada a partir de seus pontos intermediári
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](spline-poly-quadratic.resources/SplinePolyQuadratic-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](spline-poly-quadratic.resources/spline-poly-quadratic-04.gif "Exemplo de nó 2")
 
 </td>
 </tr>

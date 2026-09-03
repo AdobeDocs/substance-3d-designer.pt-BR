@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Entenda os avisos nos gráficos de composição de Substance e saiba como resolver problemas e erros comuns.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Avisos em gráficos do Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
@@ -36,14 +36,14 @@ Adicione um ou mais nós [Saída](../../compositing-graphs/nodes-reference-for-c
 >
 > Os modelos de gráfico disponíveis por meio da caixa de diálogo [Novo gráfico](../creating-compositing-gra/creating-a-substance-compositing-graph.md) têm nós de saída predefinidos prontos para serem usados.
 
-![Corrigir o aviso &#39;Nenhum nó de saída definido&#39;](warnings-in-substance-compositing-graphs.resources/warnings-comp-output.gif "Corrigir o aviso &#39;Nenhum nó de saída definido&#39;"){width="512px"}
+![Corrigir o aviso &#39;Nenhum nó de saída definido&#39;](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-01.gif "Corrigir o aviso &#39;Nenhum nó de saída definido&#39;"){width="512px"}
 
 ### ![(erro)](warnings-in-substance-compositing-graphs.resources/error.svg) A função do parâmetro *[x]* possui alguns avisos
 
 O [gráfico de função](../../function-graphs/function-graphs.md) aplicado ao parâmetro especificado do nó especificado tem pelo menos um aviso.\
 O parâmetro node é especificado entre colchetes após o rótulo do nó, seguindo o modelo Node[Parameter].
 
-E.g. Cor uniforme[Cor De Saída], Processador de pixels[Função Por Pixel]
+E.g. Cor Uniforme[Cor De Saída], Processador De Pixels[Função Por Pixel]
 
 **![(tick)](warnings-in-substance-compositing-graphs.resources/check.svg) Solução**
 
@@ -51,7 +51,7 @@ Localize o nó que emite o aviso por seu rótulo e emblema de aviso na [Exibiç�
 
 Em seguida, avalie o(s) aviso(s) listado(s) no canto inferior esquerdo da exibição Gráfico e resolva os problemas. Você pode consultar a página [Avisos nos gráficos de função](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md) para obter avisos de solução de problemas relatados nos gráficos de função.
 
-![Aviso de correção de &#39;A função de parâmetro tem alguns avisos&#39;](warnings-in-substance-compositing-graphs.resources/warnings-comp-param-function.gif "Aviso de correção de &#39;A função de parâmetro tem alguns avisos&#39;")
+![Aviso de correção de &#39;A função de parâmetro tem alguns avisos&#39;](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-02.gif "Aviso de correção de &#39;A função de parâmetro tem alguns avisos&#39;")
 
 ### ![(erro)](warnings-in-substance-compositing-graphs.resources/error.svg) Os dados referenciados possuem alguns avisos
 
@@ -69,11 +69,11 @@ No painel [Explorador](../../interface/the-explorer-window/the-explorer-window.m
 * Para gráficos, consulte outros itens nesta página
 * Para qualquer outro tipo de recurso, consulte a página [Avisos de dependências](../../resources/warnings-from-dep/warnings-from-dependencies.md)
 
-![Corrigir o aviso &#39;Dados referenciados têm alguns avisos&#39;](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-data.gif "Corrigir o aviso &#39;Dados referenciados têm alguns avisos&#39;")
+![Corrigir o aviso &#39;Dados referenciados têm alguns avisos&#39;](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-03.gif "Corrigir o aviso &#39;Dados referenciados têm alguns avisos&#39;")
 
 ### ![(erro)](warnings-in-substance-compositing-graphs.resources/error.svg) Recurso de referência não encontrado
 
-O recurso referenciado por um nó não foi encontrado no caminho salvo no arquivo do [Substance 3D](https://www.adobe.com/br/products/substance3d/3d-augmented-reality.html) (SBS). Aqui estão alguns nós que fazem referência a um recurso:
+O recurso referenciado por um nó não foi encontrado no caminho salvo no arquivo SBS (Substance 3D[1}. ](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)Aqui estão alguns nós que fazem referência a um recurso:
 
 * Um nó [instância de gráfico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) faz referência a um gráfico
 * Um nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) faz referência a um [recurso de Bitmap](../../resources/bitmap-resource/bitmap-resource.md)
@@ -92,7 +92,7 @@ Para nós [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes
 Localize os recursos referenciados no painel do Explorer e verifique se eles existem no local salvo no atributo **Caminho do Arquivo**.\
 Caso contrário, clique em RMB no item de recurso no Explorer e selecione a opção **Realocar...** no menu contextual para definir um novo arquivo de destino válido para esse recurso.
 
-![Corrigir aviso &#39;Recurso de referência não encontrado&#39;](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-resource.gif "Corrigir aviso &#39;Recurso de referência não encontrado&#39;")
+![Corrigir aviso &#39;Recurso de referência não encontrado&#39;](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-04.gif "Corrigir aviso &#39;Recurso de referência não encontrado&#39;")
 
 ### ![(erro)](warnings-in-substance-compositing-graphs.resources/error.svg) O nó de texto usa uma fonte inválida
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
 breadcrumb-title: ''
 description: Use o nó 3D voronoi fractal para gerar padrões Voronoi fractais com base na posição 3D para texturas volumétricas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D voronoi fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-voronoi-fractal.resources/3dvoronoifractal.png){width="200px"}
+![](3d-voronoi-fractal.resources/3d-voronoi-fractal-01.png){width="200px"}
 
 <b>Entrada:</b> Geradores de Textura > Ruídos
 
@@ -77,24 +77,24 @@ Este nó pode ser testado com [GBuffers 3D de cubo](../../../../../../compositin
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant6.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant2.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant4.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-04.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant5.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant3.jpg" />
+            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-07.jpg" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/baking-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
 breadcrumb-title: ''
 description: Encontre etapas de solução de problemas técnicos relacionados a texturas de cozimento no Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemas de cozimento
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# Problemas de cozimento
+# Fazendo bake problemas
 
-Esta página lista problemas técnicos relacionados às [texturas de cozimento](../../bakers/bakers.md) no Substance 3D Designer e oferece etapas de solução de problemas para cada um.
+Esta página lista problemas técnicos relacionados a [fazendo bake texturas](../../bakers/bakers.md) no Substance 3D Designer e oferece etapas de solução de problemas para cada um.
 
 ## Nesta página
 
@@ -45,7 +45,7 @@ Desde o Designer 15.0, o nome dos objetos *geometria* são usados diretamente.
 </td>
 <td style="border: 0;" valign="top">
 
-![Objeto de geometria e seu pai na árvore de cena](baking-issues.resources/sceneTree_objectsName.png "Objeto de geometria e seu pai na árvore de cena"){zoomable="yes"}
+![Objeto de geometria e seu pai na árvore de cena](baking-issues.resources/baking-issues-01.png "Objeto de geometria e seu pai na árvore de cena"){zoomable="yes"}
 
 </td>
 </tr>
@@ -54,8 +54,8 @@ Desde o Designer 15.0, o nome dos objetos *geometria* são usados diretamente.
 Há dois caminhos que você pode seguir para obter a correspondência esperada:
 
 * Ajuste o nome dos objetos de geometria para aplicar nomes correspondentes.
-* Reverta para o comportamento ou versões anteriores do Designer ajustando a opção [&#39;Modo de filtragem de nome&#39;](../../interface/preferences-window/project-settings/project-settings.md) nas configurações do Projeto:
+* Reverta para o comportamento ou versões anteriores do Designer ajustando a opção [&#39;modo de filtragem de nomes&#39;](../../interface/preferences-window/project-settings/project-settings.md) nas configurações do Projeto:
   1. Acesse Editar > Preferências > Projetos
   1. Selecione o último arquivo de projeto na lista
-  1. Abaixo da lista de arquivos de projeto, selecione a guia “Padeiros”
+  1. Abaixo da lista de arquivos de projeto, selecione a guia Baker
   1. Defina o &#39;Modo de filtragem de nome&#39; como &#39;Nome do pai (legado)

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-3.html"
 breadcrumb-title: ''
-description: Use o nó BnW Spots 3 para gerar padrões de manchas pretas e brancas avançados para criar variações e máscaras de textura.
+description: Use o nó BnW Spots 3 para gerar padrões de manchas pretas e brancas avançados para criar variações de textura e máscaras.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > BnW spots 3
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Manchas Pb 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Pontos PB 3 - Ícone](bnw-spots-3.resources/bnw_spots_3.png "Pontos PB 3 - Ícone"){width="200px"}
+![Pontos PB 3 - Ícone](bnw-spots-3.resources/bnw-spots-3-01.png "Pontos PB 3 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -69,12 +69,12 @@ Veja também: [Manchas Pb 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Manchas Pb 3 - Exemplo 1](bnw-spots-3.resources/bnw_spots_3_1.png "Manchas Pb 3 - Exemplo 1"){zoomable="yes"}
+![Manchas Pb 3 - Exemplo 1](bnw-spots-3.resources/bnw-spots-3-02.png "Manchas Pb 3 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Manchas Pb 3 - Exemplo 2](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.6_aniso0.gif "Manchas Pb 3 - Exemplo 2"){zoomable="yes"}
+![Manchas Pb 3 - Exemplo 2](bnw-spots-3.resources/bnw-spots-3-03.gif "Manchas Pb 3 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Veja também: [Manchas Pb 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Pontos PB 3 - Exemplo 3](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.6_aniso1.gif "Pontos PB 3 - Exemplo 3"){zoomable="yes"}
+![Pontos PB 3 - Exemplo 3](bnw-spots-3.resources/bnw-spots-3-04.gif "Pontos PB 3 - Exemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Manchas Pb 3 - Exemplo 4](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.3_aniso0.6.gif "Manchas Pb 3 - Exemplo 4"){zoomable="yes"}
+![Manchas Pb 3 - Exemplo 4](bnw-spots-3.resources/bnw-spots-3-05.gif "Manchas Pb 3 - Exemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

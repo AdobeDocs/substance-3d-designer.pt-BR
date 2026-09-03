@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
-description: Use o nó Renderização de volume de Textura 3D para renderizar texturas volumétricas a partir de dados 3D para criar efeitos de nuvem e nevoeiro.
+description: Use o nó Renderização de volume de textura 3D para renderizar texturas volumétricas a partir de dados 3D para criar efeitos de nuvem e neblina.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Volume Render
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Renderização de volume de Textura 3D
+title: Renderização de volume de textura 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 ---
 
 
-# Renderização de volume de Textura 3D
+# Renderização de volume de textura 3D
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-volume-render.resources/3dtexturevolumerender.png){width="200px"}
+![](3d-texture-volume-render.resources/3d-texture-volume-render-01.png){width="200px"}
 
 <b>Entrada:</b> Filtro > Efeito
 
@@ -39,7 +39,7 @@ O volume é representado dentro dos limites de um *cubo de unidade*. A iluminaç
 
 >[!NOTE]
 >
-> O campo de distância assinado deve ser uma textura **4096x4096** que descreve a forma com uma grade **16x16** de 256 fatias.\
+> Espera-se que o campo de distância assinado seja uma textura **4096x4096** descrevendo a forma com uma grade **16x16** de 256 fatias.\
 > Você pode usar o nó [SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) de Textura 3D para calcular o campo de distância assinada para uma textura 3D de 256 fatias.
 
 </td>
@@ -87,22 +87,22 @@ O volume é representado dentro dos limites de um *cubo de unidade*. A iluminaç
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant2.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant5.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant3.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant4.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-node.png" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-07.png" />
         </td>
     </tr>
 </table>

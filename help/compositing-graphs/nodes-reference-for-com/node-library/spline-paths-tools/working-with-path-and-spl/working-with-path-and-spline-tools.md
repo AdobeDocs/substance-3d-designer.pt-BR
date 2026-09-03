@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
 breadcrumb-title: ''
-description: Saiba como trabalhar com caminhos e ferramentas de linha flexível para criar padrões de procedimentos e formas orgânicas em seus gráficos.
+description: Saiba como trabalhar com caminhos e ferramentas de linha flexível para criar padrões processuais e formas orgânicas em seus gráficos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Working with Path  Spline tools
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Trabalhar com Ferramentas de linha flexível de caminho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Por exemplo, a imagem à direita representa a saída de imagem por um nó [Polí
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Saída do polígono dos caminhos](working-with-path-and-spline-tools.resources/PathsPolygon_Data.jpg "Saída do polígono dos caminhos")
+![Saída do polígono dos caminhos](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-01.jpg "Saída do polígono dos caminhos")
 
 </td>
 </tr>
@@ -60,16 +60,16 @@ Portanto, as imagens que produzem não são diretamente utilizáveis como um ele
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### Interação de exibição 2D
+### interação com o Visualização 2D
 
-Um número significativo de nós no conjunto de ferramentas oferece a capacidade de executar edições diretamente na [Exibição 2D](../../../../../interface/2d-view/2d-view.md) usando gizmos de controle. Esses gizmos incluem o gizmo de posição e a matriz de transformação.
+Um número significativo de nós no conjunto de ferramentas oferece a capacidade de executar edições diretamente no [Visualização 2D](../../../../../interface/2d-view/2d-view.md) usando gizmos de controle. Esses gizmos incluem o gizmo de posição e a matriz de transformação.
 
-Por exemplo, os nós de geração de spline, como [Spline (Cúbico)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md) ou [Spline (Quadrático Polar)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md), permitem mover os pontos de controle das splines. Para caminhos, a [Transformação quadruplicada no caminho](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md) tem controles semelhantes quando selecionada.
+Por exemplo, os nós de geração de spline, como [Spline (Cúbico)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md) ou [Spline (Quadrático Polar)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md), permitem mover os pontos de controle das splines. Para caminhos, o [Transformo Quad no Caminho](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md) tem controles semelhantes quando selecionado.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Cúbico de spline na exibição 2D](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "Cúbico de spline na exibição 2D")
+![Cúbico de spline em Visualização 2D](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-02.gif "Cúbico de spline em Visualização 2D")
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ O Path e o ferramenta de linha flexível exigem cálculos intensos, de modo que 
 
 Você deve notar uma melhora significativa no desempenho ao alterar qualquer uma dessas duas configurações para o estado recomendado.
 
-![Ferramentas de caminho na biblioteca](working-with-path-and-spline-tools.resources/PathsTools.jpg "Ferramentas de caminho na biblioteca")
+![Ferramentas de caminho na biblioteca](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-03.jpg "Ferramentas de caminho na biblioteca")
 
 ## Ferramentas de caminho
 
@@ -97,11 +97,11 @@ O [Polígono dos caminhos](../../../../../compositing-graphs/nodes-reference-for
 Como alternativa, os caminhos podem ser extraídos de uma imagem em tons de cinza usando o nó [Máscara para caminhos](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md).\
 Atualmente, esta é a única maneira de produzir formas complexas e permite aproveitar toda a biblioteca de [nós de gráfico de Substance](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md) para produzir as formas que eventualmente serão convertidas em caminhos.
 
-![Nós de geração de caminhos](working-with-path-and-spline-tools.resources/Paths_Generation.jpg "Nós de geração de caminhos"){width="600px"}
+![Nós de geração de caminhos](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-04.jpg "Nós de geração de caminhos"){width="600px"}
 
 ### Edição de demarcadores
 
-[A Transformação 2D de caminho](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md), a [Distorção de caminhos](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) e a [Transformação quadruplicada no caminho](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md) permitem editar a forma dos caminhos.
+O [Transformo 2D do caminho](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md), a [Distorção de caminhos](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) e o [Quad Transformo no caminho](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md) permitem editar a forma dos caminhos.
 
 Você também pode remover caminhos indesejados selecionando caminhos por índice ou comprimento usando o nó [Seleção de caminhos](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-select/paths-select.md).
 
@@ -114,14 +114,14 @@ Processamento mais complexo pode ser feito em cada ponto de um caminho com a aju
 ### Nó Caminhos de visualização
 
 A visualização do resultado dos nós Caminhos é feita com o nó dedicado [Visualizar Caminhos](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md).\
-Este nó não tem saídas. Clique duas vezes no LMB no nó para exibir a visualização na [Exibição 2D](../../../../../interface/2d-view/2d-view.md).
+Este nó não tem saídas. Clique duas vezes no LMB no nó para exibir a visualização em [Visualização 2D](../../../../../interface/2d-view/2d-view.md).
 
 Caminhos separados têm uma cor única na visualização para diferenciar cada caminho com facilidade.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó de Caminhos de Visualização](working-with-path-and-spline-tools.resources/PreviewPaths_Node.jpg "Nó de Caminhos de Visualização")
+![Nó de Caminhos de Visualização](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-05.jpg "Nó de Caminhos de Visualização")
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Uma combinação muito útil para aproveitar o conjunto de ferramentas splines p
 
 <b>Máscara > Máscara para caminhos > Caminhos para spline</b>
 
-![Caminho para Spline](working-with-path-and-spline-tools.resources/Spline_PathToSpline.jpg "Caminho para Spline")
+![Caminho para Spline](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-06.jpg "Caminho para Spline")
 
 ### Especificações de formato de caminho
 
@@ -146,7 +146,7 @@ Esta codificação segue uma especificação descrita na página [Especificaçõ
 
 Você pode usar essa especificação para produzir seus próprios nós usando esse formato e aproveitar ao máximo os nós [Processador de Vértice de Caminhos](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md).
 
-![Ferramentas de linha flexível na biblioteca](working-with-path-and-spline-tools.resources/SplineTools.jpg "Ferramentas de linha flexível na biblioteca")
+![Ferramentas de linha flexível na biblioteca](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-07.jpg "Ferramentas de linha flexível na biblioteca")
 
 ## Ferramentas de linha flexível
 
@@ -185,7 +185,7 @@ Portanto, é muito importante considerar a ordem na qual você acrescenta spline
 
 Isso afeta os nós que precisam combinar splines, como [Ponte de spline (Lista)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md), [Mapeador da Ponte de Spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md) e [Lista de Mesclagem de Spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md).
 
-![Anexando splines com modos de criação de link](working-with-path-and-spline-tools.resources/LinkCreationMode_Splines.gif "Anexando splines com modos de criação de link")
+![Anexando splines com modos de criação de link](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-08.gif "Anexando splines com modos de criação de link")
 
 ### Entradas e saídas de spline
 
@@ -212,7 +212,7 @@ Esta visualização pode ser ajustada nos parâmetros do nó, usando os parâmet
 </td>
 <td style="border: 0;" valign="top">
 
-![Visualizar saída no nó spline](working-with-path-and-spline-tools.resources/Spline_PreviewOutput.jpg "Visualizar saída no nó spline")
+![Visualizar saída no nó spline](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-09.jpg "Visualizar saída no nó spline")
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ Para desenhar spline como pixels, o conjunto de ferramentas os simplifica em lin
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline renderizado como segmentos](working-with-path-and-spline-tools.resources/Spline_Segments.jpg "Spline renderizado como segmentos")
+![Spline renderizado como segmentos](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-10.jpg "Spline renderizado como segmentos")
 
 </td>
 </tr>

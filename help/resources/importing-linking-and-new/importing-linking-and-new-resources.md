@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
 breadcrumb-title: ''
 description: Saiba como importar, vincular e criar novos recursos no Substance 3D Designer para seus projetos de material.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Importação, vinculação e novos recursos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 2%
@@ -28,13 +28,13 @@ A tabela a seguir fornece uma rápida visão geral da diferença nas funcionalid
 
 |                                                                                                                                                                         | Novo | Importar | Vincular |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| Gráficos ([gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md), [gráficos de função de Substance](../../function-graphs/function-graphs.md) | <div><img alt="(assinalar)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(erro)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(erro)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md),[gráficos vetoriais (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="(assinalar)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(assinalar)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(assinalar)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| Cenas 3D, [fontes](../../resources/font-resource/font-resource.md) | <div><img alt="(erro)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(erro)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(assinalar)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| É criado ao lado do arquivo SBS | <div><img alt="(assinalar)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(assinalar)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(erro)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| Editável no Designer | <div><img alt="(assinalar)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(assinalar)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(erro)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| As edições externas são sincronizadas automaticamente | <div><img alt="(erro)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(erro)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(assinalar)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| Incorporado no SBSAR publicado | <div><img alt="(assinalar)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(assinalar)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(assinalar)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Gráficos ([gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md), [gráficos de função de Substance](../../function-graphs/function-graphs.md) | <div><img alt="(assinalar)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(erro)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(erro)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md),[gráficos vetoriais (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="(assinalar)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(assinalar)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(assinalar)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| Cenas 3D, [fontes](../../resources/font-resource/font-resource.md) | <div><img alt="(erro)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(erro)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(assinalar)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| É criado ao lado do arquivo SBS | <div><img alt="(assinalar)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(assinalar)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(erro)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| Editável no Designer | <div><img alt="(assinalar)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(assinalar)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(erro)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| As edições externas são sincronizadas automaticamente | <div><img alt="(erro)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(erro)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(assinalar)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| Incorporado no SBSAR publicado | <div><img alt="(assinalar)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(assinalar)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(assinalar)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
 
 ## Novos recursos
 
@@ -69,4 +69,4 @@ Ao excluir um recurso de um pacote, a caixa de diálogo <b>Confirmar remoção d
 > Recomendamos ter cuidado com esses itens e tomar as ações necessárias para *antecipar quaisquer dependências quebradas* que resultariam da exclusão de itens de um pacote.\
 > Essas ações podem incluir *remoção de todos os usos* desses recursos antes da exclusão.
 
-![&#39;Recurso excluído em uso&#39; aviso](../../assets/confirm-item-removal.png "&#39;Recurso excluído em uso&#39; aviso"){width="512px"}
+![&#39;Recurso excluído em uso&#39; aviso](importing-linking-and-new-resources.resources/importing-linking-and-new-resources-01.png "&#39;Recurso excluído em uso&#39; aviso"){width="512px"}

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ''
 description: Use o nó Distorção direcional para aplicar distorção direcional a texturas para criar efeitos de fluxo e movimento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distorção direcional
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: distorção direcional](directional-warp.resources/comp_directionalwarp_1.png "Nó atômico: distorção direcional"){width="200px"}
+![Nó atômico: distorção direcional](directional-warp.resources/directional-warp-01.png "Nó atômico: distorção direcional"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -102,17 +102,17 @@ O nó Distorcer é um nó bastante simples, mas útil, que serve como uma boa ba
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Distorção Direcional - Exemplo 1](directional-warp.resources/dir-warp.gif "Distorção Direcional - Exemplo 1"){zoomable="yes"}
+![Distorção Direcional - Exemplo 1](directional-warp.resources/directional-warp-02.gif "Distorção Direcional - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Distorção Direcional - Exemplo 2](directional-warp.resources/dir-warp02.gif "Distorção Direcional - Exemplo 2"){zoomable="yes"}
+![Distorção Direcional - Exemplo 2](directional-warp.resources/directional-warp-03.gif "Distorção Direcional - Exemplo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Distorção Direcional - Exemplo 3](directional-warp.resources/dir-warp03.gif "Distorção Direcional - Exemplo 3"){zoomable="yes"}
+![Distorção Direcional - Exemplo 3](directional-warp.resources/directional-warp-04.gif "Distorção Direcional - Exemplo 3"){zoomable="yes"}
 
 </td>
 </tr>

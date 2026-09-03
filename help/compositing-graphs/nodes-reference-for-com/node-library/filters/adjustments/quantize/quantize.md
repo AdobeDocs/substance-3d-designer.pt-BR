@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
 breadcrumb-title: ''
-description: Use o nó Quantificar cor para reduzir o número de cores nas texturas para criar efeitos posterizados e estilizados.
+description: Use o nó Quantificar cor para reduzir o número de cores no textura para criar efeitos posterizados e estilizados.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Color (Simple)
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Quantificar cor (simples)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Quantizar Cor](quantize.resources/quantize.png "ícone Quantizar Cor"){width="200px"}
+![Ícone Quantizar Cor](quantize.resources/quantize-01.png "ícone Quantizar Cor"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -48,4 +48,4 @@ Aproxima o intervalo de entrada a um número predefinido de valores. Efetivament
 | <b>Quantizar Canal Vermelho</b> *Inteiro* | Define o número de etapas para aproximar o canal Vermelho. |
 | <b>Quantizar Canal Verde</b> *Inteiro* | Define o número de etapas pelas quais o canal Verde deve ser aproximado. |
 | <b>Quantizar Canal Azul</b> *Inteiro* | Define o número de etapas pelo qual o canal Azul será aproximado. |
-| <b>Quantizar Canal de Alpha</b> *Inteiro* | Define o número de etapas pelas quais o Canal alfa deve ser aproximado. |
+| <b>Quantificar Canal Alfa</b> *Inteiro* | Define o número de etapas pelas quais o Canal alfa deve ser aproximado. |

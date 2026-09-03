@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-3.html"
 breadcrumb-title: ''
 description: Use o nó do Células 3 para gerar padrões celulares intermediários a fim de criar efeitos de textura orgânica e biológica.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: CÉLULAS 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Células 3 - Ícone](cells-3.resources/cells_3.png "Células 3 - Ícone"){width="200px"}
+![Células 3 - Ícone](cells-3.resources/cells-3-01.png "Células 3 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -77,12 +77,12 @@ Veja também: [Células 1](../../../../../../compositing-graphs/nodes-reference-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Células 3 - Exemplo 1](cells-3.resources/cells_3_1.png "Células 3 - Exemplo 1"){zoomable="yes"}
+![Células 3 - Exemplo 1](cells-3.resources/cells-3-02.png "Células 3 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Células 3 - Exemplo 2](cells-3.resources/noise_cells_3_v2_speed0.6_aniso0.gif "Células 3 - Exemplo 2"){zoomable="yes"}
+![Células 3 - Exemplo 2](cells-3.resources/cells-3-03.gif "Células 3 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ Veja também: [Células 1](../../../../../../compositing-graphs/nodes-reference-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Células 3 - Exemplo 3](cells-3.resources/noise_cells_3_v2_speed0.6_aniso1.gif "Células 3 - Exemplo 3"){zoomable="yes"}
+![Células 3 - Exemplo 3](cells-3.resources/cells-3-04.gif "Células 3 - Exemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Células 3 - Exemplo 4](cells-3.resources/noise_cells_3_v2_speed0.3_aniso0.6.gif "Células 3 - Exemplo 4"){zoomable="yes"}
+![Células 3 - Exemplo 4](cells-3.resources/cells-3-05.gif "Células 3 - Exemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

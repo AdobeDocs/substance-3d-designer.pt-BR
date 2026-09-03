@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
 breadcrumb-title: ''
 description: Use o nó Mapeador de fluxo de spline para criar padrões de textura fluida ao longo de caminhos de spline para efeitos orgânicos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapeador do fluxo de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](spline-flow-mapper.resources/spline-flow-mapper-icon.png "Ícone de nó")
+![Ícone de nó](spline-flow-mapper.resources/spline-flow-mapper-01.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -94,11 +94,11 @@ Isso permite usar splines para controlar a direção, a trajetória, a intensida
 <table>
   <tr>
     <td>
-      <img src="spline-flow-mapper.resources/SplineFlowMapper-Variant1-Before.jpg" alt="SplineFlowMapper-Variant1-Before">
+      <img src="spline-flow-mapper.resources/spline-flow-mapper-02.jpg" alt="SplineFlowMapper-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-flow-mapper.resources/SplineFlowMapper-Variant1-After.jpg" alt="SplineFlowMapper-Variant1-After">
+      <img src="spline-flow-mapper.resources/spline-flow-mapper-03.jpg" alt="SplineFlowMapper-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -107,7 +107,7 @@ Isso permite usar splines para controlar a direção, a trajetória, a intensida
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](spline-flow-mapper.resources/SplineFlowMapper-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](spline-flow-mapper.resources/spline-flow-mapper-04.gif "Exemplo de nó 2")
 
 </td>
 </tr>

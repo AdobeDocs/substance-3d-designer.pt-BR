@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
 breadcrumb-title: ''
-description: Use o nó Patch de Clonar para clonar e corrigir áreas em materiais digitalizados para remover artefatos e imperfeições.
+description: Use o nó Patch de clone para clonar e corrigir áreas em materiais digitalizados para remover artefatos e imperfeições.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Clone Patch
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Patch do clone
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 3%
@@ -24,9 +24,9 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](clone-patch.resources/clone-patch.png){width="128px"}
+![](clone-patch.resources/clone-patch-01.png){width="128px"}
 
-![](clone-patch.resources/clone-patch-grayscale.png){width="128px"}
+![](clone-patch.resources/clone-patch-02.png){width="128px"}
 
 <b>Entrada:</b> Filtros Materiais > Processamento de materiais escaneados
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## Descrição
 
-Clonar Patch é um nó “Clonar Stamp” paramétrico processual. Ele clona uma área de uma entrada para outra, ocultando detalhes potencialmente indesejados. Embora não seja tão rápido e fácil quanto usar uma ferramenta familiar em um aplicativo baseado em pincel, ele oferece a principal vantagem de não ser destrutivo e trabalhar em um fluxo de trabalho baseado em nó. Além disso, este nó executa uma análise inteligente da área de destino e de origem e tenta mesclar as coisas da melhor maneira possível com base no contraste, nos valores e nas formas.
+Patch de clone é um nó “Carimbo” paramétrico e processual. Ele clona uma área de uma entrada para outra, ocultando detalhes potencialmente indesejados. Embora não seja tão rápido e fácil quanto usar uma ferramenta familiar em um aplicativo baseado em pincel, ele oferece a principal vantagem de não ser destrutivo e trabalhar em um fluxo de trabalho baseado em nó. Além disso, este nó executa uma análise inteligente da área de destino e de origem e tenta mesclar as coisas da melhor maneira possível com base no contraste, nos valores e nas formas.
 
 Isso é destinado principalmente para aqueles momentos raros onde você deseja fazer uma correção manual de uma área específica, no caso de haver um detalhe indesejado em algum lugar.
 
@@ -45,9 +45,9 @@ Também é importante entender o fato de que você pode mover a área de destino
 
 >[!NOTE]
 >
-> Se você quiser isso para um material completo (como é o caso com mais frequência), consulte [Correção de Clonar de material](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md).
+> Se você quiser isso para um material completo (como é o caso com mais frequência), consulte [Correção de clonagem de material](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md).
 > 
-> Para os casos em que você deseja executar esta operação em várias entradas ao mesmo tempo (sem que seja um material), consulte [Vários Clonar Patches](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md).
+> Para os casos em que você deseja executar esta operação em várias entradas ao mesmo tempo (sem que seja um material), consulte [Patch de vários clones](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md).
 
 </td>
 </tr>

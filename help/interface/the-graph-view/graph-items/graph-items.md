@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/graph-items.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
 breadcrumb-title: ''
 description: Saiba mais sobre itens de gráfico no Substance 3D Designer, incluindo quadros, comentários, fixares e nós de portal para organizar gráficos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Itens gráficos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 7%
@@ -26,14 +26,14 @@ Itens de gráfico são objetos especiais que ajudam a organizar seus gráficos, 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Ícone de nó ponto](graph-items.resources/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![Ícone de nó ponto](graph-items.resources/graph-items-01.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## Nó ponto (também Portal)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Ícone de Quadro](graph-items.resources/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[![Ícone de Quadro](graph-items.resources/graph-items-02.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## Quadro
 
@@ -60,14 +60,14 @@ Agrupe os nós com rótulo e codificação de cores e, em seguida, mova-os facil
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Ícone de comentário](graph-items.resources/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![Ícone de comentário](graph-items.resources/graph-items-03.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## Comentário
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Ícone de fixar de navegação](graph-items.resources/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![Ícone de fixar de navegação](graph-items.resources/graph-items-04.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## Fixar
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-photo.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-photo.html"
 breadcrumb-title: ''
-description: Use o nó Criar foto lado a lado para converter fotografias em texturas de revestimento contínuas para criação de material.
+description: Use o nó Criar foto em bloco para converter fotografias em texturas de revestimento perfeitas para a criação de material.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling > Make It Tile Photo
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tornar foto lado a lado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](make-it-tile-photo.resources/make-it-tile-photo.png)
+![](make-it-tile-photo.resources/make-it-tile-photo-01.png)
 
-![](make-it-tile-photo.resources/make-it-tile-photo-grayscale.png)
+![](make-it-tile-photo.resources/make-it-tile-photo-02.png)
 
 <b>Em:</b> Filtros > Lado a Lado
 
@@ -59,7 +59,7 @@ Este nó fornece a funcionalidade de correção de borda para qualquer imagem qu
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="make-it-tile-photo.resources/mit-photo-ex.png" />
+            <img src="make-it-tile-photo.resources/make-it-tile-photo-03.png" />
         </td>
     </tr>
 </table>

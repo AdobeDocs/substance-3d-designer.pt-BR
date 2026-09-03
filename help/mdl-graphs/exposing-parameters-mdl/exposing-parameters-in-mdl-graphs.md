@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Expondo parâmetros em gráficos MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Esta página explica o processo de exposição de parâmetros em gráficos MDL para que eles possam ser conectados a valores e texturas fornecidos por *outros nós* no gráfico ou por *fontes externas*.
 
-![Estado exposto das entradas do nó](exposing-parameters-in-mdl-graphs.resources/mdl-node-inputs-hl.png "Estado exposto das entradas do nó")
+![Estado exposto das entradas do nó](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-01.png "Estado exposto das entradas do nó")
 
 *Estado exposto das entradas do nó*
 
@@ -32,11 +32,11 @@ Na maioria dos casos, os *conectores de entrada* das propriedades de um nó pode
 
 Quando um nó é selecionado na <b>Exibição de gráfico</b>, suas propriedades são exibidas no painel <b>Propriedades</b>. A maioria das propriedades é listada com um conjunto de botões à direita de seu rótulo:
 
-* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-new-node.png)Copie o valor para um novo nó e vincule-o a este parâmetro**: cria um *conector de entrada* para esta propriedade e conecta-o a um *novo nó* que gera o valor atual desta propriedade
-* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-new-input.png)Criar um fixar de entrada para este parâmetro**: cria um *conector de entrada* para esta propriedade
-* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-reset.png)Redefine este parâmetro para seu valor padrão**: quando nenhum valor estiver conectado ao conector de entrada desta propriedade, redefine seu valor para o padrão
+* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-02.png)Copie o valor para um novo nó e vincule-o a este parâmetro**: cria um *conector de entrada* para esta propriedade e conecta-o a um *novo nó* que gera o valor atual desta propriedade
+* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-03.png)Criar um fixar de entrada para este parâmetro**: cria um *conector de entrada* para esta propriedade
+* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-04.png)Redefine este parâmetro para seu valor padrão**: quando nenhum valor estiver conectado ao conector de entrada desta propriedade, redefine seu valor para o padrão
 
-![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-input.gif)
+![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-05.gif)
 
 *Manipulando entradas de nó*
 
@@ -47,7 +47,7 @@ Clicar em qualquer um dos dois primeiros botões resulta em um *conector de entr
 
 O conector de entrada pode ser *removido* clicando novamente no botão **Criar um fixar de entrada para este parâmetro**. Nesse ponto, o valor da propriedade retorna ao valor definido no painel **Propriedades**.
 
-![Parâmetros de nó expostos](exposing-parameters-in-mdl-graphs.resources/mdl-exposed-float-hl.png "Parâmetros de nó expostos")
+![Parâmetros de nó expostos](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-06.png "Parâmetros de nó expostos")
 
 *Parâmetros de nó expostos*
 
@@ -57,7 +57,7 @@ No gráfico MDL, expor um parâmetro ao nível do gráfico - ou seja, para que a
 
 Os nós que podem ser expostos têm uma opção <b>Expor</b> em seu menu contextual. Na maioria dos casos, são nós que geram um valor ou dados, como coordenadas de flutuação, cor ou textura.
 
-Opção ![”Expor” no menu contextual de um nó](exposing-parameters-in-mdl-graphs.resources/mdl-expose-float-menu-hl.png "&quot;Opção Expor&quot; no menu contextual de um nó")
+Opção ![”Expor” no menu contextual de um nó](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-07.png "&amp;quot;Opção Expor&amp;quot; no menu contextual de um nó")
 
 Opção *”Expor” no menu contextual de um nó*
 
@@ -81,6 +81,6 @@ O parâmetro exposto é configurado diretamente no *nó exposto*, não nas propr
 >
 > Enquanto as entradas de gráfico são configuradas em um nível de *nó*, sua ordem é gerenciada no nível de *gráfico* na seção **Entrada de gráfico** das [propriedades de gráfico](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md).
 
-![Expondo nós em entradas de gráfico](exposing-parameters-in-mdl-graphs.resources/mdl-expose-parameter.gif "Expondo nós em entradas de gráfico")
+![Expondo nós em entradas de gráfico](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-08.gif "Expondo nós em entradas de gráfico")
 
 *Expondo nós em entradas de gráfico*

@@ -1,7 +1,7 @@
 ---
 title: respingo de forma v2
 description: Designer > Gráficos de composição de Substance > Referência de nós para gráficos de composição de Substance > Biblioteca de nós > Gerador > Padrão > respingo de forma v2
-source-git-commit: f688c618b01d3ca8059e67cf0797268e44e94b17
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '4234'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de respingo de forma v2](shape-splatter-v2.resources/shape-splatter-v2.png "respingo de forma v2")
+![Ícone de respingo de forma v2](shape-splatter-v2.resources/shape-splatter-v2-01.png "respingo de forma v2")
 
 <b>Entrada:</b> Gerador > Padrão
 
@@ -60,13 +60,13 @@ Dispersão formas em uma superfície de height de plano de fundo com recursos av
 | <b>Mapa vetorial</b> *Cor* | Um mapa que descreve os vetores de direção que podem ser usados para orientar a rotação e/ou posição das formas, usando os seguintes parâmetros:<br><br>- <b>deslocamento de mapa vetorial</b> ajusta o efeito do mapa para mover as formas.<br>- <b>A entrada de rotação de Inclinação</b> pode ser definida como &#39;Mapa vetorial&#39; para usar este mapa para girar as formas usando os parâmetros relacionados. |
 | <b>Mapa de máscaras</b> *Tons de cinza* | A imagem usada para mascarar formas de acordo com o <b>Limite de mapa de máscara</b>.<br><br>Ou seja, as formas localizadas em áreas do mapa onde a luminância está abaixo desse limite serão mascaradas. |
 | <b>Entrada de padrão 1</b> *Tons de cinza* | O mapa de heights do padrão #1 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
-| <b>Entrada de padrão 2</b> *Tons de cinza* | O mapa de heights do padrão #2 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
-| <b>Entrada de padrão 3</b> *Tons de cinza* | O mapa de heights do padrão #3 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
-| <b>Entrada de padrão 4</b> *Tons de cinza* | O mapa de heights do padrão #4 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
-| <b>Entrada de padrão 5</b> *Tons de cinza* | O mapa de heights do padrão #5 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
-| <b>Entrada de padrão 6</b> *Tons de cinza* | O mapa de heights do padrão #6 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
-| <b>Entrada de padrão 7</b> *Tons de cinza* | O mapa de heights do padrão #7 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
-| <b>Entrada de padrão 8</b> *Tons de cinza* | O mapa de heights do padrão #8 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
+| <b>Entrada de padrão 2</b> *Tons de cinza* | O mapa de altura do padrão #2 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
+| <b>Entrada de padrão 3</b> *Tons de cinza* | O mapa de altura do padrão #3 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
+| <b>Entrada de padrão 4</b> *Tons de cinza* | O mapa de altura do padrão #4 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
+| <b>Entrada de padrão 5</b> *Tons de cinza* | O mapa de altura do padrão #5 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
+| <b>Entrada de padrão 6</b> *Tons de cinza* | O mapa de altura do padrão #6 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
+| <b>Entrada de padrão 7</b> *Tons de cinza* | O mapa de altura do padrão #7 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
+| <b>Entrada de padrão 8</b> *Tons de cinza* | O mapa de altura do padrão #8 que está disperso quando <b>Tipo de padrão</b> está definido como &#39;Entrada de padrão&#39;.<br><br><i>Dica:</i> use uma resolução próxima ao tamanho máximo que o padrão pode ter quando disperso. |
 | <b>height DE Grade de atlas</b> *Tons de cinza* | A imagem que descreve o height de padrões empacotados em um atlas.<br><br>Use o parâmetro <b>tamanho da Grade de atlas</b> para especificar o tamanho da grade do atlas. |
 | <b>Grade de atlas normal</b> *Cor* | A imagem que descreve os normais de padrões empacotados em um atlas.<br><br>Use o parâmetro <b>tamanho da Grade de atlas</b> para especificar o tamanho da grade do atlas. |
 
@@ -110,8 +110,8 @@ Dispersão formas em uma superfície de height de plano de fundo com recursos av
 | <b>height de extrusão de forma</b> *Flutuante* | A distância máxima de extrusão no espaço da imagem, onde 1 é o lado mais longo da imagem.<br><br>Esta distância é dimensionada em relação ao valor de <b>escala da forma</b>. |
 | <b>Amostras de extrusão de forma</b> *Inteiro* | A quantidade de amostras executadas para desenhar a extrusão dos padrões de entrada.<br><br>Uma quantidade maior resulta em extrusões mais suaves e mais definidas, o que prejudica algum desempenho. |
 | <b>Função de padrão</b> *Flutuante* | O gráfico de função Substance criado usado para calcular o padrão mapeado para um SDF de plano 3D.<br><br>Esses padrões também podem ser extrusados usando <b>Habilitar extrusão de forma</b>. |
-| <b>Função SDF de padrões</b> *Flutuante* | O gráfico de função Substance que cria o campo de distância assinada (SDF) que descreve a superfície de um objeto 3D no espaço.<br><br>Procure a coleção interna de [Funções SDF](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions) na Biblioteca para criar um objeto complexo combinando várias <i>primitivas</i> de SDF usando os <i>operadores</i> e as <i>transformações</i> disponíveis.<br><br>Uma forma SDF é inteiramente processual e pode ser ajustada dinamicamente, o que pode permitir que cada forma dispersa seja <i>única</i>.<br><br>Use o nó [visualizador 3D](../../../filters/effects/3d-viewer/3d-viewer.md) para visualizar o resultado de uma Função SDF.<br><br><i>Observação:</i> para aplicar aleatoriedade no Função SDF, use os nós [Hash](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#random) em vez de &#39;Aleatório&#39;. |
-| <b>Tamanho de quadro delimitador do SDF</b> *Flutuante3* | Define o tamanho máximo da caixa delimitadora (Bbox) da forma SDF, que por sua vez é usada para calcular sua Caixa 2D.<br><br>As formas são desenhadas somente dentro dos limites de sua Caixa 2D e o restante é aparado. |
+| <b>Função SDF de padrões</b> *Flutuante* | O gráfico de função Substance que cria o campo de distância assinada (SDF) que descreve a superfície de um objeto 3D no espaço.<br><br>Procure a coleção interna de [Funções SDF](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions) na Biblioteca para criar um objeto complexo combinando várias <i>primitivas</i> de SDF usando os <i>operadores</i> e as <i>transformações</i> disponíveis.<br><br>Uma forma SDF é totalmente processual e pode ser ajustada dinamicamente, o que pode permitir que cada forma dispersa seja <i>única</i>.<br><br>Use o nó [visualizador 3D](../../../filters/effects/3d-viewer/3d-viewer.md) para visualizar o resultado de uma Função SDF.<br><br><i>Observação:</i> para aplicar aleatoriedade no Função SDF, use os nós [Hash](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#random) em vez de &#39;Aleatório&#39;. |
+| <b>Tamanho do quadro delimitador do SDF</b> *Flutuante3* | Define o tamanho máximo da caixa delimitadora (Bbox) da forma SDF, que por sua vez é usada para calcular sua Caixa 2D.<br><br>As formas são desenhadas somente dentro dos limites de sua Caixa 2D e o restante é aparado. |
 | <b>Habilitar recorte de arestas</b> *Booleano* | Alterna a aparagem de padrões, o que ignora todos os valores abaixo do <b>Limite de recorte</b>. Isso garante que apenas a silhueta desejada dos padrões seja usada. |
 | <b>Limite de recorte</b> *Flutuante* | O valor de tons de cinza abaixo do qual os valores nos padrões são aparados. Ou seja, o valor usado como borda da silhueta para os padrões. |
 | <b>Fluxo de trabalho normalizado</b> *Booleano* | Quando ativado, habilita o ajuste automático do height das formas para que elas <i>preservem suas proporções originais</i> conforme são dimensionadas para cima ou para baixo.<br><br>Quando desativado, o height das formas é expresso na faixa de heights completa da imagem, independentemente de suas proporções originais.<br><br>O height das formas ainda pode ser ajustado manualmente usando os parâmetros de <b>escala de Height</b>. |
@@ -119,7 +119,7 @@ Dispersão formas em uma superfície de height de plano de fundo com recursos av
 | <b>Escala de Height</b> *Flutuante* | Um multiplicador para o height da forma, onde 1 é o height completo da forma expresso no intervalo de heights completo da imagem do intervalo de heights normalizado da forma. (Consulte <b>Fluxo de trabalho normalizado</b>) |
 | <b>Escala aleatória do Height</b> *Flutuante* | Reduz aleatoriamente o height de cada forma até a proporção especificada, onde 1 significa que o height de uma forma pode ser totalmente reduzido a 0. |
 | <b>Multiplicador de mapa de escala de Height</b> *Flutuante* | A intensidade do <b>mapa de escala de Height</b> fornecido, onde 1 significa que o valor do mapa completo é multiplicado em relação ao height da forma. |
-| <b>Opacidade da entrada do plano de fundo</b> *Flutuante* | A intensidade da entrada fornecida do <b>height de Plano de Fundo</b> no mapa de height final.<br><br>Os heights das formas e do plano de fundo são combinados usando uma “Mesclagem máxima”, em que o mais alto dos dois é usado. |
+| <b>Opacidade da entrada do plano de fundo</b> *Flutuante* | A intensidade da entrada fornecida do <b>height de Plano de Fundo</b> no mapa de altura final.<br><br>Os heights das formas e do plano de fundo são combinados usando uma “Mesclagem máxima”, em que o mais alto dos dois é usado. |
 | <b>Deslocamento de Height do plano de fundo</b> *Flutuante* | A proporção do height de plano de fundo que deve ser adicionado ao height das formas, onde 1 significa que o height de plano de fundo completo foi adicionado.<br><br>Isso pode ser usado para fazer com que as formas “descansem” no height de plano de fundo. |
 | <b>Conformidade com o plano de fundo</b> *Flutuante* | A intensidade da deformação aplicada ao height das formas para corresponder ao height do plano de fundo por pixel, onde 1 significa uma correspondência exata.<br><br><i>Observação:</i> este parâmetro não tem efeito quando o <b>deslocamento do Height do plano de fundo</b> = 0. |
 | <b>Suavizar inclinação do plano de fundo</b> *Flutuante* | A intensidade da suavização aplicada ao height de plano de fundo usado para os ajustes de <b>Deslocamento do Height do plano de fundo</b> e <b>Conformidade com o plano de fundo</b>.<br><br>Isso suaviza as frequências de deformação e deslocamento de height, que podem ser mais duras do que o desejado. |
@@ -164,9 +164,9 @@ Dispersão formas em uma superfície de height de plano de fundo com recursos av
 | <b>Limite do mapa de máscaras</b> *Flutuante* | O valor em tons de cinza no <b>Mapa de máscaras</b> abaixo do qual as formas estão ocultas.<br><br>O mapa é combinado com o parâmetro <b>Máscara aleatória</b>. |
 | <b>Escala UV</b> *Flutuante2* | Um multiplicador por eixo para os UVs das formas, em que a divisão em blocos gráficos aumenta com os valores. |
 | <b>Escala UV de arremate</b> *Flutuante2* | Um multiplicador por eixo para os UVs das tampas do cilindro, onde a divisão em blocos gráficos aumenta com os valores. |
-| <b>Modo Cap UV</b> *Inteiro* | O método de calcular os UVs para as tampas do cilindro.<br><br>- <b>Polar:</b> Use coordenadas polares onde U aumenta ao redor do eixo Z do cilindro e V aumenta à medida que ele se afasta dele.<br>- <b>Planar:</b> Use uma projeção planar onde os UVs são mapeados usando a caixa delimitadora das tampas (isto é, um retângulo ajustado para o tamanho das tampas) |
+| <b>Modo Cap UV</b> *Inteiro* | O método de calcular os UVs para as tampas do cilindro.<br><br>- <b>Polar:</b> Use coordenadas polares onde U aumenta ao redor do eixo Z do cilindro e V aumenta à medida que ele se afasta dele.<br>- <b>Planar:</b> Use uma projeção planar onde os UVs são mapeados usando a caixa delimitadora dos arremates (isto é, um retângulo ajustado para o tamanho dos arremates) |
 | <b>Mostrar caixa 2D de forma</b> *Booleano* | Sobrepõe uma visualização do retângulo delimitador da forma na imagem. Esta é a área na qual as formas são desenhadas. |
-| <b>Mostrar caixa 3D de formas</b> *Booleano* | Sobrepõe uma visualização do volume delimitador da forma no espaço 3D. Essa é a área na qual as formas SDF e os planos de extrusão são desenhados.<br><br>Para formas SDF, esta área corresponde ao <b>tamanho de quadro delimitador SDF</b>.<br><br>Esta visualização ajuda a avaliar a extensão e a orientação da forma. |
+| <b>Mostrar caixa 3D de formas</b> *Booleano* | Sobrepõe uma visualização do volume delimitador da forma no espaço 3D. Essa é a área na qual as formas SDF e os planos de extrusão são desenhados.<br><br>Para formas SDF, esta área corresponde ao <b>tamanho do quadro delimitador SDF</b>.<br><br>Esta visualização ajuda a avaliar a extensão e a orientação da forma. |
 | <b>Mostrar tabela dinâmica da forma</b> *Booleano* | Sobrepõe a visualização da tabela dinâmica de formas, como uma combinação dos vetores locais do eixo XYZ.<br><br>Esta visualização ajuda a avaliar a orientação da forma, bem como a origem de suas transformações. (Ou seja, deslocamento, rotação, escala) |
 
 ## Exemplos
@@ -174,29 +174,29 @@ Dispersão formas em uma superfície de height de plano de fundo com recursos av
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>Distribuição Poisson</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-02.gif" /><br><i>Distribuição Poisson</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" /><br><i>Distribuição uniforme</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-03.gif" /><br><i>Distribuição uniforme</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" /><br><i>Mapa de densidade</i>
-        </td>
-    </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" /><br><i>Rotação 3D aleatória</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-background-slope.gif" /><br><i>Rotação de Inclinação</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" /><br><i>Extrusão de forma</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-04.gif" /><br><i>Mapa de densidade</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" /><br><i>Formas 3D SDF</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-05.gif" /><br><i>Rotação 3D aleatória</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-06.gif" /><br><i>Rotação de Inclinação</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-07.gif" /><br><i>Extrusão de forma</i>
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-08.jpg" /><br><i>Formas 3D SDF</i>
         </td>
         <td style="border: 0; background: transparent">
         </td>

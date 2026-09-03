@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
 breadcrumb-title: ''
 description: Use o nó Forma de onda 1 para gerar padrões de forma de onda para criar texturas orgânicas e variações de procedimentos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Forma de onda 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Forma de onda 1 - Ícone](waveform-1.resources/waveform_01_v2.png "Forma de onda 1 - Ícone"){width="200px"}
+![Forma de onda 1 - Ícone](waveform-1.resources/waveform-1-01.png "Forma de onda 1 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -73,7 +73,7 @@ Uma organização horizontal de padrões selecionados pelo usuário empilhados e
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Forma de onda 1 - Exemplo 1](waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif "Forma de onda 1 - Exemplo 1"){zoomable="yes"}
+![Forma de onda 1 - Exemplo 1](waveform-1.resources/waveform-1-02.gif "Forma de onda 1 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

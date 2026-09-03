@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/vector-and-swizzle-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/vector-and-swizzle-nodes.html"
 breadcrumb-title: ''
 description: Use nós vetoriais e de oscilação em gráficos de funções do Substance 3D Designer para manipular dados e componentes vetoriais.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vetor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 5%
@@ -41,7 +41,7 @@ Isso significa que os seguintes métodos são mais bem usados:
 
 Pense bem sobre a ordem das conexões. A ordem de conexão das entradas é ilustrada abaixo.
 
-![](vector-and-swizzle-nodes.resources/vector-int1.png){width="200px"}
+![](vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-01.png){width="200px"}
 
 Exemplo à Esquerda Conecta primeiro um Inteiro(1) e depois um Inteiro 3. O resultado é como abaixo
 
@@ -50,7 +50,7 @@ Exemplo à Esquerda Conecta primeiro um Inteiro(1) e depois um Inteiro 3. O resu
 | Entrada 1 | 0 |  |  |  |
 | Entrada 2 |  | 1 | 2 | 4 |
 
-![](vector-and-swizzle-nodes.resources/vector-int2.png){width="200px"}
+![](vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-02.png){width="200px"}
 
 O exemplo à esquerda troca as entradas em torno do primeiro exemplo, primeiro Inteiro 3, depois um Inteiro(1).
 
@@ -62,10 +62,10 @@ O exemplo à esquerda troca as entradas em torno do primeiro exemplo, primeiro I
 </td>
 <td style="border: 0;" valign="top">
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="vector-and-swizzle-nodes.resources/fn-vector-vectorint4.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="vector-and-swizzle-nodes.resources/fn-vector-vectorint2.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="vector-and-swizzle-nodes.resources/fn-vector-vectorint3.png"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-03.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-04.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-05.png"/></div> |
 | --- | --- | --- |
 | **Inteiro2 vetorial** | **Inteiro Vetorial3** | **Inteiro vetorial4** |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image" src="vector-and-swizzle-nodes.resources/fn-vector-vectofloat3.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image" src="vector-and-swizzle-nodes.resources/fn-vector-vectofloat2.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image" src="vector-and-swizzle-nodes.resources/fn-vector-vectofloat4.png"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-06.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-07.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-08.png"/></div> |
 | **Vetor flutuante 2** | **Vetor flutuante 3** | **Vetor flutuante 4** |
 
 </td>
@@ -81,11 +81,11 @@ O exemplo à esquerda troca as entradas em torno do primeiro exemplo, primeiro I
 Os nós Swizzle desconstroem ou dividem componentes de vetores de vários componentes, permitindo que você utilize os componentes X, Y, Z e W individualmente, bem como trocá-los. As seguintes regras e limitações se aplicam:
 
 * Os nós do assistente têm **somente uma saída**.
-* Os Nós de Suspensão **obtêm qualquer entrada** do tipo correto (Int ou Float).
+* Os Nós de Suspensão **obtêm qualquer entrada** do tipo correto (Int ou Precisão decimal).
 
 ### Dividir componentes
 
-O caso de uso mais comum para Swizzle é usá-lo para dividir componentes, como frenar um Integer4 em 4 inteiros individuais. As limitações significam que você precisará de quatro nós inteiros Swizzle separados para isso.
+O caso de uso mais comum para Swizzle é usá-lo para dividir componentes, como frenar um Integer4 em 4 inteiros individuais. As limitações significam que você precisará de quatro nós de Swizzle Integer separados para isso.
 
 Qualquer outro tipo de divisão também é possível para um Inteiro4, como dois Inteiros2, ou um Inteiro e um Inteiro3, novamente tendo em mente que cada resultado precisa de seu próprio nó.
 
@@ -96,11 +96,11 @@ Como o nome sugere, o Crivo pode ser usado para alterar a ordem dos valores ou a
 </td>
 <td style="border: 0;" valign="top">
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="vector-and-swizzle-nodes.resources/fn-vector-swizzleint1.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="vector-and-swizzle-nodes.resources/fn-vector-swizzleint2.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="vector-and-swizzle-nodes.resources/fn-vector-swizzleint3.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c3_image" src="vector-and-swizzle-nodes.resources/fn-vector-swizzleint4.png"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-09.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-10.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-11.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c3_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-12.png"/></div> |
 | --- | --- | --- | --- |
-| **Inteiro do Assistente** | **Suspiro** **Inteiro2** | **Suspiro** **Inteiro3** | **Suspiro** **Inteiro4** |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image" src="vector-and-swizzle-nodes.resources/fn-vector-swizzlefloat1.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image" src="vector-and-swizzle-nodes.resources/fn-vector-swizzlefloat2.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image" src="vector-and-swizzle-nodes.resources/fn-vector-swizzlefloat3.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c3_image" src="vector-and-swizzle-nodes.resources/fn-vector-swizzlefloat4.png"/></div> |
-| **Suspiro** **Flutuante** | **Panorama** **Flutuante2** | **Panorama** **Flutuante3** | **Panorama** **Flutuante4** |
+| **Swizzle Integer** | **Suspiro** **Inteiro2** | **Suspiro** **Inteiro3** | **Suspiro** **Inteiro4** |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-13.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-14.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-15.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c3_image" src="vector-and-swizzle-nodes.resources/vector-and-swizzle-nodes-16.png"/></div> |
+| **Panorama** **Precisão decimal** | **Panorama** **Precisão decimal 2** | **Panorama** **Precisão decimal 3** | **Panorama** **Precisão decimal 4** |
 
 </td>
 </tr>

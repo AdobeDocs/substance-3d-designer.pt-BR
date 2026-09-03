@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
 breadcrumb-title: ''
 description: Use o nó Acrescentar spline para anexar várias splines para criar caminhos contínuos mais longos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Acrescentar Spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](spline-append.resources/spline-append-icon.png "Ícone de nó")
+![Ícone de nó](spline-append.resources/spline-append-01.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -91,15 +91,15 @@ A ordem das listas é preservada, o que significa acrescentar uma lista D-E-F a 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](spline-append.resources/SplineAppend-Demo.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](spline-append.resources/spline-append-02.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](spline-append.resources/SplineAppend-Graph.jpg "Exemplo de nó 2")
+![Exemplo de nó 2](spline-append.resources/spline-append-03.jpg "Exemplo de nó 2")
 
 </td>
 </tr>
 </table>
 
-![Demonstração de nó](spline-append.resources/SplineAppend-Demo2.gif "Demonstração de nó")
+![Demonstração de nó](spline-append.resources/spline-append-04.gif "Demonstração de nó")

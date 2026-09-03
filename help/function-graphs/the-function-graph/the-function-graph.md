@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/the-function-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/the-function-graph.html"
 breadcrumb-title: ''
 description: Saiba mais sobre os gráficos de função Substance no Designer para criar funções personalizadas e redes de nós reutilizáveis.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: O gráfico da função Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 À primeira vista, o gráfico de função Substance é realmente semelhante a um gráfico de Substance e o fluxo de trabalho é quase o mesmo.
 
-![gráfico de função de Substance](the-function-graph.resources/image2015-12-18-11-29-28.png "gráfico de função de Substance")
+![gráfico de função de Substance](the-function-graph.resources/the-function-graph-01.png "gráfico de função de Substance")
 
 ## A navegação é semelhante
 
@@ -38,7 +38,7 @@ você pode acessar os nós da mesma maneira:
 
 Como no gráfico de Substance, você criará sua função encadeando séries de nós, cada um deles usando o resultado gerado pelo(s) anterior(es).
 
-A saída definirá o valor de um parâmetro ou a saída do nó do processador de pixels.
+A saída definirá o valor de um parâmetro ou a saída do nó de processador de pixels.
 
 ## Diferenças com um gráfico de Substance
 
@@ -53,7 +53,7 @@ Os nós disponíveis no gráfico de função Substance são completamente difere
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![lista de nós de gráfico de função de Substance](the-function-graph.resources/image2015-12-18-13-46-55.png "lista de nós de gráfico de função de Substance")
+![lista de nós de gráfico de função de Substance](the-function-graph.resources/the-function-graph-02.png "lista de nós de gráfico de função de Substance")
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Outro ponto a ser observado é que não há um nó de saída específico no qual
 </td>
 <td style="border: 0;" valign="top">
 
-![nó de saída do gráfico de função Substance](the-function-graph.resources/image2015-12-18-13-49-43.png "nó de saída do gráfico de função Substance")
+![nó de saída do gráfico de função Substance](the-function-graph.resources/the-function-graph-03.png "nó de saída do gráfico de função Substance")
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Outro ponto a ser observado é que não há um nó de saída específico no qual
 
 Para definir a saída, basta clicar com o botão direito do mouse no nó que gera a saída esperada e clicar em *Definir como nó de Saída:*
 
-![Definindo o nó de saída](the-function-graph.resources/setoutputnode.gif "Definindo o nó de saída")
+![Definindo o nó de saída](the-function-graph.resources/the-function-graph-04.gif "Definindo o nó de saída")
 
 >[!WARNING]
 >
@@ -99,7 +99,7 @@ Quanto aos gráficos de Substance, você pode importar funções feitas em outro
 </td>
 <td style="border: 0;" valign="top">
 
-![Abrir gráfico de função de Substance referenciado](the-function-graph.resources/image2017-6-27-10-44-55.png "Abrir gráfico de função de Substance referenciado")
+![Abrir gráfico de função de Substance referenciado](the-function-graph.resources/the-function-graph-05.png "Abrir gráfico de função de Substance referenciado")
 
 </td>
 </tr>
@@ -107,4 +107,4 @@ Quanto aos gráficos de Substance, você pode importar funções feitas em outro
 
 Se você tiver um sbs contendo várias funções, poderá arrastá-lo e soltá-lo diretamente em um gráfico de função do Substance e escolher a função que deseja importar na lista exibida:
 
-![Descartar gráfico de função de Substance do pacote](the-function-graph.resources/sbsdrag.gif "Descartar gráfico de função de Substance do pacote")
+![Descartar gráfico de função de Substance do pacote](the-function-graph.resources/the-function-graph-06.gif "Descartar gráfico de função de Substance do pacote")

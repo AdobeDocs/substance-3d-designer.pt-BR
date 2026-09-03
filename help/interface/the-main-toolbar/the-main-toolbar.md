@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Saiba mais sobre a barra de ferramentas principal do Substance 3D Designer para acessar ferramentas e comandos comuns para o seu fluxo de trabalho.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Barra de ferramentas principal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Esta página descreve a barra de ferramentas principal e o menu do [Substance 3D
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Barra de ferramentas principal](the-main-toolbar.resources/mainmenu.png "Barra de ferramentas principal")
+![Barra de ferramentas principal](the-main-toolbar.resources/the-main-toolbar-01.png "Barra de ferramentas principal")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ Esta página descreve a barra de ferramentas principal e o menu do [Substance 3D
 
 ## Botões de acesso rápido
 
-![](the-main-toolbar.resources/newsubstance.png) <b>Novo gráfico de Substance...:</b> (Ctrl+N)Apresenta a janela [Novo gráfico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) e, em seguida, cria um novo pacote com um [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+![](the-main-toolbar.resources/the-main-toolbar-02.png) <b>Novo gráfico de Substance...:</b> (Ctrl+N)Apresenta a janela [Novo gráfico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) e, em seguida, cria um novo pacote com um [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-![](the-main-toolbar.resources/open.png) <b>Abrir...:</b> (Ctrl+O) Abra um [pacote de Substance (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md) existente.
+![](the-main-toolbar.resources/the-main-toolbar-03.png) <b>Abrir...:</b> (Ctrl+O) Abra um [pacote de Substance (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md) existente.
 
-![](the-main-toolbar.resources/saveall.png) <b>Salvar Tudo:</b> (Ctrl++S) Salva todos os pacotes listados no [Gerenciador](../../interface/the-explorer-window/the-explorer-window.md).
+![](the-main-toolbar.resources/the-main-toolbar-04.png) <b>Salvar Tudo:</b> (Ctrl++S) Salva todos os pacotes listados no [Gerenciador](../../interface/the-explorer-window/the-explorer-window.md).
 
-![](the-main-toolbar.resources/undo.png) <b>Desfazer:</b> (Ctrl+Z) Desfaz a última operação.
+![](the-main-toolbar.resources/the-main-toolbar-05.png) <b>Desfazer:</b> (Ctrl+Z) Desfaz a última operação.
 
-![](the-main-toolbar.resources/redo.png) <b>Refazer:</b> (Ctrl+Y) Refaz a última operação desfeita.
+![](the-main-toolbar.resources/the-main-toolbar-06.png) <b>Refazer:</b> (Ctrl+Y) Refaz a última operação desfeita.
 
 ## Arquivo
 
@@ -94,7 +94,7 @@ Esta página descreve a barra de ferramentas principal e o menu do [Substance 3D
 * <b>Localizar o Player...:</b> informe ao Designer onde o Player está instalado;
 * <b>Baixar Player...:</b> abre a [página de aterrissagem](https://helpx.adobe.com/substance-3d-player/home.html) da documentação do Substance Player, onde o Player pode ser baixado.
 
-<b>Gerenciador de plug-ins...</b>: abre a janela Gerenciador de plug-ins, onde você pode instalar, carregar e descarregar plug-ins Python para o Substance 3D Designer.[&#128279;](../../scripting/scripting.md)
+<b>Gerenciador de plug-ins...</b>: abre a janela Gerenciador de plug-ins, onde você pode instalar, carregar e descarregar plug-ins Python para o Substance 3D Designer.](../../scripting/scripting.md)[
 
 ## Windows
 
@@ -165,7 +165,7 @@ Esta página descreve a barra de ferramentas principal e o menu do [Substance 3D
 
 <b>Novidades...:</b> exibe uma tela, que destaca os recursos adicionados à versão mais recente do Designer
 
-<b>Tela de boas-vindas...\*:</b> exibe uma tela que orienta os novos usuários pela finalidade do Designer e seu lugar no [ecossistema Substance 3D](https://helpx.adobe.com/br/substance-3d.html)
+<b>Tela de boas-vindas...\*:</b> exibe uma tela que orienta os novos usuários pela finalidade do Designer e seu lugar no [ecossistema Substance 3D](https://helpx.adobe.com/substance-3d.html)
 
 <b>Parceiros:</b> permite acessar as isenções de responsabilidade e avisos de integrações de terceiros de nossos parceiros no Designer.
 

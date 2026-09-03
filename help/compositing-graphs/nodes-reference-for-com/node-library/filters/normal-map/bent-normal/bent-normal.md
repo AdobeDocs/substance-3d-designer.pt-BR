@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
 breadcrumb-title: ''
 description: Use o nó Normal dobrado para gerar mapas normais dobrados que levam em conta a iluminação oclusão de ambiente e indireta.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dobra normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó Normal Torto](bent-normal.resources/rt-bent-normal.png "Ícone de nó Normal Torto")
+![Ícone de nó Normal Torto](bent-normal.resources/bent-normal-01.png "Ícone de nó Normal Torto")
 
 <b>Entrada:</b> Filtros > Mapa normal
 
@@ -62,7 +62,7 @@ Este nó não deve ser usado em combinação com o mecanismo da CPU (SSE) devido
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bent-normal.resources/bent-normal-ex-1.jpg" />
+            <img src="bent-normal.resources/bent-normal-02.jpg" />
         </td>
     </tr>
 </table>

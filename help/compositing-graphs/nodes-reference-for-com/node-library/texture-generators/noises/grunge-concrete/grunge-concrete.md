@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
 breadcrumb-title: ''
 description: Use o nó Concreto de Desgaste para gerar padrões de desgaste semelhantes a concreto para criar texturas de alvenaria envelhecidas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desgaste concreto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-concrete.resources/grungeconcrete.jpg){width="200px"}
+![](grunge-concrete.resources/grunge-concrete-01.jpg){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -62,7 +62,7 @@ O nó **Concreto de Desgaste** gera um mapa de desgaste semelhante ao mapa de he
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-concrete.resources/grungeconcrete-variant.jpg" />
+            <img src="grunge-concrete.resources/grunge-concrete-02.jpg" />
         </td>
     </tr>
 </table>

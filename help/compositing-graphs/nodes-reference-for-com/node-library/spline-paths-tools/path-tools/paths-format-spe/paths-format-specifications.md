@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Saiba mais sobre as especificações de formato de caminhos e a estrutura de dados usada pelos nós de caminho e spline.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Especificações de formato de caminhos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Quaisquer dados em um pixel na parte &#39;superior&#39; estão semanticamente re
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dados codificados do polígono dos caminhos](paths-format-specifications.resources/PathsPolygon_Data.jpg "Dados codificados do polígono dos caminhos")
+![Dados codificados do polígono dos caminhos](paths-format-specifications.resources/paths-format-specifications-01.jpg "Dados codificados do polígono dos caminhos")
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Isso é útil ao ler os Caminhos de um [processador de pixels](../../../../../..
 
 O endereço do último vértice definido neste documento. É útil acrescentar novos dados.
 
-Pode, portanto, ser qualquer endereço que seja maior (em ordem de linha de varredura) do que o endereço do último vértice. Ele deve estar no intervalo &rbrack;0, 1[×]0,.5&lbrack;
+Pode, portanto, ser qualquer endereço que seja maior (em ordem de linha de varredura) do que o endereço do último vértice. Ele deve estar no intervalo ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
@@ -269,11 +269,11 @@ Observe que, para simplificar, presume-se que as informações de caminhos sejam
 
 Você pode verificar o `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), no parâmetro Iterations do 3º nó Iterar, para obter um exemplo de como usá-lo.
 
-![Caso de uso mínimo de sample_next](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "Caso de uso mínimo de sample_next")
+![Caso de uso mínimo de sample_next](paths-format-specifications.resources/paths-format-specifications-02.png "Caso de uso mínimo de sample_next")
 
 
 
-![Caso de uso sample_next em Caminhos de Visualização (path_trace)](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "Caso de uso sample_next em Caminhos de Visualização (path_trace)")
+![Caso de uso sample_next em Caminhos de Visualização (path_trace)](paths-format-specifications.resources/paths-format-specifications-03.png "Caso de uso sample_next em Caminhos de Visualização (path_trace)")
 
 
 
@@ -318,7 +318,7 @@ Você encontrará um exemplo pertinente de como usar essas funções no pacote <
 
 ### Métodos de processamento de caminhos
 
-Você provavelmente usará um Processador de Pixel ou um Mapa de Fx para implementar seu processamento personalizado, cada um dos quais tem sua força e fraquezas:
+Você provavelmente usará um Processador de pixels ou um Mapa de Fax para implementar seu processamento personalizado, cada um dos quais tem sua força e fraquezas:
 
 +++FX-Map
 A solução baseada em [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) geralmente será preferida ao executar operações de alto nível que exijam um conhecimento global de todo o caminho (ou caminhos) ou cumulativo (por exemplo, recompactação de vértices após dizimação ou mosaico). Também é a abordagem mais fácil, portanto, se você estiver fazendo um processamento personalizado pela primeira vez, talvez queira usar um Fx-Map, apesar dele *pode ser mais lento*.
@@ -330,7 +330,7 @@ Recomendamos que você observe a implementação de [Caminhos de visualização]
 +++
 
 +++Processador de pixels
-A solução [Processador de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) será adequada se você precisar apenas de informações “locais”. Aqui, queremos dizer “local” não espacialmente (a distância entre os elementos), mas sim topologicamente (vértices ligados entre si). É assim que o Vertex Processor é implementado. O Processador de Pixels é geralmente mais rápido do que o Fx-Map para este tipo de operação, já que cada função de pixel é avaliada em paralelo, enquanto apenas uma quantidade limitada de dados é acessada. Porém, o esforço de implementação pode ser muito mais importante, pois você só pode modificar o pixel atual.
+A solução [Processador de pixels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) será adequada se você precisar apenas de informações “locais”. Aqui, queremos dizer “local” não espacialmente (a distância entre os elementos), mas sim topologicamente (vértices ligados entre si). É assim que o Vertex Processor é implementado. O Processador de pixels é geralmente mais rápido do que o Fx-Map para este tipo de operação, já que cada função de pixel é avaliada em paralelo, enquanto apenas uma quantidade limitada de dados é acessada. Porém, o esforço de implementação pode ser muito mais importante, pois você só pode modificar o pixel atual.
 
 Não entraremos em detalhes, pois há muito a dizer dependendo do caso de uso específico, mas a primeira coisa a fazer é verificar onde você está:
 

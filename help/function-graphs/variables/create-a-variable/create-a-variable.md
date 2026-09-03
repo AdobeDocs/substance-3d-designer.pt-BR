@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/variables/create-a-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/create-a-variable.html"
 breadcrumb-title: ''
 description: Saiba como criar variáveis personalizadas nos gráficos de função do Substance 3D Designer para valores e parâmetros reutilizáveis.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Criar uma variável
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Quando você tiver feito isso, a variável estará disponível no outro gráfico
 >
 > Se você tiver várias variáveis para criar, basta repetir a operação de criação dos nós *Conjunto* e *Sequência* e definir o último nó de sequência como o nó de saída:
 > 
-> ![](create-a-variable.resources/image2015-12-18-18-43-8.png)
+> ![](create-a-variable.resources/create-a-variable-01.png)

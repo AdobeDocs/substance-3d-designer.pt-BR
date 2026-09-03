@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: Use pinos de navegação na visualização de gráfico para alternar rapidamente entre diferentes locais em gráficos do Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fixar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Ícone de pino de navegação](navigation-pin.resources/graphatomic-pin_1.png "Ícone de pino de navegação")
+![Ícone de pino de navegação](navigation-pin.resources/navigation-pin-01.png "Ícone de pino de navegação")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ Em qualquer tipo de gráfico, pressionar o <b>F2</b> percorre todos os fixares d
 
 Os pinos serão enquadrados na viewport no nível de zoom atual.
 
-![Pinos: pulando para pinos](navigation-pin.resources/graph-pin_jumping.gif "Pinos: pulando para pinos")
+![Pinos: pulando para pinos](navigation-pin.resources/navigation-pin-02.gif "Pinos: pulando para pinos")

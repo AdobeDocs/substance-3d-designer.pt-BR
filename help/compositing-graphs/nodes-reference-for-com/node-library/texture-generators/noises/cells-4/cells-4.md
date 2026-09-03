@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-4.html"
 breadcrumb-title: ''
 description: Use o nó do Células 4 para gerar padrões celulares avançados para criar efeitos de textura orgânicos e biológicos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: CÉLULAS 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Células 4 - Ícone](cells-4.resources/cells_4.png "Células 4 - Ícone"){width="200px"}
+![Células 4 - Ícone](cells-4.resources/cells-4-01.png "Células 4 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -78,12 +78,12 @@ Veja também: [Células 1](../../../../../../compositing-graphs/nodes-reference-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Células 4 - Exemplo 1](cells-4.resources/cells_4_1.png "Células 4 - Exemplo 1"){zoomable="yes"}
+![Células 4 - Exemplo 1](cells-4.resources/cells-4-02.png "Células 4 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Células 4 - Exemplo 2](cells-4.resources/noise_cells_4_v2_speed0.3_aniso0.6.gif "Células 4 - Exemplo 2"){zoomable="yes"}
+![Células 4 - Exemplo 2](cells-4.resources/cells-4-03.gif "Células 4 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
 breadcrumb-title: ''
 description: Use o nó Envelhecimento de metal para adicionar efeitos realistas de ferrugem e corrosão a materiais metálicos com base na geometria da malha.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Metálico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 14%
@@ -24,7 +24,7 @@ ht-degree: 14%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](metal-weathering.resources/metal-weathering.png){width="128px"}
+![](metal-weathering.resources/metal-weathering-01.png){width="128px"}
 
 <b>Entrada:</b> Geradores Baseados em Malha > Clima
 
@@ -43,7 +43,7 @@ ht-degree: 14%
 
 |  |  |
 |:---|:---|
-| <b>WS normal</b> <i>Entrada de cores</i> | Fez bake o World Space Normalmap usado para efeitos internos e mascaramento. |
+| <b>WS normal</b> <i>Entrada de cores</i> | Mapa normal do espaço do mundo assado usado para efeitos internos e mascaramento. |
 | <b>Oclusão de ambiente</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para efeitos internos e mascaramento. |
 | <b>Máscara</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. Pode ser alternado com o parâmetro “Máscara”. |
 

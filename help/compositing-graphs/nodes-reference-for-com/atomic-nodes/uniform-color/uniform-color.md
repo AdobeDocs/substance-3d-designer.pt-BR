@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ''
 description: Use o nó Cor uniforme para gerar texturas de cores uniformes para criar preenchimentos de cores sólidas e camadas base.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cor uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: cor uniforme](uniform-color.resources/comp_uniform_1.png "Nó atômico: cor uniforme"){width="200px"}
+![Nó atômico: cor uniforme](uniform-color.resources/uniform-color-01.png "Nó atômico: cor uniforme"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

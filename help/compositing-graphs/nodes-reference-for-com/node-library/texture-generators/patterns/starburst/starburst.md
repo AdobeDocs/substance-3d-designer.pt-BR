@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
 breadcrumb-title: ''
-description: Use o nó Explosão estelar para criar padrões de explosão irradiando de um ponto central para efeitos de textura decorativa.
+description: Use o nó Explosão estelar para criar padrões de explosão irradiando de um ponto central para efeitos decorativos de textura.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Starburst
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Explosão estelar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 15%
@@ -24,7 +24,7 @@ ht-degree: 15%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](starburst.resources/starburst.png){width="128px"}
+![](starburst.resources/starburst-01.png){width="128px"}
 
 <b>Em:</b> Geradores De Textura > Padrões
 
@@ -58,7 +58,7 @@ Gera um efeito de explosão simples, com parâmetros de ajuste disponíveis.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="starburst.resources/starburst-ex.gif" />
+            <img src="starburst.resources/starburst-02.gif" />
         </td>
     </tr>
 </table>

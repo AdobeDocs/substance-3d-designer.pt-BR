@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
 breadcrumb-title: ''
 description: Use o nó Transformação quadrática no caminho para aplicar transformações quadráticas a elementos ao longo de curvas de caminho.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Transformação quádrupla no caminho
+title: Transformo Quad no Caminho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](quad-transform-on-path.resources/quad-transform-on-paths-icon.png "Ícone de nó")
+![Ícone de nó](quad-transform-on-path.resources/quad-transform-on-path-01.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -75,11 +75,11 @@ Deforme um caminho usando 4 alças.
 <table>
   <tr>
     <td>
-      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-03.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ Deforme um caminho usando 4 alças.
 <table>
   <tr>
     <td>
-      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-04.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -109,12 +109,12 @@ Deforme um caminho usando 4 alças.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](quad-transform-on-path.resources/QuadTransformOnPaths-Demo2.gif "Exemplo de nó 1")
+![Exemplo de nó 1](quad-transform-on-path.resources/quad-transform-on-path-05.gif "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](quad-transform-on-path.resources/QuadTransformOnPaths-Demo1.gif "Exemplo de nó 2")
+![Exemplo de nó 2](quad-transform-on-path.resources/quad-transform-on-path-06.gif "Exemplo de nó 2")
 
 </td>
 </tr>

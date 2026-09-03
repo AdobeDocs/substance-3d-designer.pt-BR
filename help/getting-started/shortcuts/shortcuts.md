@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: Aprenda a usar atalhos de teclado no Substance 3D Designer para acelerar seu fluxo de trabalho e melhorar a produtividade.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atalhos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 17%
@@ -32,11 +32,11 @@ Nesta página, você pode encontrar uma visão geral de todos os atalhos para o 
 
 **Windows**
 
-![Atalhos de teclado no Windows](shortcuts.resources/keyboard_shortcuts_win.png "Atalhos de teclado no Windows"){zoomable="yes"}
+![Atalhos de teclado no Windows](shortcuts.resources/shortcuts-01.png "Atalhos de teclado no Windows"){zoomable="yes"}
 
 **macOS**
 
-![Atalhos de teclado no macOS](shortcuts.resources/keyboard_shortcuts_mac.png "Atalhos de teclado no macOS"){zoomable="yes"}
+![Atalhos de teclado no macOS](shortcuts.resources/shortcuts-02.png "Atalhos de teclado no macOS"){zoomable="yes"}
 
 ## Listas de atalhos
 

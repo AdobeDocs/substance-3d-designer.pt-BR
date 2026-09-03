@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-11-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-2.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 11.2 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -34,12 +34,12 @@ Um tipo de gráfico totalmente novo, o gráfico de modelo de Substance, está di
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-01.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-02.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Esta é a primeira versão, portanto, espere algumas limitações.
 
 As versões Adobe do Substance 3D Designer têm a nova funcionalidade Enviar para, que permite enviar ativos para outros aplicativos da Substance 3D rapidamente. Não é mais necessário publicar como SBSAR e carregar arquivos individuais. Enviar para resolve isso em um clique.
 
-![](version-11-2.resources/sendto-button.gif)
+![](version-11-2.resources/version-11-2-03.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ Nenhuma versão do Designer foi concluída sem alguns novos nós. Com base na fo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/version-11-2-04.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/version-11-2-05.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Nenhuma versão do Designer foi concluída sem alguns novos nós. Com base na fo
 
 O RTAO faz um trabalho ainda melhor em AO nítido e correto do que o nó HBAO anterior.
 
-![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/version-11-2-06.png){width="300px"}
 
 A Caustics gera cáusticas fisicamente corretas e rastreadas com base em um mapa de altura, como um ruído Perlin simples. Bom para criar texturas de flipbook animadas realistas para cáusticas em tempo real.
 
-![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/version-11-2-07.png){width="300px"}
 
 A Sombra RT gera sombras precisas e com rastreamento de raios, com alguns controles fáceis.
 
@@ -92,17 +92,17 @@ A Sombra RT gera sombras precisas e com rastreamento de raios, com alguns contro
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-08.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-09.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-10.jpg){width="200px"}
 
 </td>
 </tr>
@@ -110,11 +110,11 @@ A Sombra RT gera sombras precisas e com rastreamento de raios, com alguns contro
 
 A Irradiância RT é a mais avançada dos novos nós. Ele faz irradiância com rastreador de raios baseado em um material com mapa de height, e um mapa de Ambiente e/ou um mapa Emissivo.
 
-![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/version-11-2-11.jpg){width="600px"}
 
 Isso significa que você pode criar texturas com iluminação pré-assada, como em projetos estilizados, ou assar um brilho rastreado de raio saltando do mapa de altura.
 
-![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-12.jpg){width="300px"}
 
 E por último, há o nó Normal Curvado. Comparado a uma conversão normal regular, este nó usa o AO para modificar seu mapa normal para usar essa informação do AO. Antes de precisar dos padeiros de malha para criar o efeito, este nó faz isso em espaço de texto para você.
 

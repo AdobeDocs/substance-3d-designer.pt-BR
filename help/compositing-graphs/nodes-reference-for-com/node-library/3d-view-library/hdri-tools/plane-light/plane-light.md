@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
 breadcrumb-title: ''
-description: Use o nó Luz de plano para adicionar fontes planares de luz a ambientes HDRI para controle de iluminação direcional.
+description: Use o nó Luz de plano para adicionar fontes de luz planar a ambientes HDRI para controle de iluminação direcional.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Plane Light
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Luz do plano
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](plane-light.resources/panorama-plane-light.png){width="200px"}
+![](plane-light.resources/plane-light-01.png){width="200px"}
 
 <b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
@@ -62,7 +62,7 @@ Ela difere da [Luz de forma](../../../../../../compositing-graphs/nodes-referenc
 | <b>Coordenadas de Posição</b> |  |
 | <b>Vetor para cima</b> <i>Z Para Cima, Y Para Cima</i> | Somente com o modo Posição mundial, determine a orientação do sistema de coordenadas. |
 | <b>Posição UV do plano</b> | Somente com chão / teto e Distância da origem. Define a posição do plano no espaço UV. |
-| <b>Posição Mundial do Plano</b> <i>-2.0 - 2.0</i> | Somente com o modo Posições Mundiais. Define o espaço mundial da posição do plano. Não há suporte para interação de exibição 2D. |
+| <b>Posição Mundial do Plano</b> <i>-2.0 - 2.0</i> | Somente com o modo Posições Mundiais. Define o espaço mundial da posição do plano. Não há suporte para interação com o Visualização 2D. |
 | <b>Height Absoluto de Plano</b> <i>0.0 - 1.0</i> | Somente com o modo de posição do solo/teto, define o height absoluto a partir do teto. Use Mostrar grade terrestre para estimar melhor a posição. |
 | <b>Distância da origem</b> <i>0.0 - 1.0</i> | Somente com o Modo de posição de Distância da origem. Define a distância a partir do centro do panorama para ambos os pontos. |
 | <b>Modo de Cores da Forma</b> <i>RGB, Temperatura (Kelvin), Entrada De Imagem</i> | Escolha o método a ser usado para definir a cor da forma. A Entrada de imagem permite o uso do segundo slot de entrada. |
@@ -89,7 +89,7 @@ Ela difere da [Luz de forma](../../../../../../compositing-graphs/nodes-referenc
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="plane-light.resources/plane-light-ex.gif" />
+            <img src="plane-light.resources/plane-light-02.gif" />
         </td>
     </tr>
 </table>

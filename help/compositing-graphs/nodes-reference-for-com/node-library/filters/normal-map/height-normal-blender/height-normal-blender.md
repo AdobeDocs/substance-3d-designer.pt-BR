@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
 breadcrumb-title: ''
-description: Use o nó Mesclador normal de Height para mesclar mapas normais e de height para combinar informações detalhadas da superfície.
+description: Use o nó Mesclador normal de Height para mesclar height e mapas normais para combinar informações detalhadas da superfície.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Height Normal Blender
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Misturador normal do height
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](height-normal-blender.resources/height-normal-blender.png){width="128px"}
+![](height-normal-blender.resources/height-normal-blender-01.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Mapa normal
 

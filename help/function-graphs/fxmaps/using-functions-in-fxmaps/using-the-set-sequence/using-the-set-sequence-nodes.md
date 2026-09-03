@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
-description: Saiba como usar nós SetSequence em FXMaps para criar padrões sequenciais e variações processuais.
+description: Saiba como usar nós SetSequence em FXMaps para criar padrões sequenciais e variações de procedimentos.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > Using Functions in FXMaps > Using the SetSequence nodes
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Usando os nós SetSequence
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Ao trabalhar com funções no <b>FX-Maps</b>, você estará ocasionalmente em si
 </td>
 <td style="border: 0;" valign="top">
 
-![Nós de definição e sequência](using-the-set-sequence-nodes.resources/image2017-3-17-15-5-5.png "Nós de definição e sequência")
+![Nós de definição e sequência](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-01.png "Nós de definição e sequência")
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ Por padrão, a variável definida por este nó é *somente* acessível dentro do
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Definir nó](using-the-set-sequence-nodes.resources/image2017-3-17-15-12-52.png "Definir nó")
+![Definir nó](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-02.png "Definir nó")
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Neste exemplo, o nome da variável foi definido como **`myVariable`** e seu valo
 </td>
 <td style="border: 0;" valign="top">
 
-![Definir exemplo de nó](using-the-set-sequence-nodes.resources/image2018-8-30-17-45-35.png "Definir exemplo de nó")
+![Definir exemplo de nó](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-03.png "Definir exemplo de nó")
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ A saída da *segunda ramificação* é passada para a saída do nó.
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Nó de sequência](using-the-set-sequence-nodes.resources/image2017-3-17-15-17-38.png "Nó de sequência")
+![Nó de sequência](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-04.png "Nó de sequência")
 
 </td>
 </tr>
@@ -105,14 +105,14 @@ A saída da *segunda ramificação* é passada para a saída do nó.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Neste exemplo, o nó <b>Sequência</b> é definido como a saída do gráfico. A saída da função é, portanto, a saída do valor <b>0.5</b> pelo nó <b>Precisão decimal</b>.
+Neste exemplo, o nó <b>Sequência</b> é definido como a saída do gráfico. A saída da função é, portanto, a saída do valor <b>0.5</b> pelo nó <b>Float</b>.
 
 No entanto, antes que isso aconteça, a variável `<b>myVariable</b>` é definida com um valor de flutuação de <b>1.0</b>. Esta variável pode ser usada *em outro local* no contexto do nó.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó de sequência](using-the-set-sequence-nodes.resources/image2018-8-30-17-49-41.png "Exemplo de nó de sequência")
+![Exemplo de nó de sequência](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-05.png "Exemplo de nó de sequência")
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Os nós de **sequência** podem ser *encadeados* para controlar o fluxo de execu
 
 Por exemplo, você pode *definir* uma variável primeiro, *atualizar* seu valor em um ponto posterior e *ler* seu valor final, enquanto garante que essas ações ocorram *em uma ordem específica*.
 
-![Nó de sequência encadeado](using-the-set-sequence-nodes.resources/image2018-8-30-17-52-27.png "Nó de sequência encadeado")
+![Nó de sequência encadeado](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-06.png "Nó de sequência encadeado")
 
 ## Visibilidade variável
 
@@ -148,7 +148,7 @@ O que faremos é realizar todo o cálculo na função de parâmetro <b>Cor/Lumin
 </td>
 <td style="border: 0;" valign="top">
 
-![Propriedades do quadrante](using-the-set-sequence-nodes.resources/image2018-8-30-18-1-6.png "Propriedades do quadrante")
+![Propriedades do quadrante](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-07.png "Propriedades do quadrante")
 
 </td>
 </tr>
@@ -167,13 +167,13 @@ Observe que a propriedade **Position** já está definida por um valor aleatóri
 </td>
 <td style="border: 0;" valign="top">
 
-![Função de Cor/Luminosidade do quadrante](using-the-set-sequence-nodes.resources/image2018-8-30-18-4-46.png "Função de Cor/Luminosidade do quadrante")
+![Função de Cor/Luminosidade do quadrante](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-08.png "Função de Cor/Luminosidade do quadrante")
 
 </td>
 </tr>
 </table>
 
-![Padrões dispersos](using-the-set-sequence-nodes.resources/image2018-8-30-18-5-30.png "Padrões dispersos")
+![Padrões dispersos](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-09.png "Padrões dispersos")
 
 <table>
 <tr style="border: 0;">
@@ -184,7 +184,7 @@ Agora que a variável `myRotation` existe e tem um valor, vamos acessar o gráfi
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu de função de parâmetro da rotação de padrão](using-the-set-sequence-nodes.resources/image2018-8-30-18-7-57.png "Menu de função de parâmetro da rotação de padrão")
+![Menu de função de parâmetro da rotação de padrão](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-10.png "Menu de função de parâmetro da rotação de padrão")
 
 </td>
 </tr>
@@ -194,12 +194,12 @@ Agora que a variável `myRotation` existe e tem um valor, vamos acessar o gráfi
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Na função, lemos o valor do parâmetro `myRotation` usando um nó **Obter Precisão decimal** - sabemos que a variável contém um valor float - e o definimos como a saída da função.
+Na função, lemos o valor do parâmetro `myRotation` usando um nó **Get Float** - sabemos que a variável contém um valor float - e o definimos como a saída da função.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Saída de Get float da rotação do padrão](using-the-set-sequence-nodes.resources/image2018-8-30-18-10-58.png "Saída de Get float da rotação do padrão")
+![Saída de Get float da rotação do padrão](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-11.png "Saída de Get float da rotação do padrão")
 
 </td>
 </tr>
@@ -207,4 +207,4 @@ Na função, lemos o valor do parâmetro `myRotation` usando um nó **Obter Prec
 
 A luminosidade agora também controla a rotação.
 
-![Padrões girados](using-the-set-sequence-nodes.resources/image2018-8-30-18-12-25.png "Padrões girados")
+![Padrões girados](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-12.png "Padrões girados")

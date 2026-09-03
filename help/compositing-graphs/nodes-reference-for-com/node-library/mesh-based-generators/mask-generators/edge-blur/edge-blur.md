@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-blur.html"
 breadcrumb-title: ''
 description: Use o nó Desfoque de borda para desfocar máscaras de aresta para criar transições suaves e efeitos de intemperismo baseados em borda suave.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desfoque de borda
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-blur.resources/edge-blur.png){width="128px"}
+![](edge-blur.resources/edge-blur-01.png){width="128px"}
 
 <b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras Inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) do [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Essa máscara realça as arestas com base em um mapa de curvatura feito bake. É um dos Geradores de máscara mais simples.
+Essa máscara realça as bordas com base em um mapa de curvatura assado. É um dos geradores de máscaras mais simples.
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ Essa máscara realça as arestas com base em um mapa de curvatura feito bake. É
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-blur.resources/edge-blur-ex.gif" />
+            <img src="edge-blur.resources/edge-blur-02.gif" />
         </td>
     </tr>
 </table>

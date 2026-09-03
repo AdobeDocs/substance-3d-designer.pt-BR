@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
 breadcrumb-title: ''
-description: Use o nó Ruído Perlin para gerar padrões de ruído suaves e de aparência natural para criar variações e texturas orgânicas.
+description: Use o nó Ruído Perlin para gerar padrões de ruído suaves e de aparência natural para criar texturas e variações orgânicas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Perlin noise
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruído Perlin
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ruído de perlin - Ícone](perlin-noise.resources/perlin_noise.png "Ruído de perlin - Ícone"){width="200px"}
+![Ruído de perlin - Ícone](perlin-noise.resources/perlin-noise-01.png "Ruído de perlin - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -65,12 +65,12 @@ Gera um ruído Perlin, uma distribuição suave amplamente utilizada de valores 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruído Perlin - Exemplo 1](perlin-noise.resources/perlin_noise_1.png "Ruído Perlin - Exemplo 1"){zoomable="yes"}
+![Ruído Perlin - Exemplo 1](perlin-noise.resources/perlin-noise-02.png "Ruído Perlin - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruído Perlin - Exemplo 2](perlin-noise.resources/noise_perlin_noise_v2_speed0.6_aniso0.gif "Ruído Perlin - Exemplo 2"){zoomable="yes"}
+![Ruído Perlin - Exemplo 2](perlin-noise.resources/perlin-noise-03.gif "Ruído Perlin - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>

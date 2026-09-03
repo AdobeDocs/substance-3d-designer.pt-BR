@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/trapezoid-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/trapezoid-transform.html"
 breadcrumb-title: ''
-description: Use o nó do Transformo Trapezoide para aplicar distorção trapezoidal às texturas para criar efeitos de correção de Perspectiva.
+description: Use o nó Transformação trapezoide para aplicar distorção trapezoidal às texturas para criar efeitos de correção de perspectiva.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Trapezoid Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Transformo Trapezoide
+title: Transformação Trapezoide
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 6%
@@ -18,15 +18,15 @@ ht-degree: 6%
 ---
 
 
-# Transformo Trapezoide
+# Transformação Trapezoide
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](trapezoid-transform.resources/trapeze-transform.png){width="128px"}
+![](trapezoid-transform.resources/trapezoid-transform-01.png){width="128px"}
 
-![](trapezoid-transform.resources/trapeze-transform-grayscale.png){width="128px"}
+![](trapezoid-transform.resources/trapezoid-transform-02.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Transformas
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 ## Descrição
 
-Nó de transformo especial que modifica a entrada de uma maneira de distorção Perspectiva/trapezoide. Tem controle para alongamento superior e inferior. Os valores podem ser ultrapassados os limites para efeitos mais fortes.
+Nó de transformação especial que modifica a entrada em uma maneira de distorção de perspectiva/trapezoide. Tem controle para alongamento superior e inferior. Os valores podem ser ultrapassados os limites para efeitos mais fortes.
 
 </td>
 </tr>
@@ -57,7 +57,7 @@ Nó de transformo especial que modifica a entrada de uma maneira de distorção 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="trapezoid-transform.resources/trapeze-example.gif" />
+            <img src="trapezoid-transform.resources/trapezoid-transform-03.gif" />
         </td>
     </tr>
 </table>

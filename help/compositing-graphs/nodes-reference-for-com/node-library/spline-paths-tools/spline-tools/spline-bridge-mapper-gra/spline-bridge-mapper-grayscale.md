@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
 breadcrumb-title: ''
 description: Use o nó Tons de cinza do mapeador da ponte de spline para fazer a ponte de texturas entre duas splines com o mapeamento de tons de cinza.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapeador da ponte de spline em tons de cinza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-icon.png "Ícone de nó")
+![Ícone de nó](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-01.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -80,7 +80,7 @@ Mapeia uma imagem em tons de cinza em uma lista de splines de entrada para que a
 | <b>Valor de Segmentos</b> <i>Inteiro</i> | As splines são simplificadas em segmentos antes que as coordenadas da imagem os atravessem. Uma quantidade maior de segmentos resulta em um mapeamento mais suave ao longo das curvas. |
 | <b>Reduzir Ampliação de UVs</b> <i>Booleano</i> | Ajusta o método usado para interpolar as coordenadas da imagem de uma spline para a próxima para minimizar o esticamento quando a distância entre as splines for irregular. |
 | <b>Escala UV</b> <i>Flutuante2</i> | Ajusta a escala das coordenadas da imagem. Valores mais altos resultam em uma imagem ladrilhada mais densa. |
-| <b>Rotação UV</b> <i>Flutuante</i> | Gira as coordenadas da imagem em torno do centro. |
+| <b>Rotação UV</b> <i>Precisão decimal</i> | Gira as coordenadas da imagem em torno do centro. |
 
 ## Exemplos
 
@@ -91,11 +91,11 @@ Mapeia uma imagem em tons de cinza em uma lista de splines de entrada para que a
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-03.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -104,7 +104,7 @@ Mapeia uma imagem em tons de cinza em uma lista de splines de entrada para que a
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapper-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-04.gif "Exemplo de nó 2")
 
 </td>
 </tr>
@@ -114,12 +114,12 @@ Mapeia uma imagem em tons de cinza em uma lista de splines de entrada para que a
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-05.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Graph.jpg "Exemplo de nó 2")
+![Exemplo de nó 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-06.jpg "Exemplo de nó 2")
 
 </td>
 </tr>

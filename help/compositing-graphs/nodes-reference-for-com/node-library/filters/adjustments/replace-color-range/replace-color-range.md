@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color-range.html"
 breadcrumb-title: ''
 description: Use o nó Substituir intervalo de cores para substituir cores dentro de um intervalo especificado por novas cores para a correção de cores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substituir gama de cores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](replace-color-range.resources/replace-color-range.png){width="128px"}
+![](replace-color-range.resources/replace-color-range-01.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Descrição
 
-Substitui a cor de origem pela cor de destino, com controles adicionais. Pode, por exemplo, ser usado para recolorir partes de um mapa de ID de material (faço bake).
+Substitui a cor de origem pela cor de destino, com controles adicionais. Pode, por exemplo, ser usado para recolorir partes de um mapa de ID de material (bolo).
 
 Para uma versão mais avançada, consulte [Correspondência de cores.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md)
 
@@ -57,7 +57,7 @@ Para uma versão mais avançada, consulte [Correspondência de cores.](../../../
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="replace-color-range.resources/replace-color-range-example.png" />
+            <img src="replace-color-range.resources/replace-color-range-02.png" />
         </td>
     </tr>
 </table>

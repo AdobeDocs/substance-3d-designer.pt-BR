@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Use a visualização 3D no Substance 3D Designer para visualizar materiais em objetos 3D e testar condições de iluminação.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visualização 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Saiba mais aqui: [renderizadores 3D](3d-renderers/3d-renderers.md)
 
 +++ O encaixe da visualização 3D
 
-![exibição-3d.png](3d-view.resources/3d-view.png)
+![exibição-3d.png](3d-view.resources/3d-view-01.png)
 
 +++
 
@@ -38,7 +38,7 @@ Saiba mais aqui: [renderizadores 3D](3d-renderers/3d-renderers.md)
 
 A seção abaixo explica como realizar ações comuns resumidamente, juntamente com um GIF animado para ilustrar o processo.
 
-![Navegação por porta de visualização](3d-view.resources/3d-navigate.gif "Navegação por porta de visualização")
+![Navegação por porta de visualização](3d-view.resources/3d-view-02.gif "Navegação por porta de visualização")
 
 ### Navegação
 
@@ -84,11 +84,11 @@ Você pode interagir com malhas diretamente na viewport:
 
 <b>Pressione Esc para cancelar a seleção.</b> O cursor não precisa estar na malha.
 
-![Exibição 3D - Focalizar e desmarcar](3d-view.resources/sceneBrowser-focus.gif "Exibição 3D - Focalizar e desmarcar"){zoomable="yes"}
+![Exibição 3D - Focalizar e desmarcar](3d-view.resources/3d-view-03.gif "Exibição 3D - Focalizar e desmarcar"){zoomable="yes"}
 
 *Selecionar, focar, desmarcar*
 
-![Exibição 3D - Menu contextual](3d-view.resources/sceneBrowser-contextualMenu.gif "Exibição 3D - Menu contextual"){zoomable="yes"}
+![Exibição 3D - Menu contextual](3d-view.resources/3d-view-04.gif "Exibição 3D - Menu contextual"){zoomable="yes"}
 
 *Selecionar, menu contextual*
 
@@ -114,13 +114,13 @@ Para usar seu próprio ambiente de luz HDR personalizado, importe uma imagem HDR
 
 Vá para <b>Luzes > Editar propriedades</b> para alternar as luzes de ponto na cena.
 
-A luz de ponto 1 pode ser movida ao redor da origem da cena, segurando o LMB ou RMB e arrastando na viewport no modo de Iluminação. <img src="3d-view.resources/image2020-9-17-10-30-37.png" width="24" />
+A luz de ponto 1 pode ser movida ao redor da origem da cena, segurando o LMB ou RMB e arrastando na viewport no modo de Iluminação. <img src="3d-view.resources/3d-view-05.png" width="24" />
 
-No modo Câmera <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" /> , você também pode mudar temporariamente para o modo Iluminação pressionando as teclas Ctrl+ em combinação com os botões do mouse.
+No modo Câmera <img src="3d-view.resources/3d-view-06.png" width="24" /> , você também pode mudar temporariamente para o modo Iluminação pressionando as teclas Ctrl+ em combinação com os botões do mouse.
 
 ## Visualização de dados em 3D
 
-![Exibir saídas de Substance](3d-view.resources/3d-material.gif "Exibir saídas de Substance")
+![Exibir saídas de Substance](3d-view.resources/3d-view-07.gif "Exibir saídas de Substance")
 
 ### Gráficos do Substance
 
@@ -140,7 +140,7 @@ Ao *carregar um gráfico*, suas saídas são aplicadas automaticamente na Exibi�
 > 
 > Se você usar malhas personalizadas com mais de um material, será solicitado a escolher a qual slot de material atribuir o material. Com qualquer um dos métodos acima, clique em um slot para confirmar sua escolha. Para obter mais informações sobre os materiais e suas atribuições, leia a seção detalhada abaixo.
 
-![Visualizando nó vs. saídas de gráfico na Visualização 3D](3d-view.resources/3d-channel.gif "Visualizando nó vs. saídas de gráfico na Visualização 3D")
+![Visualizando nó vs. saídas de gráfico na Visualização 3D](3d-view.resources/3d-view-08.gif "Visualizando nó vs. saídas de gráfico na Visualização 3D")
 
 ### Nó individual/saída do gráfico
 
@@ -152,7 +152,7 @@ Você também pode usar *RMB* para arrastar e soltar qualquer nó da exibição 
 
 Você pode exibir qualquer saída de gráfico individual expandindo o recurso de gráfico no encaixe do [Explorer](../the-explorer-window/the-explorer-window.md) e usando o *LMB* para arrastar essa saída para a Exibição 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
 
-![Visualização de malhas 3D personalizadas](3d-view.resources/3d-mesh.gif "Visualização de malhas 3D personalizadas")
+![Visualização de malhas 3D personalizadas](3d-view.resources/3d-view-09.gif "Visualização de malhas 3D personalizadas")
 
 ## Exibir (personalizar) cenas 3D
 
@@ -161,7 +161,7 @@ Escolha qualquer uma das malhas padrão no menu suspenso <b>Cena</b> na barra su
 
 Para cenas 3D personalizadas, vá para a seção [Trabalhando com cenas 3D](../../working-with-3d-scenes/working-with-3d-scenes.md).
 
-![Alterando propriedades do material](3d-view.resources/3d-materials.gif "Alterando propriedades do material")
+![Alterando propriedades do material](3d-view.resources/3d-view-10.gif "Alterando propriedades do material")
 
 ## Alterar propriedades do sombreador
 
@@ -184,7 +184,7 @@ Os sombreadores podem ser redefinidos usando as ações “Redefinir material”
 > * <b>Rasterizador/GPU Pathtracer:</b> localizado nas configurações do renderizador (Renderizador > Configurações de edição), afeta a *cena inteira*.
 > * <b>OpenGL:</b> localizado nas propriedades do material, afeta o material.
 
-![Exportando a cena](3d-view.resources/3d-view-export-scene.gif "Exportando a cena")
+![Exportando a cena](3d-view.resources/3d-view-11.gif "Exportando a cena")
 
 ## Exportar cena
 
@@ -221,7 +221,7 @@ Para exportar a malha de Exibição 3D, vá para <b>Cena > Exportar malha em mos
 >
 > **TDR (somente Windows)**
 > 
-> Este recurso requer que o <b>Timeout Detection and Recovery (TDR)</b> corresponda aos valores recomendados em [esta página](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) da nossa documentação, conforme estabelecido nos [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) da Designer.
+> Este recurso requer que o <b>Timeout Detection and Recovery (TDR)</b> corresponda aos valores recomendados em [esta página](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) da nossa documentação, conforme estabelecido nos [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) da Designer.
 
 ## Barra de menus
 
@@ -230,7 +230,7 @@ A barra de menus fornece sete menus com opções relacionadas à Visualização 
 +++Cena
 O menu <b>Cena</b> lida com a geometria (Recurso 3D) exibida e com os estados de exibição 3D. O compartilhamento de recursos 3D é apenas a malha, os estados da cena são luzes, câmera e configurações relacionadas e também podem conter a malha ao lado.
 
-![Malhas do menu Cena](3d-view.resources/3d-view-meshes.png "Malhas do menu Cena")
+![Malhas do menu Cena](3d-view.resources/3d-view-12.png "Malhas do menu Cena")
 
 
 
@@ -305,7 +305,7 @@ O menu “Materiais” apresenta uma lista de todos os materiais atribuídos a u
 
 <b>Carregar definição...: </b>(somente renderizador OpenGL) permite carregar seu próprio sombreador personalizado de [GLSLFX.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) O sombreador é adicionado à lista acima.
 
-<b>Redefinir parâmetros comuns:</b> redefine todos os parâmetros que são comuns entre sombreadores. Por exemplo, ao alternar entre os renderizadores Rasterizer/GPU Pathtracer e OpenGL, vários valores de parâmetro no [Adobe Standard Material](https://experienceleague.adobe.com/pt-br/docs/substance-3d/general-knowledge/asm/adobe-standard-material) são transportados.
+<b>Redefinir parâmetros comuns:</b> redefine todos os parâmetros que são comuns entre sombreadores. Por exemplo, ao alternar entre os renderizadores Rasterizer/GPU Pathtracer e OpenGL, vários valores de parâmetro no [Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) são transportados.
 
 <b>Renomear:</b> altere o rótulo deste material.
 
@@ -425,7 +425,7 @@ Também permite acessar o [pop-up de Deslocamento](displacement/displacement.md)
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-scene-browser.png" width="24" /> <b>Navegador de cena</b>
+<img src="3d-view.resources/3d-view-13.png" width="24" /> <b>Navegador de cena</b>
 
 Exibe uma hierarquia de todos os elementos em uma cena 3D.
 
@@ -434,7 +434,7 @@ Exibe uma hierarquia de todos os elementos em uma cena 3D.
 >O navegador Cena e seus recursos são amplamente abordados na [página dedicada](../../interface/3d-view/scene-browser/scene-browser.md).
 
 
-<img src="3d-view.resources/3d-view-scene-toolbar-select.png" width="24" /> <b>Selecionar</b>
+<img src="3d-view.resources/3d-view-14.png" width="24" /> <b>Selecionar</b>
 
 Permite a seleção direta de malhas na cena.
 
@@ -448,7 +448,7 @@ As malhas também podem ser selecionadas nos modos Câmera ou Luz ao pressionar 
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-camera.png" width="22" /> <b>Câmera</b>
+<img src="3d-view.resources/3d-view-15.png" width="22" /> <b>Câmera</b>
 
 Permite o controle direto da câmera na cena.
 
@@ -456,13 +456,13 @@ Permite o controle direto da câmera na cena.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-environment.png" width="24" /> <b>Mostrar ambiente</b>
+<img src="3d-view.resources/3d-view-16.png" width="24" /> <b>Mostrar ambiente</b>
 
 Esse botão alterna a exibição do ambiente da cena. A mesma configuração pode ser encontrada no Dock Propriedades depois de ir para <b>Ambiente > Editar</b> na barra de menus do Visualização 3D.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-light.png" width="24" /> <b>Claro</b>
+<img src="3d-view.resources/3d-view-17.png" width="24" /> <b>Claro</b>
 
 Permite o controle direto do Ponto de luz 1 na cena.
 
@@ -470,31 +470,31 @@ Permite o controle direto do Ponto de luz 1 na cena.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="24" /> <b>Configurações do renderizador</b>
+<img src="3d-view.resources/3d-view-18.png" width="24" /> <b>Configurações do renderizador</b>
 
 Exibe as configurações do renderizador atual no encaixe [Propriedades](../properties/properties.md).
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-pathtracer.png" width="24" /> <b>Habilitar Pathtracer</b>
+<img src="3d-view.resources/3d-view-19.png" width="24" /> <b>Habilitar Pathtracer</b>
 
 Alterna a seleção do renderizador [GPU Pathtracer](3d-renderers/3d-renderers.md#gpu-pathtracer).
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-shadows.png" width="24" /> <b>Habilitar sombras</b>
+<img src="3d-view.resources/3d-view-20.png" width="24" /> <b>Habilitar sombras</b>
 
 Alterna a renderização de sombras em tempo real no renderizador [rasterizador](3d-renderers/3d-renderers.md#rasterizer).
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-ground-plane.png" width="24" /> <b>Habilitar plano horizontal</b>
+<img src="3d-view.resources/3d-view-21.png" width="24" /> <b>Habilitar plano horizontal</b>
 
 Alterna a renderização do plano terrestre nos renderizadores [Rasterizador](3d-renderers/3d-renderers.md#rasterizer) e [GPU Pathtracer](3d-renderers/3d-renderers.md#gpu-pathtracer).
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-displacement.png" width="24" /> <b>Deslocamento</b>
+<img src="3d-view.resources/3d-view-22.png" width="24" /> <b>Deslocamento</b>
 
 Exibe o [pop-up de Deslocamento](displacement/displacement.md).
 
@@ -504,19 +504,19 @@ Exibe o [pop-up de Deslocamento](displacement/displacement.md).
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-grid.png" width="24" /> <b>Grade</b>
+<img src="3d-view.resources/3d-view-23.png" width="24" /> <b>Grade</b>
 
 Alterna a exibição da grade mundial.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-stats.png" width="24" /> <b>Estatísticas de cena</b>
+<img src="3d-view.resources/3d-view-24.png" width="24" /> <b>Estatísticas de cena</b>
 
 Alterna a exibição de estatísticas de cena, como contagem de politons, contagem de materiais, contagem de malhas estáticas etc.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-pivot.png" width="24" /> <b>Eixo</b>
+<img src="3d-view.resources/3d-view-25.png" width="24" /> <b>Eixo</b>
 
 Alterna a exibição do eixo 3D na janela de visualização.
 
@@ -526,25 +526,25 @@ Alterna a exibição do eixo 3D na janela de visualização.
 
 <br>
 
-![](3d-view.resources/3d-view-display-backface-culling.jpg) <b>Seleção de plano de fundo</b>
+![](3d-view.resources/3d-view-26.jpg) <b>Seleção de plano de fundo</b>
 
 Desabilitar essa opção permite ver uma malha de *ambos os lados*. A opção funciona em combinação com o Wireframe.
 
 <br>
 
-![](3d-view.resources/3d-view-display-bounding-box.jpg) <b>Caixa Delimitadora</b>
+![](3d-view.resources/3d-view-27.jpg) <b>Caixa Delimitadora</b>
 
 Alterna a exibição da caixa delimitadora da malha.
 
 <br>
 
-![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg) <b>Espaço tangente do vértice</b>
+![](3d-view.resources/3d-view-28.jpg) <b>Espaço tangente do vértice</b>
 
 Exibe os vetores tangente, binormal e normal para todos os vértices como gizmos coloridos.
 
 <br>
 
-![](3d-view.resources/3d-view-display-wireframe.jpg) <b>Wireframe</b>
+![](3d-view.resources/3d-view-29.jpg) <b>Wireframe</b>
 
 Alterna a exibição da malha como um wireframe.
 
@@ -561,20 +561,20 @@ A barra de ferramentas <b>Exibição</b>, localizada na *parte inferior* do pain
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0; vertical-align: top">
         <td style="border: 0">
-            <p>Você pode exibir <a href="../../glossary/glossary.md#aov">AOVs</a> diferentes usando o botão <img src="./3d-view.resources/aov/aov-icon.png" alt="Ícone de AOVs de renderização 3D" style="padding-left: 5px; padding-right: 5px" /> <b>AOVs de renderização 3D</b>.</p>
+            <p>Você pode exibir <a href="../../glossary/glossary.md#aov">AOVs</a> diferentes usando o botão <img src="./3d-view.resources/aov/3d-view-30.png" alt="Ícone de AOVs de renderização 3D" style="padding-left: 5px; padding-right: 5px" /> <b>AOVs de renderização 3D</b>.</p>
             <p>As AOVs permitem inspecionar as informações de malha e material isoladamente para trabalho e depuração focados.</p>
             <p>Algumas AOVs incluem <i>valores HDR</i> que estão fixados em 1 (branco puro) ou 0 (preto puro) no visor.<br>Para inspecionar o intervalo completo de valores, você pode exportar uma renderização 3D da AOV para um formato de arquivo de imagem que ofereça suporte a valores HDR, como <code>.exr</code>.<br>Use a opção de menu <code>Camera > Save render...</code> para exportar a AOV atual.</p>
             <p><i>Observação:</i> as AOVs só estão disponíveis ao usar o Rasterizador e os <a href="./3d-renderers/3d-renderers.md">renderizadores 3D GPU Pathtracer</a>.</p>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="3d-view.resources/aov/aov-composited.jpg" alt="AOVs de renderização 3D compostos" />
+            <img src="3d-view.resources/aov/3d-view-31.jpg" alt="AOVs de renderização 3D compostos" />
         </td>
     </tr>
 </table>
 
 ### Canais de cores
 
-Você pode exibir um único canal da imagem usando o botão ![](3d-view.resources/2d-view-icon-channels.png) <b>Canais de cores</b>. Isso abre uma caixa de combinação que permite selecionar quais canais <b>Vermelhos</b>, <b>Verdes</b> e <b>Azuis</b> devem ser exibidos. O aspecto normal da imagem com todos os canais é restaurado selecionando a opção <b>RGB</b>.
+Você pode exibir um único canal da imagem usando o botão ![](3d-view.resources/3d-view-32.png) <b>Canais de cores</b>. Isso abre uma caixa de combinação que permite selecionar quais canais <b>Vermelhos</b>, <b>Verdes</b> e <b>Azuis</b> devem ser exibidos. O aspecto normal da imagem com todos os canais é restaurado selecionando a opção <b>RGB</b>.
 
 O *ícone* do botão <b>Canais de cores</b> *muda* dependendo do(s) canal(is) exibido(s) atualmente.
 

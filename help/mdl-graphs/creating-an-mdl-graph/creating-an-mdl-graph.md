@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Criar um gráfico MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Esta página descreve o processo de criação de um gráfico MDL para criar materiais MDL no Substance 3D Designer.
 
-![Caminhos de criação de gráfico MDL](creating-an-mdl-graph.resources/mdl-new-graph-hl.png "Caminhos de criação de gráfico MDL")
+![Caminhos de criação de gráfico MDL](creating-an-mdl-graph.resources/creating-an-mdl-graph-01.png "Caminhos de criação de gráfico MDL")
 
 *Caminhos para criar um novo gráfico MDL na interface do Designer*
 
@@ -31,12 +31,12 @@ Esta página descreve o processo de criação de um gráfico MDL para criar mate
 Você pode criar um gráfico MDL usando qualquer um dos seguintes métodos:
 
 * Selecione a opção **Arquivo > Novo > gráfico MDL** na *barra do menu principal*
-* Clique no botão ![](creating-an-mdl-graph.resources/mdl-new-graph-icon.png) **Adicionar gráfico MDL** na *barra de ferramentas principal*
+* Clique no botão ![](creating-an-mdl-graph.resources/creating-an-mdl-graph-02.png) **Adicionar gráfico MDL** na *barra de ferramentas principal*
 * Clique com o botão direito do mouse em um *pacote existente* no painel **Explorer** e selecione a opção **Novo > gráfico MDL**
 
 Você verá a caixa de diálogo **Novo gráfico MDL**, veja abaixo.
 
-![Nova caixa de diálogo de gráfico MDL](creating-an-mdl-graph.resources/mdl-templates.png "Nova caixa de diálogo de gráfico MDL")
+![Nova caixa de diálogo de gráfico MDL](creating-an-mdl-graph.resources/creating-an-mdl-graph-03.png "Nova caixa de diálogo de gráfico MDL")
 
 *Nova caixa de diálogo de gráfico MDL*
 
@@ -46,7 +46,7 @@ Independentemente do método usado para criar um novo gráfico MDL, você sempre
 
 ### Modelos
 
-A seção <b> Modelos</b> permite selecionar um modelo de gráfico, que inclui nós pré-configurados para que você comece a usar o gráfico mais rapidamente. Os nós pré-configurados incluem nós de saída, nós simples para passar valores para essas saídas - por exemplo, nós de Cor uniforme e de entrada, dependendo do modelo.
+A seção <b> Modelos</b> permite selecionar um modelo de gráfico, que inclui nós pré-configurados para que você comece a usar o gráfico mais rapidamente. Os nós pré-configurados incluem nós de saída, nós simples para passar valores para essas saídas - por exemplo, cor uniforme e nós de entrada, dependendo do modelo.
 
 Para começar com um gráfico totalmente *em branco*, selecione o modelo <b>Vazio</b>.
 
@@ -59,10 +59,10 @@ A opção <b>Projeto</b> permite filtrar a lista de modelos por arquivo de proje
 
 A lista de modelos pode ser exibida em modos diferentes usando os *botões* ao lado da caixa de combinação **Projeto**:
 
-* **![](creating-an-mdl-graph.resources/mdl-template-recent-icon.png)Exibição usada recentemente**: filtra a lista para exibir os últimos modelos usados na ordem de *mais recentes para menos recentes*, sendo o item superior o mais recente
-* **![](creating-an-mdl-graph.resources/mdl-template-graphs-icon.png)Gráficos de exibição**: os modelos são exibidos somente pelo *rótulo*, na ordem dos arquivos do [Substance 3D](https://www.adobe.com/br/products/substance3d/3d-augmented-reality.html) no diretório de modelos
-* **![](creating-an-mdl-graph.resources/mdl-template-packages-icon.png)Exibir arquivos do Substance 3D**: os modelos são exibidos por seu rótulo como *filhos do arquivo do Substance 3D ao qual pertencem*, na ordem dos arquivos no diretório de modelos
-* **![](creating-an-mdl-graph.resources/mdl-template-directory-icon.png)Diretórios de exibição**: os modelos são exibidos por seu rótulo como *filhos do diretório ao qual pertencem*, na ordem dos arquivos no diretório de modelos
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-04.png)Exibição usada recentemente**: filtra a lista para exibir os últimos modelos usados na ordem de *mais recentes para menos recentes*, sendo o item superior o mais recente
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-05.png)Gráficos de exibição**: os modelos são exibidos somente pelo *rótulo*, na ordem dos arquivos do [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) no diretório de modelos
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-06.png)Exibir arquivos do Substance 3D**: os modelos são exibidos por seu rótulo como *filhos do arquivo do Substance 3D ao qual pertencem*, na ordem dos arquivos no diretório de modelos
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-07.png)Diretórios de exibição**: os modelos são exibidos por seu rótulo como *filhos do diretório ao qual pertencem*, na ordem dos arquivos no diretório de modelos
 
 ### Propriedades
 

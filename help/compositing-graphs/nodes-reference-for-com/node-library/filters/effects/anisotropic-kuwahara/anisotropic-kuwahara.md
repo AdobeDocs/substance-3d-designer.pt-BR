@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara.html"
 breadcrumb-title: ''
 description: Use o filtro Cor Anisotrópica de Kuwahara para criar efeitos de cor estilizados e artísticos com suavização direcional.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cor Kuwahara anisotrópica
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Anisotrópico de Cor de Kuwahara](anisotropic-kuwahara.resources/anisotropic_kuwahara_color.png "Ícone Anisotrópico de Cor de Kuwahara"){width="200px"}
+![Ícone Anisotrópico de Cor de Kuwahara](anisotropic-kuwahara.resources/anisotropic-kuwahara-01.png "Ícone Anisotrópico de Cor de Kuwahara"){width="200px"}
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -57,12 +57,12 @@ Esquerda: Anisotropia 0.0 / Direita: Anisotropia 1.0
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Uma tigela de frutas com o filtro kuwahara foi aplicada com 0 anisotropia.](anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_3_before.jpg){zoomable="yes"}
+![Uma tigela de frutas com o filtro kuwahara foi aplicada com 0 anisotropia.](anisotropic-kuwahara.resources/anisotropic-kuwahara-02.jpg){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Uma tigela de frutas com o filtro kuwahara foi aplicada com 0 anisotropia.](anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_3_after.jpg){zoomable="yes"}
+![Uma tigela de frutas com o filtro kuwahara foi aplicada com 0 anisotropia.](anisotropic-kuwahara.resources/anisotropic-kuwahara-03.jpg){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,11 +107,11 @@ Esquerda: Anisotropia 0.0 / Direita: Anisotropia 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_1_before.jpg" alt="anisotropic_kuwahara_color_example_1_before">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-04.jpg" alt="anisotropic_kuwahara_color_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_1_after.jpg" alt="anisotropic_kuwahara_color_example_1_after">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-05.jpg" alt="anisotropic_kuwahara_color_example_1_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -120,11 +120,11 @@ Esquerda: Anisotropia 0.0 / Direita: Anisotropia 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_2_before.jpg" alt="anisotropic_kuwahara_color_example_2_before">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-06.jpg" alt="anisotropic_kuwahara_color_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_2_after.jpg" alt="anisotropic_kuwahara_color_example_2_after">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-07.jpg" alt="anisotropic_kuwahara_color_example_2_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -133,11 +133,11 @@ Esquerda: Anisotropia 0.0 / Direita: Anisotropia 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_4_before.jpg" alt="anisotropic_kuwahara_color_example_4_before">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-08.jpg" alt="anisotropic_kuwahara_color_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_4_after.jpg" alt="anisotropic_kuwahara_color_example_4_after">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-09.jpg" alt="anisotropic_kuwahara_color_example_4_after">
       <br><i>Depois</i>
     </td>
   </tr>

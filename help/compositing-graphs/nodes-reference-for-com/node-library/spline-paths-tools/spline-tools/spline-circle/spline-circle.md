@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
 breadcrumb-title: ''
 description: Use o nó Círculo de spline para criar splines circulares para gerar padrões e formas redondos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Círculo com Spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](spline-circle.resources/spline-circle-icon.png "Ícone de nó")
+![Ícone de nó](spline-circle.resources/spline-circle-01.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -96,12 +96,12 @@ Gera uma única spline na forma de um círculo.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](spline-circle.resources/SplineCircle-Variant1.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](spline-circle.resources/spline-circle-02.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](spline-circle.resources/SplineCircle-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](spline-circle.resources/spline-circle-03.gif "Exemplo de nó 2")
 
 </td>
 </tr>
@@ -111,12 +111,12 @@ Gera uma única spline na forma de um círculo.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo 3](spline-circle.resources/SplineCircle-Variant2.jpg "Exemplo 3")
+![Exemplo 3](spline-circle.resources/spline-circle-04.jpg "Exemplo 3")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo 4](spline-circle.resources/SplineCircle-Variant3.jpg "Exemplo 4")
+![Exemplo 4](spline-circle.resources/spline-circle-05.jpg "Exemplo 4")
 
 </td>
 </tr>

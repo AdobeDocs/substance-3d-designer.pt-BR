@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
 breadcrumb-title: ''
 description: Use o nó 3D do cubo para gerar texturas baseadas em projeções de cubo 3D para criar mapas e efeitos de ambiente.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cube 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cube-3d.resources/cube3-ex.png)
+![](cube-3d.resources/cube-3d-01.png)
 
 <b>Em:</b> Geradores De Textura > Padrões
 
@@ -55,7 +55,7 @@ Renderiza um cubo 3D em tons de cinza com sombreamento que também serve como pr
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="cube-3d.resources/cube3d-ex.gif" />
+            <img src="cube-3d.resources/cube-3d-02.gif" />
         </td>
     </tr>
 </table>

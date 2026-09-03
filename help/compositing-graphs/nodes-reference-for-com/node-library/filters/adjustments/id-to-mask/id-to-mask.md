@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
 breadcrumb-title: ''
 description: Use o nó ID para máscara de tons de cinza para converter valores de mapa de ID em máscaras de tons de cinza para seleção de material.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ID para mascarar tons de cinza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Identificar para Mascarar Tons de Cinza](id-to-mask.resources/IDToMask.png "ícone Identificar para Mascarar Tons de Cinza"){width="200px"}
+![Ícone Identificar para Mascarar Tons de Cinza](id-to-mask.resources/id-to-mask-01.png "ícone Identificar para Mascarar Tons de Cinza"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -72,11 +72,11 @@ Um mapa de ID é uma imagem na qual os pixels que fazem parte de um todo (por ex
 <table>
   <tr>
     <td>
-      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="id-to-mask.resources/id-to-mask-02.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="id-to-mask.resources/id-to-mask-03.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -86,12 +86,12 @@ Um mapa de ID é uma imagem na qual os pixels que fazem parte de um todo (por ex
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ID para máscara: Exemplo 2](id-to-mask.resources/id_to_mask_example_2.gif "ID para máscara: Exemplo 2"){zoomable="yes"}
+![ID para máscara: Exemplo 2](id-to-mask.resources/id-to-mask-04.gif "ID para máscara: Exemplo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ID para máscara: Exemplo 3](id-to-mask.resources/id_to_mask_example_3.png "ID para máscara: Exemplo 3"){zoomable="yes"}
+![ID para máscara: Exemplo 3](id-to-mask.resources/id-to-mask-05.png "ID para máscara: Exemplo 3"){zoomable="yes"}
 
 </td>
 </tr>

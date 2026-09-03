@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html"
 breadcrumb-title: ''
-description: Use o nó Extrusão de forma para realizar a extrusão de formas e criar efeitos de profundidade semelhantes a 3D em texturas do Substance 3D Designer.
+description: Use o nó Extrusão de forma para realizar a extrusão de formas e criar efeitos de profundidade semelhantes a 3D no Substance 3D Designer textura.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Extrude
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Extrusão de forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-extrude.resources/shape-extrude.png){width="128px"}
+![](shape-extrude.resources/shape-extrude-01.png){width="128px"}
 
 <b>Em:</b> Geradores De Textura > Padrões
 
@@ -74,7 +74,7 @@ Um nó avançado que permite que entradas de “forma” binárias 2D sejam rend
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-extrude.resources/shape-extrude-1.png" />
+            <img src="shape-extrude.resources/shape-extrude-02.png" />
         </td>
     </tr>
 </table>

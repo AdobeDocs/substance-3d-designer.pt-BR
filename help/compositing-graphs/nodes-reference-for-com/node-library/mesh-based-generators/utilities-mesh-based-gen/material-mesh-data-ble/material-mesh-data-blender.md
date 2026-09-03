@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
 description: Use o nó Misturador de dados de malha de material para mesclar dados de malha de material para criar transições suaves entre diferentes zonas de material.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Misturador de dados de malha de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-mesh-data-blender.resources/material-mesh-data-blender.png){width="128px"}
+![](material-mesh-data-blender.resources/material-mesh-data-blender-01.png){width="128px"}
 
 <b>Entrada:</b> Geradores Baseados Em Malha > Utilitários
 
@@ -33,9 +33,9 @@ ht-degree: 8%
 
 ## Descrição
 
-Esse nó tem como objetivo facilitar bastante a adição de detalhes com base em dados feitos bake. Ele vem com vários controles deslizantes para modificar um material de entrada completo, com base em todos e quaisquer mapas baked como entrada. Experimente, pois há muitas opções.
+O objetivo desse nó é facilitar bastante a adição de detalhes com base em dados armazenados. Ele vem com vários controles deslizantes para modificar um material de entrada completo, com base em todos e quaisquer mapas baked como entrada. Experimente, pois há muitas opções.
 
-É útil para fazer coisas como adicionar realce de borda com base em curvatura ou outros mapas, mesclar em algum AO com Difusão/Basecolor, adicionar Oclusão de Specular com base em curvatura e/ou AO etc.
+É útil para fazer coisas como adicionar realce de borda com base em curvatura ou outros mapas, mesclar em algum AO com a cor difusa/básica, adicionar Oclusão de Specular com base em curvatura e/ou AO etc.
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ Esse nó tem como objetivo facilitar bastante a adição de detalhes com base em
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="material-mesh-data-blender.resources/blenddata-ex.gif" />
+            <img src="material-mesh-data-blender.resources/material-mesh-data-blender-02.gif" />
         </td>
     </tr>
 </table>

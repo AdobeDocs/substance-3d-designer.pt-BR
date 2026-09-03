@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
 breadcrumb-title: ''
-description: Use o nó Transformação quadrilateral para aplicar transformações quadrilaterais às texturas para correção de perspectiva e distorção.
+description: Use o nó Transformo Quad para aplicar transformações quadrilaterais ao textura para correção e distorção de Perspectiva.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Quad Transform
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformação quádrupla
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](quad-transform.resources/quad-transform-grayscale.png){width="128px"}
+![](quad-transform.resources/quad-transform-01.png){width="128px"}
 
-![](quad-transform.resources/quad-transform.png){width="128px"}
+![](quad-transform.resources/quad-transform-02.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Transformas
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 ## Descrição
 
-Nó de transformação especial que permite a transformação de uma forma quádrupla por meio da interação com seus pontos de vértice. Permite transformações muito específicas de maneira prática.
+Nó de transformo especial que permite a transformação de uma forma quádrupla por meio da interação com seus pontos de vértice. Permite transformas muito específicas de maneira prática.
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ Nó de transformação especial que permite a transformação de uma forma quád
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="quad-transform.resources/quad-example.gif" />
+            <img src="quad-transform.resources/quad-transform-03.gif" />
         </td>
     </tr>
 </table>

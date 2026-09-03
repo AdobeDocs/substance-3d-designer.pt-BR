@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Recursos de aprendizado do MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -70,7 +70,7 @@ O material de revestimento metálico abordado neste tutorial é impossível de s
 </td>
 <td style="border: 0;" valign="top">
 
-[![Material de malaquite MDL](mdl-learning-resources.resources/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
+[![Material de malaquite MDL](mdl-learning-resources.resources/mdl-learning-resources-01.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
 
 *Clique na imagem para acessar o tutorial*
 

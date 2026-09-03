@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Saiba mais sobre tipos de valor e manipulação de dados em gráficos de composição de Substance para criação eficaz de materiais.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Valores em gráficos do Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 2%
@@ -34,27 +34,27 @@ Dois novos nós atômicos funcionam com valores:
 
 |  |  |
 | --- | --- |
-| <div><img alt="ícone do nó do processador de valor" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/valueprocessor.png" title="ícone do nó do processador de valor" width="100px"/></div>  <b>[Processador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | O [Processador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) usa Qualquer número de Entradas de Tons de Cinza ou Cores e permite retornar um único Valor de cálculos com base nessas entradas. |
-| <div><img alt="Ícone do nó Entrada de valor" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="Ícone do nó Entrada de valor" width="100px"/></div>  **[Entrada de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | A [Entrada de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)permite criar um slot de entrada em subgráficos que são explicitamente definidos como um valor. |
+| <div><img alt="ícone do nó do processador de valor" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-01.png" title="ícone do nó do processador de valor" width="100px"/></div>  <b>[Processador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | O [Processador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) usa Qualquer número de Entradas de Tons de Cinza ou Cores e permite retornar um único Valor de cálculos com base nessas entradas. |
+| <div><img alt="Ícone do nó Entrada de valor" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-02.png" title="Ícone do nó Entrada de valor" width="100px"/></div>  **[Entrada de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | A [Entrada de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)permite criar um slot de entrada em subgráficos que são explicitamente definidos como um valor. |
 
 Além disso, outros nós lidam com eles de uma maneira específica:
 
 O [Nó de saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) se ajusta automaticamente para se tornar uma Saída de valor se você conectar uma conexão de valor a ela, assim como fazia antes com Tons de cinza e Cores.
 
-![Nó do valor de saída](values-in-substance-compositing-graphs.resources/values-output.gif "Nó do valor de saída"){width="512px"}
+![Nó do valor de saída](values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-03.gif "Nó do valor de saída"){width="512px"}
 
 Há uma nova guia em cada nó único ([Atômico](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)e [Biblioteca](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)/Instância) que permite definir entradas de Valor.
 
-![Adicionando valores de entrada no nó](values-in-substance-compositing-graphs.resources/values-inputs.gif "Adicionando valores de entrada no nó")
+![Adicionando valores de entrada no nó](values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-04.gif "Adicionando valores de entrada no nó")
 
 ## Trabalhar com valores
 
 O uso de valores é um pouco diferente do trabalho de gráfico de Substance regular:
 
-Conexões de valor só podem ser feitas de um [Processador de Valores](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), de uma [Entrada de Valores](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) ou de um [Subgráfico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Isso realmente significa que um Processador de valor é a única maneira de criar uma conexão de valor do zero, não há nó “Valor estático” ou qualquer coisa semelhante. Em vez disso, crie um processador de valor, coloque um valor estático e defina-o como saída para obter o mesmo resultado.
+Conexões de valor só podem ser feitas de um [Processador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), de uma [Entrada de Valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) ou de um [Subgráfico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Isso realmente significa que um Processador de valor é a única maneira de criar uma conexão de Valor do zero, não há nó “Valor estático” ou qualquer coisa semelhante. Em vez disso, crie uma Processador de valor, posicione um Valor estático e defina-o como saída para obter o mesmo resultado.
 
-O Processador de Valores só pode retornar um único Valor. Se você quiser retornar vários Valores, ou conjuntos ou Grupos de Valores, terá que criar um [Subgráfico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
+Processador de valor só pode retornar um único Valor. Se você quiser retornar vários Valores, ou conjuntos ou Grupos de Valores, terá que criar um [Subgráfico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
 
 Para realçar onde os Valores são expostos ou em uso, qualquer Nó que tenha Entradas de Valor ou Saídas de Valor é realçado com uma borda amarela espessa:
 
-![Trabalhando com valores](values-in-substance-compositing-graphs.resources/yellowhighlight.png "Trabalhando com valores")
+![Trabalhando com valores](values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-05.png "Trabalhando com valores")

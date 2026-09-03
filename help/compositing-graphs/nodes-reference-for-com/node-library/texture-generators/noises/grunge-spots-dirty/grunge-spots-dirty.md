@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
 breadcrumb-title: ''
 description: Use o nó Desgaste Manchas sujas para adicionar padrões de manchas sujas para criar efeitos de material envelhecido e envelhecido.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pontos de desgaste Sujos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-spots-dirty.resources/grungespotsdirty.jpg){width="200px"}
+![](grunge-spots-dirty.resources/grunge-spots-dirty-01.jpg){width="200px"}
 
 <b>Entrada:</b> Geradores de Textura > Ruídos
 
@@ -58,10 +58,10 @@ O nó **Desgaste Manchas Sujas** gera um mapa de desgaste semelhante a pontos de
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant2.jpg" />
+            <img src="grunge-spots-dirty.resources/grunge-spots-dirty-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant.jpg" />
+            <img src="grunge-spots-dirty.resources/grunge-spots-dirty-03.jpg" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
 breadcrumb-title: ''
 description: Use o nó Suavização de chanfro para criar bordas chanfradas suaves em formas e padrões para superfícies realistas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Suavização de chanfro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Anisotrópico de Escala de Cinza Kuwahara](bevel-smooth.resources/bevel_smooth.png "Ícone Anisotrópico de Escala de Cinza Kuwahara"){width="200px"}
+![Ícone Anisotrópico de Escala de Cinza Kuwahara](bevel-smooth.resources/bevel-smooth-01.png "Ícone Anisotrópico de Escala de Cinza Kuwahara"){width="200px"}
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -87,12 +87,12 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Suavização de chanfro: Exemplo 1](bevel-smooth.resources/bevel_smooth_example_1.gif "Suavização de chanfro: Exemplo 1"){width="1024px" zoomable="yes"}
+![Suavização de chanfro: Exemplo 1](bevel-smooth.resources/bevel-smooth-02.gif "Suavização de chanfro: Exemplo 1"){width="1024px" zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Suavização de chanfro: Exemplo 8](bevel-smooth.resources/bevel_smooth_example_8.jpg "Suavização de chanfro: Exemplo 8"){width="1024px" zoomable="yes"}
+![Suavização de chanfro: Exemplo 8](bevel-smooth.resources/bevel-smooth-03.jpg "Suavização de chanfro: Exemplo 8"){width="1024px" zoomable="yes"}
 
 </td>
 </tr>
@@ -105,11 +105,11 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_4_before.jpg" alt="bevel_smow_example_4_before">
+      <img src="bevel-smooth.resources/bevel-smooth-04.jpg" alt="bevel_smow_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_4_after.jpg" alt="bevel_smow_example_4_after">
+      <img src="bevel-smooth.resources/bevel-smooth-05.jpg" alt="bevel_smow_example_4_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -121,11 +121,11 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_2_before.jpg" alt="bevel_smow_example_2_before">
+      <img src="bevel-smooth.resources/bevel-smooth-06.jpg" alt="bevel_smow_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_2_after.jpg" alt="bevel_smow_example_2_after">
+      <img src="bevel-smooth.resources/bevel-smooth-07.jpg" alt="bevel_smow_example_2_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_3_before.jpg" alt="bevel_smow_example_3_before">
+      <img src="bevel-smooth.resources/bevel-smooth-08.jpg" alt="bevel_smow_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_3_after.jpg" alt="bevel_smow_example_3_after">
+      <img src="bevel-smooth.resources/bevel-smooth-09.jpg" alt="bevel_smow_example_3_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -158,11 +158,11 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_5_before.jpg" alt="bevel_smow_example_5_before">
+      <img src="bevel-smooth.resources/bevel-smooth-10.jpg" alt="bevel_smow_example_5_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_5_after.jpg" alt="bevel_smow_example_5_after">
+      <img src="bevel-smooth.resources/bevel-smooth-11.jpg" alt="bevel_smow_example_5_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -175,11 +175,11 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_7_before.jpg" alt="bevel_smow_example_7_before">
+      <img src="bevel-smooth.resources/bevel-smooth-12.jpg" alt="bevel_smow_example_7_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_7_after.jpg" alt="bevel_smow_example_7_after">
+      <img src="bevel-smooth.resources/bevel-smooth-13.jpg" alt="bevel_smow_example_7_after">
       <br><i>Depois</i>
     </td>
   </tr>

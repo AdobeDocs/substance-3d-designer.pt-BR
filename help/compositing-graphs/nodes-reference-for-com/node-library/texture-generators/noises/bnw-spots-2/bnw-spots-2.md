@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-2.html"
 breadcrumb-title: ''
 description: Use o nó Pontos preto e branco 2 para criar padrões de pontos com controles aprimorados para variações de textura.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Manchas Pb 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Pontos PB 2 - Ícone](bnw-spots-2.resources/bnw_spots_2.png "Pontos PB 2 - Ícone"){width="200px"}
+![Pontos PB 2 - Ícone](bnw-spots-2.resources/bnw-spots-2-01.png "Pontos PB 2 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -69,12 +69,12 @@ Veja também: [Manchas Pb 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Pontos P2B - Exemplo 1](bnw-spots-2.resources/bnw_spots_2_1.png "Pontos P2B2 - Exemplo 1"){zoomable="yes"}
+![Pontos P2B - Exemplo 1](bnw-spots-2.resources/bnw-spots-2-02.png "Pontos P2B2 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Pontos P2B - Exemplo 2](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso0.gif "Pontos P2B2 - Exemplo 2"){zoomable="yes"}
+![Pontos P2B - Exemplo 2](bnw-spots-2.resources/bnw-spots-2-03.gif "Pontos P2B2 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Veja também: [Manchas Pb 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Pontos P2B - Exemplo 3](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso1.gif "Pontos P2B2 - Exemplo 3"){zoomable="yes"}
+![Pontos P2B - Exemplo 3](bnw-spots-2.resources/bnw-spots-2-04.gif "Pontos P2B2 - Exemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Pontos P2B - Exemplo 4](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.3_aniso0.6.gif "Pontos P2B2 - Exemplo 4"){zoomable="yes"}
+![Pontos P2B - Exemplo 4](bnw-spots-2.resources/bnw-spots-2-05.gif "Pontos P2B2 - Exemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

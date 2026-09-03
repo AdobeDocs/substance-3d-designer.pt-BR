@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
 breadcrumb-title: ''
-description: Use o nó Combinar de respingo de forma para mesclar vários respingos de forma a fim de criar padrões processuais complexos.
+description: Use o nó Mesclagem de respingos de forma para mesclar vários respingos de forma para criar padrões de procedimento complexos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Combinar de respingos de forma
+title: Mesclagem de respingos de forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 14%
@@ -18,15 +18,15 @@ ht-degree: 14%
 ---
 
 
-# Combinar de respingos de forma
+# Mesclagem de respingos de forma
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-splatter-blend.resources/shape-splatter-blend.png){width="128px"}
+![](shape-splatter-blend.resources/shape-splatter-blend-01.png){width="128px"}
 
-<b>Em:</b> Geradores De Textura > Padrões
+<b>Em:</b> Textura Geradores > Padrões
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

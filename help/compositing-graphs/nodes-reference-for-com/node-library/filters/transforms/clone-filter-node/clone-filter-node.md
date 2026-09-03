@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
 breadcrumb-title: ''
-description: Use o nó do filtro Clone para duplicar e deslocar regiões de textura para criar padrões perfeitos e efeitos de divisão em blocos gráficos.
+description: Use o nó do filtro Clonar para duplicar e deslocar regiões de textura para criar padrões perfeitos e efeitos de divisão em blocos gráficos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Clone (Filter Node)
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Clonar (Nó de Filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](clone-filter-node.resources/clone-4.png)
+![](clone-filter-node.resources/clone-filter-node-01.png)
 
 <b>Entrada:</b> Filtros > Transformas
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## Descrição
 
-Clona uma imagem de entrada uma vez para um local especificado. Pode funcionar como uma ferramenta bruta de “carimbo”.
+Clonar uma vez na imagem de entrada para um local especificado. Pode funcionar como uma ferramenta bruta de “carimbo”.
 
 Requer um pouco de cuidado para obter os resultados desejados:
 
@@ -68,7 +68,7 @@ Requer um pouco de cuidado para obter os resultados desejados:
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="clone-filter-node.resources/clone-example.png" />
+            <img src="clone-filter-node.resources/clone-filter-node-02.png" />
         </td>
     </tr>
 </table>

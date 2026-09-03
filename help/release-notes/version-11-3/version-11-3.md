@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-11-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-3.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 11.3 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Data de lançamento: *24 de novembro de 2021*
 
 ### Novas funcionalidades de gráfico de modelo
 
-![](version-11-3.resources/banner-model.jpg)
+![](version-11-3.resources/version-11-3-01.jpg)
 
 Muitas melhorias foram adicionadas ao gráfico de modelo para expandir os recursos de modelagem:
 
@@ -41,7 +41,7 @@ Muitas melhorias foram adicionadas ao gráfico de modelo para expandir os recurs
   * Corte de partículas
   * Partículas de instâncias
 
-  ![](version-11-3.resources/particle-pruning.gif)
+  ![](version-11-3.resources/version-11-3-02.gif)
 
 * <b>Novos nós de modelagem e deformação</b>\
   Novos nós adicionais foram adicionados para criar formas mais complexas. Clique em cada nó para saber mais sobre eles:
@@ -59,7 +59,7 @@ Muitas melhorias foram adicionadas ao gráfico de modelo para expandir os recurs
 
 ### Interoperabilidade aprimorada
 
-![](version-11-3.resources/banner-sendto.jpg)
+![](version-11-3.resources/version-11-3-03.jpg)
 
 As ações de envio foram ampliadas, com duas novas possibilidades:
 
@@ -71,24 +71,24 @@ As ações de envio foram ampliadas, com duas novas possibilidades:
 
 ### Diversos
 
-![](version-11-3.resources/banner-misc-3.jpg)
+![](version-11-3.resources/version-11-3-04.jpg)
 
 Foram feitas várias melhorias na qualidade de vida:
 
 * **Entradas relativas às entradas**\
   As entradas de gráfico definidas em Em relação às entradas herdarão agora o tamanho do nó conectado, em vez do padrão para o tamanho do gráfico pai. Isso facilita muito o gerenciamento de resoluções diferentes por meio de entradas de tamanhos diferentes.
 
-  ![](version-11-3.resources/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/version-11-3-05.jpg){width="400px"}
 
 * **Nova janela de gráfico**\
   A nova janela de gráfico foi reformulada e agora permite ver melhor os detalhes de um modelo específico e criar um novo gráfico diretamente em um pacote existente.
 
-  ![](version-11-3.resources/new-graph.png){width="400px"}
+  ![](version-11-3.resources/version-11-3-06.png){width="400px"}
 
 * **Fechar Todos os Pacotes**\
   Uma pequena ação que torna menos tedioso gerenciar muitos pacotes no explorador. Use **Arquivo** > **Fechar tudo** para fechar todos os pacotes abertos no momento.
 
-  ![](version-11-3.resources/close-all-packages.png)
+  ![](version-11-3.resources/version-11-3-07.png)
 
 * **Maximizar Modo de Exibição Atual**\
   Use o novo ícone **da barra de título** ou o atalho **SHIFT+Espaço** para expandir uma janela para tela inteira. Isso também pode ser usado em janelas flutuantes.
@@ -98,16 +98,16 @@ Foram feitas várias melhorias na qualidade de vida:
 
 ### Conteúdo
 
-![](version-11-3.resources/render-content.jpg)
+![](version-11-3.resources/version-11-3-08.jpg)
 
 Essa versão adiciona novos nós de difusão e melhorias para o nó Renderização PBR:
 
 * <b>Nós de difusão</b>\
   Os novos nós Cor de difusão, Tons de cinza de difusão e Difusão UV permitem gerar desfoques de sangramento suaves com base em uma máscara de entrada.
 
-  ![](version-11-3.resources/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/version-11-3-09.jpg){width="230px"}
 
-  ![](version-11-3.resources/diffusion-grayscale.jpg) ![](version-11-3.resources/diffusion-uv.jpg)
+  ![](version-11-3.resources/version-11-3-10.jpg) ![](version-11-3.resources/version-11-3-11.jpg)
 
 * **Nó de Renderização PBR aprimorado**\
   Este nó teve as seguintes alterações:
@@ -115,7 +115,7 @@ Essa versão adiciona novos nós de difusão e melhorias para o nó Renderizaç�
   * Novo suporte para dispersão de subsuperfície.
   * O Anisotropia agora segue o modelo Adobe Strand Material (5ASM).
   * A iluminação baseada em imagem foi aprimorada com o suporte da amostragem importante.
-  * A iluminação emissiva foi aprimorada com o suporte da amostragem importante.
+  * A iluminação do emissivo foi aprimorada com o suporte da amostragem importante.
 
 ## Notas de versão
 
@@ -130,18 +130,18 @@ Essa versão adiciona novos nós de difusão e melhorias para o nó Renderizaç�
 * [Modelos de Substance] Melhorar a exibição das bases
 * [Modelos de Substance] Preserva a hierarquia dos objetos ao exportar um gráfico de Modelo de Substance para .fbx
 * [Modelos de Substance] Suporte a vários materiais no gráfico Exportação de FBX/OBJ a partir do modelo de Substance
-* [Substance models]&#x200B;[Content] Nó de partículas
-* [Modelos de Substance]&#x200B;[Conteúdo] Nó de transformação generativa
-* [Substance models]&#x200B;[Content] Organic Pattern node
-* [Modelos de Substance]&#x200B;[Conteúdo] Partículas do nó Instâncias
-* [Modelos de Substance]&#x200B;[Conteúdo] Nó de remoção de partículas
-* [Modelos de Substance]&#x200B;[Conteúdo] nó Lathe
-* [Substance models]&#x200B;[Content] Nó do shell
-* [Substance models]&#x200B;[Content] Nó de projeção
-* [Modelos de Substance]&#x200B;[Conteúdo] Nó Curve Trim
-* [Modelos de Substance]&#x200B;[Conteúdo] Atualizar nó Sampler da curva
-* [Modelos do Substance]&#x200B;[Conteúdo] Atualizar nó do Mesh Sampler
-* [Modelos de Substance]&#x200B;[Conteúdo] Atualizar nó de tremulação
+* [Substance models][Content] Nó de partículas
+* [Modelos de Substance][Conteúdo] Nó de transformação generativa
+* [Substance models][Content] Organic Pattern node
+* [Modelos de Substance][Conteúdo] Partículas do nó Instâncias
+* [Modelos de Substance][Conteúdo] Nó de remoção de partículas
+* [Modelos de Substance][Conteúdo] nó Lathe
+* [Substance models][Content] Nó do shell
+* [Substance models][Content] Nó de projeção
+* [Modelos de Substance][Conteúdo] Nó Curve Trim
+* [Modelos de Substance][Conteúdo] Atualizar nó Sampler da curva
+* [Modelos do Substance][Conteúdo] Atualizar nó do Mesh Sampler
+* [Modelos de Substance][Conteúdo] Atualizar nó de tremulação
 * [UX] Botão para maximizar a visualização atual
 * [UX] Atualizar a janela Novo gráfico
 * [UX] Adicionar a opção “Baixar Player” no menu Ferramentas e agregar com “Localizar Player”
@@ -179,7 +179,7 @@ Essa versão adiciona novos nós de difusão e melhorias para o nó Renderizaç�
 * [UI] A tecla Tab deve ser pressionada duas vezes para navegar pelos valores
 * [IU] O zoom com arrastar o mouse é invertido entre a Exibição 3D e outras Portas de Visualização
 * [UI] Carregar um SBS já aberto usando a lista “Arquivos recentes” aciona incorretamente um prompt “Pacote não encontrado”
-* [UI]&#x200B;[macOS] Layout de interface padrão incorreto após iniciar o aplicativo
+* [UI][macOS] Layout de interface padrão incorreto após iniciar o aplicativo
 * [UI] Os pacotes não podem ser salvos na raiz de uma unidade (somente Windows)
 * [Graph] A opção “Exibir automaticamente na visualização 2D” é inconsistente em um caso específico
 * [Graph] A opção &#39;Abrir referência&#39; está disponível para nós de instância SBSAR

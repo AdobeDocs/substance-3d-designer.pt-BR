@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
 description: Use o nó Visualizar caminhos para visualizar dados de caminho na visualização 2D para depuração e verificação.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visualizar demarcadores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](preview-paths.resources/preview-paths-icon.png "Ícone de nó")
+![Ícone de nó](preview-paths.resources/preview-paths-01.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -66,12 +66,12 @@ Você obterá um resultado semelhante à saída <b>Visualizar</b> de [Mascarar p
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](preview-paths.resources/PathsToSpline-Variant2-Before_1.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](preview-paths.resources/preview-paths-02.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](preview-paths.resources/PathsToSpline-Variant1-Before_1.jpg "Exemplo de nó 2")
+![Exemplo de nó 2](preview-paths.resources/preview-paths-03.jpg "Exemplo de nó 2")
 
 </td>
 </tr>
