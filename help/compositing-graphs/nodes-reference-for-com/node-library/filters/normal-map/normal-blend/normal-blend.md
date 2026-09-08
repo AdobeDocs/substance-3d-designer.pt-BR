@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
 breadcrumb-title: ''
 description: Use o nó Combinar normal para mesclar mapas normais para criar transições suaves entre os detalhes da superfície.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Combinar normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-blend.resources/normal-blend-01.png){width="128px"}
+![](../../../../../../assets/normal-blend.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Mapa normal
 
@@ -65,7 +65,7 @@ O Combinar normal não se destina a combinar (sobrepor) mapas normais, onde o ma
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            O formato <img src="normal-blend.resources/normal-blend-02.gif" /><br><i>(.gif introduz pontilhamento no exemplo, os resultados no aplicativo são suaves)</i>
+            O formato <img src="../../../../../../assets/normalblend-ex.gif" /><br><i>(.gif introduz pontilhamento no exemplo, os resultados no aplicativo são suaves)</i>
         </td>
     </tr>
 </table>
