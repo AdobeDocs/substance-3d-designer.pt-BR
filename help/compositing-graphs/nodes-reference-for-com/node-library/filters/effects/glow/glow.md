@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/glow.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/glow.html"
 breadcrumb-title: ''
 description: Use o nó Brilho para adicionar efeitos de brilho às texturas para criar aparências de material luminoso e de emissivo.
 helpx_creative_field: ""
