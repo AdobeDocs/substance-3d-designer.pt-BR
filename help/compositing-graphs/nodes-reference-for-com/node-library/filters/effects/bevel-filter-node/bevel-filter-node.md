@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-filter-node.html"
 breadcrumb-title: ''
 description: Use o nó do filtro de Chanfro para criar bordas chanfradas em formas e padrões para adicionar profundidade e dimensão.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Chanfro (Nó de filtro)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bevel-filter-node.resources/bevel-filter-node-01.png){width="128px"}
+![](../../../../../../assets/bevel.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -69,7 +69,7 @@ Esse é um nó útil para aplicar perfis de curva exatos em um mapa de altura b�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bevel-filter-node.resources/bevel-filter-node-02.png" />
+            <img src="../../../../../../assets/bevel-example.png" />
         </td>
     </tr>
 </table>

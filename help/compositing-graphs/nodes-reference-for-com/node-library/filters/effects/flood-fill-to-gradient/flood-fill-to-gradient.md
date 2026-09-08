@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
 breadcrumb-title: ''
 description: Use o nó Flood Fill para gradiente a fim de preencher regiões com valores de gradiente a fim de criar transições de cores suaves.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill para Gradiente
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-gradient.resources/flood-fill-to-gradient-01.png){width="128px"}
+![](../../../../../../assets/floodfill-to-gradient.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -68,10 +68,10 @@ Transforma uma base [Flood Fill](../../../../../../compositing-graphs/nodes-refe
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-gradient.resources/flood-fill-to-gradient-02.png" />
+            <img src="../../../../../../assets/floodgradient-ex2.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-gradient.resources/flood-fill-to-gradient-03.png" />
+            <img src="../../../../../../assets/floodgradient-ex1.png" />
         </td>
     </tr>
 </table>
