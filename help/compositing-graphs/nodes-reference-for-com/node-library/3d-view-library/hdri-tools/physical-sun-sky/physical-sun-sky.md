@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
 breadcrumb-title: ''
 description: Use o nó Físico do SunSky para gerar ambientes de iluminação física precisos do sol e do céu para visualização de material realista.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SunSky físico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](physical-sun-sky.resources/physical-sun-sky-01.png){width="200px"}
+![](../../../../../../assets/panorama-physical-sun-sky.png){width="200px"}
 
 <b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
@@ -59,7 +59,7 @@ Implementação física de Sun e Sky baseada no modelo de claraboia Hosek-Wikie.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="physical-sun-sky.resources/physical-sun-sky-02.gif" />
+            <img src="../../../../../../assets/sky-ex.gif" />
         </td>
     </tr>
 </table>

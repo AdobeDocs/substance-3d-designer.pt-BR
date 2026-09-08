@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
 breadcrumb-title: ''
 description: Use o nó Gradiente de 2 pontos para criar gradientes de dois pontos em ambientes HDRI para transições de cor do céu e do solo.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gradiente 2 pontos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-2-points.resources/gradient-2-points-01.png){width="250px"}
+![](../../../../../../assets/gradient-2-points.png){width="250px"}
 
 <b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
@@ -57,7 +57,7 @@ Cria um gradiente de 2 cores entre dois pontos selecionados pelo usuário. O res
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-2-points.resources/gradient-2-points-02.gif" />
+            <img src="../../../../../../assets/gradient-ex2.gif" />
         </td>
     </tr>
 </table>
