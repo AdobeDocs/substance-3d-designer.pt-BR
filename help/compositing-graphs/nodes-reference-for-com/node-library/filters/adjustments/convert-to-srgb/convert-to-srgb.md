@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
 breadcrumb-title: ''
 description: Use o nó Converter em sRGB para converter texturas de espaço da cor linear para sRGB para fluxos de trabalho de exibição e saída.
 helpx_creative_field: ""
