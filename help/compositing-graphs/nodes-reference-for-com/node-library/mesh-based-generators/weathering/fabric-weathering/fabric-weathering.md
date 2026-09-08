@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/fabric-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/fabric-weathering.html"
 breadcrumb-title: ''
 description: Use o nó Envelhecimento de malha para adicionar efeitos de desgaste e envelhecimento aos materiais de malha com base na geometria e curvatura da malha.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Clima de tecido
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fabric-weathering.resources/fabric-weathering-01.png){width="128px"}
+![](../../../../../../assets/fabric-weathering.png){width="128px"}
 
 <b>Entrada:</b> Geradores Baseados em Malha > Clima
 
@@ -80,7 +80,7 @@ Certifique-se de entender completamente os [Modos de Criação de Link](../../..
 | <b>Intensidade de Specular</b> <i>0.0 - 1.0</i> | Intensidade de mistura do Specular. |
 | <b>Intensidade de brilho</b> <i>0.0 - 1.0</i> | Intensidade de mistura da Textura reluzente. |
 | <b>Intensidade de aspereza</b> <i>0.0 - 1.0</i> | Intensidade de mistura da aspereza. |
-| <b>Intensidade de Oclusão de ambiente</b> <i>0.0 - 1.0</i> | Intensidade de mesclagem da Oclusão de ambiente. |
+| <b>Intensidade de Oclusão de ambiente</b> <i>0.0 - 1.0</i> | Intensidade de mesclagem da Oclusão ambiente. |
 | <b>Intensidade de Height</b> <i>0.0 - 1.0</i> | Intensidade de mistura do Height. |
 
 ## Exemplos
@@ -88,7 +88,7 @@ Certifique-se de entender completamente os [Modos de Criação de Link](../../..
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fabric-weathering.resources/fabric-weathering-02.gif" />
+            <img src="../../../../../../assets/fabric-ex.gif" />
         </td>
     </tr>
 </table>
