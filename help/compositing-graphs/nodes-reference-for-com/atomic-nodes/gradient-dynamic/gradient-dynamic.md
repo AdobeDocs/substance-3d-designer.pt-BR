@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ''
 description: Use o nó Gradiente (dinâmico) para criar gradientes dinâmicos que podem ser controlados por valores e parâmetros de entrada.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gradiente (dinâmico)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: dinâmico do gradiente](../../../../assets/comp_dyngradient_1.png "Nó atômico: dinâmico do gradiente"){width="200px"}
+![Nó atômico: dinâmico do gradiente](gradient-dynamic.resources/comp_dyngradient_1.png "Nó atômico: dinâmico do gradiente"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -96,7 +96,7 @@ Como alternativa, o controle deslizante Posição de entrada de gradiente pode s
 | --- | --- |
 | <b>Endereçamento de gradiente</b> *Booleano* | Define se o Gradiente se repete (blocos) ou grampos.   Esse parâmetro determina como os pixels HDR do intervalo [0, 1] da entrada em tons de cinza são tratados: apertados ou dobrados até [0, 1]. |
 | <b>Orientação do gradiente</b> *Inteiro* | Define o eixo ao longo do qual a “Entrada de gradiente” deve ser amostrada:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Horizontal:</i> faça uma amostra de uma linha de pixels no eixo X.</li> <li data-preserve-html="true"><i>Vertical:</i> faça uma amostra de uma coluna de pixels no eixo Y.</li> </ul> |
-| <b>Posição de entrada do gradiente</b> *Flutuante* | A posição normalizada da linha ou coluna de pixels a serem amostrados em &#39;Entrada de gradiente&#39;. |
+| <b>Posição de entrada do gradiente</b> *Precisão decimal* | A posição normalizada da linha ou coluna de pixels a serem amostrados em &#39;Entrada de gradiente&#39;. |
 
 ## Conectores de entrada
 
