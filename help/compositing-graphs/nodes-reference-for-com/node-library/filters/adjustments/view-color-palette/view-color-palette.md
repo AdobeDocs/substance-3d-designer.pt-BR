@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
 breadcrumb-title: ''
-description: Use o nó Exibir paleta de cores para visualizar os dados da paleta de cores extraídos do textura para análise.
+description: Use o nó Exibir paleta de cores para visualizar os dados da paleta de cores extraídos das texturas para análise.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > View Color Palette
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exibir paleta de cores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Quantizar Cor](view-color-palette.resources/view-color-palette-01.png "ícone Quantizar Cor"){width="200px"}
+![Ícone Quantizar Cor](../../../../../../assets/ViewColorPalette.png "ícone Quantizar Cor"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Descrição
 
-Compacta uma paleta de cores em um quadrado ou retângulo para visualizá-la mais facilmente na Exibição de gráfico ou no Visualização 2D.\
+Empacota uma paleta de cores em um quadrado ou retângulo para visualizá-la mais facilmente na Exibição de gráfico ou na Exibição 2D.\
 A embalagem visa deixar o menor número possível de espaços vazios.
 
 </td>
@@ -67,12 +67,12 @@ Este nó pode ser usado para visualizar as paletas produzidas pelos seguintes n�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exibir paleta de cores: exemplo 1](view-color-palette.resources/view-color-palette-02.png "Exibir paleta de cores: exemplo 1"){zoomable="yes"}
+![Exibir paleta de cores: exemplo 1](../../../../../../assets/view_color_palette_example_1.png "Exibir paleta de cores: exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exibir paleta de cores: exemplo 2](view-color-palette.resources/view-color-palette-03.png "Exibir paleta de cores: exemplo 2"){zoomable="yes"}
+![Exibir paleta de cores: exemplo 2](../../../../../../assets/view_color_palette_example_2.png "Exibir paleta de cores: exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Este nó pode ser usado para visualizar as paletas produzidas pelos seguintes n�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exibir paleta de cores: exemplo 3](view-color-palette.resources/view-color-palette-04.png "Exibir paleta de cores: exemplo 3"){zoomable="yes"}
+![Exibir paleta de cores: exemplo 3](../../../../../../assets/view_color_palette_example_3.png "Exibir paleta de cores: exemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exibir paleta de cores: exemplo 4](view-color-palette.resources/view-color-palette-05.png "Exibir paleta de cores: exemplo 4"){zoomable="yes"}
+![Exibir paleta de cores: exemplo 4](../../../../../../assets/view_color_palette_example_4.png "Exibir paleta de cores: exemplo 4"){zoomable="yes"}
 
 </td>
 </tr>
