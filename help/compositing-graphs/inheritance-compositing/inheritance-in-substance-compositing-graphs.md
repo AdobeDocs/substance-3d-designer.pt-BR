@@ -134,7 +134,7 @@ O pai de um gráfico é o *contexto* em que ele existe:
 
 ### EDIÇÃO DO CONTEXTO INTERNO
 
-Ao usar a [edição no contexto](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) em um nó de instância de gráfico, o pai do gráfico é o *nó de instância*. Nesse caso, a configuração <b>Tamanho Pai</b> na barra de ferramentas da exibição de gráfico [ está *desabilitada*, pois o gráfico herda os parâmetros base do nó da instância.](../../interface/the-graph-view/the-graph-view.md)
+Ao usar a [edição no contexto](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) em um nó de instância de gráfico, o pai do gráfico é o *nó de instância*. Nesse caso, a configuração <b>Tamanho Pai</b> na barra de ferramentas da exibição de gráfico [&#x200B; está *desabilitada*, pois o gráfico herda os parâmetros base do nó da instância.](../../interface/the-graph-view/the-graph-view.md)
 
 Esta característica é o *ponto* da edição do contexto e deve ser *fatorada* ao definir o método de herança e avaliar os valores atuais dos parâmetros Base de qualquer nó.
 
