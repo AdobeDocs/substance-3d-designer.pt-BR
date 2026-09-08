@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-004.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-004.html"
 breadcrumb-title: ''
 description: Use o nó Mapa de Desgaste 004 para gerar padrões de desgaste de procedimento para adicionar efeitos de textura desgastada e envelhecida.
 helpx_creative_field: ""

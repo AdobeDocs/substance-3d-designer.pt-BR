@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
 breadcrumb-title: ''
 description: Use o nó Desgaste Áspero Sujo para gerar texturas de desgaste ásperas e sujas para adicionar detalhes da superfície desgastada.
 helpx_creative_field: ""

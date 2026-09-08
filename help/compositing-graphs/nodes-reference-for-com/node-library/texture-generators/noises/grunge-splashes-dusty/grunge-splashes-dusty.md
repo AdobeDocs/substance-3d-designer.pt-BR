@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
 breadcrumb-title: ''
 description: Use o nó Desgaste respingos empoeirados para criar padrões de respingo empoeirados para adicionar detalhes de textura desgastada.
 helpx_creative_field: ""
