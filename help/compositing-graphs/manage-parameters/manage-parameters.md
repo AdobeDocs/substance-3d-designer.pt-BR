@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: Saiba como gerenciar e organizar parâmetros em gráficos de composição de Substance para melhor organização do fluxo de trabalho.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gerenciar parâmetros
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Quando as propriedades de um nó são exibidas no Dock Propriedades, os parâmet
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu global &#39;Gerenciar parâmetros&#39; em Propriedades](../../assets/manage-parameters-menu-global.png "Menu global &#39;Gerenciar parâmetros&#39; em Propriedades"){zoomable="yes"}
+![Menu global &#39;Gerenciar parâmetros&#39; em Propriedades](manage-parameters.resources/manage-parameters-menu-global.png "Menu global &#39;Gerenciar parâmetros&#39; em Propriedades"){zoomable="yes"}
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Para gerenciar um parâmetro *único*, use o menu &#39;<b>Gerenciar função</b>
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu &#39;Gerenciar parâmetros&#39; local em Propriedades](../../assets/manage-parameters-menu.png "Menu &#39;Gerenciar parâmetros&#39; local em Propriedades"){zoomable="yes"}
+![Menu &#39;Gerenciar parâmetros&#39; local em Propriedades](manage-parameters.resources/manage-parameters-menu.png "Menu &#39;Gerenciar parâmetros&#39; local em Propriedades"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ As mesmas limitações listadas abaixo para nós atômicos se aplicam a este men
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![&#x200B; menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó](../../assets/manage-parameters-node-menu.png " menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó"){zoomable="yes"}
+![ menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó](manage-parameters.resources/manage-parameters-node-menu.png " menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó"){zoomable="yes"}
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Este recurso funciona da mesma maneira que o uso de um [arquivo de predefiniçã
 </td>
 <td style="border: 0;" valign="top">
 
-![Copiar e colar parâmetros](../../assets/copy-paste-parameters.gif "Copiar e colar parâmetros"){zoomable="yes"}
+![Copiar e colar parâmetros](manage-parameters.resources/copy-paste-parameters.gif "Copiar e colar parâmetros"){zoomable="yes"}
 
 </td>
 </tr>
