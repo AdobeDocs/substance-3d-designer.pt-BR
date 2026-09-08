@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
 breadcrumb-title: ''
 description: Use o nó Atlas splitter para dividir atlas de textura em texturas individuais para processar materiais digitalizados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas splitter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](atlas-splitter.resources/atlas-splitter-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/atlas-splitter.png "Ícone de nó")
 
 <b>Entrada:</b> Filtros de Material/Processamento de Digitalização
 
@@ -63,10 +63,10 @@ O nó funciona como um aplicativo avançado do nó [Flood Fill](../../../../../.
 | <b>Largura de Dilatação</b> <i>Flutuante</i> | Aplica um efeito de dilatação com base na máscara de Opacidade em todos os canais, exceto no Normal e no Height. |
 | <b>Habilitar Entradas Adicionais</b> <i>Booleano</i> | Disponibiliza as entradas e configurações do Usuário 1 e do Usuário 2 para todos os mapas adicionais não cobertos. |
 | <b>Cor de fundo personalizada</b> <i>Booleano</i> | Permite escolher uma cor de fundo personalizada, em vez de uma dilatação do conteúdo da camada. |
-| <b>Cor do Blog de Cor de base</b> <i>Flutuante3</i> | Cor de fundo personalizada para a cor de base. |
-| <b>Cor De Erro Normal</b> <i>Flutuante3</i> | Cor de fundo personalizada para o mapa normal. |
-| <b>Cores Metálicas De Fundo</b> <i>Flutuante</i> | Cor de fundo personalizada para metálico. |
-| <b>Cor De Borrão Da Aspereza</b> <i>Flutuante</i> | Cor de fundo personalizada para aspereza |
-| <b>Cor do Blog do Height</b> <i>Flutuante</i> | Cor de fundo personalizada para o Height |
-| <b>Cor De Bg Do Usuário 1</b> <i>Flutuante</i> | Cor de fundo personalizada para o mapa personalizado do usuário 1 |
-| <b>Cor De Bg Do Usuário 2</b> <i>Flutuante</i> | Cor de fundo personalizada para o mapa personalizado do usuário 1 |
+| <b>Cor do Blog de Cor de base</b> <i>Precisão decimal 3</i> | Cor de fundo personalizada para Cor de base. |
+| <b>Cor De Erro Normal</b> <i>Precisão decimal 3</i> | Cor de fundo personalizada para o Mapa normal. |
+| <b>Cores Metálicas De Fundo</b> <i>Precisão decimal</i> | Cor de fundo personalizada para metálico. |
+| <b>Cor De Borrão Da Aspereza</b> <i>Precisão decimal</i> | Cor de fundo personalizada para aspereza |
+| <b>Cor do Blog do Height</b> <i>Precisão decimal</i> | Cor de fundo personalizada para o Height |
+| <b>Cor De Bg Do Usuário 1</b> <i>Precisão decimal</i> | Cor de fundo personalizada para o mapa personalizado do usuário 1 |
+| <b>Cor De Bg Do Usuário 2</b> <i>Precisão decimal</i> | Cor de fundo personalizada para o mapa personalizado do usuário 1 |

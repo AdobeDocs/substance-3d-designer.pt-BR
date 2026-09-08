@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
 breadcrumb-title: ''
-description: Use o nó Mesclagem de materiais para mesclar materiais inteiros usando máscaras para criar efeitos de materiais compostos.
+description: Use o nó Combinar de material para mesclar materiais inteiros usando máscaras para criar efeitos de materiais compostos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Mesclagem de material
+title: Combinar de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 6%
@@ -18,13 +18,13 @@ ht-degree: 6%
 ---
 
 
-# Mesclagem de material
+# Combinar de material
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-blend.resources/material-blend-01.png){width="128px"}
+![](../../../../../../assets/material-blend.png){width="128px"}
 
 <b>Em:</b> Filtros Materiais > Mesclagem
 
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## Descrição
 
-A Mesclagem de Material é o Equivalente de Material Completo Multicanal do [nó de mesclagem atômica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Ela mescla entre dois materiais completos (todos os canais possíveis) com base em uma máscara em tons de cinza ou, opcionalmente, com base em uma única cor de uma Máscara de identificação de cores.
+O Combinar de material é o equivalente de material completo multicanal do [nó do Combinar atômico](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Ela mescla entre dois materiais completos (todos os canais possíveis) com base em uma máscara em tons de cinza ou, opcionalmente, com base em uma única cor de uma Máscara de identificação de cores.
 
-Esse nó é útil se você deseja mesclar dois materiais e ter um mapa em tons de cinza, mas não uma ID de cor completa. Se você tiver uma torta de ID de cor e quiser mesclar mais de dois materiais, sugerimos que você use a [Mesclagem de vários materiais](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md).
+Esse nó é útil se você deseja mesclar dois materiais e ter um mapa em tons de cinza, mas nenhum faço bake de ID de cor completo. Se você tiver um faço bake de ID de cor e quiser mesclar mais de dois materiais, sugerimos que você use o [Combinar de vários materiais](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md).
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Esse nó é útil se você deseja mesclar dois materiais e ter um mapa em tons d
 
 |  |  |
 |:---|:---|
-| <b>ColorID</b> <i>Entrada de cores</i> | Mapa opcional de ID de cor cozida. |
+| <b>ColorID</b> <i>Entrada de cores</i> | Mapa opcional de ID de cor Feita bake. |
 | <b>Máscara em tons de cinza</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
 
 <a name="parameters"></a>
@@ -57,10 +57,10 @@ Esse nó é útil se você deseja mesclar dois materiais e ter um mapa em tons d
 |  |  |
 |:---|:---|
 | <b>Canais</b> | Ative e desative os canais de material neste grupo ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza, por exemplo. |
-| <b>Difusa</b> |  |
+| <b>Difusões</b> |  |
 | <b>Opacidade</b> <i>0.0 - 1.0</i> | Mesclar opacidade entre o primeiro plano e o plano de fundo |
 | <b>Modo de Mesclagem</b> <i>Normal, Adicionar, Subtrair, Multiplicar, Adicionar/Sub, Máx, Mín, Alternar</i> |  |
-| <b>Cor base</b> |  |
+| <b>Cor de base</b> |  |
 | <b>Opacidade</b> <i>0.0 - 1.0</i> | Mesclar opacidade entre o primeiro plano e o plano de fundo |
 | <b>Modo de Mesclagem</b> <i>Normal, Adicionar, Subtrair, Multiplicar, Adicionar/Sub, Máx, Mín, Alternar</i> |  |
 | <b>Normal</b> |  |
