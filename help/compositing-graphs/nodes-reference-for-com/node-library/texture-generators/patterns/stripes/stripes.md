@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/stripes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/stripes.html"
 breadcrumb-title: ''
 description: Use o nó Stripe para gerar padrões de distribuição com largura, espaçamento e orientação personalizáveis para a criação de texturas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Listras
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 11%
@@ -24,9 +24,9 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](stripes.resources/stripes-01.png){width="128px"}
+![](../../../../../../assets/stripes.png){width="128px"}
 
-<b>Em:</b> Textura Geradores > Padrões
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ Gera um padrão de divisão em blocos gráficos, angulado. O padrão se ajusta p
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="stripes.resources/stripes-02.gif" />
+            <img src="../../../../../../assets/stripes-ex.gif" />
         </td>
     </tr>
 </table>

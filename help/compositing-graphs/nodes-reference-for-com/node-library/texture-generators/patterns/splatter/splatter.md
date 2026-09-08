@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter.html"
 breadcrumb-title: ''
-description: Use o nó respingos para dispersão formas entre texturas para criar padrões aleatórios e detalhes de textura orgânica.
+description: Use o nó Respingo para dispersão formas nas texturas a fim de criar padrões aleatórios e detalhes de textura orgânicos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Splatter
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Respingo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 9%
@@ -24,11 +24,11 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](splatter.resources/splatter-01.png)
+![](../../../../../../assets/splatter.png)
 
-![](splatter.resources/splatter-02.png)
+![](../../../../../../assets/splatter-color.png)
 
-<b>Em:</b> Geradores De Textura > Padrões
+<b>Em:</b> Textura Geradores > Padrões
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Lembre-se de que os parâmetros padrão de Splatter não parecem aleatórios: vo
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="splatter.resources/splatter-03.gif" />
+            <img src="../../../../../../assets/splatter-ex.gif" />
         </td>
     </tr>
 </table>

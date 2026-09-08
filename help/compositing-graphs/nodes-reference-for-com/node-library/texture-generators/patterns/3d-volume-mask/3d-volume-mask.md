@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
 breadcrumb-title: ''
 description: Use o nó Máscara de volume 3D para criar máscaras volumétricas com base na posição 3D para efeitos de material avançados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Máscara de volume 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-volume-mask.resources/3d-volume-mask-01.png){width="256px"}
+![](../../../../../../assets/3dvolumemask.png){width="256px"}
 
 <b>Entrada:</b> Gerador > Padrão
 
@@ -57,26 +57,26 @@ O nó **Máscara de Volume 3D** gera uma representação de uma *forma primitiva
 | <b>Escala</b> <i>Precisão decimal</i> | Define a escala *global* da primitiva, aplicada *uniformemente* em todos os eixos. |
 | <b>Tamanho</b> <i>Precisão decimal 3</i> | Define o tamanho da forma em cada eixo. |
 | <b>Entrada de Posição</b> <i>Inteiro</i> | O método de *representar o espaço* por meio da entrada **Posição**:<br><br>- *Posição UV*: use um *mapa UV*. As coordenadas X/Y (U/V) são mapeadas para os canais R/G, respectivamente. Presume-se que o eixo Z seja o vetor *ortogonal à frente*.<br>- *Posição do espaço mundial*: use um *mapa de posição* para mapear a primitiva no espaço 3D. As coordenadas X/Y/Z são mapeadas para os canais R/G/B, respectivamente. |
-| <b>Posição UV</b> <i>Precisão decimal 2</i> | A posição da primitiva no espaço UV.<br><br>*Observação*: este parâmetro só está disponível quando o parâmetro **Entrada de posição** está definido como *Posição UV*. |
-| <b>Posição</b> <i>Precisão decimal 3</i> | A posição da primitiva no espaço global.<br><br>*Observação*: este parâmetro só está disponível quando o parâmetro **Entrada de Posição** está definido como *Posição no Espaço Mundial*. |
-| <b>Rotação</b> <i>Precisão decimal 3</i> | Define a rotação da forma no espaço global. |
-| <b>Largura da Difusão</b> <i>Precisão decimal</i> | Ajusta a largura do *gradiente de atenuação* da superfície primitiva para dentro. |
+| <b>Posição UV</b> <i>Flutuante2</i> | A posição da primitiva no espaço UV.<br><br>*Observação*: este parâmetro só está disponível quando o parâmetro **Entrada de posição** está definido como *Posição UV*. |
+| <b>Posição</b> <i>Flutuante3</i> | A posição da primitiva no espaço global.<br><br>*Observação*: este parâmetro só está disponível quando o parâmetro **Entrada de Posição** está definido como *Posição no Espaço Mundial*. |
+| <b>Rotação</b> <i>Flutuante3</i> | Define a rotação da forma no espaço global. |
+| <b>Largura da Difusão</b> <i>Flutuante</i> | Ajusta a largura do *gradiente de atenuação* da superfície primitiva para dentro. |
 
 ## Exemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3d-volume-mask-02.jpg" />
+            <img src="../../../../../../assets/3dvolumemask-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3d-volume-mask-03.jpg" />
+            <img src="../../../../../../assets/3dvolumemask-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3d-volume-mask-04.jpg" />
+            <img src="../../../../../../assets/3dvolumemask-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3d-volume-mask-05.jpg" />
+            <img src="../../../../../../assets/3dvolumemask-variant4.jpg" />
         </td>
     </tr>
 </table>
