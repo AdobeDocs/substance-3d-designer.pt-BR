@@ -108,7 +108,7 @@ As mesmas limitações listadas abaixo para nós atômicos se aplicam a este men
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![ menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó](../../assets/manage-parameters-node-menu.png " menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó"){zoomable="yes"}
+![&#x200B; menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó](../../assets/manage-parameters-node-menu.png " menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó"){zoomable="yes"}
 
 </td>
 </tr>

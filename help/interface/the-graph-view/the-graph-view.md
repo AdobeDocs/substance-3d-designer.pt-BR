@@ -414,7 +414,7 @@ A barra de ferramentas do nó difere dependendo do tipo de gráfico:
 
 ![Barra de ferramentas de tamanho pai](../../assets/image2020-6-26-17-0-48.png "Barra de ferramentas de tamanho pai")
 
-Esta barra de ferramentas só está disponível em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) e define o [tamanho de saída](../../compositing-graphs/output-size/output-size.md) do *pai* do gráfico, o que afeta o tamanho de saída do gráfico se ele usar o *método de herança [ Relativo ao pai*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+Esta barra de ferramentas só está disponível em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) e define o [tamanho de saída](../../compositing-graphs/output-size/output-size.md) do *pai* do gráfico, o que afeta o tamanho de saída do gráfico se ele usar o *método de herança [&#x200B; Relativo ao pai*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
 Os tamanhos horizontal e vertical são vinculados por padrão, mas podem ser *desvinculados* para texturas não quadradas. Os valores também podem ser redefinidos para o valor padrão de 256 x 256.
 
