@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial-reflected.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial-reflected.html"
 breadcrumb-title: ''
 description: Use o nó Refletido axial de gradiente para criar gradientes axiais refletidos para transições de cores simétricas.
 helpx_creative_field: ""
