@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: Use o nó de mesclagem para mesclar duas texturas usando vários modos de mesclagem para criar efeitos compostos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Misturar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Mesclar](../../../../assets/comp_blend_1.png "Nó atômico: Mesclar"){width="200px"}
+![Nó atômico: Mesclar](blend.resources/comp_blend_1.png "Nó atômico: Mesclar"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ Combina duas imagens usando um modo de mesclagem especificado e uma máscara opc
 </tr>
 </table>
 
-Sua funcionalidade é semelhante a ter duas camadas acima uma da outra no [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) ou no [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mesclam pelo modo de mesclagem definido na camada superior.
+Sua funcionalidade é semelhante a ter duas camadas acima uma da outra no [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou no [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mesclam pelo modo de mesclagem definido na camada superior.
 
 >[!TIP]
 >
