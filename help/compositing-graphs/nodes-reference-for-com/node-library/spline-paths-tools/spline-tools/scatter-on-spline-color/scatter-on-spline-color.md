@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
 breadcrumb-title: ''
 description: Use o nó Dispersão na cor de spline para distribuir elementos de cor ao longo dos caminhos de spline para padrões de procedimento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersão cor da spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '3092'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](scatter-on-spline-color.resources/scatter-on-spline-color-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/scatter-on-spline-color-icon.png "Ícone de nó")
 
 Em: Ferramentas de Spline e Caminho > Ferramenta de linha flexível
 
@@ -102,8 +102,8 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 | <b>Centro de Deslocamento</b> <i>Precisão decimal 2</i> (Disponível quando ‘Modo de Distribuição’ estiver definido como ‘Linear’) | Aplica um deslocamento às duplicatas ao longo da spline em X (paralelo) e Y (perpendicular). |
 | <b>Ângulo de Propagação</b> <i>Precisão decimal</i> (Disponível quando ‘Modo de Distribuição’ está definido como ‘Circular’) | O arco do círculo virtual ao longo do qual as duplicatas são distribuídas, como o ângulo desse arco onde 1 é o círculo completo. |
 | <b>Distância de deslocamento</b> <i>Precisão decimal</i> (Disponível quando ‘Modo de Distribuição’ está definido como ‘Circular’) | O raio do círculo virtual ao longo do qual as duplicatas são distribuídas. |
-| <b>Rotação</b> <i>Precisão decimal</i> | Gira o círculo virtual ao longo do qual as duplicatas são distribuídas. |
-| <b>Atenuação De Início/Término De Deslocamento</b> <i>Precisão decimal 2</i> | Avalia a distância do ponto médio da spline até seu início e fim ao aplicar deslocamentos a duplicatas.<br>Isso significa que os deslocamentos são diminuídos para duplicatas mais próximas das extremidades de uma spline. |
+| <b>Rotação</b> <i>Flutuante</i> | Gira o círculo virtual ao longo do qual as duplicatas são distribuídas. |
+| <b>Atenuação De Início/Término De Deslocamento</b> <i>Flutuante2</i> | Avalia a distância do ponto médio da spline até seu início e fim ao aplicar deslocamentos a duplicatas.<br>Isso significa que os deslocamentos são diminuídos para duplicatas mais próximas das extremidades de uma spline. |
 | <b>Atenuação de deslocamento por Thickness</b> <i>Flutuante</i> | Fatores no thickness da spline ao aplicar deslocamentos a duplicatas.<br>Isso significa que os deslocamentos são reduzidos para duplicatas em uma parte de uma spline com um thickness inferior. |
 | <b>Tamanho</b> |  |
 | <b>Modo de Tamanho</b> <i>Inteiro</i> | O método de definição do tamanho dos padrões dispersos:<br>*- Normal*: O tamanho é controlado uniformemente usando um parâmetro global &#39;Scale&#39;;<br>*- Usar Thickness de spline*: o tamanho é controlado pelo thickness da spline. |
@@ -117,11 +117,11 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 | <b>Modo de Amostragem de Entrada de Escala</b> <i>Espaço de Textura</i> | O método de mapear os valores no Mapa de Escala para os splines:<br>*- espaço de Textura*: os valores são aplicados aos splines nos quais estariam se fossem colocados em uma textura usando as coordenadas UV da textura. Isso aplica efetivamente o valor às splines “in place”;<br>*- Horizontal ao longo da spline*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coordes de spline), onde cada linha é aplicada a uma spline diferente de cima para baixo;<br>*- Hor. ao longo do spline (rand. deslocamento X)*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte a entrada de Coords de spline), com um deslocamento horizontal aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de spline);<br>*- Hora. ao longo do spline (rand. deslocamento Y)*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento vertical aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de spline). |
 | <b>Atenuação de Início/Término</b> <i>Flutuante2</i> | Afeta a distância do ponto médio da spline até seu início e fim ao dimensionar os padrões.<br>Isso significa que o tamanho é diminuído para padrões mais próximos aos extremos de uma spline. |
 | <b>Posição</b> |  |
-| <b>Deslocamento local</b> <i>Precisão decimal 2</i> | Aplica um deslocamento às posições dos padrões ao longo da tangente (paralela) e do normal (perpendicular) da spline. |
-| <b>Deslocamento Local Aleatório</b> <i>Precisão decimal 2</i> | Aplica um deslocamento aleatório adicional às posições dos padrões ao longo da tangente (paralela) e do normal (perpendicular) da spline. |
+| <b>Deslocamento local</b> <i>Flutuante2</i> | Aplica um deslocamento às posições dos padrões ao longo da tangente (paralela) e do normal (perpendicular) da spline. |
+| <b>Deslocamento Local Aleatório</b> <i>Flutuante2</i> | Aplica um deslocamento aleatório adicional às posições dos padrões ao longo da tangente (paralela) e do normal (perpendicular) da spline. |
 | <b>Centro Aleatório de Deslocamento Local</b> <i>Flutuante2</i> | Desloca o centro do deslocamento aleatório aplicado pelo parâmetro Deslocamento local aleatório ao longo da tangente (paralela) e do normal (perpendicular) da spline. |
 | <b>Atenuação De Início/Fim Do Deslocamento Local</b> <i>Flutuante2</i> | Afeta a distância do ponto médio da spline até seu início e fim ao aplicar deslocamentos de posição aos padrões.<br>Isso significa que os deslocamentos são diminuídos para padrões mais próximos aos extremos de uma spline. |
-| <b>Atenuação de Deslocamento Local por Thickness</b> <i>Precisão decimal</i> | Avalia o thickness da spline ao aplicar deslocamentos a padrões.<br>Isso significa que os deslocamentos são reduzidos para duplicatas em uma parte de uma spline com um thickness inferior. |
+| <b>Atenuação de Deslocamento Local por Thickness</b> <i>Flutuante</i> | Avalia o thickness da spline ao aplicar deslocamentos a padrões.<br>Isso significa que os deslocamentos são reduzidos para duplicatas em uma parte de uma spline com um thickness inferior. |
 | <b>Deslocamento na spline</b> <i>Flutuante</i> | Aplica um deslocamento de posição aos padrões ao longo das linhas divisórias. |
 | <b>Deslocamento aleatório na spline</b> <i>Flutuante</i> | Aplica um deslocamento de posição adicional aos padrões ao longo das linhas divisórias. |
 | <b>Rotação</b> |  |
@@ -135,11 +135,11 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 | <b>Cor</b> |  |
 | <b>Cor do plano de fundo</b> <i>Flutuante4</i> | A cor do plano de fundo na imagem de saída. |
 | <b>Modo de Mesclagem</b> <i>Inteiro</i> | O método de mesclar as cores de padrões com o plano de fundo e com outros padrões sobrepostos:<br>*- Adicionar*: Adicionar as cores juntas;<br>** Alpha Combinar*: aplica uma mesclagem de transparência simples usando o canal alfa do padrão. Padrões desenhados por último estão na frente. |
-| <b>Modo de cores</b> <i>Inteiro</i> | O método de mesclagem para selecionar a cor de cada padrão:<br>*- Cor de base*: A Cor de base é aplicada a todos os padrões;<br>** Posição*: a posição do padrão no espaço de textura é usada para orientar sua cor para que as coordenadas X e Y sejam mapeadas para os canais vermelho e verde, respectivamente. |
-| <b>Cor Base Da Forma</b> <i>Precisão decimal 4</i> | A cor de base dos padrões. |
-| <b>Multiplicador de entrada de cores</b> <i>Precisão decimal</i> | Controla a intensidade da entrada do Mapa de cores. Esse mapa atua como um multiplicador da cor atual dos padrões.<br>O efeito deste mapa é combinado com outros parâmetros no grupo “Cor”.<br>Observação: a cor de saída é o resultado ponderado de todos os multiplicadores de cores. |
+| <b>Modo de cores</b> <i>Inteiro</i> | O método de mesclagem para selecionar a cor de cada padrão:<br>*- Cor de base*: a Cor de base é aplicada a todos os padrões;<br>** Posição*: a posição do padrão no espaço de textura é usada para orientar sua cor para que as coordenadas X e Y sejam mapeadas para os canais vermelho e verde, respectivamente. |
+| <b>Cor Base Da Forma</b> <i>Flutuante4</i> | A cor de base dos padrões. |
+| <b>Multiplicador de entrada de cores</b> <i>Flutuante</i> | Controla a intensidade da entrada do Mapa de cores. Esse mapa atua como um multiplicador da cor atual dos padrões.<br>O efeito deste mapa é combinado com outros parâmetros no grupo “Cor”.<br>Observação: a cor de saída é o resultado ponderado de todos os multiplicadores de cores. |
 | <b>Modo de Amostragem de Entrada do Mapa de Cores</b> <i>Inteiro</i> | O método de mapear os valores no Mapa de Cores para os splines:<br>*- espaço de Textura*: os valores são aplicados aos splines nos quais estariam se fossem colocados em uma textura usando as coordenadas UV da textura. Isso aplica efetivamente o valor às splines “in place”;<br>*- Horizontal ao longo da spline*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coordes de spline), onde cada linha é aplicada a uma spline diferente de cima para baixo;<br>*- Hor. ao longo do spline (rand. deslocamento X)*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte a entrada de Coords de spline), com um deslocamento horizontal aleatório no Mapa de Cores de cada spline (ou seja, cada linha nas Coords de Spline);<br>*- Hora. ao longo do spline (rand. deslocamento Y)*: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento vertical aleatório no Mapa de Cores de cada spline (ou seja, cada linha nas Coords de Spline). |
-| <b>Cor aleatória</b> <i>Precisão decimal 4</i> | Aplica um deslocamento aleatório até os valores especificados para as cores dos padrões no espaço HSV, bem como seu alfa.<br>*Observação:* a cor de saída é o resultado ponderado de todos os multiplicadores de cores. |
+| <b>Cor aleatória</b> <i>Flutuante4</i> | Aplica um deslocamento aleatório até os valores especificados para as cores dos padrões no espaço HSV, bem como seu alfa.<br>*Observação:* a cor de saída é o resultado ponderado de todos os multiplicadores de cores. |
 | <b>Centro de Cores Aleatórias</b> <i>Flutuante</i> | Aplica um deslocamento ao intervalo do deslocamento aleatório aplicado em Cor Aleatória<br>Um valor de -1 significa que todos os valores aleatórios são maiores e um valor de 1 significa que todos os valores aleatórios são menores. |
 | <b>Multiplicador de Thickness de spline</b> <i>Flutuante</i> | A intensidade com que a cor de cada padrão é multiplicada em relação ao thickness da spline em seu local.<br>Observação: a cor de saída é o resultado ponderado de todos os multiplicadores de cores. |
 | <b>Multiplicador de Escala de Forma</b> <i>Flutuante</i> | A intensidade com que a cor de cada padrão é multiplicada em relação à sua escala.<br>Observação: a cor de saída é o resultado ponderado de todos os multiplicadores de cores. |
@@ -167,11 +167,11 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-03.jpg" alt="ScatterOnSplineColor-Variant1-After">
+      <img src="../../../../../../assets/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -183,11 +183,11 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-05.jpg" alt="ScatterOnSplineColor-Variant2-After">
+      <img src="../../../../../../assets/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -201,12 +201,12 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](scatter-on-spline-color.resources/scatter-on-spline-color-06.gif "Exemplo de nó 1")
+![Exemplo de nó 1](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](scatter-on-spline-color.resources/scatter-on-spline-color-07.gif "Exemplo de nó 2")
+![Exemplo de nó 2](../../../../../../assets/ScatterOnSplineColor-Demo.gif "Exemplo de nó 2")
 
 </td>
 </tr>

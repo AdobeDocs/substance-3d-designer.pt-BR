@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
 breadcrumb-title: ''
 description: Use o nó Máscara para caminhos para converter texturas de máscara em dados de caminho para geração de caminho de procedimento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mascarar caminhos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](mask-to-paths.resources/mask-to-paths-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/mask-to-paths-icon.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -92,11 +92,11 @@ Os Caminhos gerados podem ser processados posteriormente usando nós dedicados -
 <table>
   <tr>
     <td>
-      <img src="mask-to-paths.resources/mask-to-paths-02.jpg" alt="MaskToPaths-Variant2-Before">
+      <img src="../../../../../../assets/MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="mask-to-paths.resources/mask-to-paths-03.jpg" alt="MaskToPaths-Variant2-After">
+      <img src="../../../../../../assets/MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -108,11 +108,11 @@ Os Caminhos gerados podem ser processados posteriormente usando nós dedicados -
 <table>
   <tr>
     <td>
-      <img src="mask-to-paths.resources/mask-to-paths-04.jpg" alt="MaskToPaths-Variant1-Before">
+      <img src="../../../../../../assets/MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="mask-to-paths.resources/mask-to-paths-05.jpg" alt="MaskToPaths-Variant1-After">
+      <img src="../../../../../../assets/MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -126,12 +126,12 @@ Os Caminhos gerados podem ser processados posteriormente usando nós dedicados -
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](mask-to-paths.resources/mask-to-paths-06.gif "Exemplo de nó 2"){zoomable="yes"}
+![Exemplo de nó 2](../../../../../../assets/MaskToPaths-Demo2.gif "Exemplo de nó 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](mask-to-paths.resources/mask-to-paths-07.gif "Exemplo de nó 1"){zoomable="yes"}
+![Exemplo de nó 1](../../../../../../assets/MaskToPaths-Demo1.gif "Exemplo de nó 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -141,12 +141,12 @@ Os Caminhos gerados podem ser processados posteriormente usando nós dedicados -
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 3: Modos de inicialização](mask-to-paths.resources/mask-to-paths-08.gif "Exemplo de nó 3: Modos de inicialização"){zoomable="yes"}
+![Exemplo de nó 3: Modos de inicialização](../../../../../../assets/MaskToPaths-Demo3.gif "Exemplo de nó 3: Modos de inicialização"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 3: modos de ordenação](mask-to-paths.resources/mask-to-paths-09.gif "Exemplo de nó 3: modos de ordenação"){zoomable="yes"}
+![Exemplo de nó 3: modos de ordenação](../../../../../../assets/MaskToPaths-Demo4.gif "Exemplo de nó 3: modos de ordenação"){zoomable="yes"}
 
 </td>
 </tr>

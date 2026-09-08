@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/path-2d-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/path-2d-transform.html"
 breadcrumb-title: ''
 description: Use o nó Transformação 2D de caminho para transformar caminhos com operações de tradução, rotação e dimensionamento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformação do caminho 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](path-2d-transform.resources/path-2d-transform-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/path-2d-transform-icon.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -73,11 +73,11 @@ Transforma caminhos usando um cursor.
 <table>
   <tr>
     <td>
-      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="path-2d-transform.resources/path-2d-transform-03.jpg" alt="Paths2DTransform-Variant1">
+      <img src="../../../../../../assets/Paths2DTransform-Variant1.jpg" alt="Paths2DTransform-Variant1">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -89,11 +89,11 @@ Transforma caminhos usando um cursor.
 <table>
   <tr>
     <td>
-      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="path-2d-transform.resources/path-2d-transform-04.jpg" alt="Paths2DTransform-Variant2">
+      <img src="../../../../../../assets/Paths2DTransform-Variant2.jpg" alt="Paths2DTransform-Variant2">
       <br><i>Depois</i>
     </td>
   </tr>

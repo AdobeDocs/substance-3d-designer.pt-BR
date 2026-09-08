@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
 breadcrumb-title: ''
 description: Use o nó Tons de cinza do mapeador de spline para mapear texturas em tons de cinza ao longo de caminhos de spline com parâmetros personalizáveis.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapeador de spline em tons de cinza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](spline-mapper-grayscale.resources/spline-mapper-grayscale-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/spline-mapper-grayscale-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -111,11 +111,11 @@ O nó gera a imagem mapeada como uma imagem em tons de cinza, bem como outras in
 <table>
   <tr>
     <td>
-      <img src="spline-mapper-grayscale.resources/spline-mapper-grayscale-02.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-mapper-grayscale.resources/spline-mapper-grayscale-03.jpg" alt="SplineMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ O nó gera a imagem mapeada como uma imagem em tons de cinza, bem como outras in
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](spline-mapper-grayscale.resources/spline-mapper-grayscale-04.gif "Exemplo de nó 2")
+![Exemplo de nó 2](../../../../../../assets/SplineMapperGrayscale-Demo.gif "Exemplo de nó 2")
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ O nó gera a imagem mapeada como uma imagem em tons de cinza, bem como outras in
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 3](spline-mapper-grayscale.resources/spline-mapper-grayscale-05.jpg "Exemplo de nó 3")
+![Exemplo de nó 3](../../../../../../assets/SplineMapperGrayscale-Variant1-After1.jpg "Exemplo de nó 3")
 
 </td>
 <td style="border: 0;" valign="top">

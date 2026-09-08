@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
 breadcrumb-title: ''
-description: Use o nó Lista de pontes de spline para fazer a ponte de texturas entre várias splines em uma lista para padrões complexos.
+description: Use o nó Lista de pontes de spline para estabelecer pontes entre texturas de várias splines em uma lista para padrões complexos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge (List)
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ponte de spline (lista)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](spline-bridge-list.resources/spline-bridge-list-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/spline-bridge-list-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -113,11 +113,11 @@ As splines geradas podem ser lineares (retas) ou quadráticas (curvas).
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-list.resources/spline-bridge-list-02.jpg" alt="SplineBridge-List_Variant1_Before">
+      <img src="../../../../../../assets/SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-bridge-list.resources/spline-bridge-list-03.jpg" alt="SplineBridge-List_Variant1_After">
+      <img src="../../../../../../assets/SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -126,10 +126,10 @@ As splines geradas podem ser lineares (retas) ou quadráticas (curvas).
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](spline-bridge-list.resources/spline-bridge-list-04.gif "Exemplo de nó 2")
+![Exemplo de nó 2](../../../../../../assets/SplineBridge-List_Demo.gif "Exemplo de nó 2")
 
 </td>
 </tr>
 </table>
 
-![Nó no gráfico](spline-bridge-list.resources/spline-bridge-list-05.jpg "Nó no gráfico")
+![Nó no gráfico](../../../../../../assets/SplineBridge-List_Graph.jpg "Nó no gráfico")

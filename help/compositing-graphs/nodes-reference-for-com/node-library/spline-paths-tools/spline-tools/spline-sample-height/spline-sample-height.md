@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
 breadcrumb-title: ''
 description: Use o nó Height de amostra de spline para obter amostras de valores de height ao longo das splines para efeitos de deslocamento processuais.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Height de amostra de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](spline-sample-height.resources/spline-sample-height-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/spline-sample-height-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -88,11 +88,11 @@ O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mescl
 <table>
   <tr>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-03.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mescl
 <table>
   <tr>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-sample-height.resources/spline-sample-height-04.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mescl
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](spline-sample-height.resources/spline-sample-height-05.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](spline-sample-height.resources/spline-sample-height-06.gif "Exemplo de nó 2")
+![Exemplo de nó 2](../../../../../../assets/SplineSampleHeight-Demo.gif "Exemplo de nó 2")
 
 </td>
 </tr>

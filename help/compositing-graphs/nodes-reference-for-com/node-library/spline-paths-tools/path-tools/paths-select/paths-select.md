@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
 breadcrumb-title: ''
 description: Use o nó Seleção de caminhos para selecionar e filtrar caminhos específicos de uma lista de caminhos com base em critérios.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Seleção de demarcadores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](paths-select.resources/paths-select-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/paths-select-icon.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -75,11 +75,11 @@ Isole um caminho entre vários contidos em Caminhos.
 <table>
   <tr>
     <td>
-      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="paths-select.resources/paths-select-03.jpg" alt="PathsSelect-Variant1">
+      <img src="../../../../../../assets/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ Isole um caminho entre vários contidos em Caminhos.
 <table>
   <tr>
     <td>
-      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="paths-select.resources/paths-select-04.jpg" alt="PathsSelect-Variant2">
+      <img src="../../../../../../assets/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
       <br><i>Depois</i>
     </td>
   </tr>

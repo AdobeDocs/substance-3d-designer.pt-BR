@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
 breadcrumb-title: ''
 description: Use o nó Cúbico de spline para criar splines cúbicas suaves com quatro pontos de controle para caminhos curvos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (cúbico)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](spline-cubic.resources/spline-cubic-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/spline-cubic-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -74,13 +74,13 @@ A trajetória da spline é controlada pela tangente “out” de <b>p1</b> e pel
 | <b>Correção Não Quadrada</b> <i>Booleano</i> | Ajuste as posições e o thickness dos pontos para manter a forma de spline em resoluções não quadradas. Isso também afeta a distribuição uniforme. |
 | <b>Height</b> |  |
 | <b>Iniciar Height</b> <i>Flutuante</i> | Ajusta o height do ponto p1 onde um valor mais baixo significa um local mais baixo ou mais profundo. Isso afeta o height da spline em p1. |
-| <b>Encerrar Height</b> <i>Precisão decimal</i> | Ajusta o height do ponto p2 onde um valor mais baixo significa um local mais baixo ou mais profundo. Isso afeta o thickness da spline em p2. |
+| <b>Encerrar Height</b> <i>Flutuante</i> | Ajusta o height do ponto p2 onde um valor mais baixo significa um local mais baixo ou mais profundo. Isso afeta o thickness da spline em p2. |
 | <b>Height Tangente Automático</b> <i>Booleano</i> | Define automaticamente o height das tangentes de spline para interpolar linearmente do Height inicial ao Height final. |
 | <b>Height de Tangente p1</b> <i>Precisão decimal</i> (disponível quando &#39;Auto Tangent Height&#39; é True) | Ajusta o height da tangente “out” do ponto p1, onde um valor mais baixo significa um local mais baixo ou mais profundo. Isso afeta o height ao longo da spline à medida que se afasta do p1. |
 | <b>Height de Tangente p2</b> <i>Precisão decimal</i> (disponível quando &#39;Auto Tangent Height&#39; é True) | Ajusta o height da tangente “in” do ponto p2, onde um valor mais baixo significa um local mais baixo ou mais profundo. Isso afeta o height ao longo da spline à medida que se afasta do p2. |
 | <b>Thickness</b> |  |
-| <b>Iniciar Thickness</b> <i>Flutuante</i> | Ajusta o thickness do ponto p1. Isso afeta o thickness da spline em p1.<br>Observação: o Thickness é usado por nós de spline específicos. |
-| <b>Encerrar Thickness</b> <i>Flutuante</i> | Ajusta o thickness do ponto p2. Isso afeta o thickness da spline em p2.<br>Observação: o Thickness é usado por nós de spline específicos. |
+| <b>Iniciar Thickness</b> <i>Precisão decimal</i> | Ajusta o thickness do ponto p1. Isso afeta o thickness da spline em p1.<br>Observação: o Thickness é usado por nós de spline específicos. |
+| <b>Encerrar Thickness</b> <i>Precisão decimal</i> | Ajusta o thickness do ponto p2. Isso afeta o thickness da spline em p2.<br>Observação: o Thickness é usado por nós de spline específicos. |
 | <b>Thickness Tangente Automático</b> <i>Booleano</i> | Define automaticamente o thickness das tangentes da spline para interpolar linearmente do Thickness inicial ao Thickness final.<br>Observação: o Thickness é usado por nós de spline específicos. |
 | <b>Thickness de Tangente p1</b> <i>Precisão decimal</i> (disponível quando &#39;Auto Tangent Thickness&#39; é True) | Ajusta o thickness da tangente “out” do ponto p1. Isso afeta o thickness ao longo da spline à medida que se afasta do p1.<br>Observação: o Thickness é usado por nós de spline específicos. |
 | <b>Thickness de Tangente p2</b> <i>Precisão decimal</i> (disponível quando &#39;Auto Tangent Thickness&#39; é True) | Ajusta o thickness da tangente “in” do ponto p2. Isso afeta o thickness ao longo da spline à medida que se afasta do p2.<br>Observação: o Thickness é usado por nós de spline específicos. |
@@ -101,12 +101,12 @@ A trajetória da spline é controlada pela tangente “out” de <b>p1</b> e pel
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](spline-cubic.resources/spline-cubic-02.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](../../../../../../assets/SplineCubic-Variant1.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](spline-cubic.resources/spline-cubic-03.jpg "Exemplo de nó 2")
+![Exemplo de nó 2](../../../../../../assets/SplineCubic-Variant2.jpg "Exemplo de nó 2")
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ A trajetória da spline é controlada pela tangente “out” de <b>p1</b> e pel
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 3](spline-cubic.resources/spline-cubic-04.gif "Exemplo de nó 3")
+![Exemplo de nó 3](../../../../../../assets/SplineCubic-Demo.gif "Exemplo de nó 3")
 
 </td>
 <td style="border: 0;" valign="top">

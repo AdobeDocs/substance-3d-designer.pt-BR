@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-warp.html"
 breadcrumb-title: ''
 description: Use o nó Distorção de spline para distorcer texturas ao longo de caminhos de spline e criar padrões curvos e orgânicos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distorção de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](spline-warp.resources/spline-warp-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/spline-warp-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -97,11 +97,11 @@ A intensidade do efeito de distorção pode ser ajustada ao longo da spline usan
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/spline-warp-02.jpg" alt="SplineWarp-Variant1-Before">
+      <img src="../../../../../../assets/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-warp.resources/spline-warp-03.jpg" alt="SplineWarp-Variant1-After">
+      <img src="../../../../../../assets/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -113,11 +113,11 @@ A intensidade do efeito de distorção pode ser ajustada ao longo da spline usan
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/spline-warp-04.jpg" alt="SplineWarp-Variant2-Before">
+      <img src="../../../../../../assets/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-warp.resources/spline-warp-05.jpg" alt="SplineWarp-Variant2-After">
+      <img src="../../../../../../assets/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -131,7 +131,7 @@ A intensidade do efeito de distorção pode ser ajustada ao longo da spline usan
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](spline-warp.resources/spline-warp-06.gif "Exemplo de nó 1")
+![Exemplo de nó 1](../../../../../../assets/SplineWarp-Demo.gif "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
