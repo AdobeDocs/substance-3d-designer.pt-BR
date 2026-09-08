@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Use quadros na exibição gráfica do Substance 3D Designer para organizar e agrupar nós e melhorar a clareza visual.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Quadro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Ícone de Quadro](frame.resources/frame-01.png "ícone de Quadro")
+![Ícone de Quadro](../../../../assets/graphatomic-frame_1.png "ícone de Quadro")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,7 +48,7 @@ Por padrão, o quadro é um retângulo com cantos arredondados preenchidos com a
 
 O título definido na propriedade <b>Título</b> repousa em cinza no canto superior esquerdo do quadro.
 
-![Quadro (estado padrão)](frame.resources/frame-02.png "Quadro (estado padrão)")
+![Quadro (estado padrão)](../../../../assets/graph-frames-default.png "Quadro (estado padrão)")
 
 
 
@@ -59,7 +59,7 @@ Ao passar o mouse sobre a parte superior da quadro, uma barra de cabeçalho é e
 
 O quadro pode ser movido arrastando essa barra de cabeçalho ou seu título.
 
-![Quadro (estado hover)](frame.resources/frame-03.png "Quadro (estado hover)")
+![Quadro (estado hover)](../../../../assets/graph-frames-hover.png "Quadro (estado hover)")
 
 
 
@@ -68,7 +68,7 @@ O quadro pode ser movido arrastando essa barra de cabeçalho ou seu título.
 +++Selecionado
 Quando selecionado, o título e o contorno da quadro são realçados em branco. O contorno fica mais espesso.
 
-![Quadro (estado selecionado)](frame.resources/frame-04.png "Quadro (estado selecionado)")
+![Quadro (estado selecionado)](../../../../assets/graph-frames-selected.png "Quadro (estado selecionado)")
 
 
 
@@ -111,7 +111,7 @@ Se uma seleção estiver ativa em um gráfico quando um quadro for criado, esse 
 
 Tendo isso em mente, criar quadros usando um atalho do teclado torna ainda mais rápido enquadrar o conteúdo em um gráfico.
 
-![Quadros: métodos de criação](frame.resources/frame-05.gif "Quadros: métodos de criação"){width="480px"}
+![Quadros: métodos de criação](../../../../assets/graph-frames_creation.gif "Quadros: métodos de criação"){width="480px"}
 
 >[!TIP]
 >
@@ -130,7 +130,7 @@ A ilustração destaca as zonas de interação para panorâmica (azul) e redimen
 </td>
 <td style="border: 0;" valign="top">
 
-![Quadros: zonas de interação](frame.resources/frame-06.png "Quadros: zonas de interação")
+![Quadros: zonas de interação](../../../../assets/graph-frames_interaction-zones.png "Quadros: zonas de interação")
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Segure a tecla <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) para deslocar este enc
 </td>
 <td style="border: 0;" valign="top">
 
-![Quadros: encaixe de grade](frame.resources/frame-07.gif "Quadros: encaixe de grade")
+![Quadros: encaixe de grade](../../../../assets/graph-frames_grid-snapping.gif "Quadros: encaixe de grade")
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ O <b>Título</b> está no canto superior esquerdo do quadro. Sua visibilidade do
 
 O tamanho do título pode ser bloqueado em um tamanho de tela mínimo para que permaneça legível ao reduzir o zoom do gráfico. Você pode fazer isso marcando a opção &#39;Títulos de quadros&#39; no menu suspenso <b>Informações</b> da barra de ferramentas [Exibição de gráfico](../../../../interface/the-graph-view/the-graph-view.md).
 
-![Quadros: Título](frame.resources/frame-08.gif "Quadros: Título"){width="640px"}
+![Quadros: Título](../../../../assets/graph_frames_title.gif "Quadros: Título"){width="640px"}
 
 
 
@@ -173,11 +173,11 @@ O tamanho do título pode ser bloqueado em um tamanho de tela mínimo para que p
 +++Descrição
 A <b>Descrição</b> é um texto adicional opcional que pode ser usado para anotar o conteúdo do quadro.
 
-O texto pode ser formatado usando tags HTML. Para alternar essa formatação, clique no botão ![](frame.resources/frame-09.png) <b>marcação de HTML</b>.
+O texto pode ser formatado usando tags HTML. Para alternar essa formatação, clique no botão ![](../../../../assets/graph-frames_html-markup-button.png) <b>marcação de HTML</b>.
 
 Saiba mais na seção Descrição abaixo.
 
-![Quadros: Descrição](frame.resources/frame-10.gif "Quadros: Descrição"){width="640px"}
+![Quadros: Descrição](../../../../assets/graph-frames_description.gif "Quadros: Descrição"){width="640px"}
 
 
 
@@ -188,7 +188,7 @@ A <b>Cor do Quadro</b> é usada para preencher o quadro na exibição Gráfico. 
 
 O canal alfa da cor controla a *opacidade* do quadro, onde um valor de 0 significa que o quadro é totalmente transparente.
 
-![Quadros: Cor](frame.resources/frame-11.gif "Quadros: Cor"){width="640px"}
+![Quadros: Cor](../../../../assets/graph-frames_colour.gif "Quadros: Cor"){width="640px"}
 
 
 
@@ -211,7 +211,7 @@ Seu tamanho pode ser bloqueado em um tamanho de tela mínimo para que permaneça
 </td>
 <td style="border: 0;" valign="top">
 
-![Quadro (descrição padrão)](frame.resources/frame-12.png "Quadro (descrição padrão)"){zoomable="yes"}
+![Quadro (descrição padrão)](../../../../assets/graph-frames-descr.png "Quadro (descrição padrão)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -223,12 +223,12 @@ Seu tamanho pode ser bloqueado em um tamanho de tela mínimo para que permaneça
 
 ### formatação HTML
 
-O texto pode ser formatado por meio de marcas de HTML na propriedade <b>Descrição</b> do quadro. A formatação deve ser habilitada com o uso do botão ![](frame.resources/frame-09.png) <b>marcação de HTML</b> nessa mesma propriedade.
+O texto pode ser formatado por meio de marcas de HTML na propriedade <b>Descrição</b> do quadro. A formatação deve ser habilitada com o uso do botão ![](../../../../assets/graph-frames_html-markup-button.png) <b>marcação de HTML</b> nessa mesma propriedade.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Quadro (descrição formatada HTML)](frame.resources/frame-13.png "Quadro (descrição formatada HTML)"){zoomable="yes"}
+![Quadro (descrição formatada HTML)](../../../../assets/graph-frames-descr-html.png "Quadro (descrição formatada HTML)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -285,7 +285,7 @@ Os nós podem ser de heights diferentes, dependendo de seu número de conectores
 
 Portanto, o local do ponto central de um nó não deve ser alterado até que seja *movido deliberadamente*.
 
-![Inclusão de quadro: nós altos](frame.resources/frame-14.png "Inclusão de quadro: nós altos")
+![Inclusão de quadro: nós altos](../../../../assets/frame_inclusion_node_tall.png "Inclusão de quadro: nós altos")
 
 
 
@@ -297,11 +297,11 @@ Se vários nós estiverem ancorados em uma cadeia, o nó host do último nó anc
 
 Emblemas, conectores e informações exibidos abaixo do nó são todos ignorados.
 
-![Inclusão de quadro: nós encaixados](frame.resources/frame-15.png "Inclusão de quadro: nós encaixados")
+![Inclusão de quadro: nós encaixados](../../../../assets/frame_inclusion_node_docked.png "Inclusão de quadro: nós encaixados")
 
 
 
-![Inclusão de quadro: nós](frame.resources/frame-16.png "Inclusão de quadro: nós")
+![Inclusão de quadro: nós](../../../../assets/frame_inclusion_node.png "Inclusão de quadro: nós")
 
 
 
@@ -312,7 +312,7 @@ O <b>ponto central</b> do Ponto é usado.
 
 Conectores, ícones de portal e nomes são todos ignorados.
 
-![Inclusão de quadro: nós pontos](frame.resources/frame-17.png "Inclusão de quadro: nós pontos")
+![Inclusão de quadro: nós pontos](../../../../assets/frame_inclusion_dot.png "Inclusão de quadro: nós pontos")
 
 
 
@@ -329,11 +329,11 @@ Emblemas, conectores e informações exibidos abaixo do nó são todos ignorados
 
 
 
-![Inclusão de quadro: comentários com parentesco](frame.resources/frame-18.png "Inclusão de quadro: comentários com parentesco")
+![Inclusão de quadro: comentários com parentesco](../../../../assets/frame_inclusion_comment_parented.png "Inclusão de quadro: comentários com parentesco")
 
 
 
-![Inclusão de quadro: comentários](frame.resources/frame-19.png "Inclusão de quadro: comentários")
+![Inclusão de quadro: comentários](../../../../assets/frame_inclusion_comment.png "Inclusão de quadro: comentários")
 
 
 
@@ -342,7 +342,7 @@ Emblemas, conectores e informações exibidos abaixo do nó são todos ignorados
 +++Marcadores
 A <b>dica</b> do ícone de pino é usada.
 
-![Inclusão de quadro: pinos de navegação](frame.resources/frame-20.png "Inclusão de quadro: pinos de navegação")
+![Inclusão de quadro: pinos de navegação](../../../../assets/frame_inclusion_pin.png "Inclusão de quadro: pinos de navegação")
 
 
 
@@ -355,7 +355,7 @@ Isso significa que um quadro aninhado deve estar inteiramente dentro dos limites
 
 O título é ignorado.
 
-![Inclusão de quadro: quadros aninhados](frame.resources/frame-21.png "Inclusão de quadro: quadros aninhados")
+![Inclusão de quadro: quadros aninhados](../../../../assets/frame_inclusion_frame.png "Inclusão de quadro: quadros aninhados")
 
 
 
@@ -363,7 +363,7 @@ O título é ignorado.
 
 ## Ajustar tamanho ao conteúdo
 
-![Quadros: ajustar tamanho ao conteúdo](frame.resources/frame-22.png "Quadros: ajustar tamanho ao conteúdo")
+![Quadros: ajustar tamanho ao conteúdo](../../../../assets/graph-frames_fit-size-to-content.png "Quadros: ajustar tamanho ao conteúdo")
 
 Conforme você faz ajustes no gráfico, um quadro pode não ser mais ajustado normalmente ao seu conteúdo. Nesse caso, é possível ajustar automaticamente a posição e o tamanho do quadro de modo que ele se ajuste à extensão de seu conteúdo, com um preenchimento de uma célula de grade média.
 
@@ -386,14 +386,14 @@ Se nenhum objeto incluído puder ser encaixado nesse espaço, o height do quadro
 </td>
 <td style="border: 0;" valign="top">
 
-![Quadros: ajustar tamanho ao conteúdo (com descrição)](frame.resources/frame-23.png "Quadros: ajustar tamanho ao conteúdo (com descrição)")
+![Quadros: ajustar tamanho ao conteúdo (com descrição)](../../../../assets/graph-frames_fit-description.png "Quadros: ajustar tamanho ao conteúdo (com descrição)")
 
 </td>
 </tr>
 </table>
 
 +++Exemplo
-![Quadros: ajustar tamanho ao conteúdo (GIF)](frame.resources/frame-24.gif "Quadros: ajustar tamanho ao conteúdo (GIF)"){width="640px"}
+![Quadros: ajustar tamanho ao conteúdo (GIF)](../../../../assets/graph-frames_fit-size-to-content.gif "Quadros: ajustar tamanho ao conteúdo (GIF)"){width="640px"}
 
 
 
@@ -401,7 +401,7 @@ Se nenhum objeto incluído puder ser encaixado nesse espaço, o height do quadro
 
 ## Expansão automática
 
-![Quadros: expansão automática](frame.resources/frame-25.png "Quadros: expansão automática")
+![Quadros: expansão automática](../../../../assets/graph-frames_auto-expand.png "Quadros: expansão automática")
 
 À medida que o gráfico cresce, o conteúdo dos quadros pode precisar ser reorganizado. Os nós podem mudar para criar espaço para adições ou o conteúdo pode precisar ser espaçado mais para promover a legibilidade.
 
@@ -416,7 +416,7 @@ Se um objeto não estiver totalmente delimitado pelos limites do quadro, mas ain
 > Enquanto a tecla <b>Shift</b> pode ser pressionada ou liberada em qualquer ponto durante o movimento para acionar ou cancelar o ajuste automático do quadro, ela *deve* ser mantida pressionada ao concluir o movimento para aplicar efetivamente o ajuste.
 
 +++Exemplo
-![Quadros: expansão automática (GIF)](frame.resources/frame-26.gif "Quadros: expansão automática (GIF)"){width="640px"}
+![Quadros: expansão automática (GIF)](../../../../assets/graph-frames_auto-expand.gif "Quadros: expansão automática (GIF)"){width="640px"}
 
 
 

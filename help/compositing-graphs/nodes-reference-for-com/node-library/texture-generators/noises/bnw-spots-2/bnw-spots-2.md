@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-2.html"
 breadcrumb-title: ''
 description: Use o nó Pontos preto e branco 2 para criar padrões de pontos com controles aprimorados para variações de textura.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Manchas Pb 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 1%
@@ -22,11 +22,15 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+<table>
+<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Pontos PB 2 - Ícone](bnw-spots-2.resources/bnw-spots-2-01.png "Pontos PB 2 - Ícone"){width="200px"}
+![Pontos PB 2 - Ícone](../../../../../../assets/bnw_spots_2.png "Pontos PB 2 - Ícone"){width="200px"}
 
-<b>Entrada:</b> geradores de textura > Ruídos
+<b>Entrada:</b> geradores de Textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -41,27 +45,23 @@ Veja também: [Manchas Pb 1](../../../../../../compositing-graphs/nodes-referenc
 </tr>
 </table>
 
-<a name="outputs"></a>
-
 ## Saídas
 
 |  |  |
-|:---|:---|
-| <b>Saída</b> <i>Tons de cinza</i> | O ruído gerado como bitmap em tons de cinza. |
-
-<a name="parameters"></a>
+| --- | --- |
+| <b>Saída</b> *Tons de cinza* | O ruído gerado como bitmap em tons de cinza. |
 
 ## Parâmetros
 
 |  |  |
-|:---|:---|
-| <b>Escala</b> <i>Inteiro</i> | A subdivisão da grade usada para gerar os blocos de ruído.    Um valor mais alto resulta no desenho de mais ladrilhos e em um ruído mais denso. |
-| <b>Desordem</b> <i>Flutuante</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
-| <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
-| <b>anisotropia de distúrbio</b> <i>Flutuante</i> | Controla a extensão das direções do deslocamento aplicadas pelo parâmetro <b>Desordem</b>, em que um valor mais alto resulta em uma direção mais estreita e definida.    A direção é controlada pelo parâmetro <b>Ângulo de anisotropia de desordem</b>. |
-| <b>ângulo de anisotropia de desordem</b> <i>Flutuante</i> | Controla a direção do deslocamento aplicado pelo parâmetro <b>Desordem</b> quando o parâmetro <b>anisotropia de Desordem</b> não é zero. |
-| <b>Deslocamento do bloco</b> <i>Flutuante2</i> | Controla a posição da parte de plano infinito usada para renderizar o ruído. |
-| <b>Expansão não quadrada</b> <i>Booleano</i> | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
+| --- | --- |
+| <b>Escala</b> Inteiro | A subdivisão da grade usada para gerar os blocos de ruído.    Um valor mais alto resulta no desenho de mais ladrilhos e em um ruído mais denso. |
+| Precisão decimal de <b>Distúrbio</b> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
+| <b>Velocidade do distúrbio</b> Precisão decimal | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
+| Precisão decimal de <b>anisotropia de distúrbio</b> | Controla a extensão das direções do deslocamento aplicadas pelo parâmetro <b>Desordem</b>, em que um valor mais alto resulta em uma direção mais estreita e definida.    A direção é controlada pelo parâmetro <b>ângulo de anisotropia de Desordem</b>. |
+| Precisão decimal de <b>ângulo de anisotropia de desordem</b> | Controla a direção do deslocamento aplicado pelo parâmetro <b>Desordem</b> quando o parâmetro <b>anisotropia de Desordem</b> não é zero. |
+| <b>Deslocamento do bloco</b> Precisão decimal 2 | Controla a posição da parte de plano infinito usada para renderizar o ruído. |
+| <b>Expansão não quadrada</b> Booleana | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
 
 ## Exemplos
 
@@ -69,12 +69,12 @@ Veja também: [Manchas Pb 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Pontos P2B - Exemplo 1](bnw-spots-2.resources/bnw-spots-2-02.png "Pontos P2B2 - Exemplo 1"){zoomable="yes"}
+![Pontos P2B - Exemplo 1](../../../../../../assets/bnw_spots_2_1.png "Pontos P2B2 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Pontos P2B - Exemplo 2](bnw-spots-2.resources/bnw-spots-2-03.gif "Pontos P2B2 - Exemplo 2"){zoomable="yes"}
+![Pontos P2B - Exemplo 2](../../../../../../assets/noise_bnw_spots_2_v2_speed0.6_aniso0.gif "Pontos P2B2 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,26 @@ Veja também: [Manchas Pb 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Pontos P2B - Exemplo 3](bnw-spots-2.resources/bnw-spots-2-04.gif "Pontos P2B2 - Exemplo 3"){zoomable="yes"}
+![Pontos P2B - Exemplo 3](../../../../../../assets/noise_bnw_spots_2_v2_speed0.6_aniso1.gif "Pontos P2B2 - Exemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Pontos P2B - Exemplo 4](bnw-spots-2.resources/bnw-spots-2-05.gif "Pontos P2B2 - Exemplo 4"){zoomable="yes"}
+![Pontos P2B - Exemplo 4](../../../../../../assets/noise_bnw_spots_2_v2_speed0.3_aniso0.6.gif "Pontos P2B2 - Exemplo 4"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+</td>
+<td style="border: 0;" valign="top">
+
+
+
+</td>
+<td style="border: 0;" valign="top">
+
+
 
 </td>
 </tr>

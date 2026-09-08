@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Saiba como usar os padeiros do Substance 3D Designer para computar informações baseadas em malha em arquivos de textura.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Baking
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Preparação refere-se à ação de **transferência de informações baseadas e
 
 >[!NOTE]
 >
-> Para saber mais sobre panificação, consulte a [Documentação de panificação](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/home).
+> Para saber mais sobre panificação, consulte a [Documentação de panificação](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).
 
 <table>
 <tr style="border: 0;">
@@ -35,13 +35,13 @@ A janela de cozimento pode ser acessada por meio do arquivo de malha na janela d
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![&#x200B; opção&#39;Informações do modo de cozimento&#39; no menu contextual do recurso de cena 3D](bakers.resources/bakers-01.png " opção&#39;Informações do modo de cozimento&#39; no menu contextual do recurso de cena 3D")
+![ opção&#39;Informações do modo de cozimento&#39; no menu contextual do recurso de cena 3D](../assets/sd-mesh-right-click.png " opção&#39;Informações do modo de cozimento&#39; no menu contextual do recurso de cena 3D")
 
 </td>
 </tr>
 </table>
 
-![Janela de cozimento](bakers.resources/bakers-02.png "Janela de cozimento")
+![Janela de cozimento](../assets/sd-window-overview.png "Janela de cozimento")
 
 ## Visão geral
 
@@ -60,7 +60,7 @@ Ela lista a geometria encontrada dentro do arquivo de malha de baixo polígono. 
 </td>
 <td style="border: 0;" valign="top">
 
-![](bakers.resources/bakers-03.png)
+![](../assets/sd-mesh-selection.png)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ Esse painel controla onde a textura assada será localizada.
 </td>
 <td style="border: 0;" valign="top">
 
-![](bakers.resources/bakers-04.png)
+![](../assets/sd-output.png)
 
 </td>
 </tr>
@@ -93,15 +93,15 @@ Esse painel controla onde a textura assada será localizada.
 
 ### Malhas de alta definição
 
-Este painel controla a lista de malha de alto polígono e as configurações relacionadas. Consulte os [parâmetros comuns](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/bakers-settings/common-parameters) para obter mais informações.
+Este painel controla a lista de malha de alto polígono e as configurações relacionadas. Consulte os [parâmetros comuns](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) para obter mais informações.
 
-![Malhas de alta definição](bakers.resources/bakers-05.png "Malhas de alta definição")
+![Malhas de alta definição](../assets/sd-high.png "Malhas de alta definição")
 
 ### Valores padrão
 
-Consulte os [parâmetros comuns](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/bakers-settings/common-parameters) para obter mais informações.
+Consulte os [parâmetros comuns](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) para obter mais informações.
 
-![Valores padrão](bakers.resources/bakers-06.png "Valores padrão")
+![Valores padrão](../assets/sd-default-values.png "Valores padrão")
 
 ### Lista de renderização e configurações de baker
 
@@ -116,6 +116,6 @@ Cada baker no herda por padrão os Valores padrão (veja acima). O tamanho (reso
 
 Ao clicar em um padeiro na lista, a visualização Parâmetros Baker atualizará com seus parâmetros específicos.
 
-Para saber mais sobre os parâmetros específicos, consulte: [Configurações de preparadores](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/bakers-settings/bakers-settings).
+Para saber mais sobre os parâmetros específicos, consulte: [Configurações de preparadores](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
-![Lista de renderização de preparadores](bakers.resources/bakers-07.png "Lista de renderização de preparadores")
+![Lista de renderização de preparadores](../assets/sd-baker-list.png "Lista de renderização de preparadores")

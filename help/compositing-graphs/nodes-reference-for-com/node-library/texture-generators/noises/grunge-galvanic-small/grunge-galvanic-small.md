@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
 breadcrumb-title: ''
 description: Use o nó pequeno galvânico de Desgaste para gerar padrões de corrosão galvânica de pequena escala para efeitos de intemperismo metálico.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Desgaste Galvânico Pequeno
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '118'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-galvanic-small.resources/grunge-galvanic-small-01.jpg){width="200px"}
+![](../../../../../../assets/grungegalvanicsmall.jpg){width="200px"}
 
-<b>Entrada:</b> geradores de textura > Ruídos
+**Entrada:** *Geradores de Textura**/Ruídos*
+
+**Simples**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -39,30 +41,30 @@ O nó **Galvanic Small** do Desgaste gera um mapa de desgaste semelhante ao padr
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## Parâmetros
 
-|  |  |
-|:---|:---|
-| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
-| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
-| <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
-| <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
-| <b>Avançado</b> |  |
-| <b>Nitidez</b> <i>Flutuante</i> | Ajusta a nitidez das formas galvanizadas. |
-| <b>Dirt</b> <i>Flutuante</i> | Ajusta a opacidade da sobreposição da dirt. |
-| <b>Micro Distorção</b> <i>Flutuante</i> | Ajusta a intensidade do efeito de distorção de alta frequência. |
+* **Equilíbrio** *Precisão decimal* Ajusta o equilíbrio entre valores escuros e claros.
+* **Contraste** *Precisão decimal* Ajusta o contraste da imagem.
+* **Inverter** *Booleano* Inverte a saída da imagem usando uma operação `1-x`.
+* **Expansão não quadrada** *Booleano* Habilita a compensação de squash e alongamento com proporções não quadradas.
+* Avançado
+  * **Nitidez** *Precisão decimal* Ajusta a nitidez e a nitidez das formas galvanizadas.
+  * **Dirt** *Precisão decimal* Ajusta a opacidade da sobreposição de dirt.
+  * **Micro Distorção** *Precisão decimal* Ajusta a intensidade do efeito de distorção de alta frequência.
 
-## Exemplos
+## Imagens de exemplo
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grunge-galvanic-small-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grunge-galvanic-small-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungegalvanicsmall-variant2.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungegalvanicsmall-variant.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

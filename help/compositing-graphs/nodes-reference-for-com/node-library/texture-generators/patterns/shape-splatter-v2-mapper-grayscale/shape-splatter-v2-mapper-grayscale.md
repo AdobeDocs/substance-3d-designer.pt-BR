@@ -1,7 +1,7 @@
 ---
 title: Mapeador de respingos de forma v2 em tons de cinza
 description: Designer > Gráficos de composição de Substance > Referência de nós para gráficos de composição de Substance > Biblioteca de nós > Gerador > Padrão > Mapeador de respingo de forma v2 em tons de cinza
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1766'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de tons de cinza do mapeador de respingo v2](./shape-splatter-v2-mapper-grayscale.resources/shape-splatter-v2-mapper-grayscale-01.png "escala de cinza do mapeador de respingo v2")
+![Ícone de tons de cinza do mapeador de respingo v2](./shape-splatter-v2-mapper-grayscale.resources/shape-splatter-v2-mapper-grayscale.png "escala de cinza do mapeador de respingo v2")
 
 <b>Entrada:</b> Gerador > Padrão
 

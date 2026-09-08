@@ -1,7 +1,7 @@
 ---
 title: Grade de atlas cor
 description: Designer > Gráficos de composição de Substance > Referência dos nós para gráficos de composição de Substance > Biblioteca de nós > Gerador > Padrão > Cor de Grade de atlas
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de cor da Grade de atlas](grid-atlas-color.resources/grid-atlas-color-01.png "Cor da Grade de atlas")
+![Ícone de cor da Grade de atlas](grid-atlas-color.resources/grid-atlas-color.png "Cor da Grade de atlas")
 
 <b>Entrada:</b> Gerador > Padrão
 
@@ -75,5 +75,5 @@ Consulte também [Grade de atlas de tons de cinza](../grid-atlas-grayscale/grid-
 
 ## Exemplos
 
-<img src="./grid-atlas-color.resources/grid-atlas-color-02.png" alt="Grade de atlas nó de cores no contexto de um gráfico" style="width: 50%"><br>
+<img src="./grid-atlas-color.resources/grid-atlas-color-graph.png" alt="Grade de atlas nó de cores no contexto de um gráfico" style="width: 50%"><br>
 <i>Grade de atlas nó de cores no contexto de um gráfico</i>

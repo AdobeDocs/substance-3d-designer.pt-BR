@@ -1,7 +1,7 @@
 ---
 title: respingo de forma v2
 description: Designer > Gráficos de composição de Substance > Referência de nós para gráficos de composição de Substance > Biblioteca de nós > Gerador > Padrão > respingo de forma v2
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '4234'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de respingo de forma v2](shape-splatter-v2.resources/shape-splatter-v2-01.png "respingo de forma v2")
+![Ícone de respingo de forma v2](shape-splatter-v2.resources/shape-splatter-v2.png "respingo de forma v2")
 
 <b>Entrada:</b> Gerador > Padrão
 
@@ -84,7 +84,7 @@ Dispersão formas em uma superfície de height de plano de fundo com recursos av
 | <b>Splatter UVW</b> | <b>R</b> - Componente U dos UVs das formas.<br><b>G</b> - Componente V dos UVs das formas.<br><b>B</b> - height das formas. (W)<br><b>A</b> - Dados empacotados:<br> - <i>Parte inteira:</i> O identificador exclusivo das formas. (ID)<br> - <i>Parte fracionária:</i> depende do <b>tipo de forma</b>: ID de material se SDF/primitiva, ID de padrão* se entrada/grade de atlas de padrão.<br><br><b>*:</b> A ID de padrão é o índice da forma na lista/atlas. |
 | <b>Dados de respingo 1</b> | <b>R</b> - Componente X da posição na superfície da forma, no espaço de objeto.<br><b>G</b> - Componente Y da posição na superfície da forma, no espaço de objeto.<br><b>B</b> - Componente Z da posição na superfície da forma, no espaço de objeto.<br><b>A</b> - Dados empacotados:<br> - <i>Parte inteira:</i> um componente UV das coordenadas UV para os dados das formas nas saídas Data 2/3.<br> - <i>Parte fracionária:</i> componente V das coordenadas UV para os dados das formas nas saídas de Dados 2/3.<br> - <i>Assinar:</i> máscara binária para a mesclagem de formas com o height do plano de fundo. |
 | <b>Dados de respingo 2</b> | <b>R</b> - Componente X da rotação 3D das formas.<br><b>G</b> - Componente Y da rotação 3D das formas.<br><b>B</b> - Componente Z da rotação 3D das formas.<br><b>A</b> - A rotação das formas em torno de sua normal.<br><br>Todas as rotações são definidas em número de rotações. |
-| <b>Dados de respingo 3</b> | <b>R</b> - Componente X da posição das formas.<br><b>G</b> - Componente Y da posição das formas.<br><b>B</b> - Deslocamento das formas ao longo de seu normal.<br><b>A</b> - Dados empacotados:<br> - <i>Parte inteira:</i> O identificador exclusivo da forma.<br> - <i>Parte fracionária:</i>O índice do padrão das formas em seu atlas de origem. (Se estiver usando um tipo de padrão de grade de atlas) |
+| <b>Dados de respingo 3</b> | <b>R</b> - Componente X da posição das formas.<br><b>G</b> - Componente Y da posição das formas.<br><b>B</b> - O deslocamento das formas ao longo de seu normal.<br><b>A</b> - Dados empacotados:<br> - <i>Parte inteira:</i> O identificador exclusivo da forma.<br> - <i>Parte fracionária:</i>O índice do padrão das formas em seu atlas de origem. (Se estiver usando um tipo de padrão de grade de atlas) |
 | <b>Dados de respingo 4</b> | <i>Pixel 1</i><br><b>R</b> - Tamanho X das imagens de saída dos Dados 2/3.<br><b>G</b> - Tamanho Y das imagens de saída dos Dados 2/3.<br><b>B</b> - Tamanho X da imagem de saída dos Dados 4.<br><b>A</b> - Tamanho Y da imagem de saída dos Dados 4.<br><br><i>Pixel 2</i><br><b>R</b> - O tipo de forma. (E.g. Cubo, cilindro, ...)<br><b>G</b> - Dados empacotados:<br> - <i>Valor absoluto:</i> O número de entrada do padrão.<br> - <i>Sinal:</i> Formato normal do mapa normal de saída. (Positivo: DirectX / Negativo: OpenGL)<br><b>B</b> - Tamanho X da grade de atlas. (Ou seja, a quantidade de colunas)<br><b>A</b> - Tamanho Y da grade de atlas. (Ou seja, o número de linhas) |
 
 <a name="parameters"></a>
@@ -94,7 +94,7 @@ Dispersão formas em uma superfície de height de plano de fundo com recursos av
 |                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>Modo de distribuição da posição</b> *Inteiro* | O método de distribuição de formas no espaço:<br><br>- <b>Grade 2D:</b> Uma grade uniforme simples.<br>- <b>Disco Poisson:</b> Uma simulação destinada a deslocar aleatoriamente as células de uma grade para evitar sobreposições, fazendo uso do espaço disponível.<br>- <b>Uniforme:</b> Uma distribuição uniforme de um número especificado de formas. Requer cálculos mais intensivos.<br>- <b>Função personalizada:</b> crie um gráfico de função para definir a distribuição de formas. As variáveis disponíveis são listadas na descrição do nó. |
-| <b>Função de posição</b> *Flutuante2* | O gráfico de função usado para definir a distribuição de formas.<br><br>O gráfico gera um valor Float2 para a posição normalizada XY das formas na imagem.<br><br>Variáveis disponíveis:<br> - <code>shape.id</code> (Flutuante) O identificador exclusivo da forma.<br> - <code>shape.amount</code> (Flutuante) A quantidade de formas especificadas pelo parâmetro <b>Quantidade</b>. |
+| <b>Função de posição</b> *Precisão decimal 2* | O gráfico de função usado para definir a distribuição de formas.<br><br>O gráfico gera um valor Precisão decimal 2 para a posição normalizada XY das formas na imagem.<br><br>Variáveis disponíveis:<br> - <code>shape.id</code> (Flutuante) O identificador exclusivo da forma.<br> - <code>shape.amount</code> (Flutuante) A quantidade de formas especificadas pelo parâmetro <b>Quantidade</b>. |
 | <b>Valor de X</b> *Inteiro* | A quantidade de colunas na grade de distribuição.<br><br>Ou seja, a quantidade de formas geradas no eixo X. |
 | <b>Valor Y</b> *Inteiro* | A quantidade de linhas na grade de distribuição.<br><br>Ou seja, a quantidade de formas geradas no eixo Y. |
 | <b>Valor</b> *Inteiro* | A quantidade de formas geradas. |
@@ -174,29 +174,29 @@ Dispersão formas em uma superfície de height de plano de fundo com recursos av
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-02.gif" /><br><i>Distribuição Poisson</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>Distribuição Poisson</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-03.gif" /><br><i>Distribuição uniforme</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" /><br><i>Distribuição uniforme</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-04.gif" /><br><i>Mapa de densidade</i>
-        </td>
-    </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-05.gif" /><br><i>Rotação 3D aleatória</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-06.gif" /><br><i>Rotação de Inclinação</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-07.gif" /><br><i>Extrusão de forma</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" /><br><i>Mapa de densidade</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-08.jpg" /><br><i>Formas 3D SDF</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" /><br><i>Rotação 3D aleatória</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-background-slope.gif" /><br><i>Rotação de Inclinação</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" /><br><i>Extrusão de forma</i>
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" /><br><i>Formas 3D SDF</i>
         </td>
         <td style="border: 0; background: transparent">
         </td>

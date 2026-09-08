@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
 breadcrumb-title: ''
 description: Use o nó fractal de Voronoi para gerar padrões fractais de Voronoi para criar texturas celulares orgânicas.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Voronoi Fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](voronoi-fractal.resources/voronoi-fractal-01.png){width="200px"}
+![](../../../../../../assets/voronoifractal.png){width="200px"}
 
-<b>Entrada:</b> Geradores de Textura > Ruídos
+**Entrada:** *Geradores de Textura* */Ruídos*
+
+**Intermediário**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -45,62 +47,123 @@ Este nó pode ser testado com [GBuffers de Cubo](../../../../../../compositing-g
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## Parâmetros
 
-|  |  |
-|:---|:---|
-| <b>Inverter</b> <i>Booleano</i> | Inverte a imagem de saída. |
-| <b>Escala</b> <i>Flutuante</i> | Controla a escala do ruído fractal de Voronoi.<br><br>*Observação*: quando o **Enquadramento** está habilitado em *qualquer eixo*, o ajuste de escala é *escalonado*. Isso é esperado. |
-| <b>Tamanho</b> <i>Flutuante3</i> | Controla o tamanho do ruído fractal de Voronoi nos eixos **X**, **Y** e **Z**. Valores não uniformes resultam em um efeito de *esticamento ou esmagamento*.<br><br>*Observação*: quando a opção **Lado a lado** está habilitada em *qualquer eixo*, o ajuste de tamanho é *escalonado*. Isso é esperado. |
-| <b>Deslocamento</b> <i>Flutuante3</i> | Aplica um deslocamento à *posição* do ruído fractal de Voronoi nos eixos **X**, **Y** e **Z**. |
-| <b>Desordem</b> <i>Flutuante3</i> | A intensidade do *deslocamento aleatório* aplicado a cada ponto do ruído nos eixos **X**, **Y** e **Z**. |
-| <b>Intensidade de Distorção</b> <i>Flutuante</i> | Controla a intensidade de um *efeito de distorção* aplicado no ruído fractal de Voronoi. |
-| <b>Multiplicador de Escala de Distorção</b> <i>Precisão decimal</i> | Controla a escala do *padrão de deformação* usado no efeito de distorção controlado pela **Intensidade de Distorção**. |
-| <b>Nível Mínimo</b> <i>Inteiro</i> | O *nível mínimo de repetição* usado no padrão fractal. Um intervalo mínimo/máximo mais amplo resulta em um *padrão mais rico* com variação em intervalos de frequência mais amplos. |
-| <b>Nível Máximo</b> <i>Inteiro</i> | O *nível máximo de repetição* usado no padrão fractal. Um intervalo mínimo/máximo mais amplo resulta em um *padrão mais rico* com variação em intervalos de frequência mais amplos. |
-| <b>Aspereza</b> <i>Precisão decimal</i> | Controla o *equilíbrio* entre *níveis de repetição* baixos e altos no padrão fractal.<br><br>*Observação*: um valor de **0** resulta em uma saída *não alinhada* com outros valores baixos que o seguem. Isso é esperado.<br><br>*Observação 2*: este parâmetro só está disponível quando o parâmetro **Modo Combinar** está definido como *Adicionar*. |
-| <b>Lacunaridades</b> <i>Flutuante</i> | Controla como o padrão fractal *aplicado preenche o espaço*. Um valor *mais alto* resulta em *menos lacunas* no padrão e em um ruído *mais denso*. |
-| <b>Opacidade Global</b> <i>Flutuante</i> | Controla o *intervalo* dos valores de ruído fractal de Perlin de 0. |
-| <b>Curva arredondada</b> <i>Flutuante</i> | Arredonda a *inclinação* em torno de cada ponto do ruído para torná-lo *convexo*.<br><br>*Observação*: este parâmetro não está disponível quando o parâmetro **Style** está definido como *Borda*. |
-| <b>Escala de distância</b> <i>Flutuante</i> | Ajusta a *distância do gradiente* ao redor de cada ponto do ruído. |
-| <b>Modo de Distância</b> <i>Inteiro</i> | Define o método para *calcular o gradiente de distância* em torno de cada ponto do ruído:<br><br>- *Euclidiano*<br>- *Manhattan*<br>- *Chebyshev*<br>- *Minkowski* |
-| <b>Número de Minkowski</b> <i>Flutuante</i> | A ordem *p* da distância de Minkowski. Se dividirmos o gradiente de distância em quadrantes, esse número afetará esses quadrantes da seguinte maneira:<br><br>- p é *exatamente* 1: reto<br>- p é *inferior* a 1: côncavo<br>- p é *maior* do que 1: Convexo<br><br>Valores interessantes:<br><br>- *1.0*: distância de Manhattan<br>- *2.0*: distância euclidiana<br>- *Infinito*: distância de Chebyshev <br><br>*Observação*: este parâmetro só está disponível quando o parâmetro **Modo de distância** está definido como *Minkowski*. |
-| <b>Modo de Mesclagem</b> <i>Inteiro</i> | Define o método de mesclagem de valores de *células sobrepostas* no espaço:<br><br>- *Adicionar*: adicionar os valores<br>- *Máx*: manter o *maior* valor<br>- *Mín*: manter o *menor* valor |
-| <b>Estilo</b> <i>Inteiro</i> | Define o método *renderizando os dados* do ruído fractal de Voronoi, considerando que o ruído é baseado em um conjunto de pontos no espaço:<br><br>- *F1*: a distância ao *ponto mais próximo* no espaço<br>- *F2*: a distância ao *segundo ponto mais próximo* no espaço<br>- *F2-F1*<br>- *F1\* F2 *<br>-* F1/F2 *<br>-* Borda *: a* borda entre cada célula *do ruído no espaço<br>-* Cor aleatória *: atribuir uma* cor simples aleatória* a cada célula do ruído no espaço |
-| <b>Thickness de borda</b> <i>Flutuante</i> | Ajusta o thickness das bordas detectadas entre as células do ruído fractal de Voronoi. As bordas são detectadas nos eixos X, Y e Z, portanto, algumas espessuras podem aumentar mais rapidamente do que outras, dependendo da *profundidade* das células.<br><br>*Observação*: este parâmetro só está disponível quando o parâmetro **Estilo** está definido como *Borda*. |
-| <b>Modo de Distribuição de Cores Aleatórias</b> <i>Inteiro</i> | Define o método de *aquisição* da semente aleatória para a seleção de cores por célula:<br><br>- *Distribuição aleatória global*: usar a semente *herdada* pelo nó<br>- *Distribuição manual*: usar uma semente *discreta*<br><br>*Observação*: este parâmetro só está disponível quando o parâmetro **Estilo** está definido como *Cor aleatória*. |
-| <b>Semente de Cor Aleatória</b> <i>Inteiro</i> | A semente aleatória discreta que deve ser usada para a seleção de cores por célula.<br><br>*Observação*: este parâmetro só está disponível quando o parâmetro **Style** está definido como *Cor aleatória* e o parâmetro **Modo de Distribuição de Cor Aleatória** está definido como *Distribuição Manual*. |
-| <b>Habilitar divisão em blocos</b> <i>Booleano</i> | Ajusta o ruído fractal de Voronoi de modo que o padrão resultante *se repita* nos eixos X, Y e Z. |
+* **Inverter** *Booleano*\
+  Inverte a imagem de saída.
+* **Escala** *Precisão decimal*\
+  Controla a escala do ruído fractal de Voronoi.\
+  *Observação*: quando o **lado a lado** está habilitado em *qualquer eixo*, o ajuste de escala é *escalonado*. Isso é esperado.
+* **Tamanho** *Precisão decimal 3*\
+  Controla o tamanho do ruído fractal de Voronoi nos eixos **X**, **Y** e **Z**. Valores não uniformes resultam em um efeito de *amplificação ou esmagamento*.\
+  *Observação*: quando a **Divisão em blocos gráficos** está habilitada em *qualquer eixo*, o ajuste de tamanho é *escalonado*. Isso é esperado.
+* **Deslocamento** *Flutuante3*\
+  Aplica um deslocamento à *posição* do ruído fractal de Voronoi nos eixos **X**, **Y** e **Z**.
+* **Desordem** *Flutuante3*\
+  A intensidade do *deslocamento aleatório* aplicado a cada ponto do ruído nos eixos **X**, **Y** e **Z**.
+* **Intensidade de Distorção** *Precisão decimal*\
+  Controla a intensidade de um *efeito de distorção* aplicado no ruído fractal de Voronoi.
+* **Multiplicador de Escala de Distorção** *Precisão decimal*\
+  Controla a escala do *padrão de deformação* usado no efeito de distorção controlado pela **Intensidade de Distorção**.
+* **Nível mínimo** *Inteiro*\
+  O *nível mínimo de repetição* usado no padrão fractal. Um intervalo mínimo/máximo mais amplo resulta em um *padrão mais rico* com variação em intervalos de frequência mais amplos.
+* **Nível Máximo** *Inteiro*\
+  O *nível máximo de repetição* usado no padrão fractal. Um intervalo mínimo/máximo mais amplo resulta em um *padrão mais rico* com variação em intervalos de frequência mais amplos.
+* **Aspereza** *Precisão decimal*\
+  Controla o *equilíbrio* entre *níveis de repetição* baixos e altos no padrão fractal.\
+  *Observação*: um valor de **0** resulta em uma saída que *não está alinhada* com outros valores baixos que a seguem. Isso é esperado.\
+  *Observação 2*: este parâmetro só está disponível quando o parâmetro **Modo de Mesclagem** está definido como *Adicionar*.
+* **Lacunaridade** *Flutuante*\
+  Controla como o padrão fractal *aplicado preenche o espaço*. Um valor *mais alto* resulta em *menos lacunas* no padrão e em um ruído *mais denso*.
+* **Opacidade Global** *Precisão decimal*\
+  Controla o *intervalo* dos valores de ruído fractal de Perlin de 0.
+* **Curva arredondada** *Precisão decimal*\
+  Arredonda a *inclinação* em torno de cada ponto do ruído para torná-lo *convexo*.\
+  *Observação*: este parâmetro não está disponível quando o parâmetro **Estilo** está definido como *Borda*.
+* **Escala de distância** *Precisão decimal*\
+  Ajusta a *distância do gradiente* ao redor de cada ponto do ruído.
+* **Modo de distância** *Inteiro*\
+  Define o método para *calcular o gradiente de distância* ao redor de cada ponto do ruído:
+  * *Euclidiano*
+  * *Manhattan*
+  * *Chebyshev*
+  * *Minkowski*
+* **Número de Minkowski** *Precisão decimal*\
+  A ordem *p* da distância de Minkowski. Se dividirmos o gradiente de distância em quadrantes, esse número afetará esses quadrantes da seguinte maneira:
+  * p é *exatamente* 1: direto
+  * p é *mais baixo* do que 1: côncavo
+  * p é *maior* do que 1: convexo\
+    Valores interessantes:\
+    *- 1.0*: Distância de Manhattan\
+    *- 2.0*: distância euclidiana\
+    *- Infinito*: distância de Chebyshev\
+    *Observação*: este parâmetro só está disponível quando o parâmetro **Modo de Distância** está definido como *Minkowski*.
+* **Modo Combinar** *Inteiro*\
+  Define o método de mesclagem dos valores de *células sobrepostas* no espaço:
+  * *Adicionar*: adicione os valores
+  * *Máx*: manter o valor *mais alto*
+  * *Mín*: manter o valor *mais baixo*
+* **Estilo** *Inteiro* Define o método *renderizando os dados* do ruído fractal de Voronoi, considerando que o ruído é baseado em um conjunto de pontos no espaço:
+  * *F1*: a distância até o *ponto mais próximo* no espaço
+  * *F2*: a distância até o *segundo ponto mais próximo* no espaço
+  * *F2-F1*- *F1\* F2 *-* F1/F2 *-* Borda *: a* borda entre cada célula* do ruído no espaço
+  * *Cor aleatória*: atribua uma *cor simples aleatória* a cada célula do ruído no espaço
+* **Thickness de borda** *Precisão decimal* Ajusta o thickness das bordas detectadas entre as células do ruído fractal de Voronoi. As bordas são detectadas nos eixos X, Y e Z, portanto, algumas espessuras podem aumentar mais rapidamente do que outras, dependendo da *profundidade* das células.\
+  *Observação*: este parâmetro só está disponível quando o parâmetro **Estilo** está definido como *Borda*.
+* **Modo De Semente De Cor Aleatória** *Inteiro*\
+  Define o método de *aquisição* da semente aleatória para a seleção de cores por célula:
+  * *Propagação Aleatória Global*: usar a propagação *herdada* pelo nó
+  * *Propagação manual*: usar uma *semente discreta*\
+    *Observação*: este parâmetro só está disponível quando o parâmetro **Estilo** está definido como *Cor aleatória*.
+* **Semente de Cor Aleatória** *Inteiro*\
+  A semente aleatória discreta que deve ser usada para a seleção de cores por célula.\
+  *Observação*: este parâmetro só está disponível quando o parâmetro **Estilo** está definido como *Cor aleatória* e o parâmetro **Modo de Distribuição de Cor Aleatória** está definido como *Distribuição Manual*.
+* **Habilitar divisão em blocos** *Booleano*\
+  Ajusta o ruído fractal de Voronoi de modo que o padrão resultante *se repita* nos eixos X, Y e Z.
 
-## Exemplos
+## Imagens de exemplo
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-02.gif" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-03.gif" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-04.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-05.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-06.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-07.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-08.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-09.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/fractal-voronoi-sea.gif){width="512px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/fractal-voronoi-scifi-panel.gif){width="512px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/voronoifractal-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/voronoifractal-variant2.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/voronoifractal-variant6.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/voronoifractal-variant3.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/voronoifractal-variant5.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/voronoifractal-variant4.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

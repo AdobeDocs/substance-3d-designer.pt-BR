@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
 breadcrumb-title: ''
 description: Use o nó Desgaste Manchas sujas para adicionar padrões de manchas sujas para criar efeitos de material envelhecido e envelhecido.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Pontos de desgaste Sujos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '110'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-spots-dirty.resources/grunge-spots-dirty-01.jpg){width="200px"}
+![](../../../../../../assets/grungespotsdirty.jpg){width="200px"}
 
-<b>Entrada:</b> Geradores de Textura > Ruídos
+**Entrada:** *Geradores de Textura* */Ruídos*
+
+**Simples**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -39,29 +41,29 @@ O nó **Desgaste Manchas Sujas** gera um mapa de desgaste semelhante a pontos de
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## Parâmetros
 
-|  |  |
-|:---|:---|
-| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
-| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
-| <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
-| <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
-| <b>Avançado</b> |  |
-| <b>Cobertura</b> <i>Flutuante</i> | Ajusta a cobertura do dirt. |
-| <b>Escala</b> <i>Inteiro</i> | Ajusta a escala dos pontos de dirt. Um valor *mais alto* resulta em pontos *mais precisos*. |
+* **Equilíbrio** *Precisão decimal* Ajusta o equilíbrio entre valores escuros e claros.
+* **Contraste** *Precisão decimal* Ajusta o contraste da imagem.
+* **Inverter** *Booleano* Inverte a saída da imagem usando uma operação `1-x`.
+* **Expansão não quadrada** *Booleano* Habilita a compensação de squash e alongamento com proporções não quadradas.
+* Avançado
+  * **Cobertura** *Precisão decimal* Ajusta a cobertura do dirt.
+  * **Escala** *Inteiro* Ajusta a escala dos pontos de dirt. Um valor *mais alto* resulta em pontos *mais precisos*.
 
-## Exemplos
+## Imagens de exemplo
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grunge-spots-dirty-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grunge-spots-dirty-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungespotsdirty-variant2.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungespotsdirty-variant.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

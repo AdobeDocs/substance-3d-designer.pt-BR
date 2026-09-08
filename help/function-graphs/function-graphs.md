@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
 breadcrumb-title: ''
 description: Saiba como criar e usar gráficos de função de Substance no Designer para criar funções personalizadas e redes de nós reutilizáveis.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: gráficos de função Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![](function-graphs.resources/function-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,7 +43,7 @@ Abaixo estão alguns exemplos de casos de uso comuns para Funções.
 
 ### Função Simples
 
-![](function-graphs.resources/function-graphs-02.png)
+![](../assets/lerpfunction_1.png)
 
 Uma função simples no contexto de um parâmetro exposto. Ele obtém um valor de flutuação de entrada chamado “Intensidade”, que é determinado para ir de 0 a 1 (um intervalo fácil de entender) e o remapeia para um intervalo definido de 0,1 a 0,8. Isso significa que se o usuário definir Intensidade como 0, internamente será usado 0,1, se a interface estiver definida como 1, será usado 0,8 e qualquer valor intermediário será interpolado linearmente. Este tipo de função é algo comumente usado ao [expor parâmetros](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), mas usar funções personalizadas.
 
@@ -51,7 +51,7 @@ Esta função também pode ser escrita como *lerp(0.1, 0.8, Intensity)* em um ps
 
 ### Função Avançada
 
-![](function-graphs.resources/function-graphs-03.png){width="545px"}
+![](../assets/pixel-function_1.png){width="545px"}
 
 Esta função avançada mostra o funcionamento interno de um [Processador de pixels](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) destinado ao ajuste do matiz de uma entrada do mapa de cores com base na intensidade de uma segunda entrada de máscara em tons de cinza.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-2.html"
 breadcrumb-title: ''
 description: Use o nó Crystal 2 para gerar padrões de cristal avançados para criar efeitos de textura cristalina e geométrica.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Crystal 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 6%
+source-wordcount: '111'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +22,18 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](crystal-2.resources/crystal-2-01.png){width="128px"}
+![](../../../../../../assets/crystal-2.png){width="128px"}
 
-<b>Entrada:</b> Geradores de Textura > Ruídos
+## Crystal 2
+
+**Entrada:** *Geradores De Textura**/Ruídos*
+
+**Simples**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -37,26 +41,21 @@ Gera um padrão angular, semelhante a um vinco de tecido. Semelhante a [Aumentar
 
 Este é um pouco de um ruído de nicho: pode ser útil para casos raros em que você está atrás deste tipo de detalhe, como ao recriar padrões sutis de mármore ou fazer pano.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parâmetros
 
-|  |  |
-|:---|:---|
-| <b>Escala</b> <i>1 - 16</i> | Define a escala global do efeito. |
-| <b>Desordem</b> <i>0.0 - 1.0</i> | Muda a fase do ruído para introduzir uma pequena variação. |
-| <b>Expansão não quadrada</b> <i>Falso/Verdadeiro</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+* **Escala**: *1 - 16*\
+  Define a escala global do efeito.
+* **Desordem**: *0.0 - 1.0*\
+  Muda a fase do ruído para introduzir uma pequena variação.
+* **Expansão não quadrada**: *Falso/Verdadeiro*\
+  Permite a compensação de esmagamento e alongamento com proporções não quadradas.
 
-## Exemplos
+## Imagens de exemplo
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="crystal-2.resources/crystal-2-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/crystal-2-1.png" width="256px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

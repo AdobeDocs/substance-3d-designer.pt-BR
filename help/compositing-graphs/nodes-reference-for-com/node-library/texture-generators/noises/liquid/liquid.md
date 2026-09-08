@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
 breadcrumb-title: ''
 description: Use o nó Líquido para gerar padrões líquidos e fluidos para criar água, óleo e outros efeitos de superfície do fluido.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Líquido
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 9%
+source-wordcount: '96'
+ht-degree: 2%
 
 ---
 
@@ -22,40 +22,38 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](liquid.resources/liquid-01.png){width="128px"}
+![](../../../../../../assets/liquid.png){width="128px"}
 
-<b>Entrada:</b> Geradores de Textura > Ruídos
+## Líquido
+
+**Entrada:** *Geradores De Textura**/Ruídos*
+
+**Simples**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Descrição
 
 Esta é uma variante simples do [Ruído Gaussiano](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), que [deforma](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) consigo mesmo para criar um efeito líquido.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parâmetros
 
-|  |  |
-|:---|:---|
-| <b>Escala</b> <i>1 - 128</i> | Define a escala global do efeito. |
-| <b>Desordem</b> <i>0.0 - 1.0</i> | Muda a fase do ruído para introduzir uma pequena variação |
-| <b>Intensidade de distorção</b> <i>0.0 - 1.0</i> | Define a intensidade do efeito de distorção. |
-| <b>Expansão não quadrada</b> <i>Falso/Verdadeiro</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+* **Escala**: *1 - 128*\
+  Define a escala global do efeito.
+* **Desordem**: *0.0 - 1.0*\
+  Muda a fase do ruído para introduzir uma pequena variação
+* **Intensidade de distorção**: *0.0 - 1.0*\
+  Define a intensidade do efeito de distorção.
+* **Expansão não quadrada**: *Falso/Verdadeiro*\
+  Permite a compensação de esmagamento e alongamento com proporções não quadradas.
 
-## Exemplos
+## Imagens de exemplo
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="liquid.resources/liquid-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/liquid-ex.gif)
+
+</td>
+</tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: Saiba como gerenciar conteúdo e filtros personalizados na Biblioteca da Substance 3D Designer para acesso a ativos organizados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gerenciamento de conteúdo e filtros personalizados
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Na verdade, as categorias e filtros personalizados podem ser *específicos do pr
 
 Isso significa que, com um ou mais arquivos do Project, você pode definir as pastas nas quais o conteúdo deve ser adicionado à <b>Biblioteca</b>, bem como as categorias e filtros que classificarão e organizarão esse conteúdo.
 
-![Conteúdo personalizado na biblioteca](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-01.png "Conteúdo personalizado na biblioteca")
+![Conteúdo personalizado na biblioteca](../../../assets/library-filters.png "Conteúdo personalizado na biblioteca")
 
 ## Atributos do grafo
 
@@ -57,11 +57,11 @@ Os filtros são parâmetros de pesquisa booleanos simples (Verdadeiro/Falso) que
 
 Categorias (isto é, pastas) e filtros são criados e editados usando os seguintes botões:
 
-<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-02.png) Adicionar Pasta:</b> Cria uma pasta expansível na exibição Biblioteca. Você *não pode* criar subpastas.
+<b>![](../../../assets/library-icon-new-folder.png) Adicionar Pasta:</b> Cria uma pasta expansível na exibição Biblioteca. Você *não pode* criar subpastas.
 
-<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-03.png) Adicionar Filtro:</b> Adiciona um novo Filtro dentro da pasta selecionada. Você *não pode* adicionar filtros às pastas padrão existentes.
+<b>![](../../../assets/library-icon-new-filter.png) Adicionar Filtro:</b> Adiciona um novo Filtro dentro da pasta selecionada. Você *não pode* adicionar filtros às pastas padrão existentes.
 
-<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-04.png) Editar Item:</b> Edita a Pasta ou o Filtro selecionado no momento. Você *não pode* editar nenhuma das propriedades das Pastas e Filtros padrão.
+<b>![](../../../assets/library-icon-edit.png) Editar Item:</b> Edita a Pasta ou o Filtro selecionado no momento. Você *não pode* editar nenhuma das propriedades das Pastas e Filtros padrão.
 
 Para *remover* uma Pasta ou um Filtro, *clique com o botão direito* nele e selecione a opção <b>Remover</b> no menu contextual.
 
@@ -76,7 +76,7 @@ As <b>pastas</b> e os <b>filtros</b> são identificados pelos seguintes dados:
 >
 > É *muito* importante configurá-los corretamente, para garantir que você esteja editando o *projeto correto*!
 
-![Edição de filtro personalizado](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-05.png "Edição de filtro personalizado")
+![Edição de filtro personalizado](../../../assets/library-filters-edit.png "Edição de filtro personalizado")
 
 **Os filtros** geralmente precisam ter *condições* configuradas para atingir sua finalidade de filtragem. Essas condições são configuradas usando os seguintes critérios:
 

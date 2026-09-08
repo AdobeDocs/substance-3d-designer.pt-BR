@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Acessar nós de controle em gráficos de função do Substance 3D Designer para controlar o fluxo e a lógica de execução.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Controle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4b69ef5fd76498339222e7b72708f9833acf0e63
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Esta página descreve nós de [Gráficos de função](../../../../function-graph
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó If...Else](../../../../assets/IfElse_Node.jpg "Nó If...Else")
+![Nó If...Else](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "Nó If...Else")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ A condição que controla a saída do nó.
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó de sequência](../../../../assets/Sequence_Node.jpg "Nó de sequência")
+![Nó de sequência](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "Nó de sequência")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ A parte do gráfico que deve ser calculada por último
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó de Loop Inteiro](../../../../assets/WhileLoop-Node.jpg "Nó de Loop Inteiro")
+![Nó de Loop Inteiro](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Nó de loop inteiro")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -128,7 +128,7 @@ O número máximo de iterações executadas pelo nó.\
 O nó para de iterar quando qualquer um dos seguintes critérios é atendido primeiro: esse número máximo é atingido ou a condição de saída se torna verdadeira.\
 Esse máximo pode ser desabilitado definindo o valor como *-1*. Nesse ponto, somente a condição de saída pode interromper as iterações.
 
-Definindo &#39;Máx. iterações para -1 melhora o desempenho em pequenos loops, pois há um contador a menos para manter o controle e atualizar.
+Definindo &#39;Máx. o iteração to -1 melhora o desempenho em pequenos loops, pois há um contador a menos para manter o controle e a atualização.
 
 No entanto, lembre-se de como o nó está configurado, pois é possível produzir um <b>loop infinito</b> que pode resultar no Designer não responder.
 

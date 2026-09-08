@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gráficos de Substance e materiais MDL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Ao usar a opção <b>Exibir saídas na Visualização 3D</b> para um gráfico de
 
 Texturas individuais de um gráfico de Substance podem ser conectadas a qualquer um dos parâmetros de material MDL que suportam amostragem de textura, independentemente do identificador, pressionando RMB no nó do gráfico de Substance e arrastando para a visualização 3D. Uma lista de usos disponíveis do sampler é exibida, e você pode selecionar o uso de destino para a textura selecionada.
 
-![Entradas de gráfico MDL expostas](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-01.png "Entradas de gráfico MDL expostas")
+![Entradas de gráfico MDL expostas](../../assets/mdl-graph-inputs-samplers.png "Entradas de gráfico MDL expostas")
 
 *A saída de texturas por um gráfico de Substance está conectada aos parâmetros expostos de um gráfico MDL na Exibição 3D*
 
@@ -48,7 +48,7 @@ Texturas individuais de um gráfico de Substance podem ser conectadas a qualquer
 Instâncias de gráfico de Substance podem ser colocadas diretamente em gráficos MDL arrastando-as do painel <b>Explorer</b> para o gráfico MDL. Gráficos de Substance de <b>arquivos de Substance 3D</b> (SBS) e <b>arquivos de ativos de Substance 3D</b> (SBSAR) podem ser usados em gráficos MDL.
 
 +++Substance do arquivo Substance 3D (SBS)
-![Gráfico de Substance do arquivo SBS no gráfico MDL](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-02.png "Gráfico de Substance do arquivo SBS no gráfico MDL")
+![Gráfico de Substance do arquivo SBS no gráfico MDL](../../assets/mdl-sbs-instance-hl.png "Gráfico de Substance do arquivo SBS no gráfico MDL")
 
 
 
@@ -57,7 +57,7 @@ Instância do *[gráfico de Substance](../../compositing-graphs/substance-compos
 +++
 
 +++Substance do ativo do Substance 3D (SBSAR)
-![Gráfico de Substance do arquivo SBSAR no gráfico MDL](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-03.png "Gráfico de Substance do arquivo SBSAR no gráfico MDL")
+![Gráfico de Substance do arquivo SBSAR no gráfico MDL](../../assets/mdl-sbsar-instance-hl.png "Gráfico de Substance do arquivo SBSAR no gráfico MDL")
 
 
 

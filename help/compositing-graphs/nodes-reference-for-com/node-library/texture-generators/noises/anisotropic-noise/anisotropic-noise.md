@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
 breadcrumb-title: ''
 description: Use o nó Ruído anisotrópico para gerar padrões de ruído direcional para criar efeitos de textura anisotrópica.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruído anisotrópico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -22,9 +22,13 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+<table>
+<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ruído anisotrópico - Ícone](anisotropic-noise.resources/anisotropic-noise-01.png "Ruído anisotrópico - Ícone"){width="200px"}
+![Ruído anisotrópico - Ícone](../../../../../../assets/anisotropic_noise_v2.png "Ruído anisotrópico - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -44,22 +48,22 @@ A quantidade de faixas é ajustável, assim como o smoothness de suas transiçõ
 ## Saídas
 
 |  |  |
-|:---|:---|
-| <b>Saída</b> <i>Tons de cinza</i> | O ruído gerado como bitmap em tons de cinza. |
+| --- | --- |
+| <b>Saída</b> *Tons de cinza* | O ruído gerado como bitmap em tons de cinza. |
 
 ## Parâmetros
 
 |  |  |
-|:---|:---|
-| <b>Valor de X</b> <i>Inteiro</i> | A quantidade de faixas no eixo X. |
-| <b>Valor Y</b> <i>Inteiro</i> | A quantidade de faixas no eixo Y. |
-| <b>Valor em Y por resolução</b> <i>Booleano</i> | Se verdadeiro, o número de faixas no eixo Y será igual ao tamanho da imagem nesse eixo. |
-| <b>Girar</b> <i>Booleano</i> | Gira o ruído 90 graus. |
-| <b>Smoothness</b> <i>Flutuante</i> | A intensidade de desvanecimento entre as faixas, em que 0 é o mesmo que não e 1 o último em todo o seu comprimento. |
-| <b>Interpolação de Smoothness</b> <i>Precisão decimal</i> | A ponderação dos dois métodos de interpolação aplicados para atenuar as faixas, onde 0 é linear e 1 é gaussiano. |
-| <b>Desordem</b> <i>Precisão decimal</i> | Desloca os ingredientes do ruído.   Isso pode ser usado para animar o ruído. |
-| <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.   Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
-| <b>Expansão não quadrada</b> <i>Booleano</i> | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
+| --- | --- |
+| <b>Valor X</b> Inteiro | A quantidade de faixas no eixo X. |
+| <b>Valor Y</b> Inteiro | A quantidade de faixas no eixo Y. |
+| Valor de <b>Y por resolução</b> booleano | Se verdadeiro, o número de faixas no eixo Y será igual ao tamanho da imagem nesse eixo. |
+| <b>Girar</b> Booleano | Gira o ruído 90 graus. |
+| <b>Smoothness</b> flutuante | A intensidade de desvanecimento entre as faixas, em que 0 é o mesmo que não e 1 o último em todo o seu comprimento. |
+| <b>Interpolação de Smoothness</b> flutuante | A ponderação dos dois métodos de interpolação aplicados para atenuar as faixas, onde 0 é linear e 1 é gaussiano. |
+| <b>Desordem</b> Flutuante | Desloca os ingredientes do ruído.   Isso pode ser usado para animar o ruído. |
+| <b>Velocidade do distúrbio</b> Precisão decimal | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.   Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
+| <b>Expansão não quadrada</b> Booleana | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
 
 ## Exemplos
 
@@ -67,12 +71,26 @@ A quantidade de faixas é ajustável, assim como o smoothness de suas transiçõ
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruído anisotrópico - Exemplo 1](anisotropic-noise.resources/anisotropic-noise-02.png "Ruído anisotrópico - Exemplo 1"){zoomable="yes"}
+![Ruído anisotrópico - Exemplo 1](../../../../../../assets/anisotropic_noise_v2_1.png "Ruído anisotrópico - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruído anisotrópico - Exemplo 2](anisotropic-noise.resources/anisotropic-noise-03.gif "Ruído anisotrópico - Exemplo 2"){zoomable="yes"}
+![Ruído anisotrópico - Exemplo 2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Ruído anisotrópico - Exemplo 2"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+</td>
+<td style="border: 0;" valign="top">
+
+
+
+</td>
+<td style="border: 0;" valign="top">
+
+
 
 </td>
 </tr>

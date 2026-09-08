@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Constante
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -27,11 +27,11 @@ Todos eles incluem um nó [Processador de valor](../../atomic-nodes/value-proces
 
 +++ Nós constantes na biblioteca
 
-![constants-library.png](constant.resources/constant-01.png)
+![constants-library.png](constant.resources/constants-library.png)
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constant-02.png" alt="Nó de Precisão decimal constante" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Nó de Precisão decimal constante" /></p>
 
 ## Inteiros
 
@@ -43,7 +43,7 @@ Inteiros constantes geram números inteiros e têm uma etapa de 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo inteiro](constant.resources/constant-03.png "Ícone de tipo inteiro")
+![Ícone de tipo inteiro](../../../../assets/fn-constant-integer.png "Ícone de tipo inteiro")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ Um inteiro possui um único componente. É útil como um índice para fazer sele
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Integer2](constant.resources/constant-04.png "Ícone de tipo Integer2")
+![Ícone de tipo Integer2](../../../../assets/fn-constant-integer2.png "Ícone de tipo Integer2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Um caso de uso comum de Integer2 é definir os tamanhos de grade X e Y, como no 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Integer3](constant.resources/constant-05.png "Ícone de tipo Integer3")
+![Ícone de tipo Integer3](../../../../assets/fn-constant-integer3.png "Ícone de tipo Integer3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Um nó Integer3 gera um vetor inteiro estático de 3 componentes com componentes
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Integer4](constant.resources/constant-06.png "Ícone de tipo Integer4")
+![Ícone de tipo Integer4](../../../../assets/fn-constant-integer4.png "Ícone de tipo Integer4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -126,7 +126,7 @@ Os valores de Precisão decimal constantes geram números fracionários, ou seja
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo flutuante](constant.resources/constant-07.png "Ícone de tipo flutuante")
+![Ícone de tipo flutuante](../../../../assets/fn-constant-float.png "Ícone de tipo flutuante")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -143,7 +143,7 @@ Uma Precisão decimal tem um único componente e é muito usada para qualquer va
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Float2](constant.resources/constant-08.png "Ícone de tipo Float2")
+![Ícone de tipo Float2](../../../../assets/fn-constant-float2.png "Ícone de tipo Float2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -162,7 +162,7 @@ A Precisão decimal 2 é geralmente usada para [coordenadas de amostragem](../..
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Float3](constant.resources/constant-09.png "Ícone de tipo Float3")
+![Ícone de tipo Float3](../../../../assets/fn-constant-float3.png "Ícone de tipo Float3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -181,7 +181,7 @@ O Precisão decimal3 é usado principalmente ao trabalhar com objetos 3D e [coor
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Float4](constant.resources/constant-10.png "Ícone de tipo Float4")
+![Ícone de tipo Float4](../../../../assets/fn-constant-float4.png "Ícone de tipo Float4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -202,7 +202,7 @@ A Precisão decimal 4 é a maneira preferencial de armazenar e definir informaç
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo booliano](constant.resources/constant-11.png "Ícone de tipo booliano")
+![Ícone de tipo booliano](../../../../assets/fn-constant-boolean.png "Ícone de tipo booliano")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

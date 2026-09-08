@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
 description: Acesse nós de função nos gráficos de função do Substance 3D Designer para chamar e executar gráficos de função personalizados.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Função
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -27,7 +27,7 @@ Embora seus conectores de entrada geralmente não sejam tipados, eles não supor
 ## Lista de nós
 
 +++Pot
-![Ícone de nó Pow](function-nodes.resources/function-nodes-01.jpg "Ícone de nó Pow")
+![Ícone de nó Pow](../../../../assets/Pow_Node.jpg "Ícone de nó Pow")
 
 
 
@@ -36,7 +36,7 @@ Retorna a primeira entrada elevada à potência da segunda entrada: <b>X^Y</b>.
 +++
 
 +++2Pow
-![ícone do nó Pow](function-nodes.resources/function-nodes-02.jpg "ícone do nó Pow")
+![ícone do nó Pow](../../../../assets/2Pow_Node.jpg "ícone do nó Pow")
 
 
 
@@ -45,7 +45,7 @@ Retorna 2 à potência do valor de entrada: <b>2^X</b>.
 +++
 
 +++Raiz quadrada
-![Ícone de nó Raiz Quadrada](function-nodes.resources/function-nodes-03.jpg "ícone de nó Raiz Quadrada")
+![Ícone de nó Raiz Quadrada](../../../../assets/SquareRoot_Node.jpg "ícone de nó Raiz Quadrada")
 
 
 
@@ -54,7 +54,7 @@ Retorna a raiz quadrada de seu valor de entrada: <b> √X</b>.
 +++
 
 +++Exponencial
-![Ícone de nó exponencial](function-nodes.resources/function-nodes-04.jpg "Ícone de nó exponencial")
+![Ícone de nó exponencial](../../../../assets/Exponential_Node.jpg "Ícone de nó exponencial")
 
 
 
@@ -65,7 +65,7 @@ Retorna o valor exponencial de seu valor de entrada: <b>e^X</b>
 +++
 
 +++Logaritmo
-![Ícone de nó de logaritmo](function-nodes.resources/function-nodes-05.jpg "Ícone de nó de logaritmo")
+![Ícone de nó de logaritmo](../../../../assets/Logarithm_Node.jpg "Ícone de nó de logaritmo")
 
 
 
@@ -74,7 +74,7 @@ Retorna o logaritmo natural de seu valor de entrada: <b>ln(X)</b>.
 +++
 
 +++Logaritmo base 2
-![Ícone de nó da Base do Logaritmo 2](function-nodes.resources/function-nodes-06.jpg "Ícone de nó da Base do Logaritmo 2")
+![Ícone de nó da Base do Logaritmo 2](../../../../assets/LogarithmBase2_Node.jpg "Ícone de nó da Base do Logaritmo 2")
 
 
 
@@ -83,7 +83,7 @@ Retorna o logaritmo de base 2 de seu valor de entrada: <b>log2(X)</b>.
 +++
 
 +++Absoluto
-![Ícone de nó absoluto](function-nodes.resources/function-nodes-07.jpg "Ícone de nó absoluto")
+![Ícone de nó absoluto](../../../../assets/Absolute_Node.jpg "Ícone de nó absoluto")
 
 
 
@@ -92,7 +92,7 @@ Retorna o valor absoluto de sua entrada: <b>abs(X)</b>.
 +++
 
 +++Teto
-![Ícone de nó Ceil](function-nodes.resources/function-nodes-08.jpg "Ícone de nó Ceil")
+![Ícone de nó Ceil](../../../../assets/Ceil_Node.jpg "Ícone de nó Ceil")
 
 
 
@@ -101,7 +101,7 @@ Arredonda o valor de entrada para cima. Retorna o menor valor inteiro não menor
 +++
 
 +++Piso
-![ícone do nó do Número inteiro](function-nodes.resources/function-nodes-09.jpg "ícone do nó do Número inteiro")
+![ícone do nó do Número inteiro](../../../../assets/Floor_Node.jpg "ícone do nó do Número inteiro")
 
 
 
@@ -110,7 +110,7 @@ Arredonda o valor de entrada para baixo. Retorna o maior valor inteiro não maio
 +++
 
 +++Interpolação linear
-![Ícone do nó de Interpolação Linear](function-nodes.resources/function-nodes-10.jpg "ícone do nó de Interpolação Linear")
+![Ícone do nó de Interpolação Linear](../../../../assets/LinearInterpolation_Node.jpg "ícone do nó de Interpolação Linear")
 
 
 
@@ -119,7 +119,7 @@ Retorna a interpolação linear entre dois valores na função de um valor flutu
 +++
 
 +++Mínimo
-![Ícone de nó mínimo](function-nodes.resources/function-nodes-11.jpg "Ícone de nó mínimo")
+![Ícone de nó mínimo](../../../../assets/Minimum_Node.jpg "Ícone de nó mínimo")
 
 
 
@@ -128,7 +128,7 @@ Retorna o menor dos dois valores de entrada: <b>min(A, B)</b>.
 +++
 
 +++Máximo
-![Ícone de nó máximo](function-nodes.resources/function-nodes-12.jpg "Ícone de nó máximo")
+![Ícone de nó máximo](../../../../assets/Maximum_Node.jpg "Ícone de nó máximo")
 
 
 
@@ -137,7 +137,7 @@ Retorna o maior dos dois valores de entrada: <b>max(A, B)</b>.
 +++
 
 +++Cosseno
-![Ícone de nó cosseno](function-nodes.resources/function-nodes-13.jpg "Ícone de nó cosseno")
+![Ícone de nó cosseno](../../../../assets/Cosine_Node.jpg "Ícone de nó cosseno")
 
 
 
@@ -146,7 +146,7 @@ Retorna o cosseno de seu valor de entrada em radianos: <b>cos(X)</b>.
 +++
 
 +++Seno
-![Ícone de nó seno](function-nodes.resources/function-nodes-14.jpg "Ícone de nó seno")
+![Ícone de nó seno](../../../../assets/Sine_Node.jpg "Ícone de nó seno")
 
 
 
@@ -155,7 +155,7 @@ Retorna o seno de seu valor de entrada em radianos: <b>sin(X)</b>.
 +++
 
 +++Tangente
-![Ícone de nó Tangent](function-nodes.resources/function-nodes-15.jpg "ícone de nó Tangent")
+![Ícone de nó Tangent](../../../../assets/Tangent_Node.jpg "ícone de nó Tangent")
 
 
 
@@ -164,7 +164,7 @@ Retorna a tangente de seu valor de entrada em radianos: <b>tan(X)</b>.
 +++
 
 +++Tangente do arco 2
-![Ícone de nó Arc Tangent 2](function-nodes.resources/function-nodes-16.jpg "ícone de nó Arc Tangent 2")
+![Ícone de nó Arc Tangent 2](../../../../assets/ArcTangent2_Node.jpg "ícone de nó Arc Tangent 2")
 
 
 
@@ -177,7 +177,7 @@ Não é necessário alternar o componente X e Y do vetor de entrada como na fun�
 +++
 
 +++Cartesiano
-![Ícone de nó absoluto](function-nodes.resources/function-nodes-07.jpg "Ícone de nó absoluto")
+![Ícone de nó absoluto](../../../../assets/Absolute_Node.jpg "Ícone de nó absoluto")
 
 
 
@@ -190,7 +190,7 @@ Coordenadas polares são uma distância da origem e um ângulo em radianos da ho
 +++
 
 +++Aleatória
-![Ícone de nó aleatório](function-nodes.resources/function-nodes-17.jpg "Ícone de nó aleatório")
+![Ícone de nó aleatório](../../../../assets/Random_Node.jpg "Ícone de nó aleatório")
 
 
 

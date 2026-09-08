@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
 breadcrumb-title: ''
 description: Use o nó Scratches de Desgaste para adicionar padrões de trabalho finos para um desgaste sutil e efeitos de detalhes da superfície.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Scratches de desgaste fino
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '123'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-scratches-fine.resources/grunge-scratches-fine-01.jpg){width="200px"}
+![](../../../../../../assets/grungescratchesfine.jpg){width="200px"}
 
-<b>Entrada:</b> Geradores de Textura > Ruídos
+**Entrada:** *Geradores de Textura* */Ruídos*
+
+**Simples**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Descrição
 
@@ -39,30 +41,30 @@ O nó **Scratches de Desgaste Fine** gera um mapa de desgaste semelhante a uma s
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## Parâmetros
 
-|  |  |
-|:---|:---|
-| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
-| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
-| <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
-| <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
-| <b>Avançado</b> |  |
-| <b>Valor de Scratches</b> <i>Flutuante</i> | Ajusta a quantidade de arranhões finos na superfície. |
-| <b>Intensidade de nitidez</b> <i>Flutuante</i> | Ajusta a intensidade do efeito de nitidez global. |
-| <b>Polarização de Valor de Rascunho</b> <i>Flutuante</i> | Ajusta o equilíbrio dos valores de luminância atribuídos a arranhões individuais. |
+* **Equilíbrio** *Precisão decimal* Ajusta o equilíbrio entre valores escuros e claros.
+* **Contraste** *Flutuar* Ajusta o contraste da imagem.
+* **Inverter** *Booleano* Inverte a saída da imagem usando uma operação `1-x`.
+* **Expansão não quadrada** *Booleano* Habilita a compensação de squash e alongamento com proporções não quadradas.
+* Avançado
+  * **Quantidade de Scratches** *Precisão decimal* Ajusta a quantidade de arranhões finos na superfície.
+  * **Intensidade da nitidez** *Precisão decimal* Ajusta a intensidade do efeito de nitidez global.
+  * **Polarização de valor de arranhão** *Precisão decimal* Ajusta o equilíbrio dos valores de luminância atribuídos a arranhões individuais.
 
-## Exemplos
+## Imagens de exemplo
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-fine.resources/grunge-scratches-fine-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-fine.resources/grunge-scratches-fine-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungescratchesfine-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungescratchesfine-variant2.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

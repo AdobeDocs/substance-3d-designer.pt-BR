@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
 description: Use o nó Mapa de degradê para mapear valores em tons de cinza para cores usando rampas de degradê para colorização e efeitos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa de gradiente
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: mapa de gradiente](gradient-map.resources/gradient-map-01.png "Nó atômico: mapa de gradiente"){width="200px"}
+![Nó atômico: mapa de gradiente](../../../../assets/comp_gradient_1.png "Nó atômico: mapa de gradiente"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,7 +78,7 @@ Ele pode ser aberto a partir das <b>Propriedades</b> do nó Mapa de Degradê das
 * Clique no LMB no botão <b>Editor de Degradê</b>;
 * Clique duas vezes no LMB em um pino na barra de gradientes. O pino clicado será então selecionado automaticamente no Editor de Degradê para que você possa editar seus valores diretamente.
 
-![Editor de gradiente](gradient-map.resources/gradient-map-02.png "Editor de gradiente")
+![Editor de gradiente](../../../../assets/image2017-2-17-16-13-5.png "Editor de gradiente")
 
 ### Edição dos pinos de gradiente
 
@@ -88,7 +88,7 @@ Cada pino define uma cor em sua posição ao longo do gradiente.
 
 As partes do gradiente antes e depois do primeiro e do último pinos são definidas para as cores desses pinos, respectivamente.
 
-![Editor de gradiente - Exibição de gradiente](gradient-map.resources/gradient-map-03.png "Editor de gradiente - Exibição de gradiente")
+![Editor de gradiente - Exibição de gradiente](../../../../assets/image2017-2-17-17-27-46.png "Editor de gradiente - Exibição de gradiente")
 
 Os seguintes controles estão disponíveis para editar pinos:
 
@@ -105,7 +105,7 @@ O novo pino será definido com a cor do gradiente nessa posição.
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de gradiente - Adicionar pino](gradient-map.resources/gradient-map-04.gif "Editor de gradiente - Adicionar pino")
+![Editor de gradiente - Adicionar pino](../../../../assets/move-pin.gif "Editor de gradiente - Adicionar pino")
 
 </td>
 </tr>
@@ -121,12 +121,12 @@ Segure o LMB e arraste os pinos selecionados ao longo da barra de gradiente para
 
 Você também pode definir a posição de um pino com um valor numérico selecionando-o e usando o parâmetro <b>Posição</b>. A posição é um valor no intervalo [0;1] em que 0 é o início do gradiente e 1 é o seu fim.
 
-![Editor de gradiente - Parâmetro de posição de pino](gradient-map.resources/gradient-map-05.png "Editor de gradiente - Parâmetro de posição de pino")
+![Editor de gradiente - Parâmetro de posição de pino](../../../../assets/image2015-8-27-13-56-2.png "Editor de gradiente - Parâmetro de posição de pino")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de gradiente - Pino de movimento](gradient-map.resources/gradient-map-06.gif "Editor de gradiente - Pino de movimento")
+![Editor de gradiente - Pino de movimento](../../../../assets/movepin2.gif "Editor de gradiente - Pino de movimento")
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Selecione os pinos e pressione Excluir ou arraste os pinos para fora da barra de
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de gradiente - Excluir pino](gradient-map.resources/gradient-map-07.gif "Editor de gradiente - Excluir pino")
+![Editor de gradiente - Excluir pino](../../../../assets/removepin.gif "Editor de gradiente - Excluir pino")
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ Espelha as posições dos pinos selecionados no gradiente.
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de gradiente: inverter posições](gradient-map.resources/gradient-map-08.gif "Editor de gradiente: inverter posições")
+![Editor de gradiente: inverter posições](../../../../assets/invert.gif "Editor de gradiente: inverter posições")
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ Remove todos os pinos da barra de gradientes.
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de gradiente - Limpar tudo](gradient-map.resources/gradient-map-09.gif "Editor de gradiente - Limpar tudo")
+![Editor de gradiente - Limpar tudo](../../../../assets/remove.gif "Editor de gradiente - Limpar tudo")
 
 </td>
 </tr>
@@ -190,23 +190,23 @@ Remove todos os pinos da barra de gradientes.
 
 <b>Inverter cores</b>
 
-Esse botão alterna as cores das fixares selecionadas para o negativo.
+Este botão alterna as cores dos pinos selecionados para o negativo.
 
 <b>Remover Saturação</b>
 
-Esse botão remove a saturação das cores definidas nos fixares selecionados.
+Esse botão remove a saturação das cores definidas nos pinos selecionados.
 
 ### Modos de interpolação
 
 Depois que os pinos são configurados, é possível controlar como as cores fazem a transição de um pino para o próximo usando os modos de interpolação disponíveis:
 
 +++Linear
-O modo de interpolação padrão: aplica uma interpolação linear simples entre cada fixar, para que o gradiente progrida uniformemente.
+O modo de interpolação padrão: aplica uma interpolação linear simples entre cada pino, para que o gradiente progrida uniformemente.
 
 +++
 
 +++Tangentes planas
-Ao pensar na transição entre gradientes como curvas de Bézier em que fixares são pontos da curva, esse modo define esses pontos como tangentes horizontais.
+Ao pensar na transição entre gradientes como curvas de Bézier em que os pinos são pontos da curva, esse modo define esses pontos como tangentes horizontais.
 
 Isso resulta em uma transição que evoca uma interpolação de passo suave.
 
@@ -222,15 +222,15 @@ Quando esse modo é selecionado, o parâmetro <b>Smoothness</b> é habilitado e 
 +++
 
 +++Sem interpolação
-A cor muda apenas no local do fixar e permanece constante até o próximo fixar na barra de gradientes.
+A cor muda apenas no local de um pino e permanece constante até o próximo pino na barra de gradientes.
 
-Isso resulta em etapas rígidas entre as cores, e apenas as cores definidas pelos fixares estão presentes no gradiente.
+Isso resulta em etapas rígidas entre as cores, e apenas as cores definidas pelos pinos estão presentes no gradiente.
 
 +++
 
 ### seletor de cores
 
-![Editor de gradiente - Seletor de cores](gradient-map.resources/gradient-map-10.png "Editor de gradiente - Seletor de cores")
+![Editor de gradiente - Seletor de cores](../../../../assets/image2017-2-17-18-21-29.png "Editor de gradiente - Seletor de cores")
 
 O Seletor de cores permite definir uma cor de várias maneiras:
 
@@ -245,7 +245,7 @@ O Seletor de cores permite definir uma cor de várias maneiras:
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Seletor de cores - Área de gradiente e barra de matiz](gradient-map.resources/gradient-map-11.gif "Seletor de cores - Área de gradiente e barra de matiz")
+  ![Seletor de cores - Área de gradiente e barra de matiz](../../../../assets/colorpalette.gif "Seletor de cores - Área de gradiente e barra de matiz")
 
   </td>
   </tr>
@@ -264,7 +264,7 @@ O Seletor de cores permite definir uma cor de várias maneiras:
   </td>
   <td width="33.33%" style="border: 0;" valign="top">
 
-  ![Seletor de cores - controles deslizantes RGB, HSV e Alpha](gradient-map.resources/gradient-map-12.png "Seletor de cores - controles deslizantes RGB, HSV e Alpha")
+  ![Seletor de cores - controles deslizantes RGB, HSV e Alpha](../../../../assets/image2017-2-17-18-31-41.png "Seletor de cores - controles deslizantes RGB, HSV e Alpha")
 
   </td>
   </tr>
@@ -281,7 +281,7 @@ O Seletor de cores permite definir uma cor de várias maneiras:
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Seletor de Cores - Escolher na tela](gradient-map.resources/gradient-map-13.gif "Seletor de Cores - Escolher na tela")
+  ![Seletor de Cores - Escolher na tela](../../../../assets/pick.gif "Seletor de Cores - Escolher na tela")
 
   </td>
   </tr>
@@ -297,7 +297,7 @@ A metade inferior exibe a cor usada anteriormente. Clique duas vezes no LMB para
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Seletor de cores - Reverter cor](gradient-map.resources/gradient-map-14.png "Seletor de cores - Reverter cor")
+![Seletor de cores - Reverter cor](../../../../assets/image2015-8-27-14-40-39.png "Seletor de cores - Reverter cor")
 
 </td>
 </tr>
@@ -326,7 +326,7 @@ Além disso, os seguintes recursos estão disponíveis abaixo da miniatura de co
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Seletor de Cores - Botões](gradient-map.resources/gradient-map-15.gif "Seletor de Cores - Botões")
+![Seletor de Cores - Botões](../../../../assets/invert2.gif "Seletor de Cores - Botões")
 
 </td>
 </tr>
@@ -336,7 +336,7 @@ Além disso, os seguintes recursos estão disponíveis abaixo da miniatura de co
 
 O Conta-gotas de gradiente é um dos recursos mais úteis que esse nó oferece, pois você pode criar gradientes complexos apenas desenhando uma linha em uma imagem de referência.
 
-![Editor de Degradê - Seletor de Degradê](gradient-map.resources/gradient-map-16.gif "Editor de Degradê - Seletor de Degradê")
+![Editor de Degradê - Seletor de Degradê](../../../../assets/pickgradient.gif "Editor de Degradê - Seletor de Degradê")
 
 O controle deslizante <b>Precisão</b> ajudará você a ajustar o gradiente recém-criado aumentando ou diminuindo o número de teclas: quanto mais baixos forem os valores, mais preciso será o gradiente que corresponderá aos valores escolhidos.
 

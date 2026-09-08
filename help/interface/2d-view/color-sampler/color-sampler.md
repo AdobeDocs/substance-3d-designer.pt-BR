@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/2d-view/color-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view/color-sampler.html"
 breadcrumb-title: ''
 description: Use a ferramenta Sampler de cores na exibição 2D para obter amostras de cores das texturas para uma correspondência de cores precisa.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ferramenta Classificador de Cores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Ferramenta Classificador de Cores
 
-![Ferramenta Classificador de Cores](color-sampler.resources/color-sampler-01.png "Ferramenta Classificador de Cores"){zoomable="yes"}
+![Ferramenta Classificador de Cores](../../../assets/color-sampler-demo.png "Ferramenta Classificador de Cores"){zoomable="yes"}
 
 A ferramenta Sampler de Cores permite <b>rastrear o valor de um pixel específico</b> na [Exibição 2D](../../../interface/2d-view/2d-view.md) conforme você ajusta os parâmetros ou alterna os nós.
 
@@ -30,16 +30,16 @@ Ele coloca um pino na viewport e faz a amostragem da cor e da posição do pixel
 
 Siga estas etapas para acessar e usar a ferramenta:
 
-1. Clique no botão ![](color-sampler.resources/color-sampler-02.png) <b>Informações</b> na barra de ferramentas de exibição 2D para abrir o Dock de informações e a barra de ferramentas
-1. Clique no botão ![](color-sampler.resources/color-sampler-03.png) <b>Ferramenta Color Sampler</b> na barra de ferramentas Informações
-1. No visor, clique no pixel específico em que você deseja obter uma amostra para colocar um ![](color-sampler.resources/color-sampler-04.png) <b>pino</b>
+1. Clique no botão ![](../../../assets/color-sampler-information-button.png) <b>Informações</b> na barra de ferramentas de exibição 2D para abrir o Dock de informações e a barra de ferramentas
+1. Clique no botão ![](../../../assets/color-sampler-tool-icon.png) <b>Ferramenta Color Sampler</b> na barra de ferramentas Informações
+1. No visor, clique no pixel específico em que você deseja obter uma amostra para colocar um ![](../../../assets/color-sampler-pin-icon.png) <b>pino</b>
 1. Examine os valores de amostra na seção dedicada do Dock de informações
-1. Quando terminar de usar a ferramenta, clique no botão ![](color-sampler.resources/color-sampler-05.png) <b>Excluir</b> para remover o pino do visor.\
+1. Quando terminar de usar a ferramenta, clique no botão ![](../../../assets/color-sampler-remove-pin.png) <b>Excluir</b> para remover o pino do visor.\
    Você também pode remover o pino clicando nele com o botão direito do mouse e selecionando a ação &#39;Excluir&#39; no menu contextual.
 
 Aqui está uma demonstração da ferramenta em ação:
 
-![Classificador de cores: usando a ferramenta](color-sampler.resources/color-sampler-06.gif "Classificador de cores: usando a ferramenta"){zoomable="yes"}
+![Classificador de cores: usando a ferramenta](../../../assets/color-sampler-demo.gif "Classificador de cores: usando a ferramenta"){zoomable="yes"}
 
 *Clique para ampliar*
 
@@ -50,7 +50,7 @@ Os valores copiados podem ser <b>colados em parâmetros usando uma miniatura de 
 
 As miniaturas de cores no painel Informações também podem ser arrastadas e soltas diretamente nas miniaturas de cores desses parâmetros.
 
-![Amostra de cores: copiar valores RGBA](color-sampler.resources/color-sampler-07.gif "Amostra de cores: copiar valores RGBA"){zoomable="yes"}
+![Amostra de cores: copiar valores RGBA](../../../assets/color-sampler-demo-copy-rgba-values.gif "Amostra de cores: copiar valores RGBA"){zoomable="yes"}
 
 
 
@@ -76,7 +76,7 @@ As informações são agrupadas em três tipos e dois formatos.
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Informações de amostra](color-sampler.resources/color-sampler-08.png "Informações de amostra"){zoomable="yes"}
+![Informações de amostra](../../../assets/color-sampler-information.png "Informações de amostra"){zoomable="yes"}
 
 </td>
 </tr>

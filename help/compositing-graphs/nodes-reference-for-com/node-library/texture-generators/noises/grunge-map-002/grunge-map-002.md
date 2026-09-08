@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-002.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-002.html"
 breadcrumb-title: ''
 description: Use o nó Mapa do Desgaste 002 para gerar padrões de desgaste processuais para criar superfícies de materiais envelhecidas e envelhecidas.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Mapa do desgaste 002
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 7%
+source-wordcount: '128'
+ht-degree: 1%
 
 ---
 
@@ -22,41 +22,39 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](grunge-map-002.resources/grunge-map-002-01.png){width="128px"}
+![](../../../../../../assets/grungemap-002.png){width="128px"}
 
-<b>Entrada:</b> geradores de textura > Ruídos
+## Mapa do desgaste 002
+
+**Entrada:** *Geradores De Textura**/Ruídos*
+
+**Simples**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Descrição
 
 Gera um Noisemap complexo e combinado. Esse nó pode ser muito útil como um procedimento detalhado, mas lembre-se de que esse processo exige muito desempenho e, portanto, é mais lento.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parâmetros
 
-|  |  |
-|:---|:---|
-| <b>Saldo</b> <i>0.0 - 1.0</i> | Alterna o equilíbrio do resultado entre preto ou branco, como um ajuste de brilho. |
-| <b>Contraste</b> <i>0.0 - 1.0</i> | Ajusta o contraste do resultado. |
-| <b>Inverter</b> <i>Falso/Verdadeiro</i> | Inverte o resultado. |
-| <b>Padrão de pincel</b> <i>0.0 - 1.0</i> | Adiciona uma máscara ao redor das bordas, para quando usada como um alfa de pincel. |
-| <b>Expansão não quadrada</b> <i>Falso/Verdadeiro</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
+* **Saldo**: *0.0 - 1.0*\
+  Alterna o equilíbrio do resultado entre preto ou branco, como um ajuste de brilho.
+* **Contraste**: *0.0 - 1.0*\
+  Ajusta o contraste do resultado.
+* **Inverter**: *Falso/Verdadeiro*\
+  Inverte o resultado.
+* **Padrão de Pincel**: *0.0 - 1.0* Adiciona uma máscara ao redor das bordas, para quando usado como um alfa de pincel.
+* **Expansão não quadrada**: *Falso/Verdadeiro*\
+  Permite a compensação de esmagamento e alongamento com proporções não quadradas.
 
-## Exemplos
+## Imagens de exemplo
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-map-002.resources/grunge-map-002-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/grungemap-002-ex.gif)
+
+</td>
+</tr>
 </table>
