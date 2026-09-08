@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: Saiba como criar e usar predefinições de parâmetro no Substance 3D Designer para salvar e aplicar configurações de parâmetro.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Predefinições de parâmetro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 69056338cc47db71e0754c72495d33a2a3c36dea
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ As predefinições de parâmetro oferecem ao usuário a capacidade de armazenar 
 
 Há duas maneiras de armazenar e carregar predefinições. Ambas têm casos de uso diferentes, detalhados abaixo.
 
-![Menu suspenso Carregar/Salvar predefinição](../../../assets/preset-menu.gif "Menu suspenso Carregar/Salvar predefinição"){width="512px"}
+![Menu suspenso Carregar/Salvar predefinição](parameter-presets.resources/preset-menu.gif "Menu suspenso Carregar/Salvar predefinição"){width="512px"}
 
 ## Predefinições externas
 
@@ -38,7 +38,7 @@ Eles são simplesmente salvos e carregados através deste menu. Os arquivos SBSP
 >
 > Mesmo correspondências parciais funcionarão: os parâmetros armazenados em um SBSPRS que não existem no nó carregado, serão simplesmente ignorados. Isso significa que você pode transferir propriedades entre nós que são mais semelhantes, [como a versão colorida e em tons de cinza do Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)! Todos os parâmetros compartilhados serão carregados. A correspondência ocorre no identificador e no tipo.
 
-![Edição de predefinições incorporadas](../../../assets/preset-embed.gif "Edição de predefinições incorporadas"){width="512px"}
+![Edição de predefinições incorporadas](parameter-presets.resources/preset-embed.gif "Edição de predefinições incorporadas"){width="512px"}
 
 ## Predefinições incorporadas
 
