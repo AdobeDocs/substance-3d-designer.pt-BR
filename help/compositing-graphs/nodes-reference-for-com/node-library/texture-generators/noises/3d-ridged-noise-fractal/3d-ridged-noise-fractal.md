@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fractal de ruído ondulado 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-01.png){width="200px"}
+![](../../../../../../assets/3dridgednoisefractal.png){width="200px"}
 
 <b>Entrada:</b> Geradores de Textura > Ruídos
 
@@ -52,10 +52,10 @@ Este nó pode ser testado com [GBuffers 3D de cubo](../../../../../../compositin
 |  |  |
 |:---|:---|
 | <b>Inverter</b> <i>Booleano</i> | Inverte a imagem de saída. |
-| <b>Escala</b> <i>Flutuante</i> | Controla a escala do ruído com ondulação 3D fractal. |
-| <b>Tamanho</b> <i>Flutuante3</i> | Controla o tamanho do ruído fractal de ondulação 3D nos eixos <b>X</b>, <b>Y</b> e <b>Z</b>. Valores não uniformes resultam em um efeito de <i>amplificação ou esmagamento</i>. |
+| <b>Escala</b> <i>Precisão decimal</i> | Controla a escala do ruído com ondulação 3D fractal. |
+| <b>Tamanho</b> <i>Precisão decimal 3</i> | Controla o tamanho do ruído fractal de ondulação 3D nos eixos <b>X</b>, <b>Y</b> e <b>Z</b>. Valores não uniformes resultam em um efeito de <i>amplificação ou esmagamento</i>. |
 | <b>Deslocamento</b> <i>Precisão decimal 3</i> | Aplica um deslocamento à <i>posição</i> do ruído fractal de ondulação 3D nos eixos <b>X</b>, <b>Y</b> e <b>Z</b>. |
-| <b>Intensidade de Distorção</b> <i>Flutuante</i> | Controla a intensidade de um <i>efeito de distorção</i> aplicado no ruído com ondulação 3D fractal. |
+| <b>Intensidade de Distorção</b> <i>Precisão decimal</i> | Controla a intensidade de um <i>efeito de distorção</i> aplicado no ruído com ondulação 3D fractal. |
 | <b>Multiplicador de Escala de Distorção</b> <i>Flutuante</i> | Controla a escala do <i>padrão de deformação</i> usado no efeito de distorção controlado pela <b>Intensidade de Distorção</b>. |
 | <b>Nível Mínimo</b> <i>Inteiro</i> | O <i>nível mínimo de repetição</i> usado no padrão fractal. Um intervalo mínimo/máximo mais amplo resulta em um <i>padrão mais rico</i> com variação em intervalos de frequência mais amplos. |
 | <b>Nível Máximo</b> <i>Inteiro</i> | O <i>nível máximo de repetição</i> usado no padrão fractal. Um intervalo mínimo/máximo mais amplo resulta em um <i>padrão mais rico</i> com variação em intervalos de frequência mais amplos. |
@@ -71,10 +71,10 @@ Este nó pode ser testado com [GBuffers 3D de cubo](../../../../../../compositin
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-02.jpg" />
+            <img src="../../../../../../assets/3dridgednoisefractal-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-03.jpg" />
+            <img src="../../../../../../assets/3dridgednoisefractal-variant2.jpg" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderização PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-render.resources/pbr-render-01.png){width="250px"}
+![](../../../../../../assets/pbr-render.png){width="250px"}
 
 <b>Entrada:</b> Filtros Materiais > Utilitários PBR
 
@@ -69,7 +69,7 @@ Este nó requer pelo menos um material PBR completo para ser conectado. Idealmen
 | <b>Irradiância bruta</b> | Os dados de irradiância do mapa de opacidade final de renderização<br><br><i>Alpha:</i> |
 | <b>Specular bruto</b> | Os dados de specular da renderização final<br><br><i>Alpha:</i> mapa de sombras de Specular |
 | <b>Espaço Mundial Normal</b> | Os dados normais do espaço global do renderizador final<br><br><i>Alpha:</i> mapa de altura do espaço global |
-| <b>Espaço tangente Normal</b> | Os dados normais de espaço tangente do mapa de altura do espaço tangente final<br><br><i>Alpha:</i> |
+| <b>Espaço Tangente Normal</b> | Os dados normais de espaço tangente do mapa de altura do espaço tangente final<br><br><i>Alpha:</i> |
 | <b>UVs</b> | Os dados UV do mapa de opacidade final de renderização<br><br><i>Alpha:</i> |
 
 <a name="parameters"></a>
@@ -114,8 +114,8 @@ Este nó requer pelo menos um material PBR completo para ser conectado. Idealmen
 | <b>Anel de abertura</b> <i>0.0 - 1.0</i> | Adiciona um gradiente interno à forma bokeh. |
 | <b>Difração de abertura</b> <i>0.0 - 2.0</i> | Adiciona desvio cromático ao bokeh. |
 | <b>Bokeh rodopiado</b> <i>0.0 - 1.0</i> | Adiciona um efeito de giro ou giro às áreas de desfoque bokeh fora de foco. |
-| <b>Modo de Foco</b> <i>Automático, Ponto</i> | Defina se o foco é predeterminado ou definido pelo usuário. O foco de ponto permite mover um ponto na exibição 2D para determinar a distância de foco. |
-| <b>Ponto de Foco</b> | Se o foco estiver definido como Ponto, você poderá mover esse ponto. tem um gizmo de exibição 2D. |
+| <b>Modo de Foco</b> <i>Automático, Ponto</i> | Defina se o foco é predeterminado ou definido pelo usuário. O foco de ponto permite mover um ponto na Visualização 2D para determinar a distância do foco. |
+| <b>Ponto de Foco</b> | Se o foco estiver definido como Ponto, você poderá mover esse ponto. tem um Visualização 2D. |
 | <b>Deslocamento de foco</b> <i>-0.5 - 0.5</i> | Se o foco estiver definido como Automático, você poderá deslocá-lo para frente e para trás. |
 | <b>Usar o Mapa de Abertura Personalizado</b> <i>Falso/Verdadeiro</i> | Substitui as configurações de Abertura acima e usa a entrada do mapa de Abertura para determinar a forma do bokeh. Requer uma entrada. |
 | <b>Pós-efeitos</b> |  |
@@ -128,14 +128,14 @@ Este nó requer pelo menos um material PBR completo para ser conectado. Idealmen
 | <b>Intensidade do Dirt da lente</b> <i>0.0 - 1.0</i> | Define o efeito do mapa de dirt de lente nos reflexos de lente. |
 | <b>Configurações de renderização</b> |  |
 | <b>Qualidade da Difusão</b> <i>16 Amostras, 32 Amostras, 64 Amostras, 128 Amostras</i> | Alternar entre os níveis de qualidade do mapa difuso. |
-| <b>Multiplicador de Emissivo de Difusão</b> <i>0.0 - 1.0</i> | Controla o quanto as partes emissivas estão contribuindo para a irradiância. |
+| <b>Multiplicador de Emissivo de Difusão</b> <i>0.0 - 1.0</i> | Controla o quanto as partes do emissivo estão contribuindo para a irradiância. |
 | <b>Intensidade de Sombra da Difusão</b> <i>0.0 - 1.0</i> | Controla a intensidade das sombras difusas. |
 | <b>Pontilhamento de Specular</b> <i>0.0 - 1.0</i> | Defina a intensidade de pontilhamento do specular. |
 | <b>Multiplicador de Sombra do Specular</b> <i>0.0 - 1.0</i> | Controla a intensidade das sombras nos reflexos do specular. |
-| <b>Modo de Opacidade</b> <i>Teste de Alpha pontilhado, Combinar de Alpha simples</i> | Controla o método de aplicação da transparência. O modo <i>Mesclagem de Alpha simples</i> é mais visível em planos de fundo uniformes. |
-| <b>Intensidade de Oclusão de ambiente</b> <i>0.0 - 1.0</i> | Define a intensidade das sombras de oclusão ambiente. |
+| <b>Modo de Opacidade</b> <i>Teste de Alpha pontilhado, Combinar de Alpha simples</i> | Controla o método de aplicação da transparência. O modo <i>Alpha simples </i> é mais visível em planos de fundo uniformes. |
+| <b>Intensidade de Oclusão de ambiente</b> <i>0.0 - 1.0</i> | Define a intensidade das sombras de oclusão de ambiente. |
 | <b>Ajustes de material</b> |  |
-| <b>Recalcular Normas</b> <i>Falso/Verdadeiro</i> | Os valores normais serão recalculados a partir do mapa de heights de acordo com a intensidade do deslocamento. |
+| <b>Recalcular Normas</b> <i>Falso/Verdadeiro</i> | Os valores normais serão recalculados a partir do mapa de altura, de acordo com a intensidade do deslocamento. |
 | <b>Formato Normal</b> <i>DirectX, OpenGL</i> | Alternar entre Formatos de mapa normais diferentes (inverte o canal verde) |
 | <b>Entrada F0 Dielétrica</b> <i>Valor Constante, entrada de Specular level</i> | Defina quais unidades os valores F0. Entrada de specular level significa que será orientada por um mapa de entrada. |
 | <b>Dielétrico F0</b> <i>0.0 - 0.08</i> | Se Valor constante for escolhido para Entrada dielétrica F0, este controle deslizante permite definir o valor global. |
@@ -160,30 +160,30 @@ Todas as imagens foram geradas diretamente dentro do Designer, na viewport 2D, u
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-02.jpg" />
+            <img src="../../../../../../assets/pbr-render-v2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-03.jpg" />
+            <img src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-04.jpg" />
+            <img src="../../../../../../assets/sphere-ominous-obsidian.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-05.jpg" />
+            <img src="../../../../../../assets/sphere-forest-gravel-1.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-06.jpg" />
+            <img src="../../../../../../assets/sphere-chesterfield-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-07.jpg" />
+            <img src="../../../../../../assets/sphere-carbon-fiber.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-08.jpg" />
+            <img src="../../../../../../assets/plane-inclined-lumber-tiles.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-09.jpg" />
+            <img src="../../../../../../assets/cylinder-medieval-leaded-glass-window.jpg" />
         </td>
     </tr>
 </table>

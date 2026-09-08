@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruído úmido 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ruído de umidade 2 - Ícone](moisture-noise-2.resources/moisture-noise-2-01.png "Ruído de umidade 2 - Ícone"){width="200px"}
+![Ruído de umidade 2 - Ícone](../../../../../../assets/moisture_noise_2.png "Ruído de umidade 2 - Ícone"){width="200px"}
 
-<b>Entrada:</b> geradores de textura > Ruídos
+<b>Entrada:</b> geradores de Textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,9 +58,9 @@ Veja também: [Ruído de umidade 1](../../../../../../compositing-graphs/nodes-r
 |  |  |
 |:---|:---|
 | <b>Escala</b> <i>Inteiro</i> | A subdivisão da grade usada para gerar os blocos de ruído.    Um valor mais alto resulta no desenho de mais ladrilhos e em um ruído mais denso. |
-| <b>Desordem</b> <i>Flutuante</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
-| <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
-| <b>anisotropia de distúrbio</b> <i>Flutuante</i> | Controla a extensão das direções do deslocamento aplicadas pelo parâmetro <b>Desordem</b>, em que um valor mais alto resulta em uma direção mais estreita e definida.    A direção é controlada pelo parâmetro <b>Ângulo de anisotropia de desordem</b>. |
+| <b>Desordem</b> <i>Precisão decimal</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
+| <b>Velocidade do distúrbio</b> <i>Precisão decimal</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
+| <b>anisotropia de distúrbio</b> <i>Precisão decimal</i> | Controla a extensão das direções do deslocamento aplicadas pelo parâmetro <b>Desordem</b>, em que um valor mais alto resulta em uma direção mais estreita e definida.    A direção é controlada pelo parâmetro <b>Ângulo de anisotropia de desordem</b>. |
 | <b>ângulo de anisotropia de desordem</b> <i>Flutuante</i> | Controla a direção do deslocamento aplicado pelo parâmetro <b>Desordem</b> quando o parâmetro <b>anisotropia de Desordem</b> não é zero. |
 | <b>Tamanho do padrão</b> <i>Flutuante2</i> | Um multiplicador para o tamanho de um padrão de dispersão, onde 1,0 é seu tamanho de dispersão original. |
 | <b>Ângulo de padrão</b> <i>Flutuante</i> | O ângulo usado para definir a direção do padrão disperso, em número de voltas e começando da direita horizontal. |
@@ -75,12 +75,12 @@ Veja também: [Ruído de umidade 1](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruído de umidade 2 - Exemplo 1](moisture-noise-2.resources/moisture-noise-2-02.png "Ruído de umidade 2 - Exemplo 1"){zoomable="yes"}
+![Ruído de umidade 2 - Exemplo 1](../../../../../../assets/moisture_noise_2_1.png "Ruído de umidade 2 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruído de umidade 2 - Exemplo 2](moisture-noise-2.resources/moisture-noise-2-03.gif "Ruído de umidade 2 - Exemplo 2"){zoomable="yes"}
+![Ruído de umidade 2 - Exemplo 2](../../../../../../assets/noise_moisture_noise_2_speed0.6_aniso0.gif "Ruído de umidade 2 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -90,12 +90,12 @@ Veja também: [Ruído de umidade 1](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruído de umidade 2 - Exemplo 3](moisture-noise-2.resources/moisture-noise-2-04.gif "Ruído de umidade 2 - Exemplo 3"){zoomable="yes"}
+![Ruído de umidade 2 - Exemplo 3](../../../../../../assets/noise_moisture_noise_2_speed0.6_aniso1.gif "Ruído de umidade 2 - Exemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruído de umidade 2 - Exemplo 4](moisture-noise-2.resources/moisture-noise-2-05.gif "Ruído de umidade 2 - Exemplo 4"){zoomable="yes"}
+![Ruído de umidade 2 - Exemplo 4](../../../../../../assets/noise_moisture_noise_2_speed0.3_aniso0.6.gif "Ruído de umidade 2 - Exemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

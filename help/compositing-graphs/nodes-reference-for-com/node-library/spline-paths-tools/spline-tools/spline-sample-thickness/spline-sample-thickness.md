@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Thickness de amostra de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](spline-sample-thickness.resources/spline-sample-thickness-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/spline-sample-thickness-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -88,11 +88,11 @@ O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mescl
 <table>
   <tr>
     <td>
-      <img src="spline-sample-thickness.resources/spline-sample-thickness-02.jpg" alt="SplineSampleThickness-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-sample-thickness.resources/spline-sample-thickness-03.jpg" alt="EspessuraAmostraEspessura-Variante1-Depois">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant1-After.jpg" alt="EspessuraAmostraEspessura-Variante1-Depois">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mescl
 <table>
   <tr>
     <td>
-      <img src="spline-sample-thickness.resources/spline-sample-thickness-04.jpg" alt="SplineSampleThickness-Variant2-Before">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-sample-thickness.resources/spline-sample-thickness-05.jpg" alt="SplineSampleThickness-Variant2-After">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mescl
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](spline-sample-thickness.resources/spline-sample-thickness-06.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](../../../../../../assets/SplineSampleThickness-Variant1-After1.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](spline-sample-thickness.resources/spline-sample-thickness-07.gif "Exemplo de nó 2")
+![Exemplo de nó 2](../../../../../../assets/SplineSampleThickness-Demo.gif "Exemplo de nó 2")
 
 </td>
 </tr>

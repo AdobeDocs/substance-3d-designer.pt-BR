@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Alveolus
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](alveolus.resources/alveolus-01.png){width="128px"}
+![](../../../../../../assets/alveolus-1.png){width="128px"}
 
 <b>Em:</b> Geradores De Textura > Padrões
 
@@ -55,7 +55,7 @@ Um padrão de esfera suave que pode, alternativamente, gerar blocos de hexágono
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="alveolus.resources/alveolus-02.gif" />
+            <img src="../../../../../../assets/alveolus.gif" />
         </td>
     </tr>
 </table>

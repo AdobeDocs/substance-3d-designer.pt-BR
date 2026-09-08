@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cor para máscara
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Cor para máscara - Ícone](color-to-mask.resources/color-to-mask-01.png "Cor para máscara - Ícone"){width="200px"}
+![Cor para máscara - Ícone](../../../../../../assets/color_to_mask.png "Cor para máscara - Ícone"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -62,12 +62,12 @@ Extrai uma máscara de tons de cinza das cores selecionadas em uma imagem colori
 
 |  |  |
 |:---|:---|
-| <b>Usar entrada de cores</b> *Booleano* | Use uma imagem de entrada em vez de uma cor uniforme para definir uma cor de referência por pixel.    A imagem de entrada é fornecida pela entrada de <b>Cores</b>. |
+| <b>Usar entrada de cores</b> *Booleano* | Use uma imagem de entrada em vez de uma cor uniforme, para definir uma cor de referência por pixel.    A imagem de entrada é fornecida pela entrada de <b>Cores</b>. |
 | <b>Cor</b> *Precisão decimal 3* *Disponível quando &#39;Usar entrada de cor&#39; estiver definido como &#39;Falso&#39;* | A cor uniforme de referência em torno da qual a seleção de cores deve ser executada. |
-| <b>Limite</b> *Precisão decimal* | A distância até a cor de referência abaixo da qual as cores são selecionadas. |
-| <b>Atenuação da seleção</b> *Precisão decimal* | Esmaecer a seleção de cores com base na distância até a cor de referência. |
-| <b>Espaço de cores à distância</b> *Inteiro* | O processo Equalizar envolve comparar cores para determinar a distância entre elas. Determinados espaços de cores e algoritmos de distância são mais adequados para casos de uso específicos.   Essa lista suspensa permite selecionar o espaço de cores usado para comparar as cores:<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>RGB (Dados):</i></b> a cor é dividida nos canais Vermelho, Verde e Azul e distribuída diretamente ao longo desses eixos, sem considerar a percepção humana. Isso é adequado para imagens que contêm dados brutos.</li> <li data-preserve-html="true"><i>sRGB lineares (cor):</i> a cor é dividida nos canais vermelho, verde e azul e distribuída em uma relação linear com a intensidade da luz do pixel. Isso é adequado para imagens que podem ser visualizadas em telas.</li> <li data-preserve-html="true"><b><i>Luminância (Cor):</i></b> a cor é dividida em valores de Matiz, Croma e Luminância, em que apenas o valor de Luminância é usado na comparação. Isso é adequado para imagens que podem ser visualizadas em telas.</li> <li data-preserve-html="true"><i>Lab (Cor):</i> um espaço de cores perceptual padronizado, que distribui cores de forma que as cores que &#39;parecem&#39; próximas estejam realmente próximas no cubo. Isso é adequado para imagens que podem ser visualizadas em telas.</li> <li data-preserve-html="true"><i>Ângulo (Normal):</i> a cor é dividida nos eixos X, Y, Z de um vetor e comparada por meio de um produto pontilhado. Isso é adequado para imagens que contêm normais de Espaço tangente.</li> </ul> |
-| <b>Espessuras de distância</b> *Precisão decimal 3* | O algoritmo de distância de cores Lab (DeltaE2000) apresenta determinados fatores de peso para cada valor de luminosidade, croma e matiz.   Valores mais baixos diminuirão a influência dos fatores no algoritmo de diferença de cores.   Como o olho geralmente aceita maiores diferenças na luminosidade (L) do que no croma (C) ou matiz (H), uma proporção padrão para (L:C:H) é (0,5:1:1). Uma proporção de 0,5:1:1 permitirá duas vezes mais diferença na luminosidade do que no croma ou matiz. |
+| <b>Limite</b> *Flutuante* | A distância até a cor de referência abaixo da qual as cores são selecionadas. |
+| <b>Atenuação da seleção</b> *Flutuante* | Esmaecer a seleção de cores com base na distância até a cor de referência. |
+| <b>Espaço de cores à distância</b> *Inteiro* | O processo Equalizar envolve comparar cores para determinar a distância entre elas. Determinados espaços de cores e algoritmos de distância são mais adequados para casos de uso específicos.   Essa lista suspensa permite selecionar o espaço de cores usado para comparar as cores:<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>RGB (Dados):</i></b> a cor é dividida nos canais Vermelho, Verde e Azul e distribuída diretamente ao longo desses eixos, sem considerar a percepção humana. Isso é adequado para imagens que contêm dados brutos.</li> <li data-preserve-html="true"><i>sRGB lineares (cor):</i> a cor é dividida nos canais vermelho, verde e azul e distribuída em uma relação linear com a intensidade da luz do pixel. Isso é adequado para imagens que podem ser visualizadas em telas.</li> <li data-preserve-html="true"><b><i>Luminância (Cor):</i></b> a cor é dividida em valores de Matiz, Croma e Luminância, em que apenas o valor de Luminância é usado na comparação. Isso é adequado para imagens que podem ser visualizadas em telas.</li> <li data-preserve-html="true"><i>Lab (Cor):</i> um espaço de cores perceptual padronizado, que distribui cores de forma que as cores que &#39;parecem&#39; próximas estejam realmente próximas no cubo. Isso é adequado para imagens que podem ser visualizadas em telas.</li> <li data-preserve-html="true"><i>Ângulo (Normal):</i> a cor é dividida nos eixos X, Y, Z de um vetor e comparada por meio de um produto pontilhado. Isso é adequado para imagens que possuem normais de espaço tangente.</li> </ul> |
+| <b>Espessuras de distância</b> *Flutuante3* | O algoritmo de distância de cores Lab (DeltaE2000) apresenta determinados fatores de peso para cada valor de luminosidade, croma e matiz.   Valores mais baixos diminuirão a influência dos fatores no algoritmo de diferença de cores.   Como o olho geralmente aceita maiores diferenças na luminosidade (L) do que no croma (C) ou matiz (H), uma proporção padrão para (L:C:H) é (0,5:1:1). Uma proporção de 0,5:1:1 permitirá duas vezes mais diferença na luminosidade do que no croma ou matiz. |
 
 ## Exemplos
 

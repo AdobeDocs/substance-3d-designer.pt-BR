@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Ativação e licenças
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 O processo de ativação depende de onde você adquiriu ou tem acesso ao Designer:
 
 | Edição | Processo de ativação |
-|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creative Cloud para desktop (CCD) | Instale o produto pelo aplicativo da CCD e inicie-o. Acesse estas páginas se você tiver problemas com sua licença: [Os aplicativos não serão iniciados devido a um erro de assinatura](https://helpx.adobe.com/br/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Ajuda para conta, planos e faturamento](https://helpx.adobe.com/br/account/individual.html) |
+| --- | --- |
+| Creative Cloud para desktop | Consulte a página dedicada na [documentação do HelpX](https://helpx.adobe.com/br/support/substance-3d-designer.html). Caso haja problemas, a [documentação do Creative Cloud](https://helpx.adobe.com/br/creative-cloud/user-guide.html) poderá fornecer respostas adicionais. |
 | Vapor | Inicie o produto diretamente da biblioteca do Steam. |
 | Substance (autônomo) | Consulte o processo de ativação descrito abaixo. |
 
@@ -42,7 +42,7 @@ Há três opções disponíveis:
 >
 > Para instalar o arquivo de licença com o Assistente de ativação, execute o Designer como administrador e desative temporariamente o antivírus.
 
-![Assistente de ativação](activation-and-licenses.resources/activation-and-licenses-01.png "Assistente de ativação")
+![Assistente de ativação](../../assets/activation-wizard.png "Assistente de ativação")
 
 ### Ativação manual
 

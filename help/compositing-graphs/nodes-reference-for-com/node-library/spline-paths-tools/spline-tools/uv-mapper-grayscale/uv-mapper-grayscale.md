@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Escala de cinza do mapeador UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](uv-mapper-grayscale.resources/uv-mapper-grayscale-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/uv-mapper-grayscale-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -69,11 +69,11 @@ Mapeia a imagem em tons de cinza de entrada usando as coordenadas fornecidas na 
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-02.jpg" alt="UVMapper-Variant1-Before">
+      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-03.jpg" alt="UVMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -85,11 +85,11 @@ Mapeia a imagem em tons de cinza de entrada usando as coordenadas fornecidas na 
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-04.jpg" alt="UVMapper-Variant2-Before">
+      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="uv-mapper-grayscale.resources/uv-mapper-grayscale-05.jpg" alt="UVMapper-Variant2-After">
+      <img src="../../../../../../assets/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -99,4 +99,4 @@ Mapeia a imagem em tons de cinza de entrada usando as coordenadas fornecidas na 
 </tr>
 </table>
 
-![Exemplo de nó 1](uv-mapper-grayscale.resources/uv-mapper-grayscale-06.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](../../../../../../assets/UVMapper-Graph.jpg "Exemplo de nó 1")

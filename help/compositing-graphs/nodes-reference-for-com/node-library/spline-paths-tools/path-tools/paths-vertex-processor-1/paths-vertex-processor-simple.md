@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Caminhos Processador de vértice simples
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/paths-vertex-processor-simple-icon.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -87,7 +87,7 @@ Você também pode acessar as variáveis *vertex.corner* (bool) e *path.id* (flo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-02.gif "Exemplo de nó 2")
+![Exemplo de nó 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Exemplo de nó 2")
 
 </td>
 <td style="border: 0;" valign="top">

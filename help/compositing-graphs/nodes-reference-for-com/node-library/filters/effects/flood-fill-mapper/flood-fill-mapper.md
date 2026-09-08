@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapeador de Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-mapper.resources/flood-fill-mapper-01.png)![](flood-fill-mapper.resources/flood-fill-mapper-02.png)
+![](../../../../../../assets/floodfill-mapper-gray.png)![](../../../../../../assets/floodfill-mapper-color.png)
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -60,7 +60,7 @@ A versão Cor tem controles adicionais para trabalhar com Mapas Normais, onde po
 
 |  |  |
 |:---|:---|
-| <b>Modo Revestimento</b> <i>Sem divisão em blocos gráficos, H+V</i> | Define se deseja usar a divisão em blocos gráficos ou não. Visível apenas se Tamanho ou Escala estiverem definidos abaixo de 1. |
+| <b>Modo de divisão em blocos gráficos</b> <i>Sem divisão em blocos gráficos, H+V</i> | Define se deseja usar a divisão em blocos gráficos ou não. Visível apenas se Tamanho ou Escala estiverem definidos abaixo de 1. |
 | <b>Padrão</b> |  |
 | <b>Número de Entrada de Padrão</b> <i>1 - 8</i> | Defina a quantidade de Entradas de Padrão Personalizado a ser usada. |
 | <b>Modo de Distribuição de Padrão</b> <i>Aleatório, Tamanho Da Forma, Entrada Do Mapa De Distribuição</i> | Defina o método para determinar qual Padrão é mostrado em uma Célula. |
@@ -101,10 +101,10 @@ A versão Cor tem controles adicionais para trabalhar com Mapas Normais, onde po
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/flood-fill-mapper-03.png" />
+            <img src="../../../../../../assets/floodfill-mapper-ex01.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/flood-fill-mapper-04.jpg" />
+            <img src="../../../../../../assets/floodfill-mapper-ex02.jpg" />
         </td>
     </tr>
 </table>

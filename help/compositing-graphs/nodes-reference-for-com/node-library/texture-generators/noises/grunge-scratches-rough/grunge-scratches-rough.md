@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scratches de desgaste Ásperos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-scratches-rough.resources/grunge-scratches-rough-01.jpg){width="200px"}
+![](../../../../../../assets/grungescratchesrough.jpg){width="200px"}
 
 <b>Entrada:</b> Geradores de Textura > Ruídos
 
@@ -53,12 +53,12 @@ O nó **Scratches de Desgaste Áspero** gera um mapa de desgaste semelhante a um
 | <b>Quantidade de Rascunhos</b> <i>Flutuante</i> | Ajusta a quantidade de arranhões na superfície. |
 | <b>Lado a lado zero</b> <i>Inteiro</i> | Ajusta a quantidade de divisão em blocos gráficos aplicada aos arranhões. |
 | <b>Desfoque de Rascunho</b> <i>Precisão decimal</i> | Ajusta o desfoque dos arranhões. |
-| <b>Largura do Rascunho</b> <i>Flutuante</i> | Ajusta a largura dos arranhões. |
+| <b>Largura do Rascunho</b> <i>Precisão decimal</i> | Ajusta a largura dos arranhões. |
 | <b>Comprimento de arranhão</b> <i>Precisão decimal</i> | Ajusta o comprimento dos arranhões. |
 | <b>Mascaramento de Rascunho</b> <i>Precisão decimal</i> | Ajusta a intensidade do mascaramento aplicado em partes dos arranhões. |
-| <b>Sujeira de arranhões</b> <i>Flutuante</i> | Ajusta a sujeira dos arranhões, o que quebra a nitidez e a continuidade. |
-| <b>Rascunho Duplo</b> <i>Flutuante</i> | Ajusta a opacidade de um segundo arranhão aplicado ao lado de cada um com um leve efeito de deformação. |
-| <b>Intensidade de manchas de arranhão</b> <i>Flutuante</i> | Ajusta a intensidade dos pontos danificados aplicados ao lado dos arranhões. |
+| <b>Sujeira de arranhões</b> <i>Precisão decimal</i> | Ajusta a sujeira dos arranhões, o que quebra a nitidez e a continuidade. |
+| <b>Rascunho Duplo</b> <i>Precisão decimal</i> | Ajusta a opacidade de um segundo arranhão aplicado ao lado de cada um com um leve efeito de deformação. |
+| <b>Intensidade de manchas de arranhão</b> <i>Precisão decimal</i> | Ajusta a intensidade dos pontos danificados aplicados ao lado dos arranhões. |
 | <b>Divisão em Blocos Gráficos</b> <i>Inteiro</i> | Ajusta a divisão em blocos gráficos dos pontos danificados. |
 | <b>Intensidade de Dust</b> <i>Precisão decimal</i> | Ajusta a intensidade da sobreposição do dust. |
 | <b>Divisão em blocos gráficos</b> <i>Inteiro</i> | Ajusta a divisão em blocos gráficos da sobreposição de dust. |
@@ -69,10 +69,10 @@ O nó **Scratches de Desgaste Áspero** gera um mapa de desgaste semelhante a um
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-rough.resources/grunge-scratches-rough-02.jpg" />
+            <img src="../../../../../../assets/grungescratchesrough-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-rough.resources/grunge-scratches-rough-03.jpg" />
+            <img src="../../../../../../assets/grungescratchesrough-variant2.jpg" />
         </td>
     </tr>
 </table>

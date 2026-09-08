@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Extend Shape
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -28,12 +28,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](extend-shape.resources/extend-shape-01.png){width="200px"}
+![](../../../../../../assets/extendshapegrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](extend-shape.resources/extend-shape-02.png){width="200px"}
+![](../../../../../../assets/extendshapecolor.png){width="200px"}
 
 </td>
 </tr>
@@ -65,11 +65,11 @@ O parâmetro <b>Mostrar auxiliar</b> permite visualizar a direção da seção e
 | <b>Posição da Extensão</b> <i>Flutuante</i> | A posição na imagem da seção que deve ser estendida. O valor é expresso como um <i>deslocamento do centro</i>. |
 | <b>Ângulo de Extensão</b> <i>Flutuante</i> | O ângulo da seção que deve ser estendida, considerando o ponto inicial, é uma <i>seção vertical</i>. |
 | <b>Posição Inicial</b> <i>Flutuante2</i> | A posição inicial do <i>vetor de extensão</i>. |
-| <b>Posição Final</b> <i>Flutuante2</i> | A posição final do <i>vetor de extensão</i>. |
-| <b>Deslocamento da luminância de início</b> <i>Flutuante</i> | Aplica um deslocamento de luminância à área da imagem <i>anterior</i> à seção estendida. Este deslocamento de luminância é <i>interpolado ao longo da seção</i> para a luminância da área da imagem após a seção.<br><br><i>Observação</i>: este parâmetro está disponível somente na versão <b>Tons de Cinza</b> do nó. |
-| <b>Deslocamento da luminância final</b> <i>Flutuante</i> | Aplica um deslocamento de luminância à área da imagem <i>após</i> a seção estendida. Este deslocamento de luminância é <i>interpolado ao longo da seção</i> para a luminância da área da imagem anterior à seção.<br><br><i>Observação</i>: este parâmetro está disponível somente na versão <b>Tons de Cinza</b> do nó. |
+| <b>Posição Final</b> <i>Precisão decimal 2</i> | A posição final do <i>vetor de extensão</i>. |
+| <b>Deslocamento da luminância de início</b> <i>Precisão decimal</i> | Aplica um deslocamento de luminância à área da imagem <i>anterior</i> à seção estendida. Este deslocamento de luminância é <i>interpolado ao longo da seção</i> para a luminância da área da imagem após a seção.<br><br><i>Observação</i>: este parâmetro está disponível somente na versão <b>Tons de Cinza</b> do nó. |
+| <b>Deslocamento da luminância final</b> <i>Precisão decimal</i> | Aplica um deslocamento de luminância à área da imagem <i>após</i> a seção estendida. Este deslocamento de luminância é <i>interpolado ao longo da seção</i> para a luminância da área da imagem anterior à seção.<br><br><i>Observação</i>: este parâmetro está disponível somente na versão <b>Tons de Cinza</b> do nó. |
 | <b>Ameixa. O Deslocamento Ignora Pixels Pretos</b> <i>Booleano</i> | Quando definido como <i>Verdadeiro</i>, os deslocamentos de luminância especificados em <i>ambos</i> O <b>Deslocamento da luminância de início</b> e o <b>Deslocamento da luminância de fim</b> são aplicados apenas a pixels <i>não pretos</i>, ou seja, pixels com valor superior a 0.<br><br><i>Observação</i>: este parâmetro só está disponível na versão <b>Tons de Cinza</b> do nó. |
-| <b>Modo de Filtragem</b> <i>Inteiro</i> | Define como tratar os resultados de amostra ao <i>interpolar</i> entre pixels:<br><br>- <i>Mais próximo</i>: obterá uma amostra exatamente do <i>mesmo</i> valor (mais rápido)<br>- <i>Bilinear</i>: aplicará um filtro bilinear no resultado para uma aparência <i>mais suave</i> |
+| <b>Modo de filtragem</b> <i>Inteiro</i> | Define como tratar os resultados de amostra ao <i>interpolar</i> entre pixels:<br><br>- <i>Mais próximo</i>: obterá uma amostra exatamente do <i>mesmo</i> valor (mais rápido)<br>- <i>Bilinear</i>: aplicará um filtro bilinear no resultado para uma aparência <i>mais suave</i> |
 | <b>Mostrar auxiliar</b> <i>Booleano</i> | Visualize a <i>seção estendida</i> como uma sobreposição com setas que mostram a <i>direção</i> da extensão. |
 
 ## Exemplos
@@ -77,16 +77,16 @@ O parâmetro <b>Mostrar auxiliar</b> permite visualizar a direção da seção e
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="extend-shape.resources/extend-shape-03.gif" />
+            <img src="../../../../../../assets/extendshape.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="extend-shape.resources/extend-shape-04.jpg" />
+            <img src="../../../../../../assets/extendshape-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="extend-shape.resources/extend-shape-05.jpg" />
+            <img src="../../../../../../assets/extendshape-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="extend-shape.resources/extend-shape-06.png" />
+            <img src="../../../../../../assets/extendshape-node.png" />
         </td>
     </tr>
 </table>

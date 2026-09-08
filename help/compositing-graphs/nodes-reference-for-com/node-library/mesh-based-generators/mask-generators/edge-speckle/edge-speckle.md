@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Edge Speckle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-speckle.resources/edge-speckle-01.png){width="128px"}
+![](../../../../../../assets/edge-speckle.png){width="128px"}
 
 <b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Descrição
 
-Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras Inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) do [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) do [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
 Essa máscara representa as bordas com um leve respingo adicionado para quebrá-las. Consulte também [Dirt de borda](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md).
 
@@ -68,7 +68,7 @@ Essa máscara representa as bordas com um leve respingo adicionado para quebrá-
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-speckle.resources/edge-speckle-02.gif" />
+            <img src="../../../../../../assets/edge-speckle-ex.gif" />
         </td>
     </tr>
 </table>

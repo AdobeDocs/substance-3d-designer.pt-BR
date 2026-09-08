@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Vazamentos de desgaste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-leaks.resources/grunge-leaks-01.jpg){width="200px"}
+![](../../../../../../assets/grungeleaks.jpg){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -52,18 +52,18 @@ O nó **Vazamentos de Desgaste** gera um mapa de desgaste semelhante a gotas em 
 | <b>Avançado</b> |  |
 | <b>Comprimento de Gota</b> <i>Flutuante</i> | Ajusta o comprimento das listras de gotejamento. |
 | <b>Contraste de forma</b> <i>Flutuante</i> | Alterna entre formas claras e escuras, contrastando entre os pingos. |
-| <b>Gotas e crocância</b> <i>Flutuante</i> | Ajusta a nitidez e a nitidez dos pingos. |
-| <b>Intensidade de nitidez</b> <i>Flutuante</i> | Ajuste a suavidade geral da imagem. |
+| <b>Gotas e crocância</b> <i>Precisão decimal</i> | Ajusta a nitidez e a nitidez dos pingos. |
+| <b>Intensidade de nitidez</b> <i>Precisão decimal</i> | Ajuste a suavidade geral da imagem. |
 
 ## Exemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grunge-leaks-02.jpg" />
+            <img src="../../../../../../assets/grungeleaks-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grunge-leaks-03.jpg" />
+            <img src="../../../../../../assets/grungeleaks-variant.jpg" />
         </td>
     </tr>
 </table>

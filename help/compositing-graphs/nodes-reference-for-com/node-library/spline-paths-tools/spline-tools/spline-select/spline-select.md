@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Seleção de Spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](spline-select.resources/spline-select-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/spline-select-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -73,8 +73,8 @@ As splines selecionadas também podem ser cortadas.
 | <b>Índice de Spline</b> <i>Inteiro</i> | (Disponível quando o “Modo de seleção” está definido como “Índice”) O índice da spline que deve ser selecionado. |
 | <b>Início do Intervalo</b> <i>Inteiro</i> | (Disponível quando o “Modo de seleção” está definido como “Intervalo”) O índice mais baixo no intervalo de splines selecionados. |
 | <b>Fim do Intervalo</b> <i>Inteiro</i> | (Disponível quando o “Modo de seleção” está definido como “Intervalo”) O índice mais alto no intervalo de splines selecionados. |
-| <b>Iniciar</b> <i>Precisão decimal</i> | Desloca o início da parte da spline que deve ser selecionada. Isso apara efetivamente o spline.<br>O valor representa o comprimento normalizado da spline. |
-| <b>Fim</b> <i>Precisão decimal</i> | Desloca a extremidade da parte da spline que deve ser selecionada. Isso apara efetivamente o spline.<br>O valor representa o comprimento normalizado da spline. |
+| <b>Iniciar</b> <i>Flutuante</i> | Desloca o início da parte da spline que deve ser selecionada. Isso apara efetivamente o spline.<br>O valor representa o comprimento normalizado da spline. |
+| <b>Fim</b> <i>Flutuante</i> | Desloca a extremidade da parte da spline que deve ser selecionada. Isso apara efetivamente o spline.<br>O valor representa o comprimento normalizado da spline. |
 | <b>Visualizar</b> |  |
 | <b>Valor de Segmentos</b> <i>Inteiro</i> | Ajusta o número de segmentos usados para desenhar a visualização de spline na saída da Visualização.<br>Um valor mais alto resulta em uma linha mais suave. |
 | <b>Mostrar Auxiliar de Direção</b> <i>Booleano</i> | Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização. |
@@ -90,11 +90,11 @@ As splines selecionadas também podem ser cortadas.
 <table>
   <tr>
     <td>
-      <img src="spline-select.resources/spline-select-02.jpg" alt="SplineSelect-Variant1-Before">
+      <img src="../../../../../../assets/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-select.resources/spline-select-03.jpg" alt="SplineSelect-Variant1-After2">
+      <img src="../../../../../../assets/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -106,11 +106,11 @@ As splines selecionadas também podem ser cortadas.
 <table>
   <tr>
     <td>
-      <img src="spline-select.resources/spline-select-04.jpg" alt="SplineSelect-Variant2-Before">
+      <img src="../../../../../../assets/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-select.resources/spline-select-05.jpg" alt="SplineSelect-Variant2-After">
+      <img src="../../../../../../assets/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ As splines selecionadas também podem ser cortadas.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](spline-select.resources/spline-select-06.gif "Exemplo de nó 1")
+![Exemplo de nó 1](../../../../../../assets/SplineSelect-Demo.gif "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">

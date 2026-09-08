@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Difusão de reação rápida
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó de Difusão de Reação](reaction-diffusion-fast.resources/reaction-diffusion-fast-01.png "ícone de nó de Difusão de Reação")
+![Ícone de nó de Difusão de Reação](../../../../../../assets/reaction-diffusion.png "ícone de nó de Difusão de Reação")
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -74,17 +74,17 @@ Esse nó é otimizado para desempenho e faz algumas compensações de precisão 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo 1](reaction-diffusion-fast.resources/reaction-diffusion-fast-02.png "Exemplo 1")
+![Exemplo 1](../../../../../../assets/reactdiff03.png "Exemplo 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo 2](reaction-diffusion-fast.resources/reaction-diffusion-fast-03.png "Exemplo 2")
+![Exemplo 2](../../../../../../assets/reactdiff02.png "Exemplo 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo 3](reaction-diffusion-fast.resources/reaction-diffusion-fast-04.gif "Exemplo 3")
+![Exemplo 3](../../../../../../assets/reactdiff01.gif "Exemplo 3")
 
 </td>
 </tr>

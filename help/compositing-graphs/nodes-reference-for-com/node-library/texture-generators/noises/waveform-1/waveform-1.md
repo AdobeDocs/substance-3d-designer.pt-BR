@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Forma de onda 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Forma de onda 1 - Ícone](waveform-1.resources/waveform-1-01.png "Forma de onda 1 - Ícone"){width="200px"}
+![Forma de onda 1 - Ícone](../../../../../../assets/waveform_01_v2.png "Forma de onda 1 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -73,7 +73,7 @@ Uma organização horizontal de padrões selecionados pelo usuário empilhados e
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Forma de onda 1 - Exemplo 1](waveform-1.resources/waveform-1-02.gif "Forma de onda 1 - Exemplo 1"){zoomable="yes"}
+![Forma de onda 1 - Exemplo 1](../../../../../../assets/waveform_01_v2_speed0.1_aniso0.gif "Forma de onda 1 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

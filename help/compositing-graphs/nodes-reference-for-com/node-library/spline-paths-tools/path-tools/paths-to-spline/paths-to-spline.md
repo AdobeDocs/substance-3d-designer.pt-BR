@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Caminhos para a spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](paths-to-spline.resources/paths-to-spline-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/paths-to-splines-icon.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -82,11 +82,11 @@ Converte um caminho em splines que podem ser visualizadas usando um nó de [Rend
 <table>
   <tr>
     <td>
-      <img src="paths-to-spline.resources/paths-to-spline-02.jpg" alt="PathsToSpline-Variant1-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant1-Before.jpg" alt="PathsToSpline-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="paths-to-spline.resources/paths-to-spline-03.jpg" alt="PathsToSpline-Variant1-After">
+      <img src="../../../../../../assets/PathsToSpline-Variant1-After.jpg" alt="PathsToSpline-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -98,11 +98,11 @@ Converte um caminho em splines que podem ser visualizadas usando um nó de [Rend
 <table>
   <tr>
     <td>
-      <img src="paths-to-spline.resources/paths-to-spline-04.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="paths-to-spline.resources/paths-to-spline-05.jpg" alt="PathsToSpline-Variant2-After">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-After.jpg" alt="PathsToSpline-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Parâmetros de gráfico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Por sua vez, os valores dos parâmetros de base do gráfico dependerão do conte
 </td>
 <td style="border: 0;" valign="top">
 
-![Parâmetros base](graph-parameters.resources/graph-parameters-01.png "Parâmetros base"){width="512px" zoomable="yes"}
+![Parâmetros base](../../assets/doc-graph-props-base-params.png "Parâmetros base"){width="512px" zoomable="yes"}
 
 </td>
 </tr>
@@ -53,11 +53,11 @@ Na maioria dos casos, a herança desempenha um papel significativo na definiçã
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Tamanho da saída</b> | Este parâmetro permite escolher a *resolução base* das imagens no gráfico.  Use o <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-02.jpg"/></div> bloqueie o botão para que os valores de altura e largura correspondam e mantenham a imagem quadrada ao fazer ajustes de tamanho.<br><br>*Padrão: (0,0) - Relativo ao Pai* [Saiba mais](../../compositing-graphs/output-size/output-size.md) |
+| <b>Tamanho da saída</b> | Este parâmetro permite escolher a *resolução base* das imagens no gráfico.  Use o <div><img data-preserve-html="true" height="22" src="../../assets/props-output-size-lock.jpg"/></div> bloqueie o botão para que os valores de altura e largura correspondam e mantenham a imagem quadrada ao fazer ajustes de tamanho.<br><br>*Padrão: (0,0) - Relativo ao Pai* [Saiba mais](../../compositing-graphs/output-size/output-size.md) |
 | <b>Formato de saída</b> | Permite escolher a *profundidade de bits base* no gráfico entre estas opções:<ul data-preserve-html="true"><li data-preserve-html="true">8 bits</li><li data-preserve-html="true">16 bits</li><li data-preserve-html="true">Baixa precisão HDR 16F (ponto flutuante de 16 bits)</li><li data-preserve-html="true">Alta precisão HDR 32F (ponto flutuante de 32 bits)</li></ul>*Padrão: 8 Bits por Canal - Em Relação ao Pai* |
 | <b>Tamanho de pixel</b> | Define o tamanho do pixel. Recomendamos deixar os valores de **Largura** e **Height** definidos como **1**.*Padrão: (1,1) - Relativo ao Pai* |
 | <b>Modo lado a lado</b> | Define o *modo de divisão em blocos gráficos* base destas opções:<ul data-preserve-html="true"> <li data-preserve-html="true">Sem revestimento</li> <li data-preserve-html="true">Revestimento horizontal</li> <li data-preserve-html="true">Revestimento vertical</li> <li data-preserve-html="true">Divisão em blocos gráficos H+V (horizontal e vertical)</li> </ul>*Padrão: Divisão em blocos gráficos H e V - Relativo ao Pai* |
-| <b>Distribuição aleatória</b> | Define a *semente aleatória* base para o gráfico.  Use o <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-03.jpg"/></div> para atribuir um novo valor aleatório à semente aleatória.<br><br>*Padrão: 0 - Relativo ao Pai* |
+| <b>Distribuição aleatória</b> | Define a *semente aleatória* base para o gráfico.  Use o <div><img data-preserve-html="true" height="22" src="../../assets/prop-randomise.jpg"/></div> para atribuir um novo valor aleatório à semente aleatória.<br><br>*Padrão: 0 - Relativo ao Pai* |
 
 <table>
 <tr style="border: 0;">
@@ -72,7 +72,7 @@ A seção <b>Atributos</b> contém *metadados* para o gráfico, que fornece info
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atributos de gráfico](graph-parameters.resources/graph-parameters-04.png "Atributos de gráfico"){zoomable="yes"}
+![Atributos de gráfico](../../assets/doc-graph-props-attributes.png "Atributos de gráfico"){zoomable="yes"}
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Todos os parâmetros específicos do gráfico, incluindo [parâmetros expostos](
 </td>
 <td style="border: 0;" valign="top">
 
-![Parâmetros de entrada](graph-parameters.resources/graph-parameters-05.png "Parâmetros de entrada"){zoomable="yes"}
+![Parâmetros de entrada](../../assets/doc-graph-props-input-parameters.png "Parâmetros de entrada"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Nesta parte, todos os nós de [entrada](../../compositing-graphs/nodes-reference
 </td>
 <td style="border: 0;" valign="top">
 
-![Entradas](graph-parameters.resources/graph-parameters-06.png "Entradas"){zoomable="yes"}
+![Entradas](../../assets/doc-graph-props-inputs.png "Entradas"){zoomable="yes"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Nesta parte, todos os nós de [Saída](../../compositing-graphs/nodes-reference-
 </td>
 <td style="border: 0;" valign="top">
 
-![Saídas](graph-parameters.resources/graph-parameters-07.png "Saídas"){zoomable="yes"}
+![Saídas](../../assets/doc-graph-props-outputs.png "Saídas"){zoomable="yes"}
 
 </td>
 </tr>

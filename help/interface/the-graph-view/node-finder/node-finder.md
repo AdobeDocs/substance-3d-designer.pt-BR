@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Localizador de nós
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Localizador de nós
 
-![Barra de ferramentas do localizador de nós](node-finder.resources/node-finder-01.png "Barra de ferramentas do localizador de nós"){zoomable="yes"}
+![Barra de ferramentas do localizador de nós](../../../assets/node-finder-toolbar.png "Barra de ferramentas do localizador de nós"){zoomable="yes"}
 
 A ferramenta Localizador de Nós permite <b>procurar nós e variáveis</b> usando uma consulta de texto. Todos os nós que não corresponderem à consulta ficarão esmaecidos para que os resultados sejam exibidos.
 
@@ -39,7 +39,7 @@ O Localizador de nós pode ser acessado de duas maneiras:
 
 No Modo de Exibição de Gráfico, pressione <b>Ctrl+F</b> (Windows) / <b>Cmd+F</b> (macOS) para exibir a barra de ferramentas Localizador de Nós e definir automaticamente o foco no campo de consulta. Isso permite que você faça uma pesquisa rapidamente.
 
-Na barra de ferramentas Exibição de Gráfico, clique no <b>botão Localizador de Nó ![](node-finder.resources/node-finder-02.png)</b> para exibir a barra de ferramentas Localizador de Nó. Quando exibida, a barra de ferramentas só é fechada clicando nesse botão.
+Na barra de ferramentas Exibição de Gráfico, clique no <b>botão Localizador de Nó ![](../../../assets/graph-node-finder.png)</b> para exibir a barra de ferramentas Localizador de Nó. Quando exibida, a barra de ferramentas só é fechada clicando nesse botão.
 
 <b>Pesquisa gráficos de passagem</b>. Em outras palavras, uma pesquisa permanece ativa ao abrir gráficos por meio dessas ações:
 
@@ -49,11 +49,11 @@ Na barra de ferramentas Exibição de Gráfico, clique no <b>botão Localizador 
 * FX-Map: Editar gráfico FX-Map (Ctrl+E / Cmd+E)
 * Parâmetros de nó: função Edit
 
-![Localizador de nós: gráficos de percurso durante a pesquisa](node-finder.resources/node-finder-03.gif "Localizador de nós: gráficos de percurso durante a pesquisa"){zoomable="yes"}
+![Localizador de nós: gráficos de percurso durante a pesquisa](../../../assets/node-finder-traversal.gif "Localizador de nós: gráficos de percurso durante a pesquisa"){zoomable="yes"}
 
 ### Consulta de pesquisa
 
-![Campo de consulta do localizador de nós](node-finder.resources/node-finder-04.png "Campo de consulta do localizador de nós"){zoomable="yes"}
+![Campo de consulta do localizador de nós](../../../assets/node-finder-query-field.png "Campo de consulta do localizador de nós"){zoomable="yes"}
 
 Os termos da pesquisa podem ser digitados neste campo e o botão de seta abre uma lista de sugestões de consulta que incluem algumas das variáveis disponíveis no contexto atual.
 
@@ -61,7 +61,7 @@ Saiba mais sobre as consultas que você pode executar na seção [Pesquisar cons
 
 ### Tipo de nó
 
-![Tipo de nó](node-finder.resources/node-finder-05.png "Tipo de nó"){zoomable="yes"}
+![Tipo de nó](../../../assets/node-finder-node-types.png "Tipo de nó"){zoomable="yes"}
 
 Essa caixa de combinação permite filtrar resultados da pesquisa para reter apenas um tipo específico de nós.
 
@@ -70,13 +70,13 @@ Observe que todos os nós de instância são do *mesmo tipo* de nó - na verdade
 +++Listas de tipos de nó
 A lista é contextual para o tipo de gráfico atual.
 
-![Tipos de nós (composição)](node-finder.resources/node-finder-06.png "Tipos de nós (composição)"){zoomable="yes"}
+![Tipos de nós (composição)](../../../assets/node-finder-types-compositing.png "Tipos de nós (composição)"){zoomable="yes"}
 
 
 
 *Tipos de nó para composição de gráficos*
 
-![Tipos de nós (função)](node-finder.resources/node-finder-07.png "Tipos de nós (função)"){zoomable="yes"}
+![Tipos de nós (função)](../../../assets/node-finder-types-function.png "Tipos de nós (função)"){zoomable="yes"}
 
 
 
@@ -85,7 +85,7 @@ A lista é contextual para o tipo de gráfico atual.
 +++
 
 +++Procurando por nós atômicos
-![Localizador de nós: pesquisando por tipo de &#39;Níveis&#39; (composição)](node-finder.resources/node-finder-08.png "Localizador de nós: pesquisando por tipo de &#39;Níveis&#39; (composição)"){zoomable="yes"}
+![Localizador de nós: pesquisando por tipo de &#39;Níveis&#39; (composição)](../../../assets/node-finder-compositing-levels.png "Localizador de nós: pesquisando por tipo de &#39;Níveis&#39; (composição)"){zoomable="yes"}
 
 
 
@@ -94,13 +94,13 @@ A lista é contextual para o tipo de gráfico atual.
 +++
 
 +++Procurando nós de instância
-![Localizador de nós: pesquisando por tipo de &#39;Instância&#39; (composição)](node-finder.resources/node-finder-09.png "Localizador de nós: pesquisando por tipo de &#39;Instância&#39; (composição)"){zoomable="yes"}
+![Localizador de nós: pesquisando por tipo de &#39;Instância&#39; (composição)](../../../assets/node-finder-compositing-instances.png "Localizador de nós: pesquisando por tipo de &#39;Instância&#39; (composição)"){zoomable="yes"}
 
 
 
 *Procurando o tipo de nó &#39;Instance&#39; em um Substance gráfico*
 
-![Localizador de nós: pesquisando por tipo (função) &#39;Instância&#39;](node-finder.resources/node-finder-10.png "Localizador de nós: pesquisando por tipo (função) &#39;Instância&#39;"){zoomable="yes"}
+![Localizador de nós: pesquisando por tipo (função) &#39;Instância&#39;](../../../assets/node-finder-functions-instances.png "Localizador de nós: pesquisando por tipo (função) &#39;Instância&#39;"){zoomable="yes"}
 
 
 
@@ -114,14 +114,14 @@ A lista é contextual para o tipo de gráfico atual.
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-O botão <b>Opções de pesquisa ![](node-finder.resources/node-finder-11.png)</b> abre uma lista de configurações usadas para pesquisa que podem ser ativadas e desativadas.
+O botão <b>Opções de pesquisa ![](../../../assets/node-finder-search-options.png)</b> abre uma lista de configurações usadas para pesquisa que podem ser ativadas e desativadas.
 
 Saiba mais sobre essas opções na seção Opções de pesquisa abaixo.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Opções de pesquisa do localizador de nós](node-finder.resources/node-finder-12.png "Opções de pesquisa do localizador de nós"){zoomable="yes"}
+![Opções de pesquisa do localizador de nós](../../../assets/node-finder-search-options-open.png "Opções de pesquisa do localizador de nós"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Para localizar nós, uma consulta de texto é comparada com as propriedades do n
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Localizador de nós: pesquisando por identificador de gráfico](node-finder.resources/node-finder-13.png "Localizador de nós: pesquisando por identificador de gráfico"){zoomable="yes"}
+![Localizador de nós: pesquisando por identificador de gráfico](../../../assets/node-finder-functions-identifier.png "Localizador de nós: pesquisando por identificador de gráfico"){zoomable="yes"}
 
 *Clique na imagem para ampliar*
 
@@ -161,7 +161,7 @@ Para localizar nós, uma consulta de texto é comparada com as propriedades do n
 +++Identificador no Explorer
 Os gráficos são listados por seus identificadores no Explorer.
 
-![Explorador: conteúdo do pacote](node-finder.resources/node-finder-14.png "Explorador: conteúdo do pacote"){zoomable="yes"}
+![Explorador: conteúdo do pacote](../../../assets/explorer-package-simple.png "Explorador: conteúdo do pacote"){zoomable="yes"}
 
 
 
@@ -170,7 +170,7 @@ Os gráficos são listados por seus identificadores no Explorer.
 +++Identificador na dica de ferramenta do nó da instância
 A dica de ferramenta dos nós de instância inclui o identificador de seu gráfico referenciado.
 
-![Identificador de gráfico na dica de ferramenta do nó de instância](node-finder.resources/node-finder-15.png "Identificador de gráfico na dica de ferramenta do nó de instância"){zoomable="yes"}
+![Identificador de gráfico na dica de ferramenta do nó de instância](../../../assets/node-finder-compositing-identifier.png "Identificador de gráfico na dica de ferramenta do nó de instância"){zoomable="yes"}
 
 
 
@@ -187,7 +187,7 @@ O identificador de [parâmetros expostos](../../../compositing-graphs/manage-par
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Localizador de nós: Variáveis de nós](node-finder.resources/node-finder-16.png "Localizador de nós: Variáveis de nós"){zoomable="yes"}
+![Localizador de nós: Variáveis de nós](../../../assets/node-finder-compositing-variable.png "Localizador de nós: Variáveis de nós"){zoomable="yes"}
 
 *Clique na imagem para ampliar*
 
@@ -200,13 +200,13 @@ O campo de consulta pode ser expandido para revelar uma lista de sugestões.
 
 Isso inclui [variáveis internas](../../../function-graphs/variables/system-variables/system-variables.md) disponíveis para o tipo de gráfico atual, bem como os identificadores dos parâmetros expostos do gráfico.
 
-![Sugestões de consulta do localizador de nós](node-finder.resources/node-finder-17.png "Sugestões de consulta do localizador de nós"){zoomable="yes"}
+![Sugestões de consulta do localizador de nós](../../../assets/node-finder-available-query-suggestions.png "Sugestões de consulta do localizador de nós"){zoomable="yes"}
 
 
 
 O identificador de parâmetros expostos também pode ser copiado ou editado diretamente nas [propriedades do gráfico de Substance](../../../compositing-graphs/graph-parameters/graph-parameters.md).
 
-![Localizador de nós: parâmetros expostos](node-finder.resources/node-finder-18.png "Localizador de nós: parâmetros expostos"){zoomable="yes"}
+![Localizador de nós: parâmetros expostos](../../../assets/node-finder-compositing-exposed-parameter.png "Localizador de nós: parâmetros expostos"){zoomable="yes"}
 
 
 
@@ -219,7 +219,7 @@ Quando um gráfico tiver erros ou avisos gerados por uma <b>variável</b> usada 
 
 As variáveis também podem ser copiadas diretamente dos dados XML no arquivo SBS usando qualquer editor de texto.
 
-![Localizador de nós: pesquisando variável de aviso/erro de Console](node-finder.resources/node-finder-19.png "Localizador de nós: pesquisando variável de aviso/erro de Console"){zoomable="yes"}
+![Localizador de nós: pesquisando variável de aviso/erro de Console](../../../assets/node-finder-console-identifier.png "Localizador de nós: pesquisando variável de aviso/erro de Console"){zoomable="yes"}
 
 
 
@@ -228,7 +228,7 @@ As variáveis também podem ser copiadas diretamente dos dados XML no arquivo SB
 +++Obter/Definir nós
 Ao pesquisar uma variável em um gráfico - incluindo parâmetros expostos - a pesquisa realçará todos os nós em que um nó [Get](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) ou [Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) usa essa variável em qualquer uma das funções de parâmetro do nó.
 
-![Localizador de nós: pesquisando uma variável corresponde a Obter nós que a utilizam](node-finder.resources/node-finder-20.gif "Localizador de nós: pesquisando uma variável corresponde Obter nós que a utilizam"){zoomable="yes"}
+![Localizador de nós: pesquisando uma variável corresponde a Obter nós que a utilizam](../../../assets/node-finder-exposed-parameter-01.gif "Localizador de nós: pesquisando uma variável corresponde Obter nós que a utilizam"){zoomable="yes"}
 
 
 
@@ -245,7 +245,7 @@ Cada nó em um gráfico tem um número de identificador exclusivo (UID) que pode
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Localizador de nós: pesquisar por UID](node-finder.resources/node-finder-21.png "Localizador de nós: pesquisar por UID"){zoomable="yes"}
+![Localizador de nós: pesquisar por UID](../../../assets/node-finder-compositing-uid-search.png "Localizador de nós: pesquisar por UID"){zoomable="yes"}
 
 *Clique na imagem para ampliar*
 
@@ -260,7 +260,7 @@ A ação copia a UID neste formato:
 
 uid=1234567890
 
-![Localizador de nós: copiar ação de UID do nó](node-finder.resources/node-finder-22.png "Localizador de nós: copiar ação de UID do nó"){zoomable="yes"}
+![Localizador de nós: copiar ação de UID do nó](../../../assets/node-finder-compositing-uid-copy.png "Localizador de nós: copiar ação de UID do nó"){zoomable="yes"}
 
 
 
@@ -271,7 +271,7 @@ Quando um gráfico apresentar erros ou avisos gerados por um nó, acesse Windows
 
 Os UIDs de nó também podem ser copiados diretamente dos dados XML no arquivo SBS usando qualquer editor de texto.
 
-![Localizador de nós: pesquisando a UID do nó no Console](node-finder.resources/node-finder-23.png "Localizador de nós: pesquisando a UID do nó no Console"){zoomable="yes"}
+![Localizador de nós: pesquisando a UID do nó no Console](../../../assets/node-finder-console-uid.png "Localizador de nós: pesquisando a UID do nó no Console"){zoomable="yes"}
 
 
 
@@ -289,14 +289,14 @@ Pesquisar nós específicos é particularmente eficaz ao usar o rótulo exato co
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-O botão <b>Opções de pesquisa ![](node-finder.resources/node-finder-11.png)</b> permite alternar os modos <b>recursivo</b> e <b>difuso</b> para pesquisar nós.
+O botão <b>Opções de pesquisa ![](../../../assets/node-finder-search-options.png)</b> permite alternar os modos <b>recursivo</b> e <b>difuso</b> para pesquisar nós.
 
 Ambos podem ser ativados ao mesmo tempo.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Opções de pesquisa do localizador de nós](node-finder.resources/node-finder-12.png "Opções de pesquisa do localizador de nós"){zoomable="yes"}
+![Opções de pesquisa do localizador de nós](../../../assets/node-finder-search-options-open.png "Opções de pesquisa do localizador de nós"){zoomable="yes"}
 
 </td>
 </tr>
@@ -308,12 +308,12 @@ Habilite esta opção para que as pesquisas atravessem [instâncias do gráfico]
 
 Essa opção pode ser essencial ao Troubleshoot gráficos, caso você precise encontrar um nó por seu UID obtido de uma mensagem de aviso ou erro no Console.
 
-![Localizador de nós: pesquisa recursiva](node-finder.resources/node-finder-24.png "Localizador de nós: pesquisa recursiva"){zoomable="yes"}
+![Localizador de nós: pesquisa recursiva](../../../assets/node-finder-recursion-01.png "Localizador de nós: pesquisa recursiva"){zoomable="yes"}
 
 *A consulta à direita realça o nó de instância abaixo, pois seu gráfico referenciado à esquerda tem correspondências para essa consulta*
 
 +++Exemplo 1
-![Localizador de nós: exemplo de pesquisa recursiva 1](node-finder.resources/node-finder-25.gif "Localizador de nós: exemplo de pesquisa recursiva 1"){zoomable="yes"}
+![Localizador de nós: exemplo de pesquisa recursiva 1](../../../assets/node-finder-recursion-01.gif "Localizador de nós: exemplo de pesquisa recursiva 1"){zoomable="yes"}
 
 
 
@@ -322,7 +322,7 @@ Um nó de instância faz referência a um gráfico em que vários nós correspon
 +++
 
 +++Exemplo 2
-![Localizador de nós: exemplo de pesquisa recursiva 2](node-finder.resources/node-finder-26.gif "Localizador de nós: exemplo de pesquisa recursiva 2"){zoomable="yes"}
+![Localizador de nós: exemplo de pesquisa recursiva 2](../../../assets/node-finder-recursion-02.gif "Localizador de nós: exemplo de pesquisa recursiva 2"){zoomable="yes"}
 
 
 
@@ -336,4 +336,4 @@ Se você não tiver certeza sobre a ortografia exata de uma consulta, esta opç�
 
 Observe que o uso dessa opção provavelmente resultará em correspondências indesejadas.
 
-![Localizador de nós: Modo difuso](node-finder.resources/node-finder-27.png "Localizador de nós: Modo difuso"){zoomable="yes"}
+![Localizador de nós: Modo difuso](../../../assets/node-finder-functions-fuzzy.png "Localizador de nós: Modo difuso"){zoomable="yes"}

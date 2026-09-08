@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Posição da textura 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-position.resources/3d-texture-position-01.png){width="256px"}
+![](../../../../../../assets/3dtextureposition.png){width="256px"}
 
 <b>Entrada:</b> Filtro > Efeito
 
@@ -46,10 +46,10 @@ Isso pode ser usado para fazer bake ruídos ou funções 3D como um *atlas de te
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-position.resources/3d-texture-position-02.jpg" />
+            <img src="../../../../../../assets/3dtextureposition-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-position.resources/3d-texture-position-03.png" />
+            <img src="../../../../../../assets/3dtextureposition-node.png" />
         </td>
     </tr>
 </table>

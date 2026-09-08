@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Quantificar escala de cinza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Quantizar Escala de Cinza](quantize-grayscale.resources/quantize-grayscale-01.png "ícone Quantizar Escala de Cinza"){width="200px"}
+![Ícone Quantizar Escala de Cinza](../../../../../../assets/quantize-grayscale.png "ícone Quantizar Escala de Cinza"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -52,6 +52,6 @@ Gera uma única spline na forma de um círculo.
 
 ## Exemplos
 
-![Exemplo 1](quantize-grayscale.resources/quantize-grayscale-02.gif "Exemplo 1")
+![Exemplo 1](../../../../../../assets/quantizegrayscale.gif "Exemplo 1")
 
-![Exemplo 2](quantize-grayscale.resources/quantize-grayscale-03.png "Exemplo 2")
+![Exemplo 2](../../../../../../assets/quantizegrayscale.png "Exemplo 2")

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fibras bagunçadas 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Fibras bagunçadas 2 - Ícone](messy-fibers-2.resources/messy-fibers-2-01.png "Fibras bagunçadas 2 - Ícone"){width="200px"}
+![Fibras bagunçadas 2 - Ícone](../../../../../../assets/messy_fibers_2.png "Fibras bagunçadas 2 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -72,12 +72,12 @@ Veja também: [Fibras confusas 1](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fibras bagunçadas 2 - Exemplo 1](messy-fibers-2.resources/messy-fibers-2-02.png "Fibras bagunçadas 2 - Exemplo 1"){zoomable="yes"}
+![Fibras bagunçadas 2 - Exemplo 1](../../../../../../assets/messy_fibers_2_1.png "Fibras bagunçadas 2 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fibras bagunçadas 2 - Exemplo 2](messy-fibers-2.resources/messy-fibers-2-03.gif "Fibras bagunçadas 2 - Exemplo 2"){zoomable="yes"}
+![Fibras bagunçadas 2 - Exemplo 2](../../../../../../assets/noise_messy_fibers_2_v2_speed0.1_aniso0.gif "Fibras bagunçadas 2 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ Veja também: [Fibras confusas 1](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fibras bagunçadas 2 - Exemplo 3](messy-fibers-2.resources/messy-fibers-2-04.gif "Fibras bagunçadas 2 - Exemplo 3"){zoomable="yes"}
+![Fibras bagunçadas 2 - Exemplo 3](../../../../../../assets/noise_messy_fibers_2_v2_speed0.1_aniso1.gif "Fibras bagunçadas 2 - Exemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fibras bagunçadas 2 - Exemplo 4](messy-fibers-2.resources/messy-fibers-2-05.gif "Fibras bagunçadas 2 - Exemplo 4"){zoomable="yes"}
+![Fibras bagunçadas 2 - Exemplo 4](../../../../../../assets/noise_messy_fibers_2_v2_speed0.1_aniso0.6.gif "Fibras bagunçadas 2 - Exemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

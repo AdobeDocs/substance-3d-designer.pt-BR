@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 1%
@@ -39,7 +39,7 @@ A <b>Iray</b> é uma tecnologia de renderização altamente *interativa* e intui
 </td>
 <td style="border: 0;" valign="top">
 
-[![Logotipo da NVIDIA Iray](iray.resources/iray-01.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![Logotipo da NVIDIA Iray](../../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ Consulte a seção <b>Renderizador</b> desta página para saber mais sobre como 
 </td>
 <td style="border: 0;" valign="top">
 
-![Material de parede de castelo medieval renderizado em Iray](iray.resources/iray-02.png "Material de parede de castelo medieval renderizado em Iray")
+![Material de parede de castelo medieval renderizado em Iray](../../../assets/iray-overview.png "Material de parede de castelo medieval renderizado em Iray")
 
 *Material: [parede do castelo medieval](https://oggyart.artstation.com/projects/Xnzx0a)* *por [Mark Foreman](https://www.artstation.com/oggyart)* *disponível em nossos [ativos do Substance 3D](https://substance3d.adobe.com/assets)* *biblioteca*
 
@@ -104,7 +104,7 @@ Componente de exibição de malha
 > A subdivisão da malha *aumenta seu tempo de processamento exponencialmente* antes e durante a renderização. Sugerimos ser *conservadores* com a entrada de valores.\
 > Tenha cuidado ao usar valores *altos* **Números** para o método Paramétrico e valores *baixos* **mínimos** para o método Comprimento.
 
-![Opções de cena](iray.resources/iray-03.gif "Opções de cena")
+![Opções de cena](../../../assets/iray-scene-subdivision.gif "Opções de cena")
 
 <a name="materials"></a>
 
@@ -137,7 +137,7 @@ Outras opções notáveis neste menu são:
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu Materiais](iray.resources/iray-04.png "Menu Materiais")
+![Menu Materiais](../../../assets/iray-mdl-list.png "Menu Materiais")
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ Os seguintes parâmetros estão disponíveis nas propriedades da câmera quando 
 * <b>Distância do foco</b>: a distância da câmera do ponto focal, isto é, onde a imagem está com a nitidez mais alta
 * <b>Diâmetro da abertura</b>: o valor que orienta a abertura da câmera. Quanto menor o valor, mais nítidos serão os elementos da imagem antes e depois do ponto focal. Em termos mais simples, esse valor controla a intensidade do efeito da profundidade de campo
 
-![Configurações da câmera](iray.resources/iray-05.png "Configurações da câmera")
+![Configurações da câmera](../../../assets/camera-dof.png "Configurações da câmera")
 
 <a name="environment"></a>
 
@@ -205,11 +205,11 @@ O impacto de algumas dessas configurações é demonstrado abaixo:
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-06.png" alt="Iray - Ambiente oculto">
+      <img src="../../../assets/iray-environment-hidden.png" alt="Iray - Ambiente oculto">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="iray.resources/iray-07.png" alt="Iray - Ambiente visível">
+      <img src="../../../assets/iray-env-visible.png" alt="Iray - Ambiente visível">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -217,9 +217,9 @@ O impacto de algumas dessas configurações é demonstrado abaixo:
 
 
 
-![Iray - Ambiente oculto](iray.resources/iray-06.png "Iray - Ambiente oculto")
+![Iray - Ambiente oculto](../../../assets/iray-environment-hidden.png "Iray - Ambiente oculto")
 
-![Iray - Ambiente visível](iray.resources/iray-07.png "Iray - Ambiente visível")
+![Iray - Ambiente visível](../../../assets/iray-env-visible.png "Iray - Ambiente visível")
 
 +++
 
@@ -229,11 +229,11 @@ O impacto de algumas dessas configurações é demonstrado abaixo:
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-08.png" alt="Iray - somente esfera infinita">
+      <img src="../../../assets/iray-env-infinite-sphere.png" alt="Iray - somente esfera infinita">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="iray.resources/iray-09.png" alt="Iray - Esfera infinita com plano do solo">
+      <img src="../../../assets/iray-env-sphere-ground.png" alt="Iray - Esfera infinita com plano do solo">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -241,35 +241,35 @@ O impacto de algumas dessas configurações é demonstrado abaixo:
 
 
 
-![Iray - Somente esfera infinita](iray.resources/iray-08.png "Iray - Somente esfera infinita")
+![Iray - Somente esfera infinita](../../../assets/iray-env-infinite-sphere.png "Iray - Somente esfera infinita")
 
-![Iray - Esfera infinita com plano do solo](iray.resources/iray-09.png "Iray - Esfera infinita com plano do solo")
+![Iray - Esfera infinita com plano do solo](../../../assets/iray-env-sphere-ground.png "Iray - Esfera infinita com plano do solo")
 
 +++
 
 +++Girar ambiente
-![Girar ambiente](iray.resources/iray-10.gif "Girar ambiente")
+![Girar ambiente](../../../assets/iray-env-rotation.gif "Girar ambiente")
 
 
 
 +++
 
 +++Ajustar o plano do solo
-![Reflexão do solo](iray.resources/iray-11.gif "Reflexão do solo")
+![Reflexão do solo](../../../assets/iray-env-ground-options.gif "Reflexão do solo")
 
 
 
 +++
 
 +++Ajustar esfera infinita
-![Escala do ambiente (esfera)](iray.resources/iray-12.gif "Escala do ambiente (esfera)")
+![Escala do ambiente (esfera)](../../../assets/iray-env-sphere-radius.gif "Escala do ambiente (esfera)")
 
 
 
 +++
 
 +++Ajustar caixa delimitadora
-![Escala do ambiente (cubo)](iray.resources/iray-13.gif "Escala do ambiente (cubo)")
+![Escala do ambiente (cubo)](../../../assets/iray-env-box-dimensions.gif "Escala do ambiente (cubo)")
 
 
 
@@ -287,7 +287,7 @@ Essas opções exibem uma *sobreposição de texto* sobre a imagem renderizada c
 * <b>Resolução</b>: a resolução de renderização efetiva. Se a opção Usar resolução de janela nas propriedades da câmera estiver definida como Falso, a proporção da imagem será ajustada automaticamente para corresponder à proporção da resolução
 * <b>Estatísticas de cena</b>: uma lista de estatísticas relacionadas à cena renderizada, que inclui contagem de triângulos e contagem de materiais entre outros dados
 
-![Opções de exibição](iray.resources/iray-14.png "Opções de exibição"){width="512px"}
+![Opções de exibição](../../../assets/iray-display-data.png "Opções de exibição"){width="512px"}
 
 <a name="renderer"></a>
 
@@ -316,11 +316,11 @@ O impacto de algumas dessas configurações é demonstrado nas comparações de 
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-15.png" alt="Iray - Renderização base">
+      <img src="../../../assets/iray-renderer-none.png" alt="Iray - Renderização base">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="iray.resources/iray-16.png" alt="Iray - Amostrador cáustico ativado">
+      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - Amostrador cáustico ativado">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -328,9 +328,9 @@ O impacto de algumas dessas configurações é demonstrado nas comparações de 
 
 
 
-![Iray - Renderização base](iray.resources/iray-15.png "Iray - Renderização base")
+![Iray - Renderização base](../../../assets/iray-renderer-none.png "Iray - Renderização base")
 
-![Iray - Amostra cáustica habilitada](iray.resources/iray-16.png "Iray - Amostra cáustica habilitada")
+![Iray - Amostra cáustica habilitada](../../../assets/iray-renderer-caustics.png "Iray - Amostra cáustica habilitada")
 
 +++
 
@@ -340,11 +340,11 @@ O impacto de algumas dessas configurações é demonstrado nas comparações de 
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-16.png" alt="Iray - filtro Firefly desabilitado">
+      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - filtro Firefly desabilitado">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="iray.resources/iray-17.png" alt="Iray - filtro de Firefly habilitado">
+      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - filtro de Firefly habilitado">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -352,9 +352,9 @@ O impacto de algumas dessas configurações é demonstrado nas comparações de 
 
 
 
-![Iray - filtro de Firefly desabilitado](iray.resources/iray-16.png "Iray - filtro de Firefly desabilitado")
+![Iray - filtro de Firefly desabilitado](../../../assets/iray-renderer-caustics.png "Iray - filtro de Firefly desabilitado")
 
-![Iray - filtro de Firefly habilitado](iray.resources/iray-17.png "Iray - filtro de Firefly habilitado")
+![Iray - filtro de Firefly habilitado](../../../assets/iray-renderer-caustics-fireflies.png "Iray - filtro de Firefly habilitado")
 
 +++
 
@@ -364,11 +364,11 @@ O impacto de algumas dessas configurações é demonstrado nas comparações de 
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-17.png" alt="Iray - Pós-desabilitado">
+      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - Pós-desabilitado">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="iray.resources/iray-18.png" alt="Iray - Pós-denoiser habilitado">
+      <img src="../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray - Pós-denoiser habilitado">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -376,9 +376,9 @@ O impacto de algumas dessas configurações é demonstrado nas comparações de 
 
 
 
-![Iray - Pós-denoiser desabilitado](iray.resources/iray-17.png "Iray - Pós-denoiser desabilitado")
+![Iray - Pós-denoiser desabilitado](../../../assets/iray-renderer-caustics-fireflies.png "Iray - Pós-denoiser desabilitado")
 
-![Iray - Pós-denoiser habilitado](iray.resources/iray-18.png "Iray - Pós-denoiser habilitado")
+![Iray - Pós-denoiser habilitado](../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png "Iray - Pós-denoiser habilitado")
 
 +++
 
@@ -404,4 +404,4 @@ Quando uma GPU compatível é detectada, ela é listada nesta seção, é *selec
 > A aceleração por hardware da GPU usa a tecnologia [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone). Verifique se o *driver gráfico está atualizado* para obter a melhor compatibilidade e confiabilidade. Localize o driver mais recente para sua GPU NVIDIA [aqui](https://www.nvidia.com/Download/index.aspx?lang=en-us).\
 > Para configurações de várias GPUs, é recomendável *desabilitar o SLI* e selecionar apenas uma GPU para obter a melhor confiabilidade.
 
-![Preferências de Iray](iray.resources/iray-19.png "Preferências de Iray")
+![Preferências de Iray](../../../assets/iray-preferences-hardware.png "Preferências de Iray")

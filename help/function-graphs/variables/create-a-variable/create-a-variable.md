@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Criar uma variável
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Quando você tiver feito isso, a variável estará disponível no outro gráfico
 >
 > Se você tiver várias variáveis para criar, basta repetir a operação de criação dos nós *Conjunto* e *Sequência* e definir o último nó de sequência como o nó de saída:
 > 
-> ![](create-a-variable.resources/create-a-variable-01.png)
+> ![](../../../assets/image2015-12-18-18-43-8.png)

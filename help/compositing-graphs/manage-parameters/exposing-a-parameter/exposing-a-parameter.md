@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exposição de um parâmetro
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 4%
@@ -24,7 +24,7 @@ A exposição de parâmetros é uma das ferramentas mais poderosas e é essencia
 
 Esta página explica todos os conceitos necessários para começar a expor. É recomendável [que você saiba primeiro o que é uma Instância de Gráfico](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)antes de continuar nesta página. Também é bom ter uma ideia da[diferença entre Publish e Exportação, bem como dos tipos de arquivo envolvidos.](../../../getting-started/overview/overview.md)
 
-![Exposição de parâmetros simplificada](exposing-a-parameter.resources/exposing-a-parameter-01.png "Exposição de parâmetros simplificada")
+![Exposição de parâmetros simplificada](../../../assets/parameters-5.png "Exposição de parâmetros simplificada")
 
 *\*As linhas tracejadas e transparentes acima são uma representação abstrata da conexão\
 de parâmetros expostos para Parâmetros de Gráfico.*
@@ -62,18 +62,18 @@ Os parâmetros podem vir em muitas formas diferentes: controles deslizantes, mos
 
 Atualmente, existem dois métodos principais para expor parâmetros. Um método é mais adequado para expor rapidamente um único parâmetro, o segundo método é mais adequado para expor vários parâmetros em uma varredura.
 
-![Passo a passo sobre o método de exposição única](exposing-a-parameter.resources/exposing-a-parameter-02.gif "Passo sobre o método de exposição única"){width="512px"}
+![Passo a passo sobre o método de exposição única](../../../assets/single-expose2.gif "Passo sobre o método de exposição única"){width="512px"}
 
 ### MÉTODO DE EXPOSIÇÃO ÚNICA
 
 1. Localize o parâmetro que você deseja expor no painel [Propriedades](../../../interface/properties/properties.md), na guia Parâmetros Específicos
-1. Clique no botão de opções do menu suspenso ![](exposing-a-parameter.resources/exposing-a-parameter-03.png)
-1. Escolha ![](exposing-a-parameter.resources/exposing-a-parameter-04.png) <b>Expor como nova entrada de gráfico</b> na lista suspensa, a primeira opção.
+1. Clique no botão de opções do menu suspenso ![](../../../assets/image2020-9-17-15-35-59.png)
+1. Escolha ![](../../../assets/image2020-9-17-15-37-7.png) <b>Expor como nova entrada de gráfico</b> na lista suspensa, a primeira opção.
 1. A caixa de diálogo <b>Expor parâmetro</b> é exibida; defina as propriedades do parâmetro conforme desejar.
 
    É recomendável alterar pelo menos o <b>Identificador</b> e o <b>Rótulo</b>
 1. Pressione <b>OK</b> para confirmar
-1. O nome do parâmetro fica *azul* e o ![](exposing-a-parameter.resources/exposing-a-parameter-05.png)\
+1. O nome do parâmetro fica *azul* e o ![](../../../assets/image2020-9-17-15-35-46.png)\
    O botão <b> Editar função de parâmetro</b> aparece ao lado das opções suspensas para confirmar se o parâmetro está exposto
 
 >[!NOTE]
@@ -81,20 +81,20 @@ Atualmente, existem dois métodos principais para expor parâmetros. Um método 
 > A maioria dos campos numéricos oferece suporte a *fórmulas matemáticas básicas* como entrada. Por exemplo, `17+3.5`, `7/3`, `(4+2)*3`. Pressione *Enter* para validar a fórmula e o resultado será inserido no campo. Se a fórmula for inválida, o campo reverterá para seu valor anterior.\
 > Alguns campos numéricos em outras partes do aplicativo, como no encaixe [Propriedades](../../../interface/properties/properties.md), também oferecem suporte a esse recurso.
 
-![Passo do método de exposição em lote](exposing-a-parameter.resources/exposing-a-parameter-06.gif "Passo do método de exposição em lote"){width="512px"}
+![Passo do método de exposição em lote](../../../assets/batch-expose-2.gif "Passo do método de exposição em lote"){width="512px"}
 
 ### Método de exposição em lote
 
 Ao expor um parâmetro, esse método será um pouco mais lento do que o anterior. Ao expor vários parâmetros, é muito mais rápido.
 
-1. Em vez de localizar um único parâmetro, localize o botão ![](exposing-a-parameter.resources/exposing-a-parameter-07.png) <b>Várias exposições</b> no canto superior direito da guia <b>Parâmetros específicos</b>
+1. Em vez de localizar um único parâmetro, localize o botão ![](../../../assets/image2020-9-17-15-39-7.png) <b>Várias exposições</b> no canto superior direito da guia <b>Parâmetros específicos</b>
 1. Escolha <b>Parâmetros de exposição em lote...</b> no menu suspenso
 1. A caixa de diálogo <b>Exposição em lote</b> é exibida, permitindo personalizar a exposição de todos os <b>parâmetros específicos</b> de um nó
 1. Use <b>Todos</b>, <b>Nenhum</b> ou caixas de seleção específicas para decidir quais parâmetros expor
 1. Clique em um nome de parâmetro na coluna <b>Identificador de entrada de gráfico</b> da lista para alterar seu nome.
 1. Clique em um <b>Nome do grupo</b> na coluna <b>Grupo de entrada de gráfico</b> da lista para adicionar um (sub)grupo para um parâmetro específico
 1. Use as caixas de inserção <b>Identificador de entrada de gráfico</b> e <b>Grupo de entrada de gráfico</b> na parte inferior para adicionar prefixo, sufixo e grupos de entrada a todos os parâmetros expostos de uma só vez. Todos esses valores são aplicados sobre as configurações por parâmetro.
-1. Clique em <b>OK</b> para confirmar e expor todos os parâmetros selecionados. Os nomes dos parâmetros agora mostram *azul* para confirmar que os parâmetros estão expostos, bem como um botão de ![](exposing-a-parameter.resources/exposing-a-parameter-05.png) <b>Editar função</b>.
+1. Clique em <b>OK</b> para confirmar e expor todos os parâmetros selecionados. Os nomes dos parâmetros agora mostram *azul* para confirmar que os parâmetros estão expostos, bem como um botão de ![](../../../assets/image2020-9-17-15-35-46.png) <b>Editar função</b>.
 
 ## Limitações
 
@@ -127,12 +127,12 @@ Uma vez exposto, não é mais possível acessar um parâmetro como antes. Mudar 
 
 Para alterar as opções de um parâmetro exposto:
 
-1. Clique no botão de Opções da lista suspensa ![](exposing-a-parameter.resources/exposing-a-parameter-03.png) ao lado do parâmetro já exposto
-1. Escolha ![](exposing-a-parameter.resources/exposing-a-parameter-04.png)<b> Editar entrada de gráfico exposta</b>. Isso direciona o usuário à entrada relevante nas propriedades do gráfico
+1. Clique no botão de Opções da lista suspensa ![](../../../assets/image2020-9-17-15-35-59.png) ao lado do parâmetro já exposto
+1. Escolha ![](../../../assets/image2020-9-17-15-37-7.png)<b> Editar entrada de gráfico exposta</b>. Isso direciona o usuário à entrada relevante nas propriedades do gráfico
 1. Clique duas vezes em uma área vazia do gráfico para obter as propriedades do gráfico e localize o parâmetro na lista de <b>Parâmetros de entrada</b>
 1. Clique uma vez no seu gráfico no <b>Explorer</b> e encontre o parâmetro na lista de <b>Parâmetros de entrada</b>
 
-![Parâmetros de entrada](exposing-a-parameter.resources/exposing-a-parameter-08.png "Parâmetros de entrada"){width="512px"}
+![Parâmetros de entrada](../../../assets/input-parameters-2.png "Parâmetros de entrada"){width="512px"}
 
 ### PARÂMETROS DE ENTRADA
 
@@ -151,7 +151,7 @@ Todos os Parâmetros expostos são listados na guia Parâmetros de entrada. As p
 1. <b>Dados do usuário: </b>dados de usuário personalizados, disponíveis para qualquer finalidade.
 1. <b>Visível se</b>: sistema de expressão especial para mostrar ou ocultar parâmetros com base em condições externas. Consulte [Visível se: controle a visibilidade de entradas, saídas e parâmetros](../../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md)
 
-![Editor de lista suspensa para o parâmetro Inteiro](exposing-a-parameter.resources/exposing-a-parameter-09.gif "Editor de lista suspensa para o parâmetro Inteiro"){width="512px"}
+![Editor de lista suspensa para o parâmetro Inteiro](../../../assets/dropdown.gif "Editor de lista suspensa para o parâmetro Inteiro"){width="512px"}
 
 #### Lista suspensa
 
@@ -163,13 +163,13 @@ Um caso especial é a <b>Lista suspensa</b> para tipos Inteiros. Não há Padrã
 * A terceira caixa de seleção permite marcar um item como o item padrão selecionado.
 * O X exclui um item, o + adiciona um item
 
-![Reordenar parâmetros de entrada](exposing-a-parameter.resources/exposing-a-parameter-10.gif "Reordenar parâmetros de entrada"){width="512px"}
+![Reordenar parâmetros de entrada](../../../assets/reorder-2.gif "Reordenar parâmetros de entrada"){width="512px"}
 
 #### Reordenar
 
 A reordenação de Parâmetros pode ser feita facilmente arrastando e soltando as alças escuras listradas à esquerda do nome dos parâmetros de entrada na lista. Lembre-se de que os parâmetros de agrupamento podem afetar a ordem.
 
-![Visualizando parâmetros de entrada](exposing-a-parameter.resources/exposing-a-parameter-11.gif "Visualizando parâmetros de entrada"){width="512px"}
+![Visualizando parâmetros de entrada](../../../assets/parameter-preview-2.gif "Visualizando parâmetros de entrada"){width="512px"}
 
 ### VISUALIZANDO PARÂMETROS
 
@@ -187,15 +187,15 @@ Normalmente, todas as alterações feitas no <b>Modo de Visualização</b> são 
 >
 > O modo de visualização visa representar a experiência de um [ativo publicado do Substance 3D (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) da forma mais precisa possível. Portanto, as Limitações listadas nesta página serão aplicadas neste modo, como *ausência de parâmetros estáticos na lista*.
 
-![Copiando e colando parâmetros de entradas](exposing-a-parameter.resources/exposing-a-parameter-12.gif "Copiando e colando parâmetros de entradas"){width="512px"}
+![Copiando e colando parâmetros de entradas](../../../assets/copy-paste-params-2.gif "Copiando e colando parâmetros de entradas"){width="512px"}
 
 ### COPIAR E COLAR PARÂMETROS
 
 Os parâmetros podem ser copiados e colados entre gráficos.
 
-Um único parâmetro pode ser copiado com o botão Copiar ![](exposing-a-parameter.resources/exposing-a-parameter-13.png). Vários Parâmetros podem ser copiados pelo Menu de Parâmetros ![](exposing-a-parameter.resources/exposing-a-parameter-07.png). Escolha Copiar Entradas para copiar todas as entradas.
+Um único parâmetro pode ser copiado com o botão Copiar ![](../../../assets/image2019-9-19-11-3-49.png). Vários Parâmetros podem ser copiados pelo Menu de Parâmetros ![](../../../assets/image2020-9-17-15-39-7.png). Escolha Copiar Entradas para copiar todas as entradas.
 
-Escolha Colar Entradas ![](exposing-a-parameter.resources/exposing-a-parameter-14.png) no Menu de Parâmetros ![](exposing-a-parameter.resources/exposing-a-parameter-07.png) para colar um ou mais parâmetros.
+Escolha Colar Entradas ![](../../../assets/image2020-9-17-16-43-15.png) no Menu de Parâmetros ![](../../../assets/image2020-9-17-15-39-7.png) para colar um ou mais parâmetros.
 
 Se você deseja transferir valores, e não o parâmetro exposto real em si, [leia sobre Predefinições de Parâmetro.](../../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)
 
@@ -203,29 +203,29 @@ Se você deseja transferir valores, e não o parâmetro exposto real em si, [lei
 
 Devido à natureza dos parâmetros, onde você pode ter um Parâmetro de entrada controlando vários Nós ou onde os parâmetros de entrada podem existir sem controlar um nó, podem surgir problemas com parâmetros ausentes ou não usados. Os problemas comuns abaixo e suas soluções estão descritos.
 
-![Erros nos parâmetros de nó](exposing-a-parameter.resources/exposing-a-parameter-15.gif "Erros nos parâmetros de nó"){width="512px"}
+![Erros nos parâmetros de nó](../../../assets/parameter-error.gif "Erros nos parâmetros de nó"){width="512px"}
 
 ### RASTREAR PARÂMETROS QUEBRADOS EM NÓS
 
-Você pode rastrear qual parâmetro é usado por qual nó por meio da Ferramenta Localizador de Nós ![](exposing-a-parameter.resources/exposing-a-parameter-16.png), que está localizada na barra superior da Exibição de Gráfico. Clique nele para que você possa localizar nós usando parâmetros específicos.
+Você pode rastrear qual parâmetro é usado por qual nó por meio da Ferramenta Localizador de Nós ![](../../../assets/image2019-9-19-14-15-53.png), que está localizada na barra superior da Exibição de Gráfico. Clique nele para que você possa localizar nós usando parâmetros específicos.
 
-Se um nó tiver um problema real, ele exibirá um emblema de Aviso ![](exposing-a-parameter.resources/exposing-a-parameter-17.png) no canto superior esquerdo. Passar o mouse sobre a medalha exibirá uma dica de ferramenta com mais informações.
+Se um nó tiver um problema real, ele exibirá um emblema de Aviso ![](../../../assets/image2019-9-19-14-23-54.png) no canto superior esquerdo. Passar o mouse sobre a medalha exibirá uma dica de ferramenta com mais informações.
 
-Para redefinir e remover um problema, para o parâmetro que você deseja corrigir ou redefinir, clique no botão Suspenso ![](exposing-a-parameter.resources/exposing-a-parameter-03.png) ao lado do botão Editar Função e selecione ![](exposing-a-parameter.resources/exposing-a-parameter-18.png) <b>Redefinir. </b>Isso retorna um parâmetro ao seu estado anterior, não exposto. O nome azul ficará cinza novamente para refletir isso.
+Para redefinir e remover um problema, para o parâmetro que você deseja corrigir ou redefinir, clique no botão Suspenso ![](../../../assets/image2020-9-17-15-35-59.png) ao lado do botão Editar Função e selecione ![](../../../assets/image2020-9-17-16-56-18.png) <b>Redefinir. </b>Isso retorna um parâmetro ao seu estado anterior, não exposto. O nome azul ficará cinza novamente para refletir isso.
 
-![Limpando parâmetros de entrada não usados](exposing-a-parameter.resources/exposing-a-parameter-19.gif "Limpando parâmetros de entrada não usados"){width="512px"}
+![Limpando parâmetros de entrada não usados](../../../assets/clean-inputs-2.gif "Limpando parâmetros de entrada não usados"){width="512px"}
 
 ### LIMPANDO PARÂMETROS DE ENTRADA NÃO USADOS
 
-Se você perdeu o controle dos Parâmetros de entrada e não sabe mais quais são usados, eles podem ser limpos usando uma pequena ferramenta. Clique no botão do menu Parâmetro de Entrada ![](exposing-a-parameter.resources/exposing-a-parameter-07.png) e selecione <b>Limpar Entradas.</b>
+Se você perdeu o controle dos Parâmetros de entrada e não sabe mais quais são usados, eles podem ser limpos usando uma pequena ferramenta. Clique no botão do menu Parâmetro de Entrada ![](../../../assets/image2020-9-17-15-39-7.png) e selecione <b>Limpar Entradas.</b>
 
 Uma nova caixa de diálogo é exibida, listando todos os parâmetros não utilizados. Marque ou desmarque os parâmetros que deseja remover ou manter e clique em OK. Se nenhuma caixa de diálogo for exibida, não há parâmetros não utilizados para limpeza no momento.
 
-![Removendo parâmetros](exposing-a-parameter.resources/exposing-a-parameter-20.gif "Removendo parâmetros"){width="512px"}
+![Removendo parâmetros](../../../assets/delete-param-2.gif "Removendo parâmetros"){width="512px"}
 
 ### REMOVENDO PARÂMETROS
 
 Para remover um parâmetro que está em uso, são necessárias duas etapas distintas.
 
-1. No nó com o parâmetro exposto, clique na seta suspensa à direita do botão Função expor, que é colorido em azul: ![](exposing-a-parameter.resources/exposing-a-parameter-21.png). Em seguida, escolha “Redefinir para o valor padrão”. Isso remove o uso do parâmetro nesse nó. repita para qualquer outro nó que use o mesmo parâmetro. “Redefinir para o valor padrão” também redefine o intervalo do widget de parâmetro para seu *intervalo suave*.
+1. No nó com o parâmetro exposto, clique na seta suspensa à direita do botão Função expor, que é colorido em azul: ![](../../../assets/image2019-9-19-14-55-55.png). Em seguida, escolha “Redefinir para o valor padrão”. Isso remove o uso do parâmetro nesse nó. repita para qualquer outro nó que use o mesmo parâmetro. “Redefinir para o valor padrão” também redefine o intervalo do widget de parâmetro para seu *intervalo suave*.
 1. Na lista Parâmetros de entrada do gráfico, clique no X até a direita da entrada do parâmetro. Isso exclui o parâmetro completamente. Se algum nó tentar fazer uso desse parâmetro, um emblema de aviso aparecerá (veja acima).

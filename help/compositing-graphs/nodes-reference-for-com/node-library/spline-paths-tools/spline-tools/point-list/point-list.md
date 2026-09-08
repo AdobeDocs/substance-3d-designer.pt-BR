@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lista de pontos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](point-list.resources/point-list-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/point-list-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -93,12 +93,12 @@ Se uma lista de pontos existente for fornecida para as entradas de <b>Ponto</b>,
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](point-list.resources/point-list-02.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](../../../../../../assets/PointList-Variant1.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](point-list.resources/point-list-03.gif "Exemplo de nó 2")
+![Exemplo de nó 2](../../../../../../assets/PointList-Demo1.gif "Exemplo de nó 2")
 
 </td>
 </tr>

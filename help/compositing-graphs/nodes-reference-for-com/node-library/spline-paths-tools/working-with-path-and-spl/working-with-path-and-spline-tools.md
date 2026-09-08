@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Trabalhar com Ferramentas de linha flexível de caminho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Por exemplo, a imagem à direita representa a saída de imagem por um nó [Polí
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Saída do polígono dos caminhos](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-01.jpg "Saída do polígono dos caminhos")
+![Saída do polígono dos caminhos](../../../../../assets/PathsPolygon_Data.jpg "Saída do polígono dos caminhos")
 
 </td>
 </tr>
@@ -69,7 +69,7 @@ Por exemplo, os nós de geração de spline, como [Spline (Cúbico)](../../../..
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Cúbico de spline em Visualização 2D](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-02.gif "Cúbico de spline em Visualização 2D")
+![Cúbico de spline em Visualização 2D](../../../../../assets/SplineCubic-Demo.gif "Cúbico de spline em Visualização 2D")
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ O Path e o ferramenta de linha flexível exigem cálculos intensos, de modo que 
 
 Você deve notar uma melhora significativa no desempenho ao alterar qualquer uma dessas duas configurações para o estado recomendado.
 
-![Ferramentas de caminho na biblioteca](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-03.jpg "Ferramentas de caminho na biblioteca")
+![Ferramentas de caminho na biblioteca](../../../../../assets/PathsTools.jpg "Ferramentas de caminho na biblioteca")
 
 ## Ferramentas de caminho
 
@@ -97,7 +97,7 @@ O [Polígono dos caminhos](../../../../../compositing-graphs/nodes-reference-for
 Como alternativa, os caminhos podem ser extraídos de uma imagem em tons de cinza usando o nó [Máscara para caminhos](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md).\
 Atualmente, esta é a única maneira de produzir formas complexas e permite aproveitar toda a biblioteca de [nós de gráfico de Substance](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md) para produzir as formas que eventualmente serão convertidas em caminhos.
 
-![Nós de geração de caminhos](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-04.jpg "Nós de geração de caminhos"){width="600px"}
+![Nós de geração de caminhos](../../../../../assets/Paths_Generation.jpg "Nós de geração de caminhos"){width="600px"}
 
 ### Edição de demarcadores
 
@@ -121,7 +121,7 @@ Caminhos separados têm uma cor única na visualização para diferenciar cada c
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó de Caminhos de Visualização](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-05.jpg "Nó de Caminhos de Visualização")
+![Nó de Caminhos de Visualização](../../../../../assets/PreviewPaths_Node.jpg "Nó de Caminhos de Visualização")
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Uma combinação muito útil para aproveitar o conjunto de ferramentas splines p
 
 <b>Máscara > Máscara para caminhos > Caminhos para spline</b>
 
-![Caminho para Spline](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-06.jpg "Caminho para Spline")
+![Caminho para Spline](../../../../../assets/Spline_PathToSpline.jpg "Caminho para Spline")
 
 ### Especificações de formato de caminho
 
@@ -146,7 +146,7 @@ Esta codificação segue uma especificação descrita na página [Especificaçõ
 
 Você pode usar essa especificação para produzir seus próprios nós usando esse formato e aproveitar ao máximo os nós [Processador de Vértice de Caminhos](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md).
 
-![Ferramentas de linha flexível na biblioteca](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-07.jpg "Ferramentas de linha flexível na biblioteca")
+![Ferramentas de linha flexível na biblioteca](../../../../../assets/SplineTools.jpg "Ferramentas de linha flexível na biblioteca")
 
 ## Ferramentas de linha flexível
 
@@ -185,7 +185,7 @@ Portanto, é muito importante considerar a ordem na qual você acrescenta spline
 
 Isso afeta os nós que precisam combinar splines, como [Ponte de spline (Lista)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md), [Mapeador da Ponte de Spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md) e [Lista de Mesclagem de Spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md).
 
-![Anexando splines com modos de criação de link](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-08.gif "Anexando splines com modos de criação de link")
+![Anexando splines com modos de criação de link](../../../../../assets/LinkCreationMode_Splines.gif "Anexando splines com modos de criação de link")
 
 ### Entradas e saídas de spline
 
@@ -212,7 +212,7 @@ Esta visualização pode ser ajustada nos parâmetros do nó, usando os parâmet
 </td>
 <td style="border: 0;" valign="top">
 
-![Visualizar saída no nó spline](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-09.jpg "Visualizar saída no nó spline")
+![Visualizar saída no nó spline](../../../../../assets/Spline_PreviewOutput.jpg "Visualizar saída no nó spline")
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ Para desenhar spline como pixels, o conjunto de ferramentas os simplifica em lin
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline renderizado como segmentos](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-10.jpg "Spline renderizado como segmentos")
+![Spline renderizado como segmentos](../../../../../assets/Spline_Segments.jpg "Spline renderizado como segmentos")
 
 </td>
 </tr>

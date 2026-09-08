@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gerenciar parâmetros
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Quando as propriedades de um nó são exibidas no Dock Propriedades, os parâmet
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu global &#39;Gerenciar parâmetros&#39; em Propriedades](manage-parameters.resources/manage-parameters-01.png "Menu global &#39;Gerenciar parâmetros&#39; em Propriedades"){zoomable="yes"}
+![Menu global &#39;Gerenciar parâmetros&#39; em Propriedades](../../assets/manage-parameters-menu-global.png "Menu global &#39;Gerenciar parâmetros&#39; em Propriedades"){zoomable="yes"}
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Para gerenciar um parâmetro *único*, use o menu &#39;<b>Gerenciar função</b>
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu &#39;Gerenciar parâmetros&#39; local em Propriedades](manage-parameters.resources/manage-parameters-02.png "Menu &#39;Gerenciar parâmetros&#39; local em Propriedades"){zoomable="yes"}
+![Menu &#39;Gerenciar parâmetros&#39; local em Propriedades](../../assets/manage-parameters-menu.png "Menu &#39;Gerenciar parâmetros&#39; local em Propriedades"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ As mesmas limitações listadas abaixo para nós atômicos se aplicam a este men
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![&#x200B; menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó](manage-parameters.resources/manage-parameters-03.png " menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó"){zoomable="yes"}
+![&#x200B; menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó](../../assets/manage-parameters-node-menu.png " menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó"){zoomable="yes"}
 
 </td>
 </tr>
@@ -122,14 +122,14 @@ As mesmas limitações listadas abaixo para nós atômicos se aplicam a este men
 
 É possível copiar todos os valores de parâmetros para um nó de origem e colá-los em um nó de destino. Os parâmetros dos nós de origem e de destino são <b>correspondidos com base em seus identificadores e tipos</b>.
 
-Por exemplo, um parâmetro &#39;Escala&#39; cujo identificador é &#39;escala&#39; e cujo tipo é &#39;Precisão decimal&#39; pode ser copiado e colado em outro parâmetro &#39;Escala de Forma&#39; quando seu identificador também é &#39;escala&#39; e seu tipo também é &#39;Precisão decimal&#39;.
+Por exemplo, um parâmetro &#39;Scale&#39;, cujo identificador é &#39;scale&#39; e o tipo é &#39;Float&#39;, pode ser copiado e colado em outro parâmetro &#39;Shape Scale&#39; quando seu identificador também é &#39;scale&#39; e seu tipo também é &#39;Float&#39;.
 
 Este recurso funciona da mesma maneira que o uso de um [arquivo de predefinição de parâmetro](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md). Na verdade, os dados copiados para a área de transferência são os mesmos que os dados armazenados nos arquivos predefinidos do SBSPRS e podem ser colados em qualquer editor de texto para serem revisados e editados.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Copiar e colar parâmetros](manage-parameters.resources/manage-parameters-04.gif "Copiar e colar parâmetros"){zoomable="yes"}
+![Copiar e colar parâmetros](../../assets/copy-paste-parameters.gif "Copiar e colar parâmetros"){zoomable="yes"}
 
 </td>
 </tr>

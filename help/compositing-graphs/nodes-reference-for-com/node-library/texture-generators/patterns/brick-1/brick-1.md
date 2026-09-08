@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-1.html"
 breadcrumb-title: ''
-description: Use o nó Tijolo 1 para gerar padrões básicos de tijolos para criar efeitos de textura ladrilhada e de alvenaria.
+description: Use o nó Tijolo 1 para gerar padrões básicos de tijolos para criar efeitos de textura de alvenaria e ladrilhos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Brick 1
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tijolo 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 10%
@@ -24,9 +24,9 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](brick-1.resources/brick-1-01.png){width="128px"}
+![](../../../../../../assets/brick-1.png){width="128px"}
 
-<b>Em:</b> Geradores De Textura > Padrões
+<b>Em:</b> Textura Geradores > Padrões
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -46,7 +46,7 @@ Padrão de tijolo simples, consulte [Gerador de tijolos](../../../../../../compo
 |  |  |
 |:---|:---|
 | <b>Divisão em blocos gráficos</b> <i>1 - 16</i> | Define a quantidade de vezes que o resultado deve ser colocado lado a lado. |
-| <b>Smoothness de borda</b> <i>0.0 - 1.0</i> | Combinar entre bordas ásperas e suaves. |
+| <b>Suavidade da borda</b> <i>0.0 - 1.0</i> | Combinar entre bordas ásperas e suaves. |
 | <b>Largura interstice</b> <i>0.0 - 1.0</i> | Define o interstício (tamanho do espaço). |
 | <b>Expansão não quadrada</b> <i>Falso/Verdadeiro</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
 
@@ -55,7 +55,7 @@ Padrão de tijolo simples, consulte [Gerador de tijolos](../../../../../../compo
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="brick-1.resources/brick-1-02.gif" />
+            <img src="../../../../../../assets/brick-1-ex.gif" />
         </td>
     </tr>
 </table>

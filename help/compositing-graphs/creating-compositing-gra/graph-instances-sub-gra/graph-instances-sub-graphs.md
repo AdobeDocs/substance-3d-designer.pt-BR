@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Instâncias e subgrafos do gráfico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Instâncias e subgrafos do gráfico
 
-![](graph-instances-sub-graphs.resources/graph-instances-sub-graphs-01.png)
+![](../../../assets/sub-graph.png)
 
 As instâncias de gráfico são nós que <b>fazem referência a outro gráfico</b>. Um gráfico referenciado por um nó de instância em um gráfico host pode ser chamado de <b>subgrafo</b> do gráfico host.
 
@@ -62,14 +62,14 @@ Observe que, embora os conceitos de ocorrência de gráfico e subgrafo também s
 
 ### É possível inspecionar o gráfico de origem de uma instância do gráfico?
 
-![(tick)](graph-instances-sub-graphs.resources/check.svg) Sim, e *somente* para instâncias de gráficos carregados de um **arquivo Substance 3D (SBS)**. Estes nós de instância têm um rótulo *vermelho-escuro*.\
+![(tick)](../../../assets/check.svg) Sim, e *somente* para instâncias de gráficos carregados de um **arquivo Substance 3D (SBS)**. Estes nós de instância têm um rótulo *vermelho-escuro*.\
 Clique com o botão direito do mouse no nó para abrir seu menu contextual e selecione a opção **Abrir referência**.
 
 >[!NOTE]
 >
 > Ao inspecionar o gráfico de origem, você poderá usar os dados de entrada do gráfico da instância se a opção **Edição de contexto interno** estiver *marcada* na seção **Gráfico** das [Preferências](../../../interface/preferences-window/preferences-window.md).
 
-![(menos)](graph-instances-sub-graphs.resources/forbidden.svg) *Não* é possível inspecionar gráficos carregados de instâncias **de ativos do Substance 3D (SBSAR)**, pois eles já estão compilados. Você só pode carregar o ativo no painel **Explorer** para inspecionar a lista de gráficos expostos e seus parâmetros. Estes nós de instância têm um rótulo *verde*.\
+![(menos)](../../../assets/forbidden.svg) *Não* é possível inspecionar gráficos carregados de instâncias **de ativos do Substance 3D (SBSAR)**, pois eles já estão compilados. Você só pode carregar o ativo no painel **Explorer** para inspecionar a lista de gráficos expostos e seus parâmetros. Estes nós de instância têm um rótulo *verde*.\
 Clique com o botão direito do mouse no nó para abrir seu menu contextual e selecione a opção **Carregar pacote**.
 
 >[!NOTE]

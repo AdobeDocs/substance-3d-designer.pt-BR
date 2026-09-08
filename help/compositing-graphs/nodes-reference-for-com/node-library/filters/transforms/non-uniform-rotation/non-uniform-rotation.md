@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Rotação não uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 1%
@@ -28,12 +28,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](non-uniform-rotation.resources/non-uniform-rotation-01.png){width="200px"}
+![](../../../../../../assets/nonuniformrotationgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](non-uniform-rotation.resources/non-uniform-rotation-02.png){width="200px"}
+![](../../../../../../assets/nonuniformrotationcolor.png){width="200px"}
 
 </td>
 </tr>
@@ -74,8 +74,8 @@ Valores positivos na entrada **Mapa de rotação** resultam em uma rotação *ho
 | <b>Multiplicador de Ângulo de Rotação</b> <i>Flutuante</i> | Ajusta a intensidade da entrada de **Mapa de rotação**. |
 | <b>Deslocamento do Ângulo de Rotação</b> <i>Flutuante</i> | Aplica a quantidade adicional especificada de rotação. |
 | <b>Usar o Mapa de Posição de pivô</b> <i>Booleano</i> | Use uma *entrada de bitmap* para especificar a posição da tabela dinâmica de rotação. A posição **X/Y** está mapeada para os canais **R/G** da entrada **Mapa de Posições**. |
-| <b>Posição de pivô</b> <i>Precisão decimal 2</i> | A posição da tabela dinâmica em torno da qual a imagem é girada. |
-| <b>Cor do plano de fundo</b> <i>Precisão decimal/Precisão decimal 4</i> | Cor do plano de fundo para exibir *fora* dos limites da imagem caso a divisão em blocos gráficos não esteja definida como **Divisão em blocos gráficos em H e V**. |
+| <b>Posição de pivô</b> <i>Flutuante2</i> | A posição da tabela dinâmica em torno da qual a imagem é girada. |
+| <b>Cor do plano de fundo</b> <i>Flutuante/Flutuante4</i> | Cor do plano de fundo para exibir *fora* dos limites da imagem caso a divisão em blocos gráficos não esteja definida como **Divisão em blocos gráficos em H e V**. |
 | <b>Modo de Filtragem</b> <i>Inteiro</i> | Define como tratar os resultados de amostra ao *interpolar* entre pixels:<br><br>- *Mais próximo*: obterá uma amostra exatamente do *mesmo* valor (mais rápido)<br>- *Bilinear*: aplicará um filtro bilinear no resultado para uma aparência *mais suave* |
 
 ## Exemplos
@@ -83,13 +83,13 @@ Valores positivos na entrada **Mapa de rotação** resultam em uma rotação *ho
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="non-uniform-rotation.resources/non-uniform-rotation-03.gif" />
+            <img src="../../../../../../assets/nonuniformrotation-demo-02-resized.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="non-uniform-rotation.resources/non-uniform-rotation-04.jpg" />
+            <img src="../../../../../../assets/nonuniformrotation-variant-png.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="non-uniform-rotation.resources/non-uniform-rotation-05.png" />
+            <img src="../../../../../../assets/nonuniformrotation-node.png" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dust
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](dust.resources/dust-01.png){width="128px"}
+![](../../../../../../assets/dust.png){width="128px"}
 
 <b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## Descrição
 
-Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras Inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) do [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) do [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Essa máscara representa o dust acumulado em áreas ocultas, rebaixadas, bem como apenas em áreas voltadas para cima. Requer AO cozido e World Space Normals adequados para funcionar.
+Essa máscara representa o dust acumulado em áreas ocultas, rebaixadas, bem como apenas em áreas voltadas para cima. Requer AO feito bake adequado e World Space Normals para funcionar.
 
 </td>
 </tr>
@@ -69,7 +69,7 @@ Essa máscara representa o dust acumulado em áreas ocultas, rebaixadas, bem com
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="dust.resources/dust-02.gif" />
+            <img src="../../../../../../assets/dust-ex.gif" />
         </td>
     </tr>
 </table>

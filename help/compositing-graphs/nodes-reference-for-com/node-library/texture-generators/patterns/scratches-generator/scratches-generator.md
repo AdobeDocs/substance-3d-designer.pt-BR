@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
 breadcrumb-title: ''
-description: Use o nó Gerador de Scratches para criar padrões de rascunho de procedimento para adicionar desgaste e danos aos materiais.
+description: Use o nó Gerador de Scratches para criar padrões de rascunho processuais para adicionar desgaste e danos aos materiais.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Scratches Generator
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gerador de Scratches
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](scratches-generator.resources/scratches-generator-01.png)
+![](../../../../../../assets/scratches-generator.png)
 
-<b>Em:</b> Geradores De Textura > Padrões
+<b>Em:</b> Textura Geradores > Padrões
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -73,10 +73,10 @@ Há uma versão especial de Scratches Generator, Scratches Generator Normal, que
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="scratches-generator.resources/scratches-generator-02.png" />
+            <img src="../../../../../../assets/scratches-ex1.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="scratches-generator.resources/scratches-generator-03.png" />
+            <img src="../../../../../../assets/scratches-ex2.png" />
         </td>
     </tr>
 </table>

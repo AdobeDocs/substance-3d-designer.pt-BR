@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Combinar de ajuste de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-adjustment-blend.resources/material-adjustment-blend-01.png){width="128px"}
+![](../../../../../../assets/material-adjustment-blend.png){width="128px"}
 
 <b>Em:</b> Filtros Materiais > Mesclagem
 
@@ -57,8 +57,8 @@ Este nó permite o ajuste de todos e quaisquer canais de um material completo, c
 |  |  |
 |:---|:---|
 | <b>Canais</b> | Ativa e desativa os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza.<br><br>Isso também ativa e desativa a aparência dos grupos relevantes do canal. |
-| <b>Difusa</b> | Executa operações de ajuste no canal da Difusão, em áreas definidas pela máscara. |
-| <b>Cor base</b> | Executa operações de ajuste no canal de Cor de base, em áreas definidas pela máscara. |
+| <b>Difusões</b> | Executa operações de ajuste no canal da Difusão, em áreas definidas pela máscara. |
+| <b>Cor de base</b> | Executa operações de ajuste no canal de Cor de base, em áreas definidas pela máscara. |
 | <b>Normal</b> |  |
 | <b>Intensidade</b> <i>0.0 - 1.0</i> | Reduz a intensidade normal |
 | <b>Specular</b> | Executa operações de ajuste no canal de Specular, em áreas definidas pela máscara. |

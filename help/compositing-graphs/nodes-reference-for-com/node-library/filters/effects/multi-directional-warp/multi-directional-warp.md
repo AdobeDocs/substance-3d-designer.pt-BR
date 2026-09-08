@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Várias Deformações direcionais
+title: Distorção multidirecional
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-directional-warp.resources/multi-directional-warp-01.png)![](multi-directional-warp.resources/multi-directional-warp-02.png)
+![](../../../../../../assets/multi-directional-warp-color.png)![](../../../../../../assets/multi-directional-warp-grayscalepng.png)
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Descrição
 
-A Distorção Multidirecional aplica a [Distorção Direcional](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) várias vezes em direções opostas, enquanto a textura deslocada permanece no lugar. Ele difere da Distorção direcional padrão na medida em que pode empurrar em várias direções, enquanto a versão atômica só permite uma. Dessa forma, ele resolve o problema clássico em que a Deformação direcional sempre parece afastar demais a imagem em uma única direção. Em vez disso, ela funciona ao longo de várias direções ou eixos em vez de uma única direção.
+A Distorção Multidirecional aplica a [Distorção Direcional](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) várias vezes em direções opostas, enquanto a textura deslocada permanece no lugar. Ele difere da Distorção direcional padrão na medida em que pode empurrar em várias direções, enquanto a versão atômica só permite uma. Dessa forma, ele resolve o problema clássico em que a Distorção direcional sempre parece afastar demais a imagem em uma única direção. Em vez disso, ele funciona ao longo de várias direções ou eixos em vez de uma única direção.
 
 Difere principalmente de [Non Uniform Directional Warp](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md) no sentido de que é um pouco mais limitado: a direção da distorção é controlada apenas através de parâmetros e não pode ser definida através de um mapa de entrada. A vantagem é que é um pouco mais fácil de usar e pode ser mais preciso, dependendo do seu caso de uso.
 

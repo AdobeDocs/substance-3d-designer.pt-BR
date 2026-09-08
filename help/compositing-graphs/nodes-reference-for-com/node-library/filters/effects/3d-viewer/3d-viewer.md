@@ -1,7 +1,7 @@
 ---
 title: Visualizador 3D
 description: Designer > Gráficos de composição de Substance > Referência dos nós para gráficos de composição de Substance > Biblioteca de nós > Filtro > Efeito > Visualizador 3D
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1989'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de visualizador 3D](./3d-viewer.resources/3d-viewer-01.png "visualizador 3D")
+![Ícone de visualizador 3D](./3d-viewer.resources/3d-viewer.png "visualizador 3D")
 
 <b>Entrada:</b> Filtro > Efeito
 
@@ -91,9 +91,9 @@ Computa uma renderização 3D para um SDF especificado ou uma cena de interseç�
 | <b>Colorir fora do quadro</b> *Booleano* | Aplica uma cor vermelha às superfícies fora do quadro delimitador.<br><br>Isso ajuda a verificar se a cena está totalmente incluída em seu quadro delimitador. |
 | <b>Eixo</b> *Booleano* | Uma visualização dos eixos XYZ da cena como linhas coloridas começando na origem da cena. |
 | <b>Grade</b> *Booleano* | Uma visualização de uma grade colocada nos eixos XY, onde o tamanho de uma célula em X e Y é uma unidade de cena. |
-| <b>Transformar auxiliares</b> *Booleano* | Uma visualização da última rotação aplicada.<br><br>A visualização inclui<br>- <b>uma seta</b> que representa o vetor de direção do eixo de rotação e é colorida após as espessuras de cada eixo do espaço global.<br>- <b>Um arco</b> que representa o ângulo de rotação, ortogonal à seta que corresponde à sua cor. |
+| <b>Auxiliares de transformação</b> *Booleano* | Uma visualização da última rotação aplicada.<br><br>A visualização inclui<br>- <b>uma seta</b> que representa o vetor de direção do eixo de rotação e é colorida após as espessuras de cada eixo do espaço global.<br>- <b>Um arco</b> que representa o ângulo de rotação, ortogonal à seta que corresponde à sua cor. |
 | <b>Isolamentos de SDF</b> *Booleano* | Uma visualização colorida das isolinhas de função do campo de distância assinado (SDF).<br><br>As isolinhas são linhas de repetição regular que representam o <i>campo de distância</i> da forma no plano XY em um determinado height.<br><br>Eles são úteis para verificar a <i>uniformidade do espaço</i> definido pela Função SDF.<br><br>Use os parâmetros <b>Frequência de isolamentos do SDF</b> e <b>Posição de isolamentos do SDF</b> para ajustar a densidade e o height das isolinhas. |
-| <b>Frequência de isolamentos do SDF</b> *Precisão decimal* | A quantidade de repetições isoladas dentro de uma determinada distância.<br><br>Um valor mais alto resulta em linhas mais densas e mais finas. |
+| <b>Frequência de isolamentos do SDF</b> *Flutuante* | A quantidade de repetições isoladas dentro de uma determinada distância.<br><br>Um valor mais alto resulta em linhas mais densas e mais finas. |
 | <b>Posição de isolinhas do SDF</b> *Flutuante* | O height espacial mundial do plano XY usado para desenhar as isolinas.<br><br>Use esta opção para verificar o campo de distância da forma em várias elevações. |
 | <b>Mín. distância da ocorrência</b> *Flutuante* | Define a distância mínima que se traduz em uma ocorrência para o processo de marcação de raio SDF.<br><br>Um valor baixo aumentará o número de etapas de marcação de raio. |
 
@@ -102,24 +102,24 @@ Computa uma renderização 3D para um SDF especificado ou uma cena de interseç�
 <table style="border: none;">
     <tr style="width: 50%;">
         <td style="text-align: center">
-            <img src="3d-viewer.resources/3d-viewer-02.jpg" alt="Exemplo 1" />
+            <img src="3d-viewer.resources/3d-viewer-example-01.jpg" alt="Exemplo 1" />
         </td>
         <td style="width: 50%;">
             <table style="border: none;">
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-03.jpg" alt="Exemplo 1" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02a.jpg" alt="Exemplo 1" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-04.jpg" alt="Exemplo 2" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02b.jpg" alt="Exemplo 2" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-05.jpg" alt="Exemplo 3" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02c.jpg" alt="Exemplo 3" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-06.jpg" alt="Exemplo 4" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02d.jpg" alt="Exemplo 4" />
                     </td>
                 </tr>
             </table>

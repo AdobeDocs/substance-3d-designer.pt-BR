@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
 breadcrumb-title: ''
-description: Use o nó Pow para aplicar ajustes da função de energia às texturas para controlar as curvas de brilho e a correção de gama.
+description: Use o nó Pow para aplicar ajustes da função de energia ao textura para controlar as curvas de brilho e a correção de gama.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Pow
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pot
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pow.resources/pow-01.png){width="128px"}
+![](../../../../../../assets/pow-1.png){width="128px"}
 
-![](pow.resources/pow-02.png){width="128px"}
+![](../../../../../../assets/pow-grayscale.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -56,7 +56,7 @@ Importante: certifique-se de usar a versão correta, dependendo se você possui 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="pow.resources/pow-03.gif" />
+            <img src="../../../../../../assets/pow.gif" />
         </td>
     </tr>
 </table>

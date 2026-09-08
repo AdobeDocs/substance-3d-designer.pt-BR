@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Luz de linha
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](line-light.resources/line-light-01.png){width="200px"}
+![](../../../../../../assets/panorama-line-light.png){width="200px"}
 
 <b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
@@ -57,7 +57,7 @@ Os modos de posicionamento para este nó são ligeiramente mais complexos do que
 
 |  |  |
 |:---|:---|
-| <b>Modo de Posição</b> <i>Solo/Teto, Distância da origem, Posições Mundiais</i> | Selecione um dos três modos diferentes de inserção. O solo/teto e a Distância da origem suportam a manipulação na visualização 2D, as posições do mundo só podem ser alteradas por meio de propriedades, mas suportam um posicionamento mais exato. |
+| <b>Modo de Posição</b> <i>Solo/Teto, Distância da origem, Posições Mundiais</i> | Selecione um dos três modos diferentes de inserção. Manipulação de suporte de terra/teto e Distância da origem na Visualização 2D, as posições do mundo só podem ser alteradas por meio de propriedades, mas suportam um posicionamento mais exato. |
 | <b>Mostrar grade terrestre</b> <i>Falso/Verdadeiro</i> | Função auxiliar para habilitar o desenho de uma grade de aterramento de depuração. Ajuda a estimar a posição das linhas no espaço. |
 | <b>Coordenadas de Posição</b> |  |
 | <b>Vetor para cima</b> <i>Z Para Cima, Y Para Cima</i> | Somente com o modo Posição mundial, determine a orientação do sistema de coordenadas. |
@@ -91,7 +91,7 @@ Os modos de posicionamento para este nó são ligeiramente mais complexos do que
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="line-light.resources/line-light-02.gif" />
+            <img src="../../../../../../assets/line-light-ex.gif" />
         </td>
     </tr>
 </table>

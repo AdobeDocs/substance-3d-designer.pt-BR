@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruído branco
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ruído branco - Ícone](white-noise.resources/white-noise-01.png "Ruído branco - Ícone"){width="200px"}
+![Ruído branco - Ícone](../../../../../../assets/white_noise_v2.png "Ruído branco - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -63,12 +63,12 @@ Gera um ruído branco usando um dos três métodos disponíveis para definir dif
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruído branco - Exemplo 1](white-noise.resources/white-noise-02.png "Ruído branco - Exemplo 1"){zoomable="yes"}
+![Ruído branco - Exemplo 1](../../../../../../assets/white_noise_v2_1.png "Ruído branco - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruído branco - Exemplo 2](white-noise.resources/white-noise-03.gif "Ruído branco - Exemplo 2"){zoomable="yes"}
+![Ruído branco - Exemplo 2](../../../../../../assets/white_noise_v2_speed0.6_aniso0.gif "Ruído branco - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>

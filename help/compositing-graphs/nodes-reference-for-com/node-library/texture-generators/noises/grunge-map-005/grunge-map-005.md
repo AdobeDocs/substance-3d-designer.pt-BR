@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa do desgaste 005
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-005.resources/grunge-map-005-01.png){width="128px"}
+![](../../../../../../assets/grungemap-005.png){width="128px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 ## Descrição
 
-Isso gera um Noisemap complexo e combinado. Pode ser muito útil como um processual detalhado, mas tenha em mente que eles exigem muito desempenho e, portanto, são mais lentos de gerar.
+Isso gera um Noisemap complexo e combinado. Pode ser muito útil como um procedimento detalhado, mas tenha em mente que eles exigem muito desempenho e, portanto, são mais lentos de gerar.
 
 </td>
 </tr>
@@ -57,7 +57,7 @@ Isso gera um Noisemap complexo e combinado. Pode ser muito útil como um process
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-005.resources/grunge-map-005-02.gif" />
+            <img src="../../../../../../assets/grungemap-005-ex.gif" />
         </td>
     </tr>
 </table>

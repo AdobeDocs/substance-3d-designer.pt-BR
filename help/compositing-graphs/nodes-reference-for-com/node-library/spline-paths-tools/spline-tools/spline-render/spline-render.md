@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderização de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](spline-render.resources/spline-render-01.png "Ícone de nó")
+![Ícone de nó](../../../../../../assets/spline-render-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -98,11 +98,11 @@ Desenha cadeias de segmentos ao longo das <b>Splines</b> de entrada sobre o <b>F
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/spline-render-02.jpg" alt="SplineRender-Variant2-Before">
+      <img src="../../../../../../assets/SplineRender-Variant2-Before.jpg" alt="SplineRender-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-render.resources/spline-render-03.jpg" alt="SplineRender-Variant2-After">
+      <img src="../../../../../../assets/SplineRender-Variant2-After.jpg" alt="SplineRender-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -114,11 +114,11 @@ Desenha cadeias de segmentos ao longo das <b>Splines</b> de entrada sobre o <b>F
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/spline-render-04.jpg" alt="SplineRender-Variant1-Before">
+      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-render.resources/spline-render-05.jpg" alt="SplineRender-Variant1-After">
+      <img src="../../../../../../assets/SplineRender-Variant1-After.jpg" alt="SplineRender-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -135,11 +135,11 @@ Desenha cadeias de segmentos ao longo das <b>Splines</b> de entrada sobre o <b>F
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/spline-render-04.jpg" alt="SplineRender-Variant1-Before">
+      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="spline-render.resources/spline-render-06.jpg" alt="SplineRender-Variant3">
+      <img src="../../../../../../assets/SplineRender-Variant3.jpg" alt="SplineRender-Variant3">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -148,7 +148,7 @@ Desenha cadeias de segmentos ao longo das <b>Splines</b> de entrada sobre o <b>F
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](spline-render.resources/spline-render-07.gif "Exemplo de nó 1")
+![Exemplo de nó 1](../../../../../../assets/SplineRender-Demo.gif "Exemplo de nó 1")
 
 </td>
 </tr>

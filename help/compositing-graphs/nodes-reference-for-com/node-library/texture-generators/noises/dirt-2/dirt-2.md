@@ -10,7 +10,7 @@ helpx_tags: ""
 title: DIRT 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dirt 2 - Ícone](dirt-2.resources/dirt-2-01.png "Dirt 2 - Ícone"){width="200px"}
+![Dirt 2 - Ícone](../../../../../../assets/dirt_2.png "Dirt 2 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -69,12 +69,12 @@ Veja também: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 2 - Exemplo 1](dirt-2.resources/dirt-2-02.png "Dirt 2 - Exemplo 1"){zoomable="yes"}
+![Dirt 2 - Exemplo 1](../../../../../../assets/dirt_2_1.png "Dirt 2 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 2 - Exemplo 2](dirt-2.resources/dirt-2-03.gif "Dirt 2 - Exemplo 2"){zoomable="yes"}
+![Dirt 2 - Exemplo 2](../../../../../../assets/noise_dirt_2_v2_speed0.6_aniso0.gif "Dirt 2 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Veja também: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 2 - Exemplo 3](dirt-2.resources/dirt-2-04.gif "Dirt 2 - Exemplo 3"){zoomable="yes"}
+![Dirt 2 - Exemplo 3](../../../../../../assets/noise_dirt_2_v2_speed0.6_aniso1.gif "Dirt 2 - Exemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 2 - Exemplo 4](dirt-2.resources/dirt-2-05.gif "Dirt 2 - Exemplo 4"){zoomable="yes"}
+![Dirt 2 - Exemplo 4](../../../../../../assets/noise_dirt_2_v2_speed0.3_aniso0.6.gif "Dirt 2 - Exemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

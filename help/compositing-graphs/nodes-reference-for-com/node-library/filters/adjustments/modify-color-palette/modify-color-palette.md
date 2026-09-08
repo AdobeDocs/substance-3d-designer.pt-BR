@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Modificar paleta de cores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Quantizar Cor](modify-color-palette.resources/modify-color-palette-01.png "ícone Quantizar Cor"){width="200px"}
+![Ícone Quantizar Cor](../../../../../../assets/ModifyColorPalette.png "ícone Quantizar Cor"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -82,18 +82,18 @@ Este nó pode ser usado em combinação com os seguintes nós: [Quantificar cor]
 
 ## Exemplos
 
-![Modificar paleta de cores: exemplo 1](modify-color-palette.resources/modify-color-palette-02.png "Modificar paleta de cores: exemplo 1"){zoomable="yes"}
+![Modificar paleta de cores: exemplo 1](../../../../../../assets/modify_color_palette_example_1.png "Modificar paleta de cores: exemplo 1"){zoomable="yes"}
 
-![Modificar paleta de cores: exemplo 2](modify-color-palette.resources/modify-color-palette-03.png "Modificar paleta de cores: exemplo 2"){zoomable="yes"}
+![Modificar paleta de cores: exemplo 2](../../../../../../assets/modify_color_palette_example_3.png "Modificar paleta de cores: exemplo 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="modify-color-palette.resources/modify-color-palette-04.jpg" alt="modify_color_example_2_before">
+      <img src="../../../../../../assets/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="modify-color-palette.resources/modify-color-palette-05.jpg" alt="modify_color_example_2_after">
+      <img src="../../../../../../assets/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
       <br><i>Depois</i>
     </td>
   </tr>

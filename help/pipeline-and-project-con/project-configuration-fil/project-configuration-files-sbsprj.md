@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Arquivos de configuração de projeto - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Eles são especiais porque você pode usar vários arquivos de configuração de
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Ícone de arquivo SBSPRJ](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-01.png "ícone de arquivo SBSPRJ")
+![Ícone de arquivo SBSPRJ](../../assets/sbsprj.png "ícone de arquivo SBSPRJ")
 
 </td>
 </tr>
@@ -59,7 +59,7 @@ Os arquivos de projeto podem conter as seguintes configurações:
 
 <b>Aliases: </b>Aliases de palavras-chave para caminhos relativos.
 
-<b>Fazendo bake: </b>Configurações para fazer bake convenções de nomenclatura.
+<b>Preparação: </b>Configurações para convenções de nomenclatura de cozimento.
 
 <b>Geral: </b>Modelos de gráfico, plug-ins de espaço tangente, padrões de formato normal e de imagem.
 
@@ -85,7 +85,7 @@ Para o Windows, o [Bloco de Notas++](https://notepad-plus-plus.org) é uma boa o
 
 Depois de abrir o arquivo SBSPRJ em um editor, você verá um layout estruturado bastante direto, com seções correspondentes a guias na interface do usuário. Nem todas as configurações serão documentadas aqui, pois isso é razoavelmente autoexplicativo.
 
-![Edição de XML](project-configuration-files-sbsprj.resources/project-configuration-files-sbsprj-02.png "Edição de XML")
+![Edição de XML](../../assets/project-xml.png "Edição de XML")
 
 ## Caminhos e aliases relativos
 

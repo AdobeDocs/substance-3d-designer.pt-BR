@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Voronoi Fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](voronoi-fractal.resources/voronoi-fractal-01.png){width="200px"}
+![](../../../../../../assets/voronoifractal.png){width="200px"}
 
 <b>Entrada:</b> Geradores de Textura > Ruídos
 
@@ -57,10 +57,10 @@ Este nó pode ser testado com [GBuffers de Cubo](../../../../../../compositing-g
 | <b>Deslocamento</b> <i>Flutuante3</i> | Aplica um deslocamento à *posição* do ruído fractal de Voronoi nos eixos **X**, **Y** e **Z**. |
 | <b>Desordem</b> <i>Flutuante3</i> | A intensidade do *deslocamento aleatório* aplicado a cada ponto do ruído nos eixos **X**, **Y** e **Z**. |
 | <b>Intensidade de Distorção</b> <i>Flutuante</i> | Controla a intensidade de um *efeito de distorção* aplicado no ruído fractal de Voronoi. |
-| <b>Multiplicador de Escala de Distorção</b> <i>Precisão decimal</i> | Controla a escala do *padrão de deformação* usado no efeito de distorção controlado pela **Intensidade de Distorção**. |
+| <b>Multiplicador de Escala de Distorção</b> <i>Flutuante</i> | Controla a escala do *padrão de deformação* usado no efeito de distorção controlado pela **Intensidade de Distorção**. |
 | <b>Nível Mínimo</b> <i>Inteiro</i> | O *nível mínimo de repetição* usado no padrão fractal. Um intervalo mínimo/máximo mais amplo resulta em um *padrão mais rico* com variação em intervalos de frequência mais amplos. |
 | <b>Nível Máximo</b> <i>Inteiro</i> | O *nível máximo de repetição* usado no padrão fractal. Um intervalo mínimo/máximo mais amplo resulta em um *padrão mais rico* com variação em intervalos de frequência mais amplos. |
-| <b>Aspereza</b> <i>Precisão decimal</i> | Controla o *equilíbrio* entre *níveis de repetição* baixos e altos no padrão fractal.<br><br>*Observação*: um valor de **0** resulta em uma saída *não alinhada* com outros valores baixos que o seguem. Isso é esperado.<br><br>*Observação 2*: este parâmetro só está disponível quando o parâmetro **Modo Combinar** está definido como *Adicionar*. |
+| <b>Aspereza</b> <i>Flutuante</i> | Controla o *equilíbrio* entre *níveis de repetição* baixos e altos no padrão fractal.<br><br>*Observação*: um valor de **0** resulta em uma saída *não alinhada* com outros valores baixos que o seguem. Isso é esperado.<br><br>*Observação 2*: este parâmetro só está disponível quando o parâmetro **Modo de Mesclagem** está definido como *Adicionar*. |
 | <b>Lacunaridades</b> <i>Flutuante</i> | Controla como o padrão fractal *aplicado preenche o espaço*. Um valor *mais alto* resulta em *menos lacunas* no padrão e em um ruído *mais denso*. |
 | <b>Opacidade Global</b> <i>Flutuante</i> | Controla o *intervalo* dos valores de ruído fractal de Perlin de 0. |
 | <b>Curva arredondada</b> <i>Flutuante</i> | Arredonda a *inclinação* em torno de cada ponto do ruído para torná-lo *convexo*.<br><br>*Observação*: este parâmetro não está disponível quando o parâmetro **Style** está definido como *Borda*. |
@@ -79,28 +79,28 @@ Este nó pode ser testado com [GBuffers de Cubo](../../../../../../compositing-g
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-02.gif" />
+            <img src="../../../../../../assets/fractal-voronoi-sea.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-03.gif" />
+            <img src="../../../../../../assets/fractal-voronoi-scifi-panel.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-04.jpg" />
+            <img src="../../../../../../assets/voronoifractal-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-05.jpg" />
+            <img src="../../../../../../assets/voronoifractal-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-06.jpg" />
+            <img src="../../../../../../assets/voronoifractal-variant6.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-07.jpg" />
+            <img src="../../../../../../assets/voronoifractal-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-08.jpg" />
+            <img src="../../../../../../assets/voronoifractal-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoi-fractal-09.jpg" />
+            <img src="../../../../../../assets/voronoifractal-variant4.jpg" />
         </td>
     </tr>
 </table>

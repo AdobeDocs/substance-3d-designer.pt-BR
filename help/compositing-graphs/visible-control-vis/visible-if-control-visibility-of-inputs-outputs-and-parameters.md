@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visível se expressões
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Para isso, você pode inserir uma *expressão lógica* na propriedade <b>Visible
 * nó [de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) de um gráfico;
 * nó [de saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) de um gráfico.
 
-![Alternando a visibilidade do parâmetro de entrada](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-control-visibility-of-inputs-outputs-and-parameters-01.gif "Alternando a visibilidade do parâmetro de entrada"){width="512px"}
+![Alternando a visibilidade do parâmetro de entrada](../../assets/visible-if-example.gif "Alternando a visibilidade do parâmetro de entrada"){width="512px"}
 
 Se a expressão lógica for avaliada como `true`, o parâmetro, a entrada ou a saída será exibido em todos os [nós de instância](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) que representam o gráfico atual. Caso contrário, ele será *oculto*.
 

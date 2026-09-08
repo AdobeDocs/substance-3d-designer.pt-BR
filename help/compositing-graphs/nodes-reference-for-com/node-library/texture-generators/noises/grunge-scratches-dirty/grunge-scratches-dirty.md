@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scratches de desgaste sujo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-scratches-dirty.resources/grunge-scratches-dirty-01.jpg){width="200px"}
+![](../../../../../../assets/grungescratchesdirty.jpg){width="200px"}
 
 <b>Entrada:</b> Geradores de Textura > Ruídos
 
@@ -45,23 +45,23 @@ O nó **Scratches de Desgaste Sujo** gera um mapa de desgaste semelhante a uma s
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
-| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
+| <b>Saldo</b> <i>Precisão decimal</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Precisão decimal</i> | Ajusta o contraste da imagem. |
 | <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
 | <b>Avançado</b> |  |
-| <b>Intensidade de Desgaste base</b> <i>Flutuante</i> | Ajusta a intensidade do mapa de desgaste aplicado à superfície base. |
-| <b>Intensidade de Scratches</b> <i>Flutuante</i> | Ajusta a intensidade dos arranhões na superfície base. |
+| <b>Intensidade de Desgaste base</b> <i>Precisão decimal</i> | Ajusta a intensidade do mapa de desgaste aplicado à superfície base. |
+| <b>Intensidade de Scratches</b> <i>Precisão decimal</i> | Ajusta a intensidade dos arranhões na superfície base. |
 
 ## Exemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-dirty.resources/grunge-scratches-dirty-02.jpg" />
+            <img src="../../../../../../assets/grungescratchesdirty-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-dirty.resources/grunge-scratches-dirty-03.jpg" />
+            <img src="../../../../../../assets/grungescratchesdirty-variant.jpg" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Propriedades
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,7 +33,7 @@ O painel <b>Propriedades </b> é um painel sensível ao contexto que muda com ba
 </td>
 <td style="border: 0;" valign="top">
 
-![Áreas de propriedades](properties.resources/properties-01.png "Áreas de propriedades")
+![Áreas de propriedades](../../assets/image2020-11-9-13-49-48.png "Áreas de propriedades")
 
 </td>
 </tr>

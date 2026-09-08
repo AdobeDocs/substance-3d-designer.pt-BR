@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
 breadcrumb-title: ''
-description: Use o nó Desfoque de Inclinação para aplicar efeitos de desfoque direcional com base nas inclinações do mapa de height para criar desfoque de movimento.
+description: Use o nó Desfoque de Inclinação para aplicar efeitos de desfoque direcional com base em inclinações do mapa de altura para criar desfoque de movimento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Slope Blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desfoque de inclinação
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 3%
@@ -24,9 +24,9 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](slope-blur.resources/slope-blur-01.png){width="128px"}
+![](../../../../../../assets/slope-blur.png){width="128px"}
 
-![](slope-blur.resources/slope-blur-02.png){width="128px"}
+![](../../../../../../assets/slope-blur-grayscale.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Desfoques
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## Descrição
 
-Executa um desfoque avançado de Alta Qualidade em que a Anisotropia/Direção é orientada por um “Mapa de Inclinação” em Tons de Cinza. Imagine-o como o efeito Desfoque de Inclinação seguindo as inclinações do seu Mapa de Inclinação como se ele fosse um Heightmap, semelhante à [Distorção direcional](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) (na qual ele se baseia internamente).
+Executa um desfoque avançado de Alta Qualidade em que a Anisotropia/Direção é orientada por um “Mapa de Inclinação” em Tons de Cinza. Imagine-o como o efeito Desfoque de Inclinação seguindo as inclinações do Mapa de Inclinação como se ele fosse um Mapa de altura, semelhante à [Deformação direcional](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) (na qual ele se baseia internamente).
 
 Este é um dos desfoques mais interessantes e poderosos do Designer. Ele pode ser usado para obter alguns efeitos muito interessantes e inesperados, como lascas e bordas de intemperismo ou manchas e vazamento de dirt ou ferrugem.
 
@@ -68,10 +68,10 @@ Importante: certifique-se de usar a versão apropriada para sua entrada! Use “
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="slope-blur.resources/slope-blur-03.gif" />
+            <img src="../../../../../../assets/slopeblur01.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="slope-blur.resources/slope-blur-04.gif" />
+            <img src="../../../../../../assets/slopeblur02.gif" />
         </td>
     </tr>
 </table>
