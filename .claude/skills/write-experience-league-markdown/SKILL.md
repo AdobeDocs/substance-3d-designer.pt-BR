@@ -93,7 +93,7 @@ do que inventar um novo HTML em linha, a menos que seja necessário.
 
 * Código incorporado: mochilões únicos.
 * Blocos cercados: triplos backticks, com uma linguagem opcional para sintaxe
-realçando (` ```python `, ` ```javascript ` etc.).
+realçando (` `&#x200B;``python `, ` ``&#x200B;`javascript ` etc.).
 
 ## Blocos de notas/alertas
 
