@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Acesse a janela Preferências no Substance 3D Designer para personalizar as configurações e o comportamento do aplicativo.
 helpx_creative_field: ""
@@ -191,7 +191,7 @@ Consulte a página [Configurações de projetos](../../interface/preferences-win
 
 |  |  |
 | --- | --- |
-| <b>Rastreamento de raios do GPU</b>  *Padrão: Verificado* | Se marcado, o rastreamento de raios será executado na GPU para [padeiros compatíveis](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing).   As seguintes infraestruturas de Rastreamento de raios do GPU serão o padrão, dependendo da arquitetura da GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing e mais recentes</li> <li data-preserve-html="true"><i>Optix</i>: Pascal e Maxwell</li> </ul>  **Observação:** mais informações sobre padeiros alimentados por GPU estão disponíveis na seção [Rastreamento de raios do GPU](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) da documentação do [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).  **Dica:** você pode usar os *argumentos de linha de comando* a seguir ao iniciar o aplicativo para *forçar* o uso de uma infraestrutura de Rastreamento de raios do GPU diferente: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forçar o uso do Optix na Turing da Nvidia ou GPUs mais novas</li> <li data-preserve-html="true"><code>—force-dxr</code> : forçar o uso de DXR em GPUs Nvidia Pascal</li> </ul> |
+| <b>Rastreamento de raios do GPU</b>  *Padrão: Verificado* | Se marcado, o rastreamento de raios será executado na GPU para [padeiros compatíveis](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/features/gpu-raytracing).   As seguintes infraestruturas de Rastreamento de raios do GPU serão o padrão, dependendo da arquitetura da GPU NVIDIA:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: Turing e mais recentes</li> <li data-preserve-html="true"><i>Optix</i>: Pascal e Maxwell</li> </ul>  **Observação:** mais informações sobre padeiros alimentados por GPU estão disponíveis na seção [Rastreamento de raios do GPU](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/features/gpu-raytracing) da documentação do [Substance Bakers](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/home).  **Dica:** você pode usar os *argumentos de linha de comando* a seguir ao iniciar o aplicativo para *forçar* o uso de uma infraestrutura de Rastreamento de raios do GPU diferente: <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : forçar o uso do Optix na Turing da Nvidia ou GPUs mais novas</li> <li data-preserve-html="true"><code>—force-dxr</code> : forçar o uso de DXR em GPUs Nvidia Pascal</li> </ul> |
 
 ## Biblioteca
 
