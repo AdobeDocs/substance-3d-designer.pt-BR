@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
 breadcrumb-title: ''
 description: Use o nó Noise Upscale 2 para aumentar as texturas usando a interpolação baseada em ruído para manter a qualidade da textura em tamanhos maiores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Aumento de ruído 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-2.resources/noise-upscale.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Transformas
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Descrição
 
-Utiliza um procedimento de ruído de entrada e o dimensiona para resolução dupla, mantendo os detalhes, mas sem introduzir muitos ladrilhos. Usa um tipo “X” de máscara e mescla com menos contraste do que a entrada original (os modos de mesclagem internos são Máx e Mín).
+Utiliza um ruído de entrada processual e o dimensiona para resolução dupla, mantendo os detalhes, mas sem introduzir muitos ladrilhos. Usa um tipo “X” de máscara e mescla com menos contraste do que a entrada original (os modos de mesclagem internos são Máx e Mín).
 
 Este nó é destinado principalmente para otimizar gráficos lentos que usam ruídos pesados e grandes. Ele permite que você use resoluções mais altas sem introduzir muito tempo extra de computação.
 
@@ -59,7 +59,7 @@ Consulte também [Aumento de Ruído 1](../../../../../../compositing-graphs/node
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/noise2ex.png" />
+            <img src="noise-upscale-2.resources/noise2ex.png" />
         </td>
     </tr>
 </table>
