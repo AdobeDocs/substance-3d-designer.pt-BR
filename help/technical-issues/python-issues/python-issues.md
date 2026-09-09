@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/python-issues.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/python-issues.html"
 breadcrumb-title: ''
 description: Solução de problemas de script Python no Substance 3D Designer, incluindo problemas de plug-in e API.
 helpx_creative_field: ""
