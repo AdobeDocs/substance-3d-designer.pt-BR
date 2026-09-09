@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
 breadcrumb-title: ''
 description: Use o nó Posição de Textura 3D para extrair informações de posição de texturas 3D para criar efeitos espaciais e mapeamentos.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Posição da textura 3D
+title: Posição de Textura 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 3%
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# Posição da textura 3D
+# Posição de Textura 3D
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureposition.png){width="256px"}
+![](3d-texture-position.resources/3dtextureposition.png){width="256px"}
 
 <b>Entrada:</b> Filtro > Efeito
 
@@ -46,10 +46,10 @@ Isso pode ser usado para fazer bake ruídos ou funções 3D como um *atlas de te
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtextureposition-variant.jpg" />
+            <img src="3d-texture-position.resources/3dtextureposition-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtextureposition-node.png" />
+            <img src="3d-texture-position.resources/3dtextureposition-node.png" />
         </td>
     </tr>
 </table>

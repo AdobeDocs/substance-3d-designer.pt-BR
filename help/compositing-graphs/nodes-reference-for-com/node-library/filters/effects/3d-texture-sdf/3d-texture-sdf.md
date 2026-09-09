@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
 breadcrumb-title: ''
 description: Use o nó SDF de Textura 3D para gerar texturas de campo de distância assinadas a partir de dados 3D para criar formas e efeitos suaves.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: SDF de textura 3D
+title: SDF de Textura 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 ---
 
 
-# SDF de textura 3D
+# SDF de Textura 3D
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturesdf.png){width="200px"}
+![](3d-texture-sdf.resources/3dtexturesdf.png){width="200px"}
 
 <b>Entrada:</b> Filtro > Efeito
 
@@ -53,7 +53,7 @@ O nó **SDF** de Textura 3D gera o *campo de distância assinado* de uma forma a
 
 |  |  |
 |:---|:---|
-| <b>Limite</b> <i>Flutuante</i> | Quando o volume da forma é descrito por um <i>gradiente de desvanecimento</i>, define o valor do gradiente no qual a <i>superfície</i> da forma é <i>detectada</i>. |
+| <b>Limite</b> <i>Precisão decimal</i> | Quando o volume da forma é descrito por um <i>gradiente de desvanecimento</i>, define o valor do gradiente no qual a <i>superfície</i> da forma é <i>detectada</i>. |
 | <b>Saída</b> <i>Inteiro</i> | O tipo de campo de distância que deve ser gerado:<br>- <i>Campo de distância</i>: gera um campo de distância que descreve as distâncias <i>fora</i> da forma.<br>- <i>Campo de distância sinalizado</i>: gera um campo de distância que descreve as distâncias <i>fora</i> (positivas) e <i>dentro</i> (negativas) da forma. |
 
 ## Exemplos
@@ -61,13 +61,13 @@ O nó **SDF** de Textura 3D gera o *campo de distância assinado* de uma forma a
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesdf-variant.jpg" />
+            <img src="3d-texture-sdf.resources/3dtexturesdf-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesdf-variant2.jpg" />
+            <img src="3d-texture-sdf.resources/3dtexturesdf-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesdf-node.png" />
+            <img src="3d-texture-sdf.resources/3dtexturesdf-node.png" />
         </td>
     </tr>
 </table>
