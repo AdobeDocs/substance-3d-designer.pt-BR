@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
 breadcrumb-title: ''
 description: Use o nó Luz de plano para adicionar fontes de luz planar a ambientes HDRI para controle de iluminação direcional.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Luz do plano
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-plane-light.png){width="200px"}
+![](plane-light.resources/panorama-plane-light.png){width="200px"}
 
 <b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
@@ -89,7 +89,7 @@ Ela difere da [Luz de forma](../../../../../../compositing-graphs/nodes-referenc
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/plane-light-ex.gif" />
+            <img src="plane-light.resources/plane-light-ex.gif" />
         </td>
     </tr>
 </table>

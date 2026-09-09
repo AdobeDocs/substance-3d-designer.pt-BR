@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ''
 description: Use o nó 2D de transformação para aplicar transformações 2D a texturas, incluindo conversão, rotação e dimensionamento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformação 2D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Transformação 2D](../../../../assets/comp_transformation_1.png "Nó atômico: Transformação 2D"){width="200px"}
+![Nó atômico: Transformação 2D](transformation-2d.resources/comp_transformation_1.png "Nó atômico: Transformação 2D"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ No entanto, ela não pode ser uma combinação perfeita para determinados aplica
 > 
 > Defina o [método de herança](../../../../glossary/glossary.md) do &#39;Modo de divisão em blocos gráficos&#39; [parâmetro base](../../../../glossary/glossary.md) como &#39;Absoluto&#39;, que permite definir o valor do parâmetro como &#39;Sem divisão em blocos gráficos&#39;:
 > 
-> ![](../../../../assets/tilingmode.png)
+> ![](transformation-2d.resources/tilingmode.png)
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ No entanto, ela não pode ser uma combinação perfeita para determinados aplica
 | <b>Deslocamento</b> *Flutuante2* | Define o deslocamento 2D da imagem. Permite que você altere a posição ou o deslocamento Também pode ser ajustado através do cursor na visualização 2D.   Relaciona-se diretamente com a saída de visualização 2D. |
 | <b>Modo de mapa de mipmap</b> *Inteiro* | Permite alternar para um nível [mipmap](../../../../glossary/glossary.md) manual, que reduz artefatos em uma imagem usando filtragem de textura. |
 | <b>Nível do mipmap</b> *Inteiro* | Define o nível [mipmap](../../../../glossary/glossary.md) a ser usado.     *Disponível quando o &#39;Modo de mapa de mipmap&#39; estiver definido como &#39;Manual&#39;* |
-| <b>Cor fosca</b> *Precisão decimal 4* | A cor usada como plano de fundo quando a divisão em blocos gráficos da transformação está desativada. Ou seja, define a cor usada quando a entrada transformada não cobre uma área da saída.   Pode ser tornado transparente ao trabalhar com cores RGBA. |
+| <b>Cor fosca</b> *Flutuante4* | A cor usada como plano de fundo quando a divisão em blocos gráficos da transformação está desativada. Ou seja, define a cor usada quando a entrada transformada não cobre uma área da saída.   Pode ser tornado transparente ao trabalhar com cores RGBA. |
 | <b>Filtragem</b> *Inteiro* | Define o método de redução da resolução usado. Não funciona muito bem com a redução de Nível do mipmap. |
 
 ## Conectores de entrada

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ''
-description: Use o nó de Cor uniforme para gerar texturas de cor uniforme para criar preenchimentos de cores sólidas e camadas base.
+description: Use o nó Cor uniforme para gerar texturas de cores uniformes para criar preenchimentos de cores sólidas e camadas base.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Uniform color
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cor uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Cor uniforme](../../../../assets/comp_uniform_1.png "Nó atômico: Cor uniforme"){width="200px"}
+![Nó atômico: cor uniforme](uniform-color.resources/comp_uniform_1.png "Nó atômico: cor uniforme"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -96,7 +96,7 @@ Gera um valor plano de tons de cinza ou de cor.
 |  |  |
 | --- | --- |
 | <b>Modo de cores</b> *Booleano* | Alterna entre uma imagem em tons de cinza e uma imagem colorida de saída. |
-| <b>Cor de saída</b> *Precisão decimal/Precisão decimal 4* | Seleciona a cor uniforme a ser usada na imagem de saída.   Ao usar o modo de cores “Cor”, o canal Alfa é usado para opacidade, em que 0 é totalmente transparente e 1 é totalmente opaco. |
+| <b>Cor de saída</b> *Flutuante/Flutuante4* | Seleciona a cor uniforme a ser usada na imagem de saída.   Ao usar o modo de cores “Cor”, o canal Alpha é usado para opacidade, onde 0 é totalmente transparente e 1 é totalmente opaco. |
 
 ## Conectores de saída
 
