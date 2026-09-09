@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Revise as notas de versão do Substance 3D Designer versão 14.0 para saber mais sobre novos nós, navegação gráfica e melhorias de desempenho.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -24,7 +24,7 @@ O <b>Substance 3D Designer 14.0 </b>traz várias melhorias na qualidade de vida 
 
 *Data de lançamento: 30 de julho de 2024*
 
-![](version-14-0.resources/version-14-0-01.png)
+![](../../assets/2024-BannerRN.png)
 
 ## Novo conteúdo
 
@@ -32,13 +32,13 @@ Esta versão 14.0 traz muito conteúdo novo com os novos nós listados abaixo:
 
 * <b>Nós dedicados à manipulação de cores: </b>um nó <b>(</b>[Quantificar cores](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>a<b> </b>reduza o número de cores em uma imagem e extraia uma paleta dela, uma família de nós de ferramenta para criar sua própria paleta de cores ([Exibir](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Criar](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modificar](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>paleta de cores) e uma para aplicá-la a outra imagem usando um mapa de ID ([Aplicar paleta de cores](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). Você também encontrará o nó [ID para mascarar tons de cinza](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) para converter seu mapa de ID (calculado pela cor Quantizar) em uma máscara de tons de cinza. Com esse conjunto completo de nós, você tem tudo para criar efeitos de estilização usando cores.
 
-![](version-14-0.resources/version-14-0-02.gif){zoomable="yes"}
+![](../../assets/GIF2_2.gif){zoomable="yes"}
 
-![Quantificar Cor 2](version-14-0.resources/version-14-0-03.gif){zoomable="yes"}
+![Quantificar Cor 2](../../assets/GIF3_2.gif){zoomable="yes"}
 
 * <b>Filtro de Kuwahara</b>: se você quiser ir ainda mais longe com a estilização, poderá gerar alguns efeitos de pintura graças aos filtros de [Cor de Kuwahara anisotrópica](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [tons de cinza](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). Em detalhes, ele aplica um desfoque direcional anisotrópico que se adapta aos detalhes da imagem. O resultado é uma imagem que parece fluir na direção das formas dentro.
 
-Estes nós (Quantize a cor e Kuwahara anisotrópico) estão explicados neste [tutorial](https://www.adobe.com/go/designer-tutorial-quantize_br). Ele mostra como usá-los para estilizar materiais, bem como manipular cores de forma mais eficiente e intuitiva!
+Estes nós (Quantize a cor e Kuwahara anisotrópico) estão explicados neste [tutorial](https://www.adobe.com/go/designer-tutorial-quantize). Ele mostra como usá-los para estilizar materiais, bem como manipular cores de forma mais eficiente e intuitiva!
 
 Outros nós poderosos unem-se ao partido:
 
@@ -56,11 +56,11 @@ Curvatura suave
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-04.jpg" alt="curvature_Smoke_example_1_before">
+      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_Smoke_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-05.jpg" alt="curvature_suave_example_1_after">
+      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_suave_example_1_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -74,11 +74,11 @@ Histograma equalizado
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-06.jpg" alt="histogram_equalize_example_1_before">
+      <img src="../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-07.jpg" alt="histogram_equalize_example_1_after">
+      <img src="../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ Suavização de chanfro
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-08.jpg" alt="bevel_smow_example_6_before">
+      <img src="../../assets/bevel_smooth_example_6_before.jpg" alt="bevel_smow_example_6_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-09.jpg" alt="bevel_smow_example_6_after">
+      <img src="../../assets/bevel_smooth_example_6_after.jpg" alt="bevel_smow_example_6_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ Descombinar normal
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-10.jpg" alt="normal_uncombine_example_3_before">
+      <img src="../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-11.jpg" alt="normal_uncombine_example_3_after">
+      <img src="../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -137,7 +137,7 @@ Descombinar normal
 
 * <b>Exibição 2D: </b>quando a exibição lado a lado está habilitada na [exibição 2D](../../interface/2d-view/2d-view.md), agora você pode obter valores mesmo para pixels que não estão no bloco original: ajuda muito verificar [amostragem](../../glossary/glossary.md) e transições de valor entre blocos.
 
-![exibição 2d](version-14-0.resources/version-14-0-12.gif){width="320px" zoomable="yes"}
+![exibição 2d](../../assets/2dview.gif){width="320px" zoomable="yes"}
 
 * <b>Mapa de gradientes</b>: use o clique do meio do mouse para deslocar todas as [teclas de gradiente](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) para a esquerda ou para a direita (e assim preservar todos os espaços entre todas as teclas).
 * <b>Parâmetros</b>: para injetar funções personalizadas por meio de parâmetros, agora você pode usar o widget de função Editar. É uma solução poderosa para criar ferramentas personalizadas nas quais você deseja direcionar parâmetros usando um [gráfico de função Substance](../../function-graphs/the-function-graph/the-function-graph.md).
@@ -146,12 +146,12 @@ Descombinar normal
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Editar Função](version-14-0.resources/version-14-0-13.png){zoomable="yes"}
+![Editar Função](../../assets/functionedit.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editar função 2](version-14-0.resources/version-14-0-14.png){zoomable="yes"}
+![Editar função 2](../../assets/functionedit2.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ Observe que essas atualizações têm duas consequências principais:
 * [Content] Preterir nó &#39;Negate Float1&#39; no gráfico de função Substance
 * [Content] Renomeie “Quantize cor” para “Quantize cor (simples)”
 * [Exibição 2D] Exibe valores no painel Informações para pixels fora do intervalo 0-1
-* [Mecanismo]&#x200B;[Texto] Novo kerning para algumas fontes
+* [Mecanismo][Texto] Novo kerning para algumas fontes
 * [Graph] Melhorar o tempo de invalidação ao editar subgrafos profundos ao usar a edição no contexto
 * [Vinculador] Não duplicar bitmaps em SBSASM
 * [Parâmetros] Adiciona um novo widget “função” para todos os tipos de parâmetro de entrada

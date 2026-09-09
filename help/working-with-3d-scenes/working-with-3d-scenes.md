@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/working-with-3d-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
 breadcrumb-title: ''
 description: Saiba como importar, editar e trabalhar com cenas 3D no Substance 3D Designer para visualizar e testar seus materiais.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Trabalhar com cenas 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Trabalhar com cenas 3D
 
-![Trabalho com cenas 3D](working-with-3d-scenes.resources/working-with-3d-scenes-01.png "Trabalho com cenas 3D"){zoomable="yes"}
+![Trabalho com cenas 3D](../assets/workingWith3DScenes.png "Trabalho com cenas 3D"){zoomable="yes"}
 
 O Designer permite carregar [cenas 3D](../glossary/glossary.md) para trabalhar em materiais no contexto. Você pode encontrar uma lista de formatos de arquivo compatíveis com cenas 3D aqui, incluindo uma lista de recursos compatíveis com cada formato. <b>&lt;link necessário></b>
 
@@ -64,7 +64,7 @@ Você pode interagir com os seguintes conteúdos da cena:
 * <b>Luzes:</b> todas as luzes da cena podem ser desabilitadas no [navegador de cena](../interface/3d-view/scene-browser/scene-browser.md).
 * <b>Câmeras:</b> qualquer câmera detectada na cena é adicionada como uma predefinição à câmera adicionada pelo Designer.
 
-![Conteúdo de uma cena 3D](working-with-3d-scenes.resources/working-with-3d-scenes-02.png "Conteúdo de uma cena 3D"){zoomable="yes"}
+![Conteúdo de uma cena 3D](../assets/loaded3DScene.png "Conteúdo de uma cena 3D"){zoomable="yes"}
 
 O Designer usa uma descrição em USD para sua cena 3D. Seu layout pode ser navegado no navegador de Cena, onde cada tipo de [USD prim](https://openusd.org/release/glossary.html#usdglossary-prim) tem seu próprio ícone (geometria, material, sombreador, câmera, transformação, ...).
 
@@ -85,14 +85,14 @@ Observe que apenas os métodos 1 e 4 permitem carregar a cena novamente exatamen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Carregando uma cena 3D - de um recurso de cena 3D](working-with-3d-scenes.resources/working-with-3d-scenes-03.gif "Carregando uma cena 3D - de um recurso de cena 3D"){zoomable="yes"}
+![Carregando uma cena 3D - de um recurso de cena 3D](../assets/load3DScene-3DSceneResource.gif "Carregando uma cena 3D - de um recurso de cena 3D"){zoomable="yes"}
 
 Carregamento de um recurso de cena 3D
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Carregando uma cena 3D - da biblioteca](working-with-3d-scenes.resources/working-with-3d-scenes-04.gif "Carregando uma cena 3D - da biblioteca"){zoomable="yes"}
+![Carregando uma cena 3D - da biblioteca](../assets/load3DScene-Library.gif "Carregando uma cena 3D - da biblioteca"){zoomable="yes"}
 
 Carregamento de uma cena 3D da biblioteca
 
@@ -104,14 +104,14 @@ Carregamento de uma cena 3D da biblioteca
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Carregando uma cena 3D - de um arquivo de cena 3D](working-with-3d-scenes.resources/working-with-3d-scenes-05.gif "Carregando uma cena 3D - de um arquivo de cena 3D"){zoomable="yes"}
+![Carregando uma cena 3D - de um arquivo de cena 3D](../assets/load3DScene-3DSceneFile.gif "Carregando uma cena 3D - de um arquivo de cena 3D"){zoomable="yes"}
 
 Carregamento de um arquivo de cena 3D
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Carregando uma cena 3D - de um arquivo de estado de cena](working-with-3d-scenes.resources/working-with-3d-scenes-06.gif "Carregando uma cena 3D - de um arquivo de estado de cena"){zoomable="yes"}
+![Carregando uma cena 3D - de um arquivo de estado de cena](../assets/load3DScene-sceneStateFile.gif "Carregando uma cena 3D - de um arquivo de estado de cena"){zoomable="yes"}
 
 Carregamento de um arquivo de estado de cena
 
@@ -138,7 +138,7 @@ Todos os itens criados pelo Designer são listados com os <b>rótulos em negrito
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Navegador de cena - Elementos criados pelo Designer](working-with-3d-scenes.resources/working-with-3d-scenes-07.png "Navegador de cena - Elementos criados pelo Designer"){zoomable="yes"}
+![Navegador de cena - Elementos criados pelo Designer](../assets/sceneBrowser-createdByDesigner.png "Navegador de cena - Elementos criados pelo Designer"){zoomable="yes"}
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Todos os itens criados pelo Designer são listados com os <b>rótulos em negrito
 
 Depois de configurar materiais, câmera, luzes etc. na Visualização 3D, esse estado pode ser salvo em um arquivo de estado de cena (.sbsscn) que pode ser carregado posteriormente para restaurar esse estado. Por exemplo, talvez você queira configurar algumas cenas para visualizar diferentes tipos de materiais ou um ambiente de iluminação específico.
 
-![Carregar arquivo de estado de cena](working-with-3d-scenes.resources/working-with-3d-scenes-08.gif "Carregar arquivo de estado de cena"){zoomable="yes"}
+![Carregar arquivo de estado de cena](../assets/loadSceneStateFile.gif "Carregar arquivo de estado de cena"){zoomable="yes"}
 
 Um estado da cena salva também pode ser usado como o estado padrão da Visualização 3D, de modo que, a qualquer momento que uma nova Visualização 3D for criada, esse estado seja usado. Isso é útil se você deseja visualizar materiais de seus materiais por padrão na malha Esfera 2 ladrilhos com um valor de revestimento de 2 e um mapa de ambiente específico.
 

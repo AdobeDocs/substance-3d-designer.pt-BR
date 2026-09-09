@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/scripting/python-editor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/python-editor.html"
 breadcrumb-title: ''
 description: Use o Editor de Python no Substance 3D Designer para escrever, testar e depurar scripts e plug-ins de Python.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Editor Python
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 1%
@@ -22,12 +22,12 @@ ht-degree: 1%
 
 O Substance 3D Designer inclui um **editor de scripts** que permite aos usuários **testar códigos Python** diretamente no Designer e obter sua **saída de console**.
 
-![Editor de Python](python-editor.resources/python-editor-01.png "Editor de Python")
+![Editor de Python](../../assets/demo-pythoneditor.png "Editor de Python")
 
 O editor possui um recurso &#39;**Localizar e substituir**&#39;, acessível no item &#39;*Editar > Localizar...*&#39; na barra de menu do editor, ou pressionando *Ctrl+F*.
 
-![Localizar e substituir no editor Python](python-editor.resources/python-editor-02.png "Localizar e substituir no editor Python")
+![Localizar e substituir no editor Python](../../assets/demo-pythoneditor-2.png "Localizar e substituir no editor Python")
 
 No espírito dos **testes** **propósitos** do Editor de Python, os usuários podem testar todo o código pressionando o botão &#39;*Executar*&#39; na barra de ferramentas do editor (ou pressionando *F5*), ou somente a **seleção atual** pressionando o botão &#39;*Executar Seleção*&#39; (ou pressionando &#39;*Ctrl+Enter*&#39;).
 
-![Executar o código selecionado no editor Python](python-editor.resources/python-editor-03.png "Executar o código selecionado no editor Python")
+![Executar o código selecionado no editor Python](../../assets/demo-pythoneditor-3.png "Executar o código selecionado no editor Python")
