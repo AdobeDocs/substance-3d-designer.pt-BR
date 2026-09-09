@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cor MLV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: 5efb14d81ad72b1982785319e446d7eb318c9a03
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Cor do MLV: ícone](../../../../../../assets/MLV_Color_Icon.png "Cor do MLV: ícone")
+![Cor do MLV: ícone](mlv-color.resources/MLV_Color_Icon.png "Cor do MLV: ícone")
 
 <b>Entrada:</b> Filtros > Desfoques
 
@@ -79,11 +79,11 @@ O filtro localiza áreas estruturantes em uma imagem e as usa para aumentar a ni
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant4A.png" alt="MLV_Variant4A">
+      <img src="mlv-color.resources/MLV_Variant4A.png" alt="MLV_Variant4A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant4B.png" alt="MLV_Variant4B">
+      <img src="mlv-color.resources/MLV_Variant4B.png" alt="MLV_Variant4B">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -92,11 +92,11 @@ O filtro localiza áreas estruturantes em uma imagem e as usa para aumentar a ni
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant5A.png" alt="MLV_Variant5A">
+      <img src="mlv-color.resources/MLV_Variant5A.png" alt="MLV_Variant5A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant5B.png" alt="MLV_Variant5B">
+      <img src="mlv-color.resources/MLV_Variant5B.png" alt="MLV_Variant5B">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -105,11 +105,11 @@ O filtro localiza áreas estruturantes em uma imagem e as usa para aumentar a ni
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant3A.png" alt="MLV_Variant3A">
+      <img src="mlv-color.resources/MLV_Variant3A.png" alt="MLV_Variant3A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant3B.png" alt="MLV_Variant3B">
+      <img src="mlv-color.resources/MLV_Variant3B.png" alt="MLV_Variant3B">
       <br><i>Depois</i>
     </td>
   </tr>

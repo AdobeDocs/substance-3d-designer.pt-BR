@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Escala de cinza MLV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: 5efb14d81ad72b1982785319e446d7eb318c9a03
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Escala de cinza MLV: ícone](../../../../../../assets/MLV_Grayscale_Icon.png "Escala de cinza MLV: ícone")
+![Escala de cinza MLV: ícone](mlv-grayscale.resources/MLV_Grayscale_Icon.png "Escala de cinza MLV: ícone")
 
 <b>Entrada:</b> Filtros > Desfoques
 
@@ -78,11 +78,11 @@ O filtro localiza áreas estruturantes em uma imagem e as usa para aumentar a ni
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1A.png" alt="MLV_Variant1A">
+      <img src="mlv-grayscale.resources/MLV_Variant1A.png" alt="MLV_Variant1A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1B.png" alt="MLV_Variant1B">
+      <img src="mlv-grayscale.resources/MLV_Variant1B.png" alt="MLV_Variant1B">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ O filtro localiza áreas estruturantes em uma imagem e as usa para aumentar a ni
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/MLV_Variant2A.png" alt="MLV_Variant2A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2B.png" alt="MLV_Variant2B">
+      <img src="mlv-grayscale.resources/MLV_Variant2B.png" alt="MLV_Variant2B">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ O filtro localiza áreas estruturantes em uma imagem e as usa para aumentar a ni
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/MLV_Variant2A.png" alt="MLV_Variant2A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2C.png" alt="MLV_Variant2C">
+      <img src="mlv-grayscale.resources/MLV_Variant2C.png" alt="MLV_Variant2C">
       <br><i>Depois</i>
     </td>
   </tr>

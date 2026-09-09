@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Esta atualização apresenta novos recursos para aprimorar o uso diário do Subs
 
 *Data de lançamento: 14 de janeiro de 2025*
 
-![Dispersão splines em splines](version-14-1.resources/version-14-1-01.png)
+![Dispersão splines em splines](../../assets/fond.png)
 
 ## Atualizações de splines e caminhos
 
@@ -34,12 +34,12 @@ As splines e os nós de caminho foram introduzidos na versão 13.0 e, graças ao
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersão Spline na animação de Spline 1](version-14-1.resources/version-14-1-02.gif){zoomable="yes"}
+![Dispersão Spline na animação de Spline 1](../../assets/spline1.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dispersão splines nas splines 2](version-14-1.resources/version-14-1-03.gif){zoomable="yes"}
+![Dispersão splines nas splines 2](../../assets/spline2.gif){zoomable="yes"}
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ As splines e os nós de caminho foram introduzidos na versão 13.0 e, graças ao
 
 Se você deseja manter um gráfico limpo e legível, as [ferramentas de alinhamento de nó](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) foram feitas para você e foram completamente renovadas! Agora é possível espaçar uniformemente os nós (horizontal ou verticalmente), e alinhar os nós evita qualquer sobreposição empilhando-os de maneira adequada. Cherry no topo: ambos os recursos levam o tamanho real dos nós em consideração!
 
-![Alinhar nós](version-14-1.resources/version-14-1-04.gif){zoomable="yes"}
+![Alinhar nós](../../assets/alignment.gif){zoomable="yes"}
 
 ## Copiar/colar parâmetros
 
@@ -59,7 +59,7 @@ Agora é possível [copiar os parâmetros de um nó e colá-los em outro](../../
 
 A nova [ferramenta Color Sampler](../../interface/2d-view/color-sampler/color-sampler.md) no modo de exibição 2D permite rastrear o valor de um pixel selecionado, soltando um pino nele. Isso é muito útil para garantir que você esteja sempre visualizando as informações do mesmo pixel em vários nós em um gráfico. Abra o painel Informações para acessar a ferramenta e experimente.
 
-![Classificador de cores: usando a ferramenta](version-14-1.resources/version-14-1-05.gif "Classificador de cores: usando a ferramenta"){width="640px" zoomable="yes"}
+![Classificador de cores: usando a ferramenta](../../assets/color-sampler-demo.gif "Classificador de cores: usando a ferramenta"){width="640px" zoomable="yes"}
 
 ## Melhorias na pesquisa
 
@@ -70,7 +70,7 @@ A ferramenta [localizador de nós](../../interface/the-graph-view/node-finder/no
 * O foco é automaticamente definido no campo de pesquisa ao ativar a ferramenta de localização de nós;
 * O layout da barra de ferramentas foi repensado para economizar espaço.
 
-![Barra de ferramentas de pesquisa](version-14-1.resources/version-14-1-06.png){width="640px"}
+![Barra de ferramentas de pesquisa](../../assets/search-53.png){width="640px"}
 
 ## Vídeos
 
@@ -78,12 +78,12 @@ A ferramenta [localizador de nós](../../interface/the-graph-view/node-finder/no
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![splines de dispersão de vídeo nas splines](version-14-1.resources/version-14-1-07.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![splines de dispersão de vídeo nas splines](../../assets/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![recursos de experiência do usuário de vídeo](version-14-1.resources/version-14-1-08.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![recursos de experiência do usuário de vídeo](../../assets/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
-description: Importe e use gráficos vetoriais de SVG como recursos no Substance 3D Designer para a criação de materiais de procedimento.
+description: Importe e use gráficos vetoriais de SVG como recursos no Substance 3D Designer para a criação de materiais processuais.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Vector graphics (SVG) resource
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Recurso de gráficos vetoriais (SVG)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '728'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 O Substance 3D Designer oferece suporte a uma forma limitada de gráficos vetoriais, por meio do formato de gráficos vetoriais escaláveis. Os arquivos de SVG podem ser trazidos como recursos de diferentes maneiras, para serem usados como recursos para seus gráficos.
 
-Os arquivos de SVG [podem ser criados ou editados por meio do nó do SVG atômico](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md). Eles também podem ser criados pelo [UV para SVG baker.](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+Os arquivos de SVG [podem ser criados ou editados por meio do nó do SVG atômico](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md). Eles também podem ser criados pelo [baker de UV para SVG.](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Em geral, o seguinte é verdadeiro:
 * O traçado é compatível, mas resulta apenas em um traçado de largura de 1 pixel e o estilo do traçado é ignorado;
 * Os estilos de linha tracejada serão definitivamente quebrados;
 * O texto precisa ser convertido em caminhos/contorno para ser renderizado;
-* Não há suporte para [caminhos compostos](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html);
+* Não há suporte para [caminhos compostos](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths);
 * Recursos avançados, como gradientes, não são compatíveis;
 * Elementos de estilo para propriedades CSS não são suportados.
 
@@ -87,7 +87,7 @@ A imagem à direita demonstra as opções de exportação recomendadas, clique n
 > As pranchetas podem afetar o resultado do arquivo de SVG gerado. Alguns modelos de arquivo do Illustrator apresentam várias pranchetas.\
 > Tente ter apenas uma prancheta cortada corretamente e selecione-a na janela Prancheta ao salvar como SVG.
 
-![Opções de exportação para o Illustrator SVG](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "Opções de exportação para o Illustrator SVG"){width="512px"}
+![Opções de exportação para o Illustrator SVG](../../assets/svg-export-options-ai.jpg "Opções de exportação para o Illustrator SVG"){width="512px"}
 
 ### Inkscape
 

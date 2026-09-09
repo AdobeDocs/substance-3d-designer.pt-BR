@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderização de volume de textura 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturevolumerender.png){width="200px"}
+![](3d-texture-volume-render.resources/3dtexturevolumerender.png){width="200px"}
 
 <b>Entrada:</b> Filtro > Efeito
 
@@ -80,29 +80,29 @@ O volume é representado dentro dos limites de um *cubo de unidade*. A iluminaç
 | <b>Pontilhamento</b> <i>Flutuante</i> | Ajusta a intensidade do <i>pontilhamento de ruído azul</i> usado para suavizar o sombreamento. |
 | <b>Habilitar Plano Terrestre</b> <i>Booleano</i> | Quando <i>True</i>, renderiza um plano terrestre <i>infinito</i>. O <i>cubo de unidade</i> que inclui a forma está neste plano. |
 | <b>Plano infinito</b> <i>Booleano</i> | Define o plano do solo para <i>se estender infinitamente</i> até o horizonte.<br><i>Observação</i>: este parâmetro só está disponível quando o parâmetro <b>Habilitar plano do solo</b> está definido como <i>Verdadeiro</i>. |
-| <b>Tamanho do plano terrestre</b> <i>Flutuante2</i> | Ajusta o tamanho do plano terrestre.<br><i>Observação</i>: este parâmetro só está disponível quando o parâmetro <b>Habilitar plano terrestre</b> está definido como <i>Verdadeiro</i> e o parâmetro <b>Plano infinito</b> está definido como <i>Falso</i>. |
+| <b>Tamanho do plano terrestre</b> <i>Precisão decimal 2</i> | Ajusta o tamanho do plano terrestre.<br><i>Observação</i>: este parâmetro só está disponível quando o parâmetro <b>Habilitar plano terrestre</b> está definido como <i>Verdadeiro</i> e o parâmetro <b>Plano infinito</b> está definido como <i>Falso</i>. |
 
 ## Exemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant2.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant5.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant3.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant4.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-node.png" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-node.png" />
         </td>
     </tr>
 </table>

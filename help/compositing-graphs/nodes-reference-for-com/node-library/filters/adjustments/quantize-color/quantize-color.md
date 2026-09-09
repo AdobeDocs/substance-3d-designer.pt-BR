@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Quantificar cor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 7f15827b198bfbc133601581dc54ed894e98d89d
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Quantizar Cor](../../../../../../assets/QuantizeColor.png "ícone Quantizar Cor"){width="200px"}
+![Ícone Quantizar Cor](quantize-color.resources/QuantizeColor.png "ícone Quantizar Cor"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -66,7 +66,7 @@ Este nó pode ser usado em combinação com os seguintes nós: [Criar paleta de 
 |  |  |
 |:---|:---|
 | <b>Saída</b> <i>Cor</i> | A imagem colorida quantizada. |
-| <b>ID</b> <i>Tons de cinza</i> | Um mapa onde cada cor quantizada recebe um identificador inteiro exclusivo.   Isso pode ser usado para:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Extraia uma máscara</b> de algumas áreas quantizadas com o nó [ID para máscara](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)</li> <li data-preserve-html="true"><b>Recolorir</b> a imagem quantificada com os nós [Aplicar paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) ou [Modificar paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)</li> </ul> |
+| <b>ID</b> <i>Tons de cinza</i> | Um mapa onde cada cor quantizada recebe um identificador de número inteiro exclusivo.   Isso pode ser usado para:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Extraia uma máscara</b> de algumas áreas quantizadas com o nó [ID para máscara](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)</li> <li data-preserve-html="true"><b>Recolorir</b> a imagem quantificada com os nós [Aplicar paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) ou [Modificar paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)</li> </ul> |
 | <b>Paleta</b> <i>Cor</i> | A paleta extraída da imagem, mantendo as cores restantes após a quantização.   A imagem é uma lista ordenada de cores de RGB codificadas como uma linha de pixels e pode conter um máximo de 256 cores.   A paleta pode ser visualizada com o nó [Exibir paleta de cores](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md). |
 | <b>Valor de cores da paleta</b> <i>Inteiro</i> | A quantidade de cores armazenadas na paleta. |
 
@@ -90,11 +90,11 @@ Este nó pode ser usado em combinação com os seguintes nós: [Criar paleta de 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
+      <img src="quantize-color.resources/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
+      <img src="quantize-color.resources/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -103,11 +103,11 @@ Este nó pode ser usado em combinação com os seguintes nós: [Criar paleta de 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
+      <img src="quantize-color.resources/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
+      <img src="quantize-color.resources/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -116,11 +116,11 @@ Este nó pode ser usado em combinação com os seguintes nós: [Criar paleta de 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
+      <img src="quantize-color.resources/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
+      <img src="quantize-color.resources/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -129,11 +129,11 @@ Este nó pode ser usado em combinação com os seguintes nós: [Criar paleta de 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
+      <img src="quantize-color.resources/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
+      <img src="quantize-color.resources/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ Este nó pode ser usado em combinação com os seguintes nós: [Criar paleta de 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
+      <img src="quantize-color.resources/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
+      <img src="quantize-color.resources/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
       <br><i>Depois</i>
     </td>
   </tr>

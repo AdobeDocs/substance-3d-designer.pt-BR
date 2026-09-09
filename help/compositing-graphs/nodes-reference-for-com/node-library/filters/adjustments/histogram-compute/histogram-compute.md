@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Computação de histograma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Computação do histograma: ícone](../../../../../../assets/histogram_compute.png "Computação do histograma: ícone"){width="200px"}
+![Computação do histograma: ícone](histogram-compute.resources/histogram_compute.png "Computação do histograma: ícone"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -77,16 +77,16 @@ Ferramentas personalizadas podem ser criadas usando os dados computados pelo nó
 
 ## Exemplos
 
-![Computação de histograma: Exemplo 1](../../../../../../assets/histogram_compute_example_1.jpg "Computação de histograma: Exemplo 1"){zoomable="yes"}
+![Computação de histograma: Exemplo 1](histogram-compute.resources/histogram_compute_example_1.jpg "Computação de histograma: Exemplo 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
+      <img src="histogram-compute.resources/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
+      <img src="histogram-compute.resources/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
       <br><i>Depois</i>
     </td>
   </tr>

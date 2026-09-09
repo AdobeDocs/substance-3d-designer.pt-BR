@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desfoque não uniforme
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: 5efb14d81ad72b1982785319e446d7eb318c9a03
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/non-uniform-blur-grayscale.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur-grayscale.png){width="128px"}
 
-![](../../../../../../assets/non-uniform-blur.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Desfoques
 
@@ -67,7 +67,7 @@ Executa um Desfoque de alta qualidade, onde a intensidade é orientada por uma m
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nonuniform-example.gif" /><br><i>O exemplo abaixo é orientado por uma rampa de gradiente (a 90 graus) no slot do Mapa de Desfoque.</i>
+            <img src="non-uniform-blur.resources/nonuniform-example.gif" /><br><i>O exemplo abaixo é orientado por uma rampa de gradiente (a 90 graus) no slot do Mapa de Desfoque.</i>
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferências do usuário - Automatizando a configuração
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Como alternativa, você pode ignorar completamente a modificação das Preferên
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Ícone de arquivo XML](user-preferences-automating-setup.resources/user-preferences-automating-setup-01.png "ícone de arquivo XML")
+![Ícone de arquivo XML](../../assets/xml-5.png "ícone de arquivo XML")
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ Há duas maneiras diferentes de configurar o Designer para usar outro [arquivo d
 
 Se não houver uma configuração automatizada ou para fins de teste, é possível acessar manualmente <b>Editar > Preferências...</b> e clicar na seção “<b>Projetos</b>” à esquerda.
 
-![Configurações do projeto](user-preferences-automating-setup.resources/user-preferences-automating-setup-02.png "Configurações do projeto")
+![Configurações do projeto](../../assets/preferences-ui.png "Configurações do projeto")
 
 O botão marcado em vermelho permite que o usuário escolha um [arquivo SBSCFG](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) diferente.
 
@@ -210,4 +210,4 @@ Embora não seja recomendado usar um método manual em um ambiente de produção
 
    *”C:\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe” —config-file “C:\Dev\Substance\custom\_configuration.sbscfg”*
 
-![Entrada de arquivo de configuração nas propriedades do arquivo executável](user-preferences-automating-setup.resources/user-preferences-automating-setup-03.jpg "Entrada de arquivo de configuração nas propriedades do arquivo executável")
+![Entrada de arquivo de configuração nas propriedades do arquivo executável](../../assets/shortcutargument.jpg "Entrada de arquivo de configuração nas propriedades do arquivo executável")

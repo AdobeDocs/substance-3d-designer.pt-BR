@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exibir paleta de cores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Quantizar Cor](../../../../../../assets/ViewColorPalette.png "ícone Quantizar Cor"){width="200px"}
+![Ícone Quantizar Cor](view-color-palette.resources/ViewColorPalette.png "ícone Quantizar Cor"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -67,12 +67,12 @@ Este nó pode ser usado para visualizar as paletas produzidas pelos seguintes n�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exibir paleta de cores: exemplo 1](../../../../../../assets/view_color_palette_example_1.png "Exibir paleta de cores: exemplo 1"){zoomable="yes"}
+![Exibir paleta de cores: exemplo 1](view-color-palette.resources/view_color_palette_example_1.png "Exibir paleta de cores: exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exibir paleta de cores: exemplo 2](../../../../../../assets/view_color_palette_example_2.png "Exibir paleta de cores: exemplo 2"){zoomable="yes"}
+![Exibir paleta de cores: exemplo 2](view-color-palette.resources/view_color_palette_example_2.png "Exibir paleta de cores: exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Este nó pode ser usado para visualizar as paletas produzidas pelos seguintes n�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exibir paleta de cores: exemplo 3](../../../../../../assets/view_color_palette_example_3.png "Exibir paleta de cores: exemplo 3"){zoomable="yes"}
+![Exibir paleta de cores: exemplo 3](view-color-palette.resources/view_color_palette_example_3.png "Exibir paleta de cores: exemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exibir paleta de cores: exemplo 4](../../../../../../assets/view_color_palette_example_4.png "Exibir paleta de cores: exemplo 4"){zoomable="yes"}
+![Exibir paleta de cores: exemplo 4](view-color-palette.resources/view_color_palette_example_4.png "Exibir paleta de cores: exemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tornar foto lado a lado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/make-it-tile-photo.png)
+![](make-it-tile-photo.resources/make-it-tile-photo.png)
 
-![](../../../../../../assets/make-it-tile-photo-grayscale.png)
+![](make-it-tile-photo.resources/make-it-tile-photo-grayscale.png)
 
 <b>Em:</b> Filtros > Lado a Lado
 
@@ -59,7 +59,7 @@ Este nó fornece a funcionalidade de correção de borda para qualquer imagem qu
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/mit-photo-ex.png" />
+            <img src="make-it-tile-photo.resources/mit-photo-ex.png" />
         </td>
     </tr>
 </table>

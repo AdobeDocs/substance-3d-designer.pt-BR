@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ O <b>Substance 3D Designer 13.1</b> adiciona muitas melhorias de qualidade de vi
 
 *Data de lançamento: 12 de dezembro de 2023*
 
-![Banner do Substance 3D Designer 13.1](version-13-1.resources/version-13-1-01.png "banner do Substance 3D Designer 13.1")
+![Banner do Substance 3D Designer 13.1](../../assets/24-library-hero-1920x620.png "banner do Substance 3D Designer 13.1")
 
 ## Melhorias para quadros
 
@@ -34,19 +34,19 @@ Os quadros são uma ferramenta obrigatória para mantê-lo um gráfico bem organ
 
 À medida que o gráfico cresce, o conteúdo dos quadros pode precisar ser reorganizado. Os nós podem mudar para criar espaço para adições ou o conteúdo pode precisar ser espaçado mais para promover a legibilidade. Para facilitar esses ajustes, agora é possível expandir automaticamente um quadro ao mover os objetos incluídos: mantenha pressionado o <b>Shift</b> em qualquer ponto ao mover um objeto para que as bordas do quadro se ajustem automaticamente para manter esse objeto dentro de seus limites.
 
-![expansão automática](version-13-1.resources/version-13-1-02.gif)
+![expansão automática](../../assets/autoexpand.gif)
 
 ### Ajustar tamanho ao conteúdo
 
 Conforme você faz ajustes no gráfico, um quadro pode não ser mais ajustado normalmente ao seu conteúdo. Esse novo comando permite ajustar automaticamente a posição e o tamanho do quadro para que ele se ajuste à extensão de seu conteúdo, com um preenchimento de uma célula de grade média. Se o quadro tiver uma descrição, ele será ajustado para usar qualquer espaço vazio ao lado da descrição, se possível.
 
-![tamanho da imagem](version-13-1.resources/version-13-1-03.gif)
+![tamanho da imagem](../../assets/fitsize.gif)
 
 ### Descrições aprimoradas
 
 Graças ao código HTML, agora é possível formatar o texto na descrição de um quadro. Isso também se aplica a comentários.
 
-![richtext](version-13-1.resources/version-13-1-04.png)
+![richtext](../../assets/description-3.png)
 
 ### <b>...E muito mais!</b>
 
@@ -64,7 +64,7 @@ Muitas coisas foram repensadas, como regras de pertença para serem mais toleran
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Ícone de arquivo AxF](version-13-1.resources/version-13-1-05.png "Ícone de arquivo AxF")
+![Ícone de arquivo AxF](../../assets/axf-file-icon.png "Ícone de arquivo AxF")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Nesta nova versão, apresentamos a possibilidade de editar os materiais do AxF n
 </tr>
 </table>
 
-![Exportar AxF](version-13-1.resources/version-13-1-06.gif)
+![Exportar AxF](../../assets/exportaxf.gif)
 
 ## API
 
@@ -104,7 +104,7 @@ Finalmente, esta versão 13.1 continua a melhorar a API Python, adicionando mais
 * [Quadros] Ajustar tamanho ao conteúdo
 * [Quadros] Novo padrão, passar o mouse e estados selecionados
 * [Quadros] Ajustar à grade grande
-* [Frames] Código de HTML de suporte para descrição de Frames
+* [Quadros] Descrição do código de HTML de suporte para Quadros
 * [Quadros] Atualizar zonas de interação
 * [Quadros] Atualizar aspecto visual
 * [Gráfico] Criar o nó no meio do link visível em vez do meio do link
@@ -121,16 +121,16 @@ Finalmente, esta versão 13.1 continua a melhorar a API Python, adicionando mais
 * [Dependências] Atualizar OpenSubdiv para 3.5.x
 * [Dependências] Atualize o SDK FBX para 2020.3
 * [Dependências] Atualizar NGL para 1.35.0.20
-* [Gerenciamento de cores] Adicionar compatibilidade com telas OCIO ICC
+* [Gerenciamento de cores] Adicionar suporte para telas OCIO ICC
 * [Níveis] Adicionar uma maneira de redefinir o histograma
 * [Python] Avisar os usuários se o QtForPython não puder ser importado
-* [Exibição 2D] Salva o estado das opções de exibição
-* [Exibição 3D] Adicionar técnica de posição ao sombreador de informações de malha
+* [Visualização 2D] Salvar o estado das opções de exibição
+* [Visualização 3D] Adicionar a técnica de posição ao sombreador de informações de malha
 * [Exportar] Adicione um botão “Salvar configurações” para salvar alterações nas opções de exportação
 
 ### Correções
 
-* [Exibição 3D] Não é possível atribuir uma textura a uma entrada do tipo textura\_2d de um Material MDL
+* [Visualização 3D] Não é possível atribuir uma textura a uma entrada do tipo textura\_2d de um material MDL
 * [AxF] Os identificadores de gráfico na lista de modelos podem ficar em branco
 * [AxF] O campo do modelo de gráfico de Substance está em branco por padrão
 * atlas scatter [Content]: comportamento incorreto em casos específicos
@@ -141,16 +141,16 @@ Finalmente, esta versão 13.1 continua a melhorar a API Python, adicionando mais
 * [Content] Descrição ausente para os nós Valor de entrada, Tons de cinza de entrada, Cor de entrada e Saída
 * [Content] Descrição ausente para os nós Definir e Sequência
 * [Content] Shape Splatter: artefatos de imprecisão na saída &#39;Splatter data 2&#39;
-* [Engine] Booleanos em Processadores de valor sempre avaliam como &#39;False&#39; (somente Apple Silicon)
+* [Engine] Booleanos em Processadores de valor sempre são avaliados como &#39;False&#39; (somente Apple Silicon)
 * [Explorer] A ordem dos botões da barra de ferramentas é inconsistente entre o sistema operacional
-* [Quadros] Não utilize nós ao mover um quadro com o modificador CTRL
-* [Mapa de degradê] a opção redefinir tudo também deve redefinir o widget de degradê
+* [Quadros] Não agarra nós ao mover uma quadro com o modificador CTRL
+* [Mapa de gradiente] a opção redefinir tudo também deve redefinir o widget de gradiente
 * [GraphRender] Alguns nós são renderizados em preto ao ajustar no modo de visualização
 * [Graph] A visualização “Valor de entrada” fica presa a “Falso” ao ajustar o valor booleano padrão (somente Apple Silicon)
 * [Gráfico] Os nós de ponto próximos à borda do Quadro não são movidos pelo Quadro
 * [Interoperabilidade] O ícone de reenvio não é atualizado após o envio para a Substance 3D Stager
 * [MDL] Impossível alterar a Aspereza em nós onde este parâmetro está disponível
-* [MDL] Conexões inválidas no modelo “AxF to Metallic Roughness”
+* [MDL] Conexões inválidas no modelo &#39;AxF para Aspereza metálica&#39;
 * [UI] A janela “Exportar saídas” pode ser minimizada (somente Windows)
 * [UI] As imagens aparecem pixeladas na tela Sobre ao usar o dimensionamento de exibição
 * [UI] Ferramentas de alinhamento de nós na barra de ferramentas de gráfico criam várias etapas de desfazer
@@ -158,7 +158,7 @@ Finalmente, esta versão 13.1 continua a melhorar a API Python, adicionando mais
 ### PROBLEMAS CONHECIDOS
 
 * [AxF OpenGL Shader] Ala incorreta para distribuição anisotrópica
-* [Sombreador AxF OpenGL] Aspereza padrão incorreta
+* [AxF OpenGL Shader] Aspereza padrão incorreta
 * [AxF OpenGL Shader] Rotação incorreta da base do sombreamento
 * [AxF OpenGL Shader] Detecção incorreta de raio abaixo do hemisfério
 * [AxF OpenGL Shader] Detecção de contribuição incorreta

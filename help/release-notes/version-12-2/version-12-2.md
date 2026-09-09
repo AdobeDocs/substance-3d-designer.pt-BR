@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 12.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -24,7 +24,7 @@ O <b>Substance 3D Designer 12.2</b> traz suporte nativo para computadores com Ap
 
 Data de lançamento: *19 de julho de 2022*
 
-![](version-12-2.resources/version-12-2-01.png)
+![](../../assets/final3.png)
 
 ## Principais recursos
 
@@ -32,20 +32,20 @@ Data de lançamento: *19 de julho de 2022*
 
 A versão 12.2 do Designer é a primeira com suporte nativo completo para novos computadores Apple baseados no chip M1. Embora o Designer pudesse ser executado tecnicamente em dispositivos Apple Silicon anteriormente, o suporte nativo trará a você uma experiência mais rápida e eficiente. Como você pode ver na imagem abaixo, os cálculos são *até duas vezes mais rápidos* com essa nova versão nesses computadores.
 
-![](version-12-2.resources/version-12-2-02.png){width="600px"}
+![](../../assets/ds-perf-applem1.png){width="600px"}
 
 ### Melhorias para gráficos de modelo de Substance
 
 * <b>Dicas de ferramentas em nós\
-  </b>Nem sempre é possível explicar o que um nó está fazendo com apenas um ícone e um título. É por isso que agora temos uma dica de ferramenta com uma *descrição completa do nó* quando você está na Biblioteca ou na Exibição de Gráfico. Ele ajudará você a encontrar o nó que está procurando ou a entender melhor quais são suas capacidades. ![](version-12-2.resources/version-12-2-03.png)
+  </b>Nem sempre é possível explicar o que um nó está fazendo com apenas um ícone e um título. É por isso que agora temos uma dica de ferramenta com uma *descrição completa do nó* quando você está na Biblioteca ou na Exibição de Gráfico. Ele ajudará você a encontrar o nó que está procurando ou a entender melhor quais são suas capacidades. ![](../../assets/tootlipnode.png)
 
 * <b>Atalhos para criação de nó\
-  </b>Para acelerar a criação dos nós mais usados, agora você pode definir seus próprios atalhos nas Preferências, como para os outros tipos de gráficos.![](version-12-2.resources/version-12-2-04.png)
+  </b>Para acelerar a criação dos nós mais usados, agora você pode definir seus próprios atalhos nas Preferências, como para os outros tipos de gráficos.![](../../assets/shorcuts.png)
 
 * <b>Visualizar nó no menu contextual do nó\
   </b>Na versão mais recente, adicionamos a possibilidade de visualizar um nó na Exibição 3D graças a um atalho de teclado (*SHIFT + clique* em um nó). Este recurso agora também está disponível no *menu contextual de nó* para torná-lo mais detectável.
 
-  ![](version-12-2.resources/version-12-2-05.gif){width="600px"}
+  ![](../../assets/previewnode.gif){width="600px"}
 * <b>Pesquisar com base na compatibilidade do nó\
   </b>Quando você está procurando um nó no menu de nós (acessível ao pressionar a *Barra de Espaços* na Exibição de Gráfico), os nós agora são filtrados corretamente para mostrar apenas os que são *compatíveis com o selecionado atualmente* no gráfico. Ele ajuda a localizar rapidamente o nó que você está procurando.
 
@@ -59,7 +59,7 @@ A versão 12.2 do Designer é a primeira com suporte nativo completo para novos 
 * <b>Modelo CLO</b>\
   Para melhorar a interoperabilidade com o software CLO, adicionamos um *novo modelo dedicado*. Ele adicionará automaticamente ao seu gráfico todos os *metadados* necessários para importar corretamente o material no CLO.
 
-  ![](version-12-2.resources/version-12-2-06.png){width="600px"}
+  ![](../../assets/clo.png){width="600px"}
 
 * <b>Requisitos da Plataforma de Referência VFX</b>\
   Todos os anos, a plataforma de referência VFX publica uma lista de ferramentas e versões de bibliotecas a serem usadas em todos os softwares para o setor de VFX a fim de minimizar as incompatibilidades entre softwares. Como de costume, *atualizamos todas as nossas dependências* para respeitar todas essas recomendações.

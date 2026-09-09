@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Caminhos de pesquisa de plug-in
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Os usuários podem *adicionar diretórios personalizados* manualmente nas prefer
 1. Na guia <b>Python</b>, clique no botão *<b>+</b>*para adicionar o diretório que contém os plug-ins
 1. Clique em <b>OK</b> para validar
 
-![Configurações de plug-ins Python caminhos de pesquisa Configurações de projeto](plugin-search-paths.resources/plugin-search-paths-01.png "Configurações de plug-ins Python caminhos de pesquisa Configurações de projeto")
+![Configurações de plug-ins Python caminhos de pesquisa Configurações de projeto](../../assets/image-70.png "Configurações de plug-ins Python caminhos de pesquisa Configurações de projeto")
 
 ## Uso de variáveis de ambiente
 

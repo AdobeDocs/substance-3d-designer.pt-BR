@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Difusão UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
+![](diffusion-uv.resources/diffusion-uv-icon.png){width="200px"}
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -41,7 +41,7 @@ Observe que a divisão em blocos gráficos é tratada de uma maneira especial: q
 
 Por exemplo, se o valor da coordenada U for 0,1 em um pixel e 0,8 em outro, o valor médio será 0,95 em vez de 0,45, porque *a divisão lado a lado das coordenadas é assumida*. Isso é independente da posição real do pixel: os valores de coordenadas são tratados da mesma maneira em toda a imagem.
 
-Isso pode levar a resultados indesejados ao usar este filtro para *deformação de textura*. Se isso acontecer, certifique-se de que sua máscara defina “controlar curvas/pontos” com não mais de *metade de um comprimento de textura de um ponto a outro*.
+Isso pode levar a resultados indesejados ao usar este filtro para *deformação de textura*. Se isso acontecer, certifique-se de que sua máscara defina “controlar curvas/pontos” a não mais que *metade de um comprimento de textura de um ponto a outro*.
 
 </td>
 </tr>
@@ -69,18 +69,18 @@ Isso pode levar a resultados indesejados ao usar este filtro para *deformação 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01a-before.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-01a-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01a-after.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-01a-after.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01b-before.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-01b-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01b-after.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-01b-after.jpg" />
         </td>
     </tr>
 </table>

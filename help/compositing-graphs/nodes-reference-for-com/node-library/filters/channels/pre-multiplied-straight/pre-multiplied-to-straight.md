@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/pre-multiplied-to-straight.html"
 breadcrumb-title: ''
-description: Use o nó Pré-multiplicado para Reto para converter texturas alfa pré-multiplicadas em formato alfa reto.
+description: Use o nó Pré-multiplicado para Reto para converter texturas alfa pré-multiplicadas para o formato alfa reto.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Pre-Multiplied to Straight
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pré-multiplicado para reto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: 5efb14d81ad72b1982785319e446d7eb318c9a03
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pre-multiply-straight.png){width="128px"}
+![](pre-multiplied-to-straight.resources/pre-multiply-straight.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Canais
 

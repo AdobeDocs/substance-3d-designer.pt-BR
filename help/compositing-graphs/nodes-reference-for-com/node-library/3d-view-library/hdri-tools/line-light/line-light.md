@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Luz de linha
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-line-light.png){width="200px"}
+![](line-light.resources/panorama-line-light.png){width="200px"}
 
 <b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
@@ -63,8 +63,8 @@ Os modos de posicionamento para este nó são ligeiramente mais complexos do que
 | <b>Vetor para cima</b> <i>Z Para Cima, Y Para Cima</i> | Somente com o modo Posição mundial, determine a orientação do sistema de coordenadas. |
 | <b>Posição UV de ponto 1</b> | Somente com chão / teto e Distância da origem. Define a posição do primeiro ponto no espaço UV. |
 | <b>Posição UV de ponto 2</b> | Somente com chão / teto e Distância da origem. Define a segunda posição de ponto no espaço UV. |
-| <b>Posição Mundial do Ponto 1</b> <i>-2.0 - 2.0</i> | Somente com o modo Posições Mundiais. Define o primeiro ponto no espaço global. Não há suporte para interação de exibição 2D. |
-| <b>Posição Mundial do Ponto 2</b> <i>-2.0 - 2.0</i> | Somente com o modo Posições Mundiais. Define o segundo ponto no espaço global. Não há suporte para interação de exibição 2D. |
+| <b>Posição Mundial do Ponto 1</b> <i>-2.0 - 2.0</i> | Somente com o modo Posições Mundiais. Define o primeiro ponto no espaço global. Não há suporte para interação com o Visualização 2D. |
+| <b>Posição Mundial do Ponto 2</b> <i>-2.0 - 2.0</i> | Somente com o modo Posições Mundiais. Define o segundo ponto no espaço global. Não há suporte para interação com o Visualização 2D. |
 | <b>Height Absoluto de Linha</b> <i>0.0 - 1.0</i> | Somente com o modo de posição do solo/teto, define o height absoluto a partir do teto. Use Mostrar grade terrestre para estimar melhor a posição. |
 | <b>Distância da origem</b> <i>0.0 - 1.0</i> | Somente com o Modo de posição de Distância da origem. Define a distância a partir do centro do panorama para ambos os pontos. |
 | <b>Modo de Cores da Forma</b> <i>RGB, Temperatura (Kelvin), Entrada De Imagem</i> | Escolha o método a ser usado para definir a cor da forma. A Entrada de imagem permite o uso do segundo slot de entrada. |
@@ -91,7 +91,7 @@ Os modos de posicionamento para este nó são ligeiramente mais complexos do que
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/line-light-ex.gif" />
+            <img src="line-light.resources/line-light-ex.gif" />
         </td>
     </tr>
 </table>
