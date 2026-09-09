@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gerenciamento de cores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 1%
@@ -152,18 +152,18 @@ Você pode alterar o espaço de cores de um bitmap a qualquer momento. A opção
 > 
 > Em particular, o **nome do arquivo** pode ser usado para definir o espaço de cores apropriado *automaticamente*. Observe que o nome do espaço de cores no nome do arquivo deve *corresponder ao nome* no arquivo de configuração do OpenColorIO (por exemplo, *myImage\_utility - linear -srgb.png* será definido para o espaço de cores *Utility - Linear - sRGB*).
 
-![Configuração do espaço de cores de bitmap](../assets/2019-3-0-bitmap-clr-space.png "Configuração do espaço de cores de bitmap")
+![Configuração do espaço de cores de bitmap](color-management.resources/2019-3-0-bitmap-clr-space.png "Configuração do espaço de cores de bitmap")
 
 ## Exportando saídas
 
 Ao usar a caixa de diálogo <b>Exportar saídas</b>, é possível atribuir um <b>espaço de cores</b> (OCIO) ou anexar um <b>perfil ICC</b> (Adobe ACE) para a saída *cada*.\
 O Designer *converterá* imagens nos espaços de cores especificados antes de salvar os arquivos de imagem.
 
-![Caixa de diálogo Exportar saídas](../assets/2019-3-0-clr-mgt-export-outputs.png "Caixa de diálogo Exportar saídas"){width="512px"}
+![Caixa de diálogo Exportar saídas](color-management.resources/2019-3-0-clr-mgt-export-outputs.png "Caixa de diálogo Exportar saídas"){width="512px"}
 
 Você também pode atribuir um espaço de cores (OCIO) ou anexar um perfil ICC (Adobe ACE) a imagens *salvas* da [exibição 2D](../interface/2d-view/2d-view.md).
 
-![Opções de exportação de exibição 2D](../assets/2019-3-0-clr-mgt-save-image.png "Opções de exportação de exibição 2D")
+![Opções de exportação de exibição 2D](color-management.resources/2019-3-0-clr-mgt-save-image.png "Opções de exportação de exibição 2D")
 
 ## Visualizações 2D e 3D
 
@@ -171,7 +171,7 @@ Você também pode atribuir um espaço de cores (OCIO) ou anexar um perfil ICC (
 
 Você pode *ativar/desativar o Gerenciamento de cores* e alterar a *transformação de exibição* para o modo de exibição a qualquer momento usando o menu suspenso na barra de ferramentas de exibição.
 
-![Configuração do espaço de cores na exibição 2D](../assets/2019-3-0-clr-mgt-display-toolbar.png "Configuração do espaço de cores na exibição 2D"){width="512px"}
+![Configuração do espaço de cores na exibição 2D](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "Configuração do espaço de cores na exibição 2D"){width="512px"}
 
 ### Ambientes HDRI da biblioteca
 
@@ -180,7 +180,7 @@ Ao usar uma configuração OpenColorIO em que o espaço de cores linear da cena 
 
 Nesse caso, o espaço de cores para ambientes HDRI da biblioteca deve ser definido *manualmente* nas propriedades do ambiente, disponíveis no menu <b>Ambiente</b> do painel Exibição 3D.
 
-![Configuração do espaço de cores do ambiente de exibição 3D](../assets/2019-3-0-clr-mgt-hdri-env.png "Configuração do espaço de cores do ambiente de exibição 3D"){width="512px"}
+![Configuração do espaço de cores do ambiente de exibição 3D](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "Configuração do espaço de cores do ambiente de exibição 3D"){width="512px"}
 
 ## Nós de conversão de cores
 
@@ -211,7 +211,7 @@ A [Biblioteca](../interface/the-library/the-library.md) inclui os seguintes nós
 
 Eles são úteis ao trabalhar com gráficos criados *sem* o Gerenciamento de cores ou materiais da biblioteca [Ativos do Substance 3D](https://substance3d.adobe.com/assets).
 
-![Nós de conversão de cores na biblioteca](../assets/2019-3-0-clr-mgt-nodes.png "Nós de conversão de cores na biblioteca"){width="512px"}
+![Nós de conversão de cores na biblioteca](color-management.resources/2019-3-0-clr-mgt-nodes.png "Nós de conversão de cores na biblioteca"){width="512px"}
 
 ## Limitações conhecidas
 

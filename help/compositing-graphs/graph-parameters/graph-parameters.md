@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Parâmetros de gráfico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Por sua vez, os valores dos parâmetros de base do gráfico dependerão do conte
 </td>
 <td style="border: 0;" valign="top">
 
-![Parâmetros base](../../assets/doc-graph-props-base-params.png "Parâmetros base"){width="512px" zoomable="yes"}
+![Parâmetros base](graph-parameters.resources/doc-graph-props-base-params.png "Parâmetros base"){width="512px" zoomable="yes"}
 
 </td>
 </tr>
@@ -53,11 +53,11 @@ Na maioria dos casos, a herança desempenha um papel significativo na definiçã
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Tamanho da saída</b> | Este parâmetro permite escolher a *resolução base* das imagens no gráfico.  Use o <div><img data-preserve-html="true" height="22" src="../../assets/props-output-size-lock.jpg"/></div> bloqueie o botão para que os valores de altura e largura correspondam e mantenham a imagem quadrada ao fazer ajustes de tamanho.<br><br>*Padrão: (0,0) - Relativo ao Pai* [Saiba mais](../../compositing-graphs/output-size/output-size.md) |
-| <b>Formato de saída</b> | Permite escolher a *profundidade de bits base* no gráfico entre estas opções:<ul data-preserve-html="true"><li data-preserve-html="true">8 bits</li><li data-preserve-html="true">16 bits</li><li data-preserve-html="true">Baixa precisão HDR 16F (ponto flutuante de 16 bits)</li><li data-preserve-html="true">Alta precisão HDR 32F (ponto flutuante de 32 bits)</li></ul>*Padrão: 8 Bits por Canal - Em Relação ao Pai* |
+| <b>Tamanho da saída</b> | Este parâmetro permite escolher a *resolução base* das imagens no gráfico.  Use o <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/props-output-size-lock.jpg"/></div> bloqueie o botão para que os valores de altura e largura correspondam e mantenham a imagem quadrada ao fazer ajustes de tamanho.<br><br>*Padrão: (0,0) - Relativo ao Pai* [Saiba mais](../../compositing-graphs/output-size/output-size.md) |
+| <b>Formato de saída</b> | Permite escolher a *profundidade de bits base* no gráfico entre estas opções:<ul data-preserve-html="true"><li data-preserve-html="true">8 bits</li><li data-preserve-html="true">16 bits</li><li data-preserve-html="true">HDR Low Precision 16F (ponto flutuante de 16 bits)</li><li data-preserve-html="true">HDR High Precision 32F (ponto flutuante de 32 bits)</li></ul>*Padrão: 8 Bits por Canal - Em Relação ao Pai* |
 | <b>Tamanho de pixel</b> | Define o tamanho do pixel. Recomendamos deixar os valores de **Largura** e **Height** definidos como **1**.*Padrão: (1,1) - Relativo ao Pai* |
 | <b>Modo lado a lado</b> | Define o *modo de divisão em blocos gráficos* base destas opções:<ul data-preserve-html="true"> <li data-preserve-html="true">Sem revestimento</li> <li data-preserve-html="true">Revestimento horizontal</li> <li data-preserve-html="true">Revestimento vertical</li> <li data-preserve-html="true">Divisão em blocos gráficos H+V (horizontal e vertical)</li> </ul>*Padrão: Divisão em blocos gráficos H e V - Relativo ao Pai* |
-| <b>Distribuição aleatória</b> | Define a *semente aleatória* base para o gráfico.  Use o <div><img data-preserve-html="true" height="22" src="../../assets/prop-randomise.jpg"/></div> para atribuir um novo valor aleatório à semente aleatória.<br><br>*Padrão: 0 - Relativo ao Pai* |
+| <b>Distribuição aleatória</b> | Define a *semente aleatória* base para o gráfico.  Use o <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/prop-randomise.jpg"/></div> para atribuir um novo valor aleatório à semente aleatória.<br><br>*Padrão: 0 - Relativo ao Pai* |
 
 <table>
 <tr style="border: 0;">
@@ -72,7 +72,7 @@ A seção <b>Atributos</b> contém *metadados* para o gráfico, que fornece info
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atributos de gráfico](../../assets/doc-graph-props-attributes.png "Atributos de gráfico"){zoomable="yes"}
+![Atributos de gráfico](graph-parameters.resources/doc-graph-props-attributes.png "Atributos de gráfico"){zoomable="yes"}
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Todos os parâmetros específicos do gráfico, incluindo [parâmetros expostos](
 </td>
 <td style="border: 0;" valign="top">
 
-![Parâmetros de entrada](../../assets/doc-graph-props-input-parameters.png "Parâmetros de entrada"){zoomable="yes"}
+![Parâmetros de entrada](graph-parameters.resources/doc-graph-props-input-parameters.png "Parâmetros de entrada"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Nesta parte, todos os nós de [entrada](../../compositing-graphs/nodes-reference
 </td>
 <td style="border: 0;" valign="top">
 
-![Entradas](../../assets/doc-graph-props-inputs.png "Entradas"){zoomable="yes"}
+![Entradas](graph-parameters.resources/doc-graph-props-inputs.png "Entradas"){zoomable="yes"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Nesta parte, todos os nós de [Saída](../../compositing-graphs/nodes-reference-
 </td>
 <td style="border: 0;" valign="top">
 
-![Saídas](../../assets/doc-graph-props-outputs.png "Saídas"){zoomable="yes"}
+![Saídas](graph-parameters.resources/doc-graph-props-outputs.png "Saídas"){zoomable="yes"}
 
 </td>
 </tr>

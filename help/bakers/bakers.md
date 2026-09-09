@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Baking
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -35,13 +35,13 @@ A janela de cozimento pode ser acessada por meio do arquivo de malha na janela d
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![&#x200B; opção&#39;Informações do modo de cozimento&#39; no menu contextual do recurso de cena 3D](../assets/sd-mesh-right-click.png " opção&#39;Informações do modo de cozimento&#39; no menu contextual do recurso de cena 3D")
+![&#x200B; opção&#39;Informações do modo de cozimento&#39; no menu contextual do recurso de cena 3D](bakers.resources/sd-mesh-right-click.png " opção&#39;Informações do modo de cozimento&#39; no menu contextual do recurso de cena 3D")
 
 </td>
 </tr>
 </table>
 
-![Janela de cozimento](../assets/sd-window-overview.png "Janela de cozimento")
+![Janela de cozimento](bakers.resources/sd-window-overview.png "Janela de cozimento")
 
 ## Visão geral
 
@@ -60,7 +60,7 @@ Ela lista a geometria encontrada dentro do arquivo de malha de baixo polígono. 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../assets/sd-mesh-selection.png)
+![](bakers.resources/sd-mesh-selection.png)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ Esse painel controla onde a textura assada será localizada.
 </td>
 <td style="border: 0;" valign="top">
 
-![](../assets/sd-output.png)
+![](bakers.resources/sd-output.png)
 
 </td>
 </tr>
@@ -95,13 +95,13 @@ Esse painel controla onde a textura assada será localizada.
 
 Este painel controla a lista de malha de alto polígono e as configurações relacionadas. Consulte os [parâmetros comuns](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/bakers-settings/common-parameters) para obter mais informações.
 
-![Malhas de alta definição](../assets/sd-high.png "Malhas de alta definição")
+![Malhas de alta definição](bakers.resources/sd-high.png "Malhas de alta definição")
 
 ### Valores padrão
 
 Consulte os [parâmetros comuns](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/bakers-settings/common-parameters) para obter mais informações.
 
-![Valores padrão](../assets/sd-default-values.png "Valores padrão")
+![Valores padrão](bakers.resources/sd-default-values.png "Valores padrão")
 
 ### Lista de renderização e configurações de baker
 
@@ -118,4 +118,4 @@ Ao clicar em um padeiro na lista, a visualização Parâmetros Baker atualizará
 
 Para saber mais sobre os parâmetros específicos, consulte: [Configurações de preparadores](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
-![Lista de renderização de preparadores](../assets/sd-baker-list.png "Lista de renderização de preparadores")
+![Lista de renderização de preparadores](bakers.resources/sd-baker-list.png "Lista de renderização de preparadores")

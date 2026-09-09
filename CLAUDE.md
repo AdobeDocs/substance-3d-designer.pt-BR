@@ -1,7 +1,7 @@
 ---
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9f19a0232c1f355ba2450995b4a6d23b7ed846d1
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Esse repositório contém a documentação do Substance 3D Designer. Não há c�
 
 * `help/` — todo o conteúdo da documentação, organizado para espelhar o sumário.
 * `help/guide/TOC.md` — o sumário. Cada entrada é um link relativo (com raiz em `/help/...`) para o arquivo Markdown de uma página. `TOC.md` também transporta metadados de árvore de páginas (`user-guide-title`, `breadcrumb-title`, `nudge`, âncoras de seção como `{#section-id}`).
-* `help/assets/` — imagens compartilhadas, não específicas da página (por exemplo, ícones de aplicativo reutilizados nas páginas).
+* `help/assets/` — pasta de imagem compartilhada herdada. A mídia específica da página agora reside em uma pasta irmã `<md-file-name>.resources/` por página (consulte a convenção de pasta/sumário abaixo). Apenas algumas imagens restantes não referenciadas por nenhuma página ainda estão aqui. Coloque novas imagens na pasta `.resources` da página de uso, não aqui.
 * `help/glossary/glossary.md` — uma única página de glossário grande, organizada em ordem alfabética com extensões de âncora (`<span id="term"></span>`) usadas para vinculação cruzada via fragmentos `#term`.
 * `metadata.md` — assunto principal no nível do repositório (nuvem/solução/IDs de produto, `git-repo` etc.) herdado por cada `TOC.md`. Edite isso apenas para alterações de metadados em todo o repositório; os metadados específicos da página pertencem ao próprio tema principal da página.
 * `redirects.csv`, `linkcheckexclude.json`, `markdownlint_custom.json`, `pipeline.opts` — configuração de publicação de pipeline (redirecionamentos, exceções de verificação de link, substituições de regra de link, opções de pipeline).
@@ -31,6 +31,10 @@ Para cada entrada em `help/guide/TOC.md`:
 * Se a página tiver mídia personalizada (imagens, GIF, vídeos), ela estará em uma subpasta irmã chamada `<md-file-name>.resources`.
 
 Ao adicionar ou mover uma página, atualize `TOC.md` e o layout da pasta juntos. Eles devem permanecer sincronizados.
+
+## Páginas de referência do nó
+
+As árvores de biblioteca de nós (por exemplo, `help/compositing-graphs/nodes-reference-for-com/node-library/<category>/<node>/<node>.md`) são um tipo de página distinto com seu próprio layout consistente: uma tabela de HTML de ícone/descrição, seguida pelas tabelas `## Inputs` / `## Outputs` / `## Parameters` ancoradas (`#inputs`/`#outputs`/`#parameters`) e uma galeria `## Examples`. Eles usam o front matter **mínimo** (somente `title` + `description`), não o bloco de página de conteúdo regular abaixo — modelado em `.../texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md`. A mídia incorporada (ícone, exemplo, imagens/GIF) está em uma pasta irmã `<node-name>.resources/` ao lado da página, mencionada relativamente. Use a habilidade `generate-node-documentation` (se houver) para o modelo de criação completo.
 
 ## Assunto frontal da página
 

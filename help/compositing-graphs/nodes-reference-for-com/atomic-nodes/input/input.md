@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Entrada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nó atômico: cor de entrada](../../../../assets/comp_inputcolor_1.png "Nó atômico: cor de entrada"){width="200px"}
+![Nó atômico: cor de entrada](input.resources/comp_inputcolor_1.png "Nó atômico: cor de entrada"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nó atômico: escala de cinza de entrada](../../../../assets/comp_inputgrayscale_1.png "Nó atômico: escala de cinza de entrada"){width="200px"}
+![Nó atômico: escala de cinza de entrada](input.resources/comp_inputgrayscale_1.png "Nó atômico: escala de cinza de entrada"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nó atômico: valor de entrada](../../../../assets/comp_inputnumeric_1.png "Nó atômico: valor de entrada"){width="200px"}
+![Nó atômico: valor de entrada](input.resources/comp_inputnumeric_1.png "Nó atômico: valor de entrada"){width="200px"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Se quiser visualizá-lo com as saídas de outro gráfico, será necessário expo
 | --- | --- |
 | <b>Identificador</b> *Cadeia de Caracteres* | O único Atributo obrigatório e exclusivo. Não pode conter espaços.   Esse é usado para rotular entradas se nenhum Rótulo estiver configurado e para diferenciar saídas diferentes. Não deixe apenas isso como “input\_1”! |
 | <b>Descrição</b> *Cadeia de Caracteres* | Descrição opcional usada na biblioteca do Designer e na prateleira do Painter. |
-| <b>Rótulo</b> *Cadeia de Caracteres* | Rótulo de interface usado para boa rotulagem na interface do Designer e Painter. Pode conter espaços.   Recomenda-se configurar com um nome semelhante à Identificador, apenas com barras de espaço em vez de sublinhados. |
+| <b>Rótulo</b> *Cadeia de Caracteres* | Rótulo de interface usado para boa rotulagem na interface do Designer e Painter. Pode conter espaços.   Recomenda-se configurar com um nome semelhante ao identificador, apenas com barras de espaço em vez de sublinhados. |
 | <b>Dados do usuário</b> *Cadeia de Caracteres* | Dados do usuário adicionais e opcionais que podem ser usados para operações de filtragem específicas, Basicamente um curinga, campo de dados personalizado. |
 | <b>Grupo</b> *Cadeia de Caracteres* | Atributo de Grupo usado para agrupar entradas para os [Modos de Criação de Link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) do Designer.   Entradas com um Atributo de Grupo idêntico (diferencia maiúsculas de minúsculas) serão apresentadas como uma única conexão no Modo de Material Compacto. |
 
@@ -124,7 +124,7 @@ Os parâmetros base incluem, entre outros, <b>Tamanho de Saída</b>, <b>Formato 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Entrada primária no Substance](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Entrada primária no Substance](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>

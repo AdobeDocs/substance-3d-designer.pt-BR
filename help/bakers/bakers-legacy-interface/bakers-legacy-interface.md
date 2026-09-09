@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Interface herdada de baker
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 3%
+source-wordcount: '380'
+ht-degree: 4%
 
 ---
 
@@ -24,25 +24,25 @@ Esta é a descrição da interface do baker disponível nas versões do [Adobe S
 
 ## Visão geral
 
-![](../../assets/image2017-3-13-9-33-40.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-33-40.png)
 
 O painel baker está dividido em 4 partes:
 
 ### 1: Cena
 
-![](../../assets/image2017-3-13-9-35-53.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-35-53.png)
 
 Permite definir qual parte da malha está envolvida no processo de fça bake.
 
 Novo na versão 6, você também pode selecionar por material:
 
-![](../../assets/image2017-3-13-9-45-26.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-45-26.png)
 
 ### 2: Baker
 
-![](../../assets/image2017-3-13-9-46-26.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-46-26.png)
 
-Pressionando o botão ![](../../assets/image2017-3-13-9-47-47.png), você pode adicionar os baker desejados à lista de processamento
+Pressionando o botão ![](bakers-legacy-interface.resources/image2017-3-13-9-47-47.png), você pode adicionar os baker desejados à lista de processamento
 
 >[!NOTE]
 >
@@ -50,21 +50,21 @@ Pressionando o botão ![](../../assets/image2017-3-13-9-47-47.png), você pode a
 
 Clicar no “+” no layout baker permite adicionar os baker em uma pilha (Você pode colocar quantos baker quiser em uma pilha).
 
-.![](../../assets/image2017-3-13-9-52-8.png)
+.![](bakers-legacy-interface.resources/image2017-3-13-9-52-8.png)
 
-Você pode remover um processo de fça bake da lista pressionando ![](../../assets/image2017-3-13-9-54-33.png)
+Você pode remover um processo de fça bake da lista pressionando ![](bakers-legacy-interface.resources/image2017-3-13-9-54-33.png)
 
-Você pode reordenar a lista de processos de fça bake selecionando um processo de fça bake e usando ![](../../assets/image2017-3-13-9-55-33.png)
+Você pode reordenar a lista de processos de fça bake selecionando um processo de fça bake e usando ![](bakers-legacy-interface.resources/image2017-3-13-9-55-33.png)
 
 ### 3: parâmetros de Baker
 
-![](../../assets/image2017-3-13-13-24-0.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-24-0.png)
 
 Esta seção exibe as opções específicas para o baker selecionado atualmente.
 
 ### 4: Parâmetros Comuns
 
-![](../../assets/image2017-3-13-13-28-12.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-28-12.png)
 
 Exibe os parâmetros compartilhados entre baker.
 
@@ -82,4 +82,4 @@ Pressionar o botão OK no canto inferior direito da janela baker iniciará o pro
 
 Novo na versão 6: agora você pode cancelar o processo de fça bake com o botão Cancelar:
 
-![](../../assets/image2017-3-13-13-50-4.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-50-4.png)

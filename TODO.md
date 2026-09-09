@@ -1,7 +1,7 @@
 ---
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '106'
 ht-degree: 11%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 11%
 ## Adições
 
 * Pontos de entrada para a documentação da API Python no AdobeDocs
+* Exibição 3D: usar `refineLevel = 0` para melhorar o desempenho ao usar deslocamento em malhas de poli altas
 * Exemplos na página “Pop-up de documentação”
 * Glossário:
   * HDR
@@ -33,8 +34,6 @@ ht-degree: 11%
 ## Correções
 
 * Links e formatação quebrados no [nó de saída](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-* Remover ToC na página (por exemplo, novos ruídos)
-* Corrigir layouts de página do nó (por exemplo, novos ruídos)
 * Corrigir link para a primeira imagem de exemplo nas páginas do nó (por exemplo, novos ruídos)
 * Item &#39;Negative integer&#39; ausente e links desfeitos em [parameters-not-working-as-expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 
