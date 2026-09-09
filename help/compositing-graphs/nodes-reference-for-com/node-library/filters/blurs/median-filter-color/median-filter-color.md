@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
 breadcrumb-title: ''
 description: Use o nó Cor do filtro mediano para reduzir o ruído e preservar as bordas em texturas coloridas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cor do filtro mediano
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Cor do filtro mediano: ícone](../../../../../../assets/MedianFilter_Icon_Color.png "Cor do filtro mediano: ícone")
+![Cor do filtro mediano: ícone](median-filter-color.resources/MedianFilter_Icon_Color.png "Cor do filtro mediano: ícone")
 
 <b>Entrada:</b> Filtros > Desfoques
 
@@ -76,11 +76,11 @@ Para cada pixel, o nó calcula um valor de cor de acordo com o valor mediano dos
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="median-filter-color.resources/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="median-filter-color.resources/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -89,11 +89,11 @@ Para cada pixel, o nó calcula um valor de cor de acordo com o valor mediano dos
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
+      <img src="median-filter-color.resources/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
+      <img src="median-filter-color.resources/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
       <br><i>Depois</i>
     </td>
   </tr>

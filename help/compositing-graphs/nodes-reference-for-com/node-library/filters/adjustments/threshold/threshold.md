@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/threshold.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/threshold.html"
 breadcrumb-title: ''
-description: Use o nó Limite para converter texturas em tons de cinza em preto e branco com base em um valor de limite para criar máscaras.
+description: Use o nó Limite para converter texturas em tons de cinza em preto e branco com base em um valor limite para criar máscaras.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Threshold
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Limiar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/threshold-2.png){width="200px"}
+![](threshold.resources/threshold-2.png){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 

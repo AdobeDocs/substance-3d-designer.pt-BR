@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
 breadcrumb-title: ''
 description: Use o nó Mesclagem de cores para mesclar texturas usando o modo de cores para preservar a luminância ao alterar o matiz e a saturação.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Cor (Nó de mesclagem)
+title: Cor (Nó Combinar)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 ---
 
 
-# Cor (Nó de mesclagem)
+# Cor (Nó Combinar)
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/difference.png){width="128px"}
+![](color-blend-node.resources/difference.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Mesclagem
 
