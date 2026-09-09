@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
 breadcrumb-title: ''
 description: Use o nó Sombras RT para calcular informações de sombra em tempo real a partir da geometria para criar efeitos de iluminação dinâmicos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Sombras RT
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone do nó Sombras RT](../../../../../../assets/rt-shadow.png "Ícone do nó Sombras RT")
+![Ícone do nó Sombras RT](rt-shadow.resources/rt-shadow.png "Ícone do nó Sombras RT")
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -53,24 +53,24 @@ Este nó não deve ser usado em combinação com o mecanismo da CPU (SSE) devido
 | <b>Posição da luz</b> <i>Flutuante2</i> | A posição da fonte de luz em uma esfera que envolve a superfície:<br><br>- <b>X</b>: posição horizontal, em número de voltas;<br>- <b>Y</b>: posição vertical, onde 0,5 é o zênite e 0/1 é o horizonte. |
 | <b>Intensidade da luz</b> <i>Flutuante</i> | A intensidade da fonte de luz. |
 | <b>Tamanho Claro</b> <i>Flutuante2</i> | (Disponível quando o <b>Modo</b> está definido como <i>Sombreado</i>) O tamanho da fonte de luz como um retângulo. |
-| <b>Escala Clara (Sombras Suaves)</b> <i>Flutuante</i> | Um multiplicador da contribuição do <b>Tamanho da Luz</b> para a direção dos raios.<br>Um valor mais alto resulta em sombras mais suaves. |
+| <b>Escala Clara (Sombras Suaves)</b> <i>Precisão decimal</i> | Um multiplicador da contribuição do <b>Tamanho da Luz</b> para a direção dos raios.<br>Um valor mais alto resulta em sombras mais suaves. |
 | <b>Manter a luz acima do horizonte</b> <i>Booleano</i> | Se a <b>Posição da Luz</b> estiver definida de forma a colocar a luz abaixo do horizonte, este parâmetro impedirá que a luz ultrapasse esse limite, o que significa que os valores de Y estão fixados no intervalo [0;1]. |
-| <b>Opacidade da sombra</b> <i>Flutuante</i> | Um multiplicador da opacidade de sombras desenhadas na superfície. |
-| <b>Atenuação de Sombra</b> <i>Flutuante</i> | Um multiplicador para a atenuação das sombras quanto mais distantes elas estiverem de seu movimento de caster.<br>Um valor de 0 resulta em sombras uniformes (as sombras suaves ainda são aplicadas). |
-| <b>Comprimento Máximo de Sombras</b> <i>Flutuante</i> | A distância máxima que uma sombra pode ser desenhada de seu estrato.<br>Um valor de 0 resulta em sombras não visíveis. |
+| <b>Opacidade da sombra</b> <i>Precisão decimal</i> | Um multiplicador da opacidade de sombras desenhadas na superfície. |
+| <b>Atenuação de Sombra</b> <i>Precisão decimal</i> | Um multiplicador para a atenuação das sombras quanto mais distantes elas estiverem de seu movimento de caster.<br>Um valor de 0 resulta em sombras uniformes (as sombras suaves ainda são aplicadas). |
+| <b>Comprimento Máximo de Sombras</b> <i>Precisão decimal</i> | A distância máxima que uma sombra pode ser desenhada de seu estrato.<br>Um valor de 0 resulta em sombras não visíveis. |
 
 ## Exemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/RTShadows-01.jpg" />
+            <img src="rt-shadow.resources/RTShadows-01.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/RTShadows-02.jpg" />
+            <img src="rt-shadow.resources/RTShadows-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/RTShadows-03.jpg" />
+            <img src="rt-shadow.resources/RTShadows-03.jpg" />
         </td>
     </tr>
 </table>
