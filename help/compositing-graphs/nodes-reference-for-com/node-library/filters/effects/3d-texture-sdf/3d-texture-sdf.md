@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
 breadcrumb-title: ''
 description: Use o nó SDF de Textura 3D para gerar texturas de campo de distância assinadas a partir de dados 3D para criar formas e efeitos suaves.
 helpx_creative_field: ""
