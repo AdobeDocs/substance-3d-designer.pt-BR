@@ -154,7 +154,7 @@ Depois de trabalhar nos dados enviados para a **saída [do** do Height](../../co
 
 **![(tick)](../../assets/check.svg) Etapas recomendadas**
 
-Verifique se os dados do height estão *convertidos em normais* que estão conectados à saída **Normal** [](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+Verifique se os dados do height estão *convertidos em normais* que estão conectados à saída **Normal** [&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
 Ao usar a técnica de **Deslocamento de mosaico** - consulte “objeto 3D plano” acima - os objetos podem *se deformar* para seguir os dados do height, mas sua superfície *não reagirá de forma diferente à luz* até que seus *normais* também sejam modificados para levar em conta os dados do height.
 
