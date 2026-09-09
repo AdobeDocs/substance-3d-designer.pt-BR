@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
 breadcrumb-title: ''
 description: Use o nó Aplicar paleta de cores para remapear texturas usando uma paleta de cores para efeitos de cores estilizadas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Aplicar paleta de cores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 49bf753c2fa3d673b519b3ed87cc8bc82616bee6
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone Quantizar Cor](../../../../../../assets/ApplyColorPalette.png "ícone Quantizar Cor"){width="200px"}
+![Ícone Quantizar Cor](apply-color-palette.resources/ApplyColorPalette.png "ícone Quantizar Cor"){width="200px"}
 
 <b>Entrada:</b> Filtros > Ajustes
 
@@ -64,31 +64,31 @@ Este nó pode ser usado em combinação com os seguintes nós: [Quantificar cor]
 
 ## Exemplos
 
-![Aplicar paleta de cores: exemplo 1](../../../../../../assets/apply_color_palette_example_2.png "Aplicar paleta de cores: exemplo 1"){zoomable="yes"}
+![Aplicar paleta de cores: exemplo 1](apply-color-palette.resources/apply_color_palette_example_2.png "Aplicar paleta de cores: exemplo 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
+      <img src="apply-color-palette.resources/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
+      <img src="apply-color-palette.resources/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
       <br><i>Depois</i>
     </td>
   </tr>
 </table>
 
-![Aplicar paleta de cores: exemplo 3](../../../../../../assets/apply_color_palette_example_4.png "Aplicar paleta de cores: exemplo 3"){zoomable="yes"}
+![Aplicar paleta de cores: exemplo 3](apply-color-palette.resources/apply_color_palette_example_4.png "Aplicar paleta de cores: exemplo 3"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
+      <img src="apply-color-palette.resources/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
+      <img src="apply-color-palette.resources/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
       <br><i>Depois</i>
     </td>
   </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
 breadcrumb-title: ''
 description: Use o nó Luz da esfera para adicionar fontes de luz esféricas a ambientes HDRI para um controle de iluminação aprimorado.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Luz da esfera
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 49bf753c2fa3d673b519b3ed87cc8bc82616bee6
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-sphere-light.png){width="200px"}
+![](sphere-light.resources/panorama-sphere-light.png){width="200px"}
 
 <b>Entrada:</b> Visualização 3D > Ferramenta HDRI
 
@@ -82,10 +82,10 @@ A luz da esfera é bastante versátil e tem opções que lhe permitem não só g
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-light-ex.gif" />
+            <img src="sphere-light.resources/sphere-light-ex.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/spherelight-ex1.png" />
+            <img src="sphere-light.resources/spherelight-ex1.png" />
         </td>
     </tr>
 </table>
