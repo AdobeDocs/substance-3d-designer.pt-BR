@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
 breadcrumb-title: ''
 description: Use o nó Flood Fill para tamanho de caixa para preencher regiões com valores de tamanho de caixa delimitadora a fim de obter efeitos processuais de escala.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tamanho do Flood Fill para a caixa
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 5c9ae53c1de18b1c09789a480cba6b1d70bd350d
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-bbox-size.png){width="128px"}
+![](flood-fill-to-bbox-size.resources/floodfill-to-bbox-size.png){width="128px"}
 
 <b>Entrada:</b> Filtros > Efeitos
 
@@ -54,7 +54,7 @@ Os valores são relativos ao tamanho total da tela de desenho (um ladrilho branc
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodbbox-ex1.png" />
+            <img src="flood-fill-to-bbox-size.resources/floodbbox-ex1.png" />
         </td>
     </tr>
 </table>
