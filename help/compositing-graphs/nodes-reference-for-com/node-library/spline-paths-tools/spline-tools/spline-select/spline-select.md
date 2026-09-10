@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
 breadcrumb-title: ''
 description: Use o nó Seleção de spline para selecionar e mascarar regiões específicas com base nos caminhos de spline nos seus gráficos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Seleção de Spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/spline-select-icon.png "Ícone de nó")
+![Ícone de nó](spline-select.resources/spline-select-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -90,11 +90,11 @@ As splines selecionadas também podem ser cortadas.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
+      <img src="spline-select.resources/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
+      <img src="spline-select.resources/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -106,11 +106,11 @@ As splines selecionadas também podem ser cortadas.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
+      <img src="spline-select.resources/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
+      <img src="spline-select.resources/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ As splines selecionadas também podem ser cortadas.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/SplineSelect-Demo.gif "Exemplo de nó 1")
+![Exemplo de nó 1](spline-select.resources/SplineSelect-Demo.gif "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
