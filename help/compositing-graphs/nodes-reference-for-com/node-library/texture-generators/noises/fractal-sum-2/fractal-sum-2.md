@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-2.html"
 breadcrumb-title: ''
 description: Use o nó da Soma fractal 2 para gerar ruído fractal com duas oitavas para criar variações de textura orgânica.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SOMA FRACTAL 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Soma fractal 2 - Ícone](../../../../../../assets/fractal_sum_2.png "Soma fractal 2 - Ícone"){width="200px"}
+![Soma fractal 2 - Ícone](fractal-sum-2.resources/fractal_sum_2.png "Soma fractal 2 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -65,12 +65,12 @@ Veja também: [Soma fractal base](../../../../../../compositing-graphs/nodes-ref
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Soma fractal 2 - Exemplo 1](../../../../../../assets/fractal_sum_2_1.png "Soma fractal 2 - Exemplo 1"){zoomable="yes"}
+![Soma fractal 2 - Exemplo 1](fractal-sum-2.resources/fractal_sum_2_1.png "Soma fractal 2 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Soma fractal 2 - Exemplo 2](../../../../../../assets/noise_fractal_sum_2_v2_speed0.6_aniso0.gif "Soma fractal 2 - Exemplo 2"){zoomable="yes"}
+![Soma fractal 2 - Exemplo 2](fractal-sum-2.resources/noise_fractal_sum_2_v2_speed0.6_aniso0.gif "Soma fractal 2 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
