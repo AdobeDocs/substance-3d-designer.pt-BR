@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/basecolor-metallic-roughness-converter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/basecolor-metallic-roughness-converter.html"
 breadcrumb-title: ''
 description: Use o nó Conversor de aspereza metálica de BaseColor para converter entre diferentes formatos de material PBR e fluxos de trabalho.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Conversor de aspereza metálica de BaseColor
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-convert.png){width="128px"}
+![](basecolor-metallic-roughness-converter.resources/pbr-convert.png){width="128px"}
 
 <b>Entrada:</b> Filtros Materiais > Utilitários PBR
 

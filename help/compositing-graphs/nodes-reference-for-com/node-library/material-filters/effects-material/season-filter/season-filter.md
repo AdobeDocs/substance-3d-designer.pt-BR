@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
 breadcrumb-title: ''
 description: Use o nó Filtro de estação para aplicar efeitos sazonais aos materiais para criar variações de primavera, verão, outono e inverno.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Filtro de Temporada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/default-icon.png){width="128px"}
+![](season-filter.resources/default-icon.png){width="128px"}
 
 <b>Em:</b> Filtros Materiais > Efeitos
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render-mapping.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render-mapping.html"
 breadcrumb-title: ''
 description: Use o nó Mapeamento de Renderização PBR para converter saídas de material em diferentes formatos de mapeamento de Renderização PBR.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapeamento de renderizações PBR
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-render-mapping-color.png)![](../../../../../../assets/pbr-render-mapping-grayscale.png)
+![](pbr-render-mapping.resources/pbr-render-mapping-color.png)![](pbr-render-mapping.resources/pbr-render-mapping-grayscale.png)
 
 <b>Entrada:</b> Filtros Materiais > Utilitários PBR
 
@@ -65,10 +65,10 @@ O exemplo é um composto de quatro nós de Mapeamento de Renderização PBR dife
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/pbr-render-mapping-ex.png" />
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-ex.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/pbr-render-mapping-ex-2.png" />
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-ex-2.png" />
         </td>
     </tr>
 </table>
