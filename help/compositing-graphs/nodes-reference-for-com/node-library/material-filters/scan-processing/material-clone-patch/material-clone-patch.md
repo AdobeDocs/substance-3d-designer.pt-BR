@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-clone-patch.html"
 breadcrumb-title: ''
-description: Use o nó Patch de Clonar de material para clonar e corrigir regiões de textura para reparar artefatos em materiais digitalizados.
+description: Use o nó Patch de clonagem de material para clonar e corrigir regiões de textura para reparar artefatos em materiais digitalizados.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Material Clone Patch
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Correção de Clonar de material
+title: Patch de clonagem de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 ---
 
 
-# Correção de Clonar de material
+# Patch de clonagem de material
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-patch-material.png){width="128px"}
+![](material-clone-patch.resources/clone-patch-material.png){width="128px"}
 
 <b>Entrada:</b> Filtros Materiais > Processamento de materiais escaneados
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## Descrição
 
-Esta é a versão do material completo Multicanal do [Clonar Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). Ele executa um Clonar Patch em todos e quaisquer canais de um material. [Consulte a versão original para obter mais informações!](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
+Esta é a versão completa e multicanal do [Patch de clonagem](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). Ele executa um patch de clone em todos e quaisquer canais de um material. [Consulte a versão original para obter mais informações!](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
 
 Isso é muito útil se você quiser remover um detalhe de todos os canais de um material. Gera uma saída de imagens de depuração para vários canais, para que a área de correção inteligente fique exatamente como ela é.
 
