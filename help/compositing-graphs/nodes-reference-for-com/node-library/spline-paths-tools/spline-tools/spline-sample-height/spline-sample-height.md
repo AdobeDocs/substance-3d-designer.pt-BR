@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
 breadcrumb-title: ''
 description: Use o nó Height de amostra de spline para obter amostras de valores de height ao longo das splines para efeitos de deslocamento processuais.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Height de amostra de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/spline-sample-height-icon.png "Ícone de nó")
+![Ícone de nó](spline-sample-height.resources/spline-sample-height-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -77,7 +77,7 @@ O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mescl
 | <b>Valor de Segmentos</b> <i>Inteiro</i> | Ajusta o número de segmentos usados para desenhar a visualização de spline na saída da Visualização.<br>Um valor mais alto resulta em uma linha mais suave. |
 | <b>Mostrar Auxiliar de Direção</b> <i>Booleano</i> | Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização. |
 | <b>Mostrar Envelope de Thickness</b> <i>Booleano</i> | Exibe linhas adicionais nas bordas do thickness da spline. |
-| <b>Thickness (px)</b> <i>Flutuante</i> | Ajusta o thickness da visualização da spline em pixels na saída da Visualização. |
+| <b>Thickness (px)</b> <i>Precisão decimal</i> | Ajusta o thickness da visualização da spline em pixels na saída da Visualização. |
 
 ## Exemplos
 
@@ -88,11 +88,11 @@ O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mescl
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mescl
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mescl
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](spline-sample-height.resources/SplineSampleHeight-Variant1-After4.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/SplineSampleHeight-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](spline-sample-height.resources/SplineSampleHeight-Demo.gif "Exemplo de nó 2")
 
 </td>
 </tr>

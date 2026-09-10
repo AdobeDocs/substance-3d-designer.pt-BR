@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
 breadcrumb-title: ''
 description: Use o nó Renderização de spline para renderizar splines como texturas com largura, cor e modos de mesclagem personalizáveis.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderização de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/spline-render-icon.png "Ícone de nó")
+![Ícone de nó](spline-render.resources/spline-render-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -70,8 +70,8 @@ Desenha cadeias de segmentos ao longo das <b>Splines</b> de entrada sobre o <b>F
 | <b>Mostrar Auxiliar de Direção</b> <i>Booleano</i> | Para cada spline, desenha um ponto no início da spline e uma ponta de seta no final. |
 | <b>Valor de Segmentos</b> <i>Inteiro</i> | Ajusta o número de segmentos desenhados ao longo das splines.<br>Um valor mais alto resulta em linhas mais suaves. |
 | <b>Quantidade de spline do envelope</b> <i>Inteiro</i> | O número de segmentos duplicados que devem ser desenhados ao longo do thickness de cada spline. |
-| <b>Iniciar</b> <i>Flutuante</i> | Desloca o início da parte da spline que deve ser desenhada.<br>O valor representa o comprimento normalizado da spline. |
-| <b>Fim</b> <i>Flutuante</i> | Desloca a extremidade da parte da spline que deve ser desenhada.<br>O valor representa o comprimento normalizado da spline. |
+| <b>Iniciar</b> <i>Precisão decimal</i> | Desloca o início da parte da spline que deve ser desenhada.<br>O valor representa o comprimento normalizado da spline. |
+| <b>Fim</b> <i>Precisão decimal</i> | Desloca a extremidade da parte da spline que deve ser desenhada.<br>O valor representa o comprimento normalizado da spline. |
 | <b>Modo de Tamanho de Thickness</b> <i>Inteiro</i> | O método de calcular o thickness dos segmentos desenhados:<br>- <i>Imagem</i>: o valor é normalizado no espaço de textura, onde 1 é a largura total da imagem. Thickness é relativo à resolução da textura;<br>- <i>Pixel</i>: o valor é um número absoluto de pixels na textura, onde 1 é um pixel completo. O thickness é separado da resolução da textura. |
 | <b>Thickness (imagem)</b> <i>Flutuante</i> | (disponível quando o “Modo do tamanho do Thickness” está definido como Imagem) O thickness dos segmentos desenhados normalizados no espaço de textura, onde 1 é a largura total da imagem. |
 | <b>Thickness (px)</b> <i>Flutuante</i> | (disponível quando o “Modo de tamanho de Thickness” estiver definido como Pixel) O thickness dos segmentos desenhados como um número absoluto de pixels na textura, onde 1 é um pixel completo. |
@@ -98,11 +98,11 @@ Desenha cadeias de segmentos ao longo das <b>Splines</b> de entrada sobre o <b>F
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant2-Before.jpg" alt="SplineRender-Variant2-Before">
+      <img src="spline-render.resources/SplineRender-Variant2-Before.jpg" alt="SplineRender-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant2-After.jpg" alt="SplineRender-Variant2-After">
+      <img src="spline-render.resources/SplineRender-Variant2-After.jpg" alt="SplineRender-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -114,11 +114,11 @@ Desenha cadeias de segmentos ao longo das <b>Splines</b> de entrada sobre o <b>F
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
+      <img src="spline-render.resources/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant1-After.jpg" alt="SplineRender-Variant1-After">
+      <img src="spline-render.resources/SplineRender-Variant1-After.jpg" alt="SplineRender-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -135,11 +135,11 @@ Desenha cadeias de segmentos ao longo das <b>Splines</b> de entrada sobre o <b>F
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
+      <img src="spline-render.resources/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineRender-Variant3.jpg" alt="SplineRender-Variant3">
+      <img src="spline-render.resources/SplineRender-Variant3.jpg" alt="SplineRender-Variant3">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -148,7 +148,7 @@ Desenha cadeias de segmentos ao longo das <b>Splines</b> de entrada sobre o <b>F
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/SplineRender-Demo.gif "Exemplo de nó 1")
+![Exemplo de nó 1](spline-render.resources/SplineRender-Demo.gif "Exemplo de nó 1")
 
 </td>
 </tr>
