@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
 breadcrumb-title: ''
 description: Use o nó Ruído Worley 3D para gerar ruído Worley com base na posição 3D para criar efeitos de textura volumétrica.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruído Worley 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-worley.png){width="128px"}
+![](3d-worley-noise.resources/3d-worley.png){width="128px"}
 
 <b>Entrada:</b> Geradores de Textura > Ruídos
 
@@ -59,16 +59,16 @@ Um dos ruídos mais versáteis e avançados da biblioteca, ele gera um ruído Wo
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3d-worley-ex04.png" />
+            <img src="3d-worley-noise.resources/3d-worley-ex04.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3d-worley-ex03.png" />
+            <img src="3d-worley-noise.resources/3d-worley-ex03.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3d-worley-ex02.png" />
+            <img src="3d-worley-noise.resources/3d-worley-ex02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3d-worley-ex01.png" />
+            <img src="3d-worley-noise.resources/3d-worley-ex01.png" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
 breadcrumb-title: ''
-description: Use o nó Ruído anisotrópico para gerar padrões de ruído direcional para criar efeitos de textura anisotrópica.
+description: Use o nó Ruído anisotrópico para gerar padrões de ruído direcional para criar efeitos de textura anisotrópicos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Anisotropic noise
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruído anisotrópico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ruído anisotrópico - Ícone](../../../../../../assets/anisotropic_noise_v2.png "Ruído anisotrópico - Ícone"){width="200px"}
+![Ruído anisotrópico - Ícone](anisotropic-noise.resources/anisotropic_noise_v2.png "Ruído anisotrópico - Ícone"){width="200px"}
 
-<b>Entrada:</b> geradores de textura > Ruídos
+<b>Entrada:</b> geradores de Textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -59,7 +59,7 @@ A quantidade de faixas é ajustável, assim como o smoothness de suas transiçõ
 | <b>Valor Y</b> <i>Inteiro</i> | A quantidade de faixas no eixo Y. |
 | <b>Valor em Y por resolução</b> <i>Booleano</i> | Se verdadeiro, o número de faixas no eixo Y será igual ao tamanho da imagem nesse eixo. |
 | <b>Girar</b> <i>Booleano</i> | Gira o ruído 90 graus. |
-| <b>Smoothness</b> <i>Flutuante</i> | A intensidade de desvanecimento entre as faixas, em que 0 é o mesmo que não e 1 o último em todo o seu comprimento. |
+| <b>Smoothness</b> <i>Precisão decimal</i> | A intensidade de desvanecimento entre as faixas, em que 0 é o mesmo que não e 1 o último em todo o seu comprimento. |
 | <b>Interpolação de Smoothness</b> <i>Flutuante</i> | A ponderação dos dois métodos de interpolação aplicados para atenuar as faixas, onde 0 é linear e 1 é gaussiano. |
 | <b>Desordem</b> <i>Flutuante</i> | Desloca os ingredientes do ruído.   Isso pode ser usado para animar o ruído. |
 | <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.   Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
@@ -71,12 +71,12 @@ A quantidade de faixas é ajustável, assim como o smoothness de suas transiçõ
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruído anisotrópico - Exemplo 1](../../../../../../assets/anisotropic_noise_v2_1.png "Ruído anisotrópico - Exemplo 1"){zoomable="yes"}
+![Ruído anisotrópico - Exemplo 1](anisotropic-noise.resources/anisotropic_noise_v2_1.png "Ruído anisotrópico - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruído anisotrópico - Exemplo 2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Ruído anisotrópico - Exemplo 2"){zoomable="yes"}
+![Ruído anisotrópico - Exemplo 2](anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Ruído anisotrópico - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
