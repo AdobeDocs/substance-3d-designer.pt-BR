@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
 breadcrumb-title: ''
 description: Use o nó Dispersão na cor de spline para distribuir elementos de cor ao longo dos caminhos de spline para padrões de procedimento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersão cor da spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '3092'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/scatter-on-spline-color-icon.png "Ícone de nó")
+![Ícone de nó](scatter-on-spline-color.resources/scatter-on-spline-color-icon.png "Ícone de nó")
 
 Em: Ferramentas de Spline e Caminho > Ferramenta de linha flexível
 
@@ -83,9 +83,9 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 | <b>Quantidade de forma</b> <i>Inteiro</i> (Disponível quando “Modo de Dispersão” estiver definido como “Quantidade da forma”) | A quantidade de padrões com espaçamento uniforme espalhados ao longo de cada spline. |
 | <b>Distribuição De Formas Ao Longo Da Spline</b> <i>Inteiro</i> (Disponível quando “Modo de Dispersão” estiver definido como “Quantidade da forma”) | O método de distribuição dos padrões ao longo de uma spline:<br>** Da Origem *: o espaçamento dos padrões é influenciado pelas tangentes do ponto de spline, onde as formas estão mais distantes perto de pontos com tangentes longas;<br>* *Uniformes*: os padrões são espaçados uniformemente ao longo da spline, independentemente de suas tangentes e trajetória. |
 | <b>Espaçamento entre formas</b> <i>Precisão decimal</i> (Disponível quando o “Modo de Dispersão” estiver definido como “Espaçamento de forma”) | A distância mínima ao longo de uma spline pela qual os padrões devem ser espaçados, enquanto ainda aterrissam o primeiro e o último padrão no início e no final de cada spline, respectivamente. |
-| <b>Iniciar</b> <i>Flutuante</i> | Desloca o ponto a partir do início de uma spline, onde a dispersão começa. O valor é o comprimento normalizado de cada spline. |
-| <b>Fim</b> <i>Flutuante</i> | Desloca o ponto a partir do início de uma spline onde a dispersão termina. O valor é o comprimento normalizado de cada spline. |
-| <b>Tabela Dinâmica de Formas</b> <i>Flutuante2</i> | Desloca a tabela dinâmica do padrão X e Y no espaço tangente da spline.<br>Considerando que a tabela dinâmica é o que é colocado na spline, isso desloca efetivamente os padrões ao longo da spline ou perpendicularmente a ela.<br>Observação: as posições das tabelas dinâmicas afetam o efeito dos parâmetros “Escala” e “Rotação (Tabela Dinâmica)”. |
+| <b>Iniciar</b> <i>Precisão decimal</i> | Desloca o ponto a partir do início de uma spline, onde a dispersão começa. O valor é o comprimento normalizado de cada spline. |
+| <b>Fim</b> <i>Precisão decimal</i> | Desloca o ponto a partir do início de uma spline onde a dispersão termina. O valor é o comprimento normalizado de cada spline. |
+| <b>Tabela Dinâmica de Formas</b> <i>Precisão decimal 2</i> | Desloca a tabela dinâmica do padrão X e Y no espaço tangente da spline.<br>Considerando que a tabela dinâmica é o que é colocado na spline, isso desloca efetivamente os padrões ao longo da spline ou perpendicularmente a ela.<br>Observação: as posições das tabelas dinâmicas afetam o efeito dos parâmetros “Escala” e “Rotação (Tabela Dinâmica)”. |
 | <b>Padrão</b> |  |
 | <b>Padrão</b> <i>Inteiro</i> | O padrão que deve ser espalhado ao longo das splines:<br>*- Entrada de Padrão*: Use os padrões fornecidos para as entradas ‘Entrada de Padrão #’;<br>*- Quadrado;<br>* Disco;<br>* Parabolóide;<br>* Sino;<br>* Gaussiano;<br>* Thorn;<br>* Pirâmide;<br>* Tijolo;<br>* Gradação;<br>* Ondas;<br>* Meio sino;<br>* Sino Ondulado;<br>* Crescente;<br>* Cápsula;<br>* Cone;<br>* Gradação w. offset;<br>* Hemisfério.* |
 | <b>Número de Entrada de Padrão</b> <i>Inteiro</i> (Disponível quando “Padrão” estiver definido como “Entrada Padrão”) | Seleciona o índice do padrão de entrada que deve ser disperso. |
@@ -167,11 +167,11 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -183,11 +183,11 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
+      <img src="scatter-on-spline-color.resources/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -201,12 +201,12 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "Exemplo de nó 1")
+![Exemplo de nó 1](scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Demo.gif "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/ScatterOnSplineColor-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](scatter-on-spline-color.resources/ScatterOnSplineColor-Demo.gif "Exemplo de nó 2")
 
 </td>
 </tr>
