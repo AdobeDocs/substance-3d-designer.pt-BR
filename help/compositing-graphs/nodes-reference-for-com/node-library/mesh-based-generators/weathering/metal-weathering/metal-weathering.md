@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
 breadcrumb-title: ''
 description: Use o nó Envelhecimento de metal para adicionar efeitos realistas de ferrugem e corrosão a materiais metálicos com base na geometria da malha.
 helpx_creative_field: ""

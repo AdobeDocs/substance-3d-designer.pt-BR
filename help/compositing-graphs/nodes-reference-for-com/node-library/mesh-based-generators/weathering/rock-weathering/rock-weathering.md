@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
 breadcrumb-title: ''
 description: Use o nó Envelhecimento de rocha para gerar padrões de enrolamento em superfícies de rocha com base na geometria da malha para efeitos de erosão realistas.
 helpx_creative_field: ""
