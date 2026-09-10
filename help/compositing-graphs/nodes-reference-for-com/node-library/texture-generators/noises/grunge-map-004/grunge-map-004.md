@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-004.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-004.html"
 breadcrumb-title: ''
-description: Use o nó Mapa de Desgaste 004 para gerar padrões de desgaste de procedimento para adicionar efeitos de textura desgastada e envelhecida.
+description: Use o nó Mapa do Desgaste 004 para gerar padrões de desgaste processuais para adicionar efeitos de textura desgastada e envelhecida.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 004
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa do desgaste 004
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 7%
@@ -24,16 +24,16 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-004.png){width="128px"}
+![](grunge-map-004.resources/grungemap-004.png){width="128px"}
 
-<b>Entrada:</b> geradores de textura > Ruídos
+<b>Entrada:</b> geradores de Textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-Isso gera um Noisemap complexo e combinado. Pode ser muito útil como um procedimento detalhado, mas tenha em mente que eles exigem muito desempenho e, portanto, são mais lentos de gerar.
+Isso gera um Noisemap complexo e combinado. Pode ser muito útil como um processual detalhado, mas tenha em mente que eles exigem muito desempenho e, portanto, são mais lentos de gerar.
 
 </td>
 </tr>
@@ -56,7 +56,7 @@ Isso gera um Noisemap complexo e combinado. Pode ser muito útil como um procedi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungemap-004-ex.gif" />
+            <img src="grunge-map-004.resources/grungemap-004-ex.gif" />
         </td>
     </tr>
 </table>
