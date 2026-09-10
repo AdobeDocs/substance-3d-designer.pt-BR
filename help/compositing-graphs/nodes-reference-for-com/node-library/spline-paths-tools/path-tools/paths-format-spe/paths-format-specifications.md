@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: Saiba mais sobre as especificações de formato de caminhos e a estrutura de dados usada pelos nós de caminho e spline.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Especificações de formato de caminhos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Quaisquer dados em um pixel na parte &#39;superior&#39; estão semanticamente re
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dados codificados do polígono dos caminhos](../../../../../../assets/PathsPolygon_Data.jpg "Dados codificados do polígono dos caminhos")
+![Dados codificados do polígono dos caminhos](paths-format-specifications.resources/PathsPolygon_Data.jpg "Dados codificados do polígono dos caminhos")
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Isso é útil ao ler os Caminhos de um [processador de pixels](../../../../../..
 
 O endereço do último vértice definido neste documento. É útil acrescentar novos dados.
 
-Pode, portanto, ser qualquer endereço que seja maior (em ordem de linha de varredura) do que o endereço do último vértice. Ele deve estar no intervalo &rbrack;0, 1[×]0,.5&lbrack;
+Pode, portanto, ser qualquer endereço que seja maior (em ordem de linha de varredura) do que o endereço do último vértice. Ele deve estar no intervalo ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
@@ -269,11 +269,11 @@ Observe que, para simplificar, presume-se que as informações de caminhos sejam
 
 Você pode verificar o `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), no parâmetro Iterations do 3º nó Iterar, para obter um exemplo de como usá-lo.
 
-![Caso de uso mínimo de sample_next](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "Caso de uso mínimo de sample_next")
+![Caso de uso mínimo de sample_next](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "Caso de uso mínimo de sample_next")
 
 
 
-![Caso de uso sample_next em Caminhos de Visualização (path_trace)](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "Caso de uso sample_next em Caminhos de Visualização (path_trace)")
+![Caso de uso sample_next em Caminhos de Visualização (path_trace)](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "Caso de uso sample_next em Caminhos de Visualização (path_trace)")
 
 
 
