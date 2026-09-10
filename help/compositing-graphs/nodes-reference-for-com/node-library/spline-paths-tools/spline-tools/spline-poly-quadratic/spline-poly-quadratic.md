@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (Poli Quadrático)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/spline-poly-quadratic-icon.png "Ícone de nó")
+![Ícone de nó](spline-poly-quadratic.resources/spline-poly-quadratic-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -86,25 +86,25 @@ A trajetória do spline pode ser suavizada a partir de seus pontos intermediári
 | <b>Iniciar Posição da Conexão</b> <i>Flutuante</i> | (Disponível quando “Modo de conexão de spline de entrada” estiver definido como “Manual” e “Conectar início ao spline de entrada” estiver definido como “Verdadeiro”) A posição no spline de entrada selecionado onde a conexão com o início do spline gerado deve ser estabelecida.<br>Este valor é o comprimento normalizado da spline de entrada selecionada. |
 | <b>Conectar Extremidade à Spline de Entrada</b> <i>Booleano</i> | Quando Verdadeiro, o final da spline gerada é conectado ao primeiro ponto da primeira spline nas splines de entrada. |
 | <b>Encerrar Índice de Spline de Conexão</b> <i>Inteiro</i> | (Disponível quando “Modo de conexão de spline de entrada” estiver definido como “Manual” e “Conectar extremidade à spline de entrada” estiver definido como “Verdadeiro”) O índice da spline de entrada que deve ser conectado ao final da spline gerada. |
-| <b>Encerrar Posição da Conexão</b> <i>Precisão decimal</i> | (Disponível quando “Modo de conexão de spline de entrada” estiver definido como “Manual” e “Conectar extremidade à spline de entrada” estiver definido como “Verdadeiro”) A posição na spline de entrada selecionada onde a conexão com a extremidade da spline gerada deve ser estabelecida.<br>Este valor é o comprimento normalizado da spline de entrada selecionada. |
+| <b>Encerrar Posição da Conexão</b> <i>Flutuante</i> | (Disponível quando “Modo de conexão de spline de entrada” estiver definido como “Manual” e “Conectar extremidade à spline de entrada” estiver definido como “Verdadeiro”) A posição na spline de entrada selecionada onde a conexão com a extremidade da spline gerada deve ser estabelecida.<br>Este valor é o comprimento normalizado da spline de entrada selecionada. |
 | <b>Distribuição Uniforme</b> <i>Booleano</i> | Quando verdadeiro, os pontos da spline ficam com espaçamento uniforme do início ao fim. |
 | <b>Acrescentar Spline de Entrada</b> <i>Booleano</i> | Adiciona a spline gerada ao final da lista de splines conectadas às entradas de <b>spline</b>. |
 | <b>Correção Não Quadrada</b> <i>Booleano</i> | Ajuste a posição e o thickness dos pontos para manter a forma de spline em resoluções não quadradas.<br>Isso também afeta a distribuição uniforme. |
-| <b>Ajuste de Smoothness Global</b> <i>Precisão decimal</i> | Aplica um deslocamento uniforme ao valor de smoothness de todos os pontos.<br>O valor do smoothness resultante é fixado ao intervalo [0;1]. |
+| <b>Ajuste de Smoothness Global</b> <i>Flutuante</i> | Aplica um deslocamento uniforme ao valor de smoothness de todos os pontos.<br>O valor do smoothness resultante é fixado ao intervalo [0;1]. |
 | <b>Propriedades de Pontos</b> |  |
-| <b>p# Propriedades</b> <i>Precisão decimal 3</i> | Define as propriedades do ponto p#.<br>- <i>Height:</i> ajusta o height do ponto onde um valor mais baixo significa um local mais baixo ou mais profundo;<br>- <i>Smoothness:</i> Desloca o início da suavização da spline em p#, onde um valor de 0 resulta em uma trajetória rígida e 1 em uma totalmente suave;<br>- <i>Thickness:</i> ajusta o thickness da spline em p#. O thickness é usado por nós Spline específicos. |
+| <b>p# Propriedades</b> <i>Flutuante3</i> | Define as propriedades do ponto p#.<br>- <i>Height:</i> ajusta o height do ponto onde um valor mais baixo significa um local mais baixo ou mais profundo;<br>- <i>Smoothness:</i> Desloca o início da suavização da spline em p#, onde um valor de 0 resulta em uma trajetória rígida e 1 em uma totalmente suave;<br>- <i>Thickness:</i> ajusta o thickness da spline em p#. O thickness é usado por nós Spline específicos. |
 | <b>Coordenadas de pontos</b> |  |
-| <b>p#</b> <i>Precisão decimal 2</i> | Define a posição do ponto p# no espaço de textura. |
+| <b>p#</b> <i>Flutuante2</i> | Define a posição do ponto p# no espaço de textura. |
 | <b>Visualizar</b> |  |
 | <b>Mostrar Tangentes</b> <i>Booleano</i> | Exibe as tangentes dos pontos p1 e p3 para p2 na saída da Visualização. |
 | <b>Mostrar Auxiliar de Direção</b> <i>Booleano</i> | Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização. |
 | <b>Mostrar Envelope de Thickness</b> <i>Booleano</i> | Exibe linhas adicionais nas bordas do thickness da spline. |
 | <b>Mostrar Rótulo de Pontos</b> <i>Booleano</i> | Para cada ponto, exibe o nome do ponto ao lado dele na saída “Visualização”. |
-| <b>Tamanho do Rótulo de Pontos</b> <i>Precisão decimal</i> | (Disponível quando a opção &#39;Mostrar Rótulo de Pontos&#39; estiver definida como &#39;Verdadeiro&#39;) O tamanho do rótulo para cada ponto no espaço de textura, onde 0,1 é um décimo da largura da textura. |
+| <b>Tamanho do Rótulo de Pontos</b> <i>Flutuante</i> | (Disponível quando a opção &#39;Mostrar Rótulo de Pontos&#39; estiver definida como &#39;Verdadeiro&#39;) O tamanho do rótulo para cada ponto no espaço de textura, onde 0,1 é um décimo da largura da textura. |
 | <b>Mostrar pontos</b> <i>Booleano</i> | Exibe os pontos de controle da spline. |
-| <b>Tamanho de pontos</b> <i>Precisão decimal</i> | (Disponível quando a opção &#39;Mostrar pontos&#39; estiver definida como &#39;Verdadeiro&#39;) O raio dos pontos no espaço de textura, onde 0,1 é um décimo da largura da textura. |
+| <b>Tamanho de pontos</b> <i>Flutuante</i> | (Disponível quando a opção &#39;Mostrar pontos&#39; estiver definida como &#39;Verdadeiro&#39;) O raio dos pontos no espaço de textura, onde 0,1 é um décimo da largura da textura. |
 | <b>Valor de Segmentos</b> <i>Inteiro</i> | Ajusta o número de segmentos usados para desenhar a visualização de spline na saída da Visualização.<br>Um valor mais alto resulta em uma linha mais suave. |
-| <b>Thickness (px)</b> <i>Precisão decimal</i> | Ajusta o thickness da visualização da spline em pixels na saída da Visualização. |
+| <b>Thickness (px)</b> <i>Flutuante</i> | Ajusta o thickness da visualização da spline em pixels na saída da Visualização. |
 
 ## Exemplos
 
@@ -115,11 +115,11 @@ A trajetória do spline pode ser suavizada a partir de seus pontos intermediári
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadratic-Variant1-Before">
+      <img src="spline-poly-quadratic.resources/SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadratic-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadratic-Variant1-After">
+      <img src="spline-poly-quadratic.resources/SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadratic-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -128,7 +128,7 @@ A trajetória do spline pode ser suavizada a partir de seus pontos intermediári
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/SplinePolyQuadratic-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](spline-poly-quadratic.resources/SplinePolyQuadratic-Demo.gif "Exemplo de nó 2")
 
 </td>
 </tr>

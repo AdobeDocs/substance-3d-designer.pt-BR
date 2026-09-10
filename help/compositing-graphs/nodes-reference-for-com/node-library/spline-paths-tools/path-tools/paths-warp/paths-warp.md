@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distorção de caminhos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/paths-warp-icon.png "Ícone de nó")
+![Ícone de nó](paths-warp.resources/paths-warp-icon.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -74,11 +74,11 @@ Deforme os Caminhos de entrada de acordo com a <b>Entrada de gradiente</b>. (Mes
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
+      <img src="paths-warp.resources/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -90,11 +90,11 @@ Deforme os Caminhos de entrada de acordo com a <b>Entrada de gradiente</b>. (Mes
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
+      <img src="paths-warp.resources/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -108,7 +108,7 @@ Deforme os Caminhos de entrada de acordo com a <b>Entrada de gradiente</b>. (Mes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/PathsWarp-Demo1.gif "Exemplo de nó 1")
+![Exemplo de nó 1](paths-warp.resources/PathsWarp-Demo1.gif "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">

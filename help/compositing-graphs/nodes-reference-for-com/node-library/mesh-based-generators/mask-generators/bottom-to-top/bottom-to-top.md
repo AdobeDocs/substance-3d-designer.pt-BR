@@ -10,7 +10,7 @@ helpx_tags: ""
 title: De baixo para cima
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/bottom-to-top.png){width="128px"}
+![](bottom-to-top.resources/bottom-to-top.png){width="128px"}
 
 <b>Entrada:</b> Geradores > Geradores de máscara Baseados em Malha
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Descrição
 
-Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras inteligentes](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/features/smart-materials-and-masks) do [Painter](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/home).
+Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras Inteligentes](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/features/smart-materials-and-masks) do [Painter](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/home).
 
 Isso gera uma transição de branco para preto da parte inferior para a parte superior de um modelo, útil para fazer falhas e seleções baseadas em geometria.
 
@@ -47,7 +47,7 @@ Isso gera uma transição de branco para preto da parte inferior para a parte su
 
 |  |  |
 |:---|:---|
-| <b>Posição</b> <i>Entrada de cores</i> | Mapa de Posição feito bake. Obrigatório! |
+| <b>Posição</b> <i>Entrada de cores</i> | Mapa da posição cozida. Obrigatório! |
 | <b>Aspereza</b> <i>Entrada em tons de cinza</i> | Isso não tem nada a ver com a rugosidade do PBR, mas é um mapa de variação (opcional) para quebrar a transição. Aparece somente quando a Aspereza está definida como maior que 0. |
 | <b>Máscara (opcional)</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. |
 
@@ -66,7 +66,7 @@ Isso gera uma transição de branco para preto da parte inferior para a parte su
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/bottom-to-top-ex.gif" />
+            <img src="bottom-to-top.resources/bottom-to-top-ex.gif" />
         </td>
     </tr>
 </table>

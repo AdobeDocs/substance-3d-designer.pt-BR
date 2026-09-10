@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapeador da ponte de spline em tons de cinza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/spline-bridge-mapper-grayscale-icon.png "Ícone de nó")
+![Ícone de nó](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -91,11 +91,11 @@ Mapeia uma imagem em tons de cinza em uma lista de splines de entrada para que a
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -104,7 +104,7 @@ Mapeia uma imagem em tons de cinza em uma lista de splines de entrada para que a
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/SplineBridgeMapper-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapper-Demo.gif "Exemplo de nó 2")
 
 </td>
 </tr>
@@ -114,12 +114,12 @@ Mapeia uma imagem em tons de cinza em uma lista de splines de entrada para que a
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/SplineBridgeMapperGrayscale-Graph.jpg "Exemplo de nó 2")
+![Exemplo de nó 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Graph.jpg "Exemplo de nó 2")
 
 </td>
 </tr>

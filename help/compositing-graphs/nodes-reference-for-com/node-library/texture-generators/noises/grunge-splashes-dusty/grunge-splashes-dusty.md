@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desgaste Respingos Empoeirado
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungesplashesdusty.jpg){width="200px"}
+![](grunge-splashes-dusty.resources/grungesplashesdusty.jpg){width="200px"}
 
 <b>Entrada:</b> Geradores de Textura > Ruídos
 
@@ -45,13 +45,13 @@ O nó **Respingos de Desgaste Empoeirados** gera um mapa de desgaste semelhante 
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Precisão decimal</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
-| <b>Contraste</b> <i>Precisão decimal</i> | Ajusta o contraste da imagem. |
+| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
 | <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
 | <b>Avançado</b> |  |
-| <b>Quantidade de respingos</b> <i>Precisão decimal</i> | Ajusta a quantidade de respingos na superfície. |
-| <b>Distorção de respingos</b> <i>Precisão decimal</i> | Ajusta a intensidade do efeito de distorção aplicado nas respingos. |
+| <b>Quantidade de respingos</b> <i>Flutuante</i> | Ajusta a quantidade de respingos na superfície. |
+| <b>Distorção de respingos</b> <i>Flutuante</i> | Ajusta a intensidade do efeito de distorção aplicado nas respingos. |
 | <b>Proporção de respingo/Dirt</b> <i>Flutuante</i> | Ajusta a *proporção* de dirt e respingos na superfície. |
 | <b>Propagação de Dirt</b> <i>Flutuante</i> | Ajusta a propagação da dirt. |
 
@@ -60,10 +60,10 @@ O nó **Respingos de Desgaste Empoeirados** gera um mapa de desgaste semelhante 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungesplashesdusty-variant2.jpg" />
+            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungesplashesdusty-variant.jpg" />
+            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant.jpg" />
         </td>
     </tr>
 </table>

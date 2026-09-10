@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desgaste concreto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeconcrete.jpg){width="200px"}
+![](grunge-concrete.resources/grungeconcrete.jpg){width="200px"}
 
 <b>Entrada:</b> geradores de Textura > Ruídos
 
@@ -53,16 +53,16 @@ O nó **Concreto de Desgaste** gera um mapa de desgaste semelhante ao mapa de al
 | <b>Ruído Base</b> <i>Precisão decimal</i> | Ajusta o ruído da textura base. |
 | <b>Opacidade de Manchas de Dirt</b> <i>Precisão decimal</i> | Ajusta a opacidade das manchas de dirt. |
 | <b>Inverter Dirt</b> <i>Booleano</i> | Inverte o impacto das manchas de dirt. |
-| <b>Opacidade de Scratches</b> <i>Precisão decimal</i> | Ajusta a opacidade dos arranhões. |
-| <b>Ajustar nitidez</b> <i>Precisão decimal</i> | Ajusta a intensidade de um efeito de nitidez aplicado à imagem. |
-| <b>Intensidade de variação grande</b> <i>Precisão decimal</i> | Ajusta as variações de escala grande (frequência baixa) aplicadas à textura base. |
+| <b>Opacidade de Scratches</b> <i>Flutuante</i> | Ajusta a opacidade dos arranhões. |
+| <b>Ajustar nitidez</b> <i>Flutuante</i> | Ajusta a intensidade de um efeito de nitidez aplicado à imagem. |
+| <b>Intensidade de variação grande</b> <i>Flutuante</i> | Ajusta as variações de escala grande (frequência baixa) aplicadas à textura base. |
 
 ## Exemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeconcrete-variant.jpg" />
+            <img src="grunge-concrete.resources/grungeconcrete-variant.jpg" />
         </td>
     </tr>
 </table>

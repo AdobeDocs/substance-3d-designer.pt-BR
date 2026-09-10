@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Degradê de dirt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Degradê de Dirt - Ícone](../../../../../../assets/dirt_gradient.png "Degradê de Dirt - Ícone"){width="200px"}
+![Degradê de Dirt - Ícone](dirt-gradient.resources/dirt_gradient.png "Degradê de Dirt - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -67,12 +67,12 @@ Veja também: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Degradê de Dirt - Exemplo 1](../../../../../../assets/dirt_gradient_1.png "Degradê de Dirt - Exemplo 1"){zoomable="yes"}
+![Degradê de Dirt - Exemplo 1](dirt-gradient.resources/dirt_gradient_1.png "Degradê de Dirt - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Degradê de Dirt - Exemplo 2](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Degradê de Dirt - Exemplo 2"){zoomable="yes"}
+![Degradê de Dirt - Exemplo 2](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Degradê de Dirt - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ Veja também: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Degradê de Dirt - Exemplo 3](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Degradê de Dirt - Exemplo 3"){zoomable="yes"}
+![Degradê de Dirt - Exemplo 3](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Degradê de Dirt - Exemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Degradê de Dirt - Exemplo 4](../../../../../../assets/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Degradê de Dirt - Exemplo 4"){zoomable="yes"}
+![Degradê de Dirt - Exemplo 4](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Degradê de Dirt - Exemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

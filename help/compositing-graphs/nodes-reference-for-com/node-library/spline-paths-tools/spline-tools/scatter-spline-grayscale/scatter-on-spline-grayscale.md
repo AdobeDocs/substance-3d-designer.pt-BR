@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersão em Tons de Cinza Spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '2853'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/scatter-on-spline-grayscale-icon.png "Ícone de nó")
+![Ícone de nó](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -102,8 +102,8 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 | <b>Centro de Deslocamento</b> <i>Precisão decimal 2</i> (Disponível quando o &#39;Modo de Distribuição&#39; está definido como &#39;Linear&#39;) | Aplica um deslocamento às duplicatas ao longo da spline em X (paralelo) e Y (perpendicular). |
 | <b>Ângulo de Propagação</b> <i>Precisão decimal</i> (Disponível quando o &#39;Modo de Distribuição&#39; está definido como &#39;Circular&#39;) | O arco do círculo virtual ao longo do qual as duplicatas são distribuídas, como o ângulo desse arco onde 1 é o círculo completo. |
 | <b>Distância de deslocamento</b> <i>Precisão decimal</i> (Disponível quando o &#39;Modo de Distribuição&#39; está definido como &#39;Circular&#39;) | O raio do círculo virtual ao longo do qual as duplicatas são distribuídas. |
-| <b>Rotação</b> <i>Flutuante</i> | Gira o círculo virtual ao longo do qual as duplicatas são distribuídas. |
-| <b>Atenuação De Início/Término De Deslocamento</b> <i>Flutuante2</i> | Avalia a distância do ponto médio da spline até seu início e fim ao aplicar deslocamentos a duplicatas.<br>Isso significa que os deslocamentos são diminuídos para duplicatas mais próximas aos extremos de uma spline. |
+| <b>Rotação</b> <i>Precisão decimal</i> | Gira o círculo virtual ao longo do qual as duplicatas são distribuídas. |
+| <b>Atenuação De Início/Término De Deslocamento</b> <i>Precisão decimal 2</i> | Avalia a distância do ponto médio da spline até seu início e fim ao aplicar deslocamentos a duplicatas.<br>Isso significa que os deslocamentos são diminuídos para duplicatas mais próximas aos extremos de uma spline. |
 | <b>Atenuação de deslocamento por Thickness</b> <i>Flutuante</i> | Fatores no thickness da spline ao aplicar deslocamentos a duplicatas.<br>Isso significa que os deslocamentos são reduzidos para duplicatas em uma parte de uma spline com um thickness inferior. |
 | <b>Tamanho</b> |  |
 | <b>Modo de Tamanho</b> <i>Inteiro</i> | O método de definição do tamanho dos padrões dispersos:<br><br>- <i>Normal</i>: o tamanho é controlado uniformemente usando um parâmetro &#39;Scale&#39; global;<br>- <i>Usar Thickness da spline</i>: o tamanho é controlado pelo thickness da spline. |
@@ -117,13 +117,13 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 | <b>Modo de Amostragem de Entrada de Escala</b> <i>Espaço de Textura</i> | O método de mapear os valores no Mapa de Escala para os splines:<br><br>- <i>espaço de Textura</i>: os valores são aplicados aos splines nos quais estariam se fossem colocados em uma textura usando as coordenadas UV da textura. Isso aplica efetivamente o valor às linhas de spline &#39;no local&#39;;<br>- <i>Horizontal ao longo da linha de spline</i>: os valores são aplicados diretamente às coordenadas das linhas de spline codificadas (consulte entrada de Palavras de spline), onde cada linha é aplicada a uma linha de spline diferente de cima para baixo;<br>- <i>Hor. ao longo do spline (rand. deslocamento X)</i>: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte a entrada de Coords de spline), com um deslocamento horizontal aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de Spline);<br>- <i>Hora. ao longo do spline (rand. deslocamento Y)</i>: os valores são aplicados diretamente às coordenadas das splines codificadas (consulte entrada de Coords de spline), com um deslocamento vertical aleatório no mapa de Escala para cada spline (ou seja, cada linha nas Coords de spline). |
 | <b>Atenuação de Início/Término</b> <i>Flutuante2</i> | Afeta a distância do ponto médio da spline até seu início e fim ao dimensionar os padrões.<br>Isso significa que o tamanho é reduzido para padrões mais próximos aos extremos de uma spline. |
 | <b>Posição</b> |  |
-| <b>Deslocamento local</b> <i>Flutuante2</i> | Aplica um deslocamento às posições dos padrões ao longo da tangente (paralela) e do normal (perpendicular) da spline. |
-| <b>Deslocamento Local Aleatório</b> <i>Flutuante2</i> | Aplica um deslocamento aleatório adicional às posições dos padrões ao longo da tangente (paralela) e do normal (perpendicular) da spline. |
-| <b>Centro Aleatório de Deslocamento Local</b> <i>Flutuante2</i> | Desloca o centro do deslocamento aleatório aplicado pelo parâmetro Deslocamento local aleatório ao longo da tangente (paralela) e do normal (perpendicular) da spline. |
-| <b>Atenuação De Início/Fim Do Deslocamento Local</b> <i>Flutuante2</i> | Afeta a distância do ponto médio da spline até seu início e fim ao aplicar deslocamentos de posição aos padrões.<br>Isso significa que os deslocamentos são diminuídos para padrões mais próximos aos extremos de uma spline. |
-| <b>Atenuação de Deslocamento Local por Thickness</b> <i>Flutuante</i> | Fatores no thickness da spline ao aplicar deslocamentos a padrões.<br>Isso significa que os deslocamentos são reduzidos para duplicatas em uma parte de uma spline com um thickness inferior. |
-| <b>Deslocamento na spline</b> <i>Flutuante</i> | Aplica um deslocamento de posição aos padrões ao longo das linhas divisórias. |
-| <b>Deslocamento aleatório na spline</b> <i>Flutuante</i> | Aplica um deslocamento de posição adicional aos padrões ao longo das linhas divisórias. |
+| <b>Deslocamento local</b> <i>Precisão decimal 2</i> | Aplica um deslocamento às posições dos padrões ao longo da tangente (paralela) e do normal (perpendicular) da spline. |
+| <b>Deslocamento Local Aleatório</b> <i>Precisão decimal 2</i> | Aplica um deslocamento aleatório adicional às posições dos padrões ao longo da tangente (paralela) e do normal (perpendicular) da spline. |
+| <b>Centro Aleatório de Deslocamento Local</b> <i>Precisão decimal 2</i> | Desloca o centro do deslocamento aleatório aplicado pelo parâmetro Deslocamento local aleatório ao longo da tangente (paralela) e do normal (perpendicular) da spline. |
+| <b>Atenuação De Início/Fim Do Deslocamento Local</b> <i>Precisão decimal 2</i> | Afeta a distância do ponto médio da spline até seu início e fim ao aplicar deslocamentos de posição aos padrões.<br>Isso significa que os deslocamentos são diminuídos para padrões mais próximos aos extremos de uma spline. |
+| <b>Atenuação de Deslocamento Local por Thickness</b> <i>Precisão decimal</i> | Fatores no thickness da spline ao aplicar deslocamentos a padrões.<br>Isso significa que os deslocamentos são reduzidos para duplicatas em uma parte de uma spline com um thickness inferior. |
+| <b>Deslocamento na spline</b> <i>Precisão decimal</i> | Aplica um deslocamento de posição aos padrões ao longo das linhas divisórias. |
+| <b>Deslocamento aleatório na spline</b> <i>Precisão decimal</i> | Aplica um deslocamento de posição adicional aos padrões ao longo das linhas divisórias. |
 | <b>Rotação</b> |  |
 | <b>Alinhar com Tangent</b> <i>Booleano</i> | Gira os padrões para corresponder à direção da spline em seu local. |
 | <b>Rotação (Dinâmica)</b> <i>Flutuante</i> | Gira os padrões ao redor de suas tabelas dinâmicas.<br>A posição de pivô pode ser deslocada usando o parâmetro &#39;Shape Pivot&#39;. |
@@ -160,11 +160,11 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
+      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -176,11 +176,11 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
+      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -194,12 +194,12 @@ Alguns aspectos da dispersão podem ser controlados usando imagens de outros nó
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo.gif "Exemplo de nó 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Demonstração de nó 2](../../../../../../assets/ScatterOnSplineGrayscale-Demo2.gif "Demonstração de nó 2")
+![Demonstração de nó 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo2.gif "Demonstração de nó 2")
 
 </td>
 </tr>

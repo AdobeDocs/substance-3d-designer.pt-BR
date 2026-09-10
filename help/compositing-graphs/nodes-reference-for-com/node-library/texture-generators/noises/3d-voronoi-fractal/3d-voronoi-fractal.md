@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D voronoi fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvoronoifractal.png){width="200px"}
+![](3d-voronoi-fractal.resources/3dvoronoifractal.png){width="200px"}
 
 <b>Entrada:</b> Geradores de Textura > Ruídos
 
@@ -56,12 +56,12 @@ Este nó pode ser testado com [GBuffers 3D de cubo](../../../../../../compositin
 | <b>Tamanho</b> <i>Flutuante3</i> | Controla o tamanho do ruído fractal de Voronoi 3D nos eixos <b>X</b>, <b>Y</b> e <b>Z</b>. Valores não uniformes resultam em um efeito de <i>esticamento ou esmagamento</i>.<br><br><i>Observação</i>: quando a opção <b>Lado a lado</b> está habilitada em <i>qualquer eixo</i>, o ajuste de tamanho é <i>escalonado</i>. Isso é esperado. |
 | <b>Deslocamento</b> <i>Flutuante3</i> | Aplica um deslocamento à <i>posição</i> do ruído fractal de Voronoi 3D nos eixos <b>X</b>, <b>Y</b> e <b>Z</b>. |
 | <b>Desordem</b> <i>Flutuante3</i> | A intensidade do <i>deslocamento aleatório</i> aplicado a cada ponto do ruído nos eixos <b>X</b>, <b>Y</b> e <b>Z</b>. |
-| <b>Intensidade de Distorção</b> <i>Precisão decimal</i> | Controla a intensidade de um <i>efeito de distorção</i> aplicado no ruído fractal de Voronoi 3D. |
-| <b>Multiplicador de Escala de Distorção</b> <i>Precisão decimal</i> | Controla a escala do <i>padrão de deformação</i> usado no efeito de distorção controlado pela <b>Intensidade de Distorção</b>. |
+| <b>Intensidade de Distorção</b> <i>Flutuante</i> | Controla a intensidade de um <i>efeito de distorção</i> aplicado no ruído fractal de Voronoi 3D. |
+| <b>Multiplicador de Escala de Distorção</b> <i>Flutuante</i> | Controla a escala do <i>padrão de deformação</i> usado no efeito de distorção controlado pela <b>Intensidade de Distorção</b>. |
 | <b>Nível Mínimo</b> <i>Inteiro</i> | O <i>nível mínimo de repetição</i> usado no padrão fractal. Um intervalo mínimo/máximo mais amplo resulta em um <i>padrão mais rico</i> com variação em intervalos de frequência mais amplos. |
 | <b>Nível Máximo</b> <i>Inteiro</i> | O <i>nível máximo de repetição</i> usado no padrão fractal. Um intervalo mínimo/máximo mais amplo resulta em um <i>padrão mais rico</i> com variação em intervalos de frequência mais amplos. |
-| <b>Aspereza</b> <i>Precisão decimal</i> | Controla o <i>equilíbrio</i> entre <i>níveis de repetição</i> baixos e altos no padrão fractal.<br><br><i>Observação</i>: um valor de <b>0</b> resulta em uma saída <i>não alinhada</i> com outros valores baixos que o seguem. Isso é esperado.<br><br><i>Observação 2</i>: este parâmetro só está disponível quando o parâmetro <b>Modo Combinar</b> está definido como <i>Adicionar</i>. |
-| <b>Lacunaridades</b> <i>Precisão decimal</i> | Controla como o padrão fractal <i>aplicado preenche o espaço</i>. Um valor <i>mais alto</i> resulta em <i>menos lacunas</i> no padrão e em um ruído <i>mais denso</i>. |
+| <b>Aspereza</b> <i>Flutuante</i> | Controla o <i>equilíbrio</i> entre <i>níveis de repetição</i> baixos e altos no padrão fractal.<br><br><i>Observação</i>: um valor de <b>0</b> resulta em uma saída <i>não alinhada</i> com outros valores baixos que o seguem. Isso é esperado.<br><br><i>Observação 2</i>: este parâmetro só está disponível quando o parâmetro <b>Modo de Mesclagem</b> está definido como <i>Adicionar</i>. |
+| <b>Lacunaridades</b> <i>Flutuante</i> | Controla como o padrão fractal <i>aplicado preenche o espaço</i>. Um valor <i>mais alto</i> resulta em <i>menos lacunas</i> no padrão e em um ruído <i>mais denso</i>. |
 | <b>Opacidade Global</b> <i>Flutuante</i> | Controla o <i>intervalo</i> dos valores de ruído fractal de Perlin 3D de 0. |
 | <b>Curva arredondada</b> <i>Flutuante</i> | Arredonda a <i>inclinação</i> em torno de cada ponto do ruído para torná-lo <i>convexo</i>.<br><br><i>Observação</i>: este parâmetro não está disponível quando o parâmetro <b>Style</b> está definido como <i>Borda</i>. |
 | <b>Escala de distância</b> <i>Flutuante</i> | Ajusta a <i>distância do gradiente</i> ao redor de cada ponto do ruído. |
@@ -77,24 +77,24 @@ Este nó pode ser testado com [GBuffers 3D de cubo](../../../../../../compositin
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoifractal-variant6.jpg" />
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant6.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoifractal-variant2.jpg" />
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoifractal-variant4.jpg" />
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant4.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoifractal-variant5.jpg" />
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoifractal-variant.jpg" />
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoifractal-variant3.jpg" />
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant3.jpg" />
         </td>
     </tr>
 </table>

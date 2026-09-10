@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Economia de desgaste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeshavings.jpg){width="200px"}
+![](grunge-shavings.resources/grungeshavings.jpg){width="200px"}
 
 <b>Entrada:</b> Geradores de Textura > Ruídos
 
@@ -52,18 +52,18 @@ O nó **Barbeamento de Desgaste** no [Substance 3D Designer](https://www.adobe.c
 | <b>Avançado</b> |  |
 | <b>Quantidade de Pontos de Rascunho</b> <i>Flutuante</i> | A quantidade e *cobertura* do efeito de manchas arranhadas usado para gerar as aparas. |
 | <b>Divisão em Blocos Gráficos</b> <i>Inteiro</i> | A quantidade de divisão em blocos gráficos do efeito de manchas arranhadas usada para gerar as aparas. |
-| <b>Intensidade de Dust</b> <i>Flutuante</i> | A intensidade da sobreposição do dust na superfície. |
-| <b>Intensidade de nitidez</b> <i>Flutuante</i> | A intensidade do efeito de nitidez global. |
+| <b>Intensidade de Dust</b> <i>Precisão decimal</i> | A intensidade da sobreposição do dust na superfície. |
+| <b>Intensidade de nitidez</b> <i>Precisão decimal</i> | A intensidade do efeito de nitidez global. |
 
 ## Exemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeshavings-variant2.jpg" />
+            <img src="grunge-shavings.resources/grungeshavings-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeshavings-variant.jpg" />
+            <img src="grunge-shavings.resources/grungeshavings-variant.jpg" />
         </td>
     </tr>
 </table>

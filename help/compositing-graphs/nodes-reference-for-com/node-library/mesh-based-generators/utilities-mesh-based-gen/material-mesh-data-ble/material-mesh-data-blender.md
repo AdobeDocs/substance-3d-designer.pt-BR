@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Misturador de dados de malha de material
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-mesh-data-blender.png){width="128px"}
+![](material-mesh-data-blender.resources/material-mesh-data-blender.png){width="128px"}
 
 <b>Entrada:</b> Geradores Baseados Em Malha > Utilitários
 
@@ -33,9 +33,9 @@ ht-degree: 8%
 
 ## Descrição
 
-Esse nó tem como objetivo facilitar bastante a adição de detalhes com base em dados feitos bake. Ele vem com vários controles deslizantes para modificar um material de entrada completo, com base em todos e quaisquer mapas baked como entrada. Experimente, pois há muitas opções.
+O objetivo desse nó é facilitar bastante a adição de detalhes com base em dados armazenados. Ele vem com vários controles deslizantes para modificar um material de entrada completo, com base em todos e quaisquer mapas baked como entrada. Experimente, pois há muitas opções.
 
-É útil para fazer coisas como adicionar realce de borda com base em curvatura ou outros mapas, mesclar em algum AO com Difusão/Basecolor, adicionar Oclusão de Specular com base em curvatura e/ou AO etc.
+É útil para fazer coisas como adicionar realce de borda com base em curvatura ou outros mapas, mesclar em algum AO com a cor difusa/básica, adicionar Oclusão de Specular com base em curvatura e/ou AO etc.
 
 </td>
 </tr>
@@ -84,14 +84,14 @@ Esse nó tem como objetivo facilitar bastante a adição de detalhes com base em
 | <b>Contornos de desenhos animados metálicos</b> <i>0.0 - 1.0</i> | Força de mistura de um efeito de contorno de borda metálico de desenho animado, com base na Curvatura. |
 | <b>Intensidade de material do AO</b> <i>0.0 - 1.0</i> | Misture a força do AO mapa baked com o AO gerado por material, que grau combinar ambos os mapas de AO em. |
 | <b>Intensidade de material do Height</b> <i>0.0 - 1.0</i> | Combine a força do Height de mapa baked com o Height gerado por material, em que grau combinar os dois mapas de altura. |
-| <b>Tipo de Mesclagem de Material de Height</b> <i>Reforçar, Interpolação</i> | Modo de mesclagem para combinar ambos os mapas de altura. |
+| <b>Tipo de Mesclagem de Material de Height</b> <i>Reforçar, Interpolação</i> | modo Combinar para combinar ambos os Heightmaps. |
 
 ## Exemplos
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/blenddata-ex.gif" />
+            <img src="material-mesh-data-blender.resources/blenddata-ex.gif" />
         </td>
     </tr>
 </table>

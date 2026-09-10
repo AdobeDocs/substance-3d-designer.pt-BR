@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desgaste Áspero Sujo
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeroughdirty.jpg){width="200px"}
+![](grunge-rough-dirty.resources/grungeroughdirty.jpg){width="200px"}
 
 <b>Entrada:</b> Geradores de Textura > Ruídos
 
@@ -45,12 +45,12 @@ O nó **Desgaste Áspero e Sujo** gera um mapa de desgaste semelhante a uma supe
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
-| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
+| <b>Saldo</b> <i>Precisão decimal</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Precisão decimal</i> | Ajusta o contraste da imagem. |
 | <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
 | <b>Avançado</b> |  |
-| <b>Intensidade de Desgaste Principal</b> <i>Flutuante</i> | Ajusta a intensidade da textura de desgaste principal usada para quebrar a superfície. |
+| <b>Intensidade de Desgaste Principal</b> <i>Precisão decimal</i> | Ajusta a intensidade da textura de desgaste principal usada para quebrar a superfície. |
 | <b>Inverter Scratches</b> <i>Booleano</i> | Inverte a luminância dos arranhões na superfície. |
 | <b>Intensidade de Scratches</b> <i>Flutuante</i> | Ajusta a intensidade dos arranhões na superfície. |
 | <b>Intensidade da granulação</b> <i>Flutuante</i> | Ajusta a intensidade do efeito de granulação global. |
@@ -60,10 +60,10 @@ O nó **Desgaste Áspero e Sujo** gera um mapa de desgaste semelhante a uma supe
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeroughdirty-variant.jpg" />
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeroughdirty-variant2.jpg" />
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant2.jpg" />
         </td>
     </tr>
 </table>

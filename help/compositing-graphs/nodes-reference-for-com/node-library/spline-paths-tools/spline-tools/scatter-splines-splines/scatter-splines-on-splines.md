@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dispersão Splines em Splines
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '2832'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dispersão Splines em Splines: Ícone](../../../../../../assets/scatter-splines-on-splines-icon.png "Dispersão Splines em Splines: Ícone")
+![Dispersão Splines em Splines: Ícone](scatter-splines-on-splines.resources/scatter-splines-on-splines-icon.png "Dispersão Splines em Splines: Ícone")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -54,7 +54,7 @@ Clique na imagem à direita para acessar nosso <b>tutorial dedicado</b>, para ob
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nós de Spline de Vídeo](../../../../../../assets/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
+[![Nós de Spline de Vídeo](scatter-splines-on-splines.resources/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
 
 </td>
 </tr>
@@ -96,17 +96,17 @@ Clique na imagem à direita para acessar nosso <b>tutorial dedicado</b>, para ob
 | <b>Lado</b> *Inteiro* | Controla em que lado(s) das splines pai as splines devem ser espalhadas, considerando que &#39;forward&#39; é a direção das splines *pai*:<br><br>- <b>Esquerda</b> Coloque as splines no lado esquerdo.<br>- <b>Direita</b> Coloque as splines no lado direito.<br>- <b>Esquerda + Direita</b> Coloque as splines em ambos os lados.<br>- <b>Esquerda / Direita - Alternativa</b> Coloque as splines à esquerda e à direita alternativamente (Por exemplo, todos os outros lados).<br>- <b>Esquerda/Direita - Aleatório</b> Escolha o lado aleatoriamente para cada spline. |
 | <b>Modo de Valor</b> *Inteiro* | O método de dispersão das linhas divisórias ao longo das linhas divisórias pai, que afeta a quantidade de linhas divisórias dispersas em cada linha divisória pai:<br><br>- <b>Quantidade fixa por linha divisória</b> A quantidade especificada de linhas divisórias com espaçamento uniforme está dispersa.<br>- <b>Espaçamento</b> A quantidade de linhas divisórias é ajustada automaticamente para se ajustar ao espaçamento uniforme especificado.<br><br>Em ambos os casos, o primeiro e o último spline espalhados caem exatamente no início e no final de cada spline pai, respectivamente. |
 | <b>Quantidade De Spline Por Spline</b> *Inteiro* | A quantidade de splines com espaçamento uniforme espalhados ao longo de cada spline pai. |
-| <b>Espaçamento da spline</b> *Precisão decimal* | A distância mínima ao longo das linhas divisórias principais pela qual as linhas divisórias devem ser espaçadas, ainda aterrando a primeira e última linha divisória no início e no fim de cada linha divisória principal, respectivamente. |
+| <b>Espaçamento da spline</b> *Flutuante* | A distância mínima ao longo das linhas divisórias principais pela qual as linhas divisórias devem ser espaçadas, ainda aterrando a primeira e última linha divisória no início e no fim de cada linha divisória principal, respectivamente. |
 | <b>Tipo de Spline</b> *Inteiro* | Seleciona que tipo de spline deve ser espalhado nas splines pai:<br><br>- <b>Reta</b> Uma spline simples e reta.<br>- <b>Curva personalizada</b> A(s) spline(s) fornecida(s) para as entradas da <b>Curva personalizada</b>. Várias splines são compatíveis quando anexadas juntas em uma lista. |
 | <b>Seleção de Spline Personalizada</b> *Inteiro* | Ao usar várias splines personalizadas anexadas a uma lista, esse parâmetro permite que você selecione como essas splines devem ser distribuídas na dispersão.<br><br>- <b>Lista inteira</b> Todas as splines estão dispersas juntas como um grupo.<br>- <b>Sequenciais</b> Cada spline individual está dispersa em ordem, repetindo em torno da lista.<br>- <b>Aleatório</b> Uma spline aleatória é selecionada na lista para cada spline dispersa. |
-| <b>Iniciar</b> *Precisão decimal* | Desloca o ponto a partir do início das splines principais onde a dispersão começa. O valor é o comprimento normalizado de cada spline pai. |
-| <b>Fim</b> *Precisão decimal* | Desloca o ponto a partir do início das splines principais onde a dispersão termina. O valor é o comprimento normalizado de cada spline pai. |
+| <b>Iniciar</b> *Flutuante* | Desloca o ponto a partir do início das splines principais onde a dispersão começa. O valor é o comprimento normalizado de cada spline pai. |
+| <b>Fim</b> *Flutuante* | Desloca o ponto a partir do início das splines principais onde a dispersão termina. O valor é o comprimento normalizado de cada spline pai. |
 | <b>Inverter Direção</b> *Booleano* | Inverte a direção dos splines dispersos. |
-| <b>Modo de Simetria à Esquerda/Direita</b> *Inteiro* | O método de simetria aplicado às linhas de spline espalhadas em cada lado das linhas de spline pai.<br><br>- <b>Desabilitado</b> Nenhuma simetria é aplicada, as linhas de spline são colocadas em cada lado usando uma rotação simples.<br>- <b>simetria esquerda</b> A linha de spline à esquerda é simétrica à da direita relativamente à linha de spline pai.<br>- <b>simetria direita</b> A linha de spline à direita é simétrica à da esquerda relativamente à linha de spline pai. |
+| <b>Modo de Simetria Esquerda/Direita</b> *Inteiro* | O método de simetria aplicado às linhas de spline espalhadas em cada lado das linhas de spline pai.<br><br>- <b>Desabilitado</b> Nenhuma simetria é aplicada, as linhas de spline são colocadas em cada lado usando uma rotação simples.<br>- <b>simetria esquerda</b> A linha de spline à esquerda é simétrica à da direita relativamente à linha de spline pai.<br>- <b>simetria direita</b> A linha de spline à direita é simétrica à da esquerda relativamente à linha de spline pai. |
 | <b>Vínculo Aleatório à Esquerda/Direita</b> *Booleano* | Controla se os splines em cada lado do spline pai devem usar os mesmos valores ao usar rotação aleatória, dimensionamento aleatório etc. Em outras palavras:<br><br>- <i>False:</i> cada spline usa valores aleatórios separados<br>- <i>True:</i> ambas as splines compartilham os mesmos valores aleatórios |
 | <b>Modo de Tabela Dinâmica de Spline</b> *Inteiro* | Define o método de inserção da tabela dinâmica de splines dispersos, o que afeta a rotação e o dimensionamento.<br>Observe que a tabela dinâmica é *sempre colocada na spline pai* e seus controles afetam a spline dispersa. Em outras palavras: o pivô não se move, é a spline dispersa que se move e dimensiona relativamente a ela.<br><br>- <b>Posição ao longo da spline</b> Mova o pivô ao longo da spline dispersa.<br>- <b>Posição absoluta</b> Defina uma posição arbitrária para o pivô. |
-| <b>Posição de pivô ao longo da spline</b> *Precisão decimal* | A posição normalizada do pivô ao longo da spline dispersa, onde 0 é o início e 1 é o fim.<br>Observe que a tabela dinâmica segue a *direção* da spline dispersa e a orientação da spline pode mudar para preservar a posição e a rotação da tabela dinâmica em relação à spline pai. |
-| <b>Posição Absoluta da Tabela Dinâmica</b> *Precisão decimal 2* | A posição no espaço UV do pivô. |
+| <b>Posição de pivô ao longo da spline</b> *Flutuante* | A posição normalizada do pivô ao longo da spline dispersa, onde 0 é o início e 1 é o fim.<br>Observe que a tabela dinâmica segue a *direção* da spline dispersa e a orientação da spline pode mudar para preservar a posição e a rotação da tabela dinâmica em relação à spline pai. |
+| <b>Posição Absoluta da Tabela Dinâmica</b> *Flutuante2* | A posição no espaço UV do pivô. |
 | <b>Correção Não Quadrada</b> *Booleano* | Ajuste as posições e o thickness das splines para manter sua forma em resoluções não quadradas.<br><i>Observação:</i> ao usar splines personalizados, a spline personalizada deve usar a *mesma proporção de imagem* dos nós <b>Splines de Dispersão</b>. |
 | <b>Tamanho</b> |  |
 | <b>Escala de spline</b> *Flutuante* | Um controle global para o tamanho de todos os splines, em que 1 é o tamanho original completo.<br>O dimensionamento é aplicado relativamente à tabela dinâmica de uma spline. A posição de pivô pode ser deslocada usando o parâmetro <b>Tabela Dinâmica de Spline</b>. |
@@ -124,11 +124,11 @@ Clique na imagem à direita para acessar nosso <b>tutorial dedicado</b>, para ob
 | <b>Rotação</b> |  |
 | <b>Alinhamento de Spline Personalizado</b> *Inteiro* | Controla a orientação inicial da(s) spline(s) personalizada(s) nas splines pai.<br><br>- <b>Tangente do primeiro ponto</b> As splines são orientadas de acordo com a tangente do primeiro ponto. Em outras palavras, elas saem das splines pai na direção definida pelo primeiro ponto.<br>- <b>Espaço da imagem</b> As splines são colocadas como aparecem originalmente, sem nenhum ajuste adicional na posição ou orientação, como se a imagem que as representa estivesse na spline pai. |
 | <b>Modo de rotação</b> *Inteiro* | Define a orientação inicial das linhas divisórias dispersas.<br><br>- <b>Da linha divisória</b> As linhas divisórias são orientadas para corresponder à *normal* das linhas divisórias pai em seu local.<br>- <b>Absoluta</b> Todas as linhas divisórias são orientadas da *mesma maneira*, independentemente da direção das linhas divisórias pai. |
-| <b>Rotação</b> *Flutuante* | Gira os splines ao redor de seus pivôs, em número de voltas. A posição de pivô pode ser deslocada usando o parâmetro <b>Tabela Dinâmica de Spline</b>. |
-| <b>Rotação aleatória</b> *Flutuante* | Aplica uma rotação aleatória adicional aos splines ao redor de seus pivôs, em número de voltas. A posição de pivô pode ser deslocada usando o parâmetro <b>Tabela Dinâmica de Spline</b>. |
-| <b>Ângulo esquerdo/direito</b> *Flutuante* | Controla o ângulo de rotação simétrica aplicado às splines em cada lado das splines pai, em número de voltas. |
-| <b>Ângulo Aleatório à Esquerda/Direita</b> *Flutuante* | Adiciona uma quantidade aleatória de rotação simétrica às splines de cada lado das splines pai, em número de voltas. |
-| <b>Multiplicador de Entrada de Mapa de rotação</b> *Flutuante* | Controla a intensidade da entrada de <b>Mapa de rotação</b>. Este mapa atua como um multiplicador para a rotação atual dos padrões.<br>O efeito deste mapa é combinado com outros parâmetros no grupo <b>Rotação</b>. |
+| <b>Rotação</b> *Precisão decimal* | Gira os splines ao redor de seus pivôs, em número de voltas. A posição de pivô pode ser deslocada usando o parâmetro <b>Tabela Dinâmica de Spline</b>. |
+| <b>Rotação aleatória</b> *Precisão decimal* | Aplica uma rotação aleatória adicional aos splines ao redor de seus pivôs, em número de voltas. A posição de pivô pode ser deslocada usando o parâmetro <b>Tabela Dinâmica de Spline</b>. |
+| <b>Ângulo esquerdo/direito</b> *Precisão decimal* | Controla o ângulo de rotação simétrica aplicado às splines em cada lado das splines pai, em número de voltas. |
+| <b>Ângulo Aleatório à Esquerda/Direita</b> *Precisão decimal* | Adiciona uma quantidade aleatória de rotação simétrica às splines de cada lado das splines pai, em número de voltas. |
+| <b>Multiplicador de Entrada de Mapa de rotação</b> *Precisão decimal* | Controla a intensidade da entrada de <b>Mapa de rotação</b>. Este mapa atua como um multiplicador para a rotação atual dos padrões.<br>O efeito deste mapa é combinado com outros parâmetros no grupo <b>Rotação</b>. |
 | <b>Modo de Amostragem de Entrada de Mapa de rotação</b> *Inteiro* | O método de mapear os valores no <b>Mapa de rotação</b> para as linhas:<br><br>- <b>espaço de Textura</b> Os valores são aplicados às linhas onde estariam se fossem colocados em uma textura usando as coordenadas UV da textura. Isso aplica efetivamente o valor às linhas de spline &#39;no local&#39;,<br>- <b>Horizontal ao longo da linha de spline</b>. Os valores são aplicados diretamente às coordenadas das linhas de spline codificadas (consulte a entrada <b>Cordas de spline</b>), onde cada linha é aplicada a uma linha de spline diferente de cima para baixo,<br>- <b>Hor. ao longo do spline (rand. deslocamento X)</b> Os valores são aplicados diretamente às coordenadas das splines codificadas (consulte a entrada <b>Coords de spline</b>), com um deslocamento horizontal aleatório no <b>Mapa de rotação</b> para cada spline (isto é, cada linha nas <b>Coords de spline</b>).<br>- <b>Hora. ao longo do spline (rand. deslocamento Y)</b> Os valores são aplicados diretamente às coordenadas das splines codificadas (consulte a entrada <b>Coords de spline</b>), com um deslocamento vertical aleatório no <b>Mapa de rotação</b> para cada spline (isto é, cada linha nas <b>Coords de spline</b>)<b>.</b> |
 | <b>A Entrada Do Mapa de rotação Afeta</b> *Inteiro* | Seleciona o parâmetro de rotação afetado pelo <b>Mapa de rotação</b>:<br><br>- <b>Rotação da spline</b>. O mapa afeta a rotação global das splines no sentido horário.<br>- <b>Ângulo esquerdo/direito</b>. O mapa afeta a rotação simétrica das splines <b>Esquerda/direita</b>. |
 | <b>Height</b> |  |
@@ -162,12 +162,12 @@ Clique na imagem à direita para acessar nosso <b>tutorial dedicado</b>, para ob
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersão Splines em Splines: Exemplo 1](../../../../../../assets/scatter-splines-on-splines-example-1.png "Dispersão Splines em Splines: Exemplo 1"){zoomable="yes"}
+![Dispersão Splines em Splines: Exemplo 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-1.png "Dispersão Splines em Splines: Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dispersão Splines em Splines: Exemplo 1](../../../../../../assets/scatter-splines-on-splines-example-2.png "Dispersão Splines em Splines: Exemplo 1"){zoomable="yes"}
+![Dispersão Splines em Splines: Exemplo 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-2.png "Dispersão Splines em Splines: Exemplo 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -177,12 +177,12 @@ Clique na imagem à direita para acessar nosso <b>tutorial dedicado</b>, para ob
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersão Splines em Splines: Exemplo 3](../../../../../../assets/scatter-splines-on-splines-example-4.png "Dispersão Splines em Splines: Exemplo 3"){zoomable="yes"}
+![Dispersão Splines em Splines: Exemplo 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-4.png "Dispersão Splines em Splines: Exemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dispersão Splines em Splines: Exemplo 4](../../../../../../assets/scatter-splines-on-splines-example-3.png "Dispersão Splines em Splines: Exemplo 4"){zoomable="yes"}
+![Dispersão Splines em Splines: Exemplo 4](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-3.png "Dispersão Splines em Splines: Exemplo 4"){zoomable="yes"}
 
 </td>
 </tr>
@@ -194,15 +194,15 @@ Clique na imagem à direita para acessar nosso <b>tutorial dedicado</b>, para ob
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Splines de Dispersão em Splines: Renderizar 1](../../../../../../assets/scatter-splines-on-splines-demo-1.png "Splines de Dispersão em Splines: Renderizar 1"){zoomable="yes"}
+![Splines de Dispersão em Splines: Renderizar 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-1.png "Splines de Dispersão em Splines: Renderizar 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Splines de Dispersão em Splines: Renderizar 2](../../../../../../assets/scatter-splines-on-splines-demo-3.png "Splines de Dispersão em Splines: Renderizar 2"){zoomable="yes"}
+![Splines de Dispersão em Splines: Renderizar 2](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-3.png "Splines de Dispersão em Splines: Renderizar 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![Splines de Dispersão em Splines: Renderizar 3](../../../../../../assets/scatter-splines-on-splines-demo-2.png "Splines de Dispersão em Splines: Renderizar 3"){zoomable="yes"}
+![Splines de Dispersão em Splines: Renderizar 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-2.png "Splines de Dispersão em Splines: Renderizar 3"){zoomable="yes"}

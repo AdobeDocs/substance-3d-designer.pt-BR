@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Spline (quadrática)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline (Quadrático): ícone](../../../../../../assets/spline-quadratic-icon.png "Spline (Quadrático): ícone")
+![Spline (Quadrático): ícone](spline-quadratic.resources/spline-quadratic-icon.png "Spline (Quadrático): ícone")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -85,11 +85,11 @@ A extensão do arco formado pela spline é *ajustável*, de modo que parte de su
 | <b>Iniciar thickness</b> <i>Flutuante</i> | Ajusta o thickness do ponto <b>p1</b>. Isso afeta o thickness da spline em <b>p1</b>.<br><i>Observação: o Thickness </i> é usado por nós de spline específicos. |
 | <b>Encerrar thickness</b> <i>Flutuante</i> | Ajusta o thickness do ponto <b>p3</b>. Isso afeta o thickness da spline em <b>p3</b>.<br><i>Observação: o Thickness </i> é usado por nós de spline específicos. |
 | <b>thickness de tangente automática</b> <i>Booleano</i> | Define automaticamente o thickness das tangentes da spline para interpolar linearmente do <b>Thickness Inicial</b> para o <b>Thickness Final</b>.<br><i>Observação: o Thickness </i> é usado por nós de spline específicos. |
-| <b>thickness Tangente</b> <i>Flutuante</i> | Ajusta o thickness orientado pelas tangentes controladas pelo ponto <b>p2</b>.<br>Isso afeta o thickness ao longo da spline, pois afasta-se de <b>p1</b> e vai para <b>p3</b>.<br><i>Observação: o Thickness </i> é usado por nós de spline específicos.<br><i>Observação 2:</i> este parâmetro só está disponível quando o <b>thickness de tangente automática</b> está definido como &#39;False&#39;. |
+| <b>thickness Tangente</b> <i>Precisão decimal</i> | Ajusta o thickness orientado pelas tangentes controladas pelo ponto <b>p2</b>.<br>Isso afeta o thickness ao longo da spline, pois afasta-se de <b>p1</b> e vai para <b>p3</b>.<br><i>Observação: o Thickness </i> é usado por nós de spline específicos.<br><i>Observação 2:</i> este parâmetro só está disponível quando o <b>thickness de tangente automática</b> está definido como &#39;False&#39;. |
 | <b>Coordenadas de pontos</b> |  |
-| <b>p1</b> <i>Flutuante2</i> | Define a posição do ponto <b>p1</b> no espaço de textura. |
-| <b>p2</b> <i>Flutuante2</i> | Define a posição do ponto <b>p2</b> no espaço de textura.<br>O ponto <b>p2</b> controla as <i>tangentes</i> dos pontos <b>p1</b> e <b>p3</b>. |
-| <b>p3</b> <i>Flutuante2</i> | Define a posição do ponto <b>p3</b> no espaço de textura. |
+| <b>p1</b> <i>Precisão decimal 2</i> | Define a posição do ponto <b>p1</b> no espaço de textura. |
+| <b>p2</b> <i>Precisão decimal 2</i> | Define a posição do ponto <b>p2</b> no espaço de textura.<br>O ponto <b>p2</b> controla as <i>tangentes</i> dos pontos <b>p1</b> e <b>p3</b>. |
+| <b>p3</b> <i>Precisão decimal 2</i> | Define a posição do ponto <b>p3</b> no espaço de textura. |
 | <b>Visualizar</b> |  |
 | <b>Mostrar tangentes</b> <i>Booleano</i> | Exibe a tangente <b>p1</b> point &#39;out&#39; e a tangente <b>p3</b> point &#39;in&#39; na saída <b>Visualizar</b>. Inverte a direção da spline. |
 | <b>Mostrar auxiliar de direção</b> <i>Booleano</i> | Exibe um ponto no início da spline e uma ponta de seta no final da saída de <b>Visualização</b>. |
@@ -103,12 +103,12 @@ A extensão do arco formado pela spline é *ajustável*, de modo que parte de su
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline (Quadrático): Exemplo 1](../../../../../../assets/spline-quadratic-example-1.png "Spline (Quadrático): Exemplo 1"){zoomable="yes"}
+![Spline (Quadrático): Exemplo 1](spline-quadratic.resources/spline-quadratic-example-1.png "Spline (Quadrático): Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline (Quadrático): Exemplo 2](../../../../../../assets/spline-quadratic-example-2.png "Spline (Quadrático): Exemplo 2"){zoomable="yes"}
+![Spline (Quadrático): Exemplo 2](spline-quadratic.resources/spline-quadratic-example-2.png "Spline (Quadrático): Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ A extensão do arco formado pela spline é *ajustável*, de modo que parte de su
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline (Quadrática): Demonstração](../../../../../../assets/spline-quadratic-demo.gif "Spline (Quadrática): Demonstração"){zoomable="yes"}
+![Spline (Quadrática): Demonstração](spline-quadratic.resources/spline-quadratic-demo.gif "Spline (Quadrática): Demonstração"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

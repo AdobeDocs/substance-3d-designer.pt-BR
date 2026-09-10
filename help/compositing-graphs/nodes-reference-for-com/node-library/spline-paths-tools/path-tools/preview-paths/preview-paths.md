@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
-description: Use o nó Visualizar caminhos para visualizar dados de caminho na visualização 2D para depuração e verificação.
+description: Use o nó Visualizar caminhos para visualizar dados de caminho no Visualização 2D para depuração e verificação.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Preview Paths
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visualizar demarcadores
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/preview-paths-icon.png "Ícone de nó")
+![Ícone de nó](preview-paths.resources/preview-paths-icon.png "Ícone de nó")
 
 <b>Ferramentas de Spline e Caminho </b> > Ferramentas de Caminho
 
@@ -58,7 +58,7 @@ Você obterá um resultado semelhante à saída <b>Visualizar</b> de [Mascarar p
 |:---|:---|
 | <b>Mostrar Cantos</b> <i>Booleano</i> | Exibe um quadrado em cada vértice marcado como canto (mesclagem aditiva). |
 | <b>Mostrar vértices</b> <i>Booleano</i> | Exibe uma forma circular em cada vértice (mistura aditiva). Os cantos ainda são exibidos como quadrados. |
-| <b>Thickness de segmentos (px)</b> <i>Flutuante</i> | Ajusta o thickness de segmentos renderizados em pixels. |
+| <b>Thickness de segmentos (px)</b> <i>Precisão decimal</i> | Ajusta o thickness de segmentos renderizados em pixels. |
 
 ## Exemplos
 
@@ -66,12 +66,12 @@ Você obterá um resultado semelhante à saída <b>Visualizar</b> de [Mascarar p
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](preview-paths.resources/PathsToSpline-Variant2-Before_1.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "Exemplo de nó 2")
+![Exemplo de nó 2](preview-paths.resources/PathsToSpline-Variant1-Before_1.jpg "Exemplo de nó 2")
 
 </td>
 </tr>

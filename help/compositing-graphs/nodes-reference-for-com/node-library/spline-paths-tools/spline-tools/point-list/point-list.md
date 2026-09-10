@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lista de pontos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/point-list-icon.png "Ícone de nó")
+![Ícone de nó](point-list.resources/point-list-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -76,11 +76,11 @@ Se uma lista de pontos existente for fornecida para as entradas de <b>Ponto</b>,
 |  |  |
 |:---|:---|
 | <b>Número do Ponto</b> <i>Inteiro</i> | O número de pontos gerados. |
-| <b>Ajuste de Smoothness Global</b> <i>Flutuante</i> | Aplica um deslocamento uniforme ao valor de smoothness de todos os pontos.<br>O valor do smoothness resultante é fixado ao intervalo [0;1]. |
+| <b>Ajuste de Smoothness Global</b> <i>Precisão decimal</i> | Aplica um deslocamento uniforme ao valor de smoothness de todos os pontos.<br>O valor do smoothness resultante é fixado ao intervalo [0;1]. |
 | <b>Propriedades de Pontos</b> |  |
-| <b>p# Propriedades</b> <i>Flutuante3</i> | Define as propriedades do ponto p#.<br>*- Height:* Ajusta o height do ponto onde um valor mais baixo significa um local mais baixo ou mais profundo;<br>*- Smoothness:* Desloca o início da suavização da spline em p#, onde um valor de 0 resulta em uma trajetória rígida e 1 em uma totalmente suave;<br>*- Thickness:* Ajusta o thickness da spline em p#. O thickness é usado por nós Spline específicos. |
+| <b>p# Propriedades</b> <i>Precisão decimal 3</i> | Define as propriedades do ponto p#.<br>*- Height:* Ajusta o height do ponto onde um valor mais baixo significa um local mais baixo ou mais profundo;<br>*- Smoothness:* Desloca o início da suavização da spline em p#, onde um valor de 0 resulta em uma trajetória rígida e 1 em uma totalmente suave;<br>*- Thickness:* Ajusta o thickness da spline em p#. O thickness é usado por nós Spline específicos. |
 | <b>Coordenadas de pontos</b> |  |
-| <b>p#</b> <i>Flutuante2</i> | Define a posição do ponto p# no espaço de textura. |
+| <b>p#</b> <i>Precisão decimal 2</i> | Define a posição do ponto p# no espaço de textura. |
 | <b>Visualizar</b> |  |
 | <b>Mostrar rótulos</b> <i>Booleano</i> | Para cada ponto, exibe o nome do ponto ao lado dele na saída “Visualização”. |
 | <b>Tamanho do Rótulo</b> <i>Precisão decimal</i> (Disponível quando &#39;Mostrar Rótulos&#39; estiver definido como &#39;Verdadeiro&#39;) | O tamanho do rótulo para cada ponto no espaço de textura, onde 0,1 é um décimo da largura da textura. |
@@ -93,12 +93,12 @@ Se uma lista de pontos existente for fornecida para as entradas de <b>Ponto</b>,
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/PointList-Variant1.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](point-list.resources/PointList-Variant1.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/PointList-Demo1.gif "Exemplo de nó 2")
+![Exemplo de nó 2](point-list.resources/PointList-Demo1.gif "Exemplo de nó 2")
 
 </td>
 </tr>

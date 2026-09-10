@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distorção de spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/spline-warp-icon.png "Ícone de nó")
+![Ícone de nó](spline-warp.resources/spline-warp-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -97,11 +97,11 @@ A intensidade do efeito de distorção pode ser ajustada ao longo da spline usan
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
+      <img src="spline-warp.resources/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
+      <img src="spline-warp.resources/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -113,11 +113,11 @@ A intensidade do efeito de distorção pode ser ajustada ao longo da spline usan
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
+      <img src="spline-warp.resources/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
+      <img src="spline-warp.resources/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -131,7 +131,7 @@ A intensidade do efeito de distorção pode ser ajustada ao longo da spline usan
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/SplineWarp-Demo.gif "Exemplo de nó 1")
+![Exemplo de nó 1](spline-warp.resources/SplineWarp-Demo.gif "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">

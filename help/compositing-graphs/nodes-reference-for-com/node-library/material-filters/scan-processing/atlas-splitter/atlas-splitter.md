@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
 breadcrumb-title: ''
-description: Use o nó Atlas splitter para dividir atlas de textura em texturas individuais para processar materiais digitalizados.
+description: Use o nó Atlas splitter para dividir os atlas de textura em texturas individuais para processar os materiais digitalizados.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Atlas Splitter
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas splitter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/atlas-splitter.png "Ícone de nó")
+![Ícone de nó](atlas-splitter.resources/atlas-splitter.png "Ícone de nó")
 
-<b>Entrada:</b> Filtros de Material/Processamento de Digitalização
+<b>Entrada:</b> Filtros Materiais/Processamento de materiais escaneados
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -50,8 +50,8 @@ O nó funciona como um aplicativo avançado do nó [Flood Fill](../../../../../.
 |  |  |
 |:---|:---|
 | <b>Exibição de grade</b> <i>Booleano</i> | Exibe todas as formas detectadas em uma grade. |
-| <b>Opacidade da grade</b> <i>Flutuante</i> | Define a opacidade das linhas de grade quando a visualização de grade é verdadeira. Opção Depurar |
-| <b>Opacidade da Seleção de Grade</b> <i>Flutuante</i> | Define a Opacidade do realce de Seleção de grade se a Exibição de grade for Verdadeira. Opção Depurar |
+| <b>Opacidade da grade</b> <i>Precisão decimal</i> | Define a opacidade das linhas de grade quando a visualização de grade é verdadeira. Opção Depurar |
+| <b>Opacidade da Seleção de Grade</b> <i>Precisão decimal</i> | Define a Opacidade do realce de Seleção de grade se a Exibição de grade for Verdadeira. Opção Depurar |
 | <b>Escala automática</b> <i>Booleano</i> | Dimensione automaticamente as formas para ajustá-las à célula da grade. |
 | <b>Corte Automático</b> <i>Booleano</i> | Corta automaticamente o tamanho da saída de acordo com a maior forma para minimizar o espaço vazio. |
 | <b>Seleção de forma</b> <i>Inteiro</i> | Na visualização Grade define qual célula é destacada, fora da visualização Grade define qual célula é retornada. |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapeador de spline em tons de cinza
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/spline-mapper-grayscale-icon.png "Ícone de nó")
+![Ícone de nó](spline-mapper-grayscale.resources/spline-mapper-grayscale-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -83,12 +83,12 @@ O nó gera a imagem mapeada como uma imagem em tons de cinza, bem como outras in
 |:---|:---|
 | <b>Valor de Segmentos</b> <i>Inteiro</i> | As splines são simplificadas em segmentos antes que as coordenadas da imagem os atravessem.<br>Uma quantidade maior de segmentos resulta em um mapeamento mais suave ao longo das curvas. |
 | <b>UVs de Escala Automática</b> <i>Booleano</i> | Ajusta a escala das coordenadas automaticamente para manter uma imagem quadrada ao mapeá-la ao longo das linhas. |
-| <b>Escala UV</b> <i>Flutuante2</i> | Ajusta a escala das coordenadas mapeadas em X (horizontalmente) e Y (verticalmente).<br>Valores mais altos resultam em uma imagem lado a lado mais densa. |
+| <b>Escala UV</b> <i>Precisão decimal 2</i> | Ajusta a escala das coordenadas mapeadas em X (horizontalmente) e Y (verticalmente).<br>Valores mais altos resultam em uma imagem lado a lado mais densa. |
 | <b>Modo</b> <i>Inteiro</i> | O método de seleção das splines ao longo das quais a imagem deve ser mapeada:<br>- <i>Desenhar Lista de Spline</i>: todas as splines na lista de entrada são usadas;<br>- <i>Desenhar Spline Único</i>: apenas a spline com o índice especificado é usada;<br>- <i>Desenhar Intervalo de Spline</i>: apenas as splines com índice incluído no intervalo especificado são usadas. |
 | <b>Desenhar Índice de Spline</b> <i>Inteiro</i> | (Disponível quando “Modo” estiver definido como “Desenhar spline único”) O índice da spline ao longo da qual a imagem deve ser mapeada. |
 | <b>Desenhar Intervalo De Spline</b> <i>Inteiro2</i> | (Disponível quando “Modo” estiver definido como “Desenhar intervalo de spline”) O intervalo de índices das splines ao longo do qual a imagem deve ser mapeada. |
-| <b>Iniciar</b> <i>Flutuante</i> | Desloca o início da parte da spline que deve ser mapeada.<br>O valor representa o comprimento normalizado da spline. |
-| <b>Fim</b> <i>Flutuante</i> | Desloca a extremidade da parte da spline que deve ser mapeada.<br>O valor representa o comprimento normalizado da spline. |
+| <b>Iniciar</b> <i>Precisão decimal</i> | Desloca o início da parte da spline que deve ser mapeada.<br>O valor representa o comprimento normalizado da spline. |
+| <b>Fim</b> <i>Precisão decimal</i> | Desloca a extremidade da parte da spline que deve ser mapeada.<br>O valor representa o comprimento normalizado da spline. |
 | <b>Modo de Thickness</b> <i>Inteiro</i> | O método de definição do thickness da imagem mapeada:<br>- <i>Manual</i>: defina o thickness explicitamente com um valor arbitrário;<br>- <i>Da spline</i>: use o thickness da spline. |
 | <b>Thickness</b> <i>Flutuante</i> | (Disponível quando o “Modo de Thickness” está definido como “Manual”) O valor arbitrário para o thickness da imagem mapeada ao longo das splines. |
 | <b>Multiplicador de Thickness</b> <i>Flutuante</i> | (Disponível quando o “Modo de Thickness” está definido como “De spline”) Um multiplicador global para o thickness da imagem mapeada ao longo das splines, quando esse thickness é acionado pelo das splines. |
@@ -97,9 +97,9 @@ O nó gera a imagem mapeada como uma imagem em tons de cinza, bem como outras in
 | <b>Deslocamento do Height do cilindro</b> <i>Flutuante</i> | (Disponível quando “Forma” está definida como “Meio cilindro” ou “Cilindro”) Desloca o centro do perfil de forma de Cilindro ou Meio cilindro da superfície da spline para um diâmetro abaixo da superfície. |
 | <b>Intensidade de UVs de torção</b> <i>Flutuante</i> | (Disponível quando “Forma” é definida como “Meio Cilindro” ou “Cilindro”) A torção das coordenadas da imagem em torno do cilindro, em número de voltas.<br>A torção envolve girar o cilindro somente no final da spline. A rotação é então interpolada ao longo da spline. |
 | <b>Multiplicador de curva de UVs de torção</b> <i>Flutuante</i> | (Disponível quando “Forma” é ajustada para “Meia garrafa” ou “Cilindro”) Um multiplicador para a intensidade da contribuição do Twist curve para a torção do cilindro.<br>A curva fornece um perfil para a quantidade de rotação ao longo da spline, onde o primeiro pixel na linha é a rotação no início da spline e o último é a rotação no final. O valor da escala de cinza representa um número de voltas. |
-| <b>Deslocamento de curva de UVs de torção</b> <i>Flutuante</i> | (Disponível quando “Forma” estiver definida como “Meia garrafa” ou “Cilindro”) Aplica um deslocamento global aos valores de rotação fornecidos pelo Twist curve, em número de voltas. |
-| <b>Multiplicador de Height de spline</b> <i>Flutuante</i> | Ajusta a intensidade da contribuição da entrada do Height de spline para a saída do Height.<br>Os ajustes de Height são cumulativos. |
-| <b>Multiplicador de Height de entrada</b> <i>Flutuante</i> | Ajusta a intensidade da contribuição da entrada do Mapa de altura para a saída do Height.<br>Os ajustes de Height são cumulativos. |
+| <b>Deslocamento de curva de UVs de torção</b> <i>Precisão decimal</i> | (Disponível quando “Forma” estiver definida como “Meia garrafa” ou “Cilindro”) Aplica um deslocamento global aos valores de rotação fornecidos pelo Twist curve, em número de voltas. |
+| <b>Multiplicador de Height de spline</b> <i>Precisão decimal</i> | Ajusta a intensidade da contribuição da entrada do Height de spline para a saída do Height.<br>Os ajustes de Height são cumulativos. |
+| <b>Multiplicador de Height de entrada</b> <i>Precisão decimal</i> | Ajusta a intensidade da contribuição da entrada do Mapa de altura para a saída do Height.<br>Os ajustes de Height são cumulativos. |
 | <b>Correção Não Quadrada</b> <i>Booleano</i> | Ajuste a posição e o thickness dos pontos para manter a forma de spline em resoluções não quadradas.<br>Isso também afeta a distribuição uniforme. |
 
 ## Exemplos
@@ -111,11 +111,11 @@ O nó gera a imagem mapeada como uma imagem em tons de cinza, bem como outras in
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="spline-mapper-grayscale.resources/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
+      <img src="spline-mapper-grayscale.resources/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ O nó gera a imagem mapeada como uma imagem em tons de cinza, bem como outras in
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/SplineMapperGrayscale-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](spline-mapper-grayscale.resources/SplineMapperGrayscale-Demo.gif "Exemplo de nó 2")
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ O nó gera a imagem mapeada como uma imagem em tons de cinza, bem como outras in
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 3](../../../../../../assets/SplineMapperGrayscale-Variant1-After1.jpg "Exemplo de nó 3")
+![Exemplo de nó 3](spline-mapper-grayscale.resources/SplineMapperGrayscale-Variant1-After1.jpg "Exemplo de nó 3")
 
 </td>
 <td style="border: 0;" valign="top">

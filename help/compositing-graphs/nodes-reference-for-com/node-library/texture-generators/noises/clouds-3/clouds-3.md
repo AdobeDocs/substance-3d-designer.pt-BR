@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-3.html"
 breadcrumb-title: ''
-description: Use o nó Nuvens 3 para gerar padrões de nuvem avançados para criar efeitos de textura atmosféricos e volumétricos.
+description: Use o nó Nuvens 3 para gerar padrões de nuvem avançados para criar efeitos de textura atmosférica e volumétrica.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Clouds 3
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nuvens 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nuvens 3 - Ícone](../../../../../../assets/clouds_3.png "Nuvens 3 - Ícone"){width="200px"}
+![Nuvens 3 - Ícone](clouds-3.resources/clouds_3.png "Nuvens 3 - Ícone"){width="200px"}
 
-<b>Entrada:</b> geradores de Textura > Ruídos
+<b>Entrada:</b> geradores de textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -56,9 +56,9 @@ Veja também: [Nuvens 1](../../../../../../compositing-graphs/nodes-reference-fo
 |  |  |
 |:---|:---|
 | <b>Escala</b> <i>Inteiro</i> | A subdivisão da grade usada para gerar os blocos de ruído.    Um valor mais alto resulta no desenho de mais ladrilhos e em um ruído mais denso. |
-| <b>Desordem</b> <i>Precisão decimal</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
-| <b>Velocidade do distúrbio</b> <i>Precisão decimal</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
-| <b>anisotropia de distúrbio</b> <i>Precisão decimal</i> | Controla a extensão das direções do deslocamento aplicadas pelo parâmetro <b>Desordem</b>, em que um valor mais alto resulta em uma direção mais estreita e definida.    A direção é controlada pelo parâmetro <b>ângulo de anisotropia de Desordem</b>. |
+| <b>Desordem</b> <i>Flutuante</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
+| <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
+| <b>anisotropia de distúrbio</b> <i>Flutuante</i> | Controla a extensão das direções do deslocamento aplicadas pelo parâmetro <b>Desordem</b>, em que um valor mais alto resulta em uma direção mais estreita e definida.    A direção é controlada pelo parâmetro <b>ângulo de anisotropia de Desordem</b>. |
 | <b>ângulo de anisotropia de desordem</b> <i>Precisão decimal</i> | Controla a direção do deslocamento aplicado pelo parâmetro <b>Desordem</b> quando o parâmetro <b>anisotropia de Desordem</b> não é zero. |
 | <b>Deslocamento do bloco</b> <i>Precisão decimal 2</i> | Controla a posição da parte de plano infinito usada para renderizar o ruído. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
@@ -69,12 +69,12 @@ Veja também: [Nuvens 1](../../../../../../compositing-graphs/nodes-reference-fo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nuvens 3 - Exemplo 1](../../../../../../assets/clouds_3_1.png "Nuvens 3 - Exemplo 1"){zoomable="yes"}
+![Nuvens 3 - Exemplo 1](clouds-3.resources/clouds_3_1.png "Nuvens 3 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nuvens 3 - Exemplo 2](../../../../../../assets/noise_clouds_3_v2_speed0.6_aniso0.gif "Nuvens 3 - Exemplo 2"){zoomable="yes"}
+![Nuvens 3 - Exemplo 2](clouds-3.resources/noise_clouds_3_v2_speed0.6_aniso0.gif "Nuvens 3 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ Veja também: [Nuvens 1](../../../../../../compositing-graphs/nodes-reference-fo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Nuvens 3 - Exemplo 3](../../../../../../assets/noise_clouds_3_v2_speed0.6_aniso1.gif "Nuvens 3 - Exemplo 3"){zoomable="yes"}
+![Nuvens 3 - Exemplo 3](clouds-3.resources/noise_clouds_3_v2_speed0.6_aniso1.gif "Nuvens 3 - Exemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Nuvens 3 - Exemplo 4](../../../../../../assets/noise_clouds_3_v2_speed0.3_aniso0.6.gif "Nuvens 3 - Exemplo 4"){zoomable="yes"}
+![Nuvens 3 - Exemplo 4](clouds-3.resources/noise_clouds_3_v2_speed0.3_aniso0.6.gif "Nuvens 3 - Exemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

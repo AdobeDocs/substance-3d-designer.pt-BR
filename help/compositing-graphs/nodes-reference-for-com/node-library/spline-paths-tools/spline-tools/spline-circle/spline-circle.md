@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Círculo com Spline
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de nó](../../../../../../assets/spline-circle-icon.png "Ícone de nó")
+![Ícone de nó](spline-circle.resources/spline-circle-icon.png "Ícone de nó")
 
 <b>Ferramentas De Spline E Caminho </b> Em: > Ferramenta de linha flexível
 
@@ -67,19 +67,19 @@ Gera uma única spline na forma de um círculo.
 
 |  |  |
 |:---|:---|
-| <b>Raio do círculo</b> <i>Precisão decimal</i> | Ajusta o raio do círculo no espaço de textura. |
-| <b>Pré-rotação do Círculo</b> <i>Precisão decimal</i> | Aplica uma rotação ao círculo base antes que o Tamanho seja aplicado. |
-| <b>Tamanho do Círculo</b> <i>Precisão decimal 2</i> | Ajusta o tamanho horizontal (X) e o tamanho vertical (Y) do círculo. |
-| <b>Pós-rotação do círculo</b> <i>Precisão decimal</i> | Aplica uma rotação ao círculo base após a aplicação do Tamanho. |
-| <b>Posição do Círculo</b> <i>Precisão decimal 2</i> | Define a posição do centro do círculo no espaço de textura. |
-| <b>Iniciar Thickness</b> <i>Precisão decimal</i> | Ajusta o thickness do ponto inicial do círculo. Este thickness é interpolado ao longo da spline até o Thickness Final.<br>Observação: o Thickness é usado por nós Spline específicos. |
-| <b>Encerrar Thickness</b> <i>Flutuante</i> | Ajusta o thickness do ponto final do círculo. Este thickness é interpolado ao longo da spline para o Thickness de Início.<br>Observação: o Thickness é usado por nós de spline específicos. |
-| <b>Iniciar Height</b> <i>Flutuante</i> | Ajusta o height do ponto inicial do círculo, onde um valor mais baixo significa um local mais baixo ou mais profundo. Esse height é interpolado ao longo da spline até o Height final. |
-| <b>Encerrar Height</b> <i>Flutuante</i> | Ajusta o height do ponto final do círculo onde um valor mais baixo significa um local mais baixo ou mais profundo. Esse height é interpolado ao longo da spline a partir do Height inicial. |
-| <b>Cortar</b> <i>Flutuante2</i> | Desloca os pontos inicial e final da spline ao longo do círculo. Esses valores são normalizados. |
-| <b>Espiral</b> <i>Flutuante</i> | Desloca o ponto inicial do círculo de seu raio para seu centro. A distância do centro é então interpolada ao longo do spline até o final do spline. Este valor está normalizado. |
-| <b>Rotações em espiral</b> <i>Flutuante</i> | Define o número de voltas feitas pela espiral ao redor de seu centro. |
-| <b>Energia em espiral</b> <i>Flutuante</i> | Aplica uma curva de potência à distância do centro usada para desenhar a espiral. Um valor maior do que um significa que uma porção maior da espiral permanece próxima ao centro. |
+| <b>Raio do círculo</b> <i>Flutuante</i> | Ajusta o raio do círculo no espaço de textura. |
+| <b>Pré-rotação do Círculo</b> <i>Flutuante</i> | Aplica uma rotação ao círculo base antes que o Tamanho seja aplicado. |
+| <b>Tamanho do Círculo</b> <i>Flutuante2</i> | Ajusta o tamanho horizontal (X) e o tamanho vertical (Y) do círculo. |
+| <b>Pós-rotação do círculo</b> <i>Flutuante</i> | Aplica uma rotação ao círculo base após a aplicação do Tamanho. |
+| <b>Posição do Círculo</b> <i>Flutuante2</i> | Define a posição do centro do círculo no espaço de textura. |
+| <b>Iniciar Thickness</b> <i>Flutuante</i> | Ajusta o thickness do ponto inicial do círculo. Este thickness é interpolado ao longo da spline até o Thickness Final.<br>Observação: o Thickness é usado por nós Spline específicos. |
+| <b>Encerrar Thickness</b> <i>Precisão decimal</i> | Ajusta o thickness do ponto final do círculo. Este thickness é interpolado ao longo da spline para o Thickness de Início.<br>Observação: o Thickness é usado por nós de spline específicos. |
+| <b>Iniciar Height</b> <i>Precisão decimal</i> | Ajusta o height do ponto inicial do círculo, onde um valor mais baixo significa um local mais baixo ou mais profundo. Esse height é interpolado ao longo da spline até o Height final. |
+| <b>Encerrar Height</b> <i>Precisão decimal</i> | Ajusta o height do ponto final do círculo onde um valor mais baixo significa um local mais baixo ou mais profundo. Esse height é interpolado ao longo da spline a partir do Height inicial. |
+| <b>Cortar</b> <i>Precisão decimal 2</i> | Desloca os pontos inicial e final da spline ao longo do círculo. Esses valores são normalizados. |
+| <b>Espiral</b> <i>Precisão decimal</i> | Desloca o ponto inicial do círculo de seu raio para seu centro. A distância do centro é então interpolada ao longo do spline até o final do spline. Este valor está normalizado. |
+| <b>Rotações em espiral</b> <i>Precisão decimal</i> | Define o número de voltas feitas pela espiral ao redor de seu centro. |
+| <b>Energia em espiral</b> <i>Precisão decimal</i> | Aplica uma curva de potência à distância do centro usada para desenhar a espiral. Um valor maior do que um significa que uma porção maior da espiral permanece próxima ao centro. |
 | <b>Inverter Direção</b> <i>Booleano</i> | Inverte a direção da spline. |
 | <b>Distribuição Uniforme</b> <i>Booleano</i> | Quando verdadeiro, os pontos da spline ficam com espaçamento uniforme do início ao fim. |
 | <b>Acrescentar Spline de Entrada</b> <i>Booleano</i> | Adiciona a spline gerada ao final da lista de splines conectadas às entradas de <b>spline</b>. |
@@ -96,12 +96,12 @@ Gera uma única spline na forma de um círculo.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 1](../../../../../../assets/SplineCircle-Variant1.jpg "Exemplo de nó 1")
+![Exemplo de nó 1](spline-circle.resources/SplineCircle-Variant1.jpg "Exemplo de nó 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de nó 2](../../../../../../assets/SplineCircle-Demo.gif "Exemplo de nó 2")
+![Exemplo de nó 2](spline-circle.resources/SplineCircle-Demo.gif "Exemplo de nó 2")
 
 </td>
 </tr>
@@ -111,12 +111,12 @@ Gera uma única spline na forma de um círculo.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo 3](../../../../../../assets/SplineCircle-Variant2.jpg "Exemplo 3")
+![Exemplo 3](spline-circle.resources/SplineCircle-Variant2.jpg "Exemplo 3")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo 4](../../../../../../assets/SplineCircle-Variant3.jpg "Exemplo 4")
+![Exemplo 4](spline-circle.resources/SplineCircle-Variant3.jpg "Exemplo 4")
 
 </td>
 </tr>

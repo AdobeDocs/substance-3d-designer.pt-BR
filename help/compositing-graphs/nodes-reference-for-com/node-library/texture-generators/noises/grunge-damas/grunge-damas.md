@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Damas de desgaste
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungedamas.jpg){width="200px"}
+![](grunge-damas.resources/grungedamas.jpg){width="200px"}
 
-<b>Entrada:</b> geradores de textura > Ruídos
+<b>Entrada:</b> geradores de Textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,12 +45,12 @@ O nó **Damas de Desgaste** gera um mapa de desgaste semelhante a um padrão de 
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
-| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
+| <b>Saldo</b> <i>Precisão decimal</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Precisão decimal</i> | Ajusta o contraste da imagem. |
 | <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
 | <b>Avançado</b> |  |
-| <b>Distorção</b> <i>Flutuante</i> | Ajusta a quantidade de distorção no padrão. |
+| <b>Distorção</b> <i>Precisão decimal</i> | Ajusta a quantidade de distorção no padrão. |
 | <b>Divisões</b> <i>Inteiro</i> | Ajusta a intensidade de divisões ou repetições de gradiente no padrão. |
 | <b>Ondas</b> <i>Inteiro</i> | Ajusta a quantidade de ondas no padrão. |
 | <b>Detalhes</b> <i>Flutuante</i> | Ajusta a intensidade das distorções menores. |
@@ -61,7 +61,7 @@ O nó **Damas de Desgaste** gera um mapa de desgaste semelhante a um padrão de 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungedamas-variant.jpg" />
+            <img src="grunge-damas.resources/grungedamas-variant.jpg" />
         </td>
     </tr>
 </table>
