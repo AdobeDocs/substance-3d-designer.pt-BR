@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-burn.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-burn.html"
 breadcrumb-title: ''
 description: Use o nó de mesclagem Superexposição de cores para escurecer texturas aumentando o contraste para criar efeitos de sombra e superexposição.
 helpx_creative_field: ""

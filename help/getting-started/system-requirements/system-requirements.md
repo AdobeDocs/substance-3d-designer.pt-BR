@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Revise os requisitos de sistema do Substance 3D Designer para garantir que seu computador atenda às especificações necessárias.
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ Veja abaixo uma lista da GPU compatível com o aplicativo:
 >
 > **TDR (somente Windows)**
 > 
-> Para obter a melhor estabilidade geral ao realizar cálculos pesados na GPU, por exemplo, renderizar gráficos complexos, renderizar na exibição 3D, exportar uma cena da exibição 3D etc., é altamente recomendável verificar se os valores de <b>Detecção e recuperação de tempo limite (TDR)</b> correspondem às recomendações nesta [página](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) da nossa documentação.
+> Para obter a melhor estabilidade geral ao realizar cálculos pesados na GPU, por exemplo, renderizar gráficos complexos, renderizar na exibição 3D, exportar uma cena da exibição 3D etc., é altamente recomendável verificar se os valores de <b>Detecção e recuperação de tempo limite (TDR)</b> correspondem às recomendações nesta [página](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) da nossa documentação.
 
 ## Configurações sem suporte
 
@@ -100,7 +100,7 @@ Veja abaixo uma lista da GPU compatível com o aplicativo:
 
 Veja abaixo uma lista das versões mínimas de driver de GPU necessárias para que o aplicativo seja executado sem problemas. Esta lista está sujeita a alterações à medida que novas versões são lançadas.
 
-Para baixar novos drivers, consulte: [A GPU tem drivers desatualizados](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
+Para baixar novos drivers, consulte: [A GPU tem drivers desatualizados](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
 
 | SO | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
@@ -113,20 +113,20 @@ Para baixar novos drivers, consulte: [A GPU tem drivers desatualizados](https://
 
 ## Rastreamento de raios do GPU para panificação
 
-Para habilitar o Rastreamento de raios do GPU via Optix ou DXR, os drivers recomendados acima devem estar instalados.
+Para ativar o Rastreamento de raios do GPU via Optix ou DXR, os drivers recomendados acima devem ser instalados.
 
 O <b>DXR</b> requer a seguinte configuração mínima:
 
-* <b>Windows 10</b> versão 1809, consulte [esta página](https://experienceleague.adobe.com/pt-br/docs/substance-3d/bakers/features/gpu-raytracing) para obter mais informações
+* <b>Windows 10</b> versão 1809, consulte [esta página](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) para obter mais informações
 * <b>GPU com arquitetura Pascal</b> (Nvidia GeForce 10XX)
 
 >[!TIP]
 >
-> O Rastreamento de raios do GPU funciona de maneira ideal em hardware de rastreio de raio dedicado, como GPUs NVIDIA GeForce RTX ou NVIDIA Quadro RTX.
+> O Rastreamento de raios do GPU funciona de maneira ideal em hardware de Rastreamento de raios dedicado como GPUs NVIDIA GeForce RTX ou NVIDIA Quadro RTX.
 
 ## Usando tablets
 
-Os usuários do tablet no <b>Windows</b> devem aplicar as configurações descritas na página a seguir para obter a experiência mais confiável: [Configurar canetas e tablets](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
+Os usuários do tablet no <b>Windows</b> devem aplicar as configurações descritas na página a seguir para obter a experiência mais confiável: [Configurar canetas e tablets](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
 
 ## Idiomas
 

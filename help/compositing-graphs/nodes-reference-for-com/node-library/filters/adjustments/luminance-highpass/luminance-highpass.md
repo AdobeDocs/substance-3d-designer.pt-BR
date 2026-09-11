@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
 breadcrumb-title: ''
 description: Use o nó Highpass de luminância para extrair detalhes de luminância de alta frequência das texturas para aprimorar os detalhes da superfície.
 helpx_creative_field: ""

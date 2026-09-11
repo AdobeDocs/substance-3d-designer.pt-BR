@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/comparison-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/comparison-nodes.html"
 breadcrumb-title: ''
 description: Acesse nós de comparação nos gráficos de função do Substance 3D Designer para comparar valores e gerar resultados booleanos.
 helpx_creative_field: ""

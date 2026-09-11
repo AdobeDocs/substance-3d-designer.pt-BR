@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: Use o nó Lista de pontos para criar e gerenciar listas de pontos para spline e geração de caminho.
 helpx_creative_field: ""
@@ -76,11 +76,11 @@ Se uma lista de pontos existente for fornecida para as entradas de <b>Ponto</b>,
 |  |  |
 |:---|:---|
 | <b>Número do Ponto</b> <i>Inteiro</i> | O número de pontos gerados. |
-| <b>Ajuste de Smoothness Global</b> <i>Precisão decimal</i> | Aplica um deslocamento uniforme ao valor de smoothness de todos os pontos.<br>O valor do smoothness resultante é fixado ao intervalo [0;1]. |
+| <b>Ajuste de Smoothness Global</b> <i>Flutuante</i> | Aplica um deslocamento uniforme ao valor de smoothness de todos os pontos.<br>O valor do smoothness resultante é fixado ao intervalo [0;1]. |
 | <b>Propriedades de Pontos</b> |  |
-| <b>p# Propriedades</b> <i>Precisão decimal 3</i> | Define as propriedades do ponto p#.<br>*- Height:* Ajusta o height do ponto onde um valor mais baixo significa um local mais baixo ou mais profundo;<br>*- Smoothness:* Desloca o início da suavização da spline em p#, onde um valor de 0 resulta em uma trajetória rígida e 1 em uma totalmente suave;<br>*- Thickness:* Ajusta o thickness da spline em p#. O thickness é usado por nós Spline específicos. |
+| <b>p# Propriedades</b> <i>Flutuante3</i> | Define as propriedades do ponto p#.<br>*- Height:* Ajusta o height do ponto onde um valor mais baixo significa um local mais baixo ou mais profundo;<br>*- Smoothness:* Desloca o início da suavização da spline em p#, onde um valor de 0 resulta em uma trajetória rígida e 1 em uma totalmente suave;<br>*- Thickness:* Ajusta o thickness da spline em p#. O thickness é usado por nós Spline específicos. |
 | <b>Coordenadas de pontos</b> |  |
-| <b>p#</b> <i>Precisão decimal 2</i> | Define a posição do ponto p# no espaço de textura. |
+| <b>p#</b> <i>Flutuante2</i> | Define a posição do ponto p# no espaço de textura. |
 | <b>Visualizar</b> |  |
 | <b>Mostrar rótulos</b> <i>Booleano</i> | Para cada ponto, exibe o nome do ponto ao lado dele na saída “Visualização”. |
 | <b>Tamanho do Rótulo</b> <i>Precisão decimal</i> (Disponível quando &#39;Mostrar Rótulos&#39; estiver definido como &#39;Verdadeiro&#39;) | O tamanho do rótulo para cada ponto no espaço de textura, onde 0,1 é um décimo da largura da textura. |

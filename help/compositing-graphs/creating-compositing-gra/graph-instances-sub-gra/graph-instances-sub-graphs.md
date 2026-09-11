@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: Use instâncias de gráfico e subgrafos para criar componentes de gráfico reutilizáveis e fluxos de trabalho de material modulares.
 helpx_creative_field: ""

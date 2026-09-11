@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
 breadcrumb-title: ''
 description: Use o nó Seleção de histograma para selecionar e extrair intervalos específicos de histogramas de textura para ajustes direcionados.
 helpx_creative_field: ""

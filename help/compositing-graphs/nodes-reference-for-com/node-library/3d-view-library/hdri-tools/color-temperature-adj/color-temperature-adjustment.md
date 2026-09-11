@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/color-temperature-adjustment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/color-temperature-adjustment.html"
 breadcrumb-title: ''
 description: Use o nó do Color temperature adjustment para ajustar a temperatura da cor em ambientes HDRI para efeitos de iluminação quente ou fria.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Descrição
 
-Ajusta o equilíbrio de cores da imagem de entrada. Semelhante ao ajuste de Equilíbrio de branco na fotografia. Pode ser usado para aquecer ou esfriar imagens HDR que são off-key.
+Ajusta o equilíbrio de cores da imagem de entrada. Semelhante ao ajuste de Equilíbrio de branco na fotografia. Pode ser usado para aquecer ou esfriar cores em imagens HDR que não estão funcionando corretamente.
 
 </td>
 </tr>

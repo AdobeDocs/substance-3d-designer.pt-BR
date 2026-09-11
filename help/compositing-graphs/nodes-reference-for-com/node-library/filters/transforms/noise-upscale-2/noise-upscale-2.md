@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
 breadcrumb-title: ''
 description: Use o nó Noise Upscale 2 para aumentar as texturas usando a interpolação baseada em ruído para manter a qualidade da textura em tamanhos maiores.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Descrição
 
-Utiliza um ruído de entrada processual e o dimensiona para resolução dupla, mantendo os detalhes, mas sem introduzir muitos ladrilhos. Usa um tipo “X” de máscara e mescla com menos contraste do que a entrada original (os modos de mesclagem internos são Máx e Mín).
+Utiliza um procedimento de ruído de entrada e o dimensiona para resolução dupla, mantendo os detalhes, mas sem introduzir muitos ladrilhos. Usa um tipo “X” de máscara e mescla com menos contraste do que a entrada original (os modos de mesclagem internos são Máx e Mín).
 
 Este nó é destinado principalmente para otimizar gráficos lentos que usam ruídos pesados e grandes. Ele permite que você use resoluções mais altas sem introduzir muito tempo extra de computação.
 

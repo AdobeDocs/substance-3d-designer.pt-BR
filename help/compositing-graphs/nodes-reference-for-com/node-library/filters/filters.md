@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters.html"
 breadcrumb-title: ''
-description: Acesse nós de filtro no Substance 3D Designer para aplicar efeitos, ajustes, transformações e operações de processamento às texturas.
+description: Acesse os nós de filtro no Substance 3D Designer para aplicar efeitos, ajustes, transformas e operações de processamento ao textura.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Filtros
 
-Filtros são nós que processam uma entrada para criar uma saída modificada, “filtrada”, de uma maneira que você pode ser usado a partir de outros aplicativos de criação de imagens bem conhecidos. A grande diferença dos [Filtros de Material](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md) é que eles funcionam somente em uma (às vezes mais) entrada que não representa um material completo.
+Filtros são nós que processam uma entrada para criar uma saída modificada, “filtrada”, de uma maneira que você pode ser usado a partir de outros aplicativos de criação de imagens bem conhecidos. A grande diferença com [Filtros Materiais](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md) é que eles só funcionam em uma (às vezes mais) entrada que não representa um material completo.
 
 Os filtros são uma das categorias principais mais usadas. Além da categoria [Nós atômicos](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), nenhuma outra categoria é tão útil ao criar texturas do zero. Reserve um tempo para conhecer cada uma das subcategorias:
 
@@ -34,11 +34,11 @@ Os filtros são uma das categorias principais mais usadas. Além da categoria [N
   Nós de mistura de canais expandidos.
 * [Efeitos](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/effects.md)\
   Efeitos de imagem orientados por texturização, bem como efeitos do tipo “Estilo de camada”.
-* [Mapa Normal](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-map.md)\
-  Operações focalizadas do Mapa Normal.
+* [Mapa normal](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-map.md)\
+  Operações focadas no mapa normal.
 * [Divisão em blocos gráficos](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/tiling.md)\
   Nós focados em corrigir e melhorar a divisão em blocos gráficos.
-* [Transformações](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)\
+* [Transformas](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)\
   Operações avançadas (matemáticas) de transformação de espaço 2D.
 
 >[!NOTE]

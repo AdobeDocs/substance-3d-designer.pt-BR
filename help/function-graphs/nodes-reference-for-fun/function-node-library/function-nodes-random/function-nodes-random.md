@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
 breadcrumb-title: ''
 description: Use nós de função Aleatória para gerar valores aleatórios dentro de limites específicos usando vários algoritmos.
 helpx_creative_field: ""
@@ -32,15 +32,15 @@ Distribuição normal
 
 Aleatório discreto [a, b]
 
-Uniforme aleatório &lbrack;-1, 1&lbrack;
+Uniforme aleatório [-1, 1[
 
-Uniforme aleatório &lbrack;a, b&lbrack;
+Uniforme aleatório [a, b[
 
-Flutuação uniforme aleatória2 &lbrack;a, b&lbrack;
+Flutuação uniforme aleatória2 [a, b[
 
-Flutuação uniforme aleatória3 &lbrack;a, b&lbrack;
+Flutuação uniforme aleatória3 [a, b[
 
-Flutuação uniforme aleatória4 &lbrack;a, b&lbrack;
+Flutuação uniforme aleatória4 [a, b[
 
 </td>
 <td style="border: 0;" valign="top">

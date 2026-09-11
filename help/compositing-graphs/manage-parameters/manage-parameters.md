@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: Saiba como gerenciar e organizar parâmetros em gráficos de composição de Substance para melhor organização do fluxo de trabalho.
 helpx_creative_field: ""
@@ -108,7 +108,7 @@ As mesmas limitações listadas abaixo para nós atômicos se aplicam a este men
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![&#x200B; menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó](manage-parameters.resources/manage-parameters-node-menu.png " menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó"){zoomable="yes"}
+![ menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó](manage-parameters.resources/manage-parameters-node-menu.png " menu&#39;Gerenciar parâmetros&#39; no menu contextual do nó"){zoomable="yes"}
 
 </td>
 </tr>

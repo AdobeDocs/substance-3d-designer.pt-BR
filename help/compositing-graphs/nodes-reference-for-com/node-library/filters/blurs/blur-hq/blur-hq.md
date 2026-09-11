@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
 breadcrumb-title: ''
 description: Use o nó HQ de desfoque para aplicar efeitos de desfoque de alta qualidade às texturas a fim de criar resultados suaves de desfoque de aparência profissional.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 10%
 
 ## Descrição
 
-Executa um desfoque gaussiano de alta qualidade no resultado. Qualidade muito melhor do que [o desfoque padrão da caixa atômica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) [.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+Executa um desfoque gaussiano de alta qualidade no resultado. Qualidade muito melhor do que [o desfoque padrão da caixa atômica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 Importante: certifique-se de usar a versão apropriada para sua entrada! Use “Desfoque HQ” para entradas de cor ou “Desfoque HQ em tons de cinza” para entradas em tons de cinza.
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
 breadcrumb-title: ''
-description: Use o nó Mapeador de fluxo de spline para criar padrões de textura fluida ao longo de caminhos de spline para efeitos orgânicos.
+description: Use o nó Mapeador de fluxo de spline para criar padrões de textura fluidos ao longo dos caminhos de spline para obter efeitos orgânicos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Flow Mapper
 helpx_experience_level: ""
@@ -82,7 +82,7 @@ Isso permite usar splines para controlar a direção, a trajetória, a intensida
 | <b>Perfil de Atenuação</b> <i>Inteiro</i> | A rampa de gradiente usada para desenhar a atenuação dos dados de vetor de fluxo desenhados ao longo da spline:<br><br>- <i>Linear</i>: use uma rampa de gradiente linear;<br>- <i>Gaussiana</i>: use uma rampa de gradiente gaussiana<br>- <i>Curva de Perfil de Entrada</i>: use a curva fornecida para a entrada da Curva de Perfil de Atenuação como uma rampa de gradiente. |
 | <b>Iniciar Atenuação</b> <i>Booleano</i> | <span id="_Hlk135769398"></span>Adiciona um semicírculo no início da spline. O semicírculo usa a mesma atenuação do spline. |
 | <b>Encerrar atenuação</b> <i>Booleano</i> | Adiciona um semicírculo no final da spline. O semicírculo usa a mesma atenuação do spline. |
-| <b>Atenuação do Height da spline</b> <i>Flutuante</i> | A intensidade dos dados do vetor de fluxo desenhados ao longo da spline é multiplicada pelo height da spline, no qual os dados desenhados desaparecem para a cor neutra (0,5, 0,5, 0) do plano de fundo à medida que a height se aproxima de 0. |
+| <b>Atenuação do Height da spline</b> <i>Precisão decimal</i> | A intensidade dos dados do vetor de fluxo desenhados ao longo da spline é multiplicada pelo height da spline, no qual os dados desenhados desaparecem para a cor neutra (0,5, 0,5, 0) do plano de fundo à medida que a height se aproxima de 0. |
 | <b>Correção Não Quadrada</b> <i>Booleano</i> | Ajuste as posições e o thickness dos pontos para manter a forma de spline em resoluções não quadradas. Isso também afeta a distribuição uniforme. |
 
 ## Exemplos

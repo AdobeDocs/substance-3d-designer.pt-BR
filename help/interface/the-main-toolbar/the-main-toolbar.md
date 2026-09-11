@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: Saiba mais sobre a barra de ferramentas principal do Substance 3D Designer para acessar ferramentas e comandos comuns para o seu fluxo de trabalho.
 helpx_creative_field: ""
@@ -94,13 +94,13 @@ Esta página descreve a barra de ferramentas principal e o menu do [Substance 3D
 * <b>Localizar o Player...:</b> informe ao Designer onde o Player está instalado;
 * <b>Baixar Player...:</b> abre a [página de aterrissagem](https://helpx.adobe.com/substance-3d-player/home.html) da documentação do Substance Player, onde o Player pode ser baixado.
 
-<b>Gerenciador de plug-ins...</b>: abre a janela Gerenciador de plug-ins, onde você pode instalar, carregar e descarregar plug-ins Python para o Substance 3D Designer.[&#128279;](../../scripting/scripting.md)
+<b>Gerenciador de plug-ins...</b>: abre a janela Gerenciador de plug-ins, onde você pode instalar, carregar e descarregar plug-ins Python para o Substance 3D Designer.](../../scripting/scripting.md)[
 
 ## Windows
 
 <b>Novo Explorer:</b> abre um novo Dock do Explorer. Você pode ter várias docking stations do Explorer abertas.
 
-<b>Nova Visualização 3D:</b> abre uma nova Visualização 3D. É possível ter várias docking stations abertas.
+<b>Nova exibição 3D:</b> abre um novo encaixe de exibição 3D. É possível ter vários encaixes de visualização 3D abertos.
 
 <b>Nova exibição da biblioteca:</b> abre uma nova área de Biblioteca. É possível ter várias docas de biblioteca abertas.
 
@@ -165,7 +165,7 @@ Esta página descreve a barra de ferramentas principal e o menu do [Substance 3D
 
 <b>Novidades...:</b> exibe uma tela, que destaca os recursos adicionados à versão mais recente do Designer
 
-<b>Tela de boas-vindas...\*:</b> exibe uma tela que orienta os novos usuários pela finalidade do Designer e seu lugar no [ecossistema Substance 3D](https://helpx.adobe.com/br/substance-3d.html)
+<b>Tela de boas-vindas...\*:</b> exibe uma tela que orienta os novos usuários pela finalidade do Designer e seu lugar no [ecossistema Substance 3D](https://helpx.adobe.com/substance-3d.html)
 
 <b>Parceiros:</b> permite acessar as isenções de responsabilidade e avisos de integrações de terceiros de nossos parceiros no Designer.
 

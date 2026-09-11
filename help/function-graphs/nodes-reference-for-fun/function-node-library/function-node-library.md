@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ''
 description: Acesse gráficos de funções de Substance pré-fabricadas como nós de instância para acelerar o fluxo de trabalho e aprimorar os recursos.
 helpx_creative_field: ""
@@ -333,7 +333,7 @@ HCL para RGB
 
 HSI para RGB
 
-Deslocamento HSL
+Deslocamento de HSL
 
 HSL para RGB
 
@@ -360,19 +360,19 @@ RGB hue 2 polar
 
 RGB hexagonal
 
-média de luminosidade do RGB
+Média de luminosidade de RGB
 
 RGB luminosidade bi-hexcona
 
-hexcona de RGB luminosidade
+Hexcona de luminosidade RGB
 
-RGB lightness luma Rec.601
+RGB luminosidade luma Rec.601
 
-RGB lightness luma Rec.709
+RGB luminosidade luma Rec.709
 
 Saturação de RGB HSI
 
-HSL de saturação de RGB
+Saturação de RGB HSL
 
 Saturação de RGB HSV
 
@@ -393,7 +393,7 @@ sRGB para linear
 
 Temperatura para RGB
 
-Mapeador de tons ACES
+mapeador de tons ACE
 
 Agx tonemapper (aprox)
 
@@ -465,15 +465,15 @@ Aleatório global
 
 Distribuição normal
 
-Uniforme aleatório &lbrack;-1, 1&lbrack;
+Uniforme aleatório [-1, 1[
 
-Uniforme aleatório &lbrack;a, b&lbrack;
+Uniforme aleatório [a, b[
 
-Flutuação uniforme aleatória2 &lbrack;a, b&lbrack;
+Flutuação uniforme aleatória2 [a, b[
 
-Flutuação uniforme aleatória3 &lbrack;a, b&lbrack;
+Flutuação uniforme aleatória3 [a, b[
 
-Flutuação uniforme aleatória4 &lbrack;a, b&lbrack;
+Flutuação uniforme aleatória4 [a, b[
 
 </td>
 </tr>

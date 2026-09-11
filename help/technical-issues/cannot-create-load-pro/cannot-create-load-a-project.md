@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Solucione problemas de criação ou carregamento de projetos no Substance 3D Designer e encontre soluções.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Esta página lista as causas comuns para falhas ao criar ou carregar projetos no
 
 **![(erro)](../../assets/error.svg) Problema**
 
-O **arquivo do Substance 3D (SBS)** está sendo carregado por uma versão do Substance 3D Designer que *não oferece suporte para seu formato*. O arquivo do Substance 3D provavelmente foi *salvo em uma versão mais recente* do software que usa um formato atualizado para esses arquivos.
+O **arquivo do Substance 3D (SBS)** está sendo carregado por uma versão do Substance 3D Designer que *não oferece suporte ao seu formato*. O arquivo do Substance 3D provavelmente foi *salvo em uma versão mais recente* do software que usa um formato atualizado para esses arquivos.
 
 **![(tick)](../../assets/check.svg) Etapas recomendadas**
 
@@ -127,13 +127,13 @@ Desconecte o segundo monitor do sistema e conecte-o novamente (ignore esta etapa
 
 Inicie o Designer, mas *não* crie ou abra um projeto
 
-* Na barra superior, abra o menu <b>Janelas</b> e selecione a opção <b>Nova Exibição 3D</b>
+* Na barra superior, abra o menu <b>Janelas</b> e selecione a opção <b>Novo Visualização 3D</b>
 
-Na barra superior, abra o menu <b>Janelas</b> e selecione a opção <b>Nova Exibição 3D</b>
+Na barra superior, abra o menu <b>Janelas</b> e selecione a opção <b>Novo Visualização 3D</b>
 
-* Verifique se a <b>Exibição 3D</b> foi inicializada corretamente e tente outras malhas de visualização no menu <b>Cena</b> da barra superior do painel
+* Verifique se o <b>Visualização 3D</b> foi inicializado corretamente e tente visualizar malhas diferentes no menu <b>Cena</b> da barra superior do painel
 
-Verifique se a <b>Exibição 3D</b> foi inicializada corretamente e tente outras malhas de visualização no menu <b>Cena</b> da barra superior do painel
+Verifique se o <b>Visualização 3D</b> foi inicializado corretamente e tente visualizar malhas diferentes no menu <b>Cena</b> da barra superior do painel
 
 * Criar ou abrir um material
 

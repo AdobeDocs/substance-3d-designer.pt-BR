@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
 breadcrumb-title: ''
 description: Use o nó De baixo para cima para gerar máscaras de gradiente de baixo para cima com base na posição do mundo da malha.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## Descrição
 
-Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras Inteligentes](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/features/smart-materials-and-masks) do [Painter](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/home).
+Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras Inteligentes](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) do [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home).
 
 Isso gera uma transição de branco para preto da parte inferior para a parte superior de um modelo, útil para fazer falhas e seleções baseadas em geometria.
 

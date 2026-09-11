@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Use a exibição 2D no Substance 3D Designer para visualizar e inspecionar saídas de textura de seus gráficos de material.
 helpx_creative_field: ""
@@ -265,15 +265,15 @@ Algumas partes do histograma podem incluir valores muito baixos de contagem de p
 
 ## Exibir barra de ferramentas
 
-A barra de ferramentas **Exibição**, localizada na *parte inferior* do painel **Exibição 2D** por padrão, permite controlar como a imagem é exibida no visor.
+A barra de ferramentas **Exibição**, localizada na *parte inferior* do painel **Visualização 2D** por padrão, permite controlar como a imagem é exibida no visor.
 
 A seção *mais à esquerda* inclui controles para *cor* e *transparência*, enquanto a seção *mais à direita* inclui os controles *viewport* detalhados na seção Visor desta página.
 
 >[!NOTE]
 >
-> A barra de ferramentas pode ser *reposicionada* em torno do painel **Exibição 2D** usando a *alça* mais à esquerda representada por três linhas paralelas.
+> A barra de ferramentas pode ser *reposicionada* em torno do painel **Visualização 2D** usando a *alça* mais à esquerda, representada por três linhas paralelas.
 
-![Canais de cores de exibição 2D](../../assets/2d-view-color-channel.png "Canais de cores de exibição 2D"){width="360px"}
+![canais de Visualização 2D](../../assets/2d-view-color-channel.png "canais de Visualização 2D"){width="360px"}
 
 ### Canais de cores
 
@@ -291,11 +291,11 @@ O *ícone* do botão <b>Canais de cores</b> *muda* dependendo do(s) canal(is) ex
 
 >[!NOTE]
 >
-> Os atalhos de teclado só podem ser usados se o painel Exibição 2D tiver foco. Você pode clicar neste painel pelo menos uma vez para garantir que seja o caso.
+> Os atalhos de teclado só podem ser usados se o painel do Visualização 2D estiver focalizado. Você pode clicar neste painel pelo menos uma vez para garantir que seja o caso.
 > 
 > Como o painel precisa de foco, esses atalhos *não interferem* em nenhum *atalho personalizado* que você tenha definido para criar nós no gráfico. Saiba mais sobre esse recurso [aqui](../../interface/preferences-window/preferences-window.md).
 
-![Alternar transparência de exibição 2D](../../assets/2d-view-transparency.png "Alternar transparência de exibição 2D"){width="360px"}
+![Alternar transparência do Visualização 2D](../../assets/2d-view-transparency.png "Alternar transparência do Visualização 2D"){width="360px"}
 
 ### Alternar transparência
 
@@ -307,9 +307,9 @@ Há duas maneiras principais de interpretar a transparência, que podem ser sele
 
 <b>![](../../assets/3d-view-icon-transparency-premultiplied.png) Pré-multiplicado:</b> as informações de transparência são armazenadas no canal alfa e também afetam os canais RGB, pois são multiplicados efetivamente em relação ao canal alfa
 
-Para exibir *cores corretas*, o modo de transparência apropriado deve ser selecionado no painel <b>Exibição 2D</b> para corresponder ao método de transparência aplicado quando a imagem foi *criada*.
+Para exibir *cores corretas*, o modo de transparência apropriado deve ser selecionado no painel <b>Visualização 2D</b> para corresponder ao método de transparência aplicado quando a imagem foi *criada*.
 
-![Espaço de cores de exibição 2D](../../assets/2d-view-viewport-color-space.png "Espaço de cores de exibição 2D"){width="360px"}
+![espaço de cores do Visualização 2D](../../assets/2d-view-viewport-color-space.png "espaço de cores"){width="360px"}
 
 ### Espaço da cor
 
@@ -335,7 +335,7 @@ As <b>ferramentas de pintura de bitmap</b> estão disponíveis para [recursos de
 </td>
 <td style="border: 0;" valign="top">
 
-![Ferramentas de pintura de bitmap de exibição 2D](../../assets/2dview-paintingtools-main.png "Ferramentas de pintura de bitmap de exibição 2D")
+![ferramentas de pintura de Visualização 2D](../../assets/2dview-paintingtools-main.png "ferramentas de pintura de Visualização 2D")
 
 </td>
 </tr>
@@ -360,7 +360,7 @@ O <b>Editor de gráficos vetoriais</b> está disponível para *recursos [SVG* im
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de gráficos vetoriais de exibição 2D](../../assets/2dview-vectorediting-main.png "Editor de gráficos vetoriais de exibição 2D")
+![editor de gráficos vetoriais do Visualização 2D](../../assets/2dview-vectorediting-main.png "editor de gráficos vetoriais do Visualização 2D")
 
 </td>
 </tr>
@@ -370,21 +370,21 @@ O <b>Editor de gráficos vetoriais</b> está disponível para *recursos [SVG* im
 >
 > Saiba mais na página [Ferramentas de edição de vetor](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) (obsoletas) da documentação.
 
-![Gerenciamento de cores de exibição 2D](../../assets/2d-view-color-management-ocio.png "Gerenciamento de cores de exibição 2D"){width="360px"}
+![gerenciamento de cores do Visualização 2D](../../assets/2d-view-color-management-ocio.png "gerenciamento de cores do Visualização 2D"){width="360px"}
 
 ## Gerenciamento de cores
 
-O <b>Modo de exibição 2D</b> oferece controles simples de *gerenciamento de cores* para permitir que você escolha qual *espaço de cores de exibição* deve ser usado ao exibir a imagem.
+O <b>Visualização 2D</b> oferece controles simples de *gerenciamento de cores* para permitir que você escolha qual *espaço de cores de exibição* deve ser usado ao exibir a imagem.
 
 Estes controles se adaptarão ao [Modo de gerenciamento de cores](../../color-management/color-management.md) atual definido nas [Configurações do projeto](../../interface/preferences-window/project-settings/project-settings.md) da seguinte maneira:
 
 * <b>Legado:</b> você pode exibir a imagem nos espaços de cores sRGB ![](../../assets/2d-view-icon-color-space.png) ou sRGB Linear ![](../../assets/2d-view-icon-color-space-linear.png);
-* <b>ACE de Adobe:</b> você pode ![](../../assets/2d-view-icon-color-space.png) *habilitar* o gerenciamento de cores e definir o espaço de cores mais apropriado para o *monitor atual*, conforme detectado pelo mecanismo ACE de Adobe, ou ![](../../assets/2d-view-icon-color-space-linear.png) *desabilitar* o gerenciamento de cores e exibir a imagem usando os valores de cores raw;
-* <b>OCIO:</b> você pode ![](../../assets/2d-view-icon-color-space.png) *habilitar* o gerenciamento de cores e definir o mais apropriado para o *monitor atual* conforme detectado pelo mecanismo OCIO. Use a caixa de combinação e selecione qualquer um dos *espaços de cores de exibição* disponíveis no [arquivo de configuração OCIO](../../color-management/color-management.md) atualmente em uso ou ![](../../assets/2d-view-icon-color-space-linear.png) *desabilitar* o gerenciamento de cores e exibir a imagem usando os valores de cores raw.
+* <b>Adobe ACE:</b> você pode ![](../../assets/2d-view-icon-color-space.png) *habilitar* o gerenciamento de cores e definir o espaço de cores mais apropriado para o *monitor atual*, conforme detectado pelo mecanismo de ACE de Adobe, ou ![](../../assets/2d-view-icon-color-space-linear.png) *desabilitar* o gerenciamento de cores e exibir a imagem usando os valores de cores raw;
+* <b>OCIO:</b> você pode ![](../../assets/2d-view-icon-color-space.png) *habilitar* o gerenciamento de cores e definir o mais apropriado para o *monitor atual* conforme detectado pelo mecanismo OCIO, usar a caixa de combinação e selecionar qualquer um dos *espaços de cores de exibição* disponíveis no [arquivo de configuração OCIO](../../color-management/color-management.md) atualmente usado, ou ![](../../assets/2d-view-icon-color-space-linear.png) *desabilitar* o gerenciamento de cores e exibir a imagem usando os valores de cores Raw.
 
 >[!WARNING]
 >
-> Lembre-se de que esses controles *somente* afetam o *espaço de cores de exibição*. O *espaço da cor original* das imagens e o *espaço da cor de trabalho* também devem ser levados em consideração para garantir que as cores sejam exibidas corretamente na **exibição 2D**.
+> Lembre-se de que esses controles *somente* afetam o *espaço de cores de exibição*. O *espaço da cor original* das imagens e o *espaço da cor de trabalho* também devem ser levados em consideração para garantir que as cores sejam exibidas corretamente no **Visualização 2D**.
 
 >[!TIP]
 >

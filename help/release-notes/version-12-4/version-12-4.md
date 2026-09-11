@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 12.4 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -111,7 +111,7 @@ Esta versão 12.4 traz também o suporte completo de gráficos de modelos de Sub
 * [3D View] A propriedade de exibição do Wireframe não é salva
 * [Conteúdo] Os parâmetros de Cor de desfoque radial não têm efeito no canal alfa
 * [Localização] Controles deslizantes e botões adicionais são exibidos em Propriedades do OpenGL do ambiente.
-* [MDL]&#x200B;[modelo Substance] Falha ao excluir nós expostos
+* [MDL][modelo Substance] Falha ao excluir nós expostos
 * [Preferências] O arquivo padrão\_config nunca é recriado se excluído
 * [Modelo de Substance] Parâmetro de reordenação de falha que não aparece no nível da instância
 * [API] SDProperty.getDefaultValue() quase sempre retorna None

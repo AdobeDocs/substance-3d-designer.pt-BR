@@ -40,5 +40,5 @@ Subtrai o volume da forma SDF 1 da forma SDF 2.
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Flutuante* | A forma SDF sendo subtraída de. |
-| <b>SDF 2</b> *Flutuante* | A forma SDF que está sendo subtraída da forma SDF 1. |
+| <b>SDF 1</b> *Precisão decimal* | A forma SDF sendo subtraída de. |
+| <b>SDF 2</b> *Precisão decimal* | A forma SDF que está sendo subtraída da forma SDF 1. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
 breadcrumb-title: ''
 description: Use o nó Suavização de chanfro para criar bordas chanfradas suaves em formas e padrões para superfícies realistas.
 helpx_creative_field: ""
@@ -74,9 +74,9 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 |:---|:---|
 | <b>Modo de saída</b> *Inteiro* | O método de dilatação das bordas da máscara:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Chanfro:</b> desenhe um gradiente de 1 a 0, onde 0 é atingido na &#39;Distância&#39; máxima</li> <li data-preserve-html="true"><b>Dilatação:</b> desenhe uma cor sólida até a &#39;Distância máxima&#39;. Esta cor é branca ou a cor da imagem de “Entrada de origem” na borda da máscara, se conectada</li> <li data-preserve-html="true"><b>Distância:</b> a distância bruta da borda da máscara mais próxima, no espaço de imagem normalizado em que 1 é o comprimento do lado mais curto da imagem</li> </ul> |
 | <b>Direção</b> *Inteiro* *Disponível quando o &#39;Modo de saída&#39; está definido como &#39;Chanfro&#39; ou &#39;Dilatação&#39;* | O lado da borda da máscara que deve ser dilatado:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Em:</b> desenhe em direção ao interior da máscara</li> <li data-preserve-html="true"><b>Fora:</b> desenhe em direção ao exterior da máscara</li> <li data-preserve-html="true"><b>Entrada/saída:</b> desenhe em direção ao interior e ao exterior da máscara</li> </ul> |
-| <b>Distância máxima</b> *Precisão decimal* | A distância de dilatação, no espaço normalizado da imagem, em que 1 é o comprimento do lado mais curto da imagem de entrada. |
-| <b>smoothness de máscaras</b> *Precisão decimal* | A intensidade da suavização aplicada à máscara.   O valor é o raio do desfoque e 1 unidade é 1/256 da imagem. |
-| <b>Deslocamento da máscara</b> *Precisão decimal* | Move as bordas da máscara para dentro ou para fora. |
+| <b>Distância máxima</b> *Flutuante* | A distância de dilatação, no espaço normalizado da imagem, em que 1 é o comprimento do lado mais curto da imagem de entrada. |
+| <b>smoothness de máscaras</b> *Flutuante* | A intensidade da suavização aplicada à máscara.   O valor é o raio do desfoque e 1 unidade é 1/256 da imagem. |
+| <b>Deslocamento da máscara</b> *Flutuante* | Move as bordas da máscara para dentro ou para fora. |
 | <b>Limite de máscara</b> *Flutuante* | O valor usado para detectar as bordas da máscara na imagem “Entrada de máscara”.   Os valores acima desse limite são o *interior* das formas de máscara, enquanto os valores abaixo são o *exterior*. |
 | <b>Escala</b> *Flutuante2* | Ajusta a distância horizontal (X) e vertical (Y) da dilatação.   Esses valores são multiplicadores para o valor do parâmetro &#39;Distância máxima&#39;. |
 | <b>Multiplicador de Mapa de distância</b> *Inteiro* | Ajusta o impacto do &#39;Mapa de distância&#39; sobre a &#39;Distância máxima&#39;. |

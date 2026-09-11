@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
 breadcrumb-title: ''
 description: Conheça os principais conceitos de gráficos de composição de Substance, incluindo nós, conexões e conceitos básicos de fluxo de trabalho.
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ As entradas, as saídas e os parâmetros expostos são extremamente importantes 
 
 * Nenhuma saída significaria que o gráfico <b>não gera nada</b>, nenhum dado.
 * Nenhum Parâmetro exposto significa que o gráfico <b>não pode ser personalizado</b> de forma alguma. Você não seria capaz de definir coisas como a intensidade de um efeito, a opacidade de uma imagem sendo mesclada, a cor de uma área específica, etc...
-* Sem Entradas significa que, em alguns casos, você não poderá personalizar o resultado de um gráfico com<b> seus próprios dados de imagem</b>, como mapas de malha cozida para gerar efeitos, uma imagem de entrada para executar um desfoque ou uma máscara personalizada para isolar determinadas áreas de uma imagem.
+* Sem Entradas significa que, em alguns casos, você não poderá personalizar o resultado de um gráfico com<b> seus próprios dados de imagem</b>, como mapas de malha feitos bake para gerar efeitos, uma imagem de entrada para executar um desfoque ou uma máscara personalizada para isolar determinadas áreas de uma imagem.
 
 ## Entradas e saídas
 

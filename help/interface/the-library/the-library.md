@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: Use a Biblioteca no Substance 3D Designer para acessar e gerenciar predefinições de nó, materiais e conteúdo personalizado.
 helpx_creative_field: ""

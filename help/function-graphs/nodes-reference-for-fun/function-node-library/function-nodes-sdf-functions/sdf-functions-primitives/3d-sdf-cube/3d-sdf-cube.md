@@ -40,8 +40,8 @@ Uma Função SDF para um cubo, com tamanho XYZ ajustável e arredondamento de bo
 
 |  |  |
 | :--- | :--- |
-| <b>Tamanho</b> *Flutuante3* | O tamanho do cubo em X, Y e Z.<br><br><i>Padrão: (1, 1, 1)</i> |
-| <b>Arredondamento</b> *Flutuante* | O raio dos arcos arredondados aplicados às bordas do cubo.<br><br><i>Observação:</i> bordas sólidas podem aparecer onde os raios de arredondamento se cruzam.<br><br><i>Padrão: 0</i> |
-| <b>Posição de pivô (local)</b> *Flutuante3* | A posição do espaço global da tabela dinâmica local do cubo, onde (0, 0, 0) coloca a tabela dinâmica no centro do cubo.<br><br><i>Padrão: (0, 0, -0,5)</i> |
-| <b>Posição central</b> *Flutuante3* | A posição do espaço global da tabela dinâmica do cubo.<br><br><i>Padrão: (0, 0, 0)</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>Tamanho</b> *Precisão decimal 3* | O tamanho do cubo em X, Y e Z.<br><br><i>Padrão: (1, 1, 1)</i> |
+| <b>Arredondamento</b> *Precisão decimal* | O raio dos arcos arredondados aplicados às bordas do cubo.<br><br><i>Observação:</i> bordas sólidas podem aparecer onde os raios de arredondamento se cruzam.<br><br><i>Padrão: 0</i> |
+| <b>Posição de pivô (local)</b> *Precisão decimal 3* | A posição do espaço global da tabela dinâmica local do cubo, onde (0, 0, 0) coloca a tabela dinâmica no centro do cubo.<br><br><i>Padrão: (0, 0, -0,5)</i> |
+| <b>Posição central</b> *Precisão decimal 3* | A posição do espaço global da tabela dinâmica do cubo.<br><br><i>Padrão: (0, 0, 0)</i> |
+| <b>P</b> *Precisão decimal 3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
 breadcrumb-title: ''
 description: Use o nó Oclusão ambiente (RTAO) para gerar mapas de oclusão ambiente em tempo real a partir de mapas de height para sombreamento realista.
 helpx_creative_field: ""

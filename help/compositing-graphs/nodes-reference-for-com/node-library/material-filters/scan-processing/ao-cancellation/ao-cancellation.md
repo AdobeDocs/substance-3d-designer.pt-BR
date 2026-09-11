@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
 breadcrumb-title: ''
-description: Use o nó Cancelamento de AO para remover a oclusão ambiente dos materiais digitalizados para o processamento de textura limpa.
+description: Use o nó Cancelamento de AO para remover a oclusão de ambiente de materiais digitalizados para processamento de textura limpa.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > AO Cancellation
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 4%
 
 ## Descrição
 
-Este nó tenta remover qualquer informação de iluminação de Oclusão ambiente do mapa de Albedo (cor base), com base em uma entrada de mapa AO separada. Ele pode ser usado para garantir que as informações do seu Albedo sejam PBR corretas e na maior parte do tempo desprovidas de informações de iluminação (fortes).
+Este nó tenta remover qualquer informação de iluminação de Oclusão de ambiente do mapa de Albedo (Cor de base), com base em uma entrada de mapa AO separada. Ele pode ser usado para garantir que as informações do seu Albedo sejam PBR corretas e na maior parte do tempo desprovidas de informações de iluminação (fortes).
 
-Um nó útil para quando você tem um mapa de AO cozido a partir de uma malha digitalizada, ou, alternativamente, até mesmo um mapa de AO gerado a partir de informações de Height ou Normal.
+Um nó útil para quando você tem um mapa de AO feito bake de uma malha digitalizada, ou, alternativamente, até mesmo um mapa de AO gerado a partir de informações de Height ou Normais.
 
 </td>
 </tr>

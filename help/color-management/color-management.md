@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: Saiba mais sobre o gerenciamento de cores no Substance 3D Designer, incluindo espaços de cores, perfis e fluxos de trabalho de cores especiais.
 helpx_creative_field: ""
@@ -104,13 +104,13 @@ Você pode adicionar *seus próprios* perfis ICC colocando esses arquivos no loc
 
 |  |  |
 | --- | --- |
-| <b>Padrão de exibição de 2D e 3D</b> | Define o espaço de cores *exibição* padrão para as portas de exibição [Visualização 2D](../interface/2d-view/2d-view.md) e [3D](../interface/3d-view/3d-view.md). *Padrão:*** Perfil ICC para a tela principal, recuperado do sistema operacional &#x200B;**&#x200B;** |
+| <b>Padrão de exibição de 2D e 3D</b> | Define o espaço de cores *exibição* padrão para as portas de exibição [Visualização 2D](../interface/2d-view/2d-view.md) e [3D](../interface/3d-view/3d-view.md). *Padrão:*** Perfil ICC para a tela principal, recuperado do sistema operacional **** |
 
 ### Exibição do gráfico
 
 |  |  |
 | --- | --- |
-| <b>Miniaturas de gerenciamento de cores</b> | Quando *marcado*, o Designer transformará as *miniaturas de nó* no *espaço de cores de trabalho* atual. *Padrão:*** Desmarcado &#x200B;**&#x200B;** |
+| <b>Miniaturas de gerenciamento de cores</b> | Quando *marcado*, o Designer transformará as *miniaturas de nó* no *espaço de cores de trabalho* atual. *Padrão:*** Desmarcado **** |
 
 ## Modo herdado
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
 breadcrumb-title: ''
 description: Use o nó Cor do mapeador UV para mapear texturas de cores ao longo das linhas para geração de textura processual.
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ Mapeia a imagem colorida de entrada usando as coordenadas fornecidas na entrada 
 
 |  |  |
 |:---|:---|
-| <b>Cor do plano de fundo</b> <i>Flutuante4</i> | A cor de plano de fundo da imagem de saída.<br>O plano de fundo é visível nas áreas da imagem em que os UVs não estão definidos (ou seja, o valor é (0, 0, 0, 0)). |
+| <b>Cor do plano de fundo</b> <i>Precisão decimal 4</i> | A cor de plano de fundo da imagem de saída.<br>O plano de fundo é visível nas áreas da imagem em que os UVs não estão definidos (ou seja, o valor é (0, 0, 0, 0)). |
 
 ## Exemplos
 

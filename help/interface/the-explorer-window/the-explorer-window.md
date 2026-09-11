@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-explorer-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
 breadcrumb-title: ''
 description: Use a janela do Explorer no Substance 3D Designer para procurar, organizar e gerenciar seus arquivos e recursos de projeto.
 helpx_creative_field: ""
@@ -61,7 +61,7 @@ Essa barra de ferramentas permite executar rapidamente funções relacionadas ao
 ![](../../assets/sendto-icon.jpg) elemento(s) selecionado(s) no <b>Publish ou no [send](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b>:
 
 * [Publish qualquer pacote selecionado para um ativo do Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
-* Enviar o pacote selecionado para o [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) ou [Substance 3D Stager](https://www.adobe.com/br/products/substance3d-stager.html).
+* Enviar o pacote selecionado para o [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html).
 
 ![](../../assets/republish.png) <b>Publish ou enviar como anterior:</b> Publish ou enviar os elementos selecionados com as mesmas configurações de antes. Esta opção só está disponível em um pacote que já foi publicado *pelo menos uma vez* na sessão *atual*.
 
@@ -120,7 +120,7 @@ O <b>arquivo .sbsar do Publish</b> e o<b> Republicar arquivo .sbsar</b> permitem
 
 <b>Exportar com dependências</b> é diferente de salvar e publicar. Ele pega seus arquivos do SBS, coleta todos os recursos e dependências mencionados e cria um pacote independente. A caixa de diálogo permite que você escolha quais bibliotecas coletar e se o arquivo deve ser um arquivo compactado (7-zip). Essa é uma boa opção para compartilhar um arquivo SBS com outra pessoa, sem se preocupar com dependências ausentes.
 
-<b>Enviar para...</b> abre um submenu que permite [enviar](send-to-interoperability/send-to-interoperability.md) diretamente seu pacote para o [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html), o [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html), o [Substance 3D Stager](https://www.adobe.com/br/products/substance3d-stager.html) ou o [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
+<b>Enviar para...</b> abre um submenu que permite [enviar](send-to-interoperability/send-to-interoperability.md) diretamente seu pacote para o [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), o [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html), o [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) ou o [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
 
 <b>Copiar</b> copia o pacote selecionado.
 

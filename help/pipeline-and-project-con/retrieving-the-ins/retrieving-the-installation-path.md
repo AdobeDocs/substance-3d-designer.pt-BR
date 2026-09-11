@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
 breadcrumb-title: ''
 description: Saiba como recuperar o caminho de instalação do Substance 3D Designer para fins de script e automação.
 helpx_creative_field: ""

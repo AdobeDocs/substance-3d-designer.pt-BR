@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters.html"
 breadcrumb-title: ''
 description: Acesse nós de filtro de material no Substance 3D Designer para processar, mesclar e converter materiais para vários fluxos de trabalho.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Filtros de material
 
-Os Filtros de Material são nós que funcionam com entradas de Material Completo: combinações de vários canais, mais adequadas através de [Modos de Criação de Link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md). Sempre que estiver trabalhando com um material PBR completo e não apenas em um único canal, como Basecolor ou Normal, ou em uma máscara simples em preto e branco, você desejará usar a categoria Filtros de material.
+Filtros Materiais são nós que funcionam com entradas de Material Completo: combinações de vários canais, mais adequadas através de [Modos de Criação de Link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md). Sempre que estiver trabalhando com um material PBR completo e não apenas em um único canal como Basecolor ou Normal ou em uma simples máscara em preto e branco, você desejará usar a categoria Filtros Materiais.
 
 Esta categoria é constituída por um certo número de subcategorias:
 
@@ -28,11 +28,11 @@ Esta categoria é constituída por um certo número de subcategorias:
   Contém apenas Bitmap2Material.
 * [Efeitos](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/effects-material.md)\
   Efeitos de material sofisticados e multifuncionais.
-* [Transformações](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/transforms-material.md)\
+* [Transformas](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/transforms-material.md)\
   Auxiliares de transformação multicanal.
 * [Mesclagem](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/blending-material.md)\
   Nós de mesclagem multicanal.
 * [Utilitários PBR](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-utilities.md)\
   Nós e ferramentas auxiliares de PBR.
-* [Processamento de Digitalização](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md)\
-  Ferramentas especificamente destinadas a texturas digitalizadas.
+* [Processamento de materiais escaneados](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md)\
+  Ferramentas especificamente destinadas a texturas fotodigitalizadas.

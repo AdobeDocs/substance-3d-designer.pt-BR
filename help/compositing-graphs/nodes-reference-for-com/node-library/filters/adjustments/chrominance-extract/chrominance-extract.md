@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/chrominance-extract.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/chrominance-extract.html"
 breadcrumb-title: ''
-description: Use o nó Extração de crominância para extrair informações de crominância do textura para análise e processamento de cores.
+description: Use o nó Extração de crominância para extrair informações de crominância de texturas para análise e processamento de cores.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Chrominance Extract
 helpx_experience_level: ""

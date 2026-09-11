@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: Escolha entre os renderizadores rasterizador e pathtracer na visualização 3D para obter diferentes qualidade e desempenho de visualização.
 helpx_creative_field: ""
@@ -178,7 +178,7 @@ Duas técnicas estão disponíveis para visualizar o height:
 
 <b>Tesselação + Deslocamento</b> - Subdivide a geometria e desloca os vértices ao longo de suas normais.
 
-O Material Padrão da Adobe está documentado em detalhes nesta [seção](https://experienceleague.adobe.com/pt-br/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de nossa documentação.
+O Material Padrão da Adobe está documentado em detalhes nesta [seção](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) de nossa documentação.
 
 +++
 

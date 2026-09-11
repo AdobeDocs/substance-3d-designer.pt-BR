@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/sun-bleach.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/sun-bleach.html"
 breadcrumb-title: ''
 description: Use o nó Desfoque do sol para gerar máscaras com base na exposição ao sol para criar efeitos realistas de desfoque e desbotado do sol.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Descrição
 
-Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) do [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras Inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) do [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
 Esta máscara é semelhante a [Clara](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md), mas também tem suporte para AO, levando a uma máscara que representa o branqueamento claro e o esmaecimento sobre um efeito.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing.html"
 breadcrumb-title: ''
 description: Acessar nós de processamento de digitalização no Substance 3D Designer para limpar e processar materiais e texturas digitalizados.
 helpx_creative_field: ""

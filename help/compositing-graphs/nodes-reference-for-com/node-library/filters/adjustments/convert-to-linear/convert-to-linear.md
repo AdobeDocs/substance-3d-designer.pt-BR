@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-linear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-linear.html"
 breadcrumb-title: ''
-description: Use o nó Converter em linear para converter texturas de sRGB em espaço de cores linear para cálculos de cores precisos.
+description: Use o nó Converter em linear para converter texturas de sRGB em espaço de cor linear para cálculos precisos de cores.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Convert To Linear
 helpx_experience_level: ""

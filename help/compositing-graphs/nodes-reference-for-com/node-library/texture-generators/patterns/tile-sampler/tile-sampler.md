@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
 breadcrumb-title: ''
-description: Use o nó Sampler lado a lado para obter amostras e organizar blocos de texturas de entrada para criar padrões lado a lado no Substance 3D Designer.
+description: Use o nó Sampler lado a lado para obter amostras e organizar blocos das texturas de entrada para criar padrões lado a lado no Substance 3D Designer.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Sampler
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 ![](../../../../../../assets/tile-sampler.png){width="128px"}
 
-<b>Em:</b> Geradores De Textura > Padrões
+<b>Em:</b> Textura Geradores > Padrões
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 Tile Sampler é o último nó de geração de padrão de ladrilho. É uma versão evoluída e mais complexa do [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). A partir do 2017 2.1, as diferenças são muito menores entre o Tile Sampler e o [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). As principais diferenças estão agora apenas nos sete diferentes slots de mapa que estão disponíveis para dirigir a Escala, Posição, Rotação, Tamanho, Cor e Mascaramento. Seu efeito pode ser mesclado separadamente.
 
-O Tile Sampler é útil para criar padrões de procedimentos feitos pelo homem, com controle adicional sobre determinados parâmetros orientados por mapas de entrada externos.
+O Tile Sampler é útil para criar padrões processuais artificiais, com controle adicional sobre determinados parâmetros orientados por mapas de entrada externos.
 
 Certifique-se de estar familiarizado com o [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) antes de passar para o Tile Sampler. Na maioria dos casos, você encontrará [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) o suficiente e não precisará da complexidade adicional de Tile Sampler.
 

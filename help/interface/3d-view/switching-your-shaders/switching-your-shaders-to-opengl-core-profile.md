@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
 breadcrumb-title: ''
 description: Saiba como alternar sombreadores para o perfil OpenGL Core na exibição Substance 3D Designer 3D para obter compatibilidade e desempenho.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ Primeiro, substitua (ou adicione-a na parte superior do arquivo, se ainda não t
 
 Agora, as variáveis `attribute` e `varying` são declaradas explicitamente como `in` ou `out`, dependendo do estágio do sombreador:
 
-No sombreador de vértices, `attribute`s dos vértices são declarados como `in`, enquanto `varying`s a serem passados para o sombreador de fragmentos são declarados como `out`.\
+No sombreador de vértice, `attribute`s dos vértices são declarados como `in`, enquanto `varying`s a serem passados para o sombreador de fragmento são declarados como `out`.\
 Por exemplo:
 
 ```
@@ -78,7 +78,7 @@ out vec2 fragmentUV;
 ```
 
 
-Da mesma forma no sombreador de fragmentos, a variação se torna dentro. Você também deve declarar uma variável out que substituirá gl\_FracColor (que não é mais embutida):
+Da mesma forma no fragmento sombreador, a variação se torna em. Você também deve declarar uma variável out que substituirá gl\_FracColor (que não é mais embutida):
 
 ```
 ## version 120
@@ -130,7 +130,7 @@ outColor = vec4(myColor.rgb, 1.0);
 
 ### Usar novas funções de pesquisa de textura
 
-Com a nova versão da linguagem de sombreamento, a API de pesquisa de textura foi simplificada e aumentada.
+Com a nova versão da linguagem de sombreamento, a API de pesquisa de textura foi simplificada e aprimorada.
 
 As funções `texture1D()`, `texture2D()`, `texture3D()` e `textureCube()` se tornam sobrecargas de `texture()`.\
 Da mesma forma, `texture2DLod()` torna-se `textureLod()`, `texture2DGrad()` torna-se `textureGrad()` e assim por diante.

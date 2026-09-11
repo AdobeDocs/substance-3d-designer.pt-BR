@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ''
 description: Use o nó Níveis para ajustar o brilho, o contraste e a gama tonal das texturas para correção e aprimoramento de cores.
 helpx_creative_field: ""
@@ -86,11 +86,11 @@ O botão amarelo realçado alterna a interface entre os controles deslizantes (i
 
 |  |  |
 | --- | --- |
-| <b>Nivel em sombras</b> *Precisão decimal/Precisão decimal 4* | Define os níveis de luz baixa da imagem de entrada. Mapeia novamente os valores de Entrada baixos para ficarem totalmente pretos. |
-| <b>Nivel em realce</b> *Precisão decimal/Precisão decimal 4* | Define os níveis de realce da imagem de entrada.  Mapeia novamente os valores de entrada Altos para um branco completo. |
-| <b>Nível em tons médios</b> *Precisão decimal/Precisão decimal 4* | Define os níveis de tons médios da imagem de entrada.  Mapeia novamente os valores de entrada do Meio para se tornarem cinza médio. |
-| <b>Nivelar abaixo</b> *Precisão decimal/Precisão decimal 4* | Define os níveis de luz baixa da imagem de saída.  Restringe os valores de saída de Preto para definir o limite. |
-| <b>Nível da saída do realce</b> *Precisão decimal/Precisão decimal 4* | Define os níveis de realce da imagem de saída.  Restringe os valores de branco de saída para definir o limite. |
+| <b>Nível no baixo</b> *Flutuante/Flutuante4* | Define os níveis de luz baixa da imagem de entrada. Mapeia novamente os valores de Entrada baixos para ficarem totalmente pretos. |
+| <b>Nível no alto</b> *Flutuante/Flutuante4* | Define os níveis de realce da imagem de entrada.  Mapeia novamente os valores de entrada Altos para um branco completo. |
+| <b>Nível no meio</b> *Flutuante/Flutuante4* | Define os níveis de tons médios da imagem de entrada.  Mapeia novamente os valores de entrada do Meio para se tornarem cinza médio. |
+| <b>Nivelar abaixo</b> *Flutuante/Flutuante4* | Define os níveis de luz baixa da imagem de saída.  Agrava os valores de saída de Preto para definir o limite. |
+| <b>Nivelar acima</b> *Flutuante/Flutuante4* | Define os níveis de realce da imagem de saída.  Restringe os valores de branco de saída para definir o limite. |
 | <b>Pincel intermediário</b> *Booleano* | Determina se o valor de entrada transformado é fixado a [0, 1] antes do cálculo do nível de saída. |
 
 ## Guia de uso

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
 breadcrumb-title: ''
 description: Use o filtro Desfoque de cor MLV para aplicar efeitos de desfoque de movimento a texturas de cores para aparência visual dinâmica.
 helpx_creative_field: ""
@@ -67,8 +67,8 @@ O filtro localiza áreas estruturantes em uma imagem e as usa para aumentar a ni
 
 |  |  |
 |:---|:---|
-| <b>Intensidade</b> *Flutuante* | A intensidade da filtragem aplicada à imagem.<br><br>Valores mais altos resultam em mais suavização de detalhes e ruído em áreas mais planas. |
-| <b>Smoothness</b> *Flutuante* | A intensidade do alisamento aplicado nas áreas de estruturação, que resulta em áreas mais redondas e diminui o efeito de passo, que pode ocorrer em intensidades de filtragem mais altas. |
+| <b>Intensidade</b> *Precisão decimal* | A intensidade da filtragem aplicada à imagem.<br><br>Valores mais altos resultam em mais suavização de detalhes e ruído em áreas mais planas. |
+| <b>Smoothness</b> *Precisão decimal* | A intensidade do alisamento aplicado nas áreas de estruturação, que resulta em áreas mais redondas e diminui o efeito de passo, que pode ocorrer em intensidades de filtragem mais altas. |
 | <b>Critério</b> *Inteiro* | O critério usado para selecionar os valores que definirão as áreas de estruturação na imagem.<br><br>Em outras palavras, como os pixels devem ser *agrupados* em áreas que devem ser suavizadas.<br><br>*- Variação:* selecione valores com a menor dispersão ao redor da média, o que resulta em clusters de pixels semelhantes uns aos outros <br>*- Coeficiente de variação:* selecione valores considerando a média, o que resulta em menos variação de áreas mais brilhantes de forma inversa |
 | <b>Gaussiano</b> *Booleano* | Use uma distribuição Gaussiana para agrupar pixels em áreas de estruturação.<br><br>Quando &#39;Verdadeiro&#39;, isso resulta em áreas mais suaves e um efeito de nivelamento reduzido. |
 | <b>Afetar alfa</b> *Booleano* | Quando &#39;Verdadeiro&#39;, a filtragem também é aplicada no canal alfa da imagem.<br><br>Quando &#39;Falso&#39;, o canal alfa é totalmente ignorado e deixado como está na saída. |

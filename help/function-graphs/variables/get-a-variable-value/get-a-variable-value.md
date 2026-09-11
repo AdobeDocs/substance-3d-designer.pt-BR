@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
 breadcrumb-title: ''
 description: Saiba como recuperar valores de variáveis nos gráficos de função do Substance 3D Designer usando o nó Obter variável.
 helpx_creative_field: ""

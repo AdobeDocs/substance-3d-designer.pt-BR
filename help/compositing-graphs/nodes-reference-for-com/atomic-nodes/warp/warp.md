@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ''
 description: Use o nó Distorcer para aplicar efeitos de distorção ao textura para criar efeitos de distorção e de deslocamento.
 helpx_creative_field: ""
@@ -80,8 +80,8 @@ Se você estiver familiarizado com Mapas normais, pode imaginar o funcionamento 
 
 |  |  |
 | --- | --- |
-| <b>Intensidade</b> *Flutuante* | Define a intensidade da distorção. |
-| <b>Modo de filtragem de entrada</b> *Booleano* | Controla se a filtragem mais próxima ou bilinear é usada para obter amostra da Entrada. |
+| <b>Intensidade</b> *Precisão decimal* | Define a intensidade da distorção. |
+| <b>modo de filtragem de entrada</b> *Booleano* | Controla se a filtragem mais próxima ou bilinear é usada para obter amostra da Entrada. |
 
 ## Conectores de entrada
 

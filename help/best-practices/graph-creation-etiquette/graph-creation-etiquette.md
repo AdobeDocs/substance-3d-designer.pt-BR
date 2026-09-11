@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/best-practices/graph-creation-etiquette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
 breadcrumb-title: ''
 description: Saiba mais sobre as práticas recomendadas e etiqueta para criar gráficos de Substance para garantir fluxos de trabalho limpos, sustentáveis e eficientes.
 helpx_creative_field: ""
@@ -81,11 +81,11 @@ Tente não ter o identificador e o Rótulo diferentes demais: caso o Identificad
 
 Tente combinar seus Rótulos com os termos que você usa em Quadros (Rótulos de Quadro) e comentários. Isso facilita a localização de qual seção do gráfico está vinculada ao parâmetro exposto
 
-![quadro correspondente e rótulos de parâmetro](graph-creation-etiquette.resources/match-labels.png "quadro correspondente e rótulos de parâmetro")
+![Correspondência de rótulos de quadro e parâmetro](graph-creation-etiquette.resources/match-labels.png "Correspondência de rótulos de quadro e parâmetro")
 
 ### Configurações de parâmetro
 
-Ao expor Parâmetros, mais do que apenas o Rótulo e o Identificador são importantes, os seguintes pontos devem ser levados em consideração:
+Ao expor Parâmetros, mais do que apenas o Rótulo e o Identificador são importantes, os seguintes pontos devem ser considerados:
 
 * Escolha o tipo de Editor correto. Um controle deslizante nem sempre faz sentido: um elemento de interface Ângulo ou Suspenso também são possibilidades.
 * Defina valores mínimos e máximos apropriados e decida se é recomendável cortá-los.

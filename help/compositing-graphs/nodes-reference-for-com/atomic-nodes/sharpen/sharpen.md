@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ''
 description: Use o nó Nitidez para aprimorar os detalhes e as bordas da textura e criar detalhes nítidos e definidos da superfície.
 helpx_creative_field: ""

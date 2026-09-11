@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-11-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-3.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 11.3 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -53,7 +53,7 @@ Muitas melhorias foram adicionadas ao gráfico de modelo para expandir os recurs
 * <b>Melhorias gerais\
   </b>O fluxo de trabalho em torno do gráfico de modelagem foi aprimorado com:
   * Novas dicas de ferramentas nos parâmetros de nós para torná-los mais fáceis de aprender.
-  * A hierarquia de modelo 3D agora é preservada ao exportar em FBX
+  * A hierarquia de modelos 3D agora é preservada ao exportar em FBX
   * A atribuição de materiais pode ser exportada com os formatos de arquivo OBJ e FBX.
   * Visualize os nós intermediários na viewport no modo de sobreposição.
 
@@ -64,9 +64,9 @@ Muitas melhorias foram adicionadas ao gráfico de modelo para expandir os recurs
 As ações de envio foram ampliadas, com duas novas possibilidades:
 
 * **Enviar SBSM (arquivo de modelo do substance) para o Stager**\
-  Modelos 3D de procedimentos agora podem ser enviados para o Stager e modificados a partir daí com os parâmetros expostos.
+  Modelos 3D processuais agora podem ser enviados para o Stager e modificados a partir desse local com os parâmetros expostos.
 
-* **Receber SBS/SBSAR da Sampler**\
+* **Receber SBS/SBSAR do Sampler**\
   Agora é possível receber arquivos de Substance gerados pelo Sampler diretamente no Designer.
 
 ### Diversos
@@ -130,18 +130,18 @@ Essa versão adiciona novos nós de difusão e melhorias para o nó Renderizaç�
 * [Modelos de Substance] Melhorar a exibição das bases
 * [Modelos de Substance] Preserva a hierarquia dos objetos ao exportar um gráfico de Modelo de Substance para .fbx
 * [Modelos de Substance] Suporte a vários materiais no gráfico Exportação de FBX/OBJ a partir do modelo de Substance
-* [Substance models]&#x200B;[Content] Nó de partículas
-* [Modelos de Substance]&#x200B;[Conteúdo] Nó de transformação generativa
-* [Substance models]&#x200B;[Content] Organic Pattern node
-* [Modelos de Substance]&#x200B;[Conteúdo] Partículas do nó Instâncias
-* [Modelos de Substance]&#x200B;[Conteúdo] Nó de remoção de partículas
-* [Modelos de Substance]&#x200B;[Conteúdo] nó Lathe
-* [Substance models]&#x200B;[Content] Nó do shell
-* [Substance models]&#x200B;[Content] Nó de projeção
-* [Modelos de Substance]&#x200B;[Conteúdo] Nó Curve Trim
-* [Modelos de Substance]&#x200B;[Conteúdo] Atualizar nó Sampler da curva
-* [Modelos do Substance]&#x200B;[Conteúdo] Atualizar nó do Mesh Sampler
-* [Modelos de Substance]&#x200B;[Conteúdo] Atualizar nó de tremulação
+* [Substance models][Content] Nó de partículas
+* [Modelos de Substance][Conteúdo] Nó de transformação generativa
+* [Substance models][Content] Organic Pattern node
+* [Modelos de Substance][Conteúdo] Partículas do nó Instâncias
+* [Modelos de Substance][Conteúdo] Nó de remoção de partículas
+* [Modelos de Substance][Conteúdo] nó Lathe
+* [Substance models][Content] Nó do shell
+* [Substance models][Content] Nó de projeção
+* [Modelos de Substance][Conteúdo] Nó Curve Trim
+* [Modelos de Substance][Conteúdo] Atualizar nó Sampler da curva
+* [Modelos do Substance][Conteúdo] Atualizar nó do Mesh Sampler
+* [Modelos de Substance][Conteúdo] Atualizar nó de tremulação
 * [UX] Botão para maximizar a visualização atual
 * [UX] Atualizar a janela Novo gráfico
 * [UX] Adicionar a opção “Baixar Player” no menu Ferramentas e agregar com “Localizar Player”
@@ -179,7 +179,7 @@ Essa versão adiciona novos nós de difusão e melhorias para o nó Renderizaç�
 * [UI] A tecla Tab deve ser pressionada duas vezes para navegar pelos valores
 * [IU] O zoom com arrastar o mouse é invertido entre a Exibição 3D e outras Portas de Visualização
 * [UI] Carregar um SBS já aberto usando a lista “Arquivos recentes” aciona incorretamente um prompt “Pacote não encontrado”
-* [UI]&#x200B;[macOS] Layout de interface padrão incorreto após iniciar o aplicativo
+* [UI][macOS] Layout de interface padrão incorreto após iniciar o aplicativo
 * [UI] Os pacotes não podem ser salvos na raiz de uma unidade (somente Windows)
 * [Graph] A opção “Exibir automaticamente na visualização 2D” é inconsistente em um caso específico
 * [Graph] A opção &#39;Abrir referência&#39; está disponível para nós de instância SBSAR

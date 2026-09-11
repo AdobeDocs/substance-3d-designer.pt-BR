@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
 description: Saiba como publicar arquivos de ativos do Substance 3D (SBSAR) a partir do Designer para uso em outros aplicativos e mecanismos.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Esta página explica como a Substance 3D Designer pode publicar pacotes como arquivos de <b>ativos do Substance 3D</b>, um formato de arquivo especial com a extensão <b>SBSAR</b>, usado no ecossistema de Substance bem como em outros aplicativos que dão suporte a ele.
 
-Normalmente, é melhor usar um ativo do Substance 3D em vez de bitmaps, pois ele é muito mais flexível e leve. Se você estiver usando o [Painter](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/home), o [Sampler](https://helpx.adobe.com/br/substance-3d-sampler.html) ou o [Player](https://helpx.adobe.com/substance-3d-player/home.html) do Substance 3D, é mais rápido usar o recurso [&#39;Enviar para...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
+Normalmente, é melhor usar um ativo do Substance 3D em vez de bitmaps, pois ele é muito mais flexível e leve. Se você estiver usando o [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), o [Sampler](https://helpx.adobe.com/substance-3d-sampler.html) ou o [Player](https://helpx.adobe.com/substance-3d-player/home.html) do Substance 3D, é mais rápido usar o recurso [&#39;Enviar para...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
 
 ![Publicação de arquivos SBSAR simplificada](../../assets/exportflow.png "Publicação de arquivos SBSAR simplificada")
 
@@ -33,18 +33,18 @@ Normalmente, é melhor usar um ativo do Substance 3D em vez de bitmaps, pois ele
 * Você<b> publica um pacote</b>, com todo o seu conteúdo, não um [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md) individual. Um ativo do Substance 3D permite gerar conteúdo de todos os gráficos de Substance dentro deste pacote.
 * Os pacotes publicados são <b>completamente autônomos</b>: todos os recursos necessários estão incorporados ao arquivo. Isso significa que eles são muito mais fáceis de compartilhar do que arquivos SBS.
 * A saída dos ativos do Substance 3D pode ser <b>completamente dinâmica</b>. [A resolução não está definida; os parâmetros expostos podem ser modificados.](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) No entanto, não é mais possível editar o gráfico.
-* Os ativos do Substance 3D podem ser usados fora do Designer, em todos os produtos Adobe Substance 3D, no Adobe Dimension e em qualquer outro aplicativo que tenha uma [integração de Substance](https://experienceleague.adobe.com/pt-br/docs/substance-3d/ecosystem/home).
+* Os ativos do Substance 3D podem ser usados fora do Designer, em todos os produtos Adobe Substance 3D, no Adobe Dimension e em qualquer outro aplicativo que tenha uma [integração de Substance](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home).
 * A publicação é diferente de[Exportar](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). Certifique-se de entender bem a diferença.
 
 ## Preparando para publicar
 
 A publicação requer mais preparação do que a exportação de bitmaps. Isso ocorre porque seus ativos do Substance 3D publicados são ferramentas dinâmicas, não apenas um instantâneo estático do estado atual de suas texturas. Especificamente, lembre-se do seguinte:
 
-* Verifique se as resoluções de gráfico ([Tamanho de Saída](../../compositing-graphs/output-size/output-size.md)) estão definidas para o *método de herança [&#x200B; Relativo ao pai*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), o que significa que elas são dinâmicas e podem ser alteradas sem interrupções.
+* Verifique se as resoluções de gráfico ([Tamanho de Saída](../../compositing-graphs/output-size/output-size.md)) estão definidas para o *método de herança [ Relativo ao pai*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), o que significa que elas são dinâmicas e podem ser alteradas sem interrupções.
 * Verifique se as [saídas de gráfico](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) estão configuradas corretamente com nomes, rótulos e marcas de uso.
 * Verifique se os [Parâmetros, se necessários, estão organizados e nomeados corretamente](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 * Se um gráfico descreve um material, defina seu atributo [modelo de material](../graph-parameters/graph-parameters.md) para o modelo desse material.
-* Verifique se a propriedade [Tamanho de saída](../../compositing-graphs/output-size/output-size.md) de todos os nós [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) está definida como o método de herança [&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) ** Absoluto. Se não for esse o caso, o [recurso de bitmap](../../resources/bitmap-resource/bitmap-resource.md) referenciado nele será salvo na resolução padrão <b>256\*256</b> no arquivo de ativo do Substance 3D publicado, o que* afetará a qualidade* de uma ou mais saídas.
+* Verifique se a propriedade [Tamanho de saída](../../compositing-graphs/output-size/output-size.md) de todos os nós [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) está definida como o método de herança ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) *[* Absoluto. Se não for esse o caso, o [recurso de bitmap](../../resources/bitmap-resource/bitmap-resource.md) referenciado nele será salvo na resolução padrão <b>256\*256</b> no arquivo de ativo do Substance 3D publicado, o que* afetará a qualidade* de uma ou mais saídas.
 * Se os gráficos estiverem presentes no pacote que não deve estar disponível fora do Designer (por exemplo, subgráficos auxiliares ou de “ferramenta” que funcionam apenas em um contexto específico), configure-os para ficarem ocultos em suas propriedades. Veja mais abaixo.
 
 ## Métodos de publicação

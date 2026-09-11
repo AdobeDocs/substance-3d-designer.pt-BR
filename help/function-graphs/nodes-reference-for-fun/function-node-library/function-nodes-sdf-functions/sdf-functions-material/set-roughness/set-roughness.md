@@ -40,8 +40,8 @@ Este valor pode ser recuperado para todas as formas de SDF espalhadas na saída 
 
 |  |  |
 | --- | --- |
-| <b>Cena SDF</b> *Flutuante* | A cena do SDF de entrada. |
-| <b>Aspereza</b> *Flutuante* | O valor de aspereza a ser definido. |
+| <b>Cena SDF</b> *Precisão decimal* | A cena do SDF de entrada. |
+| <b>Aspereza</b> *Precisão decimal* | O valor de aspereza a ser definido. |
 
 
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Defina as configurações de tamanho de saída para gráficos de composição de Substance para controlar a resolução e a qualidade da textura.
 helpx_creative_field: ""
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 O parâmetro Tamanho de saída determina a resolução da saída de *textura* por um gráfico ou nó.
 
-Uma textura que é um objeto na computação gráfica vinculado por algumas restrições impostas pela maneira como o hardware de processamento gráfico realiza seus cálculos. Uma dessas restrições é que a textura deve representar uma imagem cuja contagem de pixels em X e Y é uma *potência de dois*.
+Uma textura que é um objeto na computação gráfica vinculado por algumas restrições impostas pela maneira como o hardware de processamento gráfico executa seus cálculos. Uma dessas restrições é que a textura deve representar uma imagem cuja contagem de pixels em X e Y é uma *potência de dois*.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -68,12 +68,12 @@ Isso também se aplica quando o valor do Tamanho de Saída é controlado por uma
 
 >[!NOTE]
 >
-> Em [Gráficos de função](../../function-graphs/function-graphs.md), as `$size` e `$sizelog2` [variáveis de sistema](../../function-graphs/variables/system-variables/system-variables.md) retornam um valor Precisão decimal 2 correspondente à resolução atual do nó ou gráfico como uma contagem de pixels brutos ou uma potência de dois, respectivamente.\
+> Em [Gráficos de função](../../function-graphs/function-graphs.md), as `$size` e `$sizelog2` [variáveis de sistema](../../function-graphs/variables/system-variables/system-variables.md) retornam um valor Float2 correspondente à resolução atual do nó ou gráfico como uma contagem de pixels brutos ou uma potência de dois, respectivamente.\
 > Por exemplo, para uma imagem 1024\*512, `$size` retorna `(1024,512)` enquanto `$sizelog2` retorna `(10,9)`.
 
 ## Tamanho relativo
 
-Quando a propriedade Tamanho de Saída usa um *Método de herança Relativo a...*[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), seu valor é expresso como um modificador *relativamente ao valor logarítmico herdado*.
+Quando a propriedade Tamanho de Saída usa um *Método de herança Relativo a...*[](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), seu valor é expresso como um modificador *relativamente ao valor logarítmico herdado*.
 
 Modificadores relativos à resolução herdada variam de -12 a +12 em uma escala logarítmica, com o padrão sendo 0. Isso significa que cada etapa acima ou abaixo resulta na duplicação ou na redução da resolução para a metade. A tabela à direita fornece um exemplo de como a resolução relativa é alterada em uma dimensão para um valor herdado de 9 (ou seja, 512 = 2^9) e 11 (ou seja, 2048 = 2^11):
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Use quadros na exibição gráfica do Substance 3D Designer para organizar e agrupar nós e melhorar a clareza visual.
 helpx_creative_field: ""
@@ -365,9 +365,9 @@ O título é ignorado.
 
 ![Quadros: ajustar tamanho ao conteúdo](../../../../assets/graph-frames_fit-size-to-content.png "Quadros: ajustar tamanho ao conteúdo")
 
-Conforme você faz ajustes no gráfico, um quadro pode não ser mais ajustado normalmente ao seu conteúdo. Nesse caso, é possível ajustar automaticamente a posição e o tamanho do quadro de modo que ele se ajuste à extensão de seu conteúdo, com um preenchimento de uma célula de grade média.
+Conforme você faz ajustes no gráfico, um quadro pode não ser mais ajustado normalmente ao seu conteúdo. Nesse caso, é possível ajustar automaticamente a posição e o tamanho do quadro para que ele se ajuste à extensão de seu conteúdo, com um preenchimento de uma célula de grade média.
 
-Para fazer isso, clique em <b>RMB</b> no título do quadro ou na barra de cabeçalho - consulte [Aparência](#appearance) - e selecione a opção <b>Ajustar Tamanho ao Conteúdo</b> no menu contextual.
+Para fazer isso, clique em <b>RMB</b> no título ou na barra de cabeçalho da quadro - consulte [Aparência](#appearance) - e selecione a opção <b>Ajustar Tamanho ao Conteúdo</b> no menu contextual.
 
 >[!NOTE]
 >
@@ -381,7 +381,7 @@ Para fazer isso, clique em <b>RMB</b> no título do quadro ou na barra de cabeç
 
 Se o quadro tiver uma descrição, ela será ajustada para usar qualquer espaço vazio ao lado da descrição, se possível.
 
-Se nenhum objeto incluído puder ser encaixado nesse espaço, o height do quadro será ajustado para acomodar a descrição.
+Se nenhum objeto incluído puder ser encaixado nesse espaço, o height da quadro será ajustado para acomodar a descrição.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -393,7 +393,7 @@ Se nenhum objeto incluído puder ser encaixado nesse espaço, o height do quadro
 </table>
 
 +++Exemplo
-![Quadros: ajustar tamanho ao conteúdo (GIF)](../../../../assets/graph-frames_fit-size-to-content.gif "Quadros: ajustar tamanho ao conteúdo (GIF)"){width="640px"}
+![Quadros: Ajustar tamanho ao conteúdo (GIF)](../../../../assets/graph-frames_fit-size-to-content.gif "Quadros: Ajustar tamanho ao conteúdo (GIF)"){width="640px"}
 
 
 
@@ -401,22 +401,22 @@ Se nenhum objeto incluído puder ser encaixado nesse espaço, o height do quadro
 
 ## Expansão automática
 
-![Quadros: expansão automática](../../../../assets/graph-frames_auto-expand.png "Quadros: expansão automática")
+![Quadros: Expansão automática](../../../../assets/graph-frames_auto-expand.png "Quadros: Expansão automática")
 
-À medida que o gráfico cresce, o conteúdo dos quadros pode precisar ser reorganizado. Os nós podem mudar para criar espaço para adições ou o conteúdo pode precisar ser espaçado mais para promover a legibilidade.
+À medida que o gráfico cresce, o conteúdo do quadro pode precisar ser reorganizado. Os nós podem mudar para criar espaço para adições ou o conteúdo pode precisar ser espaçado mais para promover a legibilidade.
 
-Para facilitar esses ajustes, é possível expandir automaticamente um quadro ao mover [objetos incluídos](#inclusion-rules): mantenha pressionado o <b>Shift</b> em qualquer ponto ao mover um objeto para que as bordas do quadro se ajustem automaticamente para manter esse objeto dentro de seus limites.
+Para facilitar esses ajustes, é possível expandir automaticamente um quadro ao mover [objetos incluídos](#inclusion-rules): mantenha pressionado o <b>Shift</b> a qualquer momento ao mover um objeto para que as bordas do quadro se ajustem automaticamente para manter esse objeto dentro de seus limites.
 
 Isso também se aplica a seleções que podem incluir vários objetos. Nesse caso, o quadro host de cada objeto será ajustado simultaneamente.
 
-Se um objeto não estiver totalmente delimitado pelos limites do quadro, mas ainda atender à sua [regra de inclusão](#inclusion-rules), o quadro será ajustado para delimitá-lo totalmente com um preenchimento adicional de uma célula de grade média assim que a tecla <b>Shift</b> for pressionada.
+Se um objeto não estiver totalmente delimitado pelos limites da quadro, mas ainda atender à sua [regra de inclusão](#inclusion-rules), o quadro será ajustado para delimitar totalmente com um preenchimento adicional de uma célula de grade média assim que a tecla <b>Shift</b> for pressionada.
 
 >[!NOTE]
 >
 > Enquanto a tecla <b>Shift</b> pode ser pressionada ou liberada em qualquer ponto durante o movimento para acionar ou cancelar o ajuste automático do quadro, ela *deve* ser mantida pressionada ao concluir o movimento para aplicar efetivamente o ajuste.
 
 +++Exemplo
-![Quadros: expansão automática (GIF)](../../../../assets/graph-frames_auto-expand.gif "Quadros: expansão automática (GIF)"){width="640px"}
+![Quadro: Expansão automática (GIF)](../../../../assets/graph-frames_auto-expand.gif "Quadros: Expansão automática (GIF)"){width="640px"}
 
 
 

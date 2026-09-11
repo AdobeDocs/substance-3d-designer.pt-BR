@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Acessar nós de controle em gráficos de função do Substance 3D Designer para controlar o fluxo e a lógica de execução.
 helpx_creative_field: ""
@@ -100,10 +100,10 @@ Depois que o loop é concluído, o nó gera o resultado da última iteração do
 </tr>
 </table>
 
-Os loops têm um número máximo implícito de iterações que pode ser desativado definindo-o como -1.
+Os loops têm um número máximo implícito de iterações que pode ser desabilitado definindo-o como -1.
 
-As variáveis retêm seu valor entre iterações e podem ser acessadas na condição de saída (Cond. saída).\
-Isso significa que você pode adicionar a um valor de índice cada iteração e verificar seu valor na condição de saída para controlar o número de loops necessários.
+As variáveis retêm seu valor no iteração e podem ser acessadas na condição de saída (Cond. saída).\
+Isso significa que você pode adicionar a um valor de índice a cada iteração e verificar seu valor na condição de saída para controlar o número de loops necessários.
 
 >[!IMPORTANT]
 >
@@ -114,7 +114,7 @@ Isso significa que você pode adicionar a um valor de índice cada iteração e 
 A parte do gráfico que é calculada antes da primeira iteração, ou seja, o início do loop.
 
 <b>Sair do Cond.</b> *Booleano*\
-A condição que precisa ser verdadeira para que o loop pare. É recalculado em cada iteração.\
+A condição que precisa ser verdadeira para que o loop pare. Ele é recalculado em cada iteração.\
 *Observação:* o número máximo de iterações ainda está limitado ao parâmetro <b>Máximo de iterações</b>.
 
 <b>Corpo do Loop</b> *Tipo de variável*\

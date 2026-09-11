@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises.html"
 breadcrumb-title: ''
-description: Acesse os nós do gerador de ruído no Substance 3D Designer para criar padrões de ruído de procedimento para geração e variação de textura.
+description: Acesse nós geradores de ruído no Substance 3D Designer para criar padrões de ruído processuais para geração e variação de textura.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises
 helpx_experience_level: ""
@@ -30,7 +30,7 @@ Existem 3 grupos de uso diferentes dentro da categoria Ruídos:
 
 * A grande maioria são os ruídos padrão, que se espalham por um amplo espectro e são úteis em muitos casos.
 * Mapas de desgaste são ruídos compostos com muito mais profundidade e detalhes do que ruídos padrão, ao custo de uma velocidade de cálculo muito mais lenta.
-* Ruídos 3D que exigem pelo menos um mapa de posição cozido de uma malha são destinados a casos de uso muito específicos.
+* Ruídos 3D que exigem pelo menos um mapa de posição feito bake de uma malha são destinados a casos de uso muito específicos.
 
 Use a <b>lista de navegação à esquerda</b> para procurar todos os nós em Ruídos.
 

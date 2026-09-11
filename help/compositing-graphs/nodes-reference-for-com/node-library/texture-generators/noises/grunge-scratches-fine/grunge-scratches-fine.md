@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-fine.html"
 breadcrumb-title: ''
 description: Use o nó Scratches de Desgaste para adicionar padrões de trabalho finos para um desgaste sutil e efeitos de detalhes da superfície.
 helpx_creative_field: ""

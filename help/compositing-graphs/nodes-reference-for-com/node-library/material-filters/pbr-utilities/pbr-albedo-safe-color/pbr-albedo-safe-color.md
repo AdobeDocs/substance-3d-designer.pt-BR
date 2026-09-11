@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
 breadcrumb-title: ''
 description: Use o nó Cor de segurança de Albedo PBR para garantir que as cores do albedo estejam dentro de intervalos fisicamente plausíveis para materiais PBR.
 helpx_creative_field: ""

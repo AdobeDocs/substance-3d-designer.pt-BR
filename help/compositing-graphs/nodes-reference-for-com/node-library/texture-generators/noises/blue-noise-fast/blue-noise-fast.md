@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
 breadcrumb-title: ''
 description: Use o nó Blue Noise Fast para gerar padrões de ruído azul rápidos para criar variações e pontilhamento de textura de alta qualidade.
 helpx_creative_field: ""

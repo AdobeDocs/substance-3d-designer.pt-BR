@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
 breadcrumb-title: ''
 description: Substitua os materiais existentes em cenas 3D para substituí-los pelos seus próprios materiais de Substance para testar e visualizar.
 helpx_creative_field: ""

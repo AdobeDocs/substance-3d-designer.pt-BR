@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
 breadcrumb-title: ''
 description: Use o nó Pele 3 para gerar texturas de pele avançadas com propriedades personalizáveis para criar efeitos de cabelo e fibra.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 11%
 
 ![](fur-3.resources/fur-3.png){width="128px"}
 
-<b>Entrada:</b> geradores de Textura > Ruídos
+<b>Entrada:</b> geradores de textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

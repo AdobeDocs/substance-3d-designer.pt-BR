@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: Use o nó Equalização do histograma para redistribuir as intensidades de pixel para melhorar o contraste e o brilho.
 helpx_creative_field: ""
@@ -62,7 +62,7 @@ Equaliza o histograma para uma imagem em tons de cinza, ajustando efetivamente o
 |  |  |
 |:---|:---|
 | <b>Resolução do histograma</b> *Inteiro* | A largura do histograma. Um valor mais alto permite uma melhor distribuição de valores.   As resoluções disponíveis são, em pixels: 256, 512, 1024, 2048, 4096 |
-| <b>Suavização do histograma</b> *Flutuante* | O histograma pode ser suavizado redistribuindo os valores em tons de cinza da imagem para equalizar a *diferença* entre cada valor.   Esse parâmetro ajusta a intensidade dessa suavização. |
+| <b>Suavização do histograma</b> *Precisão decimal* | O histograma pode ser suavizado redistribuindo os valores em tons de cinza da imagem para equalizar a *diferença* entre cada valor.   Esse parâmetro ajusta a intensidade dessa suavização. |
 
 ## Exemplos
 

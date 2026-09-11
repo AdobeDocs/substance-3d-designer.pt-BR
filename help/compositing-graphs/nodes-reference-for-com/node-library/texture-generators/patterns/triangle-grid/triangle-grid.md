@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
 breadcrumb-title: ''
 description: Use o nó Triangle Grid para gerar padrões de grade triangulares para criar texturas geométricas no Substance 3D Designer.
 helpx_creative_field: ""
@@ -72,8 +72,8 @@ As *posições* dos vértices podem ser ajustadas, o que afeta a malha gerada.
 | <b>Triangulação</b> *Inteiro* | Define o método de triangulação para a superfície, isto é, a qual *par de vértices opostos* em um &#39;quad&#39; deve ser conectado:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Automático:</b> seleciona automaticamente o par de vértices que resulta em triângulos <i>voltados para o menos longe</i> da câmera<br/> <b>45°:</b> conecta vértices opostos que resultam em uma linha <i>girada em 45 graus</i> em relação ao eixo X-direito</li> <li data-preserve-html="true"><b>-45°:</b> conectar vértices opostos que resultam em uma linha <i>virada -45 graus</i> relativa ao eixo X-direito</li> <li data-preserve-html="true"><b>Quincux horizontal:</b> alterna a orientação da triangulação <i>em cada duas linhas</i> de vértices</li> <li data-preserve-html="true"><b>Quincux vertical:</b> alterna a orientação da triangulação <i>a cada duas colunas</i> de vértices<br/> </li> </ul> |
 | <b>Valor X</b> *Inteiro* | A quantidade de vértices gerados no eixo X. |
 | <b>Valor Y</b> *Inteiro* | A quantidade de vértices gerados no eixo Y. |
-| <b>Multiplicador de Posição Aleatória</b> *Flutuante* | Ajusta a intensidade do efeito de distorção principal. |
-| <b>Posição Aleatória</b> *Flutuante2* | Ajusta a intensidade do deslocamento aleatório aplicado às posições X e Y de cada vértice, relativamente ao *tamanho de sua célula* na grade.   Este deslocamento *empilha* com os parâmetros <b>Deslocamento Quincux</b> e <b>Deslocamento de Mapa Vetorial</b>. |
+| <b>Multiplicador de Posição Aleatória</b> *Precisão decimal* | Ajusta a intensidade do efeito de distorção principal. |
+| <b>Posição Aleatória</b> *Precisão decimal 2* | Ajusta a intensidade do deslocamento aleatório aplicado às posições X e Y de cada vértice, relativamente ao *tamanho de sua célula* na grade.   Este deslocamento *empilha* com os parâmetros <b>Deslocamento Quincux</b> e <b>Deslocamento de Mapa Vetorial</b>. |
 | <b>Deslocamento de Mapas Vetoriais</b> *Flutuante* | Ajusta a quantidade *global* de deslocamento aplicada a cada vértice usando os valores *amostrados* da entrada <b>Mapa Vetorial</b>.    Este deslocamento *empilha* com os parâmetros <b>Posição aleatória</b> e <b>Deslocamento Quincux</b>. |
 | <b>Deslocamento X De Quincux</b> *Flutuante* | Aplica a quantidade especificada de deslocamento a *todas as outras linhas* de vértices, relativamente ao *tamanho de sua célula* na grade.   Esta *pilha* de deslocamento com os parâmetros <b>Posição Aleatória</b> e <b>Deslocamento de Mapa Vetorial</b>. |
 | <b>Deslocamento Quincux Y</b> *Flutuante* | Aplica o valor especificado de deslocamento a *todas as outras colunas* de vértices, relativamente ao *tamanho de sua célula* na grade.    Esta *pilha* de deslocamento com os parâmetros <b>Posição Aleatória</b> e <b>Deslocamento de Mapa Vetorial</b>. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/facing-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/facing-normal.html"
 breadcrumb-title: ''
 description: Use o nó Enfrentando normal para gerar mapas normais com base na direção da superfície para criar efeitos com base na orientação.
 helpx_creative_field: ""

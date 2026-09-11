@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
 breadcrumb-title: ''
-description: Saiba como usar variáveis iterate e number em FXMaps para criar padrões de loop e variações de procedimento.
+description: Aprenda a usar variáveis iterate e number em FXMaps para criar padrões em loop e variações processuais.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > Using Functions in FXMaps > Iterate and number variable
 helpx_experience_level: ""
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 ![](../../../../assets/iterate-1.jpg)
 
-O nó Iterar renderizará os nós conectados à saída direita durante o tempo especificado pelo valor de Iterações.
+O nó Iterar renderizará os nós conectados à saída direita durante o tempo especificado pelo valor Iteração.
 
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../assets/1-iteration.png"/></div> | 1 iteração: o padrão gaussiano é renderizado uma vez |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../../../assets/10-iterations.png"/></div> | 10 iterações: o padrão gaussiano é renderizado 10 vezes no mesmo local |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../../../assets/10-iterations.png"/></div> | Dez iterações: o padrão gaussiano é renderizado dez vezes no mesmo local |
 
 Ao usar um nó Iterar, você pode usar a variável $number para obter o valor de iteração atual. $number é um valor float e começa em 0.
 

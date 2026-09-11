@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-normalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-normalize.html"
 breadcrumb-title: ''
 description: Use o nó Normalizar normal para normalizar os vetores do mapa normal para garantir a iluminação e o sombreamento corretos da superfície.
 helpx_creative_field: ""

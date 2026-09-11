@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
-description: Saiba como importar, criar e usar recursos de bitmap no Substance 3D Designer para a criação de materiais baseados em textura.
+description: Saiba como importar, criar e usar recursos de bitmap no Substance 3D Designer para a criação de materiais com base em textura.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Bitmap resource
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ Um recurso de bitmap é um recurso em um Pacote de Substance. É diferente do n�
 
 Os bitmaps são alguns dos recursos não gráficos mais comuns no Substance 3D Designer. Em geral, seu uso se enquadra em uma das seguintes categorias:
 
-* Um mapa baked, [armazenado internamente pelo Designer](../../bakers/bakers.md) ou externamente por outro aplicativo.
+* Um mapa baked, [feito bake internamente pelo Designer](../../bakers/bakers.md) ou externamente por outro aplicativo.
 * Uma textura auxiliar, como um padrão, mapa de desgaste ou decalque.
 * Uma máscara de tons de cinza simples para mesclagem, criada internamente usando o [nó de bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) ou com um aplicativo externo.
 
@@ -34,9 +34,9 @@ Os bitmaps são geralmente o maior recurso com o qual o Designer lida. É bom qu
 
 ### Em arquivos do Substance 3D (SBS)
 
-A forma como os bitmaps são armazenados no SBS depende de você [Vincular ou Importá-los. Certifique-se de estar familiarizado com o conceito primeiro.](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) Os bitmaps importados podem ser editados usando as [ferramentas de pintura de bitmaps](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
+A forma como os bitmaps são armazenados no SBS depende de você [Vincular ou Importá-los. Primeiro, verifique se você está familiarizado com o conceito.](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) Os bitmaps importados podem ser editados usando as [ferramentas de pintura de bitmaps](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-Diferentemente dos Recursos de SVG (Gráficos de vetor), os bitmaps são sempre armazenados externamente, mesmo quando criados como um novo recurso ou importados. Para os novos Pacotes de Substance, eles são mantidos na memória até que o arquivo .SBS seja salvo no disco. Depois de salvos em disco, os bitmaps são armazenados em uma pasta */resources* ao lado do arquivo SBS.
+Diferentemente dos Recursos de SVG (Gráficos de vetor), os bitmaps são sempre armazenados externamente, mesmo quando criados como um novo recurso ou importados. Para novos Pacotes de Substance, eles são mantidos na memória, até que o arquivo .SBS seja salvo no disco. Depois de salvos em disco, os bitmaps são armazenados em uma pasta */resources* próxima ao arquivo SBS.
 
 ### Em ativos do Substance 3D (SBSAR)
 
@@ -46,7 +46,7 @@ Em [arquivos SBSAR](../../compositing-graphs/publishing-asset-files/publishing-s
 
 O Substance 3D Designer pode editar e reorganizar facilmente os dados de bitmaps, mas é melhor lembrar o seguinte:
 
-* Defina suas resoluções para serem compatíveis com a potência 2, o que significa seguir o tamanho da textura em tempo real padrão, como <b>256, 512, 1024, 2048,</b> etc. O Designer redimensionará as texturas fora desse intervalo para a resolução correspondente mais próxima. Observe que elas não precisam estar em proporções quadradas.
+* Defina suas resoluções para serem compatíveis com 2, o que significa seguir o tamanho de textura em tempo real padrão, como <b>256, 512, 1024, 2048,</b> etc. O Designer redimensionará texturas fora desse intervalo para a resolução correspondente mais próxima. Observe que elas não precisam estar em proporções quadradas.
 * Há suporte para muitos tipos de arquivo, mas escolha um que seja melhor para o seu caso de uso. <b>A compactação sem perdas ou até mesmo os tipos de arquivos descompactados</b>, como PNG ou TGA, oferecem melhor qualidade do que JPG ou DDS.
 * <b>configure o modo de cores corretamente</b>, dependendo se você precisa de cor, tons de cinza ou um canal alfa.
 

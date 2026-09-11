@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Use o Localizador de nós para pesquisar e localizar rapidamente nós em seus gráficos de Substance para uma navegação eficiente.
 helpx_creative_field: ""
@@ -45,7 +45,7 @@ Na barra de ferramentas Exibição de Gráfico, clique no <b>botão Localizador 
 
 * Nó de instância: abrir referência no contexto (Ctrl+E / Cmd+E) (*Observação:* a edição de gráfico no contexto precisa estar habilitada em Editar > Preferências > Gráfico)
 * Processador de pixels: função Editar (Ctrl+E / Cmd+E)
-* Processador de valores: função Editar (Ctrl+E / Cmd+E)
+* Processador de valor: função Editar (Ctrl+E / Cmd+E)
 * FX-Map: Editar gráfico FX-Map (Ctrl+E / Cmd+E)
 * Parâmetros de nó: função Edit
 
@@ -269,7 +269,7 @@ uid=1234567890
 +++Pesquisando um UID de nó a partir de um aviso/erro de Console
 Quando um gráfico apresentar erros ou avisos gerados por um nó, acesse Windows > Console para exibir a mensagem completa de erro/aviso que incluirá a <b>UID</b> do nó. Em seguida, você pode copiar e colar esse UID no campo de consulta Localizador de nós para localizar rapidamente o nó que está causando o problema.
 
-Os UIDs de nó também podem ser copiados diretamente dos dados XML no arquivo SBS usando qualquer editor de texto.
+Os UIDs de nós também podem ser copiados diretamente dos dados XML no arquivo SBS usando qualquer editor de texto.
 
 ![Localizador de nós: pesquisando a UID do nó no Console](../../../assets/node-finder-console-uid.png "Localizador de nós: pesquisando a UID do nó no Console"){zoomable="yes"}
 
@@ -326,7 +326,7 @@ Um nó de instância faz referência a um gráfico em que vários nós correspon
 
 
 
-Ativar a opção &#39;Pesquisa recursiva&#39; realça o nó da instância que faz referência a um gráfico no qual um nó do Processador de pixels usa uma variável correspondente à consulta.
+Ativar a opção &#39;Pesquisa recursiva&#39; realça o nó da instância que faz referência a um gráfico em que um nó de Processador de pixels usa uma variável correspondente à consulta.
 
 +++
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/scripting/nodes-and-properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/nodes-and-properties.html"
 breadcrumb-title: ''
 description: Saiba como criar e manipular nós e propriedades em plug-ins Substance 3D Designer Python.
 helpx_creative_field: ""

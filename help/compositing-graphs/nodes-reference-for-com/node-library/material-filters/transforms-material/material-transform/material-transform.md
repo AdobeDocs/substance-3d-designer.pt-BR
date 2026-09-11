@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/transforms-material/material-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/transforms-material/material-transform.html"
 breadcrumb-title: ''
-description: Use o nó Transformação de material para aplicar transformações às saídas de material, incluindo rotação, escala e deslocamento.
+description: Use o nó Transformo de materiais para aplicar transformações às saídas de material, incluindo rotação, escala e deslocamento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Transforms (Material) > Material Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Transformação de material
+title: Transformo de materiais
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# Transformação de material
+# Transformo de materiais
 
 <table>
 <tr style="border: 0;">
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## Descrição
 
-A transformação de material é simplesmente a versão de materiais “multicanal” do [nó 2D de transformação atômica](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md). Ele transforma todos os canais de um material de entrada ao mesmo tempo, com a mesma interface que o Transform 2D.
+O Transformo de materiais é simplesmente a versão de Materiais “Multicanal” do [Transformação 2D atômico](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md). Ele transforma todos os canais de um material de entrada ao mesmo tempo, com a mesma interface do Transformo 2D.
 
 Apenas certifique-se de configurar os canais corretamente! Por padrão, as opções Metálico/Aspereza e Specular/Textura reluzente estão ativadas, o que pode levar a alguma confusão.
 

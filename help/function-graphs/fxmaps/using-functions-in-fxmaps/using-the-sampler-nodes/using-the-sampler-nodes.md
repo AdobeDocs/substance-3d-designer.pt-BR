@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes.html"
 breadcrumb-title: ''
 description: Saiba como usar nós de amostra no FXMaps para obter texturas de amostra e criar variações de material processuais.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
 breadcrumb-title: ''
 description: Use o nó Pintura de Desgaste vazada para gerar padrões de vazamento de tinta para criar efeitos de superfície envelhecidos e envelhecidos.
 helpx_creative_field: ""
@@ -52,8 +52,8 @@ O nó **Pintura de Desgaste Vazado** gera um mapa de desgaste semelhante ao gote
 | <b>Avançado</b> |  |
 | <b>Intensidade de Vazamento</b> <i>Flutuante</i> | Ajusta a densidade e a intensidade dos pingos. |
 | <b>Escala de vazamento</b> <i>Inteiro</i> | Ajusta a escala da separação de gotas. |
-| <b>Ângulo de Vazamento Aleatório</b> <i>Flutuante</i> | Ajusta o *ângulo máximo* de gotas que podem ser girados aleatoriamente, em *número de voltas*. |
-| <b>Vazamento de crocância</b> <i>Flutuante</i> | Ajusta a nitidez e a nitidez dos pingos. |
+| <b>Ângulo de Vazamento Aleatório</b> <i>Precisão decimal</i> | Ajusta o *ângulo máximo* de gotas que podem ser girados aleatoriamente, em *número de voltas*. |
+| <b>Vazamento de crocância</b> <i>Precisão decimal</i> | Ajusta a nitidez e a nitidez dos pingos. |
 
 ## Exemplos
 

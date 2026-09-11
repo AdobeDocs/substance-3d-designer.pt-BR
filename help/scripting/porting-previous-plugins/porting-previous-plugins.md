@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/scripting/porting-previous-plugins.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/porting-previous-plugins.html"
 breadcrumb-title: ''
 description: Saiba como migrar plug-ins de versões anteriores do Substance Designer para a API Python atual.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ Para obter mais informações, consulte a seção [Noções básicas sobre plug-
 ## Criando elementos da interface do usuário
 
 Os plug-ins *não precisam mais* definir um &#39;*sdplugins.PluginDesc*&#39;.\
-Em vez disso, os plug-ins podem usar o <b>novo objeto [&#128279;](../scripting-api-reference/scripting-api-reference.md#ui-manager-sduimgr)Gerenciador de interface</b> e o <b>Qt para Python</b> para criar os elementos de interface de usuário de que precisam.
+Em vez disso, os plug-ins podem usar o <b>novo objeto ](../scripting-api-reference/scripting-api-reference.md#ui-manager-sduimgr)Gerenciador de interface[</b> e o <b>Qt para Python</b> para criar os elementos de interface de usuário de que precisam.
 
 Você pode encontrar pequenas amostras de código na seção [Criando elementos da interface do usuário](../../scripting/creating-user-interface/creating-user-interface-elements.md).
 

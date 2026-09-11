@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Saiba como a herança funciona em gráficos de composição de Substance para criar variações e hierarquias de gráficos reutilizáveis.
 helpx_creative_field: ""
@@ -98,7 +98,7 @@ Este botão permite-lhe selecionar o método de herança que deverá ser usado p
 
 ![Alterando método de herança](inheritance-in-substance-compositing-graphs.resources/inheritance-change.gif "Alterando método de herança"){width="512px"}
 
-Na maioria dos casos, os parâmetros Base de um *nó* são definidos como *Relativo à entrada*, para aproveitar o comportamento processual de encadear nós juntos, enquanto os parâmetros Base de um *gráfico* são definidos como *Relativo ao pai*, para que os parâmetros globais possam se adaptar ao contexto em que o gráfico é usado.
+Na maioria dos casos, os parâmetros Base de um *nó* são definidos como *Relativo à entrada*, para aproveitar o comportamento de procedimento de encadeamento de nós, enquanto os parâmetros Base de um *gráfico* são definidos como *Relativo ao pai*, para que os parâmetros globais possam se adaptar ao contexto em que o gráfico é usado.
 
 ### AJUSTES DE VALORES HERDADOS
 
@@ -134,7 +134,7 @@ O pai de um gráfico é o *contexto* em que ele existe:
 
 ### EDIÇÃO DO CONTEXTO INTERNO
 
-Ao usar a [edição no contexto](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) em um nó de instância de gráfico, o pai do gráfico é o *nó de instância*. Nesse caso, a configuração <b>Tamanho Pai</b> na barra de ferramentas da exibição de gráfico [&#x200B; está *desabilitada*, pois o gráfico herda os parâmetros base do nó da instância.](../../interface/the-graph-view/the-graph-view.md)
+Ao usar a [edição no contexto](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) em um nó de instância de gráfico, o pai do gráfico é o *nó de instância*. Nesse caso, a configuração <b>Tamanho Pai</b> na barra de ferramentas da exibição de gráfico [ está *desabilitada*, pois o gráfico herda os parâmetros base do nó da instância.](../../interface/the-graph-view/the-graph-view.md)
 
 Esta característica é o *ponto* da edição do contexto e deve ser *fatorada* ao definir o método de herança e avaliar os valores atuais dos parâmetros Base de qualquer nó.
 

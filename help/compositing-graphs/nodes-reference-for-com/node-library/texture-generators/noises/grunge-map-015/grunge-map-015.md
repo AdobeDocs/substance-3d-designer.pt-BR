@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-015.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-015.html"
 breadcrumb-title: ''
-description: Use o nó Mapa do Desgaste 015 para gerar texturas de desgaste de procedimento para adicionar detalhes da superfície e efeitos de desgaste aos materiais.
+description: Use o nó Mapa do Desgaste 015 para gerar texturas de desgaste processuais para adicionar detalhes da superfície e efeitos de desgaste aos materiais.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 015
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Descrição
 
-Isso gera um Noisemap complexo e combinado. Pode ser muito útil como um procedimento detalhado, mas tenha em mente que eles exigem muito desempenho e, portanto, são mais lentos de gerar.
+Isso gera um Noisemap complexo e combinado. Pode ser muito útil como um processual detalhado, mas tenha em mente que eles exigem muito desempenho e, portanto, são mais lentos de gerar.
 
 </td>
 </tr>

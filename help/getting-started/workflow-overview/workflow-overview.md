@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: Conheça o fluxo de trabalho essencial para criar materiais de procedimento no Substance 3D Designer do início ao fim.
 helpx_creative_field: ""
@@ -88,7 +88,7 @@ Abaixo você pode encontrar alguns exemplos típicos de casos de uso comuns.
 
 
 
-Uma forma de máscara simples para um decalque é criada gerando[um pedaço de texto](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) e uma [forma de disco](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extraindo a borda](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) do disco e finalmente [mesclando-os](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) antes de defini-los como saída final [9&rbrace;.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+Uma forma de máscara simples para um decalque é criada gerando[um pedaço de texto](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) e uma [forma de disco](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extraindo a borda](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) do disco e finalmente [mesclando-os](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) antes de defini-los como saída final [9}.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 
 O Texto com o número, ou o thickness da aresta, pode ser exposto externamente para tornar este um gráfico mais dinâmico.
 
@@ -157,7 +157,7 @@ Esta função também pode ser escrita como *lerp(0.1, 0.8, Intensity)* em um ps
 
 Esta função avançada mostra o funcionamento interno de um [Processador de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) destinado ao ajuste do matiz de uma entrada do mapa de cores com base na intensidade de uma segunda entrada de máscara em tons de cinza.
 
-Ele faz a amostragem de ambas as entradas com a variável “$pos” do sistema, retira o Alpha, converte o valor da cor em HSL e modifica o componente Matiz, multiplicando-o pelo valor da amostra de tons de cinza. Depois, ele remonta o vetor, converte o HSL de volta em RGB e adiciona o Alpha de volta para a saída final.
+Ele faz a amostragem de ambas as entradas com a variável “$pos” do sistema, retira o Alpha, converte o valor da cor em HSL e modifica o componente Matiz, multiplicando-o pelo valor da amostra de tons de cinza. Depois, ele remonta o vetor, converte o HSL de volta para RGB e adiciona o Alpha de volta para a saída final.
 
 em pseudo-código esta seria uma função muito mais complicada que não caberia em uma única linha.
 

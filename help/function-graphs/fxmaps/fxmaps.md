@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/fxmaps.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps.html"
 breadcrumb-title: ''
-description: Saiba como usar FXMaps no Substance 3D Designer para aplicar gráficos de função a texturas para geração de padrões de procedimento.
+description: Saiba como usar FXMaps no Substance 3D Designer para aplicar gráficos de função ao textura e gerar padrões processuais.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # FXMaps
 
-**O nó FX-Map permite a criação de imagens de procedimento**. É um dos recursos mais poderosos da tecnologia Substance.
+**O nó FX-Map permite criar imagens processuais**. É um dos recursos mais poderosos da tecnologia Substance.
 
 Um FX-Map representa um tipo especial de gráfico, conhecido como Cadeia de Markov. Cadeias de Markov representam um processo básico simples: repetidamente replicando e subdividindo uma imagem repetidamente. Em cada etapa, uma imagem pode ser girada, traduzida e mesclada à vontade. Os resultados podem variar de padrões simples a ruídos complexos. Os FX-Maps são a base para muitos dos Substance de exemplo instalados com o Substance 3D Designer.
 
@@ -65,7 +65,7 @@ Os FX-Maps são compatíveis com variáveis de sistema. Essas variáveis sempre 
 | $time | - | float1 | Essa variável retorna o tempo em segundos desde que o mecanismo de renderização de Substance foi iniciado.É ideal para Substance que precisam ser animados de acordo com o tempo. (E.g. os ponteiros de um relógio.)Em alguns aplicativos, incluindo o Substance Player, um Substance que usa $time fará com que uma linha do tempo apareça na interface do usuário. |
 | $profundidade | - | float1 | Retorna o número de oitava (nível) do nó FX-Map. Isso permite que um nó modifique seu comportamento de acordo com o nível na árvore quádrupla que representa. |
 | $depthpow2 | - | float1 | Como acima, mas retorna 2 elevado à potência do número de oitava (nível). Esse é um valor auxiliar que é útil para alguns cálculos comuns. |
-| $number | Iterar somente nós | float1 | Retorna o número do padrão desenhado. Isso pode ser acessado pelos gráficos de Função dinâmica que controlam um nó Iterar para modificar seu comportamento em cada etapa de iteração. (Observe que $number começa a contar de 0, não de 1.) |
+| $number | Iterar somente nós | float1 | Retorna o número do padrão desenhado. Isso pode ser acessado pelos gráficos de Função dinâmica que controlam um nó Iterar para modificar seu comportamento em cada etapa da iteração. (Observe que $number começa a contar de 0, não de 1.) |
 | $size | - | float2 | Retorna o tamanho do nó atual (em pixels). |
 | $sizelog2 | - | float2 | Como acima, mas retorna o tamanho como valores power-of-2 (por exemplo: para a imagem 2048\*2048, $sizelog2 retorna 11). |
 | $pos | Somente nós do quadrante | float2 | Retorna a posição de nascimento do padrão. O resultado é sempre um valor entre 0 e 1. |

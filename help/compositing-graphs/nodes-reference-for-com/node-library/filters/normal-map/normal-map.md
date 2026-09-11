@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map.html"
 breadcrumb-title: ''
 description: Acesse nós de filtro de mapa normal no Substance 3D Designer para processar e manipular texturas de mapa normais.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 Esta categoria contém somente nós para processamento e trabalho com Mapas Normais. Eles são uma obrigação absoluta quando você deseja que o processamento Normalmap seja matematicamente correto, para evitar quaisquer problemas de espaço Tangent.
 
-Use a <b>lista de navegação à esquerda</b> para procurar todos os nós em Mapa Normal.
+Use a <b>lista de navegação à esquerda</b> para procurar todos os nós em Mapa normal.
 
 Alguns nós muito úteis nesta categoria são:
 

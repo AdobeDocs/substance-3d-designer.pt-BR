@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/vector-and-swizzle-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/vector-and-swizzle-nodes.html"
 breadcrumb-title: ''
 description: Use nós vetoriais e de oscilação em gráficos de funções do Substance 3D Designer para manipular dados e componentes vetoriais.
 helpx_creative_field: ""
@@ -81,11 +81,11 @@ O exemplo à esquerda troca as entradas em torno do primeiro exemplo, primeiro I
 Os nós Swizzle desconstroem ou dividem componentes de vetores de vários componentes, permitindo que você utilize os componentes X, Y, Z e W individualmente, bem como trocá-los. As seguintes regras e limitações se aplicam:
 
 * Os nós do assistente têm **somente uma saída**.
-* Os Nós de Suspensão **obtêm qualquer entrada** do tipo correto (Int ou Precisão decimal).
+* Os Nós de Suspensão **obtêm qualquer entrada** do tipo correto (Int ou Float).
 
 ### Dividir componentes
 
-O caso de uso mais comum para Swizzle é usá-lo para dividir componentes, como frenar um Integer4 em 4 inteiros individuais. As limitações significam que você precisará de quatro nós de Swizzle Integer separados para isso.
+O caso de uso mais comum para Swizzle é usá-lo para dividir componentes, como frenar um Integer4 em 4 inteiros individuais. As limitações significam que você precisará de quatro nós inteiros Swizzle separados para isso.
 
 Qualquer outro tipo de divisão também é possível para um Inteiro4, como dois Inteiros2, ou um Inteiro e um Inteiro3, novamente tendo em mente que cada resultado precisa de seu próprio nó.
 
@@ -98,9 +98,9 @@ Como o nome sugere, o Crivo pode ser usado para alterar a ordem dos valores ou a
 
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../assets/fn-vector-swizzleint1.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../assets/fn-vector-swizzleint2.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="../../../../assets/fn-vector-swizzleint3.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c3_image" src="../../../../assets/fn-vector-swizzleint4.png"/></div> |
 | --- | --- | --- | --- |
-| **Swizzle Integer** | **Suspiro** **Inteiro2** | **Suspiro** **Inteiro3** | **Suspiro** **Inteiro4** |
+| **Inteiro do Assistente** | **Suspiro** **Inteiro2** | **Suspiro** **Inteiro3** | **Suspiro** **Inteiro4** |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image" src="../../../../assets/fn-vector-swizzlefloat1.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image" src="../../../../assets/fn-vector-swizzlefloat2.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image" src="../../../../assets/fn-vector-swizzlefloat3.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c3_image" src="../../../../assets/fn-vector-swizzlefloat4.png"/></div> |
-| **Panorama** **Precisão decimal** | **Panorama** **Precisão decimal 2** | **Panorama** **Precisão decimal 3** | **Panorama** **Precisão decimal 4** |
+| **Suspiro** **Flutuante** | **Panorama** **Flutuante2** | **Panorama** **Flutuante3** | **Panorama** **Flutuante4** |
 
 </td>
 </tr>

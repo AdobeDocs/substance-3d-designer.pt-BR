@@ -41,4 +41,4 @@ Uma Função SDF para um plano terrestre infinito, com height ajustável.
 |  |  |
 | :--- | :--- |
 | <b>Height</b> *Flutuante* | O height Z-up no plano.<br><br><i>Padrão: 0</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>P</b> *Flutuante3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

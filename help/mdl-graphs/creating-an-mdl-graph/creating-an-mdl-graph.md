@@ -46,7 +46,7 @@ Independentemente do método usado para criar um novo gráfico MDL, você sempre
 
 ### Modelos
 
-A seção <b> Modelos</b> permite selecionar um modelo de gráfico, que inclui nós pré-configurados para que você comece a usar o gráfico mais rapidamente. Os nós pré-configurados incluem nós de saída, nós simples para passar valores para essas saídas - por exemplo, cor uniforme e nós de entrada, dependendo do modelo.
+A seção <b> Modelos</b> permite selecionar um modelo de gráfico, que inclui nós pré-configurados para que você comece a usar o gráfico mais rapidamente. Os nós pré-configurados incluem nós de saída, nós simples para passar valores para essas saídas - por exemplo, nós de Cor uniforme e de entrada, dependendo do modelo.
 
 Para começar com um gráfico totalmente *em branco*, selecione o modelo <b>Vazio</b>.
 
@@ -60,7 +60,7 @@ A opção <b>Projeto</b> permite filtrar a lista de modelos por arquivo de proje
 A lista de modelos pode ser exibida em modos diferentes usando os *botões* ao lado da caixa de combinação **Projeto**:
 
 * **![](../../assets/mdl-template-recent-icon.png)Exibição usada recentemente**: filtra a lista para exibir os últimos modelos usados na ordem de *mais recentes para menos recentes*, sendo o item superior o mais recente
-* **![](../../assets/mdl-template-graphs-icon.png)Gráficos de exibição**: os modelos são exibidos somente pelo *rótulo*, na ordem dos arquivos do [Substance 3D](https://www.adobe.com/br/products/substance3d/3d-augmented-reality.html) no diretório de modelos
+* **![](../../assets/mdl-template-graphs-icon.png)Gráficos de exibição**: os modelos são exibidos somente pelo *rótulo*, na ordem dos arquivos do [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) no diretório de modelos
 * **![](../../assets/mdl-template-packages-icon.png)Exibir arquivos do Substance 3D**: os modelos são exibidos por seu rótulo como *filhos do arquivo do Substance 3D ao qual pertencem*, na ordem dos arquivos no diretório de modelos
 * **![](../../assets/mdl-template-directory-icon.png)Diretórios de exibição**: os modelos são exibidos por seu rótulo como *filhos do diretório ao qual pertencem*, na ordem dos arquivos no diretório de modelos
 

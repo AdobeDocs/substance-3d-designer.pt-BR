@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
-description: Use o nó Difusão de reação rápida para gerar padrões orgânicos usando algoritmos de difusão de reação rápida para texturas de procedimento.
+description: Use o nó Difusão de reação rápida para gerar padrões orgânicos usando algoritmos de difusão de reação rápida para texturas processuais.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Reaction Diffusion Fast
 helpx_experience_level: ""
@@ -65,8 +65,8 @@ Esse nó é otimizado para desempenho e faz algumas compensações de precisão 
 
 |  |  |
 |:---|:---|
-| <b>Raio</b> *Flutuante* | Até onde o efeito deve se espalhar. |
-| <b>Contraste</b> *Flutuante* | Ajusta o contraste da entrada, serve como um tipo de limite. |
+| <b>Raio</b> *Precisão decimal* | Até onde o efeito deve se espalhar. |
+| <b>Contraste</b> *Precisão decimal* | Ajusta o contraste da entrada, serve como um tipo de limite. |
 
 ## Exemplos
 

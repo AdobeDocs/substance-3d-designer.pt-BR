@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
 breadcrumb-title: ''
 description: Use o nó Misturador de dados de malha de material para mesclar dados de malha de material para criar transições suaves entre diferentes zonas de material.
 helpx_creative_field: ""
@@ -33,9 +33,9 @@ ht-degree: 8%
 
 ## Descrição
 
-O objetivo desse nó é facilitar bastante a adição de detalhes com base em dados armazenados. Ele vem com vários controles deslizantes para modificar um material de entrada completo, com base em todos e quaisquer mapas baked como entrada. Experimente, pois há muitas opções.
+Esse nó tem como objetivo facilitar bastante a adição de detalhes com base em dados feitos bake. Ele vem com vários controles deslizantes para modificar um material de entrada completo, com base em todos e quaisquer mapas baked como entrada. Experimente, pois há muitas opções.
 
-É útil para fazer coisas como adicionar realce de borda com base em curvatura ou outros mapas, mesclar em algum AO com a cor difusa/básica, adicionar Oclusão de Specular com base em curvatura e/ou AO etc.
+É útil para fazer coisas como adicionar realce de borda com base em curvatura ou outros mapas, mesclar em algum AO com Difusão/Basecolor, adicionar Oclusão de Specular com base em curvatura e/ou AO etc.
 
 </td>
 </tr>
@@ -64,16 +64,16 @@ O objetivo desse nó é facilitar bastante a adição de detalhes com base em da
 | <b>Canais</b> | Ative e desative os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza. Afeta a disponibilidade dos parâmetros abaixo. |
 | <b>Mapas baked</b> | Se os mapas baked listados devem ou não ser usados para cálculos. Afeta a disponibilidade dos parâmetros abaixo. |
 | <b>Difusão AO</b> <i>0.0 - 1.0</i> | Quantidade de Oclusão de ambiente para se misturar à Difusão. |
-| <b>Bordas cortantes de Difusão</b> <i>0.0 - 1.0</i> | Quantidade do mapa de curvatura para mesclar no Difuso. |
-| <b>Cor Da Difusão Da Cor Do Vértice</b> <i>0.0 - 1.0</i> | Quantidade de cozimento da Cor do vértice para mesclar no Difuso. |
+| <b>Bordas cortantes de Difusão</b> <i>0.0 - 1.0</i> | Quantidade do mapa de curvatura para se misturar com a Difusão. |
+| <b>Cor Da Difusão Da Cor Do Vértice</b> <i>0.0 - 1.0</i> | Quantidade do faço bake de cores de vértice para mesclar na Difusão. |
 | <b>Pré-Iluminação de Difusão</b> <i>0.0 - 1.0</i> | Quantidade de pré-iluminação (falsa), com base nos World Space Normals. |
-| <b>Equilíbrio de iluminação do desenho animado de Difusões</b> <i>0.0 - 1.0</i> | Alterna entre iluminação realista e animada para Difusa. |
+| <b>Equilíbrio de iluminação do desenho animado de Difusões</b> <i>0.0 - 1.0</i> | Muda entre iluminação realista e caricatura para a Difusão. |
 | <b>Desenho Animado de Difusões Pré-Camadas de Iluminação</b> <i>0 - 10</i> | Controla a aparência dos cálculos de iluminação animada. |
 | <b>Contornos de Desenho Animado de Difusão</b> <i>0.0 - 1.0</i> | Controla a aparência dos cálculos de iluminação animada. |
-| <b>Cor de base AO</b> <i>0.0 - 1.0</i> | Quantidade de Oclusão ambiente para mesclar na cor de base. |
+| <b>Cor de base AO</b> <i>0.0 - 1.0</i> | Quantidade de Oclusão de ambiente para mesclar na cor de base. |
 | <b>Cor de base bordas cortantes</b> <i>0.0 - 1.0</i> | Quantidade do mapa de curvatura para mesclar com a cor de base. |
-| <b>Cor de base da Cor do Vértice</b> <i>0.0 - 1.0</i> | Quantidade de cozimento da Cor de vértice para mesclar na Cor de base. |
-| <b>Intensidade normal do material</b> <i>0.0 - 1.0</i> | Intensidade de mistura do Mapa normal (tangente) assado. |
+| <b>Cor de base da Cor do Vértice</b> <i>0.0 - 1.0</i> | Quantidade do faço bake de cores de vértice para mesclar na cor de base. |
+| <b>Intensidade normal do material</b> <i>0.0 - 1.0</i> | Intensidade de mesclagem do Normalmap feito bake (tangente). |
 | <b>SpecularAO</b> <i>0.0 - 1.0</i> | Intensidade de mistura do AO no Specular. |
 | <b>Bordas cortantes brilhantes do Specular</b> <i>0.0 - 1.0</i> | A intensidade de mistura da Curvatura no Specular. |
 | <b>Contornos do Desenho Animado de Specular</b> <i>0.0 - 1.0</i> | Força de mistura de um efeito de contorno de borda de Specular de desenho animado, com base na Curvatura. |
@@ -82,9 +82,9 @@ O objetivo desse nó é facilitar bastante a adição de detalhes com base em da
 | <b>Contornos de Desenho Animado de Aspereza</b> <i>0.0 - 1.0</i> | Força de mistura de um efeito de contorno de borda de aspereza de desenho animado, com base na Curvatura. |
 | <b>Bordas cortantes e brilhantes metálicas</b> <i>0.0 - 1.0</i> | A intensidade de mistura da Curvatura no Metálico. |
 | <b>Contornos de desenhos animados metálicos</b> <i>0.0 - 1.0</i> | Força de mistura de um efeito de contorno de borda metálico de desenho animado, com base na Curvatura. |
-| <b>Intensidade de material do AO</b> <i>0.0 - 1.0</i> | Misture a força do AO mapa baked com o AO gerado por material, que grau combinar ambos os mapas de AO em. |
-| <b>Intensidade de material do Height</b> <i>0.0 - 1.0</i> | Combine a força do Height de mapa baked com o Height gerado por material, em que grau combinar os dois mapas de altura. |
-| <b>Tipo de Mesclagem de Material de Height</b> <i>Reforçar, Interpolação</i> | modo Combinar para combinar ambos os Heightmaps. |
+| <b>Intensidade de material do AO</b> <i>0.0 - 1.0</i> | Combinar força do AO mapa baked com AO gerado por material, que grau combinar ambos os mapas de AO em. |
+| <b>Intensidade de material do Height</b> <i>0.0 - 1.0</i> | Combinar força do Height de mapa baked com Height gerado por material, que grau combinar ambos os mapas de altura. |
+| <b>Tipo de Mesclagem de Material de Height</b> <i>Reforçar, Interpolação</i> | Modo de mesclagem para combinar ambos os mapas de altura. |
 
 ## Exemplos
 

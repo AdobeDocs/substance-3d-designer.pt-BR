@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Saiba como usar a visualização de gráfico no Substance 3D Designer para criar e editar gráficos de material baseados em nós.
 helpx_creative_field: ""
@@ -205,9 +205,9 @@ Para selecionar *vários* nós, os vários métodos estão disponíveis:
 
 Ao clicar em RMB em um nó, um menu contextual aparece e pode incluir as seguintes opções:
 
-<b>Exibir saída em exibição 2D:</b> Exiba uma das saídas do nó na [exibição 2D](../../interface/2d-view/2d-view.md), consulte [Interagindo com a exibição 2D](#interacting-with-the-2d-view) abaixo;
+<b>Exibir saída em Visualização 2D:</b> Exiba uma das saídas do nó em [Visualização 2D](../../interface/2d-view/2d-view.md), consulte [Interagindo com o Visualização 2D](#interacting-with-the-2d-view) abaixo;
 
-<b>Exibir na exibição 3D</b>: atribua todas as saídas do nó a um material na [Exibição 3D](../../interface/3d-view/3d-view.md) correspondendo a usos, consulte [Interagindo com a exibição 3D](#interacting-with-the-3d-view) abaixo;
+<b>Exibir na exibição 3D</b>: atribua todas as saídas do nó a um material no [Visualização 3D](../../interface/3d-view/3d-view.md) correspondendo a usos, consulte [Interagindo com a exibição 3D](#interacting-with-the-3d-view) abaixo;
 
 <b>Redefinir e exibir no modo de exibição 3D:</b> redefinir um material no modo de exibição [3D](../../interface/3d-view/3d-view.md) e atribuir todas as saídas do nó a esse material correspondendo a usos, consulte [Interagindo com o modo de exibição 3D](#interacting-with-the-3d-view) abaixo;
 
@@ -215,7 +215,7 @@ Ao clicar em RMB em um nó, um menu contextual aparece e pode incluir as seguint
 
 <b>Adicionar comentário:</b> crie um objeto de gráfico [Comentário](../../interface/the-graph-view/graph-items/graph-items.md) e adicione-o a este nó;
 
-<b>Adicionar quadro:</b> crie um objeto de gráfico de [Quadro](../../interface/the-graph-view/graph-items/graph-items.md) e ajuste-o aos nós selecionados;
+<b>Adicionar quadro:</b> crie um objeto de gráfico [Quadro](../../interface/the-graph-view/graph-items/graph-items.md) e ajuste-o aos nós selecionados;
 
 <b>Copiar informações para a área de transferência:</b> copie o identificador exclusivo (UID) do nó para a área de transferência;
 
@@ -414,7 +414,7 @@ A barra de ferramentas do nó difere dependendo do tipo de gráfico:
 
 ![Barra de ferramentas de tamanho pai](../../assets/image2020-6-26-17-0-48.png "Barra de ferramentas de tamanho pai")
 
-Esta barra de ferramentas só está disponível em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) e define o [tamanho de saída](../../compositing-graphs/output-size/output-size.md) do *pai* do gráfico, o que afeta o tamanho de saída do gráfico se ele usar o *método de herança [&#x200B; Relativo ao pai*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+Esta barra de ferramentas só está disponível em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) e define o [tamanho de saída](../../compositing-graphs/output-size/output-size.md) do *pai* do gráfico, o que afeta o tamanho de saída do gráfico se ele usar o *método de herança [ Relativo ao pai*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
 Os tamanhos horizontal e vertical são vinculados por padrão, mas podem ser *desvinculados* para texturas não quadradas. Os valores também podem ser redefinidos para o valor padrão de 256 x 256.
 

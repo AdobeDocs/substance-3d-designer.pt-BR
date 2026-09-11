@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/dependency-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/dependency-manager.html"
 breadcrumb-title: ''
 description: Use o Gerenciador de Dependências no Substance 3D Designer para exibir e gerenciar as dependências de recursos em seus projetos.
 helpx_creative_field: ""

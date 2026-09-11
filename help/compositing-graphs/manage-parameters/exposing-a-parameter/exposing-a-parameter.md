@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Saiba como expor parâmetros em gráficos de composição do Substance 3D Designer para tornar materiais personalizáveis e reutilizáveis.
 helpx_creative_field: ""
@@ -54,7 +54,7 @@ Os parâmetros podem vir em muitas formas diferentes: controles deslizantes, mos
 +++
 
 +++Tenho que saber matemática para expor? Devo entender os gráficos de função de Substance?
-***O conhecimento matemático não é necessário para fazer bom uso dos Parâmetros de Exposição, nem para o uso de funções.***  Como usuário inicial, você pode evitar quase que completamente a necessidade de operações matemáticas em [Gráficos de função](../../../function-graphs/function-graphs.md). A única coisa altamente recomendada é um [conhecimento básico adequado dos diferentes tipos de dados, como Inteiro, Flutuante e Booleano.](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
+***O conhecimento matemático não é necessário para fazer bom uso dos Parâmetros de Exposição, nem para o uso de funções.***  Como usuário inicial, você pode evitar quase que completamente a necessidade de operações matemáticas em [Gráficos de função](../../../function-graphs/function-graphs.md). A única coisa altamente recomendada é um [conhecimento básico adequado dos diferentes tipos de dados, como Inteiro, Precisão decimal e Booleano.](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
 
 +++
 

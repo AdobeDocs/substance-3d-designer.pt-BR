@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
 breadcrumb-title: ''
 description: Acesse todos os nós de ferramentas de caminho para criar, manipular e converter caminhos em seus gráficos de Substance.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Confira este tutorial para começar:
 
 ## Lista de nós
 
-[Transformação 2D de caminhos](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)
+[Transformo 2D de Caminhos](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)
 
 [Mascarar caminhos](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)
 
@@ -46,7 +46,7 @@ Confira este tutorial para começar:
 
 [Distorção de caminhos](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)
 
-[Transformação quádrupla no caminho](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)
+[Transformo Quad no Caminho](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)
 
 [Seleção de demarcadores](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-select/paths-select.md)
 

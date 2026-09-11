@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/summed-area-table.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/summed-area-table.html"
 breadcrumb-title: ''
 description: Use o nó Tabela de área somada para criar tabelas de área somada para filtragem de caixa eficiente e operações de desfoque.
 helpx_creative_field: ""

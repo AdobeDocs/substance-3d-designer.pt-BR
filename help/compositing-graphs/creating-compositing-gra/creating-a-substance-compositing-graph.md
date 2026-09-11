@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: Saiba como criar gráficos de composição de Substance no Substance 3D Designer para criar fluxos de trabalho de textura de procedimentos.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ A criação de texturas no Designer começa com a criação de um gráfico de Su
 
 Para iniciar o processo de criação de um novo gráfico de [Substance](../../compositing-graphs/substance-compositing-graphs.md), você pode usar um destes métodos:
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Para iniciar o processo de criação de um novo gráfico de [Substance](../../co
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ Para iniciar o processo de criação de um novo gráfico de [Substance](../../co
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -76,7 +76,7 @@ Para iniciar o processo de criação de um novo gráfico de [Substance](../../co
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">

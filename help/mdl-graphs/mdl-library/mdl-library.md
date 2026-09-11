@@ -71,6 +71,6 @@ Abra o menu <b>Materiais</b> e abra um *submenu de material da cena* para procur
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
 * [Gráficos MDL](../../mdl-graphs/mdl-graphs.md) carregados
 
-![Materiais MDL em materiais Visualização 3D](../../assets/mdl-apply-in-3dview-material-list.png "MDL em Visualização 3D")
+![Materiais MDL na Visualização 3D](../../assets/mdl-apply-in-3dview-material-list.png "Materiais MDL na Visualização 3D")
 
-*Materiais MDL no Visualização 3D*
+*Materiais MDL na Visualização 3D*

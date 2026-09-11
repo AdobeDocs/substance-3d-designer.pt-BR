@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
 description: Acesse nós de função nos gráficos de função do Substance 3D Designer para chamar e executar gráficos de função personalizados.
 helpx_creative_field: ""

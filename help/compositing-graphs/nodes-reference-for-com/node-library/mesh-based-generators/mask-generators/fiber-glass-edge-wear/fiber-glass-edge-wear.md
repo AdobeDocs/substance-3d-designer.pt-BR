@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
 breadcrumb-title: ''
 description: Use o nó Edge Wear de fibra de vidro para gerar máscaras de desgaste nas bordas de fibra de vidro com base na curvatura da malha.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## Descrição
 
-Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) do [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras Inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) do [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
 Representa uma máscara especificamente destinada a um tipo de desgaste de fibra de vidro, que talvez pudesse ser usada para tecidos. Devido à natureza muito ladrilhada e repetitiva das fibras, a mesclagem triplanar pode ser ativada opcionalmente.
 

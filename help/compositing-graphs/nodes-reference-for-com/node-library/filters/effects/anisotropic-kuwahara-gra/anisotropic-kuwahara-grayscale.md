@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara-grayscale.html"
 breadcrumb-title: ''
 description: Use o filtro Tons de Cinza Anisotrópico Kuwahara para criar efeitos de pintura estilizados com suavização direcional.
 helpx_creative_field: ""
@@ -94,13 +94,13 @@ Esquerda: Anisotropia 0.0 / Direita: Anisotropia 1.0
 |  |  |
 |:---|:---|
 | <b>Raio</b> *Flutuante* | O raio de desfoque, em que um valor mais alto resulta em um efeito de desfoque mais intenso.   O valor máximo é 32. |
-| <b>Smoothness</b> *Flutuante* | Ajusta a quantidade de mesclagem de cores na direção calculada.   Quando esse valor é 0, as cores são deslocadas principalmente nessa direção e ocorre pouca mesclagem. |
-| <b>Nitidez</b> *Flutuante* | Aumenta o contraste nas áreas desfocadas, fazendo com que pareçam mais planas e definidas com mais clareza. |
-| <b>Anisotropia</b> *Flutuante* | Ajusta a contribuição do mapa de orientação no desfoque.   O mapa de orientação e todos os seus modificadores (tanto os parâmetros como os mapas de entrada) ainda têm efeito quando este valor de parâmetro é 0, já que o mapa de orientação é usado no kernel do filtro Kuwahara. |
+| <b>Smoothness</b> *Precisão decimal* | Ajusta a quantidade de mesclagem de cores na direção calculada.   Quando esse valor é 0, as cores são deslocadas principalmente nessa direção e ocorre pouca mesclagem. |
+| <b>Nitidez</b> *Precisão decimal* | Aumenta o contraste nas áreas desfocadas, fazendo com que pareçam mais planas e definidas com mais clareza. |
+| <b>Anisotropia</b> *Precisão decimal* | Ajusta a contribuição do mapa de orientação no desfoque.   O mapa de orientação e todos os seus modificadores (tanto os parâmetros como os mapas de entrada) ainda têm efeito quando este valor de parâmetro é 0, já que o mapa de orientação é usado no kernel do filtro Kuwahara. |
 | <b>Usar mapa de orientação de entrada</b> *Booleano* | Quando &#39;Verdadeiro&#39;, nenhum mapa de orientação é calculado a partir da imagem de entrada, e a imagem conectada à entrada &#39;Mapa de orientação&#39; é usada para orientar o desfoque anisotrópico. |
-| <b>smoothness de sensor</b> *Flutuante* *Disponível quando &#39;Usar mapa de orientação de entrada&#39; estiver definido como &#39;Falso&#39;* | Ajusta a intensidade do desfoque aplicada às direções computadas a partir da imagem e armazenadas na mapa de orientação.   Aumentar esse valor garante um resultado mais suave quando a imagem tem muitos detalhes de alta frequência. |
-| <b>Ângulo de Anisotropia</b> *Flutuante* *Disponível quando &#39;Usar mapa de orientação de entrada&#39; estiver definido como &#39;Falso&#39;* | Adiciona uma rotação ao mapa de orientação, em número de rotações.   Esta rotação adicional é *cumulativa* com a especificada pela entrada &#39;Mapa de Ângulo de Anisotropia&#39;. |
-| <b>Multiplicador de mapa de ângulo de Anisotropia</b> *Flutuante* *Disponível quando &#39;Usar mapa de orientação de entrada&#39; estiver definido como &#39;Falso&#39;* | Ajusta a intensidade dos valores na entrada “Mapa de ângulo de Anisotropia”, que são então adicionados sobre a rotação aplicada ao mapa de orientação, em número de voltas.   Esta rotação adicional é *cumulativa* com a especificada pelo parâmetro &#39;Ângulo de Anisotropia&#39;. |
+| <b>smoothness de sensor</b> *Precisão decimal* *Disponível quando &#39;Usar mapa de orientação de entrada&#39; estiver definido como &#39;Falso&#39;* | Ajusta a intensidade do desfoque aplicada às direções computadas a partir da imagem e armazenadas na mapa de orientação.   Aumentar esse valor garante um resultado mais suave quando a imagem tem muitos detalhes de alta frequência. |
+| <b>Ângulo de anisotropia</b> *Precisão decimal* *Disponível quando &#39;Usar mapa de orientação de entrada&#39; estiver definido como &#39;Falso&#39;* | Adiciona uma rotação ao mapa de orientação, em número de rotações.   Esta rotação adicional é *cumulativa* com a especificada pela entrada &#39;Mapa de Ângulos de anisotropia&#39;. |
+| <b>Multiplicador de mapa de Ângulos de anisotropia</b> *Precisão decimal* *Disponível quando &#39;Usar mapa de orientação de entrada&#39; estiver definido como &#39;Falso&#39;* | Ajusta a intensidade dos valores na entrada do “Mapa de Ângulo de anisotropia”, que são então adicionados sobre a rotação aplicada ao mapa de orientação, em número de voltas.   Esta rotação adicional é *cumulativa* com a especificada pelo parâmetro &#39;Ângulo de Anisotropia&#39;. |
 | <b>Multiplicador de entrada do mapa de Inclinação</b> *Flutuante* *Disponível quando &#39;Usar mapa de orientação de entrada&#39; estiver definido como &#39;Falso&#39;* | Ajusta a intensidade com que o mapa de orientação está de acordo com as inclinações fornecidas pela entrada &#39;Mapa de Inclinação&#39;. |
 
 ## Exemplos

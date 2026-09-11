@@ -40,6 +40,6 @@ Uma Função SDF para um plano infinito de orientação e posição ajustáveis.
 
 |  |  |
 | :--- | :--- |
-| <b>Normal</b> *Flutuante3* | O vetor normal do espaço do mundo do plano infinito, que controla sua orientação.<br>O vetor está normalizado.<br><br><i>Padrão: (0, 0, 1)</i> |
-| <b>Posição central</b> *Flutuante* | A posição do espaço global do pivô do plano, como uma distância da origem mundial ao longo do plano normal.<br><br><i>Padrão: 0</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>Normal</b> *Precisão decimal 3* | O vetor normal do espaço do mundo do plano infinito, que controla sua orientação.<br>O vetor está normalizado.<br><br><i>Padrão: (0, 0, 1)</i> |
+| <b>Posição central</b> *Precisão decimal* | A posição do espaço global do pivô do plano, como uma distância da origem mundial ao longo do plano normal.<br><br><i>Padrão: 0</i> |
+| <b>P</b> *Precisão decimal 3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
 breadcrumb-title: ''
 description: Use o nó Ferrugem de Desgaste Fina para gerar padrões de ferrugem fina para adicionar efeitos de corrosão e intemperismo aos metais.
 helpx_creative_field: ""
@@ -45,13 +45,13 @@ O nó **Ferrugem de Desgaste Fina** gera um mapa de desgaste semelhante a uma so
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
-| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
+| <b>Saldo</b> <i>Precisão decimal</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Precisão decimal</i> | Ajusta o contraste da imagem. |
 | <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
 | <b>Avançado</b> |  |
-| <b>Contraste de Desgaste base</b> <i>Flutuante</i> | Ajusta o contraste da textura de desgaste usada como base para a ferrugem. |
-| <b>Intensidade de distorção base</b> <i>Flutuante</i> | Ajusta a intensidade do efeito de distorção aplicado no mapa de desgaste usado como base para a ferrugem. |
+| <b>Contraste de Desgaste base</b> <i>Precisão decimal</i> | Ajusta o contraste da textura de desgaste usada como base para a ferrugem. |
+| <b>Intensidade de distorção base</b> <i>Precisão decimal</i> | Ajusta a intensidade do efeito de distorção aplicado no mapa de desgaste usado como base para a ferrugem. |
 | <b>Intensidade das listras</b> <i>Precisão decimal</i> | Ajusta a intensidade das listras e pontos mais brilhantes sobrepostos na textura base do desgaste. |
 | <b>Intensidade de ruído</b> <i>Precisão decimal</i> | Ajusta a intensidade do ruído aplicado na textura base do desgaste. |
 | <b>Intensidade de nitidez</b> <i>Precisão decimal</i> | Ajusta a intensidade do efeito de nitidez global. |

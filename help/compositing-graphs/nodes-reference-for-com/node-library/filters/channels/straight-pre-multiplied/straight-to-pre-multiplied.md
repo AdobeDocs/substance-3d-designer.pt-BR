@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/straight-to-pre-multiplied.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/straight-to-pre-multiplied.html"
 breadcrumb-title: ''
 description: Use o nó Reto para pré-multiplicado para converter canais alfa do formato reto para o pré-multiplicado para composição.
 helpx_creative_field: ""

@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/height-map-frequencies-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/height-map-frequencies-mapper.html"
 breadcrumb-title: ''
-description: Use o nó Mapeador de frequências do mapa de Heights para mapear frequências do mapa de heights para separar os níveis de detalhes nas texturas.
+description: Use o nó Mapeador de frequências do mapa de altura para mapear frequências do mapa de altura para separar os níveis de detalhes no textura.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Height Map Frequencies Mapper
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Mapeador de Frequências do Mapa de heights
+title: Mapeador de frequências do mapa de altura
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
@@ -18,7 +18,7 @@ ht-degree: 8%
 ---
 
 
-# Mapeador de Frequências do Mapa de heights
+# Mapeador de frequências do mapa de altura
 
 <table>
 <tr style="border: 0;">

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
 breadcrumb-title: ''
 description: Use o nó Avançado de Conversão em escala cinza para converter cores em tons de cinza com controle avançado sobre os métodos de conversão.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Conversão de tons de cinza avançada
+title: Conversão em escala cinza avançada
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 49bf753c2fa3d673b519b3ed87cc8bc82616bee6
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# Conversão de tons de cinza avançada
+# Conversão em escala cinza avançada
 
 <table>
 <tr style="border: 0;">

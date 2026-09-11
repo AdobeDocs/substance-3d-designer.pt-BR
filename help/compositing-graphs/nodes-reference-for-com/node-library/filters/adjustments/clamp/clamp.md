@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
 breadcrumb-title: ''
 description: Use o nó Restringir para fixar os valores de textura dentro dos intervalos mínimo e máximo especificados para controlar os limites de valores.
 helpx_creative_field: ""

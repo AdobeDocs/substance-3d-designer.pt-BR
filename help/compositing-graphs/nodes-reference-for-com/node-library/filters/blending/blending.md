@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending.html"
 breadcrumb-title: ''
 description: Acesse nós de filtros de mesclagem no Substance 3D Designer para combinar texturas usando vários modos e operações de mesclagem.
 helpx_creative_field: ""
@@ -20,11 +20,11 @@ ht-degree: 6%
 
 # Mesclagem
 
-Esta categoria é uma extensão do [nó de mesclagem atômica.](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) Ele contém modos de mesclagem expandidos e mais complexos que não estão no nó padrão.
+Esta categoria é uma extensão do [nó de Combinar atômico.](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) Ele contém modos de Combinar expandidos e mais complexos que não estão no nó padrão.
 
 Use a <b>lista de navegação à esquerda</b> para procurar todos os nós em Mesclagem.
 
-Alguns nós de mesclagem interessantes:
+Alguns nós de Combinar interessantes:
 
 * [Diferença](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/difference/difference.md)
 * [Alterar](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)

@@ -40,6 +40,6 @@ Retorna os volumes adicionados de duas formas SDF, com suavização ajustável d
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Flutuante* | A primeira forma SDF. |
-| <b>SDF 2</b> *Flutuante* | A segunda forma SDF. |
-| <b>Smoothness</b> *Flutuante* | O raio de suavização, começando pelas bordas da interseção.<br><br><i>Padrão: 0</i><br><br><i>Observação:</i> bordas sólidas podem aparecer onde os raios de suavização se cruzam. |
+| <b>SDF 1</b> *Precisão decimal* | A primeira forma SDF. |
+| <b>SDF 2</b> *Precisão decimal* | A segunda forma SDF. |
+| <b>Smoothness</b> *Precisão decimal* | O raio de suavização, começando pelas bordas da interseção.<br><br><i>Padrão: 0</i><br><br><i>Observação:</i> bordas sólidas podem aparecer onde os raios de suavização se cruzam. |

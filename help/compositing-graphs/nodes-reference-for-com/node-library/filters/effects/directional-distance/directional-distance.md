@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
 breadcrumb-title: ''
 description: Use o nó Distância direcional para calcular campos de distância em direções específicas para efeitos de procedimento.
 helpx_creative_field: ""
@@ -73,11 +73,11 @@ A distância do gradiente pode ser ajustada dinamicamente ao longo da borda usan
 |  |  |
 |:---|:---|
 | <b>Modo de saída</b> *Inteiro* | O método de desenhar o gradiente de distância das bordas da máscara:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Distância Normalizada Invertida:</b> um gradiente de 1 a 0, em que 0 é atingido na &#39;Distância Máxima&#39;, multiplicado pelo &#39;Mapa de distância&#39;, se conectado</li> <li data-preserve-html="true"><b>Distância:</b> um gradiente de valores de distância brutos da borda da máscara, onde 1 é o comprimento do lado mais curto da imagem de entrada</li> </ul> |
-| <b>Distância máxima</b> *Flutuante* | A distância percorrida pelo gradiente de distância, no espaço normalizado da imagem, em que 1 é o comprimento do lado mais curto da imagem de entrada. |
-| <b>Ângulo</b> *Flutuante* | A direção do gradiente de distância em número de voltas, onde 0 é horizontal e à direita - ou seja, um vetor (1,0). |
-| <b>Multiplicador de Mapa de distância</b> *Flutuante* | Ajusta o impacto do &#39;Mapa de distância&#39; sobre a &#39;Distância máxima&#39;.   Observação: este parâmetro não tem efeito quando a entrada &#39;Mapa de distância&#39; não está conectada. |
-| <b>Multiplicador de mapa de ângulo</b> *Flutuante* | Ajusta o impacto do “Mapa de ângulo” sobre o “Ângulo”. |
-| <b>Deslocamento do mapa de ângulos</b> *Flutuante* | Mapeia novamente os valores no “Mapa de ângulo” especificando qual valor nesse mapa deve ser 0.   Por exemplo, um deslocamento de 0,5 significa que um valor de 0,75 é 0,25 voltas, e um valor de 0,3 é -0,2 voltas. |
+| <b>Distância máxima</b> *Precisão decimal* | A distância percorrida pelo gradiente de distância, no espaço normalizado da imagem, em que 1 é o comprimento do lado mais curto da imagem de entrada. |
+| <b>Ângulo</b> *Precisão decimal* | A direção do gradiente de distância em número de voltas, onde 0 é horizontal e à direita - ou seja, um vetor (1,0). |
+| <b>Multiplicador de Mapa de distância</b> *Precisão decimal* | Ajusta o impacto do &#39;Mapa de distância&#39; sobre a &#39;Distância máxima&#39;.   Observação: este parâmetro não tem efeito quando a entrada &#39;Mapa de distância&#39; não está conectada. |
+| <b>Multiplicador de mapa de ângulo</b> *Precisão decimal* | Ajusta o impacto do “Mapa de ângulo” sobre o “Ângulo”. |
+| <b>Deslocamento do mapa de ângulos</b> *Precisão decimal* | Mapeia novamente os valores no “Mapa de ângulo” especificando qual valor nesse mapa deve ser 0.   Por exemplo, um deslocamento de 0,5 significa que um valor de 0,75 é 0,25 voltas, e um valor de 0,3 é -0,2 voltas. |
 
 ## Exemplos
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling.html"
 breadcrumb-title: ''
-description: Acesse os nós de filtro de divisão em blocos gráficos no Substance 3D Designer para criar padrões de textura lado a lado perfeitos.
+description: Acesse os nós de filtro de divisão em blocos gráficos no Substance 3D Designer para criar padrões de textura em blocos gráficos perfeitos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Revestimento
 
-A categoria de divisão em blocos gráficos contém nós usados para melhorar a divisão em blocos gráficos de texturas. Lembre-se de que há outros nós disponíveis para isso no [Processamento de Digitalização](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md).
+A categoria de divisão em blocos gráficos contém nós usados para melhorar a divisão em blocos gráficos do textura. Lembre-se de que há outros nós disponíveis para isso no [Processamento de materiais escaneados](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md).
 
 Use a lista de navegação à esquerda para procurar todos os nós em <b>Lado a lado</b>.
 

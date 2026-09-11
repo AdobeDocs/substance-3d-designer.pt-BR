@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaks.html"
 breadcrumb-title: ''
 description: Use o nó Vazamentos de Desgaste para gerar padrões de vazamento para criar manchas de água e efeitos de intemperismo nas superfícies.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
 breadcrumb-title: ''
 description: Use o nó Transformo Quad para aplicar transformações quadrilaterais ao textura para correção e distorção de Perspectiva.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Transformação quádrupla
+title: Transformo Quad
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# Transformação quádrupla
+# Transformo Quad
 
 <table>
 <tr style="border: 0;">

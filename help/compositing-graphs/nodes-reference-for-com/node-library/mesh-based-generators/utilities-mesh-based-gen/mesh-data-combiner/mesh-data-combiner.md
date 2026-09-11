@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
 breadcrumb-title: ''
 description: Use o nó Combinador de dados de malha para combinar várias entradas de dados de malha para a geração avançada de textura baseada em malha.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
 breadcrumb-title: ''
 description: Use o nó Desfoque não uniforme para aplicar desfoque com intensidades diferentes nas direções X e Y para efeitos anisotrópicos.
 helpx_creative_field: ""

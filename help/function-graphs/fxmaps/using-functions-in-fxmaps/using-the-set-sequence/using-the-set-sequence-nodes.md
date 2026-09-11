@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
-description: Saiba como usar nós SetSequence em FXMaps para criar padrões sequenciais e variações de procedimentos.
+description: Saiba como usar nós SetSequence em FXMaps para criar padrões sequenciais e variações processuais.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > Using Functions in FXMaps > Using the SetSequence nodes
 helpx_experience_level: ""
@@ -105,7 +105,7 @@ A saída da *segunda ramificação* é passada para a saída do nó.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Neste exemplo, o nó <b>Sequência</b> é definido como a saída do gráfico. A saída da função é, portanto, a saída do valor <b>0.5</b> pelo nó <b>Float</b>.
+Neste exemplo, o nó <b>Sequência</b> é definido como a saída do gráfico. A saída da função é, portanto, a saída do valor <b>0.5</b> pelo nó <b>Precisão decimal</b>.
 
 No entanto, antes que isso aconteça, a variável `<b>myVariable</b>` é definida com um valor de flutuação de <b>1.0</b>. Esta variável pode ser usada *em outro local* no contexto do nó.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/scripting/using-spot-colors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-spot-colors.html"
 breadcrumb-title: ''
 description: Saiba como usar cores especiais em scripts Substance 3D Designer Python para fluxos de trabalho de cores especializados.
 helpx_creative_field: ""
@@ -24,11 +24,11 @@ A classe </b>SDSpotColorLibrary<b>, acessível da classe <b>SDApplication</b>, c
 
 Com essa classe, é possível listar livros de cores e cores especiais e encontrar cores especiais específicas ou a cor especial mais próxima de uma determinada cor de RGB.
 
-Cores especiais *não estão disponíveis* no Designer ao usar o <b>OpenColorIO</b>. Nesse caso, app.getSpotColorLibrary() retornará <b>None</b>.
+As cores especiais *não estão disponíveis* no Designer ao usar o <b>OpenColorIO</b>. Nesse caso, app.getSpotColorLibrary() retornará <b>None</b>.
 
 >[!IMPORTANT]
 >
-> Cores especiais *não estão disponíveis* no Designer ao usar o <b>OpenColorIO</b>. Nesse caso, app.getSpotColorLibrary() retornará <b>None</b>.
+> As cores especiais *não estão disponíveis* no Designer ao usar o <b>OpenColorIO</b>. Nesse caso, app.getSpotColorLibrary() retornará <b>None</b>.
 
 ```
 import sd 

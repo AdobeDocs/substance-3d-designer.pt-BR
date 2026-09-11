@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
 breadcrumb-title: ''
 description: Use o nó Combinação normal para combinar vários mapas normais para detalhes e detalhes da superfície da camada.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## Descrição
 
-A Combinação normal combina os detalhes de duas mapas normais de uma maneira matemática correta.
+Combinação normal combina os detalhes de dois mapas normais de uma maneira matemática correta.
 
 É semelhante ao método conhecido de “Sobreposição” de outros softwares de edição de imagens em 2D, mas funciona de forma ligeiramente diferente internamente (três opções).
 
@@ -41,9 +41,9 @@ A Combinação normal combina os detalhes de duas mapas normais de uma maneira m
 </tr>
 </table>
 
-Esta é a melhor e mais correta maneira de adicionar detalhes do mapa normal gerados por 2D a um mapa baked.
+Esta é a melhor e mais correta maneira de adicionar detalhes de mapa normal gerados em 2D a um mapa baked.
 
-Se você quiser mesclar dois mapas normais sem combinar seus detalhes (usando uma máscara, por exemplo), use o [Combinar Normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md).
+Se você quiser mesclar dois mapas normais sem combinar seus detalhes (usando uma máscara, por exemplo), use a [Mesclagem normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md).
 
 <a name="inputs"></a>
 

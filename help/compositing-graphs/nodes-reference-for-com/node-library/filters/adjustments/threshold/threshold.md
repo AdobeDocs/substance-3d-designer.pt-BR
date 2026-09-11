@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/threshold.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/threshold.html"
 breadcrumb-title: ''
-description: Use o nó Limite para converter texturas em tons de cinza em preto e branco com base em um valor limite para criar máscaras.
+description: Use o nó Limite para converter texturas em tons de cinza em preto e branco com base em um valor de limite para criar máscaras.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Threshold
 helpx_experience_level: ""

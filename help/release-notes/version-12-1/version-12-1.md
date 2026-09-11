@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-12-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-1.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 12.1 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -79,13 +79,13 @@ Dê uma olhada nas páginas de nó vinculadas abaixo para obter exemplos da ampl
 
   e
 
-  formatos de arquivo, agora é possível importar e exportar arquivos do USD (
+  formatos de arquivo, agora é possível importar e exportar arquivos USD (
 
   ,
 
   ,
 
-  ) para usá-los como recursos de seus gráficos de modelo de Substance, para cozimento ou na visualização 3D para mostrar seu material de Substance. Você também pode usar esse formato para exportar o gráfico de modelo de Substance ou o conteúdo da visualização 3D.
+  ) para usá-los como recursos de seus gráficos de modelo do Substance, para fazer bake ou na visualização 3D para mostrar seu material Substance. Você também pode usar esse formato para exportar o gráfico de modelo do Substance ou o conteúdo da visualização 3D.
 * <b>Enviar para o Stager\
   </b>Agora você pode enviar o material do Substance para o Stager com um clique, pois isso já era possível com o Sampler e o Painter. Graças a esse recurso, não é mais necessário publicar como SBSAR e carregar arquivos individuais (requer o Stager versão 1.2.0 com o novo gerenciador de material)
 
@@ -97,7 +97,7 @@ Dê uma olhada nas páginas de nó vinculadas abaixo para obter exemplos da ampl
 
   ![](../../assets/fabric-rendering.png){width="640px"}
 
-* Também adicionamos alguns novos nós de gerenciamento de cena para gráficos de modelo de Substance. Esses nós permitem renomear, alterar a hierarquia, fundir ou expandir os elementos da cena para organizar a hierarquia de cenas. Há também um novo nó para definir a tabela dinâmica de um ou mais elementos de uma cena.
+* Também adicionamos alguns novos nós de gerenciamento de cena para gráficos de modelo do Substance. Esses nós permitem renomear, alterar a hierarquia, fundir ou expandir os elementos da cena para organizar a hierarquia de cenas. Há também um novo nó para definir a tabela dinâmica de um ou mais elementos de uma cena.
 
 * Ao trabalhar em projetos no Designer, você pode encontrar avisos e mensagens de erro, que o notificam de um problema no projeto. Nesta versão, <b>melhoramos o sistema de gerenciamento de erros</b> para mostrar todos os erros e avisos no Explorer: tudo está listado em um só lugar e, portanto, é mais fácil verificar se o projeto contém problemas.
 
@@ -113,7 +113,7 @@ Dê uma olhada nas páginas de nó vinculadas abaixo para obter exemplos da ampl
 
 * [Principal] Novo conteúdo para gráficos de material
 * [Principal] Enviar materiais para o Stager
-* [Principal] Suporte a arquivos do USD
+* [Principal] Suporte a arquivos USD
 * [Principal] Melhore o relatório de erros na interface do usuário
 * [Principal] Nós de gerenciamento de cena para gráficos de modelo
 * [Conteúdo] Adicionar mais opções a Ruídos Perlin 3D (lado a lado, absoluto...)
@@ -134,7 +134,7 @@ Dê uma olhada nas páginas de nó vinculadas abaixo para obter exemplos da ampl
 * [Content] Nova versão do nó Quantizar escala de cinza
 * [Conteúdo] Novos ruídos fractais de Voronoi e Voronoi (2D/3D)
 * [Conteúdo] Limite: adicionar o modo de comparação “Inferior” e “Inferior e igual”
-* [Conteúdo]&#x200B;[Exibição 3D] Adicionar um ajuste de malha para exibir tecidos aos recursos enviados
+* [Conteúdo][Exibição 3D] Adicionar um ajuste de malha para exibir tecidos aos recursos enviados
 * [modelos Substance] Novo nó Expandir instâncias de grupo
 * [modelos de Substance] Novo nó de Fuse
 * [Substance models] Novo nó Renomear
@@ -176,8 +176,8 @@ Dê uma olhada nas páginas de nó vinculadas abaixo para obter exemplos da ampl
 * [Content] Flood Fill: Sangria de texto nos botões de parâmetros booleanos
 * [Content] Intervalo incorreto do parâmetro Ângulo de luz de primeira amostra do nó Multiângulo para Normal
 * [modelos Substance] Propriedades do nó mostra o identificador em vez do rótulo
-* [Modelos Substance]&#x200B;[visualização 3D] Problema de atualização ao reabrir um projeto
-* [Modelos Substance]&#x200B;[3Dview] Problema de atualização ao usar a visualização de wireframe
+* [Modelos Substance][visualização 3D] Problema de atualização ao reabrir um projeto
+* [Modelos Substance][3Dview] Problema de atualização ao usar a visualização de wireframe
 * [Parâmetros] Falha ao excluir entradas de gráfico em sucessão rápida em um caso específico
 * [Parameters] Falha ao redefinir um parâmetro de instância ao editar sua descrição de referência
 * [Bitmap] A detecção de UDIM não é acionada para arquivos de bitmap descartados no gráfico

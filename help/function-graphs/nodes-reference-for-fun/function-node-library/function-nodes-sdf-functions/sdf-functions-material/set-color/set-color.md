@@ -1,6 +1,6 @@
 ---
 title: Definir cor
-description: Defina a cor base do material de uma cena SDF.
+description: Defina a cor de base do material de uma cena SDF.
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '89'
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## Descrição
 
-Defina a cor base do material de uma cena SDF.
+Defina a cor de base do material de uma cena SDF.
 
 Esta cor pode ser recuperada para todas as formas de SDF espalhadas na saída da *cor do SDF* do [respingo de forma v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md).
 
@@ -41,7 +41,7 @@ Esta cor pode ser recuperada para todas as formas de SDF espalhadas na saída da
 |                            |                                  |
 |----------------------------|----------------------------------|
 | <b>Cena SDF</b> *Flutuante* | A cena do SDF de entrada. |
-| <b>Cor base</b> *Flutuante3* | O valor da cor base do RGB a ser definido. |
+| <b>Cor base</b> *Flutuante3* | O valor de cor de base de RGB a ser definido. |
 
 
 

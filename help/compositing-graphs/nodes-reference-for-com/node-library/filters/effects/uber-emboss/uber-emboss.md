@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/uber-emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/uber-emboss.html"
 breadcrumb-title: ''
-description: Use o nó Relevo Uber para criar efeitos avançados de relevo com controles personalizáveis de profundidade, ângulo e iluminação.
+description: Use o nó Entalhe Uber para criar efeitos avançados de entalhe com controles personalizáveis de profundidade, ângulo e iluminação.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Uber Emboss
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Relevo Uber
+title: Entalhe Uber
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
@@ -18,7 +18,7 @@ ht-degree: 9%
 ---
 
 
-# Relevo Uber
+# Entalhe Uber
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 9%
 
 ## Descrição
 
-Versão avançada, repleta de recursos do [Relevo](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md). Executa um elaborado efeito de iluminação falso em 2D com base em um mapa de altura.
+Versão avançada, repleta de recursos do [Entalhe](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md). Executa um elaborado efeito de iluminação falso em 2D com base em um mapa de altura.
 
-Útil ao criar iluminação feita bake para determinados estilos de texturização quando muito controle é necessário.
+Útil ao criar iluminação preparada para determinados estilos de texturização quando muito controle é necessário.
 
 </td>
 </tr>

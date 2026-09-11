@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
 breadcrumb-title: ''
 description: Use o nó Hald CLUT para aplicar tabelas de pesquisa de cores usando o formato Hald CLUT para correção e correção de cores.
 helpx_creative_field: ""

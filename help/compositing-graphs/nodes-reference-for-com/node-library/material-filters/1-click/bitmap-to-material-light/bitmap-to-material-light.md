@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
 breadcrumb-title: ''
 description: Use o nó Bitmap para luz de material para converter rapidamente imagens bitmap em materiais com iluminação otimizada para workflows rápidos.
 helpx_creative_field: ""
@@ -83,5 +83,5 @@ Embora não haja garantia de resultar em materiais perfeitos e corretos para PBR
 | <b>Oclusão de ambiente Em Difusões</b> <i>0.0 - 1.0</i> | Combinar no AO gerado na saída do Difusão. |
 | <b>Propagação de Oclusão de ambiente</b> <i>0.0 - 1.0</i> | Define o quanto o AO gerado se espalha. |
 | <b>Distância da Luz de Oclusão de ambiente</b> <i>0.0 - 1.0</i> | Define a interpretação de “profundidade” do AO. Tem menos influência quando há uma grande propagação. |
-| <b>Ângulo de Luz de Oclusão de ambiente</b> <i>0.0 - 1.0</i> | Define o ângulo de projeção do AO de iluminação falsa. Pode ser usado para compensar qualquer AO direcional que já esteja na Difusão, se definido para um ângulo oposto. |
+| <b>Ângulo de Luz de Oclusão de ambiente</b> <i>0.0 - 1.0</i> | Define o ângulo de projeção do AO de iluminação falsa. Pode ser usado para compensar qualquer AO direcional que já esteja no Difuso, se definido para um ângulo oposto. |
 | <b>Níveis de Oclusão de ambiente</b> <i>0.0 - 1.0</i> | Modifica os níveis de saída do AO. |

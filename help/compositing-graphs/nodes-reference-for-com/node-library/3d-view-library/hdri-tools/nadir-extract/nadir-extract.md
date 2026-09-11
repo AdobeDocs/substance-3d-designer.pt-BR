@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-extract.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-extract.html"
 breadcrumb-title: ''
 description: Use o nó Nadir extract para extrair a região inferior de panoramas HDRI para processar áreas inferiores de mapas de ambiente.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 15.1 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -50,7 +50,7 @@ Cada gráfico é <b>anotado</b>, cuidadosamente organizado e contém um número 
 
 Você pode acessar as amostras na categoria “Amostras de materiais” ao criar um novo gráfico de Substance ou diretamente na tela inicial usando o conveniente botão “Ir para amostras”.
 
-Juntamente com esses materiais fundamentais, também fornecemos <b>amostras avançadas</b> para demonstrar como usar os recursos do <b>FX-map e do processador de pixels</b> de maneira mais eficaz.
+Juntamente com esses materiais fundamentais, também fornecemos <b>amostras avançadas</b> para demonstrar como usar os recursos <b>FX-map e Processador de pixels</b> de maneira mais eficaz.
 
 [Saiba mais](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
@@ -178,11 +178,11 @@ Por exemplo, detectar a ausência de uma variável permite fornecer um valor de 
 * [Content] White noise v2: usar formato de saída padrão, adicionar opções de distribuição
 * [Padeiros] Exibir os UVs somente da malha selecionada
 * [Padeiros] Adicione uma opção para selecionar o método de correspondência de geometria por nome
-* [Padeiros] Selecione o Padeiro mais próximo quando um padeiro é excluído
-* [Padarias] UDIM: defina uma lista de blocos UV para assar
-* [Bakers] Atualize o bake sdk para 3.15.4
-* [3D View/SceneBrowser] Evite selecionar um UsdPrimitive ao fazer um clique com o botão direito nele
-* [ColorManagement] Suporte para ACES 2.0
+* [Baker] Selecione o Baker mais próximo quando um baker for excluído
+* [Baker] UDIM: define uma lista de blocos UV para fazer bake
+* [Baker] Atualize o faço bake sdk para 3.15.4
+* [Visualização 3D/SceneBrowser] Evite selecionar um UsdPrimitive ao fazer um clique com o botão direito nele
+* [ColorManagement] Suporte para ACE 2.0
 * [Gráfico de composição] Permite definir um nó de saída como a “Saída padrão”
 * [Fogão] Remover aviso sobre entradas desconectadas de instâncias de função¬†
 * [Funções] Adicionar operador isDefined
@@ -191,24 +191,24 @@ Por exemplo, detectar a ausência de uma variável permite fornecer um valor de 
 
 ### Correções
 
-* [3D View] A textura da Escala de cinza L16 é exibida com uma tonalidade vermelha quando conectada ao ambiente ou à baseColor
-* [Exibição 3D] Alterar a vinculação de material de uma cena sem material cria um novo material “padrão”
-* [3D View] As normais computadas não são corretas para malhas OBJ específicas
-* [Exibição 3D] O ambiente personalizado de SBSSCN não é visível no carregamento no Pathtracer
+* [Visualização 3D] A textura L16 em tons de cinza é exibida com uma tonalidade vermelha quando conectada ao ambiente ou à baseColor
+* [Visualização 3D] Alterar a vinculação de material de uma cena sem material cria um novo material “padrão”
+* [Visualização 3D] As normais calculadas não são corretas para malhas OBJ específicas
+* [Visualização 3D] O ambiente personalizado de SBSSCN não é visível no carregamento no Pathtracer
 * [Visualização 3D] Erros no console ao girar um ambiente desativado
-* [Exibição 3D] O Specular level não foi aplicado corretamente
-* [Exibição 3D] O Specular edge color não funciona ao usar o rasterizador de Eclair
-* [Exibição 3D] O material adicionado do usuário não é aplicado em cenas padrão
-* [3D View]&#x200B;[Padarias] A cor do material fica muito escura depois de substituída ou ao usar um padeiro “Colorido”
-* [Exibição 3D]&#x200B;[Padeiros] Sem cor material do arquivo FBX
-* [Padeiros] As cores do material em arquivos FBX não são detectadas corretamente
-* [Bakers] A opção &#39;recompute\_tangents&#39; é sempre &#39;false&#39; nas exportações predefinidas JSON
-* [Bakers] CLI: Falha ao executar o mesmo panificador consecutivamente através do arquivo JSON
-* [Padeiros] A atualização do parâmetro &#39;color-generator&#39; não funciona para &#39;Grayscale&#39;
+* [Visualização 3D] Specular level não aplicado corretamente
+* [Visualização 3D] O Specular edge color não funciona ao usar o rasterizador de Eclair
+* [Visualização 3D] O material adicionado pelo usuário não é aplicado em cenas padrão
+* [Visualização 3D][Baker] A cor do material fica muito escura depois de substituída ou ao usar um baker “Cor”
+* [Visualização 3D][Baker] Nenhuma cor material do arquivo FBX
+* [Baker] As cores do material nos arquivos FBX não são detectadas corretamente
+* [Baker] A opção &#39;recompute\_tangents&#39; é sempre &#39;false&#39; nas exportações predefinidas JSON
+* [Baker] CLI: falha ao executar o mesmo baker consecutivamente por meio do arquivo JSON
+* [Baker] A atualização do parâmetro &#39;color-generator&#39; não funciona para &#39;Grayscale&#39;
 * [Conteúdo] Máscara para caminhos: falha em proporções não quadradas
 * [Content] Renderizador de Renderização PBR/ícone: função incorreta do lobo de specular
 * [Content] Caminhos para spline: defina o “Tamanho de saída” como “Em relação ao pai” por padrão
-* [Content] Lista de pontos: os pontos não estão na ordem correta quando a textura dos dados é não quadrada
+* [Content] Lista de pontos: os pontos não estão na ordem correta quando a textura de dados não é quadrada
 * [Content] Mapeador de spline: falha de linha de 1 px em casos aleatórios
 * [Content] Mapeador de spline: UVs esticados em alguns casos quando o thickness é 0
 * [Graph] Falha ao excluir a saída de um subgrafo de função
@@ -220,11 +220,11 @@ Por exemplo, detectar a ausência de uma variável permite fornecer um valor de 
 
 ### PROBLEMAS CONHECIDOS
 
-* [Bakers] Falha durante a cozedura com alguns drivers NVIDIA específicos
-* [Exibição 3D] OpenGL: algumas cenas importadas podem não ser renderizadas
-* [3D View] Pathtracer: desempenho lento ao atualizar texturas com mosaico/deslocamento ativado
-* [Exibição 3D] Algumas propriedades do material de cores não são gerenciadas corretamente quando substituídas
-* [Exibição 3D] As cenas com primitivas animadas não são suportadas corretamente
-* [Exibição 3D] Ainda não há suporte para malha com vários UDims
-* [Exibição 3D] Malha com vários UVs não é suportada no caso e pode resultar em renderização de material inválida
-* [Exibição 3D] Não há suporte para Pathtracer em placas gráficas AMD
+* [Baker] Falha durante a faz bake com alguns drivers NVIDIA específicos
+* [Visualização 3D] OpenGL: algumas cenas importadas podem não ser renderizadas
+* [Visualização 3D] Pathtracer: desempenho lento ao atualizar o textura com mosaico/deslocamento ativado
+* [Visualização 3D] Algumas propriedades do material de cor não são gerenciadas corretamente quando substituídas
+* [Visualização 3D] Cenas com primitivas animadas não são suportadas corretamente
+* [Visualização 3D] Ainda não há suporte para malhas com vários UDims
+* [Visualização 3D] Malha com vários UVs não é suportada no sim e pode resultar em renderização de material inválida
+* [Visualização 3D] Pathtracer não compatível com placas gráficas AMD

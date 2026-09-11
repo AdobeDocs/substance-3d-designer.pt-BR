@@ -113,7 +113,7 @@ A maioria dos conectores de entrada dos nós de Função SDF tem um valor padrã
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>O quadro delimitador é uma caixa no espaço 3D que define os <i>limites</i> nos quais a Função SDF é avaliada e desenhada no nó <a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">respingo de forma v2</a>.</p><p>Se o quadro delimitador for muito pequeno, partes da forma poderão ser cortadas. Se for muito grande, pode levar a cálculos desnecessários e tempos de processamento mais longos.</p><p>O parâmetro <b>quadro delimitador</b> permite habilitar a visualização do quadro delimitador. Você pode ajustar o tamanho do quadro delimitador alterando os valores do parâmetro <b>Tamanho do quadro delimitador</b>.</p><p>Use o parâmetro <b>Colorir fora do quadro</b> para visualizar as áreas fora do quadro delimitador em vermelho vivo para que você possa ajustar o quadro adequadamente.</p>
+            <p>O quadro delimitador é uma caixa no espaço 3D que define os <i>limites</i> em que a Função SDF é avaliada e desenhada no nó <a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">respingo de forma v2</a>.</p><p>Se o quadro delimitador for muito pequeno, partes da forma poderão ser cortadas. Se for muito grande, pode levar a cálculos desnecessários e tempos de processamento mais longos.</p><p>O parâmetro <b>Quadro delimitador</b> permite habilitar a visualização do quadro delimitador. Você pode ajustar o tamanho do quadro delimitador alterando os valores do parâmetro <b>Tamanho do quadro delimitador</b>.</p><p>Use o parâmetro <b>Colorir fora do quadro</b> para visualizar as áreas fora do quadro delimitador em vermelho vivo para que você possa ajustar o quadro adequadamente.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
             <img src="./working-with-sdf-functions.resources/working-with-sdf-bounding-frame.jpg" alt="Recurso de quadro delimitador do nó do visualizador 3D, para Função SDF." />
@@ -126,7 +126,7 @@ A maioria dos conectores de entrada dos nós de Função SDF tem um valor padrã
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>Como transformar formas envolve realmente *transformar o espaço* no qual são desenhadas, o resultado dos nós usados após algumas transformações pode ser surpreendente.<br>Nesses casos, é útil visualizar o próprio espaço, o que pode ser feito <i>visualizando o campo de distância</i> da forma.</p><p>Para isso, o nó do visualizador 3D usa <i>isolines</i>, que são linhas de contorno repetidas que representam uma determinada distância da superfície da forma. O parâmetro <b>Isolines do SDF</b> habilita essa visualização.<br>As isolinhas são desenhadas em um plano horizontal colocado no height especificado pelo parâmetro <b>Posição de isolinhas SDF</b>.</p><p>Ver como as isolinhas são deformadas pelas transformações aplicadas à forma pode ajudar a entender como a própria forma é transformada e ajustar os parâmetros dos nós de acordo.</p>
+            <p>Como a transformação de formas envolve realmente a *transformação do espaço* no qual são desenhadas, o resultado dos nós usados após algumas transformações pode ser surpreendente.<br>Nesses casos, é útil visualizar o próprio espaço, o que pode ser feito <i>visualizando o campo de distância</i> da forma.</p><p>Para isso, o nó do visualizador 3D usa <i>isolines</i>, que são linhas de contorno repetidas que representam uma determinada distância da superfície da forma. O parâmetro <b>Isolines do SDF</b> habilita essa visualização.<br>As isolinhas são desenhadas em um plano horizontal colocado no height especificado pelo parâmetro <b>Posição de isolinhas SDF</b>.</p><p>Ver como as isolinhas são deformadas pelas transformações aplicadas à forma pode ajudar a entender como a própria forma é transformada e ajustar os parâmetros dos nós de acordo.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
             <img src="./working-with-sdf-functions.resources/working-with-sdf-isolines.jpg" alt="Recurso de quadro delimitador do nó do visualizador 3D, para Função SDF." />
@@ -202,7 +202,7 @@ Estes nós permitem combinar e modificar formas criadas com primitivas. Eles inc
 
 ### Transformações
 
-As formas podem ser transformadas de várias maneiras, como [traduzidas](sdf-functions-transforms/3d-sdf-transform-offset/3d-sdf-transform-offset.md), [giradas](sdf-functions-transforms/3d-sdf-transform-rotate/3d-sdf-transform-rotate.md), [dimensionadas](sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md), [torcidas](sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md) e muito mais.
+As formas podem ser transformadas de várias maneiras, como sendo [traduzidas](sdf-functions-transforms/3d-sdf-transform-offset/3d-sdf-transform-offset.md), [giradas](sdf-functions-transforms/3d-sdf-transform-rotate/3d-sdf-transform-rotate.md), [dimensionadas](sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md), [torcidas](sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md) e muito mais.
 Esses nós permitem que você execute essas transformações *transformando o próprio espaço* no qual as superfícies são definidas.
 
 Esse espaço é chamado de `P`. Vá para a próxima seção para saber mais sobre o que isso significa e como a transformação do espaço funciona.
@@ -242,11 +242,11 @@ Saiba mais sobre os aplicativos destes nós [abaixo](#material-id).
 
 ## A entrada &#39;P&#39;
 
-Quando aplicamos uma transformação a uma forma, como um deslocamento ou uma rotação, nós realmente transformamos o espaço no qual a forma é definida.
+Quando aplicamos uma transformação a uma forma, como um deslocamento ou uma rotação, nós transformamos o espaço no qual a forma é definida.
 
 Se quisermos que uma transformação se propague para outras formas — por exemplo, se quisermos girar várias formas da mesma forma — precisamos ter certeza de que todas estão usando o mesmo espaço transformado.
 
-Um espaço transformado é compartilhado entre os nós usando a entrada `P` dedicada, que você pode encontrar na maioria dos nós SDF.\
+Um espaço transformado é compartilhado entre os nós usando a entrada `P` dedicada, que pode ser encontrada na maioria dos nós SDF.\
 O &#39;P&#39; significa espaço mundial **P** posição: um vetor 3D que representa as coordenadas de um ponto no espaço mundial.
 
 Os nós [Deslocamento P](sdf-functions-transforms/3d-sdf-transform-offset-p/3d-sdf-transform-offset-p.md) e [Girar P](sdf-functions-transforms/3d-sdf-transform-rotate-p/3d-sdf-transform-rotate-p.md) transformam o espaço e permitem propagar essa transformação para todos os nós que devem herdá-la.\
@@ -272,7 +272,7 @@ Em seguida, é possível colar a função copiada do nó do visualizador 3D ness
 Certifique-se de ajustar o parâmetro **Tamanho do quadro delimitador SDF** para corresponder ao [quadro delimitador](#the-bounding-frame) que você estava usando no nó do visualizador 3D e certifique-se de que a forma foi desenhada corretamente.
 
 ![trabalhando-com-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-*respingo de forma v2 com um **tipo de forma**&#x200B;definido como `SDF function`. Observe que o **tamanho do quadro delimitador do SDF**&#x200B;foi ajustado para se ajustar à forma.*
+*respingo de forma v2 com um **tipo de forma**definido como `SDF function`. Observe que o **tamanho do quadro delimitador do SDF**foi ajustado para se ajustar à forma.*
 
 >[!TIP]
 > 

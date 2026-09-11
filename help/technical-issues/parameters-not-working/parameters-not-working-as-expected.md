@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
 breadcrumb-title: ''
 description: Solucione problemas com parâmetros do gráfico de Substance que não funcionam como esperado e encontre soluções.
 helpx_creative_field: ""
@@ -41,7 +41,7 @@ Veja uma lista de parâmetros estáticos:
 | Todos os nós | Proporção de pixel no modo de divisão em blocos gráficos |
 | [Cor uniforme](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | Modo de cores |
 | [Processador de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | Modo de cores |
-| [Mesclar](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | Modo de mesclagem Alpha área de corte de mesclagem |
+| [Combinar](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | Modo de mistura Área de corte de mistura alfa |
 | [FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) | Modo de mesclagem |
 | [Quadrante](../../function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md) | Filtragem de imagem de entrada alfa da imagem de entrada de padrão |
 
@@ -53,4 +53,4 @@ Um gráfico de função Substance aplicado a um parâmetro de nó não gera o va
 
 <b>![(tick)](../../assets/check.svg) Etapas recomendadas</b>
 
-No momento, não há suporte adequado para inteiros negativos. Como solução alternativa, use o valor inteiro negativo em um valor [Inteiro2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) e extraia-o usando um nó [Inteiro do Swizzle](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md).
+No momento, não há suporte adequado para inteiros negativos. Como solução alternativa, use o valor inteiro negativo em um valor [Inteiro2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) e extraia-o usando um nó [Swizzle Integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md).

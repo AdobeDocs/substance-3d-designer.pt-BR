@@ -46,4 +46,4 @@ Uma Função SDF para um toro arremate, onde a varredura do círculo menor ao lo
 | <b>Deslocamento de ângulo</b> *Flutuante* | O deslocamento, ao longo do raio principal, do arco de aparagem ao longo do qual o círculo secundário não será varrido.<br><br><i>Padrão: 0</i> |
 | <b>Simétrico</b> *Booleano* | Controla se o arco de aparo deve ser desenhado em uma ou duas direções.<br><br><i>Padrão: Verdadeiro</i> |
 | <b>Posição central</b> *Flutuante3* | A posição do espaço global da tabela dinâmica do toro limitado.<br><br><i>Padrão: (0, 0, 0,5)</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>P</b> *Precisão decimal 3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

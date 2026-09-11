@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-4.html"
 breadcrumb-title: ''
 description: Use o nó da Soma fractal 4 para gerar ruído fractal com quatro oitavas para criar texturas orgânicas detalhadas.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ![Soma fractal 4 - Ícone](fractal-sum-4.resources/fractal_sum_4.png "Soma fractal 4 - Ícone"){width="200px"}
 
-<b>Entrada:</b> geradores de textura > Ruídos
+<b>Entrada:</b> geradores de Textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,8 +55,8 @@ Veja também: [Soma fractal base](../../../../../../compositing-graphs/nodes-ref
 
 |  |  |
 |:---|:---|
-| <b>Desordem</b> <i>Flutuante</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
-| <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
+| <b>Desordem</b> <i>Precisão decimal</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
+| <b>Velocidade do distúrbio</b> <i>Precisão decimal</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
 
 ## Exemplos

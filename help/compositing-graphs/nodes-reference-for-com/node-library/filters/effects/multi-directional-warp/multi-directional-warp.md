@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
 breadcrumb-title: ''
-description: Use o nó Deformação direcional múltipla para aplicar efeitos de deformação em várias direções para criar padrões de distorção complexos.
+description: Use o nó Distorção multidirecional para aplicar efeitos de distorção em várias direções para criar padrões de distorção complexos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Multi Directional Warp
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Várias Deformações direcionais
+title: Distorção multidirecional
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# Várias Deformações direcionais
+# Distorção multidirecional
 
 <table>
 <tr style="border: 0;">
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## Descrição
 
-Várias Deformações direcionais aplicam várias [Deformações direcionais](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) vezes em direções opostas enquanto a textura deslocada permanece no lugar. Difere da Deformação direcional padrão por poder empurrar em múltiplas direções, enquanto a versão atômica permite apenas uma. Dessa forma, ele resolve o problema clássico em que a Deformação direcional sempre parece afastar demais a imagem em uma única direção. Em vez disso, ela funciona ao longo de várias direções ou eixos em vez de uma única direção.
+A Distorção Multidirecional aplica a [Distorção Direcional](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) várias vezes em direções opostas, enquanto a textura deslocada permanece no lugar. Ele difere da Distorção direcional padrão na medida em que pode empurrar em várias direções, enquanto a versão atômica só permite uma. Dessa forma, ele resolve o problema clássico em que a Distorção direcional sempre parece afastar demais a imagem em uma única direção. Em vez disso, ele funciona ao longo de várias direções ou eixos em vez de uma única direção.
 
 Difere principalmente de [Non Uniform Directional Warp](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md) no sentido de que é um pouco mais limitado: a direção da distorção é controlada apenas através de parâmetros e não pode ser definida através de um mapa de entrada. A vantagem é que é um pouco mais fácil de usar e pode ser mais preciso, dependendo do seu caso de uso.
 

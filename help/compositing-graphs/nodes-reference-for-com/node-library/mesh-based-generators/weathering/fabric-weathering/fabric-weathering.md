@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/fabric-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/fabric-weathering.html"
 breadcrumb-title: ''
 description: Use o nó Envelhecimento de malha para adicionar efeitos de desgaste e envelhecimento aos materiais de malha com base na geometria e curvatura da malha.
 helpx_creative_field: ""

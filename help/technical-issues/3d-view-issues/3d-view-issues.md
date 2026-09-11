@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: Solucione problemas de Visualização 3D no Substance 3D Designer, incluindo problemas de renderização, exibição e desempenho.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Technical issues > 3D View issues
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Problemas de visualização 3D
+title: Visualização 3D
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Problemas de visualização 3D
+# Visualização 3D
 
 Esta página lista problemas técnicos relacionados à [exibição 3D](../../interface/3d-view/3d-view.md) no Substance 3D Designer e oferece etapas de solução de problemas para cada um.
 
@@ -101,7 +101,7 @@ Você pode continuar usando o renderizador OpenGL por padrão, usando a [nova op
 4. Defina a opção &#39;Renderizador padrão&#39; como &#39;OpenGL (deprecated)&#39;
 5. Clique em &#39;OK&#39; para validar as alterações
 
-Agora, toda nova visualização 3D usará o renderizador OpenGL por padrão, o que permitirá que você continue trabalhando como antes.
+Agora, todos os novos Visualização 3D usarão o renderizador OpenGL por padrão, o que permitirá que você continue trabalhando como antes.
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Depois de trabalhar nos dados enviados para a **saída [do** do Height](../../co
 
 **![(tick)](../../assets/check.svg) Etapas recomendadas**
 
-Verifique se os dados do height estão *convertidos em normais* que estão conectados à saída **Normal** [&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+Verifique se os dados do height estão *convertidos em normais* que estão conectados à saída **Normal** [](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
 Ao usar a técnica de **Deslocamento de mosaico** - consulte “objeto 3D plano” acima - os objetos podem *se deformar* para seguir os dados do height, mas sua superfície *não reagirá de forma diferente à luz* até que seus *normais* também sejam modificados para levar em conta os dados do height.
 

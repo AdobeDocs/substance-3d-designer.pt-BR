@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/luminosity-blend-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/luminosity-blend-node.html"
 breadcrumb-title: ''
 description: Use o nó de mesclagem Luminosidade para mesclar texturas com base em valores de luminosidade para criar efeitos compostos com base no brilho.
 helpx_creative_field: ""

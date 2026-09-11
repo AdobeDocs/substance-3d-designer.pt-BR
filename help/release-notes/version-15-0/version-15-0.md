@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
 description: Revise as notas de versão do Substance 3D Designer versão 15.0 para saber mais sobre o novo renderizador 3D e suporte nativo ao USD.
 helpx_creative_field: ""
@@ -55,9 +55,9 @@ Além disso, a tecla de atalho para girar a luz ambiente foi alterada para corre
 
 ## Edição de ativo em contexto
 
-Ao trabalhar em seus materiais, talvez você queira [visualizá-los no contexto de uma cena 3D específica](../../working-with-3d-scenes/working-with-3d-scenes.md). É por isso que adicionamos a possibilidade de importar e renderizar uma cena completa, com todas as suas texturas, câmeras e luzes. E cereja em cima, se esta cena faz referência a sombreadores MaterialX, eles serão renderizados corretamente com o rasterizador!
+Ao trabalhar em seus materiais, talvez você queira [visualizá-los no contexto de uma cena 3D específica](../../working-with-3d-scenes/working-with-3d-scenes.md). Foi por isso que adicionamos a possibilidade de importar e renderizar uma cena completa, com todas as suas texturas, câmeras e luzes. E cereja em cima, se esta cena faz referência a sombreadores MaterialX, eles serão renderizados corretamente com o rasterizador!
 
-Cena ![USD carregada e renderizada no Designer](../../assets/feature_2.png)
+![Cena do USD carregada e renderizada no Designer](../../assets/feature_2.png)
 
 Depois de importado, você pode trabalhar em sua cena selecionando uma malha (com um SHIFT + clique ou graças ao navegador de cena) e [substituindo qualquer um de seus materiais](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). Você pode então:
 
@@ -100,7 +100,7 @@ Se você precisar trabalhar com texturas não quadradas, essa nova opção é fe
 
 ## Baking
 
-Embora a interface de cozimento tenha visto apenas pequenas atualizações (consulte a lista detalhada abaixo para obter mais informações), a biblioteca de panificação foi totalmente reconstruída para usar panificadores baseados em GPU, resultando em um desempenho muito melhor. Juntamente com os novos formatos de arquivo compatíveis mencionados acima, esta atualização representa um avanço substancial para usuários envolvidos em fluxos de trabalho de culinária.
+Embora a interface de fça bake tenha recebido apenas pequenas atualizações (consulte a lista detalhada abaixo para obter mais informações), a biblioteca de baker foi totalmente reconstruída para usar baker baseados em GPU, resultando em um desempenho muito melhor. Juntamente com os novos formatos de arquivo compatíveis mencionados acima, esta atualização representa um avanço substancial para os usuários envolvidos no fça bake de fluxos de trabalho.
 
 Observação: se você estava usando sbsbaker.exe para automatizar o processo, a ferramenta foi renomeada para substance3d\_baker.exe (use substance3d-baker —help para obter mais informações).
 

@@ -45,4 +45,4 @@ Uma Função SDF para uma cápsula de comprimento e raio ajustáveis.<br>A cáps
 | <b>Raio</b> *Flutuante* | O raio das esferas inicial e final.<br><br><i>Padrão: 0,25</i> |
 | <b>Iniciar/terminar na ponta</b> *Booleano* | Controla se as posições <b>Início</b> e <b>Fim</b> devem estar nas extremidades das esferas.<br>Ou seja, controla se o height da cápsula deve incluir o raio das esferas.<br><br><i>Padrão: falso</i> |
 | <b>Posição central</b> *Flutuante3* | A posição do espaço global da tabela dinâmica da cápsula.<br><br><i>Padrão: (0, 0, 0)</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>P</b> *Flutuante3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

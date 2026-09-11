@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
 breadcrumb-title: ''
 description: Acesse nós constantes nos gráficos de função do Substance 3D Designer para definir valores e parâmetros constantes.
 helpx_creative_field: ""
@@ -113,24 +113,24 @@ O inteiro 4 não é comum e provavelmente não será encontrado muito.<b>\
 </tr>
 </table>
 
-## Flutuações
+## Precisão decimal
 
-Flutuações Constantes geram números fracionários, não números inteiros, o que significa que eles sempre terão valores após o sinal decimal, e podem aumentar ou diminuir em etapas menores que 1 (padrão 0,01).
+As Precisões decimais constantes geram números fracionários, não números inteiros, o que significa que sempre terão valores após o sinal decimal, e podem entrar- ou diminuir em etapas menores que 1 (padrão 0,01).
 
-[As flutuações podem ser convertidas em inteiros](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), mas serão arredondadas para cima ou para baixo até o inteiro mais próximo, significando que dados e precisão serão perdidos.
+[As Precisões decimais podem ser convertidas em inteiros](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), mas serão arredondadas para cima ou para baixo até o inteiro mais próximo, o que significa que os dados e a precisão serão perdidos.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo flutuante](../../../../assets/fn-constant-float.png "Ícone de tipo flutuante")
+![Ícone de tipo de Precisão decimal](../../../../assets/fn-constant-float.png "ícone de tipo de Precisão decimal")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Flutuante</b>
+<b>Precisão decimal</b>
 
-Um Float, tem um único componente, o (1) é omitido do nome para abreviação. Float é muito comum e é usado para qualquer valor que exija controle preciso na forma de um controle deslizante ou Ângulo. Você pode encontrá-lo em quase todos os parâmetros do Nó. É também o tipo de dados preferencial para um valor em tons de cinza!<b></b>
+Uma Precisão decimal, tem um único componente, o (1) é omitido do nome para abreviação. A Precisão decimal é muito comum e usada para qualquer valor que exija controle preciso na forma de um controle deslizante ou Ângulo. Você pode encontrá-lo em quase todos os parâmetros do Nó. É também o tipo de dados preferencial para um valor em tons de cinza!<b></b>
 
 </td>
 </tr>
@@ -140,14 +140,14 @@ Um Float, tem um único componente, o (1) é omitido do nome para abreviação. 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Float2](../../../../assets/fn-constant-float2.png "Ícone de tipo Float2")
+![ícone de tipo de Precisão decimal 2](../../../../assets/fn-constant-float2.png "ícone de tipo de Precisão decimal 2")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Flutuante2</b>
+<b>Precisão decimal 2</b>
 
-Um nó Float2 gera um vetor flutuante estático de 2 componentes. Os componentes são denominados X, Y. Float2 é bastante comum e é usado para [coordenadas de amostragem](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) e para [Deslocamentos de transformação](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)
+Um nó Precisão decimal2 gera um vetor de Precisão decimal estático de 2 componentes. Os componentes são denominados X, Y. A Precisão decimal 2 é bastante comum e é usada para [coordenadas de amostragem](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) e para [Deslocamentos de transformação](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)
 
 </td>
 </tr>
@@ -157,14 +157,14 @@ Um nó Float2 gera um vetor flutuante estático de 2 componentes. Os componentes
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Float3](../../../../assets/fn-constant-float3.png "Ícone de tipo Float3")
+![ícone de tipo de Precisão decimal 3](../../../../assets/fn-constant-float3.png "ícone de tipo de Precisão decimal 3")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Flutuante3</b>
+<b>Precisão decimal 3</b>
 
-Um nó Float3 gera um vetor flutuante estático de 3 componentes. Os componentes são denominados X, Y, Z. Float3 é incomum, é usado principalmente para representar [coordenadas de escala 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) e como uma maneira mais simples de armazenar cores sem dados de Alpha.<b>\
+Um nó Precisão decimal3 gera um vetor de Precisão decimal estático de 3 componentes. Os componentes são denominados X, Y, Z. A Precisão decimal 3 é incomum e é usada principalmente para representar [coordenadas de escala 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) e como uma maneira mais simples de armazenar cores sem dados de Alpha.<b>\
 </b>
 
 </td>
@@ -175,14 +175,14 @@ Um nó Float3 gera um vetor flutuante estático de 3 componentes. Os componentes
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Ícone de tipo Float4](../../../../assets/fn-constant-float4.png "Ícone de tipo Float4")
+![ícone de tipo de Precisão decimal 4](../../../../assets/fn-constant-float4.png "ícone de tipo de Precisão decimal 4")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Flutuante4</b>
+<b>Precisão decimal 4</b>
 
-Um Float4 gera um vetor flutuante estático de 4 componentes. Os componentes são denominados X, Y, Z, W. O Float4 é muito comum, pois é a maneira preferencial de armazenar e definir informações de [Cores, onde os dados XYZW representam valores RGBA.](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)<b>\
+Uma Precisão decimal 4 gera um Vetor de Precisão decimal estático de 4 componentes. Os componentes são denominados X, Y, Z, W. A Precisão decimal 4 é muito comum, pois é a maneira preferencial de armazenar e definir informações de [Cores, onde os dados XYZW representam valores RGBA.](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)<b>\
 </b>
 
 </td>

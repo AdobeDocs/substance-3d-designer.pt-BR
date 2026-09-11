@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Use a visualização 3D no Substance 3D Designer para visualizar materiais em objetos 3D e testar condições de iluminação.
 helpx_creative_field: ""
@@ -78,17 +78,17 @@ Você pode interagir com malhas diretamente na viewport:
 
 <b>Segure e clique no LMB em uma malha para selecionar uma malha.</b> As malhas selecionadas têm um contorno azul.
 
-<b>Pressione F para focalizar em uma malha selecionada</b>. A focagem de uma malha move a câmera para enquadrá-la e orbitar ao redor dela.
+<b>Pressione F para focalizar em uma malha selecionada</b>. A focagem de uma malha move a câmera para quadro-la e orbitar ao redor dela.
 
 <b>Clique em RMB enquanto uma malha é selecionada</b> para acessar suas [ações materiais](#material-actions) em um menu contextual.
 
 <b>Pressione Esc para cancelar a seleção.</b> O cursor não precisa estar na malha.
 
-![Exibição 3D - Focalizar e desmarcar](../../assets/sceneBrowser-focus.gif "Exibição 3D - Focalizar e desmarcar"){zoomable="yes"}
+![Visualização 3D - Focalizar e desmarcar](../../assets/sceneBrowser-focus.gif "Visualização 3D - Focalizar e desmarcar"){zoomable="yes"}
 
 *Selecionar, focar, desmarcar*
 
-![Exibição 3D - Menu contextual](../../assets/sceneBrowser-contextualMenu.gif "Exibição 3D - Menu contextual"){zoomable="yes"}
+![Visualização 3D - Menu contextual](../../assets/sceneBrowser-contextualMenu.gif "Visualização 3D - Menu contextual"){zoomable="yes"}
 
 *Selecionar, menu contextual*
 
@@ -221,7 +221,7 @@ Para exportar a malha de Exibição 3D, vá para <b>Cena > Exportar malha em mos
 >
 > **TDR (somente Windows)**
 > 
-> Este recurso requer que o <b>Timeout Detection and Recovery (TDR)</b> corresponda aos valores recomendados em [esta página](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) da nossa documentação, conforme estabelecido nos [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) da Designer.
+> Este recurso requer que o <b>Timeout Detection and Recovery (TDR)</b> corresponda aos valores recomendados em [esta página](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) da nossa documentação, conforme estabelecido nos [Requisitos técnicos](../../getting-started/system-requirements/system-requirements.md) da Designer.
 
 ## Barra de menus
 
@@ -305,7 +305,7 @@ O menu “Materiais” apresenta uma lista de todos os materiais atribuídos a u
 
 <b>Carregar definição...: </b>(somente renderizador OpenGL) permite carregar seu próprio sombreador personalizado de [GLSLFX.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) O sombreador é adicionado à lista acima.
 
-<b>Redefinir parâmetros comuns:</b> redefine todos os parâmetros que são comuns entre sombreadores. Por exemplo, ao alternar entre os renderizadores Rasterizer/GPU Pathtracer e OpenGL, vários valores de parâmetro no [Adobe Standard Material](https://experienceleague.adobe.com/pt-br/docs/substance-3d/general-knowledge/asm/adobe-standard-material) são transportados.
+<b>Redefinir parâmetros comuns:</b> redefine todos os parâmetros que são comuns entre sombreadores. Por exemplo, ao alternar entre os renderizadores Rasterizer/GPU Pathtracer e OpenGL, vários valores de parâmetro no [Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) são transportados.
 
 <b>Renomear:</b> altere o rótulo deste material.
 

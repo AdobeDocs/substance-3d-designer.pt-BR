@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
 description: Saiba mais sobre as diretrizes para reduzir o tamanho dos arquivos de gráfico de Substance para otimizar os requisitos de desempenho e armazenamento.
 helpx_creative_field: ""
@@ -22,11 +22,11 @@ ht-degree: 1%
 
 Em alguns casos, o tamanho total do arquivo dos [ativos do Substance 3D (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) pode ser um fator importante. Esta página aborda algumas áreas e configurações críticas a serem consideradas ao tentar reduzir o tamanho do arquivo.
 
-O tamanho do arquivo é determinado principalmente por [bitmaps incorporados.](../../resources/bitmap-resource/bitmap-resource.md) São arquivos vinculados, incorporados ou armazenados e adicionados ao arquivo do [Substance 3D Designer](https://www.adobe.com/br/products/substance3d-designer.html) (SBS) como um recurso. Somente os bitmaps usados em um gráfico, ou seja, conectados a uma saída diretamente ou por meio da cadeia de nós, são publicados no ativo do Substance 3D. Em um arquivo do Substance 3D, os bitmaps não têm impacto no tamanho do arquivo, pois todos os recursos de bitmap ainda são armazenados fora do arquivo.
+O tamanho do arquivo é determinado principalmente por [bitmaps incorporados.](../../resources/bitmap-resource/bitmap-resource.md) São arquivos vinculados, incorporados ou feitos bake e adicionados ao arquivo do [Substance 3D Designer](https://www.adobe.com/br/products/substance3d-designer.html) (SBS) como um recurso. Somente os bitmaps usados em um gráfico, ou seja, conectados a uma saída diretamente ou por meio da cadeia de nós, são publicados no ativo do Substance 3D. Em um arquivo do Substance 3D, os bitmaps não têm impacto no tamanho do arquivo, pois todos os recursos de bitmap ainda são armazenados fora do arquivo.
 
 >[!IMPORTANT]
 >
-> Verifique se a propriedade [Tamanho de saída](../../compositing-graphs/output-size/output-size.md) de todos os nós [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) está definida como o método de herança [&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) ** Absoluto. Se não for esse o caso, o [recurso de bitmap](../../resources/bitmap-resource/bitmap-resource.md) referenciado nele será salvo na resolução padrão de 256\*256 no arquivo de ativo do Substance 3D publicado, o que* afetará a qualidade* de uma ou mais saídas.
+> Verifique se a propriedade [Tamanho de saída](../../compositing-graphs/output-size/output-size.md) de todos os nós [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) está definida como o método de herança ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) *[* Absoluto. Se não for esse o caso, o [recurso de bitmap](../../resources/bitmap-resource/bitmap-resource.md) referenciado nele será salvo na resolução padrão de 256\*256 no arquivo de ativo do Substance 3D publicado, o que* afetará a qualidade* de uma ou mais saídas.
 
 ## Fatores de tamanho de arquivo
 
@@ -98,7 +98,7 @@ Embora a tabela à direita não seja totalmente conclusiva, é possível aprende
 >
 > **Formato De Bitmap Jpeg**
 > 
-> É importante observar que mapas especiais que exigem alta precisão, como mapas normais, mapas de vetor e outros, provavelmente não devem ser definidos para compactação Jpeg, pois isso levará a artefatos muito mais visíveis!
+> É importante observar que mapas especiais que exigem alta precisão, como Mapas normais, Mapas de vetor e outros, provavelmente não devem ser definidos para compactação Jpeg, pois isso levará a artefatos muito mais visíveis!
 
 | Imagem de origem | TGA colorida | Cor JPG | TGA em tons de cinza | JPG de escala de cinza |
 | --- | --- | --- | --- | --- |

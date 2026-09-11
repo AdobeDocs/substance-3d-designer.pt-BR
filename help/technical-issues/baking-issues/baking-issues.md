@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/baking-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
 breadcrumb-title: ''
 description: Encontre etapas de solução de problemas técnicos relacionados a texturas de cozimento no Substance 3D Designer.
 helpx_creative_field: ""

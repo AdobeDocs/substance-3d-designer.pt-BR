@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/blackbody.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/blackbody.html"
 breadcrumb-title: ''
 description: Use o nó Blackbody para gerar cores de radiação de corpo negro com base na temperatura para simulação realista de cores claras.
 helpx_creative_field: ""

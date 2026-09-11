@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-grayscale.html"
 breadcrumb-title: ''
 description: Use o nó Flood Fill para Tons de cinza aleatórios para preencher regiões com valores de tons de cinza aleatórios para criar padrões de variação.
 helpx_creative_field: ""

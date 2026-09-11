@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
 breadcrumb-title: ''
 description: Use o nó de intemperismo de Ferrugem para gerar padrões de ferrugem com base na geometria da malha a fim de criar efeitos realistas de corrosão metálica.
 helpx_creative_field: ""

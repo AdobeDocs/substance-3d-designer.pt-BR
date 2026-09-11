@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
 breadcrumb-title: ''
 description: O Designer oferece uma seleção com curadoria de gráficos de amostra, abrangendo vários tipos de materiais para aprender e experimentar.
 helpx_creative_field: ""

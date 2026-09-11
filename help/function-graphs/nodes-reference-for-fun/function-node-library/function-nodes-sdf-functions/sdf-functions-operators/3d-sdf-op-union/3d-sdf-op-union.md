@@ -40,5 +40,5 @@ Retorna os volumes adicionados de duas formas SDF.
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Flutuante* | A primeira forma SDF. |
-| <b>SDF 2</b> *Flutuante* | A segunda forma SDF. |
+| <b>SDF 1</b> *Precisão decimal* | A primeira forma SDF. |
+| <b>SDF 2</b> *Precisão decimal* | A segunda forma SDF. |

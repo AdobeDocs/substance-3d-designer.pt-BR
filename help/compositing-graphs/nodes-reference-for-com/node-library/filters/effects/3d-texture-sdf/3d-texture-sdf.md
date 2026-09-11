@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
 breadcrumb-title: ''
 description: Use o nó SDF de Textura 3D para gerar texturas de campo de distância assinadas a partir de dados 3D para criar formas e efeitos suaves.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: SDF de Textura 3D
+title: SDF de textura 3D
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# SDF de Textura 3D
+# SDF de textura 3D
 
 <table>
 <tr style="border: 0;">
@@ -53,7 +53,7 @@ O nó **SDF** de Textura 3D gera o *campo de distância assinado* de uma forma a
 
 |  |  |
 |:---|:---|
-| <b>Limite</b> <i>Precisão decimal</i> | Quando o volume da forma é descrito por um <i>gradiente de desvanecimento</i>, define o valor do gradiente no qual a <i>superfície</i> da forma é <i>detectada</i>. |
+| <b>Limite</b> <i>Flutuante</i> | Quando o volume da forma é descrito por um <i>gradiente de desvanecimento</i>, define o valor do gradiente no qual a <i>superfície</i> da forma é <i>detectada</i>. |
 | <b>Saída</b> <i>Inteiro</i> | O tipo de campo de distância que deve ser gerado:<br>- <i>Campo de distância</i>: gera um campo de distância que descreve as distâncias <i>fora</i> da forma.<br>- <i>Campo de distância sinalizado</i>: gera um campo de distância que descreve as distâncias <i>fora</i> (positivas) e <i>dentro</i> (negativas) da forma. |
 
 ## Exemplos

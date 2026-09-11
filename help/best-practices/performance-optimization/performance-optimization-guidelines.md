@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: Saiba mais sobre as diretrizes de otimização de desempenho para o Substance 3D Designer para melhorar o desempenho do gráfico e reduzir o tempo de processamento.
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ Na verdade, a versão de CPU do Substance Engine (SSE2) *não* é compatível co
 +++
 
 +++Minimizar o tamanho da saída do nó sempre que possível
-Às vezes, o downsizing de alguns nós não afeta o resultado final, mas afetará o desempenho. Por exemplo, usar um nó de Cor uniforme definido com o mesmo tamanho de saída que o documento não tem sentido: a Cor uniforme deve ser definida como Absoluta [16px x 16px] e o nó subsequente como Relativo ao pai. Geralmente, esse truque funciona bem para imagens de baixa frequência, como o ruído de Perlin.
+Às vezes, o downsizing de alguns nós não afeta o resultado final, mas afetará o desempenho. Por exemplo, usar um nó de Cor uniforme definido com o mesmo tamanho de saída que o documento não tem sentido: a Cor uniforme deve ser definida como Absoluto [16px x 16px] e o nó subsequente como Relativo ao pai. Geralmente, esse truque funciona bem para imagens de baixa frequência, como o ruído de Perlin.
 
 +++
 
@@ -79,7 +79,7 @@ Isso reduz o desempenho da renderização.
 
 +++
 
-+++Ao usar o nó de mesclagem, desative a mesclagem de Alpha quando não for necessário
++++Ao usar o nó Combinar, desative a mesclagem de alfa quando não for necessário
 
 
 +++
@@ -105,7 +105,7 @@ Estes incluem [Ruído Branco Rápido](../../compositing-graphs/nodes-reference-f
 +++
 
 +++Cuidado com funções pesadas de amostragem de imagem em alguns casos
-As funções são executadas no mecanismo da CPU, exceto em [Processadores de Pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md). Se você estiver fazendo muita amostragem de imagens pesadas (alterando as coordenadas do $pos) nos [Processadores de Valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) ou nos [FXmaps](../../function-graphs/fxmaps/fxmaps.md), haverá muita troca entre o VRAM e a RAM da CPU, causando atrasos de desempenho.
+As funções são executadas no mecanismo da CPU, exceto em [Processadores de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md). Se você estiver fazendo muita amostragem de imagens pesadas (alterando as coordenadas do $pos) em [Processadores de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) ou [FXmaps](../../function-graphs/fxmaps/fxmaps.md), haverá muita troca entre o VRAM e a RAM da CPU, causando atrasos de desempenho.
 
 +++
 

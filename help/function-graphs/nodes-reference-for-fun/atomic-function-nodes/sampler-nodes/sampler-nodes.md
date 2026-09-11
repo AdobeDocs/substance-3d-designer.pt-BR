@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: Acesse nós do sampler nos gráficos de função do Substance 3D Designer para obter amostras de texturas e extrair valores de cores.
 helpx_creative_field: ""
@@ -78,8 +78,8 @@ Controla como os valores de posição fora do intervalo [0;1] são tratados.
 Executa um loop sobre o intervalo [0;1] à medida que o valor aumenta.\
 Por exemplo: 3.4 é 0.4, -1.7 é 0.3.
 
-<b>Aperte para a borda</b>\
-Limita valores fora do intervalo [0;1] para o limite mais próximo.\
+<b>Restringir para Borda</b>\
+Restringe valores fora do intervalo [0;1] para o limite mais próximo.\
 Por exemplo: .3.4 é 1, -1.7 é 0.
 
 +++

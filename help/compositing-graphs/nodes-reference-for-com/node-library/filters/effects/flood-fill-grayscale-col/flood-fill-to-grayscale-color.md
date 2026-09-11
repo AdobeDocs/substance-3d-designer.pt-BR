@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
 breadcrumb-title: ''
 description: Use o nó Cor de Flood Fill para tons de cinza a fim de preencher regiões conectadas com cores em tons de cinza para criar padrões monocromáticos.
 helpx_creative_field: ""

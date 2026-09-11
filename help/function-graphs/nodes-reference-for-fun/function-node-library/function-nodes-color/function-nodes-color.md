@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
 breadcrumb-title: ''
 description: Use nós de função de cor para executar conversões de cores e operações de mapeamento de tons em gráficos de função.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ HCL para RGB
 
 HSI para RGB
 
-Deslocamento HSL
+Deslocamento de HSL
 
 HSL para RGB
 
@@ -61,11 +61,11 @@ RGB hue 2 polar
 
 RGB hexagonal
 
-média de luminosidade do RGB
+Média de luminosidade de RGB
 
 RGB luminosidade bi-hexcona
 
-hexcona de RGB luminosidade
+Hexcona de luminosidade RGB
 
 RGB luminosidade luma Rec. 601
 
@@ -73,7 +73,7 @@ RGB luminosidade luma Rec. 709
 
 Saturação de RGB HSI
 
-HSL de saturação de RGB
+Saturação de RGB HSL
 
 Saturação de RGB HSV
 
@@ -94,7 +94,7 @@ sRGB para linear
 
 Temperatura para sRGB
 
-Mapeador de tons ACES
+mapeador de tons ACE
 
 Mapeador de tons AgX
 

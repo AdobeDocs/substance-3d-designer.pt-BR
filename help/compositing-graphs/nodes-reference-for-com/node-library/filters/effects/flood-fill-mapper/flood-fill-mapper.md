@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
 breadcrumb-title: ''
 description: Use o nó Mapeador de Flood Fill para mapear valores em regiões conectadas usando algoritmos de preenchimento por inundação para processamento de textura.
 helpx_creative_field: ""

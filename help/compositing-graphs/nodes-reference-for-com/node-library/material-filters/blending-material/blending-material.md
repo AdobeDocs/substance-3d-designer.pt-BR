@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material.html"
 breadcrumb-title: ''
 description: Acesse nós de mesclagem de material no Substance 3D Designer para combinar e mesclar materiais para criar efeitos de material composto.
 helpx_creative_field: ""
@@ -27,4 +27,4 @@ Esses nós podem economizar uma enorme quantidade de trabalho, mas certifique-se
 Os seguintes nós são bons para começar:
 
 * [Mesclagem de vários materiais](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)
-* [Mesclagem de ajuste de material](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)
+* [Combinar de ajuste de material](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)

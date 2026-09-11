@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
 breadcrumb-title: ''
 description: Use o nó Deslocamento de Textura 3D para deslocar texturas no espaço 3D a fim de criar efeitos de paralaxe e variações de superfície.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Deslocamento de textura 3D
+title: Deslocamento de Textura 3D
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# Deslocamento de textura 3D
+# Deslocamento de Textura 3D
 
 <table>
 <tr style="border: 0;">
@@ -66,7 +66,7 @@ O nó **Deslocamento de Textura 3D** aplica uma *transformação de deslocamento
 
 |  |  |
 |:---|:---|
-| <b>Deslocamento</b> <i>Flutuante3</i> | A quantidade de deslocamento em <i>espaço global</i> aplicada ao objeto descrito pela <i>textura 3D</i> conectada à <b>Entrada</b>. |
+| <b>Deslocamento</b> <i>Precisão decimal 3</i> | A quantidade de deslocamento em <i>espaço global</i> aplicada ao objeto descrito pela <i>textura 3D</i> conectada à <b>Entrada</b>. |
 
 ## Exemplos
 
