@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/tutorials-learning.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/tutorials-learning.html"
 breadcrumb-title: ''
 description: Acesse tutoriais e recursos de aprendizado do Substance 3D Designer para dominar as técnicas de criação de material processual.
 helpx_creative_field: ""
