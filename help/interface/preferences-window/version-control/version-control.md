@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Defina as configurações de controle de versão nas preferências do Substance 3D Designer para integração com o Git e outros sistemas.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Controle de versão
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -34,7 +34,7 @@ A integração adiciona um submenu personalizado &#39;Controle de Versão&#39; a
 
 No [P4V](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v), anote o nome e o caminho do espaço de trabalho, conforme mostrado abaixo:
 
-![Informações do espaço de trabalho P4V](../../../assets/p4v-workspace-strings.jpg "Informações do espaço de trabalho P4V"){zoomable="yes"}
+![Informações do espaço de trabalho P4V](version-control.resources/p4v-workspace-strings.jpg "Informações do espaço de trabalho P4V"){zoomable="yes"}
 
 Em qualquer editor de texto ou IDE, abra este script localizado na instalação do Designer: &#39;*tools/version\_control/perforce.py*&#39;.
 
@@ -54,7 +54,7 @@ cVerbose = False
 
 O controle de versão está configurado nas [Configurações do projeto](../../../interface/preferences-window/project-settings/project-settings.md), disponíveis nas [Preferências](../../../interface/preferences-window/preferences-window.md) do Designer.
 
-Guia ![&#39;Controle de versão&#39; nas configurações do projeto](../../../assets/p4v-project-settings.jpg " Guia&#39;Controle de versão&#39; nas configurações do projeto"){zoomable="yes"}
+Guia ![&#39;Controle de versão&#39; nas configurações do projeto](version-control.resources/p4v-project-settings.jpg " Guia&#39;Controle de versão&#39; nas configurações do projeto"){zoomable="yes"}
 
 1. Acesse “Editar > Preferências”
 1. Vá para &#39;Projetos&#39;, selecione o [arquivo de projeto](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) de destino e vá para a guia &#39;Controle de Versão&#39;
@@ -64,7 +64,7 @@ Guia ![&#39;Controle de versão&#39; nas configurações do projeto](../../../as
    * <b>Nome:</b> insira o &#39;Nome do Espaço de Trabalho&#39; recuperado anteriormente do P4V
    * <b>Caminho:</b> insira o &#39;Caminho de Espaço de Trabalho&#39; recuperado anteriormente do P4V
 
-![Configuração P4 no Designer: espaço de trabalho](../../../assets/p4v-project-settings-workspace.jpg "Configuração P4 no Designer: espaço de trabalho"){zoomable="yes"}
+![Configuração P4 no Designer: espaço de trabalho](version-control.resources/p4v-project-settings-workspace.jpg "Configuração P4 no Designer: espaço de trabalho"){zoomable="yes"}
 
 ### Configurar ações
 
@@ -88,7 +88,7 @@ Um script inicial para todas as ações está disponível na instalação do Des
 1. Selecione o seguinte script na instalação do Designer: &#39;*tools/version\_control/perforce.py*&#39;
 1. O script deve ser configurado automaticamente para todas as outras ações.
 
-![Configuração P4 no Designer: ações](../../../assets/p4v-project-settings-actions.jpg "Configuração P4 no Designer: ações"){zoomable="yes"}
+![Configuração P4 no Designer: ações](version-control.resources/p4v-project-settings-actions.jpg "Configuração P4 no Designer: ações"){zoomable="yes"}
 
 ### Configurar ações personalizadas
 
@@ -103,7 +103,7 @@ Como todas as ferramentas de controle de versão são diferentes e incluem muito
 1. Definir uma extensão ou sufixo de arquivo de script e o caminho para o executável do intérprete
 1. Edite o script perforce.py para atualizar o local do binário &#39;p4&#39;
 
-![Configuração P4 no Designer: intérprete](../../../assets/p4v-project-settings-interpreters.jpg "Configuração P4 no Designer: intérprete"){zoomable="yes"}
+![Configuração P4 no Designer: intérprete](version-control.resources/p4v-project-settings-interpreters.jpg "Configuração P4 no Designer: intérprete"){zoomable="yes"}
 
 ## Como usar o controle de versão
 
@@ -123,12 +123,12 @@ Como todas as ferramentas de controle de versão são diferentes e incluem muito
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   Caixa de diálogo ![&#39;Enviar&#39;](../../../assets/p4v-submit.jpg "&#39;Enviar&#39;"){zoomable="yes"}
+   Caixa de diálogo ![&#39;Enviar&#39;](version-control.resources/p4v-submit.jpg "&#39;Enviar&#39;"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   ![&#39;Reverter&#39; caixa de diálogo](../../../assets/p4v-revert.jpg "&#39;Reverter&#39; caixa de diálogo"){zoomable="yes"}
+   ![&#39;Reverter&#39; caixa de diálogo](version-control.resources/p4v-revert.jpg "&#39;Reverter&#39; caixa de diálogo"){zoomable="yes"}
 
    </td>
    </tr>
@@ -148,28 +148,28 @@ Dependendo do status do pacote, ele terá os seguintes ícones:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ícone de pacote: atualizado](../../../assets/p4-up-to-date.png "Ícone de pacote: atualizado")
+![Ícone de pacote: atualizado](version-control.resources/p4-up-to-date.png "Ícone de pacote: atualizado")
 
 Atualizado
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ícone de pacote: Check-out](../../../assets/p4-checked-out.png "Ícone de pacote: Check-out")
+![Ícone de pacote: Check-out](version-control.resources/p4-checked-out.png "Ícone de pacote: Check-out")
 
 Check-out feito
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ícone de pacote: adicionado](../../../assets/p4-added.png "Ícone de pacote: adicionado")
+![Ícone de pacote: adicionado](version-control.resources/p4-added.png "Ícone de pacote: adicionado")
 
 Marcado para adição
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ícone de pacote: não está no depósito](../../../assets/p4-not-in-depot.png "Ícone de pacote: não está no depósito")
+![Ícone de pacote: não está no depósito](version-control.resources/p4-not-in-depot.png "Ícone de pacote: não está no depósito")
 
 Fora do depósito
 
