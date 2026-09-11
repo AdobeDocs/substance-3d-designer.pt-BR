@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
 breadcrumb-title: ''
 description: Use o nó Tile Generator para criar padrões de ladrilhos de procedimento com controles personalizáveis de tamanho, deslocamento e variação.
 helpx_creative_field: ""
