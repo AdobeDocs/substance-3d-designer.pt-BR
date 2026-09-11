@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: Acesse nós do sampler nos gráficos de função do Substance 3D Designer para obter amostras de texturas e extrair valores de cores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Amostragem
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Nós do Sampler
 
-![Nós do Sampler](../../../../assets/image2016-1-12-14-45-43.png "Nós do Sampler")
+![Nós do Sampler](sampler-nodes.resources/image2016-1-12-14-45-43.png "Nós do Sampler")
 
 Estes nós obtêm uma amostra de um valor em uma imagem de entrada nas coordenadas 2D fornecidas:
 
@@ -39,7 +39,7 @@ As posições fora deste intervalo são tratadas de acordo com o <b>Modo de ende
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Coordenadas de pixel](../../../../assets/samplercoords.png "Coordenadas de pixel")
+![Coordenadas de pixel](sampler-nodes.resources/samplercoords.png "Coordenadas de pixel")
 
 </td>
 </tr>
@@ -78,8 +78,8 @@ Controla como os valores de posição fora do intervalo [0;1] são tratados.
 Executa um loop sobre o intervalo [0;1] à medida que o valor aumenta.\
 Por exemplo: 3.4 é 0.4, -1.7 é 0.3.
 
-<b>Restringir para Borda</b>\
-Restringe valores fora do intervalo [0;1] para o limite mais próximo.\
+<b>Aperte para a borda</b>\
+Limita valores fora do intervalo [0;1] para o limite mais próximo.\
 Por exemplo: .3.4 é 1, -1.7 é 0.
 
 +++
