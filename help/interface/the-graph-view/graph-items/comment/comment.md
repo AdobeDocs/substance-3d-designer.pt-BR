@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
 description: Adicione comentários aos gráficos do Substance 3D Designer para documentar seu fluxo de trabalho e explicar as conexões de nós.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Comentário
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Ícone de comentário](../../../../assets/graphatomic-comment_1.png "Ícone de comentário")
+![Ícone de comentário](comment.resources/graphatomic-comment_1.png "Ícone de comentário")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -91,7 +91,7 @@ Os comentários criados quando um nó *único* está selecionado no momento ou p
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Comentários: comentários com parentesco](../../../../assets/graph-comment_parented.gif "Comentários: comentários com parentesco")
+![Comentários: comentários com parentesco](comment.resources/graph-comment_parented.gif "Comentários: comentários com parentesco")
 
 </td>
 </tr>
@@ -99,10 +99,10 @@ Os comentários criados quando um nó *único* está selecionado no momento ou p
 
 ## formatação HTML
 
-O texto pode ser formatado usando tags HTML. Essa formatação é alternada usando o botão ![](../../../../assets/graph-frames_html-markup-button.png) <b>marcação de HTML</b> na propriedade <b>Descrição</b> do comentário.
+O texto pode ser formatado usando tags HTML. Essa formatação é alternada usando o botão ![](comment.resources/graph-frames_html-markup-button.png) <b>marcação de HTML</b> na propriedade <b>Descrição</b> do comentário.
 
 >[!TIP]
 >
 > Saiba mais sobre este recurso na seção <b>Descrição</b> da documentação de [Quadros](../../../../interface/the-graph-view/graph-items/frame/frame.md).
 
-![Comentários: marcação HTML](../../../../assets/graph-comment_html-markup.gif "Comentários: marcação HTML")
+![Comentários: marcação HTML](comment.resources/graph-comment_html-markup.gif "Comentários: marcação HTML")

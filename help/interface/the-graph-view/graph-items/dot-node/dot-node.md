@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: Use nós de ponto e nós de portal no Substance 3D Designer para criar pontos de conexão e organizar o fluxo do gráfico.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nó ponto (também Portal)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Ícone de nó ponto](../../../../assets/graphatomic-dot_1.png "Ícone de nó ponto")
+![Ícone de nó ponto](dot-node.resources/graphatomic-dot_1.png "Ícone de nó ponto")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Os nós pontos podem ser adicionados em qualquer tipo de gráfico, em qualquer u
 +++Inserir no link
 Mantenha a tecla <b>Alt</b> pressionada enquanto passa o mouse sobre uma conexão para exibir a visualização do nó Ponto e, em seguida, clique em LMB para adicionar um nó Ponto na conexão nesse local.
 
-![Inserindo um nó Ponto](../../../../assets/dot-node-insert-optim.gif "Inserindo um nó Ponto"){width="512px"}
+![Inserindo um nó Ponto](dot-node.resources/dot-node-insert-optim.gif "Inserindo um nó Ponto"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ Pressione a tecla <b>Alt</b> enquanto arrasta uma nova conexão de um conector d
 
 Você pode continuar arrastando a nova conexão e repetir a operação para rotear essa conexão como quiser.
 
-![Ponto: criando do conector](../../../../assets/graph-dot_create-from-connector.gif "Ponto: criando do conector")
+![Ponto: criando do conector](dot-node.resources/graph-dot_create-from-connector.gif "Ponto: criando do conector")
 
 
 
@@ -64,7 +64,7 @@ Você pode continuar arrastando a nova conexão e repetir a operação para rote
 +++Menu Nó
 Pressione a <b>Barra de espaço</b> para exibir o <b>menu Nó</b> e, em seguida, selecione o item “Ponto” ou digite “ponto” no campo de pesquisa para exibir o item e localizá-lo mais rapidamente.
 
-![Nó ponto no menu Nó](../../../../assets/dot-node-insert-menu.png "Nó ponto no menu Nó")
+![Nó ponto no menu Nó](dot-node.resources/dot-node-insert-menu.png "Nó ponto no menu Nó")
 
 
 
@@ -85,7 +85,7 @@ Pressione ALT e mova um nó Ponto sobre links para mesclar várias conexões de 
 </td>
 <td style="border: 0;" valign="top">
 
-![Mesclando links](../../../../assets/dot-node-congrenate-links-optim.gif "Mesclando links"){width="512px"}
+![Mesclando links](dot-node.resources/dot-node-congrenate-links-optim.gif "Mesclando links"){width="512px"}
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Pressione ALT e mova um nó Ponto sobre links para mesclar várias conexões de 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Nó ponto como portal - ícone](../../../../assets/DotNode_Portal-1.png "Nó ponto como portal - ícone")
+![Nó ponto como portal - ícone](dot-node.resources/DotNode_Portal-1.png "Nó ponto como portal - ícone")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -108,7 +108,7 @@ Os nós pontos podem ser usados como <b>portais</b> para enviar dados por uma lo
 </tr>
 </table>
 
-![Nó ponto como portal](../../../../assets/DotNode_Portal.gif "Nó ponto como portal")
+![Nó ponto como portal](dot-node.resources/DotNode_Portal.gif "Nó ponto como portal")
 
 ### Criação de portais
 
