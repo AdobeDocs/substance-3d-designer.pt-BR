@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial.html"
 breadcrumb-title: ''
 description: Use o nó Gradiente axial para criar gradientes axiais para transições de cores direcionais no Substance 3D Designer.
 helpx_creative_field: ""
