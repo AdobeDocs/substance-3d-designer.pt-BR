@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view/color-sampler.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/2d-view/color-sampler.html"
 breadcrumb-title: ''
 description: Use a ferramenta Sampler de cores no Visualização 2D para obter amostras de cores do textura para uma correspondência precisa de cores.
 helpx_creative_field: ""

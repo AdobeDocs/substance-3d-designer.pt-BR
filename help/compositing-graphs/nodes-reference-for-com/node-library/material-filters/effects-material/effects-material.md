@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material.html"
 breadcrumb-title: ''
 description: Acesse os nós de efeito de material no Substance 3D Designer para aplicar efeitos ambientais e de mesclagem aos materiais.
 helpx_creative_field: ""

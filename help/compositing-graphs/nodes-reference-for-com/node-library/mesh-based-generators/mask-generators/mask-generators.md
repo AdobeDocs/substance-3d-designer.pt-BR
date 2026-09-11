@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators.html"
 breadcrumb-title: ''
 description: Acesse nós de gerador de máscara no Substance 3D Designer para criar máscaras com base na geometria de malha e nas propriedades.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Geradores de máscara
 
-Esta categoria contém uma seleção de nós geradores de máscaras em preto e branco. Com base em informações do mapa baked, eles geram máscaras que podem ser usadas para mesclar materiais e outros efeitos. Estes nós são semelhantes ao [Máscara inteligente](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) e ao [Geradores](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/generators) no Substance Painter.
+Esta categoria contém uma seleção de nós geradores de máscaras em preto e branco. Com base em informações do mapa baked, eles geram máscaras que podem ser usadas para mesclar materiais e outros efeitos. Estes nós são semelhantes ao [Máscara inteligente](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/features/smart-materials-and-masks) e ao [Geradores](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/content/creating-custom-effects/generators) no Substance Painter.
 
 Todos esses nós exigem [mapas baked](../../../../../bakers/bakers.md), pois sem [mapas baked](../../../../../bakers/bakers.md) não haverá muito resultado.
 

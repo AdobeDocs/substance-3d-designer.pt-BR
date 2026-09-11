@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns.html"
 breadcrumb-title: ''
 description: Acesse nós de geração de padrão no Substance 3D Designer para criar formas geométricas, blocos gráficos e padrões processuais.
 helpx_creative_field: ""

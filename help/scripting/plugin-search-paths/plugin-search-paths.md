@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-search-paths.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/scripting/plugin-search-paths.html"
 breadcrumb-title: ''
 description: Configure caminhos de pesquisa de plug-ins no Substance 3D Designer para especificar onde os plug-ins Python estão localizados.
 helpx_creative_field: ""
