@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
 breadcrumb-title: ''
 description: Use o nó Triangle Grid para gerar padrões de grade triangulares para criar texturas geométricas no Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Triangle Grid
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -24,18 +24,18 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/trianglegridgrayscale.jpg){width="200px"}
+![](triangle-grid.resources/trianglegridgrayscale.jpg){width="200px"}
 
-![](../../../../../../assets/trianglegridcolor.jpg){width="200px"}
+![](triangle-grid.resources/trianglegridcolor.jpg){width="200px"}
 
-<b>Em:</b> Geradores De Textura > Padrões
+<b>Em:</b> Textura Geradores > Padrões
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
 
 ## Descrição
 
-O nó **Triangle Grid** gera uma representação em tons de cinza de uma *superfície triangulada* de *vértices* no espaço 3D, usando uma projeção ortográfica em Z para baixo.
+O nó **Triangle Grid** gera uma representação em tons de cinza de uma *superfície triangulada* de *vértices* no espaço 3D, usando uma projeção ortográfica Z-down.
 
 O parâmetro **Saída de cores** permite selecionar os dados usados para a representação, resultando em vários estilos visuais.\
 As *posições* dos vértices podem ser ajustadas, o que afeta a malha gerada.
@@ -84,9 +84,9 @@ As *posições* dos vértices podem ser ajustadas, o que afeta a malha gerada.
 | <b>Modo de Mesclagem</b> *Inteiro* | Define o método de mesclagem dos valores de *triângulos sobrepostos*. O modo permite selecionar *qual* dos triângulos deve ser visível: <ul data-preserve-html="true"> <li data-preserve-html="true"><b>Mín:</b> texto</li> <li data-preserve-html="true"><b>Máx:</b> texto</li> <li data-preserve-html="true"><b>Teste de Profundidade</b>: Texto</li> <li data-preserve-html="true"><b>Mesclagem de Alpha:</b> texto</li> </ul>Observação: os modos de mesclagem disponíveis dependem do valor do parâmetro <b>Saída de cores</b>. |
 | <b>Origem de cores</b> *Inteiro* *Disponível quando o parâmetro &#39;Color Output&#39; está definido como &#39;Per Vertex&#39;, &#39;Per Triangle&#39; ou &#39;Thin Line&#39;.* | Define o método de *aquisição da cor*, ou seja, luminância, que deve ser atribuído ao vértice, triângulo ou segmento, dependendo do modo selecionado de <b>Saída de cores</b>:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Height</b><b>:</b> use o height do vértice como luminância</li> <li data-preserve-html="true"><b>Aleatório</b><b>:</b> use um valor de luminância aleatório</li> <li data-preserve-html="true"><b>Entrada de cores</b><b>:</b> use o valor da amostra da entrada <b style="">Entrada de cores</b></li> </ul> |
 | <b>Opacidade da Fonte de Cores</b> *Flutuante* *Disponível quando o parâmetro &#39;Color Output&#39; está definido como &#39;Thin Line&#39;.* | Controla a *substituição* do valor de <b>Cor da Linha</b> pelos valores resultantes da <b>Origem da Cor</b> selecionada.   Observação: quando esse valor é definido como 1, o parâmetro <b>Cor da Linha</b> não tem impacto. |
-| <b>Distância até o Thickness de Borda</b> *Flutuante* *Disponível quando o parâmetro &#39;Color Output&#39; está definido como &#39;Distance to Edge&#39;.* | Define o thickness do gradiente de distância. Um valor mais baixo resulta em um gradiente *menor*. |
-| <b>Cor da linha</b> *Flutuante/Flutuante4* *Disponível quando o parâmetro &#39;Color Output&#39; está definido como &#39;Thin Line&#39;.* | O valor de luminância dos segmentos.   Observação: quando o valor de <b>Opacidade da origem de cores</b> é definido como 1, esse parâmetro não tem impacto. |
-| <b>Cor do plano de fundo</b> *Flutuante/Flutuante4* *Disponível quando o parâmetro &#39;Color Output&#39; está definido como &#39;Thin Line&#39;.* | O valor de luminância do fundo visível entre os segmentos.   Observação: quando o <b>Modo de Mesclagem</b> estiver definido como *Máx*, o plano de fundo substituirá os segmentos em que está *mais claro*, conforme esperado. |
+| <b>Distância até o Thickness de Borda</b> *Precisão decimal* *Disponível quando o parâmetro &#39;Color Output&#39; está definido como &#39;Distance to Edge&#39;.* | Define o thickness do gradiente de distância. Um valor mais baixo resulta em um gradiente *menor*. |
+| <b>Cor da linha</b> *Precisão decimal/Precisão decimal 4* *Disponível quando o parâmetro &#39;Color Output&#39; está definido como &#39;Thin Line&#39;.* | O valor de luminância dos segmentos.   Observação: quando o valor de <b>Opacidade da origem de cores</b> é definido como 1, esse parâmetro não tem impacto. |
+| <b>Cor do plano de fundo</b> *Precisão decimal/Precisão decimal 4* *Disponível quando o parâmetro &#39;Color Output&#39; está definido como &#39;Thin Line&#39;.* | O valor de luminância do fundo visível entre os segmentos.   Observação: quando o <b>Modo Combinar</b> estiver definido como *Máx*, o plano de fundo substituirá os segmentos em que está *mais claro*, conforme esperado. |
 | <b>Modo de Distribuição de Cores Aleatórias</b> *Inteiro* *Disponível quando o parâmetro &#39;Color Output&#39; está definido como &#39;Per Vertex&#39;, &#39;Per Triangle&#39; ou &#39;Thin Line&#39; e o parâmetro &#39;Color Source&#39; está definido como &#39;Random&#39;.* | O método de aquisição da semente utilizado na distribuição de cores pseudo-aleatórias:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Propagação Aleatória Global</b><b>:</b> herda a propagação do gráfico do nó</li> <li data-preserve-html="true"><b>Semente Manual</b><b>:</b> use uma semente discreta personalizada</li> </ul> |
 | <b>Semente de Cor Aleatória</b> *Inteiro* *Disponível quando o parâmetro &#39;Random Color Seed Mode&#39; está definido como &#39;Manual Seed&#39; e o parâmetro &#39;Color Source&#39; está definido como &#39;Random&#39;.* | O valor de semente discreto usado na distribuição de cores pseudo-aleatória. |
 | <b>Expansão não quadrada</b> *Booleano* | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
@@ -97,37 +97,17 @@ As *posições* dos vértices podem ser ajustadas, o que afeta a malha gerada.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Exemplo 1](../../../../../../assets/triangle_grid_color_example_1.jpg "Triangle Grid: Exemplo 1"){zoomable="yes"}
+![Triangle Grid: Exemplo 1](triangle-grid.resources/triangle_grid_color_example_1.jpg "Triangle Grid: Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Exemplo 2](../../../../../../assets/trianglegrid-variant2.png "Triangle Grid: Exemplo 2"){zoomable="yes"}
+![Triangle Grid: Exemplo 2](triangle-grid.resources/trianglegrid-variant2.png "Triangle Grid: Exemplo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Exemplo 3](../../../../../../assets/trianglegridcolor-variant2.jpg "Triangle Grid: Exemplo 3"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Exemplo 4](../../../../../../assets/triangle_grid_color_example_2.jpg "Triangle Grid: Exemplo 4"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Exemplo 5](../../../../../../assets/trianglegridcolor-variant4.jpg "Triangle Grid: Exemplo 5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Exemplo 6](../../../../../../assets/trianglegridcolor-variant3.jpg "Triangle Grid: Exemplo 6"){zoomable="yes"}
+![Triangle Grid: Exemplo 3](triangle-grid.resources/trianglegridcolor-variant2.jpg "Triangle Grid: Exemplo 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -137,12 +117,32 @@ As *posições* dos vértices podem ser ajustadas, o que afeta a malha gerada.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Couro](../../../../../../assets/trianglegrid-demo.png "Triangle Grid: Couro"){zoomable="yes"}
+![Triangle Grid: Exemplo 4](triangle-grid.resources/triangle_grid_color_example_2.jpg "Triangle Grid: Exemplo 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Gráfico](../../../../../../assets/trianglegrid-node.png "Triangle Grid: Gráfico"){zoomable="yes"}
+![Triangle Grid: Exemplo 5](triangle-grid.resources/trianglegridcolor-variant4.jpg "Triangle Grid: Exemplo 5"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: Exemplo 6](triangle-grid.resources/trianglegridcolor-variant3.jpg "Triangle Grid: Exemplo 6"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: Couro](triangle-grid.resources/trianglegrid-demo.png "Triangle Grid: Couro"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: Gráfico](triangle-grid.resources/trianglegrid-node.png "Triangle Grid: Gráfico"){zoomable="yes"}
 
 </td>
 </tr>

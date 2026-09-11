@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
 breadcrumb-title: ''
 description: Use o nó Aleatório de bloco 2 para criar padrões de bloco aleatórios com controles avançados de variação no Substance 3D Designer.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mosaico aleatório 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tilerandom2.jpg){width="200px"}
+![](tile-random-2.resources/tilerandom2.jpg){width="200px"}
 
 <b>Em:</b> Geradores De Textura > Padrões
 
@@ -91,19 +91,19 @@ Uma saída dedicada permite que você insira os **UVs** da forma em **Flood Fill
 | <b>Distribuição de Inclinação Aleatória</b> <i>Inteiro</i> | Controla o método de distribuição de valores de inclinação aleatória:<br><br>- <i>Uniforme</i>: a inclinação aleatória é aplicada da <i>mesma forma</i> em todas as células<br>- <i>Ruído azul</i>: a inclinação aleatória é <i>ajustada</i> usando um padrão de ruído azul |
 | <b>Chanfro</b> |  |
 | <b>Modo de distância de chanfro</b> <i>Inteiro</i> | Define o método de <i>aquisição da distância</i> pela qual as formas devem ser chanfradas:<br><br>- <i>Em relação ao tamanho da grade</i>: as formas são chanfradas pela <i>proporção especificada de seu tamanho de grade</i><br>- <i>Em relação ao tamanho da forma</i>: as formas são chanfradas pela <i>proporção especificada de seu tamanho</i><br>- <i>Em relação ao tamanho da imagem</i>: as formas são chanfradas pela <i>proporção especificada da imagem</i> |
-| <b>Multiplicador de distância de chanfro</b> <i>Precisão decimal</i> | Aplica um ajuste <i>global</i> à distância do chanfro. |
-| <b>Mapa de Entrada de Distância de Chanfro Mult.</b> <i>Precisão decimal</i> | Ajusta a distância do chanfro usando o mapa de entrada <b>Mapa de distância de chanfro</b> como um multiplicador de <i>por pixel</i>. |
-| <b>Curva arredondada chanfrada</b> <i>Precisão decimal</i> | Ajusta a intensidade do arredondamento aplicado ao ângulo de chanfro para torná-lo mais <i>convexo</i>. |
+| <b>Multiplicador de distância de chanfro</b> <i>Flutuante</i> | Aplica um ajuste <i>global</i> à distância do chanfro. |
+| <b>Mapa de Entrada de Distância de Chanfro Mult.</b> <i>Flutuante</i> | Ajusta a distância do chanfro usando o mapa de entrada <b>Mapa de distância de chanfro</b> como um multiplicador de <i>por pixel</i>. |
+| <b>Curva arredondada chanfrada</b> <i>Flutuante</i> | Ajusta a intensidade do arredondamento aplicado ao ângulo de chanfro para torná-lo mais <i>convexo</i>. |
 | <b>Habilitar Controle de Chanfro por Eixo</b> <i>Booleano</i> | Quando <i>Verdadeiro</i>, o chanfro pode ser aplicado e ajustado <i>separadamente</i> nos eixos <b>X</b> e <b>Y</b>.<br><br><i>Observação</i>: este <i>cancela</i> o efeito <b>Cantos arredondados</b>. |
-| <b>Distância X Do Chanfro</b> <i>Precisão decimal</i> | Ajusta a distância do chanfro no eixo <b>X</b> <i>somente</i>. Essa distância depende do valor do parâmetro <b>Modo de distância de chanfro</b>.<br><br><i>Observação</i>: esse parâmetro só está disponível quando o parâmetro <b>Habilitar por controle de chanfro de eixo</b> está definido como <i>True</i>. |
-| <b>Distância Y do chanfro</b> <i>Precisão decimal</i> | Ajusta a distância do chanfro no eixo <b>Y</b> <i>somente</i>. Essa distância depende do valor do parâmetro <b>Modo de distância de chanfro</b>.<br><br><i>Observação</i>: esse parâmetro só está disponível quando o parâmetro <b>Habilitar por controle de chanfro de eixo</b> está definido como <i>True</i>. |
+| <b>Distância X Do Chanfro</b> <i>Flutuante</i> | Ajusta a distância do chanfro no eixo <b>X</b> <i>somente</i>. Essa distância depende do valor do parâmetro <b>Modo de distância de chanfro</b>.<br><br><i>Observação</i>: esse parâmetro só está disponível quando o parâmetro <b>Habilitar por controle de chanfro de eixo</b> está definido como <i>True</i>. |
+| <b>Distância Y do chanfro</b> <i>Flutuante</i> | Ajusta a distância do chanfro no eixo <b>Y</b> <i>somente</i>. Essa distância depende do valor do parâmetro <b>Modo de distância de chanfro</b>.<br><br><i>Observação</i>: esse parâmetro só está disponível quando o parâmetro <b>Habilitar por controle de chanfro de eixo</b> está definido como <i>True</i>. |
 | <b>Máscara</b> |  |
 | <b>Inversão aleatória da máscara</b> <i>Booleano</i> | Inverte a máscara aleatória de formas. |
-| <b>Início aleatório da máscara</b> <i>Precisão decimal</i> | Para uma determinada <b>Distribuição aleatória</b>, o mascaramento pseudoaleatório é aplicado seguindo uma <i>ordem específica</i> de uma forma inicial para uma forma final. Este parâmetro permite <i>deslocar o índice</i> da forma <i>inicial</i>.<br><br><i>Observação</i>: isso determina um limite de um <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>maior</i> do que o valor de <b>Fim aleatório da máscara</b>. |
-| <b>Fim aleatório da máscara</b> <i>Precisão decimal</i> | Para uma determinada <b>Distribuição aleatória</b>, o mascaramento pseudoaleatório é aplicado seguindo uma <i>ordem específica</i> de uma forma inicial para uma forma final. Este parâmetro permite <i>deslocar o índice</i> da forma <i>fim</i>.<br><br><i>Observação</i>: isso determina um limite de um <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>maior</i> do que o valor de <b>Início aleatório da máscara</b>. |
+| <b>Início aleatório da máscara</b> <i>Flutuante</i> | Para uma determinada <b>Distribuição aleatória</b>, o mascaramento pseudoaleatório é aplicado seguindo uma <i>ordem específica</i> de uma forma inicial para uma forma final. Este parâmetro permite <i>deslocar o índice</i> da forma <i>inicial</i>.<br><br><i>Observação</i>: isso determina um limite de um <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>maior</i> do que o valor de <b>Fim aleatório da máscara</b>. |
+| <b>Fim aleatório da máscara</b> <i>Flutuante</i> | Para uma determinada <b>Distribuição aleatória</b>, o mascaramento pseudoaleatório é aplicado seguindo uma <i>ordem específica</i> de uma forma inicial para uma forma final. Este parâmetro permite <i>deslocar o índice</i> da forma <i>fim</i>.<br><br><i>Observação</i>: isso determina um limite de um <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>maior</i> do que o valor de <b>Início aleatório da máscara</b>. |
 | <b>Inverter máscara por área da célula</b> <i>Booleano</i> | Inverte o mascaramento de formas pela área de suas células. |
-| <b>Início da Máscara por Área de Célula</b> <i>Precisão decimal</i> | Ajusta o <i>limite mínimo</i> da área da célula para mascaramento de formas.<br><br><i>Observação</i>: isso determina um limite de um <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>maior</i> do que o valor <b>Fim da Máscara por Área de Célula</b>. |
-| <b>Fim da Máscara por Área de Célula</b> <i>Precisão decimal</i> | Ajusta o <i>limite máximo</i> da área da célula para mascaramento de formas.<br><br><i>Observação</i>: isso determina um limite de um <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>menor</i> do que o valor <b>Início da Máscara por Área de Célula</b>. |
+| <b>Início da Máscara por Área de Célula</b> <i>Flutuante</i> | Ajusta o <i>limite mínimo</i> da área da célula para mascaramento de formas.<br><br><i>Observação</i>: isso determina um limite de um <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>maior</i> do que o valor <b>Fim da Máscara por Área de Célula</b>. |
+| <b>Fim da Máscara por Área de Célula</b> <i>Flutuante</i> | Ajusta o <i>limite máximo</i> da área da célula para mascaramento de formas.<br><br><i>Observação</i>: isso determina um limite de um <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>menor</i> do que o valor <b>Início da Máscara por Área de Célula</b>. |
 | <b>Inversão de entrada de mapa de máscara</b> <i>Booleano</i> | Inverte o mascaramento de formas pelo mapa de entrada <b>Mapa de máscaras</b>. |
 | <b>Início da Entrada do Mapa de Máscaras</b> <i>Flutuante</i> | Ajusta o <i>limite mínimo de valor em tons de cinza</i> no mapa de entrada <b>Mapa de Máscaras</b> para mascarar formas.<br><br><i>Observação</i>: isso determina um limite de <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>maior</i> do que o valor <b>Fim de entrada do mapa de máscaras</b>. |
 | <b>Fim da Entrada do Mapa de Máscaras</b> <i>Flutuante</i> | Ajusta o <i>limite máximo de valor em tons de cinza</i> no mapa de entrada do <b>Mapa de máscaras</b> para formas de mascaramento.<br><br><i>Observação</i>: isso determina um limite de <i>intervalo de valores</i> para mascaramento. Portanto, o valor pode ser <i>menor</i> do que o valor de <b>Início da Entrada do Mapa de Máscaras</b>. |
@@ -113,25 +113,25 @@ Uma saída dedicada permite que você insira os **UVs** da forma em **Flood Fill
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-variant.jpg" />
+            <img src="tile-random-2.resources/tilerandom2-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-variant2.jpg" />
+            <img src="tile-random-2.resources/tilerandom2-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-variant3.jpg" />
+            <img src="tile-random-2.resources/tilerandom2-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-inputs.gif" />
+            <img src="tile-random-2.resources/tilerandom2-inputs.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-demo.gif" />
+            <img src="tile-random-2.resources/tilerandom2-demo.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-demo2.gif" />
+            <img src="tile-random-2.resources/tilerandom2-demo2.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-node.png" />
+            <img src="tile-random-2.resources/tilerandom2-node.png" />
         </td>
     </tr>
 </table>
