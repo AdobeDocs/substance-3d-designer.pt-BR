@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Saiba mais sobre a interface da área de trabalho do Substance 3D Designer, incluindo visualizações, painéis e opções de personalização.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Espaço de trabalho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 1%
@@ -24,7 +24,7 @@ O espaço de trabalho é dividido em áreas separadas chamadas <b>docks</b>, que
 
 Este é o layout de encaixe padrão do Designer:
 
-![Janela principal do Substance 3D Designer](../assets/interface-overview.jpg "janela principal do Substance 3D Designer")
+![Janela principal do Substance 3D Designer](interface.resources/interface-overview.jpg "janela principal do Substance 3D Designer")
 
 <table>
 <tr style="border: 0;">
@@ -73,7 +73,7 @@ A barra de ferramentas principal permite acessar menus extras, como a[janela Pre
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu principal e barra de ferramentas](../assets/mainmenu-1.png "Menu principal e barra de ferramentas")
+![Menu principal e barra de ferramentas](interface.resources/mainmenu-1.png "Menu principal e barra de ferramentas")
 
 </td>
 </tr>
@@ -89,34 +89,34 @@ A barra de ferramentas principal permite acessar menus extras, como a[janela Pre
 
 [A janela do Explorer](the-explorer-window/the-explorer-window.md) é a principal maneira de interagir com qualquer tipo de arquivo e recurso. Ele fornece mais opções do que o menu Arquivo na barra de ferramentas principal. Aqui é onde o início e o fim de cada sessão de trabalho.
 
-![Explorador](../assets/explorer-4.png "Explorador")
+![Explorador](interface.resources/explorer-4.png "Explorador")
 
 ## Exibição de gráfico
 
 [O Dock do modo de exibição Gráfico](../interface/the-graph-view/the-graph-view.md) é a janela mais importante do Substance 3D Designer. Ele exibe as redes nodais de qualquer tipo de gráfico disponível no Designer ([gráficos de Substance](../compositing-graphs/substance-compositing-graphs.md), [gráficos de funções de Substance](../function-graphs/function-graphs.md), [gráficos de FX-Map](../function-graphs/fxmaps/fxmaps.md)) e permite que você os crie e edite.
 
-![Exibição de gráfico](../assets/graph-6.png "Exibição de gráfico")
+![Exibição de gráfico](interface.resources/graph-6.png "Exibição de gráfico")
 
 ## Propriedades
 
 O [Encaixe de propriedades](properties/properties.md) é a janela mais técnica. É sempre sensível ao contexto e apresentará controles deslizantes, listas suspensas e outros elementos que alteram o comportamento de um recurso ou nó selecionado.
 
-![Propriedades](../assets/properties-15.jpg "Propriedades")
+![Propriedades](interface.resources/properties-15.jpg "Propriedades")
 
 ## Visualização 2D
 
 [O Modo de Exibição 2D](../interface/2d-view/2d-view.md) é a ferramenta de visualização mais simples. Ele funciona em conjunto com o Gráfico: clicar duas vezes em qualquer Nó na Visualização do gráfico exibirá o resultado visual na Visualização 2D.
 
-![Exibição 2D](../assets/2d-view-1.jpg "Exibição 2D")
+![Exibição 2D](interface.resources/2d-view-1.jpg "Exibição 2D")
 
 ## Visualização 3D
 
 [A Exibição 3D](../interface/3d-view/3d-view.md) é a janela de visualização mais interativa e avançada. Diferentemente da visualização 2D, ela usa vários mapas de saída diferentes para renderizar um material completo. Isso significa que todos os canais são representados, como Basecolor, Normal e Aspereza.
 
-![Exibição 3D](../assets/3dview-3.jpg "Exibição 3D")
+![Exibição 3D](interface.resources/3dview-3.jpg "Exibição 3D")
 
 ## Biblioteca
 
 [O Dock da biblioteca](../interface/the-library/the-library.md) fornece acesso a todo o conteúdo incluído na biblioteca do Designer por padrão, bem como ao seu [conteúdo personalizado](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Para entender melhor a diferença entre Nós Atômicos e Nós de Instância na biblioteca, leia a [Visão Geral de Nós](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
 
-![Biblioteca](../assets/library-3.jpg "Biblioteca")
+![Biblioteca](interface.resources/library-3.jpg "Biblioteca")

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Saiba como ativar e gerenciar licenças do Substance 3D Designer para acessar todos os recursos e capacidades.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ativação e licenças
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
@@ -24,13 +24,13 @@ O processo de ativação depende de onde você adquiriu ou tem acesso ao Designe
 
 | Edição | Processo de ativação |
 | --- | --- |
-| Creative Cloud para desktop | Consulte a página dedicada na [documentação do HelpX](https://helpx.adobe.com/br/support/substance-3d-designer.html). Caso haja problemas, a [documentação do Creative Cloud](https://helpx.adobe.com/br/creative-cloud/user-guide.html) poderá fornecer respostas adicionais. |
+| Creative Cloud para desktop | Consulte a página dedicada na [documentação do HelpX](https://helpx.adobe.com/support/substance-3d-designer.html). Caso haja problemas, a [documentação do Creative Cloud](https://helpx.adobe.com/creative-cloud/user-guide.html) poderá fornecer respostas adicionais. |
 | Vapor | Inicie o produto diretamente da biblioteca do Steam. |
 | Substance (autônomo) | Consulte o processo de ativação descrito abaixo. |
 
 ## Etapas de ativação (edição Substance)
 
-### USANDO O ASSISTENTE DE ATIVAÇÃO
+### USAR O ASSISTENTE DE ATIVAÇÃO
 
 Há três opções disponíveis:
 
@@ -42,7 +42,7 @@ Há três opções disponíveis:
 >
 > Para instalar o arquivo de licença com o Assistente de ativação, execute o Designer como administrador e desative temporariamente o antivírus.
 
-![Assistente de ativação](../../assets/activation-wizard.png "Assistente de ativação")
+![Assistente de ativação](activation-and-licenses.resources/activation-wizard.png "Assistente de ativação")
 
 ### Ativação manual
 
