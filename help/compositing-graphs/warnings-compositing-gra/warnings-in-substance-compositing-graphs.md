@@ -73,7 +73,7 @@ No painel [Explorador](../../interface/the-explorer-window/the-explorer-window.m
 
 ### ![(erro)](warnings-in-substance-compositing-graphs.resources/error.svg) Recurso de referência não encontrado
 
-O recurso referenciado por um nó não foi encontrado no caminho salvo no arquivo SBS (Substance 3D[1}. ](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)Aqui estão alguns nós que fazem referência a um recurso:
+O recurso referenciado por um nó não foi encontrado no caminho salvo no arquivo SBS (Substance 3D[1&rbrace;. &#x200B;](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)Aqui estão alguns nós que fazem referência a um recurso:
 
 * Um nó [instância de gráfico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) faz referência a um gráfico
 * Um nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) faz referência a um [recurso de Bitmap](../../resources/bitmap-resource/bitmap-resource.md)
