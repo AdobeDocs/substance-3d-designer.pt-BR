@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Use o Localizador de nós para pesquisar e localizar rapidamente nós em seus gráficos de Substance para uma navegação eficiente.
 helpx_creative_field: ""
