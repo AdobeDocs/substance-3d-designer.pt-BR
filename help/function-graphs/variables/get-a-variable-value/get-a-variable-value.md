@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
 breadcrumb-title: ''
 description: Saiba como recuperar valores de variáveis nos gráficos de função do Substance 3D Designer usando o nó Obter variável.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Obter um valor de variável
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -24,11 +24,11 @@ Para usar uma variável em uma função, você precisa “chamá-la”, o que si
 
 Para fazer isso, você precisa usar um nó *Get*:
 
-![](../../../assets/image2015-12-21-7-29-51.png)
+![](get-a-variable-value.resources/image2015-12-21-7-29-51.png)
 
 Há diferentes tipos de nós Obter: escolha o correto de acordo com o tipo de valor que deseja importar:
 
-![](../../../assets/image2015-12-21-7-31-4.png)
+![](get-a-variable-value.resources/image2015-12-21-7-31-4.png)
 
 ## Atribuir uma variável a um nó Get
 
@@ -38,7 +38,7 @@ Para vincular uma variável, vá para os parâmetros e escolha uma variável na 
 
 O nome da variável será exibido no nó:
 
-![](../../../assets/assign-getfloat.gif)
+![](get-a-variable-value.resources/assign-getfloat.gif)
 
 Observe que apenas as variáveis que são do mesmo tipo do nó Get aparecerão na lista.
 
