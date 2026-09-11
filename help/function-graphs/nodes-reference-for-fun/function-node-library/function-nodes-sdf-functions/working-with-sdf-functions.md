@@ -272,7 +272,7 @@ Em seguida, é possível colar a função copiada do nó do visualizador 3D ness
 Certifique-se de ajustar o parâmetro **Tamanho do quadro delimitador SDF** para corresponder ao [quadro delimitador](#the-bounding-frame) que você estava usando no nó do visualizador 3D e certifique-se de que a forma foi desenhada corretamente.
 
 ![trabalhando-com-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-*respingo de forma v2 com um **tipo de forma**definido como `SDF function`. Observe que o **tamanho do quadro delimitador do SDF**foi ajustado para se ajustar à forma.*
+*respingo de forma v2 com um **tipo de forma**&#x200B;definido como `SDF function`. Observe que o **tamanho do quadro delimitador do SDF**&#x200B;foi ajustado para se ajustar à forma.*
 
 >[!TIP]
 > 

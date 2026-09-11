@@ -199,8 +199,8 @@ Por exemplo, detectar a ausência de uma variável permite fornecer um valor de 
 * [Visualização 3D] Specular level não aplicado corretamente
 * [Visualização 3D] O Specular edge color não funciona ao usar o rasterizador de Eclair
 * [Visualização 3D] O material adicionado pelo usuário não é aplicado em cenas padrão
-* [Visualização 3D][Baker] A cor do material fica muito escura depois de substituída ou ao usar um baker “Cor”
-* [Visualização 3D][Baker] Nenhuma cor material do arquivo FBX
+* [Visualização 3D]&#x200B;[Baker] A cor do material fica muito escura depois de substituída ou ao usar um baker “Cor”
+* [Visualização 3D]&#x200B;[Baker] Nenhuma cor material do arquivo FBX
 * [Baker] As cores do material nos arquivos FBX não são detectadas corretamente
 * [Baker] A opção &#39;recompute\_tangents&#39; é sempre &#39;false&#39; nas exportações predefinidas JSON
 * [Baker] CLI: falha ao executar o mesmo baker consecutivamente por meio do arquivo JSON

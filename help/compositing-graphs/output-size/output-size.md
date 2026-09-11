@@ -73,7 +73,7 @@ Isso também se aplica quando o valor do Tamanho de Saída é controlado por uma
 
 ## Tamanho relativo
 
-Quando a propriedade Tamanho de Saída usa um *Método de herança Relativo a...*[](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), seu valor é expresso como um modificador *relativamente ao valor logarítmico herdado*.
+Quando a propriedade Tamanho de Saída usa um *Método de herança Relativo a...*[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), seu valor é expresso como um modificador *relativamente ao valor logarítmico herdado*.
 
 Modificadores relativos à resolução herdada variam de -12 a +12 em uma escala logarítmica, com o padrão sendo 0. Isso significa que cada etapa acima ou abaixo resulta na duplicação ou na redução da resolução para a metade. A tabela à direita fornece um exemplo de como a resolução relativa é alterada em uma dimensão para um valor herdado de 9 (ou seja, 512 = 2^9) e 11 (ou seja, 2048 = 2^11):
 

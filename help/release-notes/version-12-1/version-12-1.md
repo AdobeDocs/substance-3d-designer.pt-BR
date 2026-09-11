@@ -134,7 +134,7 @@ Dê uma olhada nas páginas de nó vinculadas abaixo para obter exemplos da ampl
 * [Content] Nova versão do nó Quantizar escala de cinza
 * [Conteúdo] Novos ruídos fractais de Voronoi e Voronoi (2D/3D)
 * [Conteúdo] Limite: adicionar o modo de comparação “Inferior” e “Inferior e igual”
-* [Conteúdo][Exibição 3D] Adicionar um ajuste de malha para exibir tecidos aos recursos enviados
+* [Conteúdo]&#x200B;[Exibição 3D] Adicionar um ajuste de malha para exibir tecidos aos recursos enviados
 * [modelos Substance] Novo nó Expandir instâncias de grupo
 * [modelos de Substance] Novo nó de Fuse
 * [Substance models] Novo nó Renomear
@@ -176,8 +176,8 @@ Dê uma olhada nas páginas de nó vinculadas abaixo para obter exemplos da ampl
 * [Content] Flood Fill: Sangria de texto nos botões de parâmetros booleanos
 * [Content] Intervalo incorreto do parâmetro Ângulo de luz de primeira amostra do nó Multiângulo para Normal
 * [modelos Substance] Propriedades do nó mostra o identificador em vez do rótulo
-* [Modelos Substance][visualização 3D] Problema de atualização ao reabrir um projeto
-* [Modelos Substance][3Dview] Problema de atualização ao usar a visualização de wireframe
+* [Modelos Substance]&#x200B;[visualização 3D] Problema de atualização ao reabrir um projeto
+* [Modelos Substance]&#x200B;[3Dview] Problema de atualização ao usar a visualização de wireframe
 * [Parâmetros] Falha ao excluir entradas de gráfico em sucessão rápida em um caso específico
 * [Parameters] Falha ao redefinir um parâmetro de instância ao editar sua descrição de referência
 * [Bitmap] A detecção de UDIM não é acionada para arquivos de bitmap descartados no gráfico

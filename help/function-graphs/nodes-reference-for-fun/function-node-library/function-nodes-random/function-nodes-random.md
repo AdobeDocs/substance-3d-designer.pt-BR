@@ -32,15 +32,15 @@ Distribuição normal
 
 Aleatório discreto [a, b]
 
-Uniforme aleatório [-1, 1[
+Uniforme aleatório &lbrack;-1, 1&lbrack;
 
-Uniforme aleatório [a, b[
+Uniforme aleatório &lbrack;a, b&lbrack;
 
-Flutuação uniforme aleatória2 [a, b[
+Flutuação uniforme aleatória2 &lbrack;a, b&lbrack;
 
-Flutuação uniforme aleatória3 [a, b[
+Flutuação uniforme aleatória3 &lbrack;a, b&lbrack;
 
-Flutuação uniforme aleatória4 [a, b[
+Flutuação uniforme aleatória4 &lbrack;a, b&lbrack;
 
 </td>
 <td style="border: 0;" valign="top">
