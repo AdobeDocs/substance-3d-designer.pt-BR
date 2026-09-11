@@ -1,8 +1,8 @@
 ---
-source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
+source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 11%
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
 # A FAZER
@@ -22,7 +22,7 @@ ht-degree: 11%
   * Metalidade / Metálico
   * HDR
   * Especular
-  * mapa de heights
+  * Mapa de altura
   * Opacidade
   * Frustum
   * Espaço tangente
@@ -33,7 +33,6 @@ ht-degree: 11%
 
 ## Correções
 
-* Links e formatação quebrados no [nó de saída](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 * Corrigir link para a primeira imagem de exemplo nas páginas do nó (por exemplo, novos ruídos)
 * Item &#39;Negative integer&#39; ausente e links desfeitos em [parameters-not-working-as-expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 

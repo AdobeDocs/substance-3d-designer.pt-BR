@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: Saiba mais sobre a interface da área de trabalho do Substance 3D Designer, incluindo visualizações, painéis e opções de personalização.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Espaço de trabalho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -117,6 +117,6 @@ O [Encaixe de propriedades](properties/properties.md) é a janela mais técnica.
 
 ## Biblioteca
 
-[O Dock da biblioteca](../interface/the-library/the-library.md) fornece acesso a todo o conteúdo incluído na biblioteca do Designer por padrão, bem como ao seu [conteúdo personalizado](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). Para entender melhor a diferença entre Nós Atômicos e Nós de Instância na biblioteca, leia a [Visão Geral de Nós](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
+[O Dock da biblioteca](../interface/the-library/the-library.md) fornece acesso a todo o conteúdo incluído na biblioteca do Designer por padrão, bem como ao seu [conteúdo personalizado](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md).
 
 ![Biblioteca](interface.resources/library-3.jpg "Biblioteca")

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
 description: Solucione problemas de saída de imagem incorreta no Substance 3D Designer e saiba como corrigir problemas de renderização.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Saída de imagem incorreta
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Esta página lista problemas técnicos no Substance 3D Designer que resultam em 
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(erro)](../../assets/error.svg) Problema**
+**![(erro)](incorrect-image-output.resources/error.svg) Problema**
 
 Em vez de suaves, os gradientes na saída da imagem são incrementados. A depuração é causada pelo *intervalo de valores usado pela imagem ser muito estreita*.\
 Isso significa que não há valores suficientes para fazer uma transição suave de uma etapa de um gradiente para a próxima.
@@ -43,13 +43,13 @@ Se você não precisa especificamente trabalhar com imagens HDR, então a maiori
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/demo-stepping-8-bit.png){width="256px"}![](../../assets/demo-stepping-8-bit-2.png){width="256px"}![](../../assets/demo-stepping-8-bit-3.png){width="256px"}
+![](incorrect-image-output.resources/demo-stepping-8-bit.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-2.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-3.png){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(tick)](../../assets/check.svg) Etapas recomendadas**
+**![(tick)](incorrect-image-output.resources/check.svg) Etapas recomendadas**
 
 Verifique o **Formato de saída** (ou seja, profundidade de bits) do nó e todos os nós upstream e certifique-se de que esses nós usam *precisão de Inteiro de pelo menos 16 bits*.
 
@@ -73,7 +73,7 @@ Por exemplo:
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-<b>![(erro)](../../assets/error.svg) Problema</b>
+<b>![(erro)](incorrect-image-output.resources/error.svg) Problema</b>
 
 A qualidade da saída de imagens de um arquivo Substance 3D (SBSAR) é visivelmente inferior ao gráfico do arquivo Substance 3D do qual é publicado, conforme mostrado na imagem à direita.\
 A saída aparece em baixa resolução.
@@ -81,15 +81,15 @@ A saída aparece em baixa resolução.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
+![](incorrect-image-output.resources/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-<b>![(tick)](../../assets/check.svg) Etapas recomendadas</b>
+<b>![(tick)](incorrect-image-output.resources/check.svg) Etapas recomendadas</b>
 
-Verifique se a propriedade [Tamanho de saída](../../compositing-graphs/output-size/output-size.md) de todos os nós [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) está definida como o método de herança [&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) ** Absoluto.
+Verifique se a propriedade [Tamanho de saída](../../compositing-graphs/output-size/output-size.md) de todos os nós [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) está definida como o método de herança ](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) *[* Absoluto.
 
 Caso contrário, o [recurso de bitmap](../../resources/bitmap-resource/bitmap-resource.md) referenciado nele será salvo na resolução padrão de 256\*256 no arquivo publicado do Substance 3D, o que* afetará a qualidade* de uma ou mais saídas.
 
@@ -99,20 +99,20 @@ Caso contrário, o [recurso de bitmap](../../resources/bitmap-resource/bitmap-re
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(erro)](../../assets/error.svg) Problema**
+**![(erro)](incorrect-image-output.resources/error.svg) Problema**
 
 As formas ficam um pouco desfocadas após o uso de alguns nós, como [Transformação 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) ou [Combinar](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-bilinear.jpg){width="256px"}
+![](incorrect-image-output.resources/issues-bilinear.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(tick)](../../assets/check.svg) Etapas recomendadas**
+**![(tick)](incorrect-image-output.resources/check.svg) Etapas recomendadas**
 
 Ao reorganizar pixels em uma imagem, por exemplo, ao redimensionar uma forma ou alterar a resolução de uma imagem, há duas maneiras de determinar como os pixels da origem devem ser *mapeados* para o destino:
 
