@@ -45,7 +45,7 @@ ht-degree: 16%
 |:---|:---|
 | <b>Oclusão de ambiente</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para efeitos internos e mascaramento. |
 | <b>Curvatura</b> <i>Entrada em tons de cinza</i> | Mapa baked usado para efeitos internos e mascaramento. |
-| <b>WS normal</b> <i>Entrada de cores</i> | Fez bake o World Space Normalmap usado para efeitos internos e mascaramento. |
+| <b>WS normal</b> <i>Entrada de cores</i> | Mapa normal do espaço do mundo assado usado para efeitos internos e mascaramento. |
 | <b>Máscara</b> <i>Entrada em tons de cinza</i> | Slot de máscara usado para mascarar os efeitos do nó. Pode ser alternado com o parâmetro “Máscara”. |
 
 <a name="parameters"></a>
@@ -72,13 +72,13 @@ ht-degree: 16%
 | <b>Dessaturação De Rochas Usadas</b> <i>0.0 - 1.0</i> |  |
 | <b>Brilho de Rock Usado</b> <i>0.0 - 1.0</i> |  |
 | <b>Mesclagem</b> |  |
-| <b>Intensidade de Difusão</b> <i>0.0 - 1.0</i> | Intensidade de mesclagem do Difusa. |
+| <b>Intensidade de Difusão</b> <i>0.0 - 1.0</i> | Força de mistura da Difusão. |
 | <b>Intensidade de Cor de base</b> <i>0.0 - 1.0</i> | Intensidade de mesclagem da Cor de base. |
 | <b>Intensidade normal</b> <i>0.0 - 64.0</i> | Intensidade de mesclagem do Normal. |
 | <b>Intensidade de Specular</b> <i>0.0 - 1.0</i> | Intensidade de mistura do Specular. |
 | <b>Intensidade de brilho</b> <i>0.0 - 1.0</i> | Intensidade de mistura da Textura reluzente. |
 | <b>Intensidade de aspereza</b> <i>0.0 - 1.0</i> | Intensidade de mistura da aspereza. |
-| <b>Intensidade de Oclusão de ambiente</b> <i>0.0 - 1.0</i> | Intensidade de mesclagem da Oclusão de ambiente. |
+| <b>Intensidade de Oclusão de ambiente</b> <i>0.0 - 1.0</i> | Intensidade de mesclagem da Oclusão ambiente. |
 | <b>Intensidade de Height</b> <i>0.0 - 1.0</i> | Intensidade de mistura do Height. |
 
 ## Exemplos

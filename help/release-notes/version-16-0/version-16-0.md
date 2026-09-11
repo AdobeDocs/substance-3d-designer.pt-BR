@@ -306,32 +306,32 @@ O requisito para a versão mínima compatível do macOS foi atualizado para o ma
 * [Conteúdo] Nó do visualizador 3D
 * [Content] Nós do operador SDF 3D
 * [Conteúdo] Nós primitivos SDF 3D
-* [Conteúdo] Nós de transformação 3D SDF
+* [Content] Nós de transformo SDF 3D
 * [Content] Nós de material SDF 3D
 * [Content] Ângulo para nó de vetor
 * [Content] Nós de valor constante
-* [Visualização 3D] Sombreador de OpenPBR para renderizador OpenGL
-* [Visualização 3D] Sombreador de OpenPBR para renderizadores Rasterizador e GPU Pathtracer
-* [Visualização 3D] Janela do Deslocamento para definir a escala do height, o nível do height e o mosaico
-* [Exibição 3D] Reorganizar os itens da barra de ferramentas
-* [Visualização 3D] Definir OpenPBR como o modelo de material padrão na Visualização 3D
-* [3D View] Fazer com que a visualização 3D leve em consideração o atributo do gráfico “Modelo de material”
-* [Exibição 3D] Sincronizar modelos de material ao alternar entre os renderizadores Rasterizador/GPU Pathtracer e OpenGL
-* [Exibição 3D] Garanta que o modelo de material seja persistente ao alternar renderizadores 3D e alterações de definição de material
+* [Visualização 3D] sombreador de OpenPBR para o renderizador OpenGL
+* [Visualização 3D] sombreador de OpenPBR para renderizadores Rasterizador e GPU Pathtracer
+* [Visualização 3D] Janela do Deslocamento para definir a escala, o nível e o mosaico do height
+* [Visualização 3D] Reorganizar os itens da barra de ferramentas
+* [Visualização 3D] Definir OpenPBR como o modelo de material padrão no Visualização 3D
+* [Visualização 3D] Fazer com que a exibição 3D leve em consideração o atributo do gráfico “Modelo de material”
+* [Visualização 3D] Sincronizar modelos de material ao alternar entre os renderizadores Rasterizer/GPU Pathtracer e OpenGL
+* [Visualização 3D] Garanta que o modelo de material seja persistente ao alternar renderizadores 3D e alterações de definição de material
 estão sincronizados
-* [Exibição 3D] GPU Pathtracer: ativar ciclo de pixel de ruído azul
-* [Exibição 3D] Expor controle de opacidade de oclusão ambiente
-* [3D View] Define o intervalo do parâmetro &#39;Tiling&#39; como [0, 10] para todos os sombreadores
-* [Exibição 3D] Renomear a ação “Foco” como “Quadro”
+* [Visualização 3D] GPU Pathtracer: Ativar ciclo de pixel de ruído azul
+* [Visualização 3D] Expor controle de opacidade de Oclusão de ambiente
+* [Visualização 3D] Defina o intervalo do parâmetro &#39;Tiling&#39; como [0, 10] para todos os sombreadores
+* [Visualização 3D] Renomear a ação &#39;Foco&#39; como &#39;Quadro&#39;
 * [Visualização 3D] Manipular o novo parâmetro refineLevel que substitui tessellationFactor
-* [Exibição 3D] Adicionar contador de FPS
+* [Visualização 3D] Adicionar contador FPS
 * [Visualização 3D] Mova a barra de progresso na mesma barra de ferramentas horizontal que o espaço de cores na parte inferior
-* [Padeiros] Exibir o UV do padeiro selecionado na visualização
+* [Baker] Exibe o UV da baker selecionada na visualização
 * [Graph] Adicionar novo atributo &#39;Modelo de material&#39; aos gráficos de Substance
 * [NewGraph] Adiciona separadores na visualização de miniaturas
 * [Parâmetros] Defina o valor de constante padrão para parâmetros de entrada com o editor &#39;Function&#39;
 * [Parâmetros] Preencha a caixa de combinação dos parâmetros de nó `Set` e `Is defined` com as variáveis disponíveis
-* [Preferências] Remover a opção obsoleta “Fator de desescala” na guia “Visualização 3D”
+* [Preferências] Remover opção obsoleta &#39;Fator de desescala&#39; na guia &#39;Visualização 3D&#39;
 * [Publish] Caixa de diálogo Publish: incluir modelo de material nas informações do gráfico
 * [Python] Adicionar nova classe SDMaterialModelDescription para obter as informações de um modelo de material
 * [Python] Permite obter/definir a propriedade modelo de material de objetos SDSBSCompGraph
@@ -342,7 +342,7 @@ estão sincronizados
 * [Terceiros] Atualizar API C++ para C++ 20
 * [ThirdParty] Atualize o NGL para 1.42
 * [Terceiros] Atualize uma versão para a versão 2022.x
-* [ThirdParty] Atualizar o OpenColorIO para a versão 2.5.x
+* [Terceiros] Atualize o OpenColorIO para a versão 2.5.x
 * [Terceiro] Atualizar o OpenEXR para a versão 3.4.x
 * [ThirdParty] Atualize Qt e QtForPython para 6.8.x e Python para 3.13.x
 * [Terceiros] Atualize o TBB para oneTBB 2021.x
@@ -350,10 +350,10 @@ estão sincronizados
 
 ### Correções
 
-* [2D View] O intervalo de seleção do histograma não é preservado quando a largura do widget se torna pequena
+* [Visualização 2D] O intervalo de seleção do histograma não é preservado quando a largura do widget se torna pequena
 * [Exportação 3D] As malhas exportadas do Designer não renderizam o mesmo no usdview
-* [Exibição 3D] Atribuir objetos não udim à Exibição 3D deixa o modo de renderização de bloco único
-* [Exibição 3D] Resultado apertado ao usar o OCIO
+* [Visualização 3D] Atribuir itens não udim ao modo de renderização de Visualização 3D simples
+* [Visualização 3D] Resultado Restringido ao usar OCIO
 * [Exibição 3D] Falha ao aplicar uma textura de gráfico em um material não substituído para uma cena específica
 * [3D View] Falha ao criar buffers de quadro
 * [3D View] Eclair GPU Pathtracer: geometria quebrada e baixo desempenho ao renderizar um modelo específico

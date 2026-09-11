@@ -57,8 +57,8 @@ Este nó permite o ajuste de todos e quaisquer canais de um material completo, c
 |  |  |
 |:---|:---|
 | <b>Canais</b> | Ativa e desativa os canais de material neste grupo, por exemplo, ao usar mapas de Specular/Textura reluzente em vez de Metálico/Aspereza.<br><br>Isso também ativa e desativa a aparência dos grupos relevantes do canal. |
-| <b>Difusa</b> | Executa operações de ajuste no canal da Difusão, em áreas definidas pela máscara. |
-| <b>Cor base</b> | Executa operações de ajuste no canal de Cor de base, em áreas definidas pela máscara. |
+| <b>Difusões</b> | Executa operações de ajuste no canal da Difusão, em áreas definidas pela máscara. |
+| <b>Cor de base</b> | Executa operações de ajuste no canal de Cor de base, em áreas definidas pela máscara. |
 | <b>Normal</b> |  |
 | <b>Intensidade</b> <i>0.0 - 1.0</i> | Reduz a intensidade normal |
 | <b>Specular</b> | Executa operações de ajuste no canal de Specular, em áreas definidas pela máscara. |

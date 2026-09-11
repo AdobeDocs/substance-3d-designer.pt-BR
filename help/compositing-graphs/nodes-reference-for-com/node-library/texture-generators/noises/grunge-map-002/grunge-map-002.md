@@ -26,14 +26,14 @@ ht-degree: 7%
 
 ![](grunge-map-002.resources/grungemap-002.png){width="128px"}
 
-<b>Entrada:</b> geradores de textura > Ruídos
+<b>Entrada:</b> geradores de Textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-Gera um Noisemap complexo e combinado. Esse nó pode ser muito útil como um procedimento detalhado, mas lembre-se de que esse processo exige muito desempenho e, portanto, é mais lento.
+Gera um Noisemap complexo e combinado. Esse nó pode ser muito útil como um processual detalhado, mas lembre-se de que eles exigem muito desempenho e, portanto, são mais lentos de gerar.
 
 </td>
 </tr>

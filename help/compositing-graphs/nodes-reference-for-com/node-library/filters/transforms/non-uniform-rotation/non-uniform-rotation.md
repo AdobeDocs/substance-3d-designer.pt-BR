@@ -74,9 +74,9 @@ Valores positivos na entrada **Mapa de rotação** resultam em uma rotação *ho
 | <b>Multiplicador de Ângulo de Rotação</b> <i>Flutuante</i> | Ajusta a intensidade da entrada de **Mapa de rotação**. |
 | <b>Deslocamento do Ângulo de Rotação</b> <i>Flutuante</i> | Aplica a quantidade adicional especificada de rotação. |
 | <b>Usar o Mapa de Posição de pivô</b> <i>Booleano</i> | Use uma *entrada de bitmap* para especificar a posição da tabela dinâmica de rotação. A posição **X/Y** está mapeada para os canais **R/G** da entrada **Mapa de Posições**. |
-| <b>Posição de pivô</b> <i>Flutuante2</i> | A posição da tabela dinâmica em torno da qual a imagem é girada. |
-| <b>Cor do plano de fundo</b> <i>Flutuante/Flutuante4</i> | Cor do plano de fundo para exibir *fora* dos limites da imagem caso a divisão em blocos gráficos não esteja definida como **Divisão em blocos gráficos em H e V**. |
-| <b>Modo de Filtragem</b> <i>Inteiro</i> | Define como tratar os resultados de amostra ao *interpolar* entre pixels:<br><br>- *Mais próximo*: obterá uma amostra exatamente do *mesmo* valor (mais rápido)<br>- *Bilinear*: aplicará um filtro bilinear no resultado para uma aparência *mais suave* |
+| <b>Posição de pivô</b> <i>Precisão decimal 2</i> | A posição da tabela dinâmica em torno da qual a imagem é girada. |
+| <b>Cor do plano de fundo</b> <i>Precisão decimal/Precisão decimal 4</i> | Cor do plano de fundo para exibir *fora* dos limites da imagem caso a divisão em blocos gráficos não esteja definida como **Divisão em blocos gráficos em H e V**. |
+| <b>Modo de filtragem</b> <i>Inteiro</i> | Define como tratar os resultados de amostra ao *interpolar* entre pixels:<br><br>- *Mais próximo*: obterá uma amostra exatamente do *mesmo* valor (mais rápido)<br>- *Bilinear*: aplicará um filtro bilinear no resultado para uma aparência *mais suave* |
 
 ## Exemplos
 

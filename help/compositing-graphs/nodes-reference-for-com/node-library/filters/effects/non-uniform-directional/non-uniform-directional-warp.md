@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## Descrição
 
-A Distorção de Direção Não Uniforme é uma versão avançada da [Distorção Direcional](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) que permite que a intensidade e a direção da distorção sejam determinadas por uma entrada de imagem. Permite muito mais controle e pode criar uma distorção de imagem muito útil e interessante, em vão igual ao [Desfoque de Inclinação](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
+A Distorção de Direção Não Uniforme é uma versão avançada da [Deformação direcional](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) que permite que a intensidade e a direção da distorção sejam determinadas por uma entrada de imagem. Permite muito mais controle e pode criar uma distorção de imagem muito útil e interessante, em vão igual ao [Desfoque de Inclinação](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
 
-É diferente de [Distorção Multidirecional](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md), pois permite o controle sobre o Ângulo por meio de uma entrada de Mapa personalizada, enquanto a Distorção Multidirecional só permite o controle da Direção por meio de parâmetros. Isso significa que você pode criar efeitos avançados de curva e de direita que, de outra forma, não seriam possíveis.
+É diferente de [Várias Deformações direcionais](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md), pois permite o controle sobre o Ângulo por meio de uma entrada de Mapa personalizada, enquanto a Várias Deformações direcionais só permite o controle da Direção por meio de parâmetros. Isso significa que você pode criar efeitos avançados de curva e de direita que, de outra forma, não seriam possíveis.
 
 </td>
 </tr>

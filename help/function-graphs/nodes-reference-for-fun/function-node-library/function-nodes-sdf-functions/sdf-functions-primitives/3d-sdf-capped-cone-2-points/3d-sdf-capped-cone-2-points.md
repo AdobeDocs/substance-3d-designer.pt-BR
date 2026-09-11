@@ -44,4 +44,4 @@ Uma Função SDF para um cone limitado definido pelas posições de sua base e t
 | <b>Posição superior</b> *Flutuante3* | A posição da parte superior do cone limitado.<br><br><i>Padrão: (0, 0, 1)</i> |
 | <b>Base do raio</b> *Flutuante* | O raio da base do cone limitado.<br><br><i>Padrão: 0,5</i> |
 | <b>Raio superior</b> *Flutuante* | O raio da parte superior do cone limitado.<br><br><i>Padrão: 0,2</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>P</b> *Flutuante3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

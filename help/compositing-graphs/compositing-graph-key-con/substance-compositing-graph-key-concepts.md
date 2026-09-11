@@ -30,7 +30,7 @@ As entradas, as saídas e os parâmetros expostos são extremamente importantes 
 
 * Nenhuma saída significaria que o gráfico <b>não gera nada</b>, nenhum dado.
 * Nenhum Parâmetro exposto significa que o gráfico <b>não pode ser personalizado</b> de forma alguma. Você não seria capaz de definir coisas como a intensidade de um efeito, a opacidade de uma imagem sendo mesclada, a cor de uma área específica, etc...
-* Sem Entradas significa que, em alguns casos, você não poderá personalizar o resultado de um gráfico com<b> seus próprios dados de imagem</b>, como mapas de malha cozida para gerar efeitos, uma imagem de entrada para executar um desfoque ou uma máscara personalizada para isolar determinadas áreas de uma imagem.
+* Sem Entradas significa que, em alguns casos, você não poderá personalizar o resultado de um gráfico com<b> seus próprios dados de imagem</b>, como mapas de malha feitos bake para gerar efeitos, uma imagem de entrada para executar um desfoque ou uma máscara personalizada para isolar determinadas áreas de uma imagem.
 
 ## Entradas e saídas
 

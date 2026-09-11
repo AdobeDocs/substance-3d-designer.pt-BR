@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
-description: Use o nó Visualizar caminhos para visualizar dados de caminho no Visualização 2D para depuração e verificação.
+description: Use o nó Visualizar caminhos para visualizar dados de caminho na visualização 2D para depuração e verificação.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Preview Paths
 helpx_experience_level: ""
@@ -58,7 +58,7 @@ Você obterá um resultado semelhante à saída <b>Visualizar</b> de [Mascarar p
 |:---|:---|
 | <b>Mostrar Cantos</b> <i>Booleano</i> | Exibe um quadrado em cada vértice marcado como canto (mesclagem aditiva). |
 | <b>Mostrar vértices</b> <i>Booleano</i> | Exibe uma forma circular em cada vértice (mistura aditiva). Os cantos ainda são exibidos como quadrados. |
-| <b>Thickness de segmentos (px)</b> <i>Precisão decimal</i> | Ajusta o thickness de segmentos renderizados em pixels. |
+| <b>Thickness de segmentos (px)</b> <i>Flutuante</i> | Ajusta o thickness de segmentos renderizados em pixels. |
 
 ## Exemplos
 

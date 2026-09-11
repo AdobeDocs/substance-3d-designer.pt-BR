@@ -70,17 +70,17 @@ Desenha cadeias de segmentos ao longo das <b>Splines</b> de entrada sobre o <b>F
 | <b>Mostrar Auxiliar de Direção</b> <i>Booleano</i> | Para cada spline, desenha um ponto no início da spline e uma ponta de seta no final. |
 | <b>Valor de Segmentos</b> <i>Inteiro</i> | Ajusta o número de segmentos desenhados ao longo das splines.<br>Um valor mais alto resulta em linhas mais suaves. |
 | <b>Quantidade de spline do envelope</b> <i>Inteiro</i> | O número de segmentos duplicados que devem ser desenhados ao longo do thickness de cada spline. |
-| <b>Iniciar</b> <i>Precisão decimal</i> | Desloca o início da parte da spline que deve ser desenhada.<br>O valor representa o comprimento normalizado da spline. |
-| <b>Fim</b> <i>Precisão decimal</i> | Desloca a extremidade da parte da spline que deve ser desenhada.<br>O valor representa o comprimento normalizado da spline. |
+| <b>Iniciar</b> <i>Flutuante</i> | Desloca o início da parte da spline que deve ser desenhada.<br>O valor representa o comprimento normalizado da spline. |
+| <b>Fim</b> <i>Flutuante</i> | Desloca a extremidade da parte da spline que deve ser desenhada.<br>O valor representa o comprimento normalizado da spline. |
 | <b>Modo de Tamanho de Thickness</b> <i>Inteiro</i> | O método de calcular o thickness dos segmentos desenhados:<br>- <i>Imagem</i>: o valor é normalizado no espaço de textura, onde 1 é a largura total da imagem. Thickness é relativo à resolução da textura;<br>- <i>Pixel</i>: o valor é um número absoluto de pixels na textura, onde 1 é um pixel completo. O thickness é separado da resolução da textura. |
-| <b>Thickness (imagem)</b> <i>Flutuante</i> | (disponível quando o “Modo do tamanho do Thickness” está definido como Imagem) O thickness dos segmentos desenhados normalizados no espaço de textura, onde 1 é a largura total da imagem. |
-| <b>Thickness (px)</b> <i>Flutuante</i> | (disponível quando o “Modo de tamanho de Thickness” estiver definido como Pixel) O thickness dos segmentos desenhados como um número absoluto de pixels na textura, onde 1 é um pixel completo. |
+| <b>Thickness (imagem)</b> <i>Precisão decimal</i> | (disponível quando o “Modo do tamanho do Thickness” está definido como Imagem) O thickness dos segmentos desenhados normalizados no espaço de textura, onde 1 é a largura total da imagem. |
+| <b>Thickness (px)</b> <i>Precisão decimal</i> | (disponível quando o “Modo de tamanho de Thickness” estiver definido como Pixel) O thickness dos segmentos desenhados como um número absoluto de pixels na textura, onde 1 é um pixel completo. |
 | <b>Habilitar Junções</b> <i>Booleano</i> | Preenche as lacunas entre os segmentos individuais desenhados ao longo das splines usando discos. |
 | <b>Correção Não Quadrada</b> <i>Booleano</i> | Ajuste a posição e o thickness dos pontos para manter a forma de spline em resoluções não quadradas.<br>Isso também afeta a distribuição uniforme. |
 | <b>Cor</b> |  |
-| <b>Intensidade de fundo</b> <i>Flutuante</i> | O valor multiplicado em relação à imagem de entrada do plano de fundo. |
+| <b>Intensidade de fundo</b> <i>Precisão decimal</i> | O valor multiplicado em relação à imagem de entrada do plano de fundo. |
 | <b>Estilo de Spline</b> <i>Inteiro</i> | O método usado para colorir as splines:<br>- <i>Sólidas</i>: os segmentos são desenhados usando um valor uniforme em tons de cinza;<br>- <i>Gradiente</i>: um gradiente de preto para branco é aplicado a cada sequência de segmentos do início ao fim;<br>- <i>Height</i>: o height das splines é usado como o valor em tons de cinza para desenhar os segmentos. |
-| <b>Cor da spline</b> <i>Flutuante</i> | O valor uniforme de tons de cinza usado para desenhar os segmentos.<br>Quando um Estilo de Spline diferente de “Sólido” é selecionado, essa cor é multiplicada pela cor estilizada. |
+| <b>Cor da spline</b> <i>Precisão decimal</i> | O valor uniforme de tons de cinza usado para desenhar os segmentos.<br>Quando um Estilo de Spline diferente de “Sólido” é selecionado, essa cor é multiplicada pela cor estilizada. |
 | <b>Luminância aleatória</b> <i>Flutuante</i> | Para cada sequência de segmentos não cortados em uma spline, o aplica um deslocamento aleatório no intervalo especificado ao valor de tons de cinza usado para desenhar essa sequência. |
 | <b>Modo de Mesclagem</b> <i>Inteiro</i> | O método de mesclar as cores do plano de fundo e os segmentos sobrepostos desenhados ao longo das linhas de spline:<br>- <i>Máx</i>: o valor mais claro é usado;<br>- <i>Adicionar</i>: os valores são adicionados juntos. |
 | <b>Segmentos aleatórios</b> |  |

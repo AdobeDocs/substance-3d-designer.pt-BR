@@ -53,7 +53,7 @@ Muitas melhorias foram adicionadas ao gráfico de modelo para expandir os recurs
 * <b>Melhorias gerais\
   </b>O fluxo de trabalho em torno do gráfico de modelagem foi aprimorado com:
   * Novas dicas de ferramentas nos parâmetros de nós para torná-los mais fáceis de aprender.
-  * A hierarquia de modelo 3D agora é preservada ao exportar em FBX
+  * A hierarquia de modelos 3D agora é preservada ao exportar em FBX
   * A atribuição de materiais pode ser exportada com os formatos de arquivo OBJ e FBX.
   * Visualize os nós intermediários na viewport no modo de sobreposição.
 
@@ -64,9 +64,9 @@ Muitas melhorias foram adicionadas ao gráfico de modelo para expandir os recurs
 As ações de envio foram ampliadas, com duas novas possibilidades:
 
 * **Enviar SBSM (arquivo de modelo do substance) para o Stager**\
-  Modelos 3D de procedimentos agora podem ser enviados para o Stager e modificados a partir daí com os parâmetros expostos.
+  Modelos 3D processuais agora podem ser enviados para o Stager e modificados a partir desse local com os parâmetros expostos.
 
-* **Receber SBS/SBSAR da Sampler**\
+* **Receber SBS/SBSAR do Sampler**\
   Agora é possível receber arquivos de Substance gerados pelo Sampler diretamente no Designer.
 
 ### Diversos

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Enviar para...  Interoperabilidade
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Enviar para...  Interoperabilidade
 
-![Enviar do Designer para aplicativos da Substance 3D](../../../assets/explorer-interop.png "Enviar do Designer para aplicativos da Substance 3D"){width="512px"}
+![Enviar do Designer para aplicativos da Substance 3D](send-to-interoperability.resources/explorer-interop.png "Enviar do Designer para aplicativos da Substance 3D"){width="512px"}
 
 O Adobe Substance 3D Designer tem interoperabilidade com o [Substance 3D Sampler](https://www.adobe.com/br/products/substance3d-sampler.html), o [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) e o [Substance 3D Stager](https://www.adobe.com/br/products/substance3d-stager.html). Isso permite *enviar* e *reenviar* seu trabalho rapidamente, facilitando a iteração pelo ecossistema do Substance 3D.
 
@@ -49,7 +49,7 @@ Na seção <b>Atributos </b>de propriedades de um gráfico [Substance](../../../
 </td>
 <td style="border: 0;" valign="top">
 
-Atributo Type do gráfico ![Substance](../../../assets/type-attribute.jpg "atributo Type do gráfico Substance")
+Atributo Type do gráfico ![Substance](send-to-interoperability.resources/type-attribute.jpg "atributo Type do gráfico Substance")
 
 </td>
 </tr>
@@ -76,12 +76,12 @@ O processo de envio envolveu a [publicação](../../../compositing-graphs/publis
 O envio de conteúdo pode ser executado das seguintes maneiras:
 
 * Clique com o botão direito do mouse em um pacote e abra o submenu <b>Enviar para...</b> no menu contextual. Em seguida, escolha a opção <b>Enviar para...</b> para o aplicativo de destino;
-* Clique no botão ![](../../../assets/sendto-icon.jpg) <b>Publish/Send</b> na parte superior do painel do Explorer e escolha a opção <b>Enviar para...</b> para o aplicativo de destino.
+* Clique no botão ![](send-to-interoperability.resources/sendto-icon.jpg) <b>Publish/Send</b> na parte superior do painel do Explorer e escolha a opção <b>Enviar para...</b> para o aplicativo de destino.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Menu Publish/Enviar para no Explorer](../../../assets/explorer-sendto-displayed.jpg "Menu Publish/Enviar para no Explorer")
+![Menu Publish/Enviar para no Explorer](send-to-interoperability.resources/explorer-sendto-displayed.jpg "Menu Publish/Enviar para no Explorer")
 
 </td>
 </tr>

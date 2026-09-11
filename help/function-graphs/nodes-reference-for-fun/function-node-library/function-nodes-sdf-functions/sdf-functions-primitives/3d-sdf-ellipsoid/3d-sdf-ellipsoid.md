@@ -40,6 +40,6 @@ Uma Função SDF para um elipsoide, que é uma forma arredondada de raio tridime
 
 |  |  |
 | :--- | :--- |
-| <b>Raio</b> *Flutuante3* | O raio do elipsoide em X, Y e Z.<br><br><i>Padrão: (0,35, 0,35, 0,5)</i> |
-| <b>Posição central</b> *Flutuante3* | A posição do espaço global da tabela dinâmica do elipsoide.<br><br><i>Padrão: (0, 0, 0)</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>Raio</b> *Precisão decimal 3* | O raio do elipsoide em X, Y e Z.<br><br><i>Padrão: (0,35, 0,35, 0,5)</i> |
+| <b>Posição central</b> *Precisão decimal 3* | A posição do espaço global da tabela dinâmica do elipsoide.<br><br><i>Padrão: (0, 0, 0)</i> |
+| <b>P</b> *Precisão decimal 3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

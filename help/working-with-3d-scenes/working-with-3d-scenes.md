@@ -66,17 +66,17 @@ Você pode interagir com os seguintes conteúdos da cena:
 
 ![Conteúdo de uma cena 3D](../assets/loaded3DScene.png "Conteúdo de uma cena 3D"){zoomable="yes"}
 
-O Designer usa uma descrição em USD para sua cena 3D. Seu layout pode ser navegado no navegador de Cena, onde cada tipo de [USD prim](https://openusd.org/release/glossary.html#usdglossary-prim) tem seu próprio ícone (geometria, material, sombreador, câmera, transformação, ...).
+O Designer usa uma descrição de USD para sua cena 3D. Seu layout pode ser navegado no navegador de Cena, onde cada tipo de [prim USD](https://openusd.org/release/glossary.html#usdglossary-prim) tem seu próprio ícone (geometria, material, sombreador, câmera, transformo, ...).
 
 O [navegador de cena](../interface/3d-view/scene-browser/scene-browser.md) pode ser usado para selecionar, habilitar e desabilitar o conteúdo da cena. Portanto, recomendamos que você o mantenha exibido ao trabalhar com cenas 3D personalizadas.
 
 ## Carregamento de uma cena
 
-Há vários caminhos para carregar uma cena 3D na Visualização 3D:
+Há vários caminhos para carregar uma cena 3D no Visualização 3D:
 
-1. Clique duas vezes ou arraste um [recurso de cena 3D](../resources/3d-scene-resource/3d-scene-resource.md) de um [pacote](../glossary/glossary.md) para a exibição 3D
-1. Arraste um item de cena 3D da [Biblioteca](../interface/the-library/the-library.md) para a exibição 3D (desde que você [tenha adicionado seu próprio conteúdo à Biblioteca](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md))
-1. Arrastar um arquivo de cena 3D do navegador de arquivos do sistema para a Exibição 3D
+1. Clique duas vezes ou arraste um [recurso de cena 3D](../resources/3d-scene-resource/3d-scene-resource.md) de um [pacote](../glossary/glossary.md) para o Visualização 3D
+1. Arraste um item de cena 3D da [Biblioteca](../interface/the-library/the-library.md) para o Visualização 3D (desde que você [tenha adicionado seu próprio conteúdo à Biblioteca](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md))
+1. Arrastar um arquivo de cena 3D do navegador de arquivos do sistema para o Visualização 3D
 1. Carregar um arquivo de estado de cena 3D (SBSSCN) junto com sua malha referenciada
 
 Observe que apenas os métodos 1 e 4 permitem carregar a cena novamente exatamente como estava quando você trabalhou nela pela última vez, pois o estado da cena é gravado no arquivo de recursos de cena 3D e de estado da cena e salvo no pacote. Os métodos 2 e 3 carregam a cena como qualquer outra.
@@ -121,13 +121,13 @@ Carregamento de um arquivo de estado de cena
 
 >[!NOTE]
 >
-> Navegar e visualizar a cena na Exibição 3D é abordado na [documentação da Exibição 3D](../interface/3d-view/3d-view.md).
+> Navegar e visualizar a cena na Visualização 3D é abordado na [documentação do Visualização 3D](../interface/3d-view/3d-view.md).
 
 <table>
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-O Designer sempre cria seu próprio ambiente (DomeLight em USD) e câmera, além daqueles que podem existir na cena.
+O Designer sempre cria seu próprio ambiente (DomeLight no USD) e câmera, além daqueles que podem existir na cena.
 
 Todos os itens criados pelo Designer são listados com os <b>rótulos em negrito</b> no navegador de Cenas.
 

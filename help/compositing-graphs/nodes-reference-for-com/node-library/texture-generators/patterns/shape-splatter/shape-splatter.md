@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter.html"
 breadcrumb-title: ''
-description: Use o nó respingo de forma para dispersão formas entre texturas para criar padrões e detalhes de procedimentos.
+description: Use o nó respingo de forma para dispersão formas no textura a fim de criar padrões e detalhes processuais.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: respingos de forma
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 7%
@@ -24,18 +24,18 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter.png){width="128px"}
+![](shape-splatter.resources/shape-splatter.png){width="128px"}
 
-<b>Em:</b> Geradores De Textura > Padrões
+<b>Em:</b> Textura Geradores > Padrões
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-Um nó muito complexo, projetado para ser usado em conjunto com os nós acompanhantes [Mistura de respingo de forma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md), [Separador de forma para máscara](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-to-mask/shape-splatter-to-mask.md) e [Extração de dados de respingo de forma](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-data-ext/shape-splatter-data-extract.md). Usado para respingar formas de forma semelhante ao [Tile Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) ou ao [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md), mas com um processo dinâmico e não destrutivo que permite o controle sobre cada etapa por meio de um sistema de vários níveis semelhante ao [Flood Fill.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) Enquanto o Flood Fill obtém um mapa de entrada base de uma fonte externa, o Shape Splatter gera o mapa e os dados subsequentes em uma única etapa, como uma espécie de versão mais avançada do [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md).
+Um nó muito complexo, projetado para ser usado em conjunto com os nós acompanhantes [Shape Splatter Combinar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md), [Shape Splatter to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-to-mask/shape-splatter-to-mask.md) e [Shape Splatter Data Extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-data-ext/shape-splatter-data-extract.md). Usado para respingar formas de forma semelhante ao [Tile Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) ou ao [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md), mas com um processo dinâmico e não destrutivo que permite o controle sobre cada etapa por meio de um sistema de vários níveis semelhante ao [Flood Fill.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) Enquanto o Flood Fill obtém um mapa de entrada base de uma fonte externa, o Shape Splatter gera o mapa e os dados subsequentes em uma única etapa, como uma espécie de versão mais avançada do [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md).
 
-Seu principal objetivo é permitir a colocação de formas sobre e orientado por um mapa de height e, em seguida, gerar vários mapas a partir dos dados de Splatter. Por exemplo, colocar rochas, galhos e folhas em uma paisagem, orientada e conduzida por vários mapas. Mapas diferentes podem então ser usados para height, normal, basecolor, rugosidade e qualquer outro canal, enquanto todos ainda são baseados nos mesmos dados de respingo compartilhados.
+Seu principal objetivo é permitir a colocação de formas sobre e orientado por um mapa de altura e, em seguida, gerar vários mapas a partir dos dados de Splatter. Por exemplo, colocar rochas, galhos e folhas em uma paisagem, orientada e conduzida por vários mapas. Mapas diferentes podem então ser usados para height, normal, basecolor, rugosidade e qualquer outro canal, enquanto todos ainda são baseados nos mesmos dados de respingo compartilhados.
 
 </td>
 </tr>

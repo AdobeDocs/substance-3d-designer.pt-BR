@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Controle
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 65827855542d37bf8c090d4d3072684848b73515
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Esta página descreve nós de [Gráficos de função](../../../../function-graph
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó If...Else](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "Nó If...Else")
+![Nó If...Else](../../../../assets/IfElse_Node.jpg "Nó If...Else")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ A condição que controla a saída do nó.
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó de sequência](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "Nó de sequência")
+![Nó de sequência](../../../../assets/Sequence_Node.jpg "Nó de sequência")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ A parte do gráfico que deve ser calculada por último
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó de Loop Inteiro](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Nó de loop inteiro")
+![Nó de Loop Inteiro](../../../../assets/WhileLoop-Node.jpg "Nó de Loop Inteiro")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Configurações do projeto
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '2687'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Isso é muito útil se você quiser configurar um ambiente de trabalho comum par
 >
 > Para obter mais informações sobre a configuração e a integração do Substance 3D Designer em um **pipeline de produção**, *recomendamos fortemente* consultar a seção [Configuração de Pipeline e Projeto](../../../pipeline-and-project-con/pipeline-and-project-configuration.md) da documentação.
 
-![Configurações do projeto](../../../assets/2019-3-0-prefs-proj-01.png "Configurações do projeto"){zoomable="yes"}
+![Configurações do projeto](project-settings.resources/2019-3-0-prefs-proj-01.png "Configurações do projeto"){zoomable="yes"}
 
 ## Configuração
 

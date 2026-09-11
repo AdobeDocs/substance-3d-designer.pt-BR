@@ -10,7 +10,7 @@ helpx_tags: ""
 title: O gráfico da função Substance
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 À primeira vista, o gráfico de função Substance é realmente semelhante a um gráfico de Substance e o fluxo de trabalho é quase o mesmo.
 
-![gráfico de função de Substance](../../assets/image2015-12-18-11-29-28.png "gráfico de função de Substance")
+![gráfico de função de Substance](the-function-graph.resources/image2015-12-18-11-29-28.png "gráfico de função de Substance")
 
 ## A navegação é semelhante
 
@@ -53,7 +53,7 @@ Os nós disponíveis no gráfico de função Substance são completamente difere
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![lista de nós de gráfico de função de Substance](../../assets/image2015-12-18-13-46-55.png "lista de nós de gráfico de função de Substance")
+![lista de nós de gráfico de função de Substance](the-function-graph.resources/image2015-12-18-13-46-55.png "lista de nós de gráfico de função de Substance")
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Outro ponto a ser observado é que não há um nó de saída específico no qual
 </td>
 <td style="border: 0;" valign="top">
 
-![nó de saída do gráfico de função Substance](../../assets/image2015-12-18-13-49-43.png "nó de saída do gráfico de função Substance")
+![nó de saída do gráfico de função Substance](the-function-graph.resources/image2015-12-18-13-49-43.png "nó de saída do gráfico de função Substance")
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Outro ponto a ser observado é que não há um nó de saída específico no qual
 
 Para definir a saída, basta clicar com o botão direito do mouse no nó que gera a saída esperada e clicar em *Definir como nó de Saída:*
 
-![Definindo o nó de saída](../../assets/setoutputnode.gif "Definindo o nó de saída")
+![Definindo o nó de saída](the-function-graph.resources/setoutputnode.gif "Definindo o nó de saída")
 
 >[!WARNING]
 >
@@ -99,7 +99,7 @@ Quanto aos gráficos de Substance, você pode importar funções feitas em outro
 </td>
 <td style="border: 0;" valign="top">
 
-![Abrir gráfico de função de Substance referenciado](../../assets/image2017-6-27-10-44-55.png "Abrir gráfico de função de Substance referenciado")
+![Abrir gráfico de função de Substance referenciado](the-function-graph.resources/image2017-6-27-10-44-55.png "Abrir gráfico de função de Substance referenciado")
 
 </td>
 </tr>
@@ -107,4 +107,4 @@ Quanto aos gráficos de Substance, você pode importar funções feitas em outro
 
 Se você tiver um sbs contendo várias funções, poderá arrastá-lo e soltá-lo diretamente em um gráfico de função do Substance e escolher a função que deseja importar na lista exibida:
 
-![Descartar gráfico de função de Substance do pacote](../../assets/sbsdrag.gif "Descartar gráfico de função de Substance do pacote")
+![Descartar gráfico de função de Substance do pacote](the-function-graph.resources/sbsdrag.gif "Descartar gráfico de função de Substance do pacote")

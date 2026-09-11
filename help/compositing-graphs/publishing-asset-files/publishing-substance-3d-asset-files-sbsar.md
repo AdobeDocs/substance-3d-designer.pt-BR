@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Publicação de arquivos de ativos do Substance 3D (SBSAR)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,16 @@ ht-degree: 2%
 
 Esta página explica como a Substance 3D Designer pode publicar pacotes como arquivos de <b>ativos do Substance 3D</b>, um formato de arquivo especial com a extensão <b>SBSAR</b>, usado no ecossistema de Substance bem como em outros aplicativos que dão suporte a ele.
 
-Normalmente, é melhor usar um ativo do Substance 3D em vez de bitmaps, pois ele é muito mais flexível e leve. Se você estiver usando o [Painter](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/home), o [Sampler](https://helpx.adobe.com/br/substance-3d-sampler.html) ou o [Player](https://helpx.adobe.com/substance-3d-player/home.html) do Substance 3D, é mais rápido usar o recurso [&#39;Enviar para...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
+Normalmente, é melhor usar um ativo do Substance 3D em vez de bitmaps, pois ele é muito mais flexível e leve. Se você estiver usando o [Painter](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/home), o [Sampler](https://experienceleague.adobe.com/pt-br/docs/substance-3d-sampler/using/home) ou o [Player](https://helpx.adobe.com/substance-3d-player/home.html) do Substance 3D, é mais rápido usar o recurso [&#39;Enviar para...&#39;](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
 
-![Publicação de arquivos SBSAR simplificada](../../assets/exportflow.png "Publicação de arquivos SBSAR simplificada")
+![Publicação de arquivos SBSAR simplificada](publishing-substance-3d-asset-files-sbsar.resources/exportflow.png "Publicação de arquivos SBSAR simplificada")
 
 ## Publicando conceitos
 
 é bom ter o seguinte em mente ao publicar um gráfico de Substance:
 
 * Você<b> publica um pacote</b>, com todo o seu conteúdo, não um [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md) individual. Um ativo do Substance 3D permite gerar conteúdo de todos os gráficos de Substance dentro deste pacote.
-* Os pacotes publicados são <b>completamente autônomos</b>: todos os recursos necessários estão incorporados ao arquivo. Isso significa que eles são muito mais fáceis de compartilhar do que arquivos SBS.
+* Os pacotes publicados são <b>completamente autônomos</b>: todos os recursos necessários estão incorporados ao arquivo. Isso significa que eles são muito mais fáceis de compartilhar do que os arquivos SBS.
 * A saída dos ativos do Substance 3D pode ser <b>completamente dinâmica</b>. [A resolução não está definida; os parâmetros expostos podem ser modificados.](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) No entanto, não é mais possível editar o gráfico.
 * Os ativos do Substance 3D podem ser usados fora do Designer, em todos os produtos Adobe Substance 3D, no Adobe Dimension e em qualquer outro aplicativo que tenha uma [integração de Substance](https://experienceleague.adobe.com/pt-br/docs/substance-3d/ecosystem/home).
 * A publicação é diferente de[Exportar](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). Certifique-se de entender bem a diferença.
@@ -55,14 +55,14 @@ Quando estiver pronto para publicar, há duas maneiras de acessar a Caixa de Di�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-No Explorer, clique com o botão direito do mouse no pacote e escolha ![](../../assets/image2020-9-23-9-39-58.png) **arquivo .sbsar do Publish...**, tecla de atalho alternativa Ctrl + P.
+No Explorer, clique com o botão direito do mouse no pacote e escolha ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png) **arquivo .sbsar do Publish...**, tecla de atalho alternativa Ctrl + P.
 
-Depois de publicar com caixa de diálogo uma vez, você também pode usar o arquivo ![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsar como anterior** para repetir o processo de publicação sem ver as caixas de diálogo, publicando imediatamente com as mesmas configurações.
+Depois de publicar com caixa de diálogo uma vez, você também pode usar o arquivo ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png) **Publish .sbsar como anterior** para repetir o processo de publicação sem ver as caixas de diálogo, publicando imediatamente com as mesmas configurações.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/publish-rightclick.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publish-rightclick.gif)
 
 </td>
 </tr>
@@ -72,14 +72,14 @@ Depois de publicar com caixa de diálogo uma vez, você também pode usar o arqu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-No Explorer, clicando no botão do Publish ![](../../assets/image2020-9-23-9-39-58.png) na barra de ferramentas superior.
+No Explorer, clicando no botão do Publish ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png) na barra de ferramentas superior.
 
-Depois de Publicar com caixa de diálogo uma vez, você também pode usar o Publish como botão anterior ![](../../assets/image2020-9-23-11-15-35.png) para repetir o processo de publicação sem ver as caixas de diálogo, publicando imediatamente com as mesmas configurações.
+Depois de Publicar com caixa de diálogo uma vez, você também pode usar o Publish como botão anterior ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png) para repetir o processo de publicação sem ver as caixas de diálogo, publicando imediatamente com as mesmas configurações.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/publish-toolbutton.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publish-toolbutton.gif)
 
 </td>
 </tr>
@@ -91,12 +91,12 @@ Depois de Publicar com caixa de diálogo uma vez, você também pode usar o Publ
 
 ## Opções de publicação de ativos
 
-Antes de as Opções do Publish de ativo serem exibidas, você será solicitado a salvar o arquivo Substance 3D (SBS) se isso não tiver sido feito, e você será solicitado onde salvar o ativo Substance 3D. Para evitar ver as caixas de diálogo e os prompts de arquivo, e obter o arquivo mais rapidamente, use o <b>Publish como métodos anteriores</b> descritos acima.
+Antes que as Opções de ativo do Publish sejam exibidas, você será solicitado a salvar o arquivo do Substance 3D (SBS) se isso não tiver sido feito e será solicitado a saber onde salvar o ativo do Substance 3D. Para evitar ver as caixas de diálogo e os prompts de arquivo, e obter o arquivo mais rapidamente, use o <b>Publish como métodos anteriores</b> descritos acima.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Opções de publicação de ativos](../../assets/publish-dialog.png "Opções de publicação de ativos")
+![Opções de publicação de ativos](publishing-substance-3d-asset-files-sbsar.resources/publish-dialog.png "Opções de publicação de ativos")
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ Para impedir que um gráfico se torne visível ou utilizável em um arquivo de a
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2020-9-23-10-40-21.png)
+![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-10-40-21.png)
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ A caixa de diálogo Publish às vezes exibe avisos em amarelo. Os mais comuns es
 
 Embora o ativo do Substance 3D seja o formato mais poderoso e dinâmico do ecossistema de Substance, há algumas pequenas limitações técnicas que você deve conhecer.
 
-* Os pacotes de ativos do Substance 3D publicados são um formato de arquivo unidirecional. Não é possível “descompilar” um ativo do Substance 3D em um arquivo do Substance 3D (SBS). A única maneira de “editar” um ativo do Substance 3D é editar o arquivo original do Substance 3D. Você ainda pode usar o conteúdo do pacote de ativos do Substance 3D como nós dentro de novos gráficos de Substance (abrir e arrastar e soltar), portanto, essa não é uma grande limitação.
+* Os pacotes de ativos do Substance 3D publicados são um formato de arquivo unidirecional. Não é possível “descompilar” um ativo do Substance 3D de volta para um arquivo do Substance 3D (SBS). A única maneira de “editar” um ativo do Substance 3D é editar o arquivo original do Substance 3D. Você ainda pode usar o conteúdo do pacote de ativos do Substance 3D como nós dentro de novos gráficos de Substance (abrir e arrastar e soltar), portanto, essa não é uma grande limitação.
 * Os arquivos de ativos do Substance 3D têm versões que inferem a compatibilidade. O Substance Engine principal é atualizado periodicamente com novos recursos. os pacotes que usam esses recursos precisam ser lidos por aplicativos que oferecem suporte a esses novos recursos. Isso não é um problema para todos os aplicativos Substance, pois todos são atualizados ao mesmo tempo, mas os plug-ins e as integrações podem ter atrasos de compatibilidade mais longos.\
   Use as opções de exibição de Compatibilidade de Substance Engine nas [Preferências do Projeto](../../interface/preferences-window/project-settings/project-settings.md)para rastrear possíveis problemas.
 * Alguns parâmetros expostos, como os parâmetros *estáticos*, são *ocultos* assim que um gráfico é publicado como parte de um ativo do Substance 3D. Consulte a seção [Limitações](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) da página [Expondo um parâmetro](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) para obter uma lista desses parâmetros e saber mais sobre parâmetros estáticos em geral.

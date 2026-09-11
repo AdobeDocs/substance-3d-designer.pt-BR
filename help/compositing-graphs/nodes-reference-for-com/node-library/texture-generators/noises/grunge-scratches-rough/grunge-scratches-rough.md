@@ -52,15 +52,15 @@ O nó **Scratches de Desgaste Áspero** gera um mapa de desgaste semelhante a um
 | <b>Avançado</b> |  |
 | <b>Quantidade de Rascunhos</b> <i>Flutuante</i> | Ajusta a quantidade de arranhões na superfície. |
 | <b>Lado a lado zero</b> <i>Inteiro</i> | Ajusta a quantidade de divisão em blocos gráficos aplicada aos arranhões. |
-| <b>Desfoque de Rascunho</b> <i>Precisão decimal</i> | Ajusta o desfoque dos arranhões. |
-| <b>Largura do Rascunho</b> <i>Precisão decimal</i> | Ajusta a largura dos arranhões. |
-| <b>Comprimento de arranhão</b> <i>Precisão decimal</i> | Ajusta o comprimento dos arranhões. |
-| <b>Mascaramento de Rascunho</b> <i>Precisão decimal</i> | Ajusta a intensidade do mascaramento aplicado em partes dos arranhões. |
-| <b>Sujeira de arranhões</b> <i>Precisão decimal</i> | Ajusta a sujeira dos arranhões, o que quebra a nitidez e a continuidade. |
-| <b>Rascunho Duplo</b> <i>Precisão decimal</i> | Ajusta a opacidade de um segundo arranhão aplicado ao lado de cada um com um leve efeito de deformação. |
-| <b>Intensidade de manchas de arranhão</b> <i>Precisão decimal</i> | Ajusta a intensidade dos pontos danificados aplicados ao lado dos arranhões. |
+| <b>Desfoque de Rascunho</b> <i>Flutuante</i> | Ajusta o desfoque dos arranhões. |
+| <b>Largura do Rascunho</b> <i>Flutuante</i> | Ajusta a largura dos arranhões. |
+| <b>Comprimento de arranhão</b> <i>Flutuante</i> | Ajusta o comprimento dos arranhões. |
+| <b>Mascaramento de Rascunho</b> <i>Flutuante</i> | Ajusta a intensidade do mascaramento aplicado em partes dos arranhões. |
+| <b>Sujeira de arranhões</b> <i>Flutuante</i> | Ajusta a sujeira dos arranhões, o que quebra a nitidez e a continuidade. |
+| <b>Rascunho Duplo</b> <i>Flutuante</i> | Ajusta a opacidade de um segundo arranhão aplicado ao lado de cada um com um leve efeito de deformação. |
+| <b>Intensidade de manchas de arranhão</b> <i>Flutuante</i> | Ajusta a intensidade dos pontos danificados aplicados ao lado dos arranhões. |
 | <b>Divisão em Blocos Gráficos</b> <i>Inteiro</i> | Ajusta a divisão em blocos gráficos dos pontos danificados. |
-| <b>Intensidade de Dust</b> <i>Precisão decimal</i> | Ajusta a intensidade da sobreposição do dust. |
+| <b>Intensidade de Dust</b> <i>Flutuante</i> | Ajusta a intensidade da sobreposição do dust. |
 | <b>Divisão em blocos gráficos</b> <i>Inteiro</i> | Ajusta a divisão em blocos gráficos da sobreposição de dust. |
 | <b>Intensidade de nitidez</b> <i>Flutuante</i> | Ajusta a intensidade do efeito de nitidez global. |
 

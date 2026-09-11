@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # Utilitários (Geradores Baseados Em Malha)
 
-Esses nós são ferramentas mais abstratas para ajudá-lo a trabalhar com nós adaptativos de malha. Em alguns casos, sua funcionalidade também está estreitamente vinculada aos [Filtros de material](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md).
+Esses nós são ferramentas mais abstratas para ajudá-lo a trabalhar com nós adaptativos de malha. Em alguns casos, sua funcionalidade também está estreitamente vinculada a [Filtros Materiais](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md).
 
 Há apenas alguns nós nesta categoria, portanto, verifique todos eles.

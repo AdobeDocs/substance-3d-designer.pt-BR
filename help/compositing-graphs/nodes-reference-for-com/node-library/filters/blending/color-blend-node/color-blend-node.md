@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Cor (Nó Combinar)
+title: Cor (Nó de mesclagem)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
@@ -18,7 +18,7 @@ ht-degree: 4%
 ---
 
 
-# Cor (Nó Combinar)
+# Cor (Nó de mesclagem)
 
 <table>
 <tr style="border: 0;">

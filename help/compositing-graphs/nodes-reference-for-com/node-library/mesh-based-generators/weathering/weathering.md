@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Ação do tempo
 
-Os nós de intemperismo levam os [Geradores de máscaras](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md) um passo adiante: eles fazem um efeito de intemperismo material completo com base em parâmetros e mapas baked. O conceito é muito semelhante ao de [Materiais inteligentes](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/features/smart-materials-and-masks) em Substance Painter.
+Os nós de intemperismo levam [Geradores de máscara](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md) um passo adiante: eles fazem um efeito de intemperismo material completo com base em parâmetros e mapas baked. O conceito é muito semelhante a [Materiais inteligentes](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/features/smart-materials-and-masks) em Substance Painter.
 
 Você precisa ter um ou mais mapas baked para obter um resultado completo desses nós.
 

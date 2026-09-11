@@ -134,7 +134,7 @@ Um objeto de gráfico (*SDGraphObject*) é um objeto que <b>adiciona informaçõ
 
 Há <b>3 tipos</b> de objetos de gráfico:
 
-* <b>Pin</b> (*SDGraphObjectPin*)
+* <b>Fixar</b> (*SDGraphObjectPin*)
 * <b>Comentário</b> (*SDGraphObjectComment*)
 * <b>Quadro</b> (*SDGraphObjectFrame*)
 
@@ -147,7 +147,7 @@ Uma propriedade (*SDProperty*) é um objeto que <b>descreve</b> uma propriedade 
 Pertence a uma <b>categoria</b> específica (*SDPropertyCategory*):
 
 * <b>Entrada</b>: classifica as propriedades de entrada de um objeto, que geralmente<b> afetam a operação</b> realizada pelo objeto atual;
-  * Por exemplo: a propriedade &#39;*color*&#39; de um nó de Cor Uniforme em um gráfico de Substance é uma propriedade de entrada;
+  * Exemplo: a propriedade &#39;*color*&#39; de um nó de Cor uniforme em um gráfico de Substance é uma propriedade de entrada;
 * <b>Saída</b>: classifica as propriedades de saída de um objeto. É usado para identificar um <b>resultado</b> de um objeto;
 * <b>Anotação</b>: classifica propriedades que <b>*não* afetam a operação</b> realizada por um objeto;
   * Exemplo: o &#39;*rótulo*&#39; de um gráfico é uma propriedade de anotação, pois não afeta o cálculo do gráfico.

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ''
-description: Use o nó Desfoque direcional para aplicar efeitos de desfoque em uma direção específica para criar efeitos de desfoque e listras de movimento.
+description: Use o nó Desfoque direcional para aplicar efeitos de desfoque em uma direção específica para criar efeitos de desfoque de movimento e listras.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
 helpx_experience_level: ""
@@ -111,8 +111,8 @@ As imagens abaixo mostram o desfoque direcional e o [desfoque anisotrópico](../
 
 |  |  |
 | --- | --- |
-| <b>Intensidade</b> *Flutuante* | Define o raio de desfoque em pixels. |
-| <b>Ângulo</b> *Flutuante* | A direção do efeito de desfoque em número de voltas no sentido horário, começando na horizontal, ou seja, vetor de direção (1, 0). |
+| <b>Intensidade</b> *Precisão decimal* | Define o raio de desfoque em pixels. |
+| <b>Ângulo</b> *Precisão decimal* | A direção do efeito de desfoque em número de voltas no sentido horário, começando na horizontal, ou seja, vetor de direção (1, 0). |
 
 ## Conectores de entrada
 

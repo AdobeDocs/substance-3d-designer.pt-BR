@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ''
-description: Use o nó Conversão de tons de cinza para converter texturas coloridas em tons de cinza usando vários métodos de conversão.
+description: Use o nó Conversão em escala cinza para converter texturas coloridas em tons de cinza usando vários métodos de conversão.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Grayscale conversion
 helpx_experience_level: ""
@@ -92,9 +92,9 @@ Isso significa que um nó de conversão de tons de cinza geralmente só é reser
 
 |  |  |
 | --- | --- |
-| <b>Espessuras de canal</b> *Flutuante4* | Define o peso de cada um dos canais de RGBA na conversão de tons de cinza.   Por padrão, uma divisão uniforme é feita nos canais da RGB. |
-| <b>Achatar alfa</b> *Booleano* | Define o comportamento do Alpha no resultado final da escala de cinza, pois os valores da escala de cinza não podem conter informações de Alpha.   Quando *Verdadeiro*, a conversão em tons de cinza é multiplicada no canal de Alpha da imagem de entrada |
-| <b>Valor do plano de fundo</b> *Flutuante* | Define o valor base do plano de fundo quando a entrada tem uma máscara alfa. Ou seja, determina quais pixels devem ser tratados como transparentes.   *Disponível quando &#39;Achatar alfa&#39; estiver definido como &#39;Verdadeiro&#39;.* |
+| <b>Espessuras de canal</b> *Precisão decimal 4* | Define o peso de cada um dos canais de RGBA na conversão de tons de cinza.   Por padrão, uma divisão uniforme é feita nos canais da RGB. |
+| <b>Achatar alfa</b> *Booleano* | Define o comportamento do Alpha no resultado final da escala de cinza, pois os valores da escala de cinza não podem conter informações de Alpha.   Quando *Verdadeiro*, a conversão em tons de cinza é multiplicada no canal Alfa da imagem de entrada |
+| <b>Valor do plano de fundo</b> *Precisão decimal* | Define o valor base do plano de fundo quando a entrada tem uma máscara alfa. Ou seja, determina quais pixels devem ser tratados como transparentes.   *Disponível quando &#39;Achatar alfa&#39; estiver definido como &#39;Verdadeiro&#39;.* |
 
 ## Conectores de entrada
 

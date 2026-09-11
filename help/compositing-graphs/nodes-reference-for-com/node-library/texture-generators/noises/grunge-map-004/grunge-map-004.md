@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-004.html"
 breadcrumb-title: ''
-description: Use o nó Mapa do Desgaste 004 para gerar padrões de desgaste processuais para adicionar efeitos de textura desgastada e envelhecida.
+description: Use o nó Mapa de Desgaste 004 para gerar padrões de desgaste de procedimento para adicionar efeitos de textura desgastada e envelhecida.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 004
 helpx_experience_level: ""
@@ -26,14 +26,14 @@ ht-degree: 7%
 
 ![](grunge-map-004.resources/grungemap-004.png){width="128px"}
 
-<b>Entrada:</b> geradores de Textura > Ruídos
+<b>Entrada:</b> geradores de textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-Isso gera um Noisemap complexo e combinado. Pode ser muito útil como um processual detalhado, mas tenha em mente que eles exigem muito desempenho e, portanto, são mais lentos de gerar.
+Isso gera um Noisemap complexo e combinado. Pode ser muito útil como um procedimento detalhado, mas tenha em mente que eles exigem muito desempenho e, portanto, são mais lentos de gerar.
 
 </td>
 </tr>

@@ -22,7 +22,7 @@ ht-degree: 5%
 
 Esta categoria contém somente nós para processamento e trabalho com Mapas Normais. Eles são uma obrigação absoluta quando você deseja que o processamento Normalmap seja matematicamente correto, para evitar quaisquer problemas de espaço Tangent.
 
-Use a <b>lista de navegação à esquerda</b> para procurar todos os nós em Mapa Normal.
+Use a <b>lista de navegação à esquerda</b> para procurar todos os nós em Mapa normal.
 
 Alguns nós muito úteis nesta categoria são:
 

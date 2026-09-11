@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Problemas de cozimento
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Esta página lista problemas técnicos relacionados às [texturas de cozimento](
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>![(erro)](../../assets/error.svg) Problema</b>
+<b>![(erro)](baking-issues.resources/error.svg) Problema</b>
 
 Quando a opção “Corresponder” está definida como “Por nome da malha”, a correspondência não parece ser aplicada ou não está consistentemente em todos os objetos da cena.
 
-<b>![(tick)](../../assets/check.svg) Etapas recomendadas</b>
+<b>![(tick)](baking-issues.resources/check.svg) Etapas recomendadas</b>
 
 Nas versões 14.1 e anteriores do Designer, os objetos de poli baixo e poli alto eram combinados usando o nome dos objetos *pai* deles - na maioria dos casos, a transformação pai.
 
@@ -45,7 +45,7 @@ Desde o Designer 15.0, o nome dos objetos *geometria* são usados diretamente.
 </td>
 <td style="border: 0;" valign="top">
 
-![Objeto de geometria e seu pai na árvore de cena](../../assets/sceneTree_objectsName.png "Objeto de geometria e seu pai na árvore de cena"){zoomable="yes"}
+![Objeto de geometria e seu pai na árvore de cena](baking-issues.resources/sceneTree_objectsName.png "Objeto de geometria e seu pai na árvore de cena"){zoomable="yes"}
 
 </td>
 </tr>

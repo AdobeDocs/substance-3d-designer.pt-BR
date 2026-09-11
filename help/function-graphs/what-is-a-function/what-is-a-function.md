@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 'O que é uma função '
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -24,7 +24,7 @@ As funções no Substance 3D Designer permitem que o usuário gere resultados us
 
 Mas, em vez de usar linhas de códigos, as funções no Designer mantêm a mesma abordagem nodal. À primeira vista, um gráfico de função parece muito semelhante a um gráfico regular.
 
-![](../../assets/image2015-12-17-18-19-37.png)
+![](what-is-a-function.resources/image2015-12-17-18-19-37.png)
 
 Você pode encontrar funções em dois casos principais:
 
@@ -35,16 +35,16 @@ Você pode encontrar funções em dois casos principais:
 
 No Substance 3D Designer, qualquer parâmetro pode ser controlado por uma função.
 
-![](../../assets/image2015-12-17-21-3-46.png)
+![](what-is-a-function.resources/image2015-12-17-21-3-46.png)
 
 Portanto, você pode imaginar regras e dependências entre partes do seu gráfico, para obter resultados únicos.
 
 Por exemplo, você pode decidir que a opacidade de um nó de mesclagem será metade da intensidade de um nó de distorção:
 
-![](../../assets/warpblend.gif)
+![](what-is-a-function.resources/warpblend.gif)
 
 Na verdade, você já pode ter criado funções sem estar ciente delas:
 
 se você expôs um parâmetro, criou automaticamente uma função e uma variável: a função contém um nó get float que captura o valor da variável recém-criada:
 
-![](../../assets/expose.gif)
+![](what-is-a-function.resources/expose.gif)

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Recurso de gráficos vetoriais (SVG)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Em geral, o seguinte é verdadeiro:
 * O traçado é compatível, mas resulta apenas em um traçado de largura de 1 pixel e o estilo do traçado é ignorado;
 * Os estilos de linha tracejada serão definitivamente quebrados;
 * O texto precisa ser convertido em caminhos/contorno para ser renderizado;
-* Não há suporte para [caminhos compostos](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths);
+* Não há suporte para [caminhos compostos](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html);
 * Recursos avançados, como gradientes, não são compatíveis;
 * Elementos de estilo para propriedades CSS não são suportados.
 
@@ -87,7 +87,7 @@ A imagem à direita demonstra as opções de exportação recomendadas, clique n
 > As pranchetas podem afetar o resultado do arquivo de SVG gerado. Alguns modelos de arquivo do Illustrator apresentam várias pranchetas.\
 > Tente ter apenas uma prancheta cortada corretamente e selecione-a na janela Prancheta ao salvar como SVG.
 
-![Opções de exportação para o Illustrator SVG](../../assets/svg-export-options-ai.jpg "Opções de exportação para o Illustrator SVG"){width="512px"}
+![Opções de exportação para o Illustrator SVG](vector-graphics-svg-resource.resources/svg-export-options-ai.jpg "Opções de exportação para o Illustrator SVG"){width="512px"}
 
 ### Inkscape
 

@@ -333,7 +333,7 @@ HCL para RGB
 
 HSI para RGB
 
-Deslocamento HSL
+Deslocamento de HSL
 
 HSL para RGB
 
@@ -360,19 +360,19 @@ RGB hue 2 polar
 
 RGB hexagonal
 
-média de luminosidade do RGB
+Média de luminosidade de RGB
 
 RGB luminosidade bi-hexcona
 
-hexcona de RGB luminosidade
+Hexcona de luminosidade RGB
 
-RGB lightness luma Rec.601
+RGB luminosidade luma Rec.601
 
-RGB lightness luma Rec.709
+RGB luminosidade luma Rec.709
 
 Saturação de RGB HSI
 
-HSL de saturação de RGB
+Saturação de RGB HSL
 
 Saturação de RGB HSV
 
@@ -393,7 +393,7 @@ sRGB para linear
 
 Temperatura para RGB
 
-Mapeador de tons ACES
+mapeador de tons ACE
 
 Agx tonemapper (aprox)
 

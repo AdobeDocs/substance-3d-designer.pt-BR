@@ -197,7 +197,7 @@ Por padrão, o padrão da forma é marcado estritamente ao longo do traçado. Co
 +++
 
 +++Cor
-A cor aplicada pelo pincel é definida pela *cor primária selecionada* - e pela <b>textura do pincel</b>, se alguma estiver aplicada atualmente. Essa cor pode ser alterada dinamicamente usando os controles nessa seção.
+A cor aplicada pelo pincel é definida pela *cor primária selecionada* - e pela <b>textura de pincel</b>, se alguma estiver aplicada atualmente. Essa cor pode ser alterada dinamicamente usando os controles nessa seção.
 
 <b>Tremulação de fluxo</b>: permite *randomizar* o fluxo por carimbo, expresso como *percentual* do fluxo máximo
 
@@ -214,11 +214,11 @@ A cor aplicada pelo pincel é definida pela *cor primária selecionada* - e pela
 +++Textura
 Você pode aplicar um *arquivo de bitmap* ao pincel e usá-lo para *carimbar* esse bitmap em vez de usar uma cor simples. A textura do pincel se comporta da seguinte maneira:
 
-<b>Arquivo de textura: </b>define o *caminho* do bitmap que deve ser usado como uma textura de pincel. Você pode selecionar o bitmap pelo navegador de arquivos do sistema usando o botão ![](../../../assets/2dview-paintingtools-brusheditor-selecttexture.png) ao lado do campo de entrada
+<b>Arquivo de Textura: </b>define o *caminho* do bitmap que deve ser usado como uma textura de pincel. Você pode selecionar o bitmap pelo navegador de arquivos do sistema usando o botão ![](../../../assets/2dview-paintingtools-brusheditor-selecttexture.png) ao lado do campo de entrada
 
-A textura *somente* substitui a cor simples básica do pincel, o que significa que *todas as propriedades do pincel listadas acima ainda podem ser usadas* e funcionam conforme descrito
+A textura *only* substitui a cor simples básica do pincel, o que significa que *todas as propriedades do pincel listadas acima ainda podem ser usadas* e funcionam conforme descrito
 
-As cores da textura são *mudadas de matiz* em direção à *cor primária definida*, o que significa que, se a cor primária definida for branca, as cores da textura poderão ser usadas como estão. Quanto mais saturada for a cor primária definida, mais as cores da textura serão alteradas em direção a ela
+As cores da textura estão *com o matiz alterado* em direção ao *conjunto de cores primárias*, o que significa que, se o conjunto de cores primárias for branco, as cores da textura poderão ser usadas como estão. Quanto mais saturada for a cor primária definida, mais as cores da textura serão matiz deslocado em direção a ela
 
 +++
 
@@ -236,7 +236,7 @@ O <b>Fluxo</b> controla a *quantidade de efeitos da ferramenta* que é aplicada 
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### MODO LADO A LADO
+### MODO REVESTIMENTO
 
 As ferramentas Pincel, Carimbo e Borracha também permitem definir seus ![](../../../assets/2dview-paintingtools-icon-tiling.png) <b>Modos de divisão em blocos gráficos</b>, que definem sua capacidade de *circular novamente* no lado oposto da imagem quando um traçado afeta uma área fora dos limites da imagem:
 

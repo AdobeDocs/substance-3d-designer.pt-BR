@@ -143,8 +143,8 @@ Clique no botão <b>Adicionar modelo</b> e selecione o tipo de gráfico desejado
 
 Dois tipos de modelos de gráficos de Substance estão disponíveis:
 
-Os modelos <b>AxF para aspereza metálica</b> e <b>AxF para Specular brilhante</b> são *conversão* e permitem mapear materiais AxF para modelos PBR padrão.\
-Eles podem ser usados com os sombreadores de exibição 3D padrão e combinados com outros materiais PBR produzidos no Designer, no [Sampler](https://www.adobe.com/br/products/substance3d-sampler.html) ou adquiridos na nossa biblioteca de [Ativos 3D](https://substance3d.adobe.com/assets/).
+Os modelos <b>AxF para Aspereza metálica</b> e <b>AxF para brilho de Specular</b> são *conversão* e permitem mapear materiais AxF para modelos PBR padrão.\
+Eles podem ser usados com os Visualização 3D padrão e combinados com outros materiais PBR produzidos no Designer, no [Sampler](https://www.adobe.com/br/products/substance3d-sampler.html) ou adquiridos na nossa biblioteca de [Ativos 3D](https://substance3d.adobe.com/assets/).
 
 O <b>AxF para AxF</b> é um modelo de *passagem* que permite editar os materiais do AxF no local e exportar essas alterações como novas camadas em arquivos AxF existentes. Consulte Exportar arquivos AxF abaixo para saber mais.
 
@@ -163,7 +163,7 @@ O <b>AxF para AxF</b> é um modelo de *passagem* que permite editar os materiais
 
 Para todos os modelos de Substance adicionados à lista <b>Modelos</b>, as seguintes operações adicionais são executadas:
 
-Para qualquer nó [<b>Input</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) que *usage* corresponda ao *identificador* de uma textura extraída do arquivo AxF, esse nó de entrada é substituído por um nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) fazendo referência a essa textura;
+Para qualquer nó [<b>de entrada</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) que *use* corresponda ao *identificador* de uma textura extraída do arquivo AxF, esse nó de entrada é substituído por um nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) fazendo referência a essa textura;
 
 A propriedade <b>Resolution</b> do gráfico (isto é, tamanho de saída) é definida automaticamente para a potência de dois igual ou acima da resolução da *maior* textura extraída;
 
@@ -179,9 +179,9 @@ Os *metadados* extraídos do material no arquivo AxF são copiados na propriedad
 >
 > Os valores padrão dos parâmetros do gráfico não devem ser modificados após essa configuração inicial.
 > 
-> Eles especificam as propriedades de sombreamento que são essenciais para interpretar corretamente os valores nas texturas.
+> Eles especificam as propriedades do sombreamento que são essenciais para interpretar os valores nas texturas corretamente.
 > 
-> Portanto, alterar essas configurações resultará em renderização incorreta ao visualizar o material na [Exibição 3D](../../interface/3d-view/3d-view.md).
+> Portanto, alterar essas configurações resultará em renderização incorreta ao visualizar o material no [Visualização 3D](../../interface/3d-view/3d-view.md).
 
 </td>
 <td style="border: 0;" valign="top">
@@ -254,7 +254,7 @@ O resultado é exibido como uma mensagem ao lado da barra de progresso na barra 
 
 ### Mapear saídas para recursos do AxF
 
-Ao exportar para um arquivo AxF existente, seus recursos são atualizados usando as saídas do gráfico. O Designer corresponde o identificador de recurso aos nós [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) que têm o mesmo identificador que um <b>Uso</b>.
+Ao exportar para um arquivo AxF existente, seus recursos são atualizados usando as saídas do gráfico. O Designer corresponde o identificador de recursos aos nós [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) que têm o mesmo identificador que um <b>Uso</b>.
 
 Além disso, a propriedade *Grupo</b> da saída <b>deve* ser definida como &#39;AxF&#39; para que seja listada na caixa de diálogo de exportação do AxF (veja acima).
 
@@ -265,7 +265,7 @@ Os recursos podem ser texturas (ou seja, bitmaps) ou uniformes (ou seja, valores
 O número de canais é especificado de forma diferente dependendo do tipo de dados fornecidos para o nó Saída:
 
 * <b>Bitmap (Textura):</b> a propriedade [Componentes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) é usada para especificar o número de canais, onde R é um canal, RG são dois canais e assim por diante. A propriedade é usada para permitir que o Designer saiba quais canais RGBA do bitmap de cor devem ser codificados no recurso.
-* <b>Valor (Uniforme):</b> o número de componentes do valor vetorial é usado para especificar o número de canais, onde [Flutuante](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) é um canal, [Flutuante2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) são dois canais e assim por diante.
+* <b>Valor (Uniforme):</b> o número de componentes do valor vetorial é usado para especificar o número de canais, onde [Precisão decimal](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) é um canal, [Precisão decimal 2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) são dois canais e assim por diante.
 
 >[!IMPORTANT]
 >
@@ -274,16 +274,16 @@ O número de canais é especificado de forma diferente dependendo do tipo de dad
 > 
 > Por exemplo, para um recurso do Lóbulo de Specular usando dois canais (Vermelho para Aspereza do Specular e Verde para Anisotropia do Specular), defina a propriedade Componentes como &#39;RG&#39;.
 
-## Visualização de arquivos AxF na Visualização 3D
+## Visualização de arquivos AxF no Visualização 3D
 
-O método para renderizar materiais SVBRDF do AxF na [Exibição 3D](../../interface/3d-view/3d-view.md) depende da [configuração de importação](#import).
+O método para renderizar materiais do SVBRDF AxF no [Visualização 3D](../../interface/3d-view/3d-view.md) depende da [configuração de importação](#import).
 
 +++Converter em PBR
 
 Se você deseja converter um material SVBRDF em um arquivo AxF em um material PBR padrão, sua configuração de importação provavelmente envolverá um [modelo de conversão de gráfico de Substance](#graph-templates).
 
-Nesse caso, você deve usar o **renderizador OpenGL** na Visualização 3D e selecionar o <code>AxF SVBRF</code> sombreador.\
-Em seguida, você pode arrastar e soltar o gráfico de Substance configurado na caixa de diálogo de importação para conectar suas saídas ao sombreador.
+Nesse caso, use o **renderizador OpenGL** no Visualização 3D e selecione o <code>AxF SVBRF</code> sombreador.\
+Em seguida, você pode arrastar e soltar o gráfico de Substance configurado na caixa de diálogo de importação, para conectar suas saídas ao sombreador.
 
 ![AxF: Visualização para conversão](../../assets/axf-view-for-convert.gif "AxF: Visualização para conversão")
 

@@ -43,4 +43,4 @@ Uma Função SDF para um cilindro de raio ajustável definido pelas posições d
 | <b>Iniciar</b> *Flutuante3* | A posição do disco de início do cilindro.<br><br><i>Padrão: (0, 0, 0)</i> |
 | <b>Fim</b> *Flutuante3* | A posição do disco final do cilindro.<br><br><i>Padrão: (0, 0, 1)</i> |
 | <b>Raio</b> *Flutuante* | O raio do cilindro.<br><br><i>Padrão: 0,25</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>P</b> *Flutuante3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

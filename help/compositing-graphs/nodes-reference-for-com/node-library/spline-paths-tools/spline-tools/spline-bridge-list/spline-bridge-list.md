@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
 breadcrumb-title: ''
-description: Use o nó Lista de pontes de spline para estabelecer pontes entre texturas de várias splines em uma lista para padrões complexos.
+description: Use o nó Lista de pontes de spline para fazer a ponte de texturas entre várias splines em uma lista para padrões complexos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge (List)
 helpx_experience_level: ""
@@ -89,13 +89,13 @@ As splines geradas podem ser lineares (retas) ou quadráticas (curvas).
 | <b>Distribuição Uniforme</b> <i>Booleano</i> | Quando Verdadeiro, os pontos das splines geradas são espaçados uniformemente do início ao fim. |
 | <b>Thickness</b> |  |
 | <b>Modo de Thickness</b> <i>Inteiro</i> | O método de aquisição do valor de thickness para as linhas de ponte.<br><br>- <i>Herdar das linhas de ponte pai:</i> O thickness das linhas de ponte pai nas posições inicial e final das linhas de ponte é usado<br>- <i>Substituir:</i> O valor arbitrário especificado no parâmetro <b>Thickness</b> é usado |
-| <b>Thickness</b> <i>Flutuante</i> | O valor de thickness absoluto aplicado às linhas de ponte. |
-| <b>Thickness aleatório</b> <i>Flutuante</i> | Um multiplicador aleatório para o thickness das linhas de ponte, no qual o thickness inicial ao qual esse multiplicador está aplicado é especificado pelo parâmetro <b>modo de Thickness</b>. |
+| <b>Thickness</b> <i>Precisão decimal</i> | O valor de thickness absoluto aplicado às linhas de ponte. |
+| <b>Thickness aleatório</b> <i>Precisão decimal</i> | Um multiplicador aleatório para o thickness das linhas de ponte, no qual o thickness inicial ao qual esse multiplicador está aplicado é especificado pelo parâmetro <b>modo de Thickness</b>. |
 | <b>Height</b> |  |
 | <b>Modo de Height</b> <i>Inteiro</i> | O método de aquisição do valor de height para as linhas de ponte.<br><br>- <i>Herdar das linhas de ponte pai:</i> O height das linhas de ponte pai nas posições inicial e final das linhas de ponte é usado<br>- <i>Substituir:</i> O valor arbitrário especificado no parâmetro <b>Height</b> é usado |
-| <b>Deslocamento de Height</b> <i>Flutuante</i> | O valor de deslocamento aplicado ao height herdado das linhas de ponte pai, antes que esse height seja aplicado às linhas de ponte. |
-| <b>Height</b> <i>Flutuante</i> | O valor de height absoluto aplicado às linhas de ponte. |
-| <b>Height aleatório</b> <i>Flutuante</i> | Uma quantidade aleatória de ajustes no height das linhas de ponte, em que esse ajuste depende do parâmetro selecionado <b>Modo de Height</b>:<br><br>- <i>Herdar das linhas de ponte pai:</i> O valor é um multiplicador para o height herdado.<br>- <i>Substituir:</i> O valor é um deslocamento adicionado ao height. |
+| <b>Deslocamento de Height</b> <i>Precisão decimal</i> | O valor de deslocamento aplicado ao height herdado das linhas de ponte pai, antes que esse height seja aplicado às linhas de ponte. |
+| <b>Height</b> <i>Precisão decimal</i> | O valor de height absoluto aplicado às linhas de ponte. |
+| <b>Height aleatório</b> <i>Precisão decimal</i> | Uma quantidade aleatória de ajustes no height das linhas de ponte, em que esse ajuste depende do parâmetro selecionado <b>Modo de Height</b>:<br><br>- <i>Herdar das linhas de ponte pai:</i> O valor é um multiplicador para o height herdado.<br>- <i>Substituir:</i> O valor é um deslocamento adicionado ao height. |
 | <b>Correção Não Quadrada</b> <i>Booleano</i> | Ajuste as posições e o thickness dos pontos para manter a forma de spline em resoluções não quadradas. Isso também afeta a distribuição uniforme. |
 | <b>Visualizar</b> |  |
 | <b>Mostrar Auxiliar de Direção</b> <i>Booleano</i> | Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização. |

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Avisos em gráficos de função
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Esta página lista mensagens de avisos e erros que podem ser disparadas por [gr�
 Os avisos são exibidos na dica de ferramenta do ícone de aviso para o recurso de gráfico no painel [Explorador](../../interface/the-explorer-window/the-explorer-window.md), bem como no canto inferior esquerdo da [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) se o gráfico estiver carregado.\
 Se a função for *aplicada a um parâmetro* em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md), qualquer aviso resultará no aviso “*A função do parâmetro [x] tem alguns erros*” sendo acionada para esse parâmetro.
 
-## ![(erro)](../../assets/error.svg) Nenhum nó de saída definido
+## ![(erro)](warnings-in-function-graphs.resources/error.svg) Nenhum nó de saída definido
 
 A função não tem um nó de saída definido.
 
@@ -33,7 +33,7 @@ A função não tem um nó de saída definido.
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Solução**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Solução**
 
 Selecione qualquer nó no gráfico que gera um valor cujo tipo corresponda ao tipo esperado para esta função, se houver, clique em RMB e selecione a opção **Definir como Nó de Saída** no menu contextual.\
 O nó de saída de um gráfico de função é colorido com *laranja*.
@@ -45,13 +45,13 @@ O nó de saída de um gráfico de função é colorido com *laranja*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-output.gif)
+![](warnings-in-function-graphs.resources/warnings-func-output.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(erro)](../../assets/error.svg) O nó de saída atual retorna um valor do tipo *x*
+### ![(erro)](warnings-in-function-graphs.resources/error.svg) O nó de saída atual retorna um valor do tipo *x*
 
 O nó de saída da função retorna um valor cujo tipo não corresponde ao tipo de valor de saída esperado para essa função.
 
@@ -59,7 +59,7 @@ O nó de saída da função retorna um valor cujo tipo não corresponde ao tipo 
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Solução**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Solução**
 
 Selecione qualquer nó no gráfico que gera um valor cujo tipo corresponde ao tipo esperado para esta função, clique em RMB e selecione a opção **Definir como Nó de Saída** no menu contextual.\
 O nó de saída de um gráfico de função é colorido com *laranja*.
@@ -71,13 +71,13 @@ O nó de saída de um gráfico de função é colorido com *laranja*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-output-type.gif)
+![](warnings-in-function-graphs.resources/warnings-func-output-type.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(erro)](../../assets/error.svg) Alguns nós Get não têm um nome de variável
+### ![(erro)](warnings-in-function-graphs.resources/error.svg) Alguns nós Get não têm um nome de variável
 
 Um ou mais nós [Get](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) têm sua propriedade <b>Get...</b> deixada em branco; portanto, não se refere a nenhuma variável.
 
@@ -85,7 +85,7 @@ Um ou mais nós [Get](../../function-graphs/nodes-reference-for-fun/atomic-funct
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Solução**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Solução**
 
 Insira uma cadeia de caracteres que corresponda ao nome de uma variável *disponível no escopo da função* na propriedade **Get...** dos nós Get que geram este aviso.
 
@@ -96,13 +96,13 @@ Insira uma cadeia de caracteres que corresponda ao nome de uma variável *dispon
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-empty-get.gif)
+![](warnings-in-function-graphs.resources/warnings-func-empty-get.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(erro)](../../assets/error.svg) Alguns nós Set não têm um nome de variável
+### ![(erro)](warnings-in-function-graphs.resources/error.svg) Alguns nós Set não têm um nome de variável
 
 Um ou mais nós [Set](../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) têm sua propriedade **Set** deixada em branco; portanto, não se refere a nenhuma variável.
 
@@ -110,7 +110,7 @@ Um ou mais nós [Set](../../function-graphs/fxmaps/using-functions-in-fxmaps/usi
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Solução**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Solução**
 
 Insira qualquer cadeia de caracteres na propriedade **Set** de nós Set que gere este aviso.
 
@@ -125,7 +125,7 @@ Insira qualquer cadeia de caracteres na propriedade **Set** de nós Set que gere
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-empty-set.gif)
+![](warnings-in-function-graphs.resources/warnings-func-empty-set.gif)
 
 </td>
 </tr>

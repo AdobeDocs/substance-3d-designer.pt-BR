@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
 breadcrumb-title: ''
-description: Acesse a biblioteca de nós completa no Substance 3D Designer para criar materiais de procedimento, texturas e efeitos.
+description: Acesse a biblioteca de nós completa no Substance 3D Designer para criar materiais, texturas e efeitos processuais.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library
 helpx_experience_level: ""
@@ -78,7 +78,7 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 * [Desgaste Galvânico Grande](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-galvanic-large/grunge-galvanic-large.md)
 * [Desgaste Galvânico Pequeno](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-galvanic-small/grunge-galvanic-small.md)
 * [Vazamentos de desgaste](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-leaks/grunge-leaks.md)
-* [Desgaste Leaky Paint](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-leaky-paint/grunge-leaky-paint.md)
+* [Tinta com Vazamento de desgaste](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-leaky-paint/grunge-leaky-paint.md)
 * [Mapa do desgaste 001](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-map-001/grunge-map-001.md)
 * [Mapa do desgaste 002](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-map-002/grunge-map-002.md)
 * [Mapa do desgaste 003](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/grunge-map-003/grunge-map-003.md)
@@ -211,7 +211,7 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 * [Diferença](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/difference/difference.md)
 * [Dissolver](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/dissolve/dissolve.md)
 * [Superexposição linear](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/linear-burn/linear-burn.md)
-* [Luminosidade (Nó de mesclagem)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/luminosity-blend-node/luminosity-blend-node.md)
+* [Luminosidade (Nó Combinar)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/luminosity-blend-node/luminosity-blend-node.md)
 * [Comutador múltiplo](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)
 * [Alterar](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)
 
@@ -283,7 +283,7 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 * [Enfrentando normal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/facing-normal/facing-normal.md)
 * [Misturador normal do height](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/height-normal-blender/height-normal-blender.md)
 * [Height para unidades do mundo normal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/height-normal-world-units/height-to-normal-world-units.md)
-* [Mesclagem normal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)
+* [Combinar normal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)
 * [Combinação normal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)
 * [Inversão normal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-invert/normal-invert.md)
 * [Normalizar normal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-normalize/normal-normalize.md)
@@ -327,23 +327,23 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 
 ### Efeitos (material)
 
-* [Mesclagem de height](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/height-blend/height-blend.md)
-* [Mesclagem de Height de material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md)
+* [Combinar do height](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/height-blend/height-blend.md)
+* [Combinar do Height de material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md)
 * [Filtro de Temporada](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/season-filter/season-filter.md)
 * [Snow Cover](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md)
 * [Nível da água](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md)
 
-### Transformações (material)
+### Transformas (material)
 
-* [Transformação de material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/material-transform/material-transform.md)
+* [Transformo de materiais](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/material-transform/material-transform.md)
 
 ### Mesclagem (material)
 
-* [Mesclagem de ajuste de material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)
-* [Mesclagem de material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md)
-* [Mistura de cores do material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-color-blend/material-color-blend.md)
+* [Combinar de ajuste de material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)
+* [Combinar de material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md)
+* [Combinar de cor do material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-color-blend/material-color-blend.md)
 * [Alternar material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-switch/material-switch.md)
-* [Mesclagem de vários materiais](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)
+* [Multi-Material Combinar](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)
 
 ### Utilitários PBR
 
@@ -361,14 +361,14 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 * [Cancelamento de AO](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/ao-cancellation/ao-cancellation.md)
 * [Atlas scatter](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md)
 * [Atlas splitter](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-splitter/atlas-splitter.md)
-* [Patch do clone](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
+* [Correção de Clonar](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
 * [Color Equalizer](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/color-equalizer/color-equalizer.md)
 * [Cortar](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
 * [Patch de clonagem de material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md)
 * [Corte de material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-crop/material-crop.md)
 * [Multiângulo para Albedo](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md)
 * [Multiângulo para normal](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md)
-* [Patch de vários clones](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md)
+* [Patch de vários Clonar](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md)
 * [Multi Color Equalizer](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md)
 * [Corte múltiplo](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md)
 * [Bloco Automático Inteligente](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md)
@@ -420,7 +420,7 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 * [Combinador de dados de malha](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/mesh-data-combiner/mesh-data-combiner.md)
 * [Tri Planar](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)
 
-## Visualização 3D (biblioteca)
+## Visualização 3D (Biblioteca)
 
 ### HDRI Tools
 

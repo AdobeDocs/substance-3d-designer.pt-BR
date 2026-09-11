@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Descrição
 
-Ajusta o equilíbrio de cores da imagem de entrada. Semelhante ao ajuste de Equilíbrio de branco na fotografia. Pode ser usado para aquecer ou esfriar imagens HDR que são off-key.
+Ajusta o equilíbrio de cores da imagem de entrada. Semelhante ao ajuste de Equilíbrio de branco na fotografia. Pode ser usado para aquecer ou esfriar cores em imagens HDR que não estão funcionando corretamente.
 
 </td>
 </tr>

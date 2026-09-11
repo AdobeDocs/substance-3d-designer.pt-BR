@@ -73,8 +73,8 @@ A trajetória da spline é controlada pela tangente “out” de <b>p1</b> e pel
 | <b>Acrescentar Spline de Entrada</b> <i>Booleano</i> | Adiciona a spline gerada ao final da lista de splines conectadas às entradas de <b>spline</b>. |
 | <b>Correção Não Quadrada</b> <i>Booleano</i> | Ajuste as posições e o thickness dos pontos para manter a forma de spline em resoluções não quadradas. Isso também afeta a distribuição uniforme. |
 | <b>Height</b> |  |
-| <b>Iniciar Height</b> <i>Flutuante</i> | Ajusta o height do ponto p1 onde um valor mais baixo significa um local mais baixo ou mais profundo. Isso afeta o height da spline em p1. |
-| <b>Encerrar Height</b> <i>Flutuante</i> | Ajusta o height do ponto p2 onde um valor mais baixo significa um local mais baixo ou mais profundo. Isso afeta o thickness da spline em p2. |
+| <b>Iniciar Height</b> <i>Precisão decimal</i> | Ajusta o height do ponto p1 onde um valor mais baixo significa um local mais baixo ou mais profundo. Isso afeta o height da spline em p1. |
+| <b>Encerrar Height</b> <i>Precisão decimal</i> | Ajusta o height do ponto p2 onde um valor mais baixo significa um local mais baixo ou mais profundo. Isso afeta o thickness da spline em p2. |
 | <b>Height Tangente Automático</b> <i>Booleano</i> | Define automaticamente o height das tangentes de spline para interpolar linearmente do Height inicial ao Height final. |
 | <b>Height de Tangente p1</b> <i>Precisão decimal</i> (disponível quando &#39;Auto Tangent Height&#39; é True) | Ajusta o height da tangente “out” do ponto p1, onde um valor mais baixo significa um local mais baixo ou mais profundo. Isso afeta o height ao longo da spline à medida que se afasta do p1. |
 | <b>Height de Tangente p2</b> <i>Precisão decimal</i> (disponível quando &#39;Auto Tangent Height&#39; é True) | Ajusta o height da tangente “in” do ponto p2, onde um valor mais baixo significa um local mais baixo ou mais profundo. Isso afeta o height ao longo da spline à medida que se afasta do p2. |
@@ -85,15 +85,15 @@ A trajetória da spline é controlada pela tangente “out” de <b>p1</b> e pel
 | <b>Thickness de Tangente p1</b> <i>Precisão decimal</i> (disponível quando &#39;Auto Tangent Thickness&#39; é True) | Ajusta o thickness da tangente “out” do ponto p1. Isso afeta o thickness ao longo da spline à medida que se afasta do p1.<br>Observação: o Thickness é usado por nós de spline específicos. |
 | <b>Thickness de Tangente p2</b> <i>Precisão decimal</i> (disponível quando &#39;Auto Tangent Thickness&#39; é True) | Ajusta o thickness da tangente “in” do ponto p2. Isso afeta o thickness ao longo da spline à medida que se afasta do p2.<br>Observação: o Thickness é usado por nós de spline específicos. |
 | <b>Coordenadas de pontos</b> |  |
-| <b>p1</b> <i>Flutuante2</i> | Define a posição do ponto p1 no espaço de textura. |
-| <b>p1 Tangente</b> <i>Flutuante2</i> | Define a posição da alça tangente p1 point &#39;out&#39; no espaço de textura. |
-| <b>p2</b> <i>Flutuante2</i> | Define a posição do ponto p2 no espaço de textura. |
-| <b>Tangente p2</b> <i>Flutuante2</i> | Define a posição da alça tangente “in” do ponto p2 no espaço de textura. |
+| <b>p1</b> <i>Precisão decimal 2</i> | Define a posição do ponto p1 no espaço de textura. |
+| <b>p1 Tangente</b> <i>Precisão decimal 2</i> | Define a posição da alça tangente p1 point &#39;out&#39; no espaço de textura. |
+| <b>p2</b> <i>Precisão decimal 2</i> | Define a posição do ponto p2 no espaço de textura. |
+| <b>Tangente p2</b> <i>Precisão decimal 2</i> | Define a posição da alça tangente “in” do ponto p2 no espaço de textura. |
 | <b>Visualizar</b> |  |
 | <b>Mostrar Tangentes</b> <i>Booleano</i> | Exibe a tangente &#39;out&#39; de ponto p1 e a tangente &#39;in&#39; de ponto p2 na saída da Visualização. |
 | <b>Mostrar Auxiliar de Direção</b> <i>Booleano</i> | Exibe um ponto no início da spline e uma ponta de seta no final da saída de Visualização. |
 | <b>Valor de Segmentos</b> <i>Inteiro</i> | Ajusta o número de segmentos usados para desenhar a visualização de spline na saída da Visualização. Um valor mais alto resulta em uma linha mais suave. |
-| <b>Thickness (px)</b> <i>Flutuante</i> | Ajusta o thickness em pixels da visualização de spline na saída da Visualização. |
+| <b>Thickness (px)</b> <i>Precisão decimal</i> | Ajusta o thickness em pixels da visualização de spline na saída da Visualização. |
 
 ## Exemplos
 

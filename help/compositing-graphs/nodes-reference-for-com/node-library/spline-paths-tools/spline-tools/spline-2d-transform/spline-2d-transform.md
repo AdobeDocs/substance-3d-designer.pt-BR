@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-2d-transform.html"
 breadcrumb-title: ''
-description: Use o nó do Transformo 2D de spline para transformar splines com operações de translação, rotação e dimensionamento.
+description: Use o nó Transformação 2D de spline para transformar splines com operações de conversão, rotação e dimensionamento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline 2D Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Transformo 2D de spline
+title: Transformação 2D de spline
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
@@ -18,7 +18,7 @@ ht-degree: 1%
 ---
 
 
-# Transformo 2D de spline
+# Transformação 2D de spline
 
 <table>
 <tr style="border: 0;">

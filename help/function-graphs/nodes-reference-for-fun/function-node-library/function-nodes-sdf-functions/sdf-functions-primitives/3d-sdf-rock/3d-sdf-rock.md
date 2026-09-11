@@ -46,4 +46,4 @@ Uma Função SDF para uma forma de rocha paramétrica e aleatória, construída 
 | <b>Semente</b> *Flutuante* | Propagação do parâmetro <b>Aleatoriedade</b>.<br><br><i>Padrão: 0</i> |
 | <b>Escala</b> *Flutuante* | Escala global da forma rochosa.<br>Aplicado após <b>Aleatoriedade</b> e antes de <b>Smoothness</b>.<br><br><i>Padrão: 0,5</i> |
 | <b>Posição central</b> *Flutuante3* | A posição do espaço global do pivô da rocha.<br><br><i>Padrão: (0, 0, 0,5)</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>P</b> *Flutuante3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><i>Padrão: a posição do espaço mundial não transformado.</i> |

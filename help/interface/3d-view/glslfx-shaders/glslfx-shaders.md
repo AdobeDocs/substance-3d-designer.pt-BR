@@ -97,9 +97,9 @@ Definição do elemento XML:
 
 <b>Atributos:</b>
 
-* type: O tipo de sombreador GLSL;
+* tipo: o tipo de sombreador GLSL;
 
-* nome do arquivo: o caminho do arquivo shader glsl. Pode ser absoluto ou relativo ao arquivo GLSLFX;
+* nome do arquivo: o caminho do arquivo de sombreador glsl. Pode ser absoluto ou relativo ao arquivo GLSLFX;
 
 * primitiveType: O método para renderizar a primitiva.
 
@@ -108,7 +108,7 @@ Definição do elemento XML:
 | --- | --- |
 | vértice | Sombreador de vértice |
 | geometria | Sombreador de geometria |
-| tess\_control | Sombreador de controle de mosaico |
+| tess\_control | Sombreador de Controle de Mosaico |
 | tess\_eval | Sombreador de Avaliação de Mosaico |
 | fragmento | Sombreador de fragmento |
 
@@ -273,7 +273,7 @@ Consulte a seção <b>Samplers</b> para obter mais detalhes sobre suas definiç�
 
 ## Formato de vértice de entrada
 
-Isso permite definir a semântica de cada atributo definido no sombreador de vértices.
+Isso permite definir a semântica de cada atributo definido no sombreador de vértice.
 
 <b>Definição de Elemento XML:</b>
 
@@ -281,7 +281,7 @@ Nome: &#39;vertexformat&#39;
 
 Atributos:
 
-* &#39;name&#39;: O nome do atributo conforme definido no sombreador de vértices.
+* &#39;name&#39;: O nome do atributo conforme definido no sombreador de vértice.
 * &#39;semantic&#39;: A semântica do atributo.
 
 | Valor &#39;semântico&#39; | Descrição |
@@ -389,11 +389,11 @@ Atributos:
 
 Modo de quebra automática:
 
-<table data-preserve-html="true"><tbody><tr><th>Nome</th><th>Valor</th></tr><tr><td rowspan="4">texture_wrap_s, texture_wrap_t, texture_wrap_r<br/><br/><br/></td><td>clamp_to_edge</td></tr><tr><td>clamp_to_border</td></tr><tr><td colspan="1">mirrored_repeat</td></tr><tr><td colspan="1">repetir<br/><br/></td></tr></tbody></table>
+<table data-preserve-html="true"><tbody><tr><th>Nome</th><th>Valor</th></tr><tr><td rowspan="4">textura_wrap_s, textura_wrap_t, textura_wrap_r<br/><br/><br/></td><td>clamp_to_edge</td></tr><tr><td>clamp_to_border</td></tr><tr><td colspan="1">mirrored_repeat</td></tr><tr><td colspan="1">repetir<br/><br/></td></tr></tbody></table>
 
-Filtro de textura
+Filtro de Textura
 
-<table data-preserve-html="true"><tbody><tr><th>Nome</th><th>Valor</th></tr><tr><td rowspan="6">texture_min_filter, texture_mag_filter<br/><br/><br/></td><td>mais próximo</td></tr><tr><td>linear</td></tr><tr><td colspan="1">nearest_mipmap_nearest</td></tr><tr><td colspan="1">linear_mipmap_nearest</td></tr><tr><td colspan="1">nearest_mipmap_linear</td></tr><tr><td colspan="1">linear_mipmap_linear</td></tr></tbody></table>
+<table data-preserve-html="true"><tbody><tr><th>Nome</th><th>Valor</th></tr><tr><td rowspan="6">textura_min_filter, textura_mag_filter<br/><br/><br/></td><td>mais próximo</td></tr><tr><td>linear</td></tr><tr><td colspan="1">nearest_mipmap_nearest</td></tr><tr><td colspan="1">linear_mipmap_nearest</td></tr><tr><td colspan="1">nearest_mipmap_linear</td></tr><tr><td colspan="1">linear_mipmap_linear</td></tr></tbody></table>
 
 Exemplo:
 
@@ -430,7 +430,7 @@ Exemplo:
 
 ## Uniformulários
 
-Isso permite adicionar informações adicionais em cada uniforme de sombreador.
+Isso permite que você adicione informações adicionais em cada uniforme de sombreador.
 
 <b>Definição de Elemento XML:</b>
 
@@ -438,7 +438,7 @@ Nome: &#39;uniforme&#39;
 
 Atributos:
 
-&#39;name&#39;: O nome do uniforme no arquivo de sombreador.
+&#39;nome&#39;: o nome do uniforme no arquivo de sombreador.
 
 | Valor &#39;semântico&#39; | Descrição |
 | --- | --- |
@@ -551,7 +551,7 @@ Nome: &#39;uniforme&#39;
 
 Atributos:
 
-* &#39;name&#39;: O nome do uniforme no arquivo de sombreador.
+* &#39;nome&#39;: o nome do uniforme no arquivo de sombreador.
 * &#39;default&#39;: O valor padrão uniforme
 * &#39;min&#39;: o valor mínimo do intervalo de validade
 * &#39;max&#39;: O valor máximo do intervalo de validade
@@ -604,7 +604,7 @@ iFS\_Binormal = iVS\_Binormal.xyz;\
 iFS\_PointWS = (worldMatrix \&#42; iVS\_Position).xyz;\
 &rbrace;
 
-### Arquivo de sombreador de vértice de mosaico
+### Arquivo de Sombreador de Vértice de Mosaico
 
 Localizado em .\tessellation\_parallax\tessellation\vs.glsl
 
@@ -673,7 +673,7 @@ oTCS\_Tangent[gl\_InvocationID] = oVS\_Tangent[gl\_InvocationID];\
 oTCS\_Binormal[gl\_InvocationID] = oVS\_Binormal[gl\_InvocationID];\
 &rbrace;
 
-### Arquivo de Sombreador de Avaliação de Mosaico
+### Arquivo de Sombreador de Avaliação do Mosaico
 
 Localizado em .\tessellation\_parallax\tessellation\tcs.glsl
 
@@ -872,13 +872,13 @@ vec3 cumulatedNormalOS = normalOS;
 float a = dot(normalOS,-pointToCameraDirWS);\
 vec3 s = vec3(dot(pointToCameraDirWS,tangentOS), dot(pointToCameraDirWS,binormalOS), a);\
 vec2 uv = enableTilingInFS == 0 ? iFS\_UV : (iFS\_UV \&#42; lado a lado);\
-float height = texture2D(heightMap,uv).x \&#42; 2.0 - 1.0 ;\
+float height = textura2D(heightMap,uv).x \&#42; 2.0 - 1.0 ;\
 float parallax = parallax\_mode == 0 ? (tessellationFactor / 100000.f + heightMapScale / 500.f) : (heightMapScale / 50.f);\
 uv += (height \&#42; s.xy \&#42; paralaxe) ;
 
 // ------------------------------------------\
 // Adicionar Normal a partir de normalMap\
-vec3 normalTS = texture2D(normalMap,uv).xyz;\
+vec3 normalTS = textura2D(normalMap,uv).xyz;\
 normalTS = fixNormalSample(normalTS);\
 vec3 normalMapOS = normalTS.x\&#42;tangentOS + normalTS.y\&#42;binormalOS;\
 cumulatedNormalOS = cumulatedNormalOS + normalMapOS;\
@@ -886,7 +886,7 @@ cumulatedNormalOS = normalize(cumulatedNormalOS);
 
 // ------------------------------------------\
 // Adicionar o mapa normal detalhado\
-vec3 normalDetailTS = texture2D(detailNormalMap,uv\&#42;TilingDetail).xyz;\
+vec3 normalDetailTS = textura2D(detailNormalMap,uv\&#42;TilingDetail).xyz;\
 normalDetailTS = fixNormalSample(normalDetailTS);\
 variável vec3NormalDetailTS = lerpFct(vec3(0.0,0.0,0.5),normalDetailTS,Profundidade\_detail);\
 vec3 normalDetailOS = variableNormalDetailTS.x\&#42;tangentOS + variableNormalDetailTS.y\&#42;binormalOS;\
@@ -899,7 +899,7 @@ cumulatedNormalOS = normalOS;
 vec3 cumulatedNormalWS = normalVecOSToWS(cumulatedNormalOS);
 
 // ------------------------------------------\
-// Calcular Difuso e Specular
+// Calcular Difusão e Specular
 
 // Contribuição clara 0\
 vec3 diffContrib = vec3(0, 0, 0);\
@@ -916,7 +916,7 @@ specContrib += specContrib2;
 
 vec4 diffuseColor = texture2D(diffuseMap,uv);
 
-vec3 specularColor = texture2D(specularMap,uv).rgb;\
+vec3 specularColor = textura2D(specularMap,uv).rgb;\
 vec3 R = reflect(pointToCameraDirWS,cumulatedNormalWS);\
 vec3 reflColor = Kr \&#42; textureCube(environmentMap,R.xyz).bgr;
 
@@ -933,7 +933,7 @@ FallofRefl=1.0;
 vec3 Ambiant\_final = diffuseColor.rgb\&#42;AmbiColor;
 
 // ------------------------------------------\
-vec3 emissivo = texture2D(emissiveMap,uv).xyz;
+emissivo vec3 = textura2D(emissiveMap,uv).xyz;
 
 vec3 finalcolor = Ambiant\_final\
 &#x200B;+ specularColor\&#42;specContrib\
@@ -942,7 +942,7 @@ vec3 finalcolor = Ambiant\_final\
 &#x200B;+ emissivo;
 
 // Cor final\
-vec4 finalColor4 = vec4(finalcolor, texture2D(opacityMap,uv));
+vec4 finalColor4 = vec4(finalcolor, textura 2D(opacityMap,uv));
 
 gl\_FragColor = finalColor4;\
 &rbrace;

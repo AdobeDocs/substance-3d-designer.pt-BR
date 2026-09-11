@@ -45,12 +45,12 @@ O nó **Desgaste Áspero e Sujo** gera um mapa de desgaste semelhante a uma supe
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Precisão decimal</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
-| <b>Contraste</b> <i>Precisão decimal</i> | Ajusta o contraste da imagem. |
+| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
 | <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
 | <b>Avançado</b> |  |
-| <b>Intensidade de Desgaste Principal</b> <i>Precisão decimal</i> | Ajusta a intensidade da textura de desgaste principal usada para quebrar a superfície. |
+| <b>Intensidade de Desgaste Principal</b> <i>Flutuante</i> | Ajusta a intensidade da textura de desgaste principal usada para quebrar a superfície. |
 | <b>Inverter Scratches</b> <i>Booleano</i> | Inverte a luminância dos arranhões na superfície. |
 | <b>Intensidade de Scratches</b> <i>Flutuante</i> | Ajusta a intensidade dos arranhões na superfície. |
 | <b>Intensidade da granulação</b> <i>Flutuante</i> | Ajusta a intensidade do efeito de granulação global. |

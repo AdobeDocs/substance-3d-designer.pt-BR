@@ -56,7 +56,7 @@ Muitas coisas foram repensadas, como regras de pertença para serem mais toleran
 
 * <b>Melhorias no menu do nó: </b>para economizar tempo ao procurar o nó necessário, melhoramos um pouco o menu do nó. A busca agora é mais indulgente e lhe dará um resultado mesmo se não houver correspondência perfeita. Além disso, agora você pode usar a seta para cima para acessar diretamente o último elemento da lista.
 * <b>Posicionamento do nó: </b>se você quiser ter um layout perfeito para o seu gráfico, essas duas pequenas alterações vão agradá-lo! Quando você copia/cola nós de um gráfico para outro, os nós colados agora são alinhados à grade principal. E quando você adiciona um nó em um link longo, este será colocado no meio da parte visível do link, para torná-lo visível em todas as situações.
-* <b>Opções de exibição 2D: </b>se você for um usuário intensivo da [exibição 2D](../../interface/2d-view/2d-view.md), economizará tempo, pois opções como &#39;Mostrar tabuleiro de xadrez&#39;, &#39;Manter tamanho da exibição&#39;, &#39;Usar tamanho físico&#39; e &#39;Exibir divisão em blocos gráficos&#39; foram salvas, portanto, você não precisa defini-las novamente quando criar uma nova exibição 2D ou mesmo quando reiniciar o Designer.
+* <b>Opções de Visualização 2D: </b>se você for um usuário intensivo do [Visualização 2D](../../interface/2d-view/2d-view.md), economizará tempo, pois opções como &#39;Mostrar quadro de verificação&#39;, &#39;Manter tamanho da exibição&#39;, &#39;Usar tamanho físico&#39; e &#39;Exibir divisão em blocos gráficos&#39; foram salvas, portanto, você não precisa defini-las novamente quando criar um novo Visualização 2D ou mesmo quando reiniciar o Designer.
 
 ## Exportação de AxF
 
@@ -69,7 +69,7 @@ Muitas coisas foram repensadas, como regras de pertença para serem mais toleran
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-AxF é um formato de [X-Rite](https://www.xrite.com/axf). Ele fornece uma maneira de capturar, armazenar, editar e comunicar características complexas de material usando dados numéricos em todo o fluxo de trabalho de design digital. Nas versões anteriores do Designer, você conseguia [importar arquivos AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) e depois melhorar a divisão em blocos gráficos ou adicionar efeitos de procedimento, mas depois tinha restrições para exportar alterações como um novo arquivo .sbsar.
+AxF é um formato de [X-Rite](https://www.xrite.com/axf). Ele fornece uma maneira de capturar, armazenar, editar e comunicar características complexas de material usando dados numéricos em todo o fluxo de trabalho de design digital. Nas versões anteriores do Designer, você conseguia [importar arquivos AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) e depois melhorar a divisão em blocos gráficos ou adicionar efeitos processuais, mas depois tinha restrições para exportar alterações como um novo arquivo .sbsar.
 
 Nesta nova versão, apresentamos a possibilidade de editar os materiais do AxF no local e, em seguida, [exportar suas alterações](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) como uma nova camada no arquivo AxF importado.
 
@@ -98,13 +98,13 @@ Finalmente, esta versão 13.1 continua a melhorar a API Python, adicionando mais
 
 ### Adicionado
 
-* [Frames] Expansão automática
+* [Quadros] Expansão automática
 * [Quadros] Alterar regras para definir quando um objeto pertence a um quadro
 * [Quadros] Desabilitar escala de texto para descrição de quadros
 * [Quadros] Ajustar tamanho ao conteúdo
 * [Quadros] Novo padrão, passar o mouse e estados selecionados
 * [Quadros] Ajustar à grade grande
-* [Quadros] Descrição do código de HTML de suporte para Quadros
+* [Frames] Código de HTML de suporte para descrição de Frames
 * [Quadros] Atualizar zonas de interação
 * [Quadros] Atualizar aspecto visual
 * [Gráfico] Criar o nó no meio do link visível em vez do meio do link
@@ -121,16 +121,16 @@ Finalmente, esta versão 13.1 continua a melhorar a API Python, adicionando mais
 * [Dependências] Atualizar OpenSubdiv para 3.5.x
 * [Dependências] Atualize o SDK FBX para 2020.3
 * [Dependências] Atualizar NGL para 1.35.0.20
-* [Gerenciamento de cores] Adicionar suporte para telas OCIO ICC
+* [Gerenciamento de cores] Adicionar compatibilidade com telas OCIO ICC
 * [Níveis] Adicionar uma maneira de redefinir o histograma
 * [Python] Avisar os usuários se o QtForPython não puder ser importado
-* [Visualização 2D] Salvar o estado das opções de exibição
-* [Visualização 3D] Adicionar a técnica de posição ao sombreador de informações de malha
+* [Exibição 2D] Salva o estado das opções de exibição
+* [Exibição 3D] Adicionar técnica de posição ao sombreador de informações de malha
 * [Exportar] Adicione um botão “Salvar configurações” para salvar alterações nas opções de exportação
 
 ### Correções
 
-* [Visualização 3D] Não é possível atribuir uma textura a uma entrada do tipo textura\_2d de um material MDL
+* [Exibição 3D] Não é possível atribuir uma textura a uma entrada do tipo textura\_2d de um Material MDL
 * [AxF] Os identificadores de gráfico na lista de modelos podem ficar em branco
 * [AxF] O campo do modelo de gráfico de Substance está em branco por padrão
 * atlas scatter [Content]: comportamento incorreto em casos específicos
@@ -141,16 +141,16 @@ Finalmente, esta versão 13.1 continua a melhorar a API Python, adicionando mais
 * [Content] Descrição ausente para os nós Valor de entrada, Tons de cinza de entrada, Cor de entrada e Saída
 * [Content] Descrição ausente para os nós Definir e Sequência
 * [Content] Shape Splatter: artefatos de imprecisão na saída &#39;Splatter data 2&#39;
-* [Engine] Booleanos em Processadores de valor sempre são avaliados como &#39;False&#39; (somente Apple Silicon)
+* [Engine] Booleanos em Processadores de valor sempre avaliam como &#39;False&#39; (somente Apple Silicon)
 * [Explorer] A ordem dos botões da barra de ferramentas é inconsistente entre o sistema operacional
-* [Quadros] Não agarra nós ao mover uma quadro com o modificador CTRL
-* [Mapa de gradiente] a opção redefinir tudo também deve redefinir o widget de gradiente
+* [Quadros] Não utilize nós ao mover um quadro com o modificador CTRL
+* [Mapa de degradê] a opção redefinir tudo também deve redefinir o widget de degradê
 * [GraphRender] Alguns nós são renderizados em preto ao ajustar no modo de visualização
 * [Graph] A visualização “Valor de entrada” fica presa a “Falso” ao ajustar o valor booleano padrão (somente Apple Silicon)
 * [Gráfico] Os nós de ponto próximos à borda do Quadro não são movidos pelo Quadro
 * [Interoperabilidade] O ícone de reenvio não é atualizado após o envio para a Substance 3D Stager
 * [MDL] Impossível alterar a Aspereza em nós onde este parâmetro está disponível
-* [MDL] Conexões inválidas no modelo &#39;AxF para Aspereza metálica&#39;
+* [MDL] Conexões inválidas no modelo “AxF to Metallic Roughness”
 * [UI] A janela “Exportar saídas” pode ser minimizada (somente Windows)
 * [UI] As imagens aparecem pixeladas na tela Sobre ao usar o dimensionamento de exibição
 * [UI] Ferramentas de alinhamento de nós na barra de ferramentas de gráfico criam várias etapas de desfazer

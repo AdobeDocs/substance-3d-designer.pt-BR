@@ -228,14 +228,14 @@ Todos os outros nós de gráficos de Substance na [Biblioteca](../../../interfac
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Nó atômico: Cor uniforme](atomic-nodes.resources/comp_uniform.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)
+[![Nó atômico: cor uniforme](atomic-nodes.resources/comp_uniform.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)
 
 [Cor uniforme](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Nó atômico: Processador de valor](atomic-nodes.resources/comp_valueprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
+[![Nó atômico: processador de valores](atomic-nodes.resources/comp_valueprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
 
 [Processador de valor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
 

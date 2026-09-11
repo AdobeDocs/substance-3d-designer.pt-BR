@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Lógico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 Os nós lógicos são usados para adicionar várias condições ao seu gráfico:
 
-![](../../../../assets/image2015-12-23-11-23-21.png)
+![](logical-nodes.resources/image2015-12-23-11-23-21.png)
 
 ## O nó *And*
 
-![](../../../../assets/image2015-12-23-11-30-9.png)
+![](logical-nodes.resources/image2015-12-23-11-30-9.png)
 
 O nó And usa dois nós Booleanos como entrada:
 
@@ -35,7 +35,7 @@ O nó And usa dois nós Booleanos como entrada:
 
 ## O nó *Ou*
 
-![](../../../../assets/image2015-12-23-11-30-44.png)
+![](logical-nodes.resources/image2015-12-23-11-30-44.png)
 
 O nó Or usa dois nós booleanos como entrada:
 
@@ -44,7 +44,7 @@ O nó Or usa dois nós booleanos como entrada:
 
 ## O nó *Não*
 
-![](../../../../assets/image2015-12-23-11-31-46.png)
+![](logical-nodes.resources/image2015-12-23-11-31-46.png)
 
 O nó Not assume um booleano como entrada: ele examinará o valor de entrada e retornará seu oposto:
 

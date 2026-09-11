@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/3d-planar-projection.html"
 breadcrumb-title: ''
-description: Use o nó Projeção planar 3D para projetar texturas em superfícies de malha usando projeção planar para mapeamento de textura.
+description: Use o nó Projeção Planar 3D para projetar texturas em superfícies de malha usando projeção planar para mapeamento de textura.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > 3D Planar Projection
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Projeção planar 3D
+title: Projeção Planar 3D
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
@@ -18,7 +18,7 @@ ht-degree: 7%
 ---
 
 
-# Projeção planar 3D
+# Projeção Planar 3D
 
 <table>
 <tr style="border: 0;">
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## Descrição
 
-Executa uma projeção planar com base em dados de malha cozida (mapas de posição e normais mundiais). Permite projetar e inserir decalques em emendas, independentemente do mapeamento UV original.
+Executa uma projeção planar com base nos dados de malha feitos bake (posição e Mapas normais mundiais). Permite projetar e inserir decalques em emendas, independentemente do mapeamento UV original.
 
 </td>
 </tr>
@@ -57,7 +57,7 @@ Executa uma projeção planar com base em dados de malha cozida (mapas de posiç
 |:---|:---|
 | <b>Posicionamento</b> |  |
 | <b>Entrada do projeto</b> <i>Posição UV, Posição do Espaço Mundial</i> | Escolha se a posição de projeção é definida em 2D/UV ou no espaço 3D/Mundial. |
-| <b>Posição UV de Destino</b> | Somente com a Entrada de posição UV, mais adequada para escolher um ponto na exibição 2D do mapa de posição. |
+| <b>Posição UV de Destino</b> | Somente com a Entrada de posição UV, mais adequada para escolher um ponto no Visualização 2D do mapa de posição. |
 | <b>Posição de Destino</b> <i>(Valor da cor)</i> | Somente com a Entrada da posição do espaço mundial, é possível definir uma coordenada 3D exata. |
 | <b>Destino Normal</b> <i>(Valor da cor)</i> |  |
 | <b>Rotação</b> <i>0.0 - 1.0</i> | Gira a textura projetada ao longo do eixo normal. |

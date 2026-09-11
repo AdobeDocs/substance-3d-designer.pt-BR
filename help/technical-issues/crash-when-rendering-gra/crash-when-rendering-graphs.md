@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Falha ao renderizar gráficos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 3%
+source-wordcount: '188'
+ht-degree: 4%
 
 ---
 
@@ -24,13 +24,13 @@ Esta página lista as falhas que ocorrem durante o processo de renderização do
 
 ## TDR (somente Windows)
 
-<b>[![(error)](../../assets/error.svg)](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Problema</b>
+<b>[![(erro)](crash-when-rendering-graphs.resources/error.svg)](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Problema</b>
 
 O timer do <b>Timeout Detection &amp; Recovery (TDR)</b> do sistema é *muito curto* para permitir que o Substance 3D Designer conclua seus cálculos atuais antes que o driver gráfico seja *reiniciado*.
 
 Os cálculos executados pelo Substance 3D Designer podem ser muito intensivos e usam os drivers gráficos em um grau que *não responde* ao sistema operacional por algum tempo.\
 Como medida de estabilidade e segurança, o sistema operacional *reinicia o driver gráfico*, encurtando os cálculos e resultando no *travamento* do Substance 3D Designer.
 
-<b>![(tick)](../../assets/check.svg) Etapas recomendadas</b>
+<b>![(tick)](crash-when-rendering-graphs.resources/check.svg) Etapas recomendadas</b>
 
 Os valores do temporizador TDR precisam ser *aumentados* para evitar essas falhas. Você pode fazer isso seguindo as instruções nesta [página](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) da documentação da Substance 3D Painter, que também se aplicam ao Substance 3D Designer.

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-selector.html"
 breadcrumb-title: ''
-description: Use o nó Seletor de material para selecionar materiais com base em dados de malha para criar efeitos de textura multimateriais.
+description: Use o nó Seletor de material para selecionar materiais com base em dados de malha para criar efeitos de textura multimaterial.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Material Selector
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 Converte um mapa de ID de cor completa em uma máscara binária, preta e branca. Permite a mesclagem e a combinação de diferentes cores em uma máscara.
 
-Isso é útil se você não quiser usar o [Combinar de vários materiais](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md) e preferir usar a máscara manualmente ou, como alternativa, se quiser usar manualmente essas mesmas máscaras em outros locais.
+Isso é útil se você não quiser usar a [Mesclagem de vários materiais](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md) e preferir usar a máscara manualmente ou, como alternativa, se quiser usar manualmente as mesmas máscaras em outros locais.
 
 </td>
 </tr>

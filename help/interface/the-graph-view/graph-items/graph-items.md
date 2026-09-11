@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Itens gráficos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 7%
@@ -26,14 +26,14 @@ Itens de gráfico são objetos especiais que ajudam a organizar seus gráficos, 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Ícone de nó ponto](../../../assets/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![Ícone de nó ponto](graph-items.resources/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## Nó ponto (também Portal)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Ícone de Quadro](../../../assets/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[![Ícone de Quadro](graph-items.resources/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## Quadro
 
@@ -60,14 +60,14 @@ Agrupe os nós com rótulo e codificação de cores e, em seguida, mova-os facil
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Ícone de comentário](../../../assets/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![Ícone de comentário](graph-items.resources/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## Comentário
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Ícone de fixar de navegação](../../../assets/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![Ícone de fixar de navegação](graph-items.resources/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## Fixar
 

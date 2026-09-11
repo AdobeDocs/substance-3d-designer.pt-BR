@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Preferências
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Janela Preferências
 
-![Janela Preferências](../../assets/image2021-6-22-20-56-1.png "Janela Preferências")
+![Janela Preferências](preferences-window.resources/image2021-6-22-20-56-1.png "Janela Preferências")
 
 Esta página apresenta a janela <b>Preferências</b> e todas as suas configurações.
 
@@ -157,14 +157,14 @@ Consulte a página [Configurações de projetos](../../interface/preferences-win
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Edição do contexto interno desabilitada](../../assets/substance3ddesigner_incontext_no.gif "Edição do contexto interno desabilitada")
+![Edição do contexto interno desabilitada](preferences-window.resources/substance3ddesigner_incontext_no.gif "Edição do contexto interno desabilitada")
 
 *Abrir Referência*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Edição do contexto interno habilitada](../../assets/substance3ddesigner_incontext_yes.gif "Edição do contexto interno habilitada")
+![Edição do contexto interno habilitada](preferences-window.resources/substance3ddesigner_incontext_yes.gif "Edição do contexto interno habilitada")
 
 *Abrir Referência No Contexto*
 

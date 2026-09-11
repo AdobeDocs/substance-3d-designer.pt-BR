@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Entrada
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -46,51 +46,6 @@ Diferentemente dos [nós de saída](../../../../compositing-graphs/nodes-referen
 
 Os nós de entrada não são tão cruciais quanto os [Nós de saída](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): você pode ter Gráficos avançados em perfeito funcionamento que não precisam de uma Entrada. As entradas só são usadas quando você deseja basear o resultado de uma Instância de Gráfico ou nó em uma entrada externa, por exemplo, ao criar uma [Instância](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)ou um [Filtro](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/effects/filter) para o Substance 3D Painter.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## PARÂMETROS
-
-</td>
-<td style="border: 0;" valign="top">
-
-### ATRIBUTOS
-
-</td>
-<td style="border: 0;" valign="top">
-
-### HERANÇA
-
-</td>
-<td style="border: 0;" valign="top">
-
-### ATRIBUTOS DE INTEGRAÇÃO
-
-</td>
-</tr>
-</table>
-
 ## Parâmetros
 
 Por padrão, uma Cor de entrada ou Escala de cinza retorna preto se nada estiver conectado. Você pode definir um valor padrão diferente ou arrastar um[Recurso de Bitmap](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) existente do [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) para o nó de Entrada do gráfico, para visualizar esses dados no slot. Isso só funciona para Entradas coloridas e em tons de cinza. O valor padrão é persistente quando usado em outros contextos. O bitmap de visualização é descartado em todos os outros lugares.
@@ -108,7 +63,7 @@ Se quiser visualizá-lo com as saídas de outro gráfico, será necessário expo
 | --- | --- |
 | <b>Identificador</b> *Cadeia de Caracteres* | O único Atributo obrigatório e exclusivo. Não pode conter espaços.   Esse é usado para rotular entradas se nenhum Rótulo estiver configurado e para diferenciar saídas diferentes. Não deixe apenas isso como “input\_1”! |
 | <b>Descrição</b> *Cadeia de Caracteres* | Descrição opcional usada na biblioteca do Designer e na prateleira do Painter. |
-| <b>Rótulo</b> *Cadeia de Caracteres* | Rótulo de interface usado para boa rotulagem na interface do Designer e Painter. Pode conter espaços.   Recomenda-se configurar com um nome semelhante ao identificador, apenas com barras de espaço em vez de sublinhados. |
+| <b>Rótulo</b> *Cadeia de Caracteres* | Rótulo de interface usado para boa rotulagem na interface do Designer e Painter. Pode conter espaços.   Recomenda-se configurar com um nome semelhante à Identificador, apenas com barras de espaço em vez de sublinhados. |
 | <b>Dados do usuário</b> *Cadeia de Caracteres* | Dados do usuário adicionais e opcionais que podem ser usados para operações de filtragem específicas, Basicamente um curinga, campo de dados personalizado. |
 | <b>Grupo</b> *Cadeia de Caracteres* | Atributo de Grupo usado para agrupar entradas para os [Modos de Criação de Link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) do Designer.   Entradas com um Atributo de Grupo idêntico (diferencia maiúsculas de minúsculas) serão apresentadas como uma única conexão no Modo de Material Compacto. |
 
@@ -116,21 +71,21 @@ Se quiser visualizá-lo com as saídas de outro gráfico, será necessário expo
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 Quando várias entradas estão presentes, você precisa prestar atenção à maneira como o gráfico [herdará seus parâmetros Base](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) dessas entradas.\
 Os parâmetros base incluem, entre outros, <b>Tamanho de Saída</b>, <b>Formato de Saída</b> e <b>Modo Revestimento</b>.
 
-</td>
-<td width="33.33%" style="border: 0;" valign="top">
+Uma entrada pode ser definida como a [Entrada primária](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). Essa entrada, em seguida, orienta os atributos de todas as entradas cujo método de herança está definido como *Relativo ao pai*. Este é o método de herança *definido por padrão* nos nós de entrada.
 
-[![Entrada primária no Substance](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+</td>
+<td width="25%" style="border: 0;" valign="top">
+
+![Entrada primária no Substance](input.resources/node-primary-input.png)
 
 </td>
 </tr>
 </table>
-
-Uma entrada pode ser definida como a [Entrada primária](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). Essa entrada, em seguida, orienta os atributos de todas as entradas cujo método de herança está definido como *Relativo ao pai*. Este é o método de herança *definido por padrão* nos nós de entrada.
 
 Você pode definir um nó de entrada como a entrada Primária de um gráfico clicando em *RMB* no nó e selecionando a opção <b>Definir como entrada Primária</b> no menu contextual.\
 A entrada Primária de um nó está marcada com um *pequeno ponto escuro no conector* (circulado em vermelho no exemplo ao lado desta seção).
@@ -145,7 +100,7 @@ Finalmente, você pode substituir qualquer valor de um determinado atributo defi
 
 >[!IMPORTANT]
 >
-> O método de herança *Relativo à entrada* para nós de entrada *não tem suporte* em [Ativos do Substance 3D (SBSAR)](https://helpx.adobe.com/br/substance-3d-assets.html). Defina todos os métodos de herança dos nós de entrada como *Relativo ao pai* antes de publicar o pacote.
+> O método de herança *Relativo à entrada* para nós de entrada *não tem suporte* em [Ativos do Substance 3D (SBSAR)](../../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md). Defina todos os métodos de herança dos nós de entrada como *Relativo ao pai* antes de publicar o pacote.
 
 ## Atributos de integração
 

@@ -66,7 +66,7 @@ Mapeia a imagem colorida de entrada usando as coordenadas fornecidas na entrada 
 
 |  |  |
 |:---|:---|
-| <b>Cor do plano de fundo</b> <i>Flutuante4</i> | A cor de plano de fundo da imagem de saída.<br>O plano de fundo é visível nas áreas da imagem em que os UVs não estão definidos (ou seja, o valor é (0, 0, 0, 0)). |
+| <b>Cor do plano de fundo</b> <i>Precisão decimal 4</i> | A cor de plano de fundo da imagem de saída.<br>O plano de fundo é visível nas áreas da imagem em que os UVs não estão definidos (ou seja, o valor é (0, 0, 0, 0)). |
 
 ## Exemplos
 

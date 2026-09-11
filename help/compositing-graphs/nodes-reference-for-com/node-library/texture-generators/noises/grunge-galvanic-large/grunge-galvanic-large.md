@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ![](grunge-galvanic-large.resources/grungegalvaniclarge.jpg){width="200px"}
 
-<b>Entrada:</b> geradores de textura > Ruídos
+<b>Entrada:</b> geradores de Textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,13 +45,13 @@ O nó **Galvânico de Desgaste Grande** gera um mapa de desgaste semelhante ao p
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
-| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
+| <b>Saldo</b> <i>Precisão decimal</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Precisão decimal</i> | Ajusta o contraste da imagem. |
 | <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
 | <b>Avançado</b> |  |
-| <b>Intensidade de distorção</b> <i>Flutuante</i> | Ajusta a intensidade do efeito de distorção principal. |
-| <b>Opacidade dos Detalhes de Crista</b> <i>Flutuante</i> | Ajusta a opacidade dos cumes mais brilhantes. |
+| <b>Intensidade de distorção</b> <i>Precisão decimal</i> | Ajusta a intensidade do efeito de distorção principal. |
+| <b>Opacidade dos Detalhes de Crista</b> <i>Precisão decimal</i> | Ajusta a opacidade dos cumes mais brilhantes. |
 | <b>Intensidade de nitidez</b> <i>Flutuante</i> | Ajusta a intensidade do efeito de nitidez global. |
 
 ## Exemplos

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Personalizar sua área de trabalho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Esse menu permite gerenciar os principais elementos da interface do usuário do 
 
 ### Exibir/ocultar uma exibição
 
-Para exibir ou ocultar um item de interface específico, clique em seu nome no menu *Janelas*. Os itens exibidos têm uma marca de seleção ![](../../assets/image2015-12-17-10-43-24.png).
+Para exibir ou ocultar um item de interface específico, clique em seu nome no menu *Janelas*. Os itens exibidos têm uma marca de seleção ![](customizing-your-workspace.resources/image2015-12-17-10-43-24.png).
 
 ### Preencher um encaixe com uma exibição
 
@@ -46,7 +46,7 @@ As opções <b>Novo Explorer</b>, <b>Nova exibição 3D</b> e <b>Nova exibição
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Menu do Windows](../../assets/windows-menu-1.png "Menu do Windows")
+![Menu do Windows](customizing-your-workspace.resources/windows-menu-1.png "Menu do Windows")
 
 </td>
 </tr>
@@ -56,13 +56,13 @@ As opções <b>Novo Explorer</b>, <b>Nova exibição 3D</b> e <b>Nova exibição
 
 As docas podem ser redimensionadas movendo qualquer uma de suas bordas. Outras docking stations serão redimensionadas dinamicamente para se ajustarem.
 
-![Redimensionando docas](../../assets/interface-customisation-resize.gif "Redimensionando docas")
+![Redimensionando docas](customizing-your-workspace.resources/interface-customisation-resize.gif "Redimensionando docas")
 
 ## Movendo docas
 
 Qualquer encaixe pode ser movido pela janela principal usando sua *barra de título*. Dependendo do local para o qual o encaixe é movido, ele será redimensionado para se ajustar.
 
-![Movendo docas](../../assets/interface-customisation-move.gif "Movendo docas")
+![Movendo docas](customizing-your-workspace.resources/interface-customisation-move.gif "Movendo docas")
 
 ## Tabulação de encaixes
 
@@ -70,7 +70,7 @@ As docas podem ser empilhadas em tabulações. Isso é útil para salvar o espa�
 
 Você pode tabular encaixes movendo um encaixe usando sua barra de título *sobre um encaixe existente*, como encaixes que não são redimensionados nem movidos, mas um *quadro* aparece ao redor do encaixe de destino.
 
-![Docas de tabulação](../../assets/interface-customisation-tab.gif "Docas de tabulação")
+![Docas de tabulação](customizing-your-workspace.resources/interface-customisation-tab.gif "Docas de tabulação")
 
 ## Desencaixando
 
@@ -78,10 +78,10 @@ Um encaixe pode ser desencaixado em uma *janela flutuante*, que pode ser redimen
 
 Isso pode ser feito de duas maneiras:
 
-* Movendo o encaixe usando sua *barra de título* e colocando-o *fora da janela principal* ou em uma área da janela principal que *não é um encaixe*. Você pode reencaixar este encaixe movendo-o em outro encaixe *na janela principal* ou clicando no botão <b>![](../../assets/dock-icons-redock.png) Reencaixar</b>;
-* Clique no botão <b>![](../../assets/dock-icons-undock.png) Desencaixar</b>. Um encaixe desencaixado com este método pode *apenas* ser reencaixado clicando no botão <b>![](../../assets/dock-icons-redock.png) Reencaixar</b>.
+* Movendo o encaixe usando sua *barra de título* e colocando-o *fora da janela principal* ou em uma área da janela principal que *não é um encaixe*. Você pode reencaixar este encaixe movendo-o em outro encaixe *na janela principal* ou clicando no botão <b>![](customizing-your-workspace.resources/dock-icons-redock.png) Reencaixar</b>;
+* Clique no botão <b>![](customizing-your-workspace.resources/dock-icons-undock.png) Desencaixar</b>. Um encaixe desencaixado com este método pode *apenas* ser reencaixado clicando no botão <b>![](customizing-your-workspace.resources/dock-icons-redock.png) Reencaixar</b>.
 
-![Desencaixando](../../assets/interface-customisation-undock.gif "Desencaixando")
+![Desencaixando](customizing-your-workspace.resources/interface-customisation-undock.gif "Desencaixando")
 
 ## Maximização de encaixes
 
@@ -93,12 +93,12 @@ Qualquer encaixe pode ser maximizado para se ajustar à área ou à sua *janela 
 As docking stations podem ser maximizadas de duas maneiras:
 
 * Colocando o *cursor sobre o encaixe* e pressionando o pressionamento da tecla <b>Shift+Espaço</b>
-* Clique no botão <b>![](../../assets/dock-icons-maximise.png) Maximizar</b>
+* Clique no botão <b>![](customizing-your-workspace.resources/dock-icons-maximise.png) Maximizar</b>
 
 As docking stations maximizadas podem ser minimizadas no tamanho e local em que elas estavam *antes de serem maximizadas*. Isso pode ser feito de três maneiras:
 
 * Colocando o *cursor sobre o encaixe* e pressionando o pressionamento da tecla <b>Shift+Espaço</b>
-* Clicando no botão <b>![](../../assets/dock-icons-minimise.png) Minimizar</b>
+* Clicando no botão <b>![](customizing-your-workspace.resources/dock-icons-minimise.png) Minimizar</b>
 * Abrindo o menu <b>Janelas</b> e selecionando a opção <b>Não maximizar janela</b>
 
 >[!NOTE]
@@ -114,7 +114,7 @@ As docking stations maximizadas podem ser minimizadas no tamanho e local em que 
 > * Os botões estão *desabilitados* na barra de título do Dock
 > * Um encaixe maximizado na janela principal *não pode ser movido* usando sua barra de título
 
-![Maximizando encaixes](../../assets/interface-customisation-maximise.gif "Maximizando encaixes")
+![Maximizando encaixes](customizing-your-workspace.resources/interface-customisation-maximise.gif "Maximizando encaixes")
 
 ## Fixação de encaixes
 
@@ -122,7 +122,7 @@ Fixar um encaixe *evita que ele seja populado* com outro conteúdo ou uma exibi�
 
 Quando um encaixe é fixado, qualquer conteúdo futuro que deve ser exibido em seu será, em vez disso, *criado um novo encaixe* para hospedá-lo. Esse novo encaixe não será fixado e, portanto, poderá atualizar e hospedar novo conteúdo.
 
-Para fixar um encaixe, clique no botão ![](../../assets/dock-icons-pin.png) <b>Fixar</b>. Depois, você pode *desafixar* usando o botão ![](../../assets/dock-icons-pinned.png) <b>Desafixar</b> para torná-lo mais uma vez *disponível* para hospedar qualquer conteúdo novo.
+Para fixar um encaixe, clique no botão ![](customizing-your-workspace.resources/dock-icons-pin.png) <b>Fixar</b>. Depois, você pode *desafixar* usando o botão ![](customizing-your-workspace.resources/dock-icons-pinned.png) <b>Desafixar</b> para torná-lo mais uma vez *disponível* para hospedar qualquer conteúdo novo.
 
 *Mais de um* encaixe pode ser fixado por vez, incluindo vários encaixes do *mesmo tipo*.
 
@@ -132,11 +132,11 @@ A fixação de encaixes proporciona os seguintes recursos:
 * Exibição simultânea de dois bitmaps
 * Trabalhar em vários gráficos simultaneamente
 
-![Fixando docas](../../assets/interface-customisation-pin.gif "Fixando docas")
+![Fixando docas](customizing-your-workspace.resources/interface-customisation-pin.gif "Fixando docas")
 
 ## Fechando docas
 
-Qualquer encaixe pode ser fechado clicando no botão ![](../../assets/dock-icons-close.png) <b>Fechar</b>.
+Qualquer encaixe pode ser fechado clicando no botão ![](customizing-your-workspace.resources/dock-icons-close.png) <b>Fechar</b>.
 
 ## Redefinição do layout da interface
 
@@ -144,4 +144,4 @@ Toda a interface de usuário pode ser redefinida para seu layout padrão abrindo
 
 Seu estado de exibição também será redefinido, o que significa que as docas fechadas podem ser *reabertas* (por exemplo, exibição 3D) e as docas exibidas podem ser *fechadas* (por exemplo, Console, Gerenciador de dependências, docas criadas por plug-ins).
 
-![Redefinir layout](../../assets/interface-customisation-reset.gif "Redefinir layout")
+![Redefinir layout](customizing-your-workspace.resources/interface-customisation-reset.gif "Redefinir layout")

@@ -15,7 +15,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ícone de simetria](./3d-sdf-op-symmetry.png "simetria")
+![Ícone de Simetria](./3d-sdf-op-symmetry.png "Simetria")
 
 <b>Entrada:</b> Função SDF > Operador
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## Descrição
 
-Inverte e duplica uma forma SDF em um plano espelhado e, em seguida, retorna a união da forma SDF base e sua(s) duplicata(s).<br>A simetria pode ser aplicada em qualquer eixo simultaneamente.
+Inverte e duplica uma forma SDF em um plano espelhado e, em seguida, retorna a união da forma SDF base e sua(s) duplicata(s).<br>A Simetria pode ser aplicada em qualquer eixo simultaneamente.
 
 </td>
 </tr>
@@ -40,8 +40,8 @@ Inverte e duplica uma forma SDF em um plano espelhado e, em seguida, retorna a u
 
 |  |  |
 | :--- | :--- |
-| <b>FDS</b> *Flutuante* | A forma SDF de entrada. |
-| <b>Posição do plano espelho</b> *Flutuante3* | A posição do espaço global do centro do plano do espelho.<br>Esta posição é compartilhada por todos os planos espelhados se a simetria for aplicada em vários eixos.<br><br><i>Padrão: (0, 0, 0)</i> |
+| <b>FDS</b> *Precisão decimal* | A forma SDF de entrada. |
+| <b>Posição do plano espelho</b> *Precisão decimal 3* | A posição do espaço global do centro do plano do espelho.<br>Esta posição é compartilhada por todos os planos espelhados se a simetria for aplicada em vários eixos.<br><br><i>Padrão: (0, 0, 0)</i> |
 | <b>Eixo do espelho</b> *Inteiro3* | Define os eixos do espelho desejados.<br><br>Por exemplo, (1, 0, 0) aplicará simetria no eixo X.<br><br><i>Padrão: (1, 0, 0)</i> |
 | <b>Virar eixo</b> *Inteiro3* | Define quais eixos devem ser invertidos.<br><br>Por exemplo, (1, 0, 0) inverterá a direção da simetria no eixo X.<br><br><i>Padrão: (0, 0, 0)</i> |
-| <b>Pré-deslocamento</b> *Flutuante3* | O deslocamento nos eixos X, Y, Z aplicado à forma antes da aplicação do operador de simetria. |
+| <b>Pré-deslocamento</b> *Precisão decimal 3* | O deslocamento nos eixos X, Y, Z aplicados à forma antes da aplicação do operador de simetria. |

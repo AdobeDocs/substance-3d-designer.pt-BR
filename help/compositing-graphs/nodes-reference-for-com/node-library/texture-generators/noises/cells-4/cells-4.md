@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![Células 4 - Ícone](cells-4.resources/cells_4.png "Células 4 - Ícone"){width="200px"}
 
-<b>Entrada:</b> geradores de textura > Ruídos
+<b>Entrada:</b> geradores de Textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -66,8 +66,8 @@ Veja também: [Células 1](../../../../../../compositing-graphs/nodes-reference-
 |  |  |
 |:---|:---|
 | <b>Escala</b> <i>Inteiro</i> | A subdivisão da grade usada para gerar os blocos de ruído.    Um valor mais alto resulta no desenho de mais ladrilhos e em um ruído mais denso. |
-| <b>Desordem</b> <i>Flutuante</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
-| <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
+| <b>Desordem</b> <i>Precisão decimal</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
+| <b>Velocidade do distúrbio</b> <i>Precisão decimal</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
 | <b>Origem da cor</b> <i>Inteiro</i> | A origem da cor simples aplicada às células:<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>Aleatório:</i></b> use uma cor aleatória controlada pela semente aleatória do nó</li> <li data-preserve-html="true"><b><i>Pseudorandom:</i></b> usar uma cor aleatória propagada por um valor separado definido pelo usuário</li> <li data-preserve-html="true"><b><i>Entrada de imagem:</i></b> use a cor amostrada no local da célula na imagem de entrada</li> </ul> |
 | <b>Semente Pseudorandom</b> <i>Inteiro</i>   *Disponível quando &#39;Origem da cor&#39; está definida como &#39;Pseudorandom&#39;* | Permite alterar a semente da cor separadamente da semente do nó. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |

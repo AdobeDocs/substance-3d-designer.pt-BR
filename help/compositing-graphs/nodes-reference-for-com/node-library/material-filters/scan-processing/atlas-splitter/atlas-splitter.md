@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
 breadcrumb-title: ''
-description: Use o nó Atlas splitter para dividir os atlas de textura em texturas individuais para processar os materiais digitalizados.
+description: Use o nó Atlas splitter para dividir atlas de textura em texturas individuais para processar materiais digitalizados.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Atlas Splitter
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ![Ícone de nó](atlas-splitter.resources/atlas-splitter.png "Ícone de nó")
 
-<b>Entrada:</b> Filtros Materiais/Processamento de materiais escaneados
+<b>Entrada:</b> Filtros de Material/Processamento de Digitalização
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -50,8 +50,8 @@ O nó funciona como um aplicativo avançado do nó [Flood Fill](../../../../../.
 |  |  |
 |:---|:---|
 | <b>Exibição de grade</b> <i>Booleano</i> | Exibe todas as formas detectadas em uma grade. |
-| <b>Opacidade da grade</b> <i>Precisão decimal</i> | Define a opacidade das linhas de grade quando a visualização de grade é verdadeira. Opção Depurar |
-| <b>Opacidade da Seleção de Grade</b> <i>Precisão decimal</i> | Define a Opacidade do realce de Seleção de grade se a Exibição de grade for Verdadeira. Opção Depurar |
+| <b>Opacidade da grade</b> <i>Flutuante</i> | Define a opacidade das linhas de grade quando a visualização de grade é verdadeira. Opção Depurar |
+| <b>Opacidade da Seleção de Grade</b> <i>Flutuante</i> | Define a Opacidade do realce de Seleção de grade se a Exibição de grade for Verdadeira. Opção Depurar |
 | <b>Escala automática</b> <i>Booleano</i> | Dimensione automaticamente as formas para ajustá-las à célula da grade. |
 | <b>Corte Automático</b> <i>Booleano</i> | Corta automaticamente o tamanho da saída de acordo com a maior forma para minimizar o espaço vazio. |
 | <b>Seleção de forma</b> <i>Inteiro</i> | Na visualização Grade define qual célula é destacada, fora da visualização Grade define qual célula é retornada. |
@@ -63,10 +63,10 @@ O nó funciona como um aplicativo avançado do nó [Flood Fill](../../../../../.
 | <b>Largura de Dilatação</b> <i>Flutuante</i> | Aplica um efeito de dilatação com base na máscara de Opacidade em todos os canais, exceto no Normal e no Height. |
 | <b>Habilitar Entradas Adicionais</b> <i>Booleano</i> | Disponibiliza as entradas e configurações do Usuário 1 e do Usuário 2 para todos os mapas adicionais não cobertos. |
 | <b>Cor de fundo personalizada</b> <i>Booleano</i> | Permite escolher uma cor de fundo personalizada, em vez de uma dilatação do conteúdo da camada. |
-| <b>Cor do Blog de Cor de base</b> <i>Precisão decimal 3</i> | Cor de fundo personalizada para Cor de base. |
-| <b>Cor De Erro Normal</b> <i>Precisão decimal 3</i> | Cor de fundo personalizada para o Mapa normal. |
-| <b>Cores Metálicas De Fundo</b> <i>Precisão decimal</i> | Cor de fundo personalizada para metálico. |
-| <b>Cor De Borrão Da Aspereza</b> <i>Precisão decimal</i> | Cor de fundo personalizada para aspereza |
-| <b>Cor do Blog do Height</b> <i>Precisão decimal</i> | Cor de fundo personalizada para o Height |
-| <b>Cor De Bg Do Usuário 1</b> <i>Precisão decimal</i> | Cor de fundo personalizada para o mapa personalizado do usuário 1 |
-| <b>Cor De Bg Do Usuário 2</b> <i>Precisão decimal</i> | Cor de fundo personalizada para o mapa personalizado do usuário 1 |
+| <b>Cor do Blog de Cor de base</b> <i>Flutuante3</i> | Cor de fundo personalizada para a cor de base. |
+| <b>Cor De Erro Normal</b> <i>Flutuante3</i> | Cor de fundo personalizada para o mapa normal. |
+| <b>Cores Metálicas De Fundo</b> <i>Flutuante</i> | Cor de fundo personalizada para metálico. |
+| <b>Cor De Borrão Da Aspereza</b> <i>Flutuante</i> | Cor de fundo personalizada para aspereza |
+| <b>Cor do Blog do Height</b> <i>Flutuante</i> | Cor de fundo personalizada para o Height |
+| <b>Cor De Bg Do Usuário 1</b> <i>Flutuante</i> | Cor de fundo personalizada para o mapa personalizado do usuário 1 |
+| <b>Cor De Bg Do Usuário 2</b> <i>Flutuante</i> | Cor de fundo personalizada para o mapa personalizado do usuário 1 |

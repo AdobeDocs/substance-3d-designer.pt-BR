@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Esta versão 13.0.0 do Substance 3D Designer traz muito amor aos artistas materiais, com uma enorme quantidade de novos nós, o Substance Engine 9.0 introduzindo loops pela primeira vez e com uma grande adição ao gráfico: o nó portal. E para agradar mais usuários, apresentamos uma nova tela inicial e fornecemos idiomas adicionais.
 
-Como mencionado na versão anterior, esta versão não é mais compatível com gráficos de modelo de Substance: isso significa que você não pode mais abrir, editar ou exportar esses gráficos no Designer. Você pode encontrar todos os motivos pelos quais tomamos esta decisão nesta [postagem](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731)em nosso fórum da comunidade.
+Conforme mencionado na versão anterior, esta versão não é mais compatível com gráficos de modelos do Substance: isso significa que você não pode mais abrir, editar ou exportar esses gráficos no Designer. Você pode encontrar todos os motivos pelos quais tomamos esta decisão nesta [postagem](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731)em nosso fórum da comunidade.
 
 *Data de lançamento: 6 de junho de 2023*
 
@@ -94,7 +94,7 @@ Também fornecemos ferramentas para retrabalhar e ajustar seus splines. Você en
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Transformação 2D De Spline](../../assets/Spline2DTransform-Demo1.gif "Transformação 2D De Spline")
+![Transformo 2D de Spline](../../assets/Spline2DTransform-Demo1.gif "Transformo 2D de Spline")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -119,7 +119,7 @@ Também fornecemos ferramentas para retrabalhar e ajustar seus splines. Você en
 
 A última categoria é aquela para criar a forma ou o padrão final com base nos splines. A primeira ideia que lhe vem à mente será repetir uma determinada forma ao longo da spline: o nó [Dispersão na spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md) permite fazer isso, com muitos parâmetros para controlar perfeitamente a distribuição (rotação, escala, deslocamento, cores, máscaras etc.).
 
-Graças ao [Preenchimento de spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>nó, você pode criar facilmente um padrão a partir de uma spline fechada. E se você quiser mapear qualquer textura nos splines, com alto grau de controle e precisão, o nó [Mapeador de spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) foi criado para você!
+Graças ao [Preenchimento de spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>nó, você pode criar facilmente um padrão a partir de uma spline fechada. E se você quiser mapear qualquer textura em seus splines, com alto grau de controle e precisão, o nó [Mapeador de spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) foi criado para você!
 
 <table>
 <tr style="border: 0;">

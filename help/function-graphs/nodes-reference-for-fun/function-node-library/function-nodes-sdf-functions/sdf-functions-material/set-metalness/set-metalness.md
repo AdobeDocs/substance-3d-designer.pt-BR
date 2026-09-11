@@ -40,8 +40,8 @@ Este valor pode ser recuperado para todas as formas SDF respingadas na saída *M
 
 |                          |                             |
 |--------------------------|-----------------------------|
-| <b>Cena SDF</b> *Flutuante* | A cena do SDF de entrada. |
-| <b>Metalidade</b> *Flutuante* | O valor de metalidade a ser definido. |
+| <b>Cena SDF</b> *Precisão decimal* | A cena do SDF de entrada. |
+| <b>Metalidade</b> *Precisão decimal* | O valor de metalidade a ser definido. |
 
 
 

@@ -44,4 +44,4 @@ Uma Função SDF para um cone com tampa de raios de base e superiores ajustávei
 | <b>Raio superior</b> *Flutuante* | O raio da parte superior do cone limitado.<br><br><i>Padrão: 0,2</i> |
 | <b>Height</b> *Flutuante* | O height Z-up do cone limitado de sua base.<br><br><i>Padrão: 1</i> |
 | <b>Posição central</b> *Flutuante3* | A posição do espaço global da tabela dinâmica do cone limitado.<br><br><i>Padrão: (0, 0, 0)</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>P</b> *Flutuante3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

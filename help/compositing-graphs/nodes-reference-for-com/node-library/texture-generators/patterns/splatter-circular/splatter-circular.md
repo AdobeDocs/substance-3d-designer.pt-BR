@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Espalhar Circular
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 8%
@@ -24,11 +24,11 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/splatter-circular.png){width="128px"}
+![](splatter-circular.resources/splatter-circular.png){width="128px"}
 
-![](../../../../../../assets/splatter-circular-color.png){width="128px"}
+![](splatter-circular.resources/splatter-circular-color.png){width="128px"}
 
-<b>Em:</b> Textura Geradores > Padrões
+<b>Em:</b> Geradores De Textura > Padrões
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -118,7 +118,7 @@ Ambas as entradas são opcionais.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/circularsplatter-ex.png" />
+            <img src="splatter-circular.resources/circularsplatter-ex.png" />
         </td>
     </tr>
 </table>

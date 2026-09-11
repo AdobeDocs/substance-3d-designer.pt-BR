@@ -33,9 +33,9 @@ ht-degree: 5%
 
 ## Descrição
 
-Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) do [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
+Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Semelhante às [Máscaras Inteligentes](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) do [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-Essa máscara representa o dust acumulado em áreas ocultas, rebaixadas, bem como apenas em áreas voltadas para cima. Requer AO feito bake adequado e World Space Normals para funcionar.
+Essa máscara representa o dust acumulado em áreas ocultas, rebaixadas, bem como apenas em áreas voltadas para cima. Requer AO cozido e World Space Normals adequados para funcionar.
 
 </td>
 </tr>

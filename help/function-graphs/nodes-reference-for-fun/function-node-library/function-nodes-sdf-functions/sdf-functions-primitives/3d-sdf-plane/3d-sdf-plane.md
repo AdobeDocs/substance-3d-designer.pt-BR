@@ -44,4 +44,4 @@ Uma Função SDF para um plano de orientação, posição e tamanho ajustáveis.
 | <b>Tamanho</b> *Flutuante2* | O tamanho do plano em X e Y.<br><br><i>Padrão: (1, 1)</i> |
 | <b>Thickness</b> *Flutuante* | O thickness do plano, aplicado em todas as direções.<br>O plano é arredondado quando o thickness é aumentado.<br><br><i>Padrão: 0</i> |
 | <b>Posição central</b> *Flutuante3* | A posição do espaço global da tabela dinâmica do plano.<br><br><i>Padrão: (0, 0, 0)</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>P</b> *Flutuante3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

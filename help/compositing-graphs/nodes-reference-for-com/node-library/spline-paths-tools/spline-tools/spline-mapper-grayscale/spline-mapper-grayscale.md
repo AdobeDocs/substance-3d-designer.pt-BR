@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
 breadcrumb-title: ''
-description: Use o nó Tons de cinza do mapeador de spline para mapear texturas em tons de cinza ao longo de caminhos de spline com parâmetros personalizáveis.
+description: Use o nó Escala de cinza do Mapeador de spline para mapear texturas em escala de cinza ao longo de caminhos de spline com parâmetros personalizáveis.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Mapper Grayscale
 helpx_experience_level: ""
@@ -61,7 +61,7 @@ O nó gera a imagem mapeada como uma imagem em tons de cinza, bem como outras in
 | <b>Dados de Spline</b> <i>Cor</i> | Dados adicionais das splines de entrada codificadas nos canais RGBA de uma imagem colorida.<br><b>R</b> - Tangentes X<br><b>G</b> - Tangentes Y<br><b>B</b> - Não Usadas<br><b>A</b> - Não Usadas |
 | <b>Valor da spline</b> <i>Inteiro</i> | O número de splines de entrada. |
 | <b>Mapa de cores</b> <i>Tons de cinza</i> | A imagem em tons de cinza de entrada que deve ser mapeada ao longo das linhas divisórias de entrada. |
-| <b>Mapa de Heights</b> <i>Tons de cinza</i> | O mapa de altura de tons de cinza de entrada que deve ser mapeado ao longo das linhas de entrada. |
+| <b>Mapa de altura</b> <i>Tons de cinza</i> | O mapa de altura de tons de cinza de entrada que deve ser mapeado ao longo das linhas de entrada. |
 | <b>Twist curve</b> <i>Tons de cinza</i> | A imagem que descreve uma curva usando os valores de sua primeira linha de pixels.<br>Quando o parâmetro <b>Forma</b> é definido como <i>Meio Cilindro</i> ou <i>Cilindro</i>, essa entrada é usada para controlar a torção dos UVs em torno da forma. Seu impacto é controlado usando o parâmetro <b>Multiplicador de curva de UVs de torção</b>.<br>A curva fornece um perfil para a quantidade de rotação ao longo da spline, onde o primeiro pixel na linha é a rotação no início da spline e o último é a rotação no final. O valor da escala de cinza representa um número de voltas.<br>Você pode usar um nó [Curva](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) para criar a curva. |
 
 <a name="outputs"></a>
@@ -83,12 +83,12 @@ O nó gera a imagem mapeada como uma imagem em tons de cinza, bem como outras in
 |:---|:---|
 | <b>Valor de Segmentos</b> <i>Inteiro</i> | As splines são simplificadas em segmentos antes que as coordenadas da imagem os atravessem.<br>Uma quantidade maior de segmentos resulta em um mapeamento mais suave ao longo das curvas. |
 | <b>UVs de Escala Automática</b> <i>Booleano</i> | Ajusta a escala das coordenadas automaticamente para manter uma imagem quadrada ao mapeá-la ao longo das linhas. |
-| <b>Escala UV</b> <i>Precisão decimal 2</i> | Ajusta a escala das coordenadas mapeadas em X (horizontalmente) e Y (verticalmente).<br>Valores mais altos resultam em uma imagem lado a lado mais densa. |
+| <b>Escala UV</b> <i>Flutuante2</i> | Ajusta a escala das coordenadas mapeadas em X (horizontalmente) e Y (verticalmente).<br>Valores mais altos resultam em uma imagem lado a lado mais densa. |
 | <b>Modo</b> <i>Inteiro</i> | O método de seleção das splines ao longo das quais a imagem deve ser mapeada:<br>- <i>Desenhar Lista de Spline</i>: todas as splines na lista de entrada são usadas;<br>- <i>Desenhar Spline Único</i>: apenas a spline com o índice especificado é usada;<br>- <i>Desenhar Intervalo de Spline</i>: apenas as splines com índice incluído no intervalo especificado são usadas. |
 | <b>Desenhar Índice de Spline</b> <i>Inteiro</i> | (Disponível quando “Modo” estiver definido como “Desenhar spline único”) O índice da spline ao longo da qual a imagem deve ser mapeada. |
 | <b>Desenhar Intervalo De Spline</b> <i>Inteiro2</i> | (Disponível quando “Modo” estiver definido como “Desenhar intervalo de spline”) O intervalo de índices das splines ao longo do qual a imagem deve ser mapeada. |
-| <b>Iniciar</b> <i>Precisão decimal</i> | Desloca o início da parte da spline que deve ser mapeada.<br>O valor representa o comprimento normalizado da spline. |
-| <b>Fim</b> <i>Precisão decimal</i> | Desloca a extremidade da parte da spline que deve ser mapeada.<br>O valor representa o comprimento normalizado da spline. |
+| <b>Iniciar</b> <i>Flutuante</i> | Desloca o início da parte da spline que deve ser mapeada.<br>O valor representa o comprimento normalizado da spline. |
+| <b>Fim</b> <i>Flutuante</i> | Desloca a extremidade da parte da spline que deve ser mapeada.<br>O valor representa o comprimento normalizado da spline. |
 | <b>Modo de Thickness</b> <i>Inteiro</i> | O método de definição do thickness da imagem mapeada:<br>- <i>Manual</i>: defina o thickness explicitamente com um valor arbitrário;<br>- <i>Da spline</i>: use o thickness da spline. |
 | <b>Thickness</b> <i>Flutuante</i> | (Disponível quando o “Modo de Thickness” está definido como “Manual”) O valor arbitrário para o thickness da imagem mapeada ao longo das splines. |
 | <b>Multiplicador de Thickness</b> <i>Flutuante</i> | (Disponível quando o “Modo de Thickness” está definido como “De spline”) Um multiplicador global para o thickness da imagem mapeada ao longo das splines, quando esse thickness é acionado pelo das splines. |

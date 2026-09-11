@@ -95,7 +95,7 @@ Para qualquer pessoa acostumada a criar funções de [sombreador](../../../../gl
 |  |  |
 | --- | --- |
 | <b>Modo de cores</b> *Booleano* | Alterna entre uma imagem em tons de cinza e uma imagem colorida de saída. |
-| <b>Função por pixel</b> *Precisão decimal/Precisão decimal 4* | [gráfico de função Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) avaliado por pixel na imagem de saída.   Use o conjunto de nós [Obter Precisão decimal2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) para a variável <b>$pos</b> para acessar a posição [normalizada](../../../../glossary/glossary.md) do pixel atual. |
+| <b>Função por pixel</b> *Flutuante/Flutuante4* | [gráfico de função Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) avaliado por pixel na imagem de saída.   Use o conjunto de nós [Obter Precisão decimal2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) para a variável <b>$pos</b> para acessar a posição [normalizada](../../../../glossary/glossary.md) do pixel atual. |
 
 ## Conectores de entrada
 

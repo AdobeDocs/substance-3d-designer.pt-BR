@@ -66,8 +66,8 @@ o efeito pode ser verificado e validado rapidamente com o [Nadir extract](../../
 | <b>Dureza do patch</b> <i>0.0 - 1.0</i> | Definir dureza/contraste de alfa. |
 | <b>Deslocamento da Rotação da Origem</b> <i>0.0 - 1.0</i> | Rotação somente para a origem do patch. |
 | <b>Coordenadas de Posição</b> |  |
-| <b>Posição de Origem</b> | Posição da origem. Possui alça na exibição 2D. |
-| <b>Posição da correção</b> | Posição de destino. Possui alça na exibição 2D. |
+| <b>Posição de Origem</b> | Posição da origem. Tem identificador no Visualização 2D. |
+| <b>Posição da correção</b> | Posição de destino. Tem identificador no Visualização 2D. |
 
 ## Exemplos
 

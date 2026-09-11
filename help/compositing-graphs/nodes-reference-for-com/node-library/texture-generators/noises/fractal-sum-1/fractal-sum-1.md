@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ![Soma fractal 1 - Ícone](fractal-sum-1.resources/fractal_sum_1.png "Soma fractal 1 - Ícone"){width="200px"}
 
-<b>Entrada:</b> geradores de Textura > Ruídos
+<b>Entrada:</b> geradores de textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,8 +55,8 @@ Veja também: [base de Soma fractal](../../../../../../compositing-graphs/nodes-
 
 |  |  |
 |:---|:---|
-| <b>Desordem</b> <i>Precisão decimal</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
-| <b>Velocidade do distúrbio</b> <i>Precisão decimal</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
+| <b>Desordem</b> <i>Flutuante</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
+| <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
 
 ## Exemplos

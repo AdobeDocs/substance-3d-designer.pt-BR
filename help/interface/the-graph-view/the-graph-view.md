@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Exibição de gráfico
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '3558'
 ht-degree: 0%
@@ -49,11 +49,11 @@ Usar um trackpad (somente macOS)
 > 
 > A direção do zoom pode ser invertida nas [Preferências](../../interface/preferences-window/preferences-window.md).
 
-![Navegação por porta de visualização](../../assets/navigating.gif "Navegação por porta de visualização")
+![Navegação por porta de visualização](the-graph-view.resources/navigating.gif "Navegação por porta de visualização")
 
 Você <b>focaliza</b> o(s) nó(s) selecionado(s) ou o gráfico inteiro, se nada estiver selecionado, com a tecla F.
 
-A navegação também pode acontecer usando os <b>Pinos de navegação </b>e a tecla F2. Consulte os [itens do gráfico](#graph-items) abaixo[.](../../interface/the-graph-view/graph-items/graph-items.md)
+A navegação também pode acontecer usando <b>fixares de navegação </b>e a tecla F2. Consulte [itens do gráfico](#graph-items) abaixo[.](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ## Movimentação de objetos
 
@@ -112,9 +112,9 @@ Ao clicar em RMB em um espaço vazio no gráfico, um menu contextual é exibido 
 
 <b>Selecionar tudo:</b> selecione todos os nós no gráfico;
 
-<b>Pino anterior:</b> navegue para o objeto [Pino](../../interface/the-graph-view/graph-items/graph-items.md) anterior no gráfico;
+<b>fixar anterior:</b> navegue para o objeto [Fixar](../../interface/the-graph-view/graph-items/graph-items.md) anterior no gráfico;
 
-<b>Próximo pino:</b> navegue para o próximo objeto [Pino](../../interface/the-graph-view/graph-items/graph-items.md) no gráfico;
+<b>Próximo fixar:</b> navegue para o próximo objeto [Fixar](../../interface/the-graph-view/graph-items/graph-items.md) no gráfico;
 
 <b>Copiar seleção:</b> copie o(s) nó(s), a(s) conexão(ões) e o(s) valor(es) de parâmetro selecionado(s) para a área de transferência;
 
@@ -150,7 +150,7 @@ Os nós podem ser colocados em gráficos de 5 maneiras, independentemente do tip
 * Pressionando a <b>Barra de Espaço</b> para acessar o <b>menu Nó</b>. Veja abaixo.
 * Usando o atalho de teclado mapeado para um nó. O mapeamento é executado na [janela Preferências](../../interface/preferences-window/preferences-window.md).
 
-![Colocando nós](../../assets/nodecreation.gif "Colocando nós")
+![Colocando nós](the-graph-view.resources/nodecreation.gif "Colocando nós")
 
 Se um nó for colocado quando outro nó for selecionado, o Designer tentará conectar automaticamente o novo nó ao nó antigo.\
 Esta conexão automática sempre coloca o novo nó *depois* do antigo no fluxo.
@@ -180,7 +180,7 @@ Por exemplo, somente os nós com uma [Entrada primária](../../compositing-graph
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Exibição de gráfico: menu Nó](../../assets/graph-node-menu_fuzzy-search.png "Exibição de gráfico: menu Nó")
+![Exibição de gráfico: menu Nó](the-graph-view.resources/graph-node-menu_fuzzy-search.png "Exibição de gráfico: menu Nó")
 
 </td>
 </tr>
@@ -199,15 +199,15 @@ Para selecionar *vários* nós, os vários métodos estão disponíveis:
 * <b>Upstream:</b> clique em RMB em um nó e selecione a opção <b>Selecionar nós upstream</b>: o nó e todos os nós que fazem parte de fluxos conectados às *entradas* do nó são selecionados;
 * <b>Downstream:</b> clique em RMB em um nó e selecione a opção <b>Selecionar nós downstream</b>: o nó e todos os nós que fazem parte de fluxos conectados às *saídas* do nó são selecionados.
 
-![Selecionando nós](../../assets/graph-selecting-nodes.gif "Selecionando nós")
+![Selecionando nós](the-graph-view.resources/graph-selecting-nodes.gif "Selecionando nós")
 
 ### Menu contextual do nó
 
 Ao clicar em RMB em um nó, um menu contextual aparece e pode incluir as seguintes opções:
 
-<b>Exibir saída em exibição 2D:</b> Exiba uma das saídas do nó na [exibição 2D](../../interface/2d-view/2d-view.md), consulte [Interagindo com a exibição 2D](#interacting-with-the-2d-view) abaixo;
+<b>Exibir saída em Visualização 2D:</b> Exiba uma das saídas do nó em [Visualização 2D](../../interface/2d-view/2d-view.md), consulte [Interagindo com o Visualização 2D](#interacting-with-the-2d-view) abaixo;
 
-<b>Exibir na exibição 3D</b>: atribua todas as saídas do nó a um material na [Exibição 3D](../../interface/3d-view/3d-view.md) correspondendo a usos, consulte [Interagindo com a exibição 3D](#interacting-with-the-3d-view) abaixo;
+<b>Exibir na exibição 3D</b>: atribua todas as saídas do nó a um material no [Visualização 3D](../../interface/3d-view/3d-view.md) correspondendo a usos, consulte [Interagindo com a exibição 3D](#interacting-with-the-3d-view) abaixo;
 
 <b>Redefinir e exibir no modo de exibição 3D:</b> redefinir um material no modo de exibição [3D](../../interface/3d-view/3d-view.md) e atribuir todas as saídas do nó a esse material correspondendo a usos, consulte [Interagindo com o modo de exibição 3D](#interacting-with-the-3d-view) abaixo;
 
@@ -215,7 +215,7 @@ Ao clicar em RMB em um nó, um menu contextual aparece e pode incluir as seguint
 
 <b>Adicionar comentário:</b> crie um objeto de gráfico [Comentário](../../interface/the-graph-view/graph-items/graph-items.md) e adicione-o a este nó;
 
-<b>Adicionar quadro:</b> crie um objeto de gráfico de [Quadro](../../interface/the-graph-view/graph-items/graph-items.md) e ajuste-o aos nós selecionados;
+<b>Adicionar quadro:</b> crie um objeto de gráfico [Quadro](../../interface/the-graph-view/graph-items/graph-items.md) e ajuste-o aos nós selecionados;
 
 <b>Copiar informações para a área de transferência:</b> copie o identificador exclusivo (UID) do nó para a área de transferência;
 
@@ -268,7 +268,7 @@ O *conector de saída* do nó A pode ser conectado ao *conector de entrada* de o
 > * para um conector de *entrada*: o nó retorna a um valor padrão definido para essa entrada;
 > * para um conector de *saída*: os dados são ignorados e descartados quando o gráfico é calculado.
 
-![Conectando nós](../../assets/links.gif "Conectando nós")
+![Conectando nós](the-graph-view.resources/links.gif "Conectando nós")
 
 Você pode <b>criar</b> um novo link clicando no LMB em cada um desses conectores, em *qualquer ordem*.\
 Além disso, se um nó B for criado enquanto um nó A for selecionado, a *primeira saída* do nó A será automaticamente conectada à *entrada primária* do nó B.
@@ -291,7 +291,7 @@ Os nós podem ser desabilitados para que não tenham *nenhum efeito* no gráfico
 
 Os nós desativados têm o seguinte comportamento:
 
-* Eles são exibidos com o emblema ![](../../assets/graph-badge-disabled.png) <b>Desabilitado</b>*,* um *contorno tracejado* e um link interior *reencaminhamento* em vez de uma miniatura;
+* Eles são exibidos com o emblema ![](the-graph-view.resources/graph-badge-disabled.png) <b>Desabilitado</b>*,* um *contorno tracejado* e um link interior *reencaminhamento* em vez de uma miniatura;
 * Os nós gerarão a saída dos dados recebidos em sua *entrada principal*;
 * Os nós desabilitados podem ser *encadeados* juntos;
 * Suas propriedades e conexões *não foram modificadas*;
@@ -309,7 +309,7 @@ Você pode desabilitar um nó ou um grupo de nós selecionados usando o pression
 > * Os *tipos* da entrada principal e da saída devem *corresponder*, ou seja, tons de cinza para tons de cinza, cor para cor
 > * Todos os nós selecionados devem ter o *mesmo estado*, ou seja, todos devem estar habilitados; a mesma regra se aplica para habilitá-los
 
-![Desabilitando nós](../../assets/graph-disable-node.gif "Desabilitando nós"){width="512px"}
+![Desabilitando nós](the-graph-view.resources/graph-disable-node.gif "Desabilitando nós"){width="512px"}
 
 ## Interação com o Visualização 2D
 
@@ -341,78 +341,78 @@ Para aplicar uma saída de nó na [exibição 3D](../../interface/3d-view/3d-vie
 
 A barra de ferramentas principal pode ser encontrada em cada tipo de gráfico e fornece funções gerais, bem como alternadores para a visibilidade das outras barras de ferramentas. Você pode encontrar estas funções:
 
-![](../../assets/image2020-6-26-16-25-57.png) <b>Seleção de foco</b> (F)\
+![](the-graph-view.resources/image2020-6-26-16-25-57.png) <b>Seleção de foco</b> (F)\
 Focaliza a visualização na seleção, ou na cena inteira se a seleção estiver vazia.
 
-![](../../assets/image2020-6-26-16-26-8.png) <b>Redefinir zoom</b> (Z)\
+![](the-graph-view.resources/image2020-6-26-16-26-8.png) <b>Redefinir zoom</b> (Z)\
 Traz de volta o nível de zoom atual para o estado padrão e centraliza a visualização no meio do gráfico. Pode significar aumentar ou diminuir o zoom.
 
-![](../../assets/image2020-6-26-16-26-26.png) <b>Exibição de gráfico de exportação\
+![](the-graph-view.resources/image2020-6-26-16-26-26.png) <b>Exibição de gráfico de exportação\
 </b>Exporta o gráfico completo em uma resolução de 1:1 como uma imagem. Útil para compartilhar uma captura de tela de todo o gráfico.
 
-![](../../assets/image2020-6-26-16-26-37.png) <b>Informações do nó\
+![](the-graph-view.resources/image2020-6-26-16-26-37.png) <b>Informações do nó\
 </b>*- Nome do conector de exibição:* Alterna a exibição do nome de cada conector individual em um nó.\
 *- Exibir emblemas de nó:* Alterna os Emblemas de nó em todos os nós.\
 *- Tamanho do nó de exibição:* alterna a exibição da resolução do nó ([gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md) somente).\
 *- Exibir intervalos:* Alterna a exibição de intervalos de milissegundos para cada nó ([gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md) somente).\
 *- Limitar o dimensionamento de texto ao reduzir o zoom:* Mantém o texto de [itens de gráfico](../../interface/the-graph-view/graph-items/graph-items.md) em um tamanho de tela constante além de um limite de zoom, o que mantém o texto claramente visível ao reduzir o zoom.
 
-![](../../assets/image2020-6-26-16-26-52.png)<b> Localizador de nós</b> (Ctrl+F)\
+![](the-graph-view.resources/image2020-6-26-16-26-52.png)<b> Localizador de nós</b> (Ctrl+F)\
 Permite que uma ferramenta localize nós, parâmetros expostos e outras variáveis no gráfico. Saiba mais na [página dedicada](../../interface/the-graph-view/node-finder/node-finder.md).
 
-![](../../assets/image2020-6-26-16-27-43.png) <b>Fluxo de realce\
+![](the-graph-view.resources/image2020-6-26-16-27-43.png) <b>Fluxo de realce\
 </b>Realce todos os nós conectados antes ou depois do nó atualmente selecionado. Bom para traçar um caminho complexo de nós.
 
-![](../../assets/image2020-6-26-16-28-30.png) <b>Paleta de nós\
+![](the-graph-view.resources/image2020-6-26-16-28-30.png) <b>Paleta de nós\
 </b>Mostra ou oculta a barra de ferramentas do nó, veja abaixo.
 
-![](../../assets/image2020-6-26-16-32-33.png) <b>Vínculos de retângulo\
+![](the-graph-view.resources/image2020-6-26-16-32-33.png) <b>Vínculos de retângulo\
 </b>Alternar entre vínculos arredondados ou em forma retangular entre nós. Indisponível para [FX-Maps.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
-![](../../assets/image2020-6-26-16-38-2.png) <b>Ferramentas de alinhamento de nós\
+![](the-graph-view.resources/image2020-6-26-16-38-2.png) <b>Ferramentas de alinhamento de nós\
 </b>Habilita ferramentas para organizar os nós selecionados no gráfico. Saiba mais na [página dedicada](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md).
 
 Somente em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md):
 
-![](../../assets/image2020-6-26-16-29-6.png) <b>Tamanho do pai\
+![](the-graph-view.resources/image2020-6-26-16-29-6.png) <b>Tamanho do pai\
 </b>Alterna a exibição das configurações de controle de Resolução da Página Principal, veja abaixo.
 
-![](../../assets/image2020-6-26-16-31-15.png) <b>Modos de Criação de Link</b> (1, 2, 3)\
+![](the-graph-view.resources/image2020-6-26-16-31-15.png) <b>Modos de Criação de Link</b> (1, 2, 3)\
 Escolha entre os modos de criação de vínculo Padrão (1), Material (2) e Material Compacto (3) para vincular conectores de nós individualmente ou em lote. Saiba mais na [página dedicada](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).
 
-![](../../assets/image2020-6-26-16-33-35.png) <b>Controle de tempos\
+![](the-graph-view.resources/image2020-6-26-16-33-35.png) <b>Controle de tempos\
 </b>Permite redefinir todos os nós e todos os tempos.
 
-![](../../assets/image2020-6-26-16-34-12.png) <b>Ferramentas\
+![](the-graph-view.resources/image2020-6-26-16-34-12.png) <b>Ferramentas\
 </b>*- Limpar:* Remove todos os nós que fazem parte de um fluxo não conectado a um nó [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).\
 *- Exportar saídas:* Abre a [interface de Exportação de Bitmap](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).\
 *- Reexportar saídas:* Executa novamente a operação de exportação anterior.\
 *- Exportar PSD:* Abre a interface [Exportar PSD](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md).
 
-![](../../assets/image2020-6-26-16-37-16.png) <b>Cache de imagem de nó\
+![](the-graph-view.resources/image2020-6-26-16-37-16.png) <b>Cache de imagem de nó\
 </b>Alterna a exibição da alternância de cache de imagem de nó, veja abaixo.
 
-![](../../assets/graph-cleaner.jpg) Remover nós não usados\
+![](the-graph-view.resources/graph-cleaner.jpg) Remover nós não usados\
 </b>Exibe opções para remover nós não usados em gráficos, veja abaixo.
 
 ### Paleta de nós
 
 A barra de ferramentas do nó difere dependendo do tipo de gráfico:
 
-[![Paleta de nós](../../assets/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
+[![Paleta de nós](the-graph-view.resources/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
 <b>[gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md):</b> veja [nós atômicos](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) e [itens de gráfico](../../interface/the-graph-view/graph-items/graph-items.md).
 
 
-![Paleta de itens de gráfico](../../assets/image2020-6-26-16-46-32.png "Paleta de itens de gráfico")<br>
+![Paleta de itens de gráfico](the-graph-view.resources/image2020-6-26-16-46-32.png "Paleta de itens de gráfico")<br>
 <b>[gráficos de função de Substance](../../function-graphs/function-graphs.md):</b> consulte [itens de gráfico](../../interface/the-graph-view/graph-items/graph-items.md).
 
 
-![Paleta FX-Map](../../assets/image2020-6-26-16-48-4.png "paleta FX-Map")<br>
+![Paleta FX-Map](the-graph-view.resources/image2020-6-26-16-48-4.png "paleta FX-Map")<br>
 <b>[Gráficos FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md):</b> consulte [itens de gráfico.](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ### Tamanho da página principal
 
-![Barra de ferramentas de tamanho pai](../../assets/image2020-6-26-17-0-48.png "Barra de ferramentas de tamanho pai")
+![Barra de ferramentas de tamanho pai](the-graph-view.resources/image2020-6-26-17-0-48.png "Barra de ferramentas de tamanho pai")
 
 Esta barra de ferramentas só está disponível em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) e define o [tamanho de saída](../../compositing-graphs/output-size/output-size.md) do *pai* do gráfico, o que afeta o tamanho de saída do gráfico se ele usar o *método de herança [&#x200B; Relativo ao pai*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
@@ -420,7 +420,7 @@ Os tamanhos horizontal e vertical são vinculados por padrão, mas podem ser *de
 
 ### Cache de imagem do nó
 
-![Configuração do cache de imagens de nós](../../assets/graph-toolbar-node-cache.png "Configuração do cache de imagens de nós")
+![Configuração do cache de imagens de nós](the-graph-view.resources/graph-toolbar-node-cache.png "Configuração do cache de imagens de nós")
 
 Isso alterna o uso do cache ao computar nós em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
@@ -432,13 +432,13 @@ Ativar essa opção resulta em um grande aumento da capacidade de resposta geral
 
 ### Remover os nós não utilizados
 
-![Menu suspenso Remover nós não usados](../../assets/graph-cleaner-menu.jpg "Menu suspenso Remover nós não usados")
+![Menu suspenso Remover nós não usados](the-graph-view.resources/graph-cleaner-menu.jpg "Menu suspenso Remover nós não usados")
 
 À medida que você itera em gráficos e tenta coisas, alguns nós que não têm efeito no resultado final podem ser deixados para trás. Isso adiciona desordem e processamento desnecessário, pois todos os nós são avaliados nos primeiros estágios de renderização do gráfico.
 
-A ferramenta ![](../../assets/graph-cleaner.jpg) Remover nós não usados</b> exclui todos os nós que *não* fazem parte de um fluxo que *termina em um nó de saída*. A única exceção são os nós de *entrada*, pois excluí-los alteraria a interface dos [nós de instância](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) que fazem referência a este gráfico.
+A ferramenta ![](the-graph-view.resources/graph-cleaner.jpg) Remover nós não usados</b> exclui todos os nós que *não* fazem parte de um fluxo que *termina em um nó de saída*. A única exceção são os nós de *entrada*, pois excluí-los alteraria a interface dos [nós de instância](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) que fazem referência a este gráfico.
 
-![Remover nós não usados](../../assets/graph-cleaner.gif "Remover nós não usados")
+![Remover nós não usados](the-graph-view.resources/graph-cleaner.gif "Remover nós não usados")
 
 A primeira opção aplica a limpeza exclusivamente ao gráfico *atual*.
 

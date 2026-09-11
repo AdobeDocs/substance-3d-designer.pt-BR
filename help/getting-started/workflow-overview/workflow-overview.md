@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visão geral do fluxo de trabalho
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
@@ -32,7 +32,7 @@ O Substance 3D Designer é um editor baseado em nó. Isso significa que quase to
 
 [Tipos de gráfico](#graph-types)
 
-![Fluxo de dados simplificado](../../assets/graph-direction.png "Fluxo de dados simplificado")
+![Fluxo de dados simplificado](workflow-overview.resources/graph-direction.png "Fluxo de dados simplificado")
 
 ## Fluxo de trabalho baseado em nó
 
@@ -40,7 +40,7 @@ Trabalhar no Designer é diferente de outros softwares de edição de imagens 2D
 
 A maior vantagem é que seu fluxo de trabalho se torna <b>não linear</b>. Ao contrário das ações executadas manualmente que entram em uma pilha de histórico, você sempre pode trocar ou modificar um Nó a qualquer momento. Se você decidir que o primeiro ajuste de Contraste, afetando o resultado da imagem até o final, foi muito, ainda será possível voltar e ajustá-lo ou até mesmo recortá-lo completamente, sem perder todo o trabalho que executou depois.
 
-![Instâncias de gráfico simplificadas](../../assets/sub-graph.png "Instâncias de gráfico simplificadas")
+![Instâncias de gráfico simplificadas](workflow-overview.resources/sub-graph.png "Instâncias de gráfico simplificadas")
 
 ## Fluxo de trabalho da instância do gráfico
 
@@ -48,7 +48,7 @@ Criar instâncias de gráficos é um processo importante no Designer. Ele permit
 
 Para obter mais informações sobre Instâncias de Gráfico em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md), há uma [seção dedicada](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) sobre elas na documentação.
 
-![Parâmetros de gráfico simplificados](../../assets/parameters-5.png "Parâmetros de gráfico simplificados")
+![Parâmetros de gráfico simplificados](workflow-overview.resources/parameters-5.png "Parâmetros de gráfico simplificados")
 
 ## Parâmetros personalizados
 
@@ -62,7 +62,7 @@ Você encontrará abaixo um resumo dos três tipos de gráfico que podem ser edi
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -84,7 +84,7 @@ gráficos de Substance são[o tipo de gráfico mais amplamente suportado](../../
 Abaixo você pode encontrar alguns exemplos típicos de casos de uso comuns.
 
 +++Forma simples
-![Forma simples no gráfico de Substance](../../assets/simpleshape.png "Forma simples no gráfico de Substance"){width="512px"}
+![Forma simples no gráfico de Substance](workflow-overview.resources/simpleshape.png "Forma simples no gráfico de Substance"){width="512px"}
 
 
 
@@ -95,7 +95,7 @@ O Texto com o número, ou o thickness da aresta, pode ser exposto externamente p
 +++
 
 +++Filtro de ajuste
-![Filtro de ajuste no gráfico de Substance](../../assets/simplefilter.png "Filtro de ajuste no gráfico de Substance"){width="512px"}
+![Filtro de ajuste no gráfico de Substance](workflow-overview.resources/simplefilter.png "Filtro de ajuste no gráfico de Substance"){width="512px"}
 
 
 
@@ -106,7 +106,7 @@ Os valores de contraste definidos no Histograma podem ser expostos, tornando-o u
 +++
 
 +++Material completo
-![Material completo no gráfico de Substance](../../assets/simplematerial.png "Material completo no gráfico de Substance"){width="512px"}
+![Material completo no gráfico de Substance](workflow-overview.resources/simplematerial.png "Material completo no gráfico de Substance"){width="512px"}
 
 
 
@@ -120,7 +120,7 @@ Este exemplo usa os [Modos de Criação de Link](../../interface/the-graph-view/
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -129,7 +129,7 @@ Este exemplo usa os [Modos de Criação de Link](../../interface/the-graph-view/
 
 Funções <b>processam valores únicos</b> (inteiros, flutuantes, vetores) em vez de dados de imagem (conjuntos inteiros de pixels). As funções também são Gráficos com redes de nós, mas os [Nós usados](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)e a interface é diferente dos [gráficos de Substance regulares](../../compositing-graphs/substance-compositing-graphs.md). O fluxo de trabalho é completamente baseado em <b>operações matemáticas</b> e não mostra miniaturas de visualização de imagem, tornando-o uma <b>maneira muito mais avançada de trabalhar</b> com o Substance 3D Designer.
 
-As funções podem ser usadas em muitos contextos diferentes, sendo os principais a modificação do comportamento de [um Parâmetro exposto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), a criação do comportamento de [Processadores de Pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) e o uso de [valores](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) em um gráfico de Substance.
+As funções podem ser usadas em muitos contextos diferentes, sendo os principais a modificação do comportamento de [um Parâmetro exposto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), a criação do comportamento de [Processadores de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) e o uso de [valores](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) em um gráfico de Substance.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ As funções podem ser usadas em muitos contextos diferentes, sendo os principai
 Abaixo estão alguns exemplos de casos de uso comuns para gráficos de função Substance.
 
 +++Função simples
-![Gráfico de função simples](../../assets/lerpfunction.png "Gráfico de função simples"){width="256px"}
+![Gráfico de função simples](workflow-overview.resources/lerpfunction.png "Gráfico de função simples"){width="256px"}
 
 
 
@@ -151,11 +151,11 @@ Esta função também pode ser escrita como *lerp(0.1, 0.8, Intensity)* em um ps
 +++
 
 +++Função avançada
-![Função avançada](../../assets/pixel-function.png "Função avançada"){width="512px"}
+![Função avançada](workflow-overview.resources/pixel-function.png "Função avançada"){width="512px"}
 
 
 
-Esta função avançada mostra o funcionamento interno de um [Processador de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) destinado ao ajuste do matiz de uma entrada do mapa de cores com base na intensidade de uma segunda entrada de máscara em tons de cinza.
+Esta Função avançada mostra o funcionamento interno de um [Processador de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) destinado ao ajuste da Matiz de uma entrada do mapa de cores com base na intensidade de uma segunda entrada de máscara em tons de cinza.
 
 Ele faz a amostragem de ambas as entradas com a variável “$pos” do sistema, retira o Alpha, converte o valor da cor em HSL e modifica o componente Matiz, multiplicando-o pelo valor da amostra de tons de cinza. Depois, ele remonta o vetor, converte o HSL de volta em RGB e adiciona o Alpha de volta para a saída final.
 

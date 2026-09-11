@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Saída
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width: 30%; vertical-align: top">
 
 ![Nó atômico: Saída](output.resources/comp_output_1.png "Nó atômico: Saída"){width="200px"}
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 O nó Saída especifica o <b>resultado</b> de um gráfico de Substance, ou um de seus resultados se mais de um nó Saída estiver presente nele.
 
@@ -47,8 +47,8 @@ Todo gráfico de Substance deve ter *pelo menos um* nó de saída. Se não houve
 
 ## Atributos
 
-|  |  |
-| --- | --- |
+|                             |                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>Identificador</b> *Cadeia de Caracteres* | O identificador exclusivo da saída. Esta propriedade não pode ser deixada em branco e não pode conter caracteres especiais ou espaços.   O identificador é usado porque o rótulo do nó é a propriedade &#39;Label&#39; deixada em branco. Ele também pode ser usado para nomear [texturas exportadas](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Descrição</b> *Cadeia de Caracteres* | A descrição opcional usada como dica de ferramenta da saída é Substance graphics. |
 | <b>Rótulo</b> *Cadeia de Caracteres* | Isso é usado como um rótulo para o nó de saída e seu conector correspondente nos [nós de instância](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) que representam esse gráfico. O rótulo pode conter espaços e caracteres especiais. |
@@ -61,32 +61,34 @@ Estes são atributos que devem ser usados por integrações/plug-ins que consome
 
 Dessa forma, eles não têm impacto no formato de [exportações de bitmap](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). Além disso, apenas o atributo <b>Uso</b> é usado no Designer. Veja os detalhes abaixo.
 
-<b>Uso</b>
++++ Uso
 
-|  |  |
-| --- | --- |
+|                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>Componente</b> *Cadeia de Caracteres* | Usado para mapear alguns canais de textura para as entradas de sombreador SVBRDF apropriadas em fluxos de trabalho do AxF. |
-| <b>Uso</b> *Cadeia de Caracteres* | Define o tipo e o uso do nó de saída. Essa propriedade é importante, pois conduz:<ul data-preserve-html="true"> <li data-preserve-html="true">Conexão de nós em gráficos de Substance ao usar alguns [modos de criação de link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Conexão de texturas a sombreadores na Exibição 3D (veja abaixo: &#39;[Sobre a função de usos na Exibição 3D](#usages-role-3dview)&#39;)</li> <li data-preserve-html="true">Conexão de texturas com materiais em integrações/plug-ins</li> </ul> |
+| <b>Uso</b> *Cadeia de Caracteres* | Define o tipo e o uso do nó de saída. Essa propriedade é importante, pois conduz:<ul data-preserve-html="true"> <li data-preserve-html="true">Conexão de nós em gráficos de Substance ao usar alguns [modos de criação de link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">Conexão de texturas a sombreadores na Exibição 3D (veja abaixo: &#39;[Sobre a função de usos na Exibição 3D](#about-the-role-of-usages-in-the-3d-view)&#39;)</li> <li data-preserve-html="true">Conexão de texturas com materiais em integrações/plug-ins</li> </ul> |
 | <b>Espaço de cores</b> *Cadeia de Caracteres* | Define o espaço de cores no qual esta saída deve ser interpretada. É usado por algumas integrações em outros aplicativos e não tem impacto no Designer. |
+
++++
 
 ### Sobre a função de usos na Visualização 3D
 
 Como as saídas de gráfico são geralmente destinadas a ser o resultado final para um canal de textura específico, as saídas podem ser enviadas automaticamente para o amostrador apropriado do sombreador usado na Visualização 3D.
 
-Na verdade, uma saída que <b>Propriedade de uso</b> *corresponde a um uso de amostrador* na exibição 3D será conectada a esse amostrador. Por exemplo, uma Saída com uso `basecolor` será conectada ao amostrador `basecolor` do sombreador de Exibição 3D. Saiba mais na seção [Exibir dados na Exibição 3D](../../../../interface/3d-view/3d-view.md) da página [Exibição 3D](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion).
+Na verdade, uma saída que <b>Propriedade *Usage</b> corresponde a um uso de amostrador* no Visualização 3D será conectada a esse amostrador. Por exemplo, uma Saída com uso `basecolor` será conectada ao amostrador `basecolor` do Visualização 3D. (Saiba mais: [Exibir dados na exibição 3D](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view))
 
-Clique em RMB em uma área vazia na [Exibição de gráfico](../../../../interface/the-graph-view/the-graph-view.md) e selecione a opção <b>Exibir saídas na exibição 3D</b> no menu contextual para conectar todas as saídas aos classificadores de exibição 3D com *usos correspondentes*.
+Clique em RMB em uma área vazia da [Exibição de gráfico](../../../../interface/the-graph-view/the-graph-view.md) e selecione a opção <b>Exibir saídas na exibição 3D</b> no menu contextual para conectar todas as saídas aos amostradores com *usos correspondentes*.
 
 >[!IMPORTANT]
 >
-> Se vários usos forem configurados para, por exemplo, atribuir usos a canais em uma textura compactada, somente o *primeiro uso* da lista será conectado à Exibição 3D. Essa é uma limitação conhecida.
+> Se vários usos forem configurados para, por exemplo, atribuir usos a canais em uma textura compactada, somente o *primeiro uso* da lista será conectado ao Visualização 3D. Essa é uma limitação conhecida.
 
 ## Saída padrão
 
 Quando um gráfico tem mais de uma saída, uma delas pode ser definida como a saída padrão para esse gráfico. Especifica quais das saídas devem ser usadas para:
 
 * A miniatura de qualquer nó de instância que representa esse gráfico
-* Visualizar esses nós de instância na Visualização 2D
+* Exibindo esses nós de instância no Visualização 2D
 * A miniatura desse gráfico na Biblioteca (saiba como adicionar seus próprios recursos [aqui](../../../../interface/preferences-window/project-settings/project-settings.md))
 
 Esse recurso permite organizar as saídas do gráfico em qualquer ordem, independentemente de como o gráfico será visualizado como um nó.

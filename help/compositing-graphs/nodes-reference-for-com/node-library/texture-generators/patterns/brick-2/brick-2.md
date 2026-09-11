@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tijolo 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 10%
@@ -24,9 +24,9 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/brick-2.png){width="128px"}
+![](brick-2.resources/brick-2.png){width="128px"}
 
-<b>Em:</b> Geradores De Textura > Padrões
+<b>Em:</b> Textura Geradores > Padrões
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -46,7 +46,7 @@ Padrão de tijolo simples, consulte [Gerador de tijolos](../../../../../../compo
 |  |  |
 |:---|:---|
 | <b>Divisão em blocos gráficos</b> <i>1 - 16</i> | Define a quantidade de vezes que o resultado deve ser colocado lado a lado. |
-| <b>Smoothness de borda</b> <i>0.0 - 1.0</i> | Combinar entre bordas ásperas e suaves. |
+| <b>Suavidade da borda</b> <i>0.0 - 1.0</i> | Combinar entre bordas ásperas e suaves. |
 | <b>Largura interstice</b> <i>0.0 - 1.0</i> | Define o interstício (tamanho do espaço). |
 | <b>Expansão não quadrada</b> <i>Falso/Verdadeiro</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
 
@@ -55,7 +55,7 @@ Padrão de tijolo simples, consulte [Gerador de tijolos](../../../../../../compo
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/brick-2-ex.gif" />
+            <img src="brick-2.resources/brick-2-ex.gif" />
         </td>
     </tr>
 </table>

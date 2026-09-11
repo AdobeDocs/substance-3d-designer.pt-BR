@@ -45,4 +45,4 @@ Uma Função SDF para um cilindro alongado de comprimento ajustável, raio e arr
 | <b>Arredondamento</b> *Flutuante* | O raio dos arcos arredondados aplicados às bordas do cilindro alongado.<br><br><i>Observação:</i> bordas sólidas podem aparecer onde os raios de arredondamento se cruzam.<br><br><i>Padrão: 0</i> |
 | <b>Posição central</b> *Flutuante3* | A posição do espaço global da tabela dinâmica do cilindro alongado.<br><br><i>Padrão: (0, 0, 0)</i> |
 | <b>Distância de alongamento</b> *Flutuante* | A distância ao longo da qual o cilindro inicial é alongado.<br>Ou seja, a distância entre os centros dos cilindros inicial e final.<br><br><i>Padrão: 0,5</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>P</b> *Flutuante3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

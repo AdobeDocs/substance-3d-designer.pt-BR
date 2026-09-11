@@ -45,4 +45,4 @@ Uma Função SDF para uma aproximação de uma hélice, que é uma forma formada
 | <b>Height</b> *Flutuante* | O height Z-up da hélice.<br><br><i>Padrão: 0,5</i> |
 | <b>Enrolamentos</b> *Flutuante* | O número de vezes que a curva se enrola totalmente ao redor do eixo em etapas de 0,5.<br>Ou seja, quantas vezes a hélice girará dentro de um height de 0,5.<br><br><i>Padrão: 4</i> |
 | <b>Posição central</b> *Flutuante3* | A posição do espaço global do pivô da hélice.<br><br><i>Padrão: (0, 0, 0)</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>P</b> *Flutuante3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

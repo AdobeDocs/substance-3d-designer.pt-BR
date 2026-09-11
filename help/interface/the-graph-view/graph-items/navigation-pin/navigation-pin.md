@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Fixar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 01adf91721f742481a84e22a1fa0c22e5e0de887
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Ícone de pino de navegação](../../../../assets/graphatomic-pin_1.png "Ícone de pino de navegação")
+![Ícone de pino de navegação](navigation-pin.resources/graphatomic-pin_1.png "Ícone de pino de navegação")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ Em qualquer tipo de gráfico, pressionar o <b>F2</b> percorre todos os fixares d
 
 Os pinos serão enquadrados na viewport no nível de zoom atual.
 
-![Pinos: pulando para pinos](../../../../assets/graph-pin_jumping.gif "Pinos: pulando para pinos")
+![Pinos: pulando para pinos](navigation-pin.resources/graph-pin_jumping.gif "Pinos: pulando para pinos")

@@ -26,7 +26,7 @@ ht-degree: 11%
 
 ![](fur-3.resources/fur-3.png){width="128px"}
 
-<b>Entrada:</b> geradores de Textura > Ruídos
+<b>Entrada:</b> geradores de textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

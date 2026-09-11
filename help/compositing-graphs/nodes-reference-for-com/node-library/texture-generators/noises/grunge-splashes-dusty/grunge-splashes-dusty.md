@@ -52,8 +52,8 @@ O nó **Respingos de Desgaste Empoeirados** gera um mapa de desgaste semelhante 
 | <b>Avançado</b> |  |
 | <b>Quantidade de respingos</b> <i>Flutuante</i> | Ajusta a quantidade de respingos na superfície. |
 | <b>Distorção de respingos</b> <i>Flutuante</i> | Ajusta a intensidade do efeito de distorção aplicado nas respingos. |
-| <b>Proporção de respingo/Dirt</b> <i>Flutuante</i> | Ajusta a *proporção* de dirt e respingos na superfície. |
-| <b>Propagação de Dirt</b> <i>Flutuante</i> | Ajusta a propagação da dirt. |
+| <b>Proporção de respingo/Dirt</b> <i>Precisão decimal</i> | Ajusta a *proporção* de dirt e respingos na superfície. |
+| <b>Propagação de Dirt</b> <i>Precisão decimal</i> | Ajusta a propagação da dirt. |
 
 ## Exemplos
 

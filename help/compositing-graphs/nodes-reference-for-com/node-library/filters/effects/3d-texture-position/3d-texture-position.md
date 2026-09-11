@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Posição de Textura 3D
+title: Posição da textura 3D
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
@@ -18,7 +18,7 @@ ht-degree: 3%
 ---
 
 
-# Posição de Textura 3D
+# Posição da textura 3D
 
 <table>
 <tr style="border: 0;">

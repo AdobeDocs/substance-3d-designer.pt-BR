@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments.html"
 breadcrumb-title: ''
-description: Acesse os nós do filtro de ajuste no Substance 3D Designer para modificar as propriedades de cor, brilho, contraste e outras propriedades de textura.
+description: Acesse os nós do filtro de ajuste no Substance 3D Designer para modificar as propriedades de cor, brilho, contraste e outras propriedades da textura.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments
 helpx_experience_level: ""

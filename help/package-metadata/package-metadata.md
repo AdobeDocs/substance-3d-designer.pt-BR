@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Metadados do pacote
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -28,34 +28,34 @@ Se você estiver desenvolvendo um plug-in Python, talvez queira editar os metada
 
 1. Se você clicar duas vezes em um pacote no explorador, o painel Propriedades será aberto nesse pacote.
 
-   ![Metadados do pacote](../assets/empty.png "Metadados do pacote")
+   ![Metadados do pacote](package-metadata.resources/empty.png "Metadados do pacote")
 1. Aqui você tem uma seção dedicada “Metadados”. É provável que ela esteja vazia no seu caso, como na captura acima.
 
    Você pode adicionar novos metadados usando o botão “mais”.
 
-   ![Botão Adicionar metadados](../assets/hoveradd.png "Botão Adicionar metadados")
+   ![Botão Adicionar metadados](package-metadata.resources/hoveradd.png "Botão Adicionar metadados")
 1. Um novo item aparece na seção:
 
-   ![Novos metadados](../assets/newitem-1.png "Novos metadados")
+   ![Novos metadados](package-metadata.resources/newitem-1.png "Novos metadados")
 1. Há os campos “Chave” e “Valor”. Ambos podem ser configurados para qualquer coisa que se adequar às suas necessidades. O campo “Chave” deve ter um valor exclusivo na lista.
 
-   ![Novo valor de metadados](../assets/newitemfilled.png "Novo valor de metadados")
+   ![Novo valor de metadados](package-metadata.resources/newitemfilled.png "Novo valor de metadados")
 1. Você também pode escolher o “Tipo” do item. No momento, pode ser “String” ou “URL”:
 
-   ![Alterar tipo de metadados](../assets/typecombo.png "Alterar tipo de metadados")
+   ![Alterar tipo de metadados](package-metadata.resources/typecombo.png "Alterar tipo de metadados")
 1. Aqui “URL” significa uma referência a um recurso incluído no pacote. Para isso, escolha um arquivo no disco rígido e arraste-o e solte-o no pacote no Explorer. Pode ser um recurso normal, como uma imagem, ou qualquer outro arquivo, como um arquivo de texto.
 
-   ![Recurso genérico no pacote](../assets/resourceinpackage.png "Recurso genérico no pacote")
+   ![Recurso genérico no pacote](package-metadata.resources/resourceinpackage.png "Recurso genérico no pacote")
 1. O arquivo aparece como um novo recurso no pacote.
 
    Agora, volte para o painel Propriedades do pacote, crie um novo metadado, dê a ele uma chave adequada e escolha “URL” como tipo. Depois, selecione o ícone “...” no campo “Valor”, e escolha “Do recurso”. Por fim, escolha o arquivo que você incluiu pouco antes e valide:
 
-   ![Metadados de URL](../assets/urlmetadata.gif "Metadados de URL")
+   ![Metadados de URL](package-metadata.resources/urlmetadata.gif "Metadados de URL")
 1. Agora você pode ver o “URL” do recurso armazenado no campo “Valor”.
 
    Você também pode excluir metadados usando o botão “X” à direita do item:
 
-   ![Excluir metadados](../assets/hoverdelete.png "Excluir metadados")
+   ![Excluir metadados](package-metadata.resources/hoverdelete.png "Excluir metadados")
 
 >[!NOTE]
 >

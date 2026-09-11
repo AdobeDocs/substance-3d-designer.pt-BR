@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ruído de humidade 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Ruído de umidade 1 - Ícone](../../../../../../assets/moisture_noise_1.png "Ruído de umidade 1 - Ícone"){width="200px"}
+![Ruído de umidade 1 - Ícone](moisture-noise.resources/moisture_noise_1.png "Ruído de umidade 1 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -75,12 +75,12 @@ Veja também: [Ruído de umidade 2](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruído de umidade 1 - Exemplo 1](../../../../../../assets/moisture_noise_1_1.png "Ruído de umidade 1 - Exemplo 1"){zoomable="yes"}
+![Ruído de umidade 1 - Exemplo 1](moisture-noise.resources/moisture_noise_1_1.png "Ruído de umidade 1 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruído de umidade 1 - Exemplo 2](../../../../../../assets/noise_moisture_noise_1_v2_speed0.6_aniso0.gif "Ruído de umidade 1 - Exemplo 2"){zoomable="yes"}
+![Ruído de umidade 1 - Exemplo 2](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso0.gif "Ruído de umidade 1 - Exemplo 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -90,12 +90,12 @@ Veja também: [Ruído de umidade 2](../../../../../../compositing-graphs/nodes-r
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Ruído de umidade 1 - Exemplo 3](../../../../../../assets/noise_moisture_noise_1_v2_speed0.6_aniso1.gif "Ruído de umidade 1 - Exemplo 3"){zoomable="yes"}
+![Ruído de umidade 1 - Exemplo 3](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso1.gif "Ruído de umidade 1 - Exemplo 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Ruído de umidade 1 - Exemplo 4](../../../../../../assets/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif "Ruído de umidade 1 - Exemplo 4"){zoomable="yes"}
+![Ruído de umidade 1 - Exemplo 4](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif "Ruído de umidade 1 - Exemplo 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gerenciador de dependências
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 5%
@@ -24,4 +24,4 @@ O <b>Gerenciador de dependências</b> permite ver todas as dependências do paco
 
 Você pode acessá-lo clicando com o botão direito do mouse em um pacote no Explorer e escolhendo a opção “Gerenciador de dependências” no menu contextual.
 
-![Gerenciador de dependências](../../assets/dependency-manager.png "Gerenciador de dependências")
+![Gerenciador de dependências](dependency-manager.resources/dependency-manager.png "Gerenciador de dependências")

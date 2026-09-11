@@ -26,8 +26,8 @@ Esta página descreve o tipo de recurso **Cena 3D** no Substance 3D Designer, in
 
 Os recursos de cena 3D podem ser usados em vários fluxos de trabalho:
 
-* [mapas de malha de cozimento](../../bakers/bakers.md)
-* visualizar *texturas* de [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) na [exibição 3D](../../interface/3d-view/3d-view.md)
+* [fazendo bake mapas de malha](../../bakers/bakers.md)
+* visualizar *textura* de [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) em [Visualização 3D](../../interface/3d-view/3d-view.md)
 
 Os seguintes formatos de arquivo de cena 3D são compatíveis:
 
@@ -35,7 +35,7 @@ Os seguintes formatos de arquivo de cena 3D são compatíveis:
 * [USDA](https://graphics.pixar.com/usd/release/index.html) (\*.usda)
 * [USDZ](https://graphics.pixar.com/usd/release/index.html) (\*.usdz)
 * [Autodesk FBX](https://www.autodesk.com/products/fbx/overview) (\*.fbx)
-* [Objeto Wavefront](https://www.fileformat.info/format/wavefrontobj/egff.htm) (\*.obj)
+* [Wavefront OBJ](https://www.fileformat.info/format/wavefrontobj/egff.htm) (\*.obj)
 * [Autodesk 3D Studio Mesh](https://knowledge.autodesk.com/support/3ds-max/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/3DSMax-Data-Exchange/files/GUID-A16ECF7F-70E5-4F9F-8EAD-35F5CFB485A2-htm.html) (\*.3ds)
 * [Collada](https://www.khronos.org/collada/) (\*.dae)
 * [Desenho do Autodesk AutoCAD](https://knowledge.autodesk.com/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/AutoCAD-Core/files/GUID-D4242737-58BB-47A5-9B0E-1E3DE7E7D647-htm.html) (\*.dxf)

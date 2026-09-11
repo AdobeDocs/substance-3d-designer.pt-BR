@@ -10,7 +10,7 @@ helpx_tags: ""
 title: O nó Iterar
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -38,4 +38,4 @@ Cada nó Iterate tem dois conectores ao longo de sua base. O conector esquerdo �
 
 Observe que a imagem de passagem sempre passa intacta, independentemente da configuração do parâmetro Iteration.
 
-![](../../../assets/iterate.jpg)
+![](the-iterate-node.resources/iterate.jpg)

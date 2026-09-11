@@ -192,12 +192,12 @@ Observe que essas atualizações têm duas consequências principais:
 * [Content] Novo nó Descombinar normal
 * [Content] Novos nós de Paleta: Criar, Aplicar, Modificar, Exibir
 * [Content] Novo nó Quantificar cor
-* [Content] Distorção direcional não uniforme: defina o valor padrão do mapa de intensidade como 1
+* [Content] Deformação direcional não uniforme: defina o valor padrão do mapa de intensidade como 1
 * [Conteúdo] Adicionar sufixo &#39;Cor&#39; ou &#39;Tons de Cinza&#39; a todos os rótulos de nó que possuem essas versões
 * [Content] Preterir “White Noise” e manter apenas “White Noise Fast”
-* [Content] Preterir nó &#39;Negate Float1&#39; no gráfico de função Substance
+* [Content] Preterir nó &#39;Negate Precisão decimal1&#39; no gráfico de função Substance
 * [Content] Renomeie “Quantize cor” para “Quantize cor (simples)”
-* [Exibição 2D] Exibe valores no painel Informações para pixels fora do intervalo 0-1
+* [Visualização 2D] Exibir valores no painel Informações para pixels fora do intervalo 0-1
 * [Mecanismo]&#x200B;[Texto] Novo kerning para algumas fontes
 * [Graph] Melhorar o tempo de invalidação ao editar subgrafos profundos ao usar a edição no contexto
 * [Vinculador] Não duplicar bitmaps em SBSASM

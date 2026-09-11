@@ -113,7 +113,7 @@ Para baixar novos drivers, consulte: [A GPU tem drivers desatualizados](https://
 
 ## Rastreamento de raios do GPU para panificação
 
-Para habilitar o Rastreamento de raios do GPU via Optix ou DXR, os drivers recomendados acima devem estar instalados.
+Para ativar o Rastreamento de raios do GPU via Optix ou DXR, os drivers recomendados acima devem ser instalados.
 
 O <b>DXR</b> requer a seguinte configuração mínima:
 
@@ -122,7 +122,7 @@ O <b>DXR</b> requer a seguinte configuração mínima:
 
 >[!TIP]
 >
-> O Rastreamento de raios do GPU funciona de maneira ideal em hardware de rastreio de raio dedicado, como GPUs NVIDIA GeForce RTX ou NVIDIA Quadro RTX.
+> O Rastreamento de raios do GPU funciona de maneira ideal em hardware de Rastreamento de raios dedicado como GPUs NVIDIA GeForce RTX ou NVIDIA Quadro RTX.
 
 ## Usando tablets
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Renderizadores 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ A visualização 3D oferece quatro renderizadores:
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizador</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU Pathtracer</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Graças à sua dependência do USD, ele pode aproveitar o [plug-in USDFileFormat
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizador</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Graças à sua dependência do USD, ele pode aproveitar o [plug-in USDFileFormat
 
 +++
 
-![Rasterizador - Exemplo 1](../../../assets/3dRendererRasterizer.jpg "Rasterizador - Exemplo 1"){zoomable="yes"}
+![Rasterizador - Exemplo 1](3d-renderers.resources/3dRendererRasterizer.jpg "Rasterizador - Exemplo 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ Graças à sua dependência do USD, ele pode aproveitar o [plug-in USDFileFormat
 
 +++
 
-![GPU pathtracer - Exemplo 1](../../../assets/3dRendererPathtracer.jpg "GPU pathtracer - Exemplo 1"){zoomable="yes"}
+![GPU pathtracer - Exemplo 1](3d-renderers.resources/3dRendererPathtracer.jpg "GPU pathtracer - Exemplo 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -296,4 +296,4 @@ O Designer também oferece a possibilidade de configurar seus próprios sombread
 > 
 > Este renderizador está **obsoleto**: ele não receberá novos recursos e será desativado em uma versão futura do Designer.
 
-![OpenGL - Exemplo 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Exemplo 1"){zoomable="yes"}
+![OpenGL - Exemplo 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - Exemplo 1"){zoomable="yes"}

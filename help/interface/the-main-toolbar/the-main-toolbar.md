@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Barra de ferramentas principal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Esta página descreve a barra de ferramentas principal e o menu do [Substance 3D
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Barra de ferramentas principal](../../assets/mainmenu.png "Barra de ferramentas principal")
+![Barra de ferramentas principal](the-main-toolbar.resources/mainmenu.png "Barra de ferramentas principal")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ Esta página descreve a barra de ferramentas principal e o menu do [Substance 3D
 
 ## Botões de acesso rápido
 
-![](../../assets/newsubstance.png) <b>Novo gráfico de Substance...:</b> (Ctrl+N)Apresenta a janela [Novo gráfico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) e, em seguida, cria um novo pacote com um [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
+![](the-main-toolbar.resources/newsubstance.png) <b>Novo gráfico de Substance...:</b> (Ctrl+N)Apresenta a janela [Novo gráfico](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) e, em seguida, cria um novo pacote com um [gráfico de Substance](../../compositing-graphs/substance-compositing-graphs.md).
 
-![](../../assets/open.png) <b>Abrir...:</b> (Ctrl+O) Abra um [pacote de Substance (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md) existente.
+![](the-main-toolbar.resources/open.png) <b>Abrir...:</b> (Ctrl+O) Abra um [pacote de Substance (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md) existente.
 
-![](../../assets/saveall.png) <b>Salvar Tudo:</b> (Ctrl++S) Salva todos os pacotes listados no [Gerenciador](../../interface/the-explorer-window/the-explorer-window.md).
+![](the-main-toolbar.resources/saveall.png) <b>Salvar Tudo:</b> (Ctrl++S) Salva todos os pacotes listados no [Gerenciador](../../interface/the-explorer-window/the-explorer-window.md).
 
-![](../../assets/undo.png) <b>Desfazer:</b> (Ctrl+Z) Desfaz a última operação.
+![](the-main-toolbar.resources/undo.png) <b>Desfazer:</b> (Ctrl+Z) Desfaz a última operação.
 
-![](../../assets/redo.png) <b>Refazer:</b> (Ctrl+Y) Refaz a última operação desfeita.
+![](the-main-toolbar.resources/redo.png) <b>Refazer:</b> (Ctrl+Y) Refaz a última operação desfeita.
 
 ## Arquivo
 
@@ -100,7 +100,7 @@ Esta página descreve a barra de ferramentas principal e o menu do [Substance 3D
 
 <b>Novo Explorer:</b> abre um novo Dock do Explorer. Você pode ter várias docking stations do Explorer abertas.
 
-<b>Nova Visualização 3D:</b> abre uma nova Visualização 3D. É possível ter várias docking stations abertas.
+<b>Nova exibição 3D:</b> abre um novo encaixe de exibição 3D. É possível ter vários encaixes de visualização 3D abertos.
 
 <b>Nova exibição da biblioteca:</b> abre uma nova área de Biblioteca. É possível ter várias docas de biblioteca abertas.
 

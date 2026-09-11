@@ -96,7 +96,7 @@ Como alternativa, o controle deslizante Posição de entrada de gradiente pode s
 | --- | --- |
 | <b>Endereçamento de gradiente</b> *Booleano* | Define se o Gradiente se repete (blocos) ou grampos.   Esse parâmetro determina como os pixels HDR do intervalo [0, 1] da entrada em tons de cinza são tratados: apertados ou dobrados até [0, 1]. |
 | <b>Orientação do gradiente</b> *Inteiro* | Define o eixo ao longo do qual a “Entrada de gradiente” deve ser amostrada:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Horizontal:</i> faça uma amostra de uma linha de pixels no eixo X.</li> <li data-preserve-html="true"><i>Vertical:</i> faça uma amostra de uma coluna de pixels no eixo Y.</li> </ul> |
-| <b>Posição de entrada do gradiente</b> *Precisão decimal* | A posição normalizada da linha ou coluna de pixels a serem amostrados em &#39;Entrada de gradiente&#39;. |
+| <b>Posição de entrada do gradiente</b> *Flutuante* | A posição normalizada da linha ou coluna de pixels a serem amostrados em &#39;Entrada de gradiente&#39;. |
 
 ## Conectores de entrada
 

@@ -52,8 +52,8 @@ O nó **Barbeamento de Desgaste** no [Substance 3D Designer](https://www.adobe.c
 | <b>Avançado</b> |  |
 | <b>Quantidade de Pontos de Rascunho</b> <i>Flutuante</i> | A quantidade e *cobertura* do efeito de manchas arranhadas usado para gerar as aparas. |
 | <b>Divisão em Blocos Gráficos</b> <i>Inteiro</i> | A quantidade de divisão em blocos gráficos do efeito de manchas arranhadas usada para gerar as aparas. |
-| <b>Intensidade de Dust</b> <i>Precisão decimal</i> | A intensidade da sobreposição do dust na superfície. |
-| <b>Intensidade de nitidez</b> <i>Precisão decimal</i> | A intensidade do efeito de nitidez global. |
+| <b>Intensidade de Dust</b> <i>Flutuante</i> | A intensidade da sobreposição do dust na superfície. |
+| <b>Intensidade de nitidez</b> <i>Flutuante</i> | A intensidade do efeito de nitidez global. |
 
 ## Exemplos
 

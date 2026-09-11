@@ -43,4 +43,4 @@ Uma Função SDF para um toro, que é uma forma formada pela varredura de um cí
 | <b>Raio principal</b> *Flutuante* | O raio do círculo ao longo do qual o disco secundário é varrido para formar a superfície do toro.<br><br><i>Padrão: 0,5</i> |
 | <b>Raio menor</b> *Flutuante* | O raio do círculo sendo varrido ao longo do círculo principal para formar a superfície do toro.<br><br><i>Padrão: 0.2</i> |
 | <b>Posição central</b> *Flutuante3* | A posição do espaço global da tabela dinâmica do toro.<br><br><i>Padrão: (0, 0, 0)</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>P</b> *Flutuante3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

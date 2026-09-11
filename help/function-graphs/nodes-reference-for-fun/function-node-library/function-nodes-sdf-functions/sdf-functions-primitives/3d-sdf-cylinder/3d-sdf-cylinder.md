@@ -45,4 +45,4 @@ Uma Função SDF para um cilindro com height ajustável, raio e arredondamento d
 | <b>Arredondamento</b> *Flutuante* | O raio dos arcos arredondados aplicados às bordas do cilindro.<br><br><i>Observação:</i> bordas sólidas podem aparecer onde os raios de arredondamento se cruzam.<br><br><i>Padrão: 0</i> |
 | <b>Posição de pivô (local)</b> *Flutuante3* | A posição do espaço global do pivô local do cilindro, onde (0, 0, 0) coloca o pivô no centro do cilindro.<br><br><i>Padrão: (0, 0, -0,5)</i> |
 | <b>Posição central</b> *Flutuante3* | A posição do espaço global da tabela dinâmica do cilindro.<br><br><i>Padrão: (0, 0, 0)</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>P</b> *Flutuante3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

@@ -98,7 +98,7 @@ Este botão permite-lhe selecionar o método de herança que deverá ser usado p
 
 ![Alterando método de herança](inheritance-in-substance-compositing-graphs.resources/inheritance-change.gif "Alterando método de herança"){width="512px"}
 
-Na maioria dos casos, os parâmetros Base de um *nó* são definidos como *Relativo à entrada*, para aproveitar o comportamento processual de encadear nós juntos, enquanto os parâmetros Base de um *gráfico* são definidos como *Relativo ao pai*, para que os parâmetros globais possam se adaptar ao contexto em que o gráfico é usado.
+Na maioria dos casos, os parâmetros Base de um *nó* são definidos como *Relativo à entrada*, para aproveitar o comportamento de procedimento de encadeamento de nós, enquanto os parâmetros Base de um *gráfico* são definidos como *Relativo ao pai*, para que os parâmetros globais possam se adaptar ao contexto em que o gráfico é usado.
 
 ### AJUSTES DE VALORES HERDADOS
 

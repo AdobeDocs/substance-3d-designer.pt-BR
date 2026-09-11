@@ -45,12 +45,12 @@ O nó **Desgaste Manchas Sujas** gera um mapa de desgaste semelhante a pontos de
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Precisão decimal</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
-| <b>Contraste</b> <i>Precisão decimal</i> | Ajusta o contraste da imagem. |
+| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
 | <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
 | <b>Avançado</b> |  |
-| <b>Cobertura</b> <i>Precisão decimal</i> | Ajusta a cobertura do dirt. |
+| <b>Cobertura</b> <i>Flutuante</i> | Ajusta a cobertura do dirt. |
 | <b>Escala</b> <i>Inteiro</i> | Ajusta a escala dos pontos de dirt. Um valor *mais alto* resulta em pontos *mais precisos*. |
 
 ## Exemplos

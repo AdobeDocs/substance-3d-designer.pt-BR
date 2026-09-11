@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Funções de hash
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó de hash: ícone](../../../../../assets/hash-icon.png "Nó de hash: ícone"){width="200px"}
+![Nó de hash: ícone](hash-functions.resources/hash-icon.png "Nó de hash: ícone"){width="200px"}
 
 <b>Em:</b> Funções > Aleatório
 
@@ -82,12 +82,12 @@ Versões disponíveis, com seu tipo de entrada e tipo de saída:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Exemplo de hash 14](../../../../../assets/hash14-example.png "Exemplo de hash 14"){zoomable="yes"}
+![Exemplo de hash 14](hash-functions.resources/hash14-example.png "Exemplo de hash 14"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Exemplo de hash 32](../../../../../assets/hash32-example.png "Exemplo de hash 32"){zoomable="yes"}
+![Exemplo de hash 32](hash-functions.resources/hash32-example.png "Exemplo de hash 32"){zoomable="yes"}
 
 </td>
 </tr>

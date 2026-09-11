@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Forma de onda 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Forma de onda 1 - Ícone](../../../../../../assets/waveform_01_v2.png "Forma de onda 1 - Ícone"){width="200px"}
+![Forma de onda 1 - Ícone](waveform-1.resources/waveform_01_v2.png "Forma de onda 1 - Ícone"){width="200px"}
 
 <b>Entrada:</b> geradores de textura > Ruídos
 
@@ -56,11 +56,11 @@ Uma organização horizontal de padrões selecionados pelo usuário empilhados e
 | <b>Amostras</b> <i>Inteiro</i> | A quantidade de padrões colocados ao longo do eixo X para desenhar a forma de onda, onde um valor mais baixo resulta em uma aparência mais passo a passo. |
 | <b>Função</b> <i>Inteiro</i> | A função usada para desenhar a forma de onda.   Controla o tamanho vertical do padrão colocado em cada amostra:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Ruído de valor:</i> uma distribuição aleatória de valores</li> <li data-preserve-html="true"><i>Cosseno:</i> os valores seguem a progressão de uma função de cosseno</li> <li data-preserve-html="true"><i>Função personalizada:</i> use uma função de autoria do usuário para direcionar os valores</li> </ul> |
 | <b>Função personalizada</b> <i>Flutuante</i>   *Disponível quando &#39;Function&#39; está definido como &#39;Custom function&#39;* | Calcula o tamanho vertical do padrão colocado em cada amostra.   Variáveis disponíveis:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>pos</b> (<i>float</i>) A posição do padrão no eixo X. Isso pode ser usado para selecionar padrões.</li> </ul> |
-| <b>Aspereza</b> <i>Flutuante</i> | Interpola entre uma forma de onda limpa e suave com uma mais áspera e distribuída uniformemente.    Isso pode ser considerado um sinal limpo vs. ruído branco. |
+| <b>Aspereza</b> <i>Precisão decimal</i> | Interpola entre uma forma de onda limpa e suave com uma mais áspera e distribuída uniformemente.    Isso pode ser considerado um sinal limpo vs. ruído branco. |
 | <b>Escala</b> <i>Inteiro</i> | A extensão horizontal da forma de onda visível na imagem. |
-| <b>Amplitude mínima</b> <i>Flutuante</i> | O valor mínimo (ou thickness) da forma de onda. |
-| <b>Amplitude máxima</b> <i>Flutuante</i> | O valor máximo (ou thickness) da forma de onda. |
-| <b>Ruído</b> <i>Flutuante</i> | Aplica ruído à forma de onda que subtrai aleatoriamente de sua extensão vertical. |
+| <b>Amplitude mínima</b> <i>Precisão decimal</i> | O valor mínimo (ou thickness) da forma de onda. |
+| <b>Amplitude máxima</b> <i>Precisão decimal</i> | O valor máximo (ou thickness) da forma de onda. |
+| <b>Ruído</b> <i>Precisão decimal</i> | Aplica ruído à forma de onda que subtrai aleatoriamente de sua extensão vertical. |
 | <b>Posição</b> <i>Inteiro</i> | A posição da forma de onda na imagem:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Centralizado:</i> a origem está no centro vertical da imagem</li> <li data-preserve-html="true"><i>Parte inferior:</i> a origem é a parte inferior da imagem</li> </ul> |
 | <b>Padrão</b> <i>Inteiro</i> | O padrão colocado em cada amostra da forma de onda. |
 | <b>Variação de padrão</b> <i>Flutuante</i> | Um ajuste adicional disponível para alguns padrões. |
@@ -73,7 +73,7 @@ Uma organização horizontal de padrões selecionados pelo usuário empilhados e
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Forma de onda 1 - Exemplo 1](../../../../../../assets/waveform_01_v2_speed0.1_aniso0.gif "Forma de onda 1 - Exemplo 1"){zoomable="yes"}
+![Forma de onda 1 - Exemplo 1](waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif "Forma de onda 1 - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

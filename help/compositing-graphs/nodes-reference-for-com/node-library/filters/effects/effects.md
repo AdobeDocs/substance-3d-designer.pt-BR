@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
 breadcrumb-title: ''
-description: Acesse os nós de filtro de efeito no Substance 3D Designer para adicionar efeitos visuais como brilho, sombras e deformação às texturas.
+description: Acesse os nós de filtro de efeito no Substance 3D Designer para adicionar efeitos visuais como brilho, sombras e deformação às suas texturas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects
 helpx_experience_level: ""
@@ -27,7 +27,7 @@ Use a <b>lista de navegação à esquerda</b> para procurar todos os nós em Efe
 Um grande grupo de nós destina-se ao processamento, geração e modificação de Mapas baked, como Normalmap ou AO e Curvatura. Exemplos:
 
 * [Suavização de curvatura](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
-* [Oclusão ambiente (HBAO)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md)
+* [Oclusão de ambiente (HBAO)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md)
 
 Outro grupo de nós é destinado ao efeito de forma de camada ou “Estilos de camada”, como visto em outros softwares populares de edição de imagens. Exemplos:
 

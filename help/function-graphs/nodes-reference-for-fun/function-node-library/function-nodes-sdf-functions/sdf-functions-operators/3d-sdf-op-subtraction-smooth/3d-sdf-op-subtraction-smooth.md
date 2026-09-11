@@ -40,6 +40,6 @@ Subtrai o volume da forma SDF 1 da forma SDF 2, com suavização ajustável apli
 
 |  |  |
 | :--- | :--- |
-| <b>SDF 1</b> *Flutuante* | A forma SDF sendo subtraída de. |
-| <b>SDF 2</b> *Flutuante* | A forma SDF que está sendo subtraída da forma SDF 1. |
-| <b>Smoothness</b> *Flutuante* | A suavização aplicada na interseção das duas formas.<br><br><i>Observação:</i> bordas sólidas podem aparecer onde os raios de suavização se cruzam. |
+| <b>SDF 1</b> *Precisão decimal* | A forma SDF sendo subtraída de. |
+| <b>SDF 2</b> *Precisão decimal* | A forma SDF que está sendo subtraída da forma SDF 1. |
+| <b>Smoothness</b> *Precisão decimal* | A suavização aplicada na interseção das duas formas.<br><br><i>Observação:</i> bordas sólidas podem aparecer onde os raios de suavização se cruzam. |

@@ -40,7 +40,7 @@ Uma Função SDF para uma pirâmide com uma base quadrada, com height ajustável
 
 |  |  |
 | :--- | :--- |
-| <b>Height</b> *Flutuante* | O height Z-up do ápice da pirâmide a partir de sua base.<br><br><i>Padrão: 1</i> |
-| <b>Tamanho base</b> *Flutuante* | O comprimento das bordas de base da pirâmide.<br>Todas as bordas têm o mesmo comprimento.<br><br><i>Padrão: 1</i> |
-| <b>Posição base</b> *Flutuante3* | A posição do espaço global da base da pirâmide.<br><br><i>Padrão: (0, 0, 0)</i> |
-| <b>P</b> *Flutuante3* | A posição do espaço mundial transformado. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |
+| <b>Height</b> *Precisão decimal* | O height Z-up do ápice da pirâmide a partir de sua base.<br><br><i>Padrão: 1</i> |
+| <b>Tamanho base</b> *Precisão decimal* | O comprimento das bordas de base da pirâmide.<br>Todas as bordas têm o mesmo comprimento.<br><br><i>Padrão: 1</i> |
+| <b>Posição base</b> *Precisão decimal 3* | A posição do espaço global da base da pirâmide.<br><br><i>Padrão: (0, 0, 0)</i> |
+| <b>P</b> *Precisão decimal 3* | A posição transformada do espaço mundial. Use esta entrada para aplicar transformações adicionais usando os nós <b>Deslocamento P</b> e <b>Girar P</b>.<br><br><i>Padrão: a posição do espaço mundial não transformado.</i> |

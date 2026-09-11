@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ![](grunge-damas.resources/grungedamas.jpg){width="200px"}
 
-<b>Entrada:</b> geradores de Textura > Ruídos
+<b>Entrada:</b> geradores de textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,12 +45,12 @@ O nó **Damas de Desgaste** gera um mapa de desgaste semelhante a um padrão de 
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Precisão decimal</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
-| <b>Contraste</b> <i>Precisão decimal</i> | Ajusta o contraste da imagem. |
+| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
 | <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
 | <b>Avançado</b> |  |
-| <b>Distorção</b> <i>Precisão decimal</i> | Ajusta a quantidade de distorção no padrão. |
+| <b>Distorção</b> <i>Flutuante</i> | Ajusta a quantidade de distorção no padrão. |
 | <b>Divisões</b> <i>Inteiro</i> | Ajusta a intensidade de divisões ou repetições de gradiente no padrão. |
 | <b>Ondas</b> <i>Inteiro</i> | Ajusta a quantidade de ondas no padrão. |
 | <b>Detalhes</b> <i>Flutuante</i> | Ajusta a intensidade das distorções menores. |

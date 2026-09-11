@@ -26,14 +26,14 @@ ht-degree: 1%
 
 ![](grunge-concrete.resources/grungeconcrete.jpg){width="200px"}
 
-<b>Entrada:</b> geradores de Textura > Ruídos
+<b>Entrada:</b> geradores de textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Descrição
 
-O nó **Concreto de Desgaste** gera um mapa de desgaste semelhante ao mapa de altura de uma superfície de concreto.
+O nó **Concreto de Desgaste** gera um mapa de desgaste semelhante ao mapa de height de uma superfície de concreto.
 
 </td>
 </tr>
@@ -45,13 +45,13 @@ O nó **Concreto de Desgaste** gera um mapa de desgaste semelhante ao mapa de al
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Precisão decimal</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
-| <b>Contraste</b> <i>Precisão decimal</i> | Ajusta o contraste da imagem. |
+| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
 | <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
 | <b>Avançado</b> |  |
-| <b>Ruído Base</b> <i>Precisão decimal</i> | Ajusta o ruído da textura base. |
-| <b>Opacidade de Manchas de Dirt</b> <i>Precisão decimal</i> | Ajusta a opacidade das manchas de dirt. |
+| <b>Ruído Base</b> <i>Flutuante</i> | Ajusta o ruído da textura base. |
+| <b>Opacidade de Manchas de Dirt</b> <i>Flutuante</i> | Ajusta a opacidade das manchas de dirt. |
 | <b>Inverter Dirt</b> <i>Booleano</i> | Inverte o impacto das manchas de dirt. |
 | <b>Opacidade de Scratches</b> <i>Flutuante</i> | Ajusta a opacidade dos arranhões. |
 | <b>Ajustar nitidez</b> <i>Flutuante</i> | Ajusta a intensidade de um efeito de nitidez aplicado à imagem. |

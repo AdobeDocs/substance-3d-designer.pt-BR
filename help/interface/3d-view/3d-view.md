@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visualização 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Visualização 3D
 
-A visualização 3D ajuda você a visualizar e entender seus materiais com malhas personalizadas e materiais PBR renderizados.<br>Assim como ocorre com todas as janelas do Substance 3D Designer, ele funciona com outras janelas por meio de opções de menu de clique com o botão direito do mouse e operações de arrastar e soltar.
+O Visualização 3D ajuda você a visualizar e entender seus materiais com malhas personalizadas e materiais PBR renderizados.<br>Assim como ocorre com todas as janelas do Substance 3D Designer, ele funciona com outras janelas por meio de opções de menu de clique com o botão direito do mouse e operações de arrastar e soltar.
 
 A visualização 3D também fornece dois métodos principais de renderização de materiais em cenas 3D:
 * Visualização rápida e em tempo real com o **Rasterizador** e os **OpenGL** renderizadores
@@ -38,11 +38,11 @@ Saiba mais aqui: [renderizadores 3D](3d-renderers/3d-renderers.md)
 
 A seção abaixo explica como realizar ações comuns resumidamente, juntamente com um GIF animado para ilustrar o processo.
 
-![Navegação por porta de visualização](../../assets/3d-navigate.gif "Navegação por porta de visualização")
+![Navegação por porta de visualização](3d-view.resources/3d-navigate.gif "Navegação por porta de visualização")
 
 ### Navegação
 
-A câmera e o ambiente de exibição 3D podem ser manipulados de três maneiras:
+A Visualização 3D e o ambiente podem ser manipulados de três maneiras:
 
 * <b>Órbita:</b> LMB+Arrastar
 * <b>Panorâmica</b>: MMB+Arrastar/Ctrl+RMB+Arrastar
@@ -84,11 +84,11 @@ Você pode interagir com malhas diretamente na viewport:
 
 <b>Pressione Esc para cancelar a seleção.</b> O cursor não precisa estar na malha.
 
-![Exibição 3D - Focalizar e desmarcar](../../assets/sceneBrowser-focus.gif "Exibição 3D - Focalizar e desmarcar"){zoomable="yes"}
+![Exibição 3D - Focalizar e desmarcar](3d-view.resources/sceneBrowser-focus.gif "Exibição 3D - Focalizar e desmarcar"){zoomable="yes"}
 
 *Selecionar, focar, desmarcar*
 
-![Exibição 3D - Menu contextual](../../assets/sceneBrowser-contextualMenu.gif "Exibição 3D - Menu contextual"){zoomable="yes"}
+![Exibição 3D - Menu contextual](3d-view.resources/sceneBrowser-contextualMenu.gif "Exibição 3D - Menu contextual"){zoomable="yes"}
 
 *Selecionar, menu contextual*
 
@@ -114,13 +114,13 @@ Para usar seu próprio ambiente de luz HDR personalizado, importe uma imagem HDR
 
 Vá para <b>Luzes > Editar propriedades</b> para alternar as luzes de ponto na cena.
 
-A luz de ponto 1 pode ser movida ao redor da origem da cena, segurando o LMB ou RMB e arrastando na viewport no modo de Iluminação. <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+A luz de ponto 1 pode ser movida ao redor da origem da cena, segurando o LMB ou RMB e arrastando na viewport no modo de Iluminação. <img src="3d-view.resources/image2020-9-17-10-30-37.png" width="24" />
 
-No modo Câmera <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /> , você também pode mudar temporariamente para o modo Iluminação pressionando as teclas Ctrl+ em combinação com os botões do mouse.
+No modo Câmera <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" /> , você também pode mudar temporariamente para o modo Iluminação pressionando as teclas Ctrl+ em combinação com os botões do mouse.
 
 ## Visualização de dados em 3D
 
-![Exibir saídas de Substance](../../assets/3d-material.gif "Exibir saídas de Substance")
+![Exibir saídas de Substance](3d-view.resources/3d-material.gif "Exibir saídas de Substance")
 
 ### Gráficos do Substance
 
@@ -140,28 +140,28 @@ Ao *carregar um gráfico*, suas saídas são aplicadas automaticamente na Exibi�
 > 
 > Se você usar malhas personalizadas com mais de um material, será solicitado a escolher a qual slot de material atribuir o material. Com qualquer um dos métodos acima, clique em um slot para confirmar sua escolha. Para obter mais informações sobre os materiais e suas atribuições, leia a seção detalhada abaixo.
 
-![Visualizando nó vs. saídas de gráfico na Visualização 3D](../../assets/3d-channel.gif "Visualizando nó vs. saídas de gráfico na Visualização 3D")
+![Exibindo saídas de nó vs de gráfico em Visualização 3D](3d-view.resources/3d-channel.gif "Exibindo saídas de nó vs de gráfico em Visualização 3D")
 
 ### Nó individual/saída do gráfico
 
-Você pode exibir apenas uma única saída em qualquer canal de material disponível na [Exibição 3D](https://substance3d.adobe.com/). Isso é usado com menos frequência, mas é bom para visualizar testes rápidos ou nós individuais sem saída.
+Você pode exibir apenas uma única saída em qualquer canal de material disponível no [Visualização 3D](https://substance3d.adobe.com/). Isso é usado com menos frequência, mas é bom para visualizar testes rápidos ou nós individuais sem saída.
 
-Você pode exibir qualquer nó, não apenas os nós de saída, clicando com o botão direito do mouse no [Modo de exibição de Gráfico](../../interface/the-graph-view/the-graph-view.md) e escolhendo <b>Modo de Exibição 3D</b>. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
+Você pode exibir qualquer nó, não apenas os nós de saída, clicando com o botão direito do mouse no [Modo de exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) e escolhendo <b>Modo de exibição em Visualização 3D</b>. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
 
-Você também pode usar *RMB* para arrastar e soltar qualquer nó da exibição Gráfico para a exibição 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
+Você também pode usar *RMB* para arrastar e soltar qualquer nó da exibição Gráfico para o Visualização 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
 
-Você pode exibir qualquer saída de gráfico individual expandindo o recurso de gráfico no encaixe do [Explorer](../the-explorer-window/the-explorer-window.md) e usando o *LMB* para arrastar essa saída para a Exibição 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
+Você pode exibir qualquer saída de gráfico individual expandindo o recurso de gráfico no encaixe do [Explorer](../the-explorer-window/the-explorer-window.md) e usando o *LMB* para arrastar essa saída para o Visualização 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
 
-![Visualização de malhas 3D personalizadas](../../assets/3d-mesh.gif "Visualização de malhas 3D personalizadas")
+![Visualização de malhas 3D personalizadas](3d-view.resources/3d-mesh.gif "Visualização de malhas 3D personalizadas")
 
 ## Exibir (personalizar) cenas 3D
 
-O Designer oferece uma dúzia de malhas predefinidas. Essas malhas têm coordenadas UV uniformes e utilizáveis e servem à maioria dos cenários para texturas de revestimento. Também é possível importar e visualizar suas próprias malhas 3D.\
+O Designer oferece uma dúzia de malhas predefinidas. Essas malhas têm coordenadas UV uniformes e utilizáveis e servem a maioria dos cenários para texturas de azulejos. Também é possível importar e visualizar suas próprias malhas 3D.\
 Escolha qualquer uma das malhas padrão no menu suspenso <b>Cena</b> na barra superior.
 
 Para cenas 3D personalizadas, vá para a seção [Trabalhando com cenas 3D](../../working-with-3d-scenes/working-with-3d-scenes.md).
 
-![Alterando propriedades do material](../../assets/3d-materials.gif "Alterando propriedades do material")
+![Alterando propriedades do material](3d-view.resources/3d-materials.gif "Alterando propriedades do material")
 
 ## Alterar propriedades do sombreador
 
@@ -184,7 +184,7 @@ Os sombreadores podem ser redefinidos usando as ações “Redefinir material”
 > * <b>Rasterizador/GPU Pathtracer:</b> localizado nas configurações do renderizador (Renderizador > Configurações de edição), afeta a *cena inteira*.
 > * <b>OpenGL:</b> localizado nas propriedades do material, afeta o material.
 
-![Exportando a cena](../../assets/3d-view-export-scene.gif "Exportando a cena")
+![Exportando a cena](3d-view.resources/3d-view-export-scene.gif "Exportando a cena")
 
 ## Exportar cena
 
@@ -230,7 +230,7 @@ A barra de menus fornece sete menus com opções relacionadas à Visualização 
 +++Cena
 O menu <b>Cena</b> lida com a geometria (Recurso 3D) exibida e com os estados de exibição 3D. O compartilhamento de recursos 3D é apenas a malha, os estados da cena são luzes, câmera e configurações relacionadas e também podem conter a malha ao lado.
 
-![Malhas do menu Cena](../../assets/3d-view-meshes.png "Malhas do menu Cena")
+![Malhas do menu Cena](3d-view.resources/3d-view-meshes.png "Malhas do menu Cena")
 
 
 
@@ -526,25 +526,25 @@ Alterna a exibição do eixo 3D na janela de visualização.
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg) <b>Seleção de plano de fundo</b>
+![](3d-view.resources/3d-view-display-backface-culling.jpg) <b>Seleção de plano de fundo</b>
 
 Desabilitar essa opção permite ver uma malha de *ambos os lados*. A opção funciona em combinação com o Wireframe.
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg) <b>Caixa Delimitadora</b>
+![](3d-view.resources/3d-view-display-bounding-box.jpg) <b>Caixa Delimitadora</b>
 
 Alterna a exibição da caixa delimitadora da malha.
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg) <b>Espaço tangente do vértice</b>
+![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg) <b>Espaço tangente do vértice</b>
 
 Exibe os vetores tangente, binormal e normal para todos os vértices como gizmos coloridos.
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg) <b>Wireframe</b>
+![](3d-view.resources/3d-view-display-wireframe.jpg) <b>Wireframe</b>
 
 Alterna a exibição da malha como um wireframe.
 
@@ -574,7 +574,7 @@ A barra de ferramentas <b>Exibição</b>, localizada na *parte inferior* do pain
 
 ### Canais de cores
 
-Você pode exibir um único canal da imagem usando o botão ![](../../assets/2d-view-icon-channels.png) <b>Canais de cores</b>. Isso abre uma caixa de combinação que permite selecionar quais canais <b>Vermelhos</b>, <b>Verdes</b> e <b>Azuis</b> devem ser exibidos. O aspecto normal da imagem com todos os canais é restaurado selecionando a opção <b>RGB</b>.
+Você pode exibir um único canal da imagem usando o botão ![](3d-view.resources/2d-view-icon-channels.png) <b>Canais de cores</b>. Isso abre uma caixa de combinação que permite selecionar quais canais <b>Vermelhos</b>, <b>Verdes</b> e <b>Azuis</b> devem ser exibidos. O aspecto normal da imagem com todos os canais é restaurado selecionando a opção <b>RGB</b>.
 
 O *ícone* do botão <b>Canais de cores</b> *muda* dependendo do(s) canal(is) exibido(s) atualmente.
 

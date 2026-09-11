@@ -35,9 +35,9 @@ ht-degree: 10%
 
 Gera uma máscara em preto e branco com base em mapas baked e configurações do usuário. Essa é basicamente a versão Designer do Construtor de máscaras do Painter.
 
-É uma ferramenta complicada destinada como um criador de máscaras abrangente, com base em mapas baked, parâmetros do usuário e mapas e padrões de desgaste. Destina-se principalmente como um nó de controle completo muito avançado para misturar no dirt de vincos e desgaste de bordas. Este nó é poderoso o suficiente para imitar todos os outros Geradores de máscaras.
+É uma ferramenta complicada destinada como um criador de máscaras abrangente, com base em mapas baked, parâmetros do usuário e mapas e padrões de desgaste. Destina-se principalmente como um nó de controle completo muito avançado para misturar no dirt de vincos e desgaste de bordas. Este nó é suficientemente poderoso para imitar todos os outros Geradores de máscara.
 
-Não há necessidade explícita de cozedura, mas quanto mais você fornecer, mais esse nó será capaz de fazer.
+Nenhuma faz bake é explicitamente necessária, mas quanto mais você fornecer, mais esse nó será capaz de fazer.
 
 </td>
 </tr>

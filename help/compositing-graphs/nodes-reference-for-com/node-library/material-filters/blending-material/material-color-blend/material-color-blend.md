@@ -61,20 +61,20 @@ Esse nó é mais útil quando você quer introduzir uma dica de cor simples em C
 | <b>Cor</b> <i>(Valor da cor)</i> | Qual valor de cor deve ser mesclado sobre o canal da Difusão. |
 | <b>Opacidade</b> <i>0.0 - 1.0</i> | Mesclar opacidade entre primeiro plano e plano de fundo. |
 | <b>Modo de Mesclagem</b> <i>Normal, Adicionar, Subtrair, Multiplicar, Adicionar/Sub, Máx, Mín, Alternar</i> | modo Combinar a ser usado na operação. |
-| <b>Cor base</b> | Mescla uma cor sólida sobre este canal com opções como no grupo Difuso. |
+| <b>Cor base</b> | Combinar uma cor sólida em cima deste canal com opções como no grupo de Difusões. |
 | <b>Normal</b> |  |
 | <b>Origem</b> <i>Height, Máscara</i> |  |
 | <b>Modo de Mesclagem</b> <i>Combinar, Combinar</i> |  |
 | <b>Intensidade de Height</b> <i>0.0 - 1.0</i> |  |
 | <b>Opacidade do Height</b> <i>0.0 - 1.0</i> |  |
 | <b>Formato</b> <i>DirectX, OpenGL</i> |  |
-| <b>Specular</b> | Mescla uma cor sólida sobre este canal com opções como no grupo Difuso. |
-| <b>Emissivo</b> | Mescla uma cor sólida sobre este canal com opções como no grupo Difuso. |
-| <b>Textura reluzente</b> | Mescla uma cor sólida sobre este canal com opções como no grupo Difuso. |
-| <b>Aspereza</b> | Mescla uma cor sólida sobre este canal com opções como no grupo Difuso. |
-| <b>Metálico</b> | Mescla uma cor sólida sobre este canal com opções como no grupo Difuso. |
-| <b>Specular level</b> | Mescla uma cor sólida sobre este canal com opções como no grupo Difuso. |
-| <b>Oclusão de ambiente</b> | Mescla uma cor sólida sobre este canal com opções como no grupo Difuso. |
+| <b>Specular</b> | Combinar uma cor sólida em cima deste canal com opções como no grupo de Difusões. |
+| <b>Emissivo</b> | Combinar uma cor sólida em cima deste canal com opções como no grupo de Difusões. |
+| <b>Textura reluzente</b> | Combinar uma cor sólida em cima deste canal com opções como no grupo de Difusões. |
+| <b>Aspereza</b> | Combinar uma cor sólida em cima deste canal com opções como no grupo de Difusões. |
+| <b>Metálico</b> | Combinar uma cor sólida em cima deste canal com opções como no grupo de Difusões. |
+| <b>Specular level</b> | Combinar uma cor sólida em cima deste canal com opções como no grupo de Difusões. |
+| <b>Oclusão de ambiente</b> | Combinar uma cor sólida em cima deste canal com opções como no grupo de Difusões. |
 | <b>Height</b> | Mescla uma cor sólida sobre este canal com opções como no grupo Difuso. |
 | <b>Opacidade</b> | Mescla uma cor sólida sobre este canal com opções como no grupo Difuso. |
 | <b>Máscara de identificação de cores</b> <i>Falso/Verdadeiro</i> | Use Máscara de identificação de cores em vez de máscara em tons de cinza. Lembre-se de que isso é apenas para uma cor!<br><br>Habilita todas as opções abaixo. |

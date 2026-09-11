@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-thickness.html"
 breadcrumb-title: ''
-description: Use o nó Thickness de amostra de spline para obter amostras de valores de thickness ao longo das splines para efeitos de procedimento.
+description: Use o nó Thickness de amostra de spline para obter amostras de valores de thickness ao longo das splines para efeitos processuais.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Sample Thickness
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 ## Descrição
 
-Modifica o thickness das splines de entrada mapeando um mapa de Thickness de entrada nelas.
+Modifica o thickness das splines de entrada mapeando um mapa de espessura de entrada nelas.
 
-O efeito do mapa de height mapeado pode ser ajustado alterando seu modo de mesclagem e a opacidade desse efeito.
+O efeito do mapa de altura mapeado pode ser ajustado alterando seu modo de mesclagem e a opacidade desse efeito.
 
 </td>
 </tr>
