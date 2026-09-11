@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: Use a tela inicial do Substance 3D Designer para acessar projetos, modelos e recursos de aprendizado recentes.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Página inicial
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Página inicial
 
-![Tela inicial](../../assets/home-screen-home.jpg "Tela inicial")
+![Tela inicial](home-screen.resources/home-screen-home.jpg "Tela inicial")
 
 A <b>Tela inicial<b> A </b></b>agradece você ao iniciar o Substance 3D Designer. Ele ajuda a começar seus projetos e acessar links úteis.
 
@@ -33,18 +33,18 @@ Para fechar a Tela Inicial, use o botão <b>Voltar</b> no canto superior esquerd
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Botão Voltar](../../assets/home-screen-back-icon.jpg "Botão Voltar")
+![Botão Voltar](home-screen.resources/home-screen-back-icon.jpg "Botão Voltar")
 
 </td>
 </tr>
 </table>
 
-![Seção da página inicial](../../assets/home-screen-home_1.jpg "Seção da página inicial"){width="512px"}
+![Seção da página inicial](home-screen.resources/home-screen-home_1.jpg "Seção da página inicial"){width="512px"}
 
 ## Início
 
-A seção ![](../../assets/home-screen-home-icon.jpg) <b>Início</b> oferece um banner com uma sugestão destacada para ir além com o Designer.\
-Este banner pode ser recolhido usando o botão ![](../../assets/home-screen-expand-icon.jpg) <b>Ocultar sugestões</b> à direita.
+A seção ![](home-screen.resources/home-screen-home-icon.jpg) <b>Início</b> oferece um banner com uma sugestão destacada para ir além com o Designer.\
+Este banner pode ser recolhido usando o botão ![](home-screen.resources/home-screen-expand-icon.jpg) <b>Ocultar sugestões</b> à direita.
 
 Abaixo, uma lista de arquivos recentes sob o cabeçalho <b>Recentes</b> oferece acesso rápido aos últimos projetos carregados, dos mais recentes aos mais antigos.
 
@@ -54,11 +54,11 @@ Arquivos recentes podem ser filtrados usando o campo de entrada <b>Filtro</b> no
 >
 > Deixe o cursor sobre uma entrada por alguns segundos para exibir o caminho completo do arquivo.
 
-![Seção de aprendizado](../../assets/home-screen-learn.jpg "seção de aprendizado"){width="512px"}
+![Seção de aprendizado](home-screen.resources/home-screen-learn.jpg "seção de aprendizado"){width="512px"}
 
 ## Aprender
 
-A seção ![](../../assets/home-screen-learn-icon.jpg) <b>Aprendizado</b> oferece recursos de aprendizado úteis para melhorar sua compreensão do Substance 3D Designer.
+A seção ![](home-screen.resources/home-screen-learn-icon.jpg) <b>Aprendizado</b> oferece recursos de aprendizado úteis para melhorar sua compreensão do Substance 3D Designer.
 
 Esses recursos são listados como links de cartão e agrupados da seguinte forma:
 
@@ -68,11 +68,11 @@ Esses recursos são listados como links de cartão e agrupados da seguinte forma
   * O [Quicktips](https://substance3d.adobe.com/tutorials/courses/Designer-Quicktips/youtube-Q9mEcCWsOQc) é uma lista de técnicas selecionadas para criar materiais, padrões, filtros etc.;
   * A [documentação online](../../home/home.md) traz você para esta documentação.
 
-![Tela de novidades](../../assets/home-screen-whats-new.jpg "Tela de novidades"){width="512px"}
+![Tela de novidades](home-screen.resources/home-screen-whats-new.jpg "Tela de novidades"){width="512px"}
 
 ## Novidades
 
-O botão ![](../../assets/home-screen-whats-new-icon.jpg) <b>Novidades</b> no canto superior direito da tela exibe uma tela listando os principais recursos adicionados na sua versão do Designer, bem como um link para as [notas de versão](../../release-notes/release-notes.md) completas dessa versão.
+O botão ![](home-screen.resources/home-screen-whats-new-icon.jpg) <b>Novidades</b> no canto superior direito da tela exibe uma tela listando os principais recursos adicionados na sua versão do Designer, bem como um link para as [notas de versão](../../release-notes/release-notes.md) completas dessa versão.
 
 ## Iniciar projeto
 
@@ -82,7 +82,7 @@ O botão ![](../../assets/home-screen-whats-new-icon.jpg) <b>Novidades</b> no ca
 * <b>Abrir pacote:</b> permite carregar um pacote existente;
 * <b>Importar AxF:</b> inicia um fluxo de trabalho de importação do [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md).
 
-![Sobre a tela do Substance 3D Designer](../../assets/home-screen-about.jpg "Sobre a tela do Substance 3D Designer"){width="256px"}
+![Sobre a tela do Substance 3D Designer](home-screen.resources/home-screen-about.jpg "Sobre a tela do Substance 3D Designer"){width="256px"}
 
 ## Vínculos
 
