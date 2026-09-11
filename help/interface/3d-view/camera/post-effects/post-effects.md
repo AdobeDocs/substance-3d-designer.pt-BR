@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ''
 description: Aplique efeitos de pós-processamento à câmera de exibição 3D para aprimorar a visualização e a visualização do material.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Pós-efeitos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 45cd3aec3baf2c35bae9e48540f6e7fb3a665541
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # Pós-efeitos
 
-![Pós-efeitos](../../../../assets/postEffects.png "Pós-efeitos"){zoomable="yes"}
+![Pós-efeitos](post-effects.resources/postEffects.png "Pós-efeitos"){zoomable="yes"}
 
 Nas propriedades da câmera, você pode ativar os pós-efeitos para aprimorar as renderizações ou verificar as propriedades específicas do material.
 
@@ -65,11 +65,11 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXReinhard.jpg" alt="PostFXReinhard">
+      <img src="post-effects.resources/PostFXReinhard.jpg" alt="PostFXReinhard">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -77,9 +77,9 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXReinhard](../../../../assets/PostFXReinhard.jpg "PostFXReinhard")
+![PostFXReinhard](post-effects.resources/PostFXReinhard.jpg "PostFXReinhard")
 
 +++
 
@@ -89,11 +89,11 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXAtan.jpg" alt="PostFXAtan">
+      <img src="post-effects.resources/PostFXAtan.jpg" alt="PostFXAtan">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -101,9 +101,9 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXAtan](../../../../assets/PostFXAtan.jpg "PostFXAtan")
+![PostFXAtan](post-effects.resources/PostFXAtan.jpg "PostFXAtan")
 
 +++
 
@@ -113,11 +113,11 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXExp.jpg" alt="PostFXExp">
+      <img src="post-effects.resources/PostFXExp.jpg" alt="PostFXExp">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -125,9 +125,9 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXExp](../../../../assets/PostFXExp.jpg "PostFXExp")
+![PostFXExp](post-effects.resources/PostFXExp.jpg "PostFXExp")
 
 +++
 
@@ -137,11 +137,11 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXLog.jpg" alt="PostFXLog">
+      <img src="post-effects.resources/PostFXLog.jpg" alt="PostFXLog">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -149,9 +149,9 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXLog](../../../../assets/PostFXLog.jpg "PostFXLog")
+![PostFXLog](post-effects.resources/PostFXLog.jpg "PostFXLog")
 
 +++
 
@@ -161,11 +161,11 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXAces.jpg" alt="PostFXAces">
+      <img src="post-effects.resources/PostFXAces.jpg" alt="PostFXAces">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -173,9 +173,9 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXAces](../../../../assets/PostFXAces.jpg "PostFXAces")
+![PostFXAces](post-effects.resources/PostFXAces.jpg "PostFXAces")
 
 +++
 
@@ -185,11 +185,11 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXHejl.jpg" alt="PostFXHejl">
+      <img src="post-effects.resources/PostFXHejl.jpg" alt="PostFXHejl">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -197,9 +197,9 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXHejl](../../../../assets/PostFXHejl.jpg "PostFXHejl")
+![PostFXHejl](post-effects.resources/PostFXHejl.jpg "PostFXHejl")
 
 +++
 
@@ -209,11 +209,11 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXNeutral.jpg" alt="PostFXNeutral">
+      <img src="post-effects.resources/PostFXNeutral.jpg" alt="PostFXNeutral">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -221,9 +221,9 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXNeutral](../../../../assets/PostFXNeutral.jpg "PostFXNeutral")
+![PostFXNeutral](post-effects.resources/PostFXNeutral.jpg "PostFXNeutral")
 
 +++
 
@@ -233,11 +233,11 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXAgx.jpg" alt="PostFXAgx">
+      <img src="post-effects.resources/PostFXAgx.jpg" alt="PostFXAgx">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -245,9 +245,9 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXAgx](../../../../assets/PostFXAgx.jpg "PostFXAgx")
+![PostFXAgx](post-effects.resources/PostFXAgx.jpg "PostFXAgx")
 
 +++
 
@@ -257,11 +257,11 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXPbrNeutral.jpg" alt="PostFXPbrNeutro">
+      <img src="post-effects.resources/PostFXPbrNeutral.jpg" alt="PostFXPbrNeutro">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -269,9 +269,9 @@ Isso permite melhorar a consistência de cores entre aplicativos. Por exemplo, o
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXPbrNeutral](../../../../assets/PostFXPbrNeutral.jpg "PostFXPbrNeutral")
+![PostFXPbrNeutral](post-effects.resources/PostFXPbrNeutral.jpg "PostFXPbrNeutral")
 
 +++
 
@@ -291,11 +291,11 @@ O valor de luminância acima do qual a flor deve ser visível.
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/bloomThreshold1.jpg" alt="bloomThreshold1">
+      <img src="post-effects.resources/bloomThreshold1.jpg" alt="bloomThreshold1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/bloomThreshold4.jpg" alt="bloomThreshold4">
+      <img src="post-effects.resources/bloomThreshold4.jpg" alt="bloomThreshold4">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -303,9 +303,9 @@ O valor de luminância acima do qual a flor deve ser visível.
 
 
 
-![bloomThreshold1](../../../../assets/bloomThreshold1.jpg "bloomThreshold1")
+![bloomThreshold1](post-effects.resources/bloomThreshold1.jpg "bloomThreshold1")
 
-![bloomThreshold4](../../../../assets/bloomThreshold4.jpg "bloomThreshold4")
+![bloomThreshold4](post-effects.resources/bloomThreshold4.jpg "bloomThreshold4")
 
 +++
 
@@ -319,11 +319,11 @@ O gradiente de atenuação da flor, em que um valor mais baixo resulta em um rai
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/bloomFalloff1.jpg" alt="bloomFalloff1">
+      <img src="post-effects.resources/bloomFalloff1.jpg" alt="bloomFalloff1">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/bloomFalloff0-6.jpg" alt="bloomFalloff0-6">
+      <img src="post-effects.resources/bloomFalloff0-6.jpg" alt="bloomFalloff0-6">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -331,9 +331,9 @@ O gradiente de atenuação da flor, em que um valor mais baixo resulta em um rai
 
 
 
-![bloomFalloff1](../../../../assets/bloomFalloff1.jpg "bloomFalloff1")
+![bloomFalloff1](post-effects.resources/bloomFalloff1.jpg "bloomFalloff1")
 
-![bloomFalloff0-6](../../../../assets/bloomFalloff0-6.jpg "bloomFalloff0-6")
+![bloomFalloff0-6](post-effects.resources/bloomFalloff0-6.jpg "bloomFalloff0-6")
 
 +++
 
@@ -347,11 +347,11 @@ A intensidade da flor. Um valor mais alto resulta em bordas mais claras e mais b
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/bloomLevel8.jpg" alt="bloomLevel8">
+      <img src="post-effects.resources/bloomLevel8.jpg" alt="bloomLevel8">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/bloomLevel2.jpg" alt="bloomLevel2">
+      <img src="post-effects.resources/bloomLevel2.jpg" alt="bloomLevel2">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -359,9 +359,9 @@ A intensidade da flor. Um valor mais alto resulta em bordas mais claras e mais b
 
 
 
-![bloomLevel8](../../../../assets/bloomLevel8.jpg "bloomLevel8")
+![bloomLevel8](post-effects.resources/bloomLevel8.jpg "bloomLevel8")
 
-![nívelFlor2](../../../../assets/bloomLevel2.jpg "nívelFlor2")
+![nívelFlor2](post-effects.resources/bloomLevel2.jpg "nívelFlor2")
 
 +++
 
@@ -375,11 +375,11 @@ Desloca o matiz das áreas afetadas pela flor para cores mais quentes.
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/bloomColorShift0.jpg" alt="bloomColorShift0">
+      <img src="post-effects.resources/bloomColorShift0.jpg" alt="bloomColorShift0">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/bloomColorShift0-8.jpg" alt="bloomColorShift0-8">
+      <img src="post-effects.resources/bloomColorShift0-8.jpg" alt="bloomColorShift0-8">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -387,9 +387,9 @@ Desloca o matiz das áreas afetadas pela flor para cores mais quentes.
 
 
 
-![bloomColorShift0](../../../../assets/bloomColorShift0.jpg "bloomColorShift0")
+![bloomColorShift0](post-effects.resources/bloomColorShift0.jpg "bloomColorShift0")
 
-![bloomColorShift0-8](../../../../assets/bloomColorShift0-8.jpg "bloomColorShift0-8")
+![bloomColorShift0-8](post-effects.resources/bloomColorShift0-8.jpg "bloomColorShift0-8")
 
 +++
 
@@ -413,11 +413,11 @@ O raio máximo do efeito de desfoque.
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/depthOfFieldMaxRadius32.jpg" alt="depthOfFieldMaxRadius32">
+      <img src="post-effects.resources/depthOfFieldMaxRadius32.jpg" alt="depthOfFieldMaxRadius32">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/depthOfFieldMaxRadius4.jpg" alt="depthOfFieldMaxRadius4">
+      <img src="post-effects.resources/depthOfFieldMaxRadius4.jpg" alt="depthOfFieldMaxRadius4">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -425,9 +425,9 @@ O raio máximo do efeito de desfoque.
 
 
 
-![depthOfFieldMaxRadius32](../../../../assets/depthOfFieldMaxRadius32.jpg "depthOfFieldMaxRadius32")
+![depthOfFieldMaxRadius32](post-effects.resources/depthOfFieldMaxRadius32.jpg "depthOfFieldMaxRadius32")
 
-![depthOfFieldMaxRadius4](../../../../assets/depthOfFieldMaxRadius4.jpg "depthOfFieldMaxRadius4")
+![depthOfFieldMaxRadius4](post-effects.resources/depthOfFieldMaxRadius4.jpg "depthOfFieldMaxRadius4")
 
 +++
 
@@ -441,11 +441,11 @@ A magnitude do efeito de desfoque da distância de foco para fora.
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/depthOfFieldCompositeStrength0-2.jpg" alt="depthOfFieldCompositeStrength0-2">
+      <img src="post-effects.resources/depthOfFieldCompositeStrength0-2.jpg" alt="depthOfFieldCompositeStrength0-2">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/depthOfFieldCompositeStrength0-05.jpg" alt="depthOfFieldCompositeStrength0-05">
+      <img src="post-effects.resources/depthOfFieldCompositeStrength0-05.jpg" alt="depthOfFieldCompositeStrength0-05">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -453,9 +453,9 @@ A magnitude do efeito de desfoque da distância de foco para fora.
 
 
 
-![depthOfFieldCompositeStrength0-2](../../../../assets/depthOfFieldCompositeStrength0-2.jpg "depthOfFieldCompositeStrength0-2")
+![depthOfFieldCompositeStrength0-2](post-effects.resources/depthOfFieldCompositeStrength0-2.jpg "depthOfFieldCompositeStrength0-2")
 
-![depthOfFieldCompositeStrength0-05](../../../../assets/depthOfFieldCompositeStrength0-05.jpg "depthOfFieldCompositeStrength0-05")
+![depthOfFieldCompositeStrength0-05](post-effects.resources/depthOfFieldCompositeStrength0-05.jpg "depthOfFieldCompositeStrength0-05")
 
 +++
 
@@ -471,11 +471,11 @@ O Desvio simula como diferentes comprimentos de onda de luz têm distâncias foc
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/depthOfFieldLongitudinalAberration0.jpg" alt="depthOfFieldLongitudinalAberration0">
+      <img src="post-effects.resources/depthOfFieldLongitudinalAberration0.jpg" alt="depthOfFieldLongitudinalAberration0">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/depthOfFieldLongitudinalAberration1.jpg" alt="depthOfFieldLongitudinalAberration1">
+      <img src="post-effects.resources/depthOfFieldLongitudinalAberration1.jpg" alt="depthOfFieldLongitudinalAberration1">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -483,9 +483,9 @@ O Desvio simula como diferentes comprimentos de onda de luz têm distâncias foc
 
 
 
-![depthOfFieldLongitudinalAberration0](../../../../assets/depthOfFieldLongitudinalAberration0.jpg "depthOfFieldLongitudinalAberration0")
+![depthOfFieldLongitudinalAberration0](post-effects.resources/depthOfFieldLongitudinalAberration0.jpg "depthOfFieldLongitudinalAberration0")
 
-![depthOfFieldLongitudinalAberration1](../../../../assets/depthOfFieldLongitudinalAberration1.jpg "depthOfFieldLongitudinalAberration1")
+![depthOfFieldLongitudinalAberration1](post-effects.resources/depthOfFieldLongitudinalAberration1.jpg "depthOfFieldLongitudinalAberration1")
 
 +++
 
@@ -501,11 +501,11 @@ Isso faz com que o efeito de desfoque pareça estar mais uniformemente distribu�
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/depthOfFieldAchromaticAberrationYes.jpg" alt="depthOfFieldAchromaticAberrationYes">
+      <img src="post-effects.resources/depthOfFieldAchromaticAberrationYes.jpg" alt="depthOfFieldAchromaticAberrationYes">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/depthOfFieldAchromaticAberrationNo.jpg" alt="depthOfFieldAchromaticAberrationNo">
+      <img src="post-effects.resources/depthOfFieldAchromaticAberrationNo.jpg" alt="depthOfFieldAchromaticAberrationNo">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -513,9 +513,9 @@ Isso faz com que o efeito de desfoque pareça estar mais uniformemente distribu�
 
 
 
-![depthOfFieldAchromaticAberrationYes](../../../../assets/depthOfFieldAchromaticAberrationYes.jpg "depthOfFieldAchromaticAberrationYes")
+![depthOfFieldAchromaticAberrationYes](post-effects.resources/depthOfFieldAchromaticAberrationYes.jpg "depthOfFieldAchromaticAberrationYes")
 
-![depthOfFieldAchromaticAberrationNo](../../../../assets/depthOfFieldAchromaticAberrationNo.jpg "depthOfFieldAchromaticAberrationNo")
+![depthOfFieldAchromaticAberrationNo](post-effects.resources/depthOfFieldAchromaticAberrationNo.jpg "depthOfFieldAchromaticAberrationNo")
 
 +++
 
@@ -531,11 +531,11 @@ Esse efeito é mais pronunciado em aberturas mais altas, ou seja, valores de par
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/depthOfFieldAchromaticCatsEyeYes.jpg" alt="depthOfFieldAchromaticCatsEyeYes">
+      <img src="post-effects.resources/depthOfFieldAchromaticCatsEyeYes.jpg" alt="depthOfFieldAchromaticCatsEyeYes">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../../../assets/depthOfFieldAchromaticCatsEyeNo.jpg" alt="depthOfFieldAchromaticCatsEyeNo">
+      <img src="post-effects.resources/depthOfFieldAchromaticCatsEyeNo.jpg" alt="depthOfFieldAchromaticCatsEyeNo">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -543,8 +543,8 @@ Esse efeito é mais pronunciado em aberturas mais altas, ou seja, valores de par
 
 
 
-![depthOfFieldAchromaticCatsEyeYes](../../../../assets/depthOfFieldAchromaticCatsEyeYes.jpg "depthOfFieldAchromaticCatsEyeYes")
+![depthOfFieldAchromaticCatsEyeYes](post-effects.resources/depthOfFieldAchromaticCatsEyeYes.jpg "depthOfFieldAchromaticCatsEyeYes")
 
-![depthOfFieldAchromaticCatsEyeNo](../../../../assets/depthOfFieldAchromaticCatsEyeNo.jpg "depthOfFieldAchromaticCatsEyeNo")
+![depthOfFieldAchromaticCatsEyeNo](post-effects.resources/depthOfFieldAchromaticCatsEyeNo.jpg "depthOfFieldAchromaticCatsEyeNo")
 
 +++
