@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
 breadcrumb-title: ''
 description: Use ferramentas de edição vetorial para criar e modificar gráficos de SVG no Substance 3D Designer para texturas processuais.
 helpx_creative_field: ""
