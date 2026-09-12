@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Revise as notas de versão do Substance 3D Designer versão 14.0 para saber mais sobre novos nós, navegação gráfica e melhorias de desempenho.
 helpx_creative_field: ""
@@ -38,7 +38,7 @@ Esta versão 14.0 traz muito conteúdo novo com os novos nós listados abaixo:
 
 * <b>Filtro de Kuwahara</b>: se você quiser ir ainda mais longe com a estilização, poderá gerar alguns efeitos de pintura graças aos filtros de [Cor de Kuwahara anisotrópica](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [tons de cinza](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). Em detalhes, ele aplica um desfoque direcional anisotrópico que se adapta aos detalhes da imagem. O resultado é uma imagem que parece fluir na direção das formas dentro.
 
-Estes nós (Quantize a cor e Kuwahara anisotrópico) estão explicados neste [tutorial](https://www.adobe.com/go/designer-tutorial-quantize). Ele mostra como usá-los para estilizar materiais, bem como manipular cores de forma mais eficiente e intuitiva!
+Estes nós (Quantize a cor e Kuwahara anisotrópico) estão explicados neste [tutorial](https://www.adobe.com/go/designer-tutorial-quantize_br). Ele mostra como usá-los para estilizar materiais, bem como manipular cores de forma mais eficiente e intuitiva!
 
 Outros nós poderosos unem-se ao partido:
 
