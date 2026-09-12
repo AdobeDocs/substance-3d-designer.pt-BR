@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Use ferramentas de pintura de bitmap no Substance 3D Designer para pintar diretamente sobre recursos de bitmap para edição de textura.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ferramentas de pintura de bitmap
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9b772dfaab124991f6c6420f451179304d2731cd
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Esta página descreve as ferramentas de pintura disponíveis no painel [Exibição 2D](../../../interface/2d-view/2d-view.md) para bitmaps compatíveis.
 
-![Ferramentas de pintura de bitmap no Modo de Exibição 2D](../../../assets/2dview-paintingtools-main_1.png "Ferramentas de pintura de bitmap no Modo de Exibição 2D"){width="512px"}
+![Ferramentas de pintura de bitmap no Modo de Exibição 2D](bitmap-painting-tools.resources/2dview-paintingtools-main_1.png "Ferramentas de pintura de bitmap no Modo de Exibição 2D"){width="512px"}
 
 ## Visão geral
 
@@ -42,7 +42,7 @@ As edições podem ser *desfeitas individualmente*, e todos os outros recursos d
 > 
 > Os usuários do tablet devem aplicar as configurações descritas na página a seguir para obter a experiência mais confiável: [Configurando Canetas e Tablets](https://docs.substance3d.com/display/SPDOC/Configuring+Pens+and+Tablets)
 
-![Caixa de diálogo Novo bitmap](../../../assets/2dview-paintingtools-new-bitmap.png "Caixa de diálogo Novo bitmap"){width="512px"}
+![Caixa de diálogo Novo bitmap](bitmap-painting-tools.resources/2dview-paintingtools-new-bitmap.png "Caixa de diálogo Novo bitmap"){width="512px"}
 
 ## Ativar as ferramentas de pintura
 
@@ -77,15 +77,15 @@ Duas barras de ferramentas são exibidas quando as ferramentas de pintura estão
 
 As ferramentas de pintura podem ser encontradas na **Barra de ferramentas de seleção de ferramentas**, que está posicionada no *lado esquerdo* do painel [exibição 2D](../../../interface/2d-view/2d-view.md) por padrão. Os atalhos de teclado permitem acessar essas ferramentas rapidamente e são marcados abaixo entre parênteses após o nome da ferramenta/função:
 
-![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) <b>Seleção de cores</b> <b>miniaturas:</b> permitem definir uma cor *primária* e uma cor *secundária*. Clique em qualquer uma dessas miniaturas para exibir a janela do <b>Editor de cores</b> e definir uma cor. As ferramentas usarão a cor *primária*. As cores primárias e secundárias podem ser *trocadas* (<b>X</b>) a qualquer momento
+![](bitmap-painting-tools.resources/2dview-paintingtools-icon-colors-primary.png)![](bitmap-painting-tools.resources/2dview-paintingtools-icon-colors-secondary.png) <b>Seleção de cores</b> <b>miniaturas:</b> permitem definir uma cor *primária* e uma cor *secundária*. Clique em qualquer uma dessas miniaturas para exibir a janela do <b>Editor de cores</b> e definir uma cor. As ferramentas usarão a cor *primária*. As cores primárias e secundárias podem ser *trocadas* (<b>X</b>) a qualquer momento
 
-![](../../../assets/2dview-paintingtools-icon-brush.png) A <b>ferramenta Pincel (B):</b> aplica a cor *primária* no local do cursor, quando a ponta da caneta ou o botão <b>LMB</b> é pressionado, usando as opções definidas na barra de ferramentas Opções de ferramenta
+![](bitmap-painting-tools.resources/2dview-paintingtools-icon-brush.png) A <b>ferramenta Pincel (B):</b> aplica a cor *primária* no local do cursor, quando a ponta da caneta ou o botão <b>LMB</b> é pressionado, usando as opções definidas na barra de ferramentas Opções de ferramenta
 
-![](../../../assets/2dview-paintingtools-icon-clone.png) <b>Ferramenta Carimbo (T):</b> Permite carimbar uma parte da imagem em outra. Você pode definir a *origem* que deve ser carimbada mantendo a tecla <b>Alt</b> pressionada e clicando em <b>LMB</b>. Esta área da imagem será carimbada na área *de destino* da imagem, no local do cursor, quando a ponta da caneta ou o botão <b>LMB</b> for pressionado, usando as opções definidas na barra de ferramentas Opções de ferramenta. Observe que a origem *rastreará* os movimentos do destino e que o tamanho da área *de origem* *corresponderá* ao tamanho do *pincel*
+![](bitmap-painting-tools.resources/2dview-paintingtools-icon-clone.png) <b>Ferramenta Carimbo (T):</b> Permite carimbar uma parte da imagem em outra. Você pode definir a *origem* que deve ser carimbada mantendo a tecla <b>Alt</b> pressionada e clicando em <b>LMB</b>. Esta área da imagem será carimbada na área *de destino* da imagem, no local do cursor, quando a ponta da caneta ou o botão <b>LMB</b> for pressionado, usando as opções definidas na barra de ferramentas Opções de ferramenta. Observe que a origem *rastreará* os movimentos do destino e que o tamanho da área *de origem* *corresponderá* ao tamanho do *pincel*
 
-![](../../../assets/2dview-paintingtools-clone-alignment.png) <b>Habilitar alinhamento (opção da ferramenta Carimbo):</b> Permite definir se a origem deve *permanecer no local* quando um novo carimbo começar ou se deve *se realocar relativamente para o novo local do carimbo*
+![](bitmap-painting-tools.resources/2dview-paintingtools-clone-alignment.png) <b>Habilitar alinhamento (opção da ferramenta Carimbo):</b> Permite definir se a origem deve *permanecer no local* quando um novo carimbo começar ou se deve *se realocar relativamente para o novo local do carimbo*
 
-<b>![](../../../assets/2dview-paintingtools-icon-eraser.png) Borracha (E):</b> Substitui a cor atual da imagem pelo valor (0, 0, 0, 0) no local do cursor, quando a ponta da caneta ou o botão <b>LMB</b> é pressionado, usando as opções definidas na barra de ferramentas Opções de ferramenta. Verifique se a [exibição de transparência](../../../interface/2d-view/2d-view.md) está habilitada para acompanhar o impacto desta ferramenta no canal <b>Alpha</b>.
+<b>![](bitmap-painting-tools.resources/2dview-paintingtools-icon-eraser.png) Borracha (E):</b> Substitui a cor atual da imagem pelo valor (0, 0, 0, 0) no local do cursor, quando a ponta da caneta ou o botão <b>LMB</b> é pressionado, usando as opções definidas na barra de ferramentas Opções de ferramenta. Verifique se a [exibição de transparência](../../../interface/2d-view/2d-view.md) está habilitada para acompanhar o impacto desta ferramenta no canal <b>Alpha</b>.
 
 ## Barra de ferramentas de opções de ferramentas
 
@@ -97,16 +97,16 @@ As opções para as ferramentas disponíveis na [Barra de ferramentas de seleç�
 
 ### SELEÇÃO DE PINCEL
 
-A ![](../../../assets/2dview-paintingtools-brush-thumb.png) <b>seleção de pincel</b> permite selecionar um pincel *pré-configurado* nas *predefinições* de pincel disponíveis, definir seu <b>Tamanho</b> e sua <b>Dureza</b> *(* consulte a seção <b>Forma</b> do editor de pincel) e exibir uma *visualização* de um traçado de pincel.
+A ![](bitmap-painting-tools.resources/2dview-paintingtools-brush-thumb.png) <b>seleção de pincel</b> permite selecionar um pincel *pré-configurado* nas *predefinições* de pincel disponíveis, definir seu <b>Tamanho</b> e sua <b>Dureza</b> *(* consulte a seção <b>Forma</b> do editor de pincel) e exibir uma *visualização* de um traçado de pincel.
 
-As predefinições de pincel podem ser criadas e editadas no Editor de pincel e organizadas em *bibliotecas*. As predefinições de pincel que aparecerão neste painel são a *soma* de todas as bibliotecas de predefinições de pincel carregadas. Essas bibliotecas podem ser gerenciadas acessando o menu ![](../../../assets/2dview-paintingtools-brushpresets-library.png) <b>Biblioteca de pincéis</b> (consulte a seção <b>Predefinições</b> do Editor de pincéis)
+As predefinições de pincel podem ser criadas e editadas no Editor de pincel e organizadas em *bibliotecas*. As predefinições de pincel que aparecerão neste painel são a *soma* de todas as bibliotecas de predefinições de pincel carregadas. Essas bibliotecas podem ser gerenciadas acessando o menu ![](bitmap-painting-tools.resources/2dview-paintingtools-brushpresets-library.png) <b>Biblioteca de pincéis</b> (consulte a seção <b>Predefinições</b> do Editor de pincéis)
 
-O botão ![](../../../assets/2dview-paintingtools-brushpresets-previewbkgd.png) <b>Selecionar cor do plano de fundo</b> permite alterar a cor do plano de fundo da *visualização do traçado do pincel*.
+O botão ![](bitmap-painting-tools.resources/2dview-paintingtools-brushpresets-previewbkgd.png) <b>Selecionar cor do plano de fundo</b> permite alterar a cor do plano de fundo da *visualização do traçado do pincel*.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Painel de seleção de pincel](../../../assets/2dview-paintingtools-brushes.png "Painel de seleção de pincel")
+![Painel de seleção de pincel](bitmap-painting-tools.resources/2dview-paintingtools-brushes.png "Painel de seleção de pincel")
 
 </td>
 </tr>
@@ -118,15 +118,15 @@ O botão ![](../../../assets/2dview-paintingtools-brushpresets-previewbkgd.png) 
 
 ### EDITOR DE PINCÉIS
 
-O ![](../../../assets/2dview-paintingtools-icon-brush-options.png) <b>editor de pincel</b> dá acesso a opções granulares para definir o comportamento do pincel:
+O ![](bitmap-painting-tools.resources/2dview-paintingtools-icon-brush-options.png) <b>editor de pincel</b> dá acesso a opções granulares para definir o comportamento do pincel:
 
 <b>Predefinições</b>
 
-Os pincéis podem ser personalizados e salvos como uma <b>predefinição de pincel</b>, que estará disponível na ![](../../../assets/2dview-paintingtools-editor-currentpreset.png) <b>lista de predefinições de pincel</b> e no painel ![](../../../assets/2dview-paintingtools-brush-thumb.png) <b>Seleção de pincel</b>.
+Os pincéis podem ser personalizados e salvos como uma <b>predefinição de pincel</b>, que estará disponível na ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-currentpreset.png) <b>lista de predefinições de pincel</b> e no painel ![](bitmap-painting-tools.resources/2dview-paintingtools-brush-thumb.png) <b>Seleção de pincel</b>.
 
-Para criar uma predefinição, defina as propriedades abaixo de acordo com suas preferências e clique no botão ![](../../../assets/2dview-paintingtools-editor-addpreset.png) <b>Adicionar predefinição de pincel </b>e defina um nome de pincel na janela <b>Nome da predefinição</b>. A nova predefinição agora está selecionada automaticamente na <b>lista de predefinições do pincel</b> e, a qualquer momento, você pode ![](../../../assets/2dview-paintingtools-editor-updatepreset.png) <b>atualizá-la</b> com as novas configurações atuais ou ![](../../../assets/2dview-paintingtools-editor-deletepreset.png) <b>excluí-la</b>.
+Para criar uma predefinição, defina as propriedades abaixo de acordo com suas preferências e clique no botão ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-addpreset.png) <b>Adicionar predefinição de pincel </b>e defina um nome de pincel na janela <b>Nome da predefinição</b>. A nova predefinição agora está selecionada automaticamente na <b>lista de predefinições do pincel</b> e, a qualquer momento, você pode ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-updatepreset.png) <b>atualizá-la</b> com as novas configurações atuais ou ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-deletepreset.png) <b>excluí-la</b>.
 
-As predefinições são organizadas e salvas em *bibliotecas*, que podem ser gerenciadas no menu ![](../../../assets/2dview-paintingtools-editor-presetlibrary.png) <b>Biblioteca de pincéis</b>:
+As predefinições são organizadas e salvas em *bibliotecas*, que podem ser gerenciadas no menu ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-presetlibrary.png) <b>Biblioteca de pincéis</b>:
 
 <b>Exportar biblioteca:</b> *salvar* as predefinições atuais e todas as suas configurações em um arquivo de biblioteca
 
@@ -139,7 +139,7 @@ As predefinições são organizadas e salvas em *bibliotecas*, que podem ser ger
 </td>
 <td style="border: 0;" valign="top">
 
-![Editor de pincéis](../../../assets/2dview-paintingtools-brusheditor.png "Editor de pincéis")
+![Editor de pincéis](bitmap-painting-tools.resources/2dview-paintingtools-brusheditor.png "Editor de pincéis")
 
 </td>
 </tr>
@@ -197,7 +197,7 @@ Por padrão, o padrão da forma é marcado estritamente ao longo do traçado. Co
 +++
 
 +++Cor
-A cor aplicada pelo pincel é definida pela *cor primária selecionada* - e pela <b>textura de pincel</b>, se alguma estiver aplicada atualmente. Essa cor pode ser alterada dinamicamente usando os controles nessa seção.
+A cor aplicada pelo pincel é definida pela *cor primária selecionada* - e pela <b>textura do pincel</b>, se alguma estiver aplicada atualmente. Essa cor pode ser alterada dinamicamente usando os controles nessa seção.
 
 <b>Tremulação de fluxo</b>: permite *randomizar* o fluxo por carimbo, expresso como *percentual* do fluxo máximo
 
@@ -214,11 +214,11 @@ A cor aplicada pelo pincel é definida pela *cor primária selecionada* - e pela
 +++Textura
 Você pode aplicar um *arquivo de bitmap* ao pincel e usá-lo para *carimbar* esse bitmap em vez de usar uma cor simples. A textura do pincel se comporta da seguinte maneira:
 
-<b>Arquivo de Textura: </b>define o *caminho* do bitmap que deve ser usado como uma textura de pincel. Você pode selecionar o bitmap pelo navegador de arquivos do sistema usando o botão ![](../../../assets/2dview-paintingtools-brusheditor-selecttexture.png) ao lado do campo de entrada
+<b>Arquivo de textura: </b>define o *caminho* do bitmap que deve ser usado como uma textura de pincel. Você pode selecionar o bitmap pelo navegador de arquivos do sistema usando o botão ![](bitmap-painting-tools.resources/2dview-paintingtools-brusheditor-selecttexture.png) ao lado do campo de entrada
 
-A textura *only* substitui a cor simples básica do pincel, o que significa que *todas as propriedades do pincel listadas acima ainda podem ser usadas* e funcionam conforme descrito
+A textura *somente* substitui a cor simples básica do pincel, o que significa que *todas as propriedades do pincel listadas acima ainda podem ser usadas* e funcionam conforme descrito
 
-As cores da textura estão *com o matiz alterado* em direção ao *conjunto de cores primárias*, o que significa que, se o conjunto de cores primárias for branco, as cores da textura poderão ser usadas como estão. Quanto mais saturada for a cor primária definida, mais as cores da textura serão matiz deslocado em direção a ela
+As cores da textura são *mudadas de matiz* em direção à *cor primária definida*, o que significa que, se a cor primária definida for branca, as cores da textura poderão ser usadas como estão. Quanto mais saturada for a cor primária definida, mais as cores da textura serão alteradas em direção a ela
 
 +++
 
@@ -230,15 +230,15 @@ As ferramentas Pincel, Carimbo e Borracha oferecem controles para a <b>Opacidade
 
 O <b>Fluxo</b> controla a *quantidade de efeitos da ferramenta* que é aplicada a qualquer momento. É *aditivo no mesmo traçado*, o que significa que a opacidade de uma área pode ser adicionada de volta ao máximo de 100% executando várias passagens do *mesmo traçado* nessa área ou vários traçados separados.
 
-![Controles de opacidade e fluxo](../../../assets/2dview-paintingtools-opacityflow.png "Controles de opacidade e fluxo")
+![Controles de opacidade e fluxo](bitmap-painting-tools.resources/2dview-paintingtools-opacityflow.png "Controles de opacidade e fluxo")
 
 <table>
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-### MODO REVESTIMENTO
+### MODO LADO A LADO
 
-As ferramentas Pincel, Carimbo e Borracha também permitem definir seus ![](../../../assets/2dview-paintingtools-icon-tiling.png) <b>Modos de divisão em blocos gráficos</b>, que definem sua capacidade de *circular novamente* no lado oposto da imagem quando um traçado afeta uma área fora dos limites da imagem:
+As ferramentas Pincel, Carimbo e Borracha também permitem definir seus ![](bitmap-painting-tools.resources/2dview-paintingtools-icon-tiling.png) <b>Modos de divisão em blocos gráficos</b>, que definem sua capacidade de *circular novamente* no lado oposto da imagem quando um traçado afeta uma área fora dos limites da imagem:
 
 <b>Colocar X e Y lado a lado</b>: pinceladas lado a lado *horizontalmente e verticalmente*
 
@@ -251,7 +251,7 @@ As ferramentas Pincel, Carimbo e Borracha também permitem definir seus ![](../.
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Modo de divisão em blocos](../../../assets/2dview-paintingtools-tiling.png "Modo de divisão em blocos")
+![Modo de divisão em blocos](bitmap-painting-tools.resources/2dview-paintingtools-tiling.png "Modo de divisão em blocos")
 
 </td>
 </tr>

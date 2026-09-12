@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-11-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-2.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 11.2 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: dca126adc56c78e85d281a00f90cf9affbb35c31
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -34,12 +34,12 @@ Um tipo de gráfico totalmente novo, o gráfico de modelo de Substance, está di
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ Esta é a primeira versão, portanto, espere algumas limitações.
 
 As versões Adobe do Substance 3D Designer têm a nova funcionalidade Enviar para, que permite enviar ativos para outros aplicativos da Substance 3D rapidamente. Não é mais necessário publicar como SBSAR e carregar arquivos individuais. Enviar para resolve isso em um clique.
 
-![](../../assets/sendto-button.gif)
+![](version-11-2.resources/sendto-button.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ Nenhuma versão do Designer foi concluída sem alguns novos nós. Com base na fo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Nenhuma versão do Designer foi concluída sem alguns novos nós. Com base na fo
 
 O RTAO faz um trabalho ainda melhor em AO nítido e correto do que o nó HBAO anterior.
 
-![](../../assets/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
 
 A Caustics gera cáusticas fisicamente corretas e rastreadas com base em um mapa de altura, como um ruído Perlin simples. Bom para criar texturas de flipbook animadas realistas para cáusticas em tempo real.
 
-![](../../assets/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
 
 A Sombra RT gera sombras precisas e com rastreamento de raios, com alguns controles fáceis.
 
@@ -92,17 +92,17 @@ A Sombra RT gera sombras precisas e com rastreamento de raios, com alguns contro
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
 
 </td>
 </tr>
@@ -110,17 +110,17 @@ A Sombra RT gera sombras precisas e com rastreamento de raios, com alguns contro
 
 A Irradiância RT é a mais avançada dos novos nós. Ele faz irradiância com rastreador de raios baseado em um material com mapa de height, e um mapa de Ambiente e/ou um mapa Emissivo.
 
-![](../../assets/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
 
 Isso significa que você pode criar texturas com iluminação pré-assada, como em projetos estilizados, ou assar um brilho rastreado de raio saltando do mapa de altura.
 
-![](../../assets/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
 
-E por último, há o nó Normal Curvado. Comparado a uma conversão normal regular, este nó usa o AO para modificar seu mapa normal para usar essa informação do AO. Antes de precisar dos padeiros de malha para criar o efeito, este nó faz isso em espaço de texto para você.
+E por último, há o nó Normal Curvado. Comparado a uma conversão normal regular, este nó usa o AO para modificar seu mapa normal para usar essa informação do AO. Antes de precisar dos baker de malha para criar o efeito, este nó faz isso em espaço de texto para você.
 
-### Adobe Standard Material Shader
+### Adobe Standard Material Sombreador
 
-Em nossos esforços para unificar materiais e renderização em nossos aplicativos, o novo sombreador padrão na exibição 3D é o Adobe Standard Material Shader. À primeira vista, não é diferente do antigo sombreador de aspereza metálica PBR (é baseado nele mesmo), mas oferece suporte a muitos canais mais exóticos, permitindo visualizá-los sem precisar de um renderizador externo.
+Em nossos esforços para unificar materiais e renderização em nossos aplicativos, o novo sombreador na visualização 3D é o Sombreador. À primeira vista, não é diferente do antigo sombreador de Aspereza metálica PBR (é baseado nele mesmo assim), mas suporta muitos canais mais exóticos, permitindo visualizá-los sem precisar de um renderizador externo.
 
 ### Alterações na interface do usuário
 
@@ -139,8 +139,8 @@ Veja abaixo nossos tutoriais em vídeo que abrangem os novos recursos:
 **Adicionado:**
 
 * [Branding] Substance Designer se torna Adobe Substance 3D Designer
-* [Modelos de Substance] Novos gráficos de modelos de Substance para criar modelos 3D de procedimentos
-* [Conteúdo] Adicionar novos mapas de ambiente HDR
+* [Modelos Substance] Novos gráficos de modelos do Substance para criar modelos 3D processuais
+* [Content] Adicionar novos mapas de ambiente HDR
 * [Content] Novo nó Normal Torto
 * [Content] Novo nó de Oclusão de ambiente RT
 * [Content] Novo nó Caustics RT
@@ -150,10 +150,10 @@ Veja abaixo nossos tutoriais em vídeo que abrangem os novos recursos:
 * [Interoperabilidade] Enviar ativo para a Painter abrirá o Painter e adicionará ou atualizará o ativo na biblioteca (requer um plano Adobe Substance 3D)
 * [Interoperabilidade] Enviar ativo para a Sampler abrirá o Sampler e adicionará ou atualizará o ativo na biblioteca (requer um plano Adobe Substance 3D)
 * [Interoperabilidade] Procure seu ativo no Adobe Bridge e iniciará o Bridge no local do ativo (requer um plano do Adobe Substance 3D)
-* [ASM] Suporte ao novo Adobe Standard Material (ASM) no gráfico Gráfico do Substance e MDL
+* [ASM] Suporte ao novo Adobe Standard Material (ASM) no Gráfico do Substance e no gráfico MDL
 * [ASM] Adicionar modelos de ASM
 * [ASM] Adicionar Sombreador OpenGL para ASM
-* [ASM] Definir sombreador ASM como o sombreador padrão
+* [ASM] Definir sombreador ASM como o Sombreador padrão
 * [Geral] Agregar todos os arquivos temporários ao diretório temporário definido pelo usuário
 * [Geral] Novo comando “Salvar uma cópia como”
 * [Geral] Menu Atualizar arquivo

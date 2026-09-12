@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: Consulte as notas de versão do Substance 3D Designer versão 13.0 para saber mais sobre novos nós, Substance Engine 9.0 e nós do portal.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -22,11 +22,11 @@ ht-degree: 2%
 
 Esta versão 13.0.0 do Substance 3D Designer traz muito amor aos artistas materiais, com uma enorme quantidade de novos nós, o Substance Engine 9.0 introduzindo loops pela primeira vez e com uma grande adição ao gráfico: o nó portal. E para agradar mais usuários, apresentamos uma nova tela inicial e fornecemos idiomas adicionais.
 
-Conforme mencionado na versão anterior, esta versão não é mais compatível com gráficos de modelos do Substance: isso significa que você não pode mais abrir, editar ou exportar esses gráficos no Designer. Você pode encontrar todos os motivos pelos quais tomamos esta decisão nesta [postagem](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731)em nosso fórum da comunidade.
+Como mencionado na versão anterior, esta versão não é mais compatível com gráficos de modelo de Substance: isso significa que você não pode mais abrir, editar ou exportar esses gráficos no Designer. Você pode encontrar todos os motivos pelos quais tomamos esta decisão nesta [postagem](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731)em nosso fórum da comunidade.
 
 *Data de lançamento: 6 de junho de 2023*
 
-![Material usando caminhos](../../assets/Paths2.png "Material usando caminhos")
+![Material usando caminhos](version-13-0.resources/Paths2.png "Material usando caminhos")
 
 *Ilustração de [Celine Dameron](https://www.artstation.com/cline)*
 
@@ -39,7 +39,7 @@ Esta versão 13.0 traz muito conteúdo novo. Você encontrará principalmente du
 
 Todos esses nós oferecerão muitas possibilidades e terão, com certeza, muitas aplicações criativas. Confira a seção sobre [trabalhando com Caminhos e Ferramentas de linha flexível](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) para obter um tour pelos conceitos importantes a serem compreendidos para se familiarizar com esse conjunto de ferramentas.
 
-![Material que usa splines](../../assets/Splines.png "Material que usa splines")
+![Material que usa splines](version-13-0.resources/Splines.png "Material que usa splines")
 
 *Ilustração de [Louise Melin](https://www.artstation.com/troglodette)*
 
@@ -61,22 +61,22 @@ Você também pode criar <b>pontes </b>entre splines para ter um conjunto comple
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Cúbico De Spline](../../assets/SplineCubic-Demo.gif "Cúbico De Spline")
+![Cúbico De Spline](version-13-0.resources/SplineCubic-Demo.gif "Cúbico De Spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Poli Quadrático de Spline](../../assets/SplinePolyQuadratic-Demo.gif "Poli Quadrático de Spline")
+![Poli Quadrático de Spline](version-13-0.resources/SplinePolyQuadratic-Demo.gif "Poli Quadrático de Spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Círculo com Spline](../../assets/SplineCircle-Demo.gif "Círculo com Spline")
+![Círculo com Spline](version-13-0.resources/SplineCircle-Demo.gif "Círculo com Spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Lista de pontes de spline](../../assets/SplineBridge-List_Demo.gif "Lista de pontes de spline")
+![Lista de pontes de spline](version-13-0.resources/SplineBridge-List_Demo.gif "Lista de pontes de spline")
 
 </td>
 </tr>
@@ -94,17 +94,17 @@ Também fornecemos ferramentas para retrabalhar e ajustar seus splines. Você en
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Transformo 2D de Spline](../../assets/Spline2DTransform-Demo1.gif "Transformo 2D de Spline")
+![Transformação 2D De Spline](version-13-0.resources/Spline2DTransform-Demo1.gif "Transformação 2D De Spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Distorção de spline](../../assets/SplineWarp-Demo.gif "Distorção de spline")
+![Distorção de spline](version-13-0.resources/SplineWarp-Demo.gif "Distorção de spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Thickness de Exemplo de Spline](../../assets/SplineSampleThickness-Demo.gif "Thickness de Exemplo de Spline")
+![Thickness de Exemplo de Spline](version-13-0.resources/SplineSampleThickness-Demo.gif "Thickness de Exemplo de Spline")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -119,28 +119,28 @@ Também fornecemos ferramentas para retrabalhar e ajustar seus splines. Você en
 
 A última categoria é aquela para criar a forma ou o padrão final com base nos splines. A primeira ideia que lhe vem à mente será repetir uma determinada forma ao longo da spline: o nó [Dispersão na spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md) permite fazer isso, com muitos parâmetros para controlar perfeitamente a distribuição (rotação, escala, deslocamento, cores, máscaras etc.).
 
-Graças ao [Preenchimento de spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>nó, você pode criar facilmente um padrão a partir de uma spline fechada. E se você quiser mapear qualquer textura em seus splines, com alto grau de controle e precisão, o nó [Mapeador de spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) foi criado para você!
+Graças ao [Preenchimento de spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>nó, você pode criar facilmente um padrão a partir de uma spline fechada. E se você quiser mapear qualquer textura nos splines, com alto grau de controle e precisão, o nó [Mapeador de spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) foi criado para você!
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dispersão em Escala de Cinza de Spline](../../assets/ScatterOnSplineGrayscale-Demo.gif "Dispersão em Escala de Cinza de Spline")
+![Dispersão em Escala de Cinza de Spline](version-13-0.resources/ScatterOnSplineGrayscale-Demo.gif "Dispersão em Escala de Cinza de Spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Preenchimento de spline](../../assets/SplineFill-Demo.gif "Preenchimento de spline")
+![Preenchimento de spline](version-13-0.resources/SplineFill-Demo.gif "Preenchimento de spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cor do mapeador de spline](../../assets/SplineMapperColor-Demo.gif "Cor do mapeador de spline")
+![Cor do mapeador de spline](version-13-0.resources/SplineMapperColor-Demo.gif "Cor do mapeador de spline")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Mapeador de fluxo de spline](../../assets/SplineFlowMapper-Demo.gif "Mapeador de fluxo de spline")
+![Mapeador de fluxo de spline](version-13-0.resources/SplineFlowMapper-Demo.gif "Mapeador de fluxo de spline")
 
 </td>
 </tr>
@@ -156,12 +156,12 @@ Em seguida, você pode processar esses caminhos com os nós [Transformação de 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Mascarar para caminhos](../../assets/MaskToPaths-Demo2.gif "Mascarar para caminhos")
+![Mascarar para caminhos](version-13-0.resources/MaskToPaths-Demo2.gif "Mascarar para caminhos")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Mascarar para Caminhos 2](../../assets/MaskToPaths-Demo1.gif "Mascarar para Caminhos 2")
+![Mascarar para Caminhos 2](version-13-0.resources/MaskToPaths-Demo1.gif "Mascarar para Caminhos 2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -205,7 +205,7 @@ Graças a esse recurso, você pode melhorar a legibilidade do gráfico ocultando
 
 Este novo recurso está totalmente explicado neste [tutorial](https://www.adobe.com/go/designer-tutorial-portals) dedicado.
 
-![Nó do portal](../../assets/PortalNodeFinal.gif "Nó do portal")
+![Nó do portal](version-13-0.resources/PortalNodeFinal.gif "Nó do portal")
 
 ## Página inicial
 
@@ -216,9 +216,9 @@ Ao iniciar o Designer, você sabe que tem acesso a uma nova [tela inicial](../..
 * Uma página de aprendizado onde você pode encontrar links para recursos de aprendizado, como tutoriais para apresentar novos recursos ou para descobrir dicas rápidas;
 * Links diretos para a tela Novidades, a tela Sobre, o site da Substance 3D, o fórum da comunidade de suporte etc.
 
-![Tela inicial - Tela inicial](../../assets/HomeScreen.png "Tela inicial - Página inicial")
+![Tela inicial - Tela inicial](version-13-0.resources/HomeScreen.png "Tela inicial - Página inicial")
 
-![Tela inicial - Saiba](../../assets/LearnPage.png "Tela inicial - Saiba")
+![Tela inicial - Saiba](version-13-0.resources/LearnPage.png "Tela inicial - Saiba")
 
 ## Novos idiomas
 
