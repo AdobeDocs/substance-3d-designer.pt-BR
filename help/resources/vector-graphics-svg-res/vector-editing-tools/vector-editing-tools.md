@@ -51,7 +51,7 @@ As edições podem ser *desfeitas individualmente*, e todos os outros recursos d
 
 >[!IMPORTANT]
 >
-> Você pode tinta *somente* em *recursos de gráficos vetoriais](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) de [8 bits* que sejam [novos ou importados](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
+> Você pode tinta *somente* em *recursos de gráficos vetoriais[&#128279;](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) de 8 bits* que sejam [novos ou importados](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
 
 ![Caixa de diálogo Novo recurso de SVG](vector-editing-tools.resources/2dview-new-vector-image.png "Nova caixa de diálogo de recurso de SVG"){width="512px"}
 
