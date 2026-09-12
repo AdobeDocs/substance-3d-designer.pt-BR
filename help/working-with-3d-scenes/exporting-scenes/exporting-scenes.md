@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 breadcrumb-title: ''
 description: Exporte cenas 3D com todas as edições feitas no Designer usando a ação Exportar cena no menu Visualização 3D Cena.
 helpx_creative_field: ""
