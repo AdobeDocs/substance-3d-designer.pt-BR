@@ -111,7 +111,7 @@ Esta versão 12.4 traz também o suporte completo de gráficos de modelos de Sub
 * [Visualização 3D] A propriedade de exibição do Wireframe não foi salva
 * [Conteúdo] Os parâmetros de Cor de desfoque radial não têm efeito no canal alfa
 * [Localização] Controles deslizantes e botões adicionais são exibidos em Propriedades do OpenGL do ambiente.
-* [MDL][modelo Substance] Falha ao excluir nós expostos
+* [MDL]&#x200B;[modelo Substance] Falha ao excluir nós expostos
 * [Preferências] O arquivo padrão\_config nunca é recriado se excluído
 * [Modelo de Substance] Parâmetro de reordenação de falha que não aparece no nível da instância
 * [API] SDProperty.getDefaultValue() quase sempre retorna None

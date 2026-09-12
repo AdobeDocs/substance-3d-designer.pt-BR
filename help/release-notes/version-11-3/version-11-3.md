@@ -130,18 +130,18 @@ Essa versão adiciona novos nós de difusão e melhorias para o nó Renderizaç�
 * [Modelos de Substance] Melhorar a exibição das bases
 * [Modelos de Substance] Preserva a hierarquia dos objetos ao exportar um gráfico de Modelo de Substance para .fbx
 * [Modelos de Substance] Suporte a vários materiais no gráfico Exportação de FBX/OBJ a partir do modelo de Substance
-* [Substance models][Content] Nó de partículas
-* [Modelos de Substance][Conteúdo] Nó de transformação generativa
-* [Substance models][Content] Organic Pattern node
-* [Modelos de Substance][Conteúdo] Partículas do nó Instâncias
-* [Modelos de Substance][Conteúdo] Nó de remoção de partículas
-* [Modelos de Substance][Conteúdo] nó Lathe
-* [Substance models][Content] Nó do shell
-* [Substance models][Content] Nó de projeção
-* [Modelos de Substance][Conteúdo] Nó Curve Trim
-* [Modelos de Substance][Conteúdo] Atualizar nó Sampler da curva
-* [Modelos do Substance][Conteúdo] Atualizar nó do Mesh Sampler
-* [Modelos de Substance][Conteúdo] Atualizar nó de tremulação
+* [Substance models]&#x200B;[Content] Nó de partículas
+* [Modelos de Substance]&#x200B;[Conteúdo] Nó de transformação generativa
+* [Substance models]&#x200B;[Content] Organic Pattern node
+* [Modelos de Substance]&#x200B;[Conteúdo] Partículas do nó Instâncias
+* [Modelos de Substance]&#x200B;[Conteúdo] Nó de remoção de partículas
+* [Modelos de Substance]&#x200B;[Conteúdo] nó Lathe
+* [Substance models]&#x200B;[Content] Nó do shell
+* [Substance models]&#x200B;[Content] Nó de projeção
+* [Modelos de Substance]&#x200B;[Conteúdo] Nó Curve Trim
+* [Modelos de Substance]&#x200B;[Conteúdo] Atualizar nó Sampler da curva
+* [Modelos do Substance]&#x200B;[Conteúdo] Atualizar nó do Mesh Sampler
+* [Modelos de Substance]&#x200B;[Conteúdo] Atualizar nó de tremulação
 * [UX] Botão para maximizar a visualização atual
 * [UX] Atualizar a janela Novo gráfico
 * [UX] Adicionar a opção “Baixar Player” no menu Ferramentas e agregar com “Localizar Player”
@@ -179,7 +179,7 @@ Essa versão adiciona novos nós de difusão e melhorias para o nó Renderizaç�
 * [UI] A tecla Tab deve ser pressionada duas vezes para navegar pelos valores
 * [IU] O zoom com arrastar o mouse é invertido entre o Visualização 3D e outras Viewports
 * [UI] Carregar um SBS já aberto usando a lista “Arquivos recentes” aciona incorretamente um prompt “Pacote não encontrado”
-* [UI][macOS] Layout de interface padrão incorreto após iniciar o aplicativo
+* [UI]&#x200B;[macOS] Layout de interface padrão incorreto após iniciar o aplicativo
 * [UI] Os pacotes não podem ser salvos na raiz de uma unidade (somente Windows)
 * [Graph] A opção “Exibir automaticamente no Visualização 2D” é inconsistente em um caso específico
 * [Graph] A opção &#39;Abrir referência&#39; está disponível para nós de instância SBSAR
