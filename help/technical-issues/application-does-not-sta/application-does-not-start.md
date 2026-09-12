@@ -10,7 +10,7 @@ helpx_tags: ""
 title: O aplicativo não inicia
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 734525cdd187aac666168f8a9e1f9e49f3dad03e
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -32,21 +32,21 @@ Esta página lista as causas comuns de falhas no Substance 3D Designer ao inicia
 
 ## Designer 15.0 e posterior
 
-<b>![(erro)](../../assets/error.svg) Problema</b>
+<b>![(erro)](application-does-not-start.resources/error.svg) Problema</b>
 
 As versões 15.0 e posteriores do Designer não são iniciadas em sistemas com uma GPU integrada (iGPU) e uma GPU separada (dGPU).
 
-<b>![(tick)](../../assets/check.svg) Etapas recomendadas</b>
+<b>![(tick)](application-does-not-start.resources/check.svg) Etapas recomendadas</b>
 
 Atualize os drivers gráficos da iGPU. Você pode encontrar os drivers mais recentes aqui: [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
 ## Windows 10/11
 
-**![(erro)](../../assets/error.svg) Problema**
+**![(erro)](application-does-not-start.resources/error.svg) Problema**
 
 O Substance 3D Designer não inicia em sistemas que usam o Windows 10 ou o Windows 11.
 
-**![(tick)](../../assets/check.svg) Etapas recomendadas**
+**![(tick)](application-does-not-start.resources/check.svg) Etapas recomendadas**
 
 Versões mais antigas do Designer podem falhar ao iniciar no Windows 10 ou Windows 11 devido a uma biblioteca *desatualizada* `libeay32.dll` usada no processo de validação de licença.
 
@@ -67,11 +67,11 @@ Você pode tentar substituir a biblioteca por uma *versão atualizada*, como aqu
 
 ## Windows 7/8/8.1
 
-**![(erro)](../../assets/error.svg) Problema**
+**![(erro)](application-does-not-start.resources/error.svg) Problema**
 
 O Substance 3D Designer não inicia em sistemas que usam o Windows 7, Windows 8 ou Windows 8.1.
 
-**![(tick)](../../assets/check.svg) Etapas recomendadas**
+**![(tick)](application-does-not-start.resources/check.svg) Etapas recomendadas**
 
 Como parte da atualização da versão **11.3.0**, atualizamos várias bibliotecas, ferramentas e SDKs que *quebraram a compatibilidade* com versões do Windows anteriores ao Windows 10.
 
@@ -86,11 +86,11 @@ Se não for possível atualizar para o Windows 10, *não atualize* a instalaçã
 
 ## Linux
 
-<b>![(erro)](../../assets/error.svg) Problema</b>
+<b>![(erro)](application-does-not-start.resources/error.svg) Problema</b>
 
 Falha ao fechar a tela inicial e exibir a janela principal.
 
-<b>![(tick)](../../assets/check.svg) Etapas recomendadas</b>
+<b>![(tick)](application-does-not-start.resources/check.svg) Etapas recomendadas</b>
 
 O Designer falha ao carregar componentes Python porque carrega a biblioteca <b>libffi.so</b> do sistema em vez da própria biblioteca.
 
@@ -111,17 +111,17 @@ Os usuários do Linux que iniciam o Designer a partir do Steam podem definir o c
 
 Depois que isso for feito, o Designer poderá ser iniciado no Steam normalmente para todas as sessões futuras.
 
-![Opções de inicialização por vapor](../../assets/steam_linux_launch_option.jpg "Opções de inicialização por vapor")
+![Opções de inicialização por vapor](application-does-not-start.resources/steam_linux_launch_option.jpg "Opções de inicialização por vapor")
 
 
 
 +++
 
-**![(erro)](../../assets/error.svg) Problema**
+**![(erro)](application-does-not-start.resources/error.svg) Problema**
 
 A edição Steam do Designer falha ao iniciar e não produz nenhuma mensagem de erro.
 
-**![(tick)](../../assets/check.svg) Etapas recomendadas**
+**![(tick)](application-does-not-start.resources/check.svg) Etapas recomendadas**
 
 Em vez disso, você pode adquirir mensagens de erro registrando o aplicativo Steam.
 
@@ -132,7 +132,7 @@ steam 2>&1 | tee /path/to/logfile
 ```
 
 
-<b>![(erro)](../../assets/error.svg) Problema</b><b>e</b>
+<b>![(erro)](application-does-not-start.resources/error.svg) Problema</b><b>e</b>
 
 Não é possível carregar o plug-in `<b>xcb</b>`. A seguinte mensagem é exibida na linha de comando:
 
@@ -151,7 +151,7 @@ Aborted (core dumped)
 ```
 
 
-**![(tick)](../../assets/check.svg) Etapas recomendadas**
+**![(tick)](application-does-not-start.resources/check.svg) Etapas recomendadas**
 
 Alguns pacotes necessários estão ausentes. Execute o seguinte comando no diretório de instalação do Designer:
 
@@ -174,7 +174,7 @@ apt-get install libxcb-xinput0
 ```
 
 
-<b>![(erro)](../../assets/error.svg) Problema</b>
+<b>![(erro)](application-does-not-start.resources/error.svg) Problema</b>
 
 Este erro é gerado ao iniciar o Designer:
 
@@ -185,7 +185,7 @@ error while loading shared libraries: libcrypt.so.1: cannot open shared object f
 
 Uma biblioteca de sistema carregada pelo Designer é incompatível com a biblioteca <b>libcrypto.so.1.1</b> própria da Designer.
 
-<b>![(tick)](../../assets/check.svg) Etapas recomendadas</b>
+<b>![(tick)](application-does-not-start.resources/check.svg) Etapas recomendadas</b>
 
 Remova a biblioteca <b>`libcrypto.so.1.1`</b> do diretório de instalação do Designer para que a biblioteca do sistema seja usada.
 
@@ -193,11 +193,11 @@ Remova a biblioteca <b>`libcrypto.so.1.1`</b> do diretório de instalação do D
 >
 > Esta solução alternativa só funciona quando o sistema tem sua própria biblioteca libcrypto.so.1. Em distribuições recentes, talvez seja necessário instalar um pacote de compatibilidade como <b>libxcrypt-compat</b>.
 
-<b>![(erro)](../../assets/error.svg) Problema</b>
+<b>![(erro)](application-does-not-start.resources/error.svg) Problema</b>
 
 O Substance 3D Designer não inicia em sistemas usando distribuições do Linux *baseadas em arco*.
 
-**![(tick)](../../assets/check.svg) Etapas recomendadas *(![(warning)](../../assets/warning.svg) Instável, somente GPUs AMD!)***
+**![(tick)](application-does-not-start.resources/check.svg) Etapas recomendadas *(![(warning)](application-does-not-start.resources/warning.svg) Instável, somente GPUs AMD!)***
 
 Tente instalar o **progl** (parte dos drivers [AMDGPU-PRO](https://wiki.archlinux.org/title/AMDGPU_PRO)) e inicie o Designer por meio dele. Você pode fazer isso usando o prefixo `progl` no comando de inicialização do aplicativo:
 

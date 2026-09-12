@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 12.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -24,7 +24,7 @@ O <b>Substance 3D Designer 12.3</b> leva os gráficos de modelos do Substance a 
 
 Data de lançamento: *6 de outubro de 2022*
 
-![](../../assets/largef.png){width="1111px"}
+![](version-12-3.resources/largef.png){width="1111px"}
 
 ## Principais recursos
 
@@ -33,20 +33,20 @@ Data de lançamento: *6 de outubro de 2022*
 Se você está acostumado a criar gráficos, precisa ser capaz de criar subgrafos (ou ocorrências de gráficos) para reutilizar seu trabalho, tornar os gráficos menos confusos e mais eficientes.\
 Isso agora também é possível para gráficos de modelo do Substance: basta arrastar e soltar seu subgrafo do Explorer para o gráfico principal para usá-lo como um nó de instância.
 
-![](../../assets/subgraph.gif){width="600px"}
+![](version-12-3.resources/subgraph.gif){width="600px"}
 
 Também introduzimos o conceito de nós de saída para gráficos de modelo do Substance, como cena de saída. Agora você tem a possibilidade de ter uma ou mais saídas no seu gráfico.\
 Cada saída corresponderá a um fixar de saída quando seu gráfico for instanciado em outro gráfico.
 
-![](../../assets/image2022-10-4-15-31-27.png){width="600px"}
+![](version-12-3.resources/image2022-10-4-15-31-27.png){width="600px"}
 
 Quando você clica com o botão direito do mouse em um nó de instância, é claro que você pode acessar seu subgrafo referenciado para visualizá-lo ou editá-lo.
 
-![](../../assets/image2022-10-4-16-28-36.png){width="600px"}
+![](version-12-3.resources/image2022-10-4-16-28-36.png){width="600px"}
 
 Graças a subgrafos e parâmetros expostos, você pode criar ativos complexos e aplicar infinitas variações, conforme demonstrado na ilustração abaixo.
 
-![](../../assets/seasons.gif){width="600px"}
+![](version-12-3.resources/seasons.gif){width="600px"}
 
 ### Outras melhorias nos gráficos de modelos do Substance
 
@@ -55,18 +55,18 @@ Graças a subgrafos e parâmetros expostos, você pode criar ativos complexos e 
   Com <b>Se Visível</b>, você pode adicionar condições à visibilidade de parâmetro, mantendo uma interface de usuário limpa e funcional. Esse mecanismo já disponível para gráficos de Substance agora é estendido para gráficos de modelo do Substance, usando, é claro, a mesma sintaxe. <b>\
   </b>
 
-  ![](../../assets/visibleif.gif){width="600px"}
+  ![](version-12-3.resources/visibleif.gif){width="600px"}
 
 * <b>Novos nós dedicados à edição em curva\
   </b>Esta versão traz alguns novos nós dedicados à edição de curva: a <b>curva reversa</b> troca as duas extremidades de uma curva, a <b>subdivisão de curva</b> adiciona mais vértices em segmentos de acordo com dois métodos, a <b>curva de suavização </b>suaviza todos os ângulos em uma curva 2D e finalmente a <b>curva de deslocamento</b> infla ou esvazia uma curva 2D, conforme mostrado abaixo.<b>
 
   </b>
 
-  ![](../../assets/curve-offset-4.gif){width="600px"}
+  ![](version-12-3.resources/curve-offset-4.gif){width="600px"}
 * <b>Nova janela de gráfico </b>\
   A janela <b>Novo gráfico de modelo do Substance</b> agora também está disponível para gráficos de modelo do Substance. Você pode adicionar seus próprios modelos ou selecionar um padrão e, em seguida, inserir diretamente o nome do gráfico e selecionar o pacote ao qual o gráfico será adicionado.
 
-  ![](../../assets/image2022-10-5-15-25-42.png){width="600px"}
+  ![](version-12-3.resources/image2022-10-5-15-25-42.png){width="600px"}
 
 ### Painéis Bem-vindo e Novidades
 
@@ -76,9 +76,9 @@ Primeiro, o painel <b>Boas-vindas </b> - exibido na primeira vez que você *inic
 
 Esses dois painéis também podem ser acessados no menu Ajuda.
 
-![](../../assets/image2022-10-3-15-47-28.png)
+![](version-12-3.resources/image2022-10-3-15-47-28.png)
 
-![](../../assets/image2022-10-3-15-47-55.png)
+![](version-12-3.resources/image2022-10-3-15-47-55.png)
 
 ### Diversos
 
@@ -88,7 +88,7 @@ Esses dois painéis também podem ser acessados no menu Ajuda.
   Nas versões anteriores, o Designer não conseguia lidar corretamente com o fator de dimensionamento definido no sistema operacional. Como você pode ver na ilustração abaixo, tudo é perfeitamente gerenciado em uma tela 4K com escala de 125% com todas as fontes e botões exibidos em um tamanho coerente.\
   Observe que a opção &#39;Desativar DPI alto&#39; nas Preferências foi redefinida para *Falso* nesta nova versão, pois essa opção não é mais necessária para ter uma interface utilizável.
 
-  ![](../../assets/highdpi-fix.gif){width="600px"}
+  ![](version-12-3.resources/highdpi-fix.gif){width="600px"}
 
 * **Suporte nativo ao Apple Silicon (M1 / M2) para a versão Steam**\
   A versão 12.2 do Designer foi a primeira a trazer suporte completo de novas máquinas Apple baseadas em chips M1 ou M2, mas esse suporte estava ausente da edição Steam. De agora em diante, todos os usuários do Designer podem se beneficiar de uma experiência mais rápida e eficiente nessas máquinas.
@@ -137,10 +137,10 @@ Esses dois painéis também podem ser acessados no menu Ajuda.
 * [IU] O menu de extensão da barra de ferramentas de gráfico está incompleto
 * [UI] Valor incorreto do widget de parâmetro após desfazer a ativação do intervalo rígido
 * [3D view] A configuração de sombreador não padrão é perdida no Iray de uma sessão para outra
-* [Bakers] Falha ao carregar a janela de cozimento com uma cena sem malhas
+* [Baker] Falha ao carregar a janela de fça bake com uma cena sem malhas
 * [Função] Falha ao copiar uma instância em seu gráfico referenciado
 * [Função] Corrigir possível falha ao manipular nós
 * [Globalização] O itálico nem sempre é desativado corretamente em japonês/coreano/chinês
-* [Graph] Identificador de fallback incorreto para novos gráficos de modelos MDL e Substance
+* [Graph] identificador de fallback incorreto para novos gráficos de modelos do MDL e do Substance
 * [Graph] Parâmetros herdados orientados por valores às vezes são computados incorretamente
 * [GraphRender] Falha ao alternar mecanismos ao computar gráficos de alta resolução (somente macOS)

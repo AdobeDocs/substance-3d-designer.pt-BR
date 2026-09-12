@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: dca126adc56c78e85d281a00f90cf9affbb35c31
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Data de lançamento: *24 de novembro de 2021*
 
 ### Novas funcionalidades de gráfico de modelo
 
-![](../../assets/banner-model.jpg)
+![](version-11-3.resources/banner-model.jpg)
 
 Muitas melhorias foram adicionadas ao gráfico de modelo para expandir os recursos de modelagem:
 
@@ -41,7 +41,7 @@ Muitas melhorias foram adicionadas ao gráfico de modelo para expandir os recurs
   * Corte de partículas
   * Partículas de instâncias
 
-  ![](../../assets/particle-pruning.gif)
+  ![](version-11-3.resources/particle-pruning.gif)
 
 * <b>Novos nós de modelagem e deformação</b>\
   Novos nós adicionais foram adicionados para criar formas mais complexas. Clique em cada nó para saber mais sobre eles:
@@ -53,42 +53,42 @@ Muitas melhorias foram adicionadas ao gráfico de modelo para expandir os recurs
 * <b>Melhorias gerais\
   </b>O fluxo de trabalho em torno do gráfico de modelagem foi aprimorado com:
   * Novas dicas de ferramentas nos parâmetros de nós para torná-los mais fáceis de aprender.
-  * A hierarquia de modelos 3D agora é preservada ao exportar em FBX
+  * A hierarquia de modelo 3D agora é preservada ao exportar em FBX
   * A atribuição de materiais pode ser exportada com os formatos de arquivo OBJ e FBX.
   * Visualize os nós intermediários na viewport no modo de sobreposição.
 
 ### Interoperabilidade aprimorada
 
-![](../../assets/banner-sendto.jpg)
+![](version-11-3.resources/banner-sendto.jpg)
 
 As ações de envio foram ampliadas, com duas novas possibilidades:
 
 * **Enviar SBSM (arquivo de modelo do substance) para o Stager**\
-  Modelos 3D processuais agora podem ser enviados para o Stager e modificados a partir desse local com os parâmetros expostos.
+  Modelos 3D de procedimentos agora podem ser enviados para o Stager e modificados a partir daí com os parâmetros expostos.
 
-* **Receber SBS/SBSAR do Sampler**\
+* **Receber SBS/SBSAR da Sampler**\
   Agora é possível receber arquivos de Substance gerados pelo Sampler diretamente no Designer.
 
 ### Diversos
 
-![](../../assets/banner-misc-3.jpg)
+![](version-11-3.resources/banner-misc-3.jpg)
 
 Foram feitas várias melhorias na qualidade de vida:
 
 * **Entradas relativas às entradas**\
   As entradas de gráfico definidas em Em relação às entradas herdarão agora o tamanho do nó conectado, em vez do padrão para o tamanho do gráfico pai. Isso facilita muito o gerenciamento de resoluções diferentes por meio de entradas de tamanhos diferentes.
 
-  ![](../../assets/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/relative-to-inputs.jpg){width="400px"}
 
 * **Nova janela de gráfico**\
   A nova janela de gráfico foi reformulada e agora permite ver melhor os detalhes de um modelo específico e criar um novo gráfico diretamente em um pacote existente.
 
-  ![](../../assets/new-graph.png){width="400px"}
+  ![](version-11-3.resources/new-graph.png){width="400px"}
 
 * **Fechar Todos os Pacotes**\
   Uma pequena ação que torna menos tedioso gerenciar muitos pacotes no explorador. Use **Arquivo** > **Fechar tudo** para fechar todos os pacotes abertos no momento.
 
-  ![](../../assets/close-all-packages.png)
+  ![](version-11-3.resources/close-all-packages.png)
 
 * **Maximizar Modo de Exibição Atual**\
   Use o novo ícone **da barra de título** ou o atalho **SHIFT+Espaço** para expandir uma janela para tela inteira. Isso também pode ser usado em janelas flutuantes.
@@ -98,16 +98,16 @@ Foram feitas várias melhorias na qualidade de vida:
 
 ### Conteúdo
 
-![](../../assets/render-content.jpg)
+![](version-11-3.resources/render-content.jpg)
 
 Essa versão adiciona novos nós de difusão e melhorias para o nó Renderização PBR:
 
 * <b>Nós de difusão</b>\
   Os novos nós Cor de difusão, Tons de cinza de difusão e Difusão UV permitem gerar desfoques de sangramento suaves com base em uma máscara de entrada.
 
-  ![](../../assets/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/diffusion-normal.jpg){width="230px"}
 
-  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
+  ![](version-11-3.resources/diffusion-grayscale.jpg) ![](version-11-3.resources/diffusion-uv.jpg)
 
 * **Nó de Renderização PBR aprimorado**\
   Este nó teve as seguintes alterações:
@@ -177,19 +177,19 @@ Essa versão adiciona novos nós de difusão e melhorias para o nó Renderizaç�
 * [IU] A área de desativação é muito grande em opções de material
 * [UI] Problema de estilo na caixa de diálogo “Arquivo de pacote não salvo”
 * [UI] A tecla Tab deve ser pressionada duas vezes para navegar pelos valores
-* [IU] O zoom com arrastar o mouse é invertido entre a Exibição 3D e outras Portas de Visualização
+* [IU] O zoom com arrastar o mouse é invertido entre o Visualização 3D e outras Viewports
 * [UI] Carregar um SBS já aberto usando a lista “Arquivos recentes” aciona incorretamente um prompt “Pacote não encontrado”
 * [UI]&#x200B;[macOS] Layout de interface padrão incorreto após iniciar o aplicativo
 * [UI] Os pacotes não podem ser salvos na raiz de uma unidade (somente Windows)
-* [Graph] A opção “Exibir automaticamente na visualização 2D” é inconsistente em um caso específico
+* [Graph] A opção “Exibir automaticamente no Visualização 2D” é inconsistente em um caso específico
 * [Graph] A opção &#39;Abrir referência&#39; está disponível para nós de instância SBSAR
-* [Gráfico] As propriedades do pino são exibidas somente quando o item é criado
-* [Gráfico] As regras de sequência de caracteres do pino são aplicadas de forma inconsistente
+* [Gráfico] As propriedades do Fixar são exibidas somente quando o item é criado
+* [Gráfico] As regras de sequência de Fixares são aplicadas de forma inconsistente
 * [Graph] Falha ao salvar um gráfico vazio
-* [Visualização 3D] O ângulo de Anisotropia é invertido no sombreador ASM
-* [3D View] Sombreador ASM: problemas de linearização com mapas relacionados a SSS
-* [Visualização 3D] Renderização OpenGL incorreta após fechar visualizações 3D adicionais em um caso específico
-* [Visualização 3D] As posições predefinidas das câmeras não estão corretas na Visualização 3D com alguns arquivos .fbx
+* [Visualização 3D] O Ângulo de anisotropia é invertido no sombreador ASM
+* [Visualização 3D] Sombreador ASM: problemas de linearização com mapas relacionados ao SSS
+* [Visualização 3D] Renderização de OpenGL incorreta após fechar visualizações 3D adicionais em um caso específico
+* [Visualização 3D] As posições predefinidas das câmeras não estão corretas no Visualização 3D com alguns arquivos .fbx
 * [MDL] “Adicionar Nó” do menu contextual não funciona para Gráficos MDL
 * [MDL] Erro: falha na conexão do nó ao usar componentes float2.x e semelhantes (SD 11.1.2)
 * [MDL] Falha ao abrir o arquivo specific.sbs

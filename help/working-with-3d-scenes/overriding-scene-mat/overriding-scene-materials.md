@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substituição de materiais de cena
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Ao trabalhar com cenas 3D com materiais existentes, é necessário substituir es
 
 Seu material pode ser construído do zero ou de uma versão ajustada do material de uma cena que foi [extraído em um Substance gráfico](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
-![Substituindo um material de cena, ajustando-o e redefinindo-o para seu estado de cena](../../assets/tweakOverriddenMaterial.gif "Substituindo um material de cena, ajustando-o e redefinindo-o para seu estado de cena"){zoomable="yes"}
+![Substituindo um material de cena, ajustando-o e redefinindo-o para seu estado de cena](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "Substituindo um material de cena, ajustando-o e redefinindo-o para seu estado de cena"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -59,14 +59,14 @@ A ação &#39;Substituir material&#39; pode ser encontrada em dois locais:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Substituir material - Ação no visor &#39;Visualização 3D&#39;](../../assets/overrideMaterialActionViewport.png "Substituir material - Ação no visor &#39;Visualização 3D&#39;"){zoomable="yes"}
+![Substituir material - Ação no visor &#39;Visualização 3D&#39;](overriding-scene-materials.resources/overrideMaterialActionViewport.png "Substituir material - Ação no visor &#39;Visualização 3D&#39;"){zoomable="yes"}
 
-*Ação no visor 3D*
+*Ação no Visualização 3D viewport*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Substituir material - Ação no menu &#39;Materiais&#39;](../../assets/overrideMaterialActionMaterials.png "Substituir material - Ação no menu &#39;Materiais&#39;"){zoomable="yes"}
+![Substituir material - Ação no menu &#39;Materiais&#39;](overriding-scene-materials.resources/overrideMaterialActionMaterials.png "Substituir material - Ação no menu &#39;Materiais&#39;"){zoomable="yes"}
 
 *Ação no menu Materiais*
 
@@ -119,21 +119,21 @@ A ação pode ser encontrada em três locais:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Redefinir material para o estado da cena - Ação no visor &#39;Visualização 3D&#39;](../../assets/resetMaterialToSceneStateActionViewport.png "Redefinir material para o estado da cena - Ação no visor &#39;Visualização 3D&#39;"){zoomable="yes"}
+![Redefinir material para o estado da cena - Ação no visor &#39;Visualização 3D&#39;](overriding-scene-materials.resources/resetMaterialToSceneStateActionViewport.png "Redefinir material para o estado da cena - Ação no visor &#39;Visualização 3D&#39;"){zoomable="yes"}
 
 *Ação no visor 3D*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Redefinir o material para o estado da cena - Ação no menu &#39;Materiais&#39;](../../assets/resetMaterialToSceneStateActionMaterials.png "Redefinir o material para o estado da cena - Ação no menu &#39;Materiais&#39;"){zoomable="yes"}
+![Redefinir o material para o estado da cena - Ação no menu &#39;Materiais&#39;](overriding-scene-materials.resources/resetMaterialToSceneStateActionMaterials.png "Redefinir o material para o estado da cena - Ação no menu &#39;Materiais&#39;"){zoomable="yes"}
 
 *Ação no menu Materiais*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Redefinir o material para o estado da cena - Ação no encaixe &#39;Propriedades&#39;](../../assets/resetMaterialToSceneStateActionProps.png "Redefinir o material para o estado da cena - Ação no encaixe &#39;Propriedades&#39;"){zoomable="yes"}
+![Redefinir o material para o estado da cena - Ação no encaixe &#39;Propriedades&#39;](overriding-scene-materials.resources/resetMaterialToSceneStateActionProps.png "Redefinir o material para o estado da cena - Ação no encaixe &#39;Propriedades&#39;"){zoomable="yes"}
 
 *Ação nas propriedades do material*
 
@@ -152,7 +152,7 @@ Abra o menu de hambúrguer da propriedade de material para encontrar a ação �
 </td>
 <td style="border: 0;" valign="top">
 
-![Redefinir para o estado da cena - Ação nas propriedades do material](../../assets/resetPropertyToSceneStateAction.png "Redefinir para o estado da cena - Ação nas propriedades do material"){zoomable="yes"}
+![Redefinir para o estado da cena - Ação nas propriedades do material](overriding-scene-materials.resources/resetPropertyToSceneStateAction.png "Redefinir para o estado da cena - Ação nas propriedades do material"){zoomable="yes"}
 
 </td>
 </tr>
@@ -166,10 +166,10 @@ Por outro lado, o Designer tem *sua própria* lista separada de materiais no men
 
 Este é um conjunto de dados *diferente*, criado e gerenciado somente no Designer. Esses materiais são então *conectados às cópias* que substituem os materiais originais da cena.
 
-![Substituição de materiais - Esquema de dados](../../assets/overridingMaterialsSchematic.png "Substituição de materiais - Esquema de dados"){zoomable="yes"}
+![Substituição de materiais - Esquema de dados](overriding-scene-materials.resources/overridingMaterialsSchematic.png "Substituição de materiais - Esquema de dados"){zoomable="yes"}
 
 Você pode conectar qualquer um dos materiais listados no menu “Materiais” às cópias criadas pelo Designer na cena: clique em RMB em uma cópia no navegador de Cena e vá para o submenu “Conectar material”.
 
 O submenu lista todos os materiais na cena e todos os materiais que você pode ter criado manualmente no menu “Materiais”.
 
-![Conectar materiais](../../assets/connectMaterials.gif "Conectar materiais"){zoomable="yes"}
+![Conectar materiais](overriding-scene-materials.resources/connectMaterials.gif "Conectar materiais"){zoomable="yes"}

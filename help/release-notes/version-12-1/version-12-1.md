@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 12.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Data de lançamento: *26 de abril de 2022*
 
 ### Novo conteúdo para gráficos de material de Substance
 
-![](../../assets/yellow-intense-reduce.png)
+![](version-12-1.resources/yellow-intense-reduce.png)
 
 Muitos nós foram adicionados nesta versão. Você encontrará alguns novos padrões, novos ruídos, novos filtros, ...
 
@@ -38,36 +38,36 @@ Dê uma olhada nas páginas de nó vinculadas abaixo para obter exemplos da ampl
 
   * Adicionamos um novo nó <b>Bloco aleatório 2</b> para gerar blocos adjacentes de tamanhos e proporções aleatórias, o que é muito útil para criar rapidamente grades totalmente irregulares com cantos inclinados e arredondados e chanfro.
 
-    ![](../../assets/tilerandom2-demo2.gif){width="640px"}
+    ![](version-12-1.resources/tilerandom2-demo2.gif){width="640px"}
   * Novo padrão <b>Triangle Grid</b> para gerar uma grade feita de triângulos. Estamos usando-o no material abaixo para simular fácil e perfeitamente a granulação de couro. Este gerador representa uma superfície de vértices em espaço 3D e pode ser usado para criar uma variedade de estilos poligonais.
 
-    ![](../../assets/trianglegrid-demo.png){width="640px"}
+    ![](version-12-1.resources/trianglegrid-demo.png){width="640px"}
 * **Novos ruídos**
 
   * Para lhe dar mais variedade, um conjunto de <b>15 novos Mapas de Desgaste</b> (Concreto, Vazamentos, Respingos Sujos, ...) foi adicionado à biblioteca.
 
-    ![](../../assets/grungemaps.png){width="640px"}
+    ![](version-12-1.resources/grungemaps.png){width="640px"}
   * Você também encontrará muitos <b>novos Ruídos 2D e 3D</b>, como o Voronoi (2D e 3D), o Voronoi Fractal (2D e 3D), o 3D Ridged Fractal e uma atualização do Ruído 3D Perlin atual (adicionando opções de divisão em blocos gráficos e absolutas).\
     Esses ruídos são todos mapeados no espaço 3D e oferecem vários estilos, permitindo maior variedade e controle, o que lhe dará muita escolha para criar o mapa perfeito para o seu material, como o mar e os painéis de ficção científica abaixo.
 
-    ![](../../assets/fractal-voronoi-sea.gif){width="640px"}
+    ![](version-12-1.resources/fractal-voronoi-sea.gif){width="640px"}
 
-    ![](../../assets/fractal-voronoi-scifi-panel.gif){width="640px"}
-  * Uma coleção de <b>nós de Textura 3D</b> (Posição, SDF, Deslocamento) e <b>nós de Renderização 3D </b> (Superfície ou Volume) para criar e renderizar texturas 3D, que são um atlas das fatias de um modelo 3D.
+    ![](version-12-1.resources/fractal-voronoi-scifi-panel.gif){width="640px"}
+  * Uma coleção de <b>nós de Textura 3D</b> (Posição, SDF, Deslocamento) e <b>nós de Renderização 3D </b>(Superfície ou Volume) para criar e renderizar texturas 3D, que são um atlas das fatias de um modelo 3D.
 
-    ![](../../assets/image2022-4-22-11-46-17.png){width="640px"}
+    ![](version-12-1.resources/image2022-4-22-11-46-17.png){width="640px"}
 
 * **Novos Filtros**
 
   * Com o nó <b>Corte automático</b>, você pode colocar uma forma no *centro* da imagem sem ser redimensionada ou redimensioná-la para caber no espaço. Por exemplo, sua forma pode ser ajustada livremente enquanto mantém uma posição e um tamanho consistentes quando dispersa.
 
-    ![](../../assets/autocrop-demo-01-resized.gif){width="640px"}
+    ![](version-12-1.resources/autocrop-demo-01-resized.gif){width="640px"}
   * Com o nó <b> Extend Shape</b>, você poderá esticar uma seção de uma forma em uma direção e distância personalizadas.
 
-    ![](../../assets/extendshape.gif){width="640px"}
+    ![](version-12-1.resources/extendshape.gif){width="640px"}
   * E com o nó <b>Rotação não uniforme</b>, você pode girar uma entrada de acordo com um determinado mapa.
 
-    ![](../../assets/nonuniformrotation-demo-02-resized.gif){width="640px"}
+    ![](version-12-1.resources/nonuniformrotation-demo-02-resized.gif){width="640px"}
 * **E também...**
 
   * Funções de atenuação (gráfico de função) que são muito úteis para direcionar um valor de uma forma não linear.
@@ -79,29 +79,29 @@ Dê uma olhada nas páginas de nó vinculadas abaixo para obter exemplos da ampl
 
   e
 
-  formatos de arquivo, agora é possível importar e exportar arquivos USD (
+  formatos de arquivo, agora é possível importar e exportar arquivos do USD (
 
   ,
 
   ,
 
-  ) para usá-los como recursos de seus gráficos de modelo do Substance, para fazer bake ou na visualização 3D para mostrar seu material Substance. Você também pode usar esse formato para exportar o gráfico de modelo do Substance ou o conteúdo da visualização 3D.
+  ) para usá-los como recursos de seus gráficos de modelo de Substance, para cozimento ou na visualização 3D para mostrar seu material de Substance. Você também pode usar esse formato para exportar o gráfico de modelo de Substance ou o conteúdo da visualização 3D.
 * <b>Enviar para o Stager\
   </b>Agora você pode enviar o material do Substance para o Stager com um clique, pois isso já era possível com o Sampler e o Painter. Graças a esse recurso, não é mais necessário publicar como SBSAR e carregar arquivos individuais (requer o Stager versão 1.2.0 com o novo gerenciador de material)
 
-  ![](../../assets/sendtostagershort.gif)
+  ![](version-12-1.resources/sendtostagershort.gif)
 
 ### Diversos
 
 * Se estiver trabalhando em tecidos, agora você pode exibir uma malha dedicada na exibição 3D para ver melhor como o material é renderizado em uma forma drapeada. Abra o menu <b>Cena</b> no painel de exibição 3D e selecione a opção <b>Pano</b> para exibir esse modelo.
 
-  ![](../../assets/fabric-rendering.png){width="640px"}
+  ![](version-12-1.resources/fabric-rendering.png){width="640px"}
 
-* Também adicionamos alguns novos nós de gerenciamento de cena para gráficos de modelo do Substance. Esses nós permitem renomear, alterar a hierarquia, fundir ou expandir os elementos da cena para organizar a hierarquia de cenas. Há também um novo nó para definir a tabela dinâmica de um ou mais elementos de uma cena.
+* Também adicionamos alguns novos nós de gerenciamento de cena para gráficos de modelo de Substance. Esses nós permitem renomear, alterar a hierarquia, fundir ou expandir os elementos da cena para organizar a hierarquia de cenas. Há também um novo nó para definir a tabela dinâmica de um ou mais elementos de uma cena.
 
 * Ao trabalhar em projetos no Designer, você pode encontrar avisos e mensagens de erro, que o notificam de um problema no projeto. Nesta versão, <b>melhoramos o sistema de gerenciamento de erros</b> para mostrar todos os erros e avisos no Explorer: tudo está listado em um só lugar e, portanto, é mais fácil verificar se o projeto contém problemas.
 
-  ![](../../assets/warning-overview-explorer.png){width="640px"}
+  ![](version-12-1.resources/warning-overview-explorer.png){width="640px"}
 
 ## Notas de versão
 
@@ -113,7 +113,7 @@ Dê uma olhada nas páginas de nó vinculadas abaixo para obter exemplos da ampl
 
 * [Principal] Novo conteúdo para gráficos de material
 * [Principal] Enviar materiais para o Stager
-* [Principal] Suporte a arquivos USD
+* [Principal] Suporte a arquivos do USD
 * [Principal] Melhore o relatório de erros na interface do usuário
 * [Principal] Nós de gerenciamento de cena para gráficos de modelo
 * [Conteúdo] Adicionar mais opções a Ruídos Perlin 3D (lado a lado, absoluto...)

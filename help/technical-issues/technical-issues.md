@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Problemas técnicos
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -64,7 +64,7 @@ Compartilhe um <b>endereço de email válido</b> para que possamos entrar em con
 </td>
 <td style="border: 0;" valign="top">
 
-![Caixa de diálogo do relatório de falhas](../assets/crash-reporter-2.png "Caixa de diálogo do relatório de falhas"){zoomable="yes"}
+![Caixa de diálogo do relatório de falhas](technical-issues.resources/crash-reporter-2.png "Caixa de diálogo do relatório de falhas"){zoomable="yes"}
 
 *Clique para ampliar*
 
@@ -91,7 +91,7 @@ Informe-nos sobre o problema no campo Descrição para que possamos investigá-l
 </td>
 <td style="border: 0;" valign="top">
 
-![Caixa de diálogo de relatório de erros](../assets/bug-reporter.png "Caixa de diálogo de relatório de erros"){zoomable="yes"}
+![Caixa de diálogo de relatório de erros](technical-issues.resources/bug-reporter.png "Caixa de diálogo de relatório de erros"){zoomable="yes"}
 
 *Clique para ampliar*
 

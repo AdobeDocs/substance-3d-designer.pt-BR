@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Recurso de cena 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -26,8 +26,8 @@ Esta página descreve o tipo de recurso **Cena 3D** no Substance 3D Designer, in
 
 Os recursos de cena 3D podem ser usados em vários fluxos de trabalho:
 
-* [fazendo bake mapas de malha](../../bakers/bakers.md)
-* visualizar *textura* de [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) em [Visualização 3D](../../interface/3d-view/3d-view.md)
+* [mapas de malha de cozimento](../../bakers/bakers.md)
+* visualizar *texturas* de [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) na [exibição 3D](../../interface/3d-view/3d-view.md)
 
 Os seguintes formatos de arquivo de cena 3D são compatíveis:
 
@@ -35,7 +35,7 @@ Os seguintes formatos de arquivo de cena 3D são compatíveis:
 * [USDA](https://graphics.pixar.com/usd/release/index.html) (\*.usda)
 * [USDZ](https://graphics.pixar.com/usd/release/index.html) (\*.usdz)
 * [Autodesk FBX](https://www.autodesk.com/products/fbx/overview) (\*.fbx)
-* [Wavefront OBJ](https://www.fileformat.info/format/wavefrontobj/egff.htm) (\*.obj)
+* [Objeto Wavefront](https://www.fileformat.info/format/wavefrontobj/egff.htm) (\*.obj)
 * [Autodesk 3D Studio Mesh](https://knowledge.autodesk.com/support/3ds-max/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/3DSMax-Data-Exchange/files/GUID-A16ECF7F-70E5-4F9F-8EAD-35F5CFB485A2-htm.html) (\*.3ds)
 * [Collada](https://www.khronos.org/collada/) (\*.dae)
 * [Desenho do Autodesk AutoCAD](https://knowledge.autodesk.com/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/AutoCAD-Core/files/GUID-D4242737-58BB-47A5-9B0E-1E3DE7E7D647-htm.html) (\*.dxf)
@@ -56,7 +56,7 @@ Vincular uma cena 3D ao seu pacote é a única maneira de [fazer bake mapas de m
 * Com o recurso carregado no [Explorer](../../interface/the-explorer-window/the-explorer-window.md), clique em *RMB* nele e selecione a opção <b>Fazer bake Informações do Modelo</b> no menu contextual
 * A caixa de diálogo [Fazer bake informações do modelo](../../bakers/bakers.md) é exibida para que você configure e execute qualquer faço bake de mapas de malha
 
-![Fazendo bake mapas de malha](../../assets/bake-model-information.gif "Fazendo bake mapas de malha"){width="512px"}
+![Fazendo bake mapas de malha](3d-scene-resource.resources/bake-model-information.gif "Fazendo bake mapas de malha"){width="512px"}
 
 ## Uso de UDIM/blocos UV
 

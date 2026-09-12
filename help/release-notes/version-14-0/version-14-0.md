@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Versão 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -24,7 +24,7 @@ O <b>Substance 3D Designer 14.0 </b>traz várias melhorias na qualidade de vida 
 
 *Data de lançamento: 30 de julho de 2024*
 
-![](../../assets/2024-BannerRN.png)
+![](version-14-0.resources/2024-BannerRN.png)
 
 ## Novo conteúdo
 
@@ -32,9 +32,9 @@ Esta versão 14.0 traz muito conteúdo novo com os novos nós listados abaixo:
 
 * <b>Nós dedicados à manipulação de cores: </b>um nó <b>(</b>[Quantificar cores](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>a<b> </b>reduza o número de cores em uma imagem e extraia uma paleta dela, uma família de nós de ferramenta para criar sua própria paleta de cores ([Exibir](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Criar](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modificar](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>paleta de cores) e uma para aplicá-la a outra imagem usando um mapa de ID ([Aplicar paleta de cores](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). Você também encontrará o nó [ID para mascarar tons de cinza](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) para converter seu mapa de ID (calculado pela cor Quantizar) em uma máscara de tons de cinza. Com esse conjunto completo de nós, você tem tudo para criar efeitos de estilização usando cores.
 
-![](../../assets/GIF2_2.gif){zoomable="yes"}
+![](version-14-0.resources/GIF2_2.gif){zoomable="yes"}
 
-![Quantificar Cor 2](../../assets/GIF3_2.gif){zoomable="yes"}
+![Quantificar Cor 2](version-14-0.resources/GIF3_2.gif){zoomable="yes"}
 
 * <b>Filtro de Kuwahara</b>: se você quiser ir ainda mais longe com a estilização, poderá gerar alguns efeitos de pintura graças aos filtros de [Cor de Kuwahara anisotrópica](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [tons de cinza](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md). Em detalhes, ele aplica um desfoque direcional anisotrópico que se adapta aos detalhes da imagem. O resultado é uma imagem que parece fluir na direção das formas dentro.
 
@@ -45,7 +45,7 @@ Outros nós poderosos unem-se ao partido:
 * [<b>Curvatura suave</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md): esta nova versão agora suporta corretamente todos os modos de divisão em blocos gráficos, adiciona duas novas saídas (convexidade e concavidade) e melhora na precisão e no desempenho.
 * <b>[Histograma equalizado](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> este nó equaliza o histograma de uma imagem em tons de cinza ajustando valores para obter uma distribuição igual. Estes nós vêm com dois nós complementares: [Renderização do histograma](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) para gerar a saída do histograma da imagem e [Computação do histograma](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>para codificar um histograma como uma linha de pixels.
 * <b>[Suavização de chanfro](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> graças a esta, você pode desenhar um gradiente ou uma cor plana a partir das bordas de uma máscara (para fora, para dentro ou ambos). O nó [Distância direcional](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>também desenha um gradiente, mas em uma direção específica.
-* <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> este nó é o oposto do nó [Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md), ele remove de um mapa normal os detalhes da superfície descritos por um mapa de height.
+* <b>[Normal uncombine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> este nó é o oposto do nó [Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md), ele remove de um mapa normal os detalhes da superfície descritos por um mapa de altura.
 
 <table>
 <tr style="border: 0;">
@@ -56,11 +56,11 @@ Curvatura suave
 <table>
   <tr>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_Smoke_example_1_before">
+      <img src="version-14-0.resources/curvature_smooth_example_1_before.jpg" alt="curvature_Smoke_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_suave_example_1_after">
+      <img src="version-14-0.resources/curvature_smooth_example_1_after.jpg" alt="curvature_suave_example_1_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -74,11 +74,11 @@ Histograma equalizado
 <table>
   <tr>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="version-14-0.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="version-14-0.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ Suavização de chanfro
 <table>
   <tr>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_before.jpg" alt="bevel_smow_example_6_before">
+      <img src="version-14-0.resources/bevel_smooth_example_6_before.jpg" alt="bevel_smow_example_6_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_after.jpg" alt="bevel_smow_example_6_after">
+      <img src="version-14-0.resources/bevel_smooth_example_6_after.jpg" alt="bevel_smow_example_6_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ Descombinar normal
 <table>
   <tr>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="version-14-0.resources/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Antes</i>
     </td>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="version-14-0.resources/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>Depois</i>
     </td>
   </tr>
@@ -137,7 +137,7 @@ Descombinar normal
 
 * <b>Exibição 2D: </b>quando a exibição lado a lado está habilitada na [exibição 2D](../../interface/2d-view/2d-view.md), agora você pode obter valores mesmo para pixels que não estão no bloco original: ajuda muito verificar [amostragem](../../glossary/glossary.md) e transições de valor entre blocos.
 
-![exibição 2d](../../assets/2dview.gif){width="320px" zoomable="yes"}
+![exibição 2d](version-14-0.resources/2dview.gif){width="320px" zoomable="yes"}
 
 * <b>Mapa de gradientes</b>: use o clique do meio do mouse para deslocar todas as [teclas de gradiente](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) para a esquerda ou para a direita (e assim preservar todos os espaços entre todas as teclas).
 * <b>Parâmetros</b>: para injetar funções personalizadas por meio de parâmetros, agora você pode usar o widget de função Editar. É uma solução poderosa para criar ferramentas personalizadas nas quais você deseja direcionar parâmetros usando um [gráfico de função Substance](../../function-graphs/the-function-graph/the-function-graph.md).
@@ -146,12 +146,12 @@ Descombinar normal
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Editar Função](../../assets/functionedit.png){zoomable="yes"}
+![Editar Função](version-14-0.resources/functionedit.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Editar função 2](../../assets/functionedit2.png){zoomable="yes"}
+![Editar função 2](version-14-0.resources/functionedit2.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -230,14 +230,14 @@ Observe que essas atualizações têm duas consequências principais:
 ### Correções
 
 * [Bakers] Falha ao reassentar uma cena cujo nome de arquivo foi alterado
-* [Padeiros] Falha ao salvar a predefinição de padeiros em arquivo JSON
+* [Baker] Falha ao salvar baker predefinidos em arquivo JSON
 * [Content] &#39;Dispersão na spline&#39;: Parâmetro alfa Expor imagem de entrada
 * [Content] &#39;Tile Sampler Color&#39;: expressão visibleif ausente
 * [Conteúdo] Ruído anisotrópico: valor negativo para quantidade X/Y produz resultado incorreto
 * [Content] Ruído anisotrópico: problema de divisão em blocos gráficos ao usar um valor ímpar como uma quantidade X e sem smoothness
 * [Content] Função de distribuição normal: max() inserido incorretamente pode levar a NaN
 * [Content] RTAO, Bent Normal e RT Shadows não funcionam corretamente em algumas plataformas
-* [Conteúdo] Cor de mesclagem de respingo de forma: mapas normais de OpenGL não são mesclados corretamente
+* [Conteúdo] Cor do Combinar de respingos de forma: os mapas normais OpenGL não são mesclados corretamente
 * [Content] Espaço ingarantido após o prefixo &#39;Multi&#39; nos rótulos do nó
 * [Dependências] Falha ao mover o gráfico dentro ou entre pacotes
 * [Engine] Erro de precisão em nós de distorção que afetam os nós de Desfoque de Inclinação
@@ -252,7 +252,7 @@ Observe que essas atualizações têm duas consequências principais:
 * [Segurança] Vulnerabilidade de gravação fora dos limites de análise de ICO
 * [Segurança] Preterir alguns formatos de imagem não usados
 * [Parâmetros] O caminho do recurso Bitmap PKG não deve ser editável
-* [Parâmetros] Corrigir problemas relacionados à exposição/exposição em lote do parâmetro de um processador de valores
+* [Parâmetros] Corrigir problemas relacionados à exposição/exposição em lote do parâmetro de um processador de valor
 * [Parâmetros] Os parâmetros de cadeia de caracteres são ignorados ao expor o lote
 * [Propriedades] Problema de desempenho ao editar um gráfico de função instanciado várias vezes com propriedades abertas
 * [SVG] As edições em formas não são aplicadas em imagens rasterizadas
