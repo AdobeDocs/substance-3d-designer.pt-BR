@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+breadcrumb-title: ""
 description: Use o nó Curva para ajustar os valores de textura usando curvas personalizáveis para um controle preciso de cor e brilho.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Curva
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '608'
 ht-degree: 2%
-
 ---
-
 
 # Curva
 
@@ -24,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: curva](curve.resources/comp_curve_1.png "Nó atômico: curva"){width="200px"}
+![Nó atômico: curva](curve.resources/comp_curve_1.png "Nó atômico: curva"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,53 +35,13 @@ O nó fornece uma interface para o remapeamento de tonalidade de imagem, semelha
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="dica de ferramenta de curva" /></div>
+
 Ao contrário da maioria dos outros nós, o nó Curva não tem uma interface padrão típica com controles deslizantes e parâmetros, mas em vez disso apresenta um editor de curva completo. Consulte a seção expansível abaixo sobre como usá-lo.
 
 [No entanto, isso significa que nenhum dos parâmetros de um nó de Curva pode ser exposto a um subgrafo](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md). A única opção aqui é usar uma [Chave Múltipla](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) para alternar entre diferentes perfis de curva.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parâmetros
-
-### Editor de curva
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de entrada
-
-### Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
 
 ## Parâmetros
 
@@ -99,7 +57,7 @@ Ao contrário da maioria dos outros nós, o nó Curva não tem uma interface pad
 
 Para criar um ponto, basta clicar duas vezes em qualquer lugar na Visualização de curva:
 
-![](curve.resources/createmovepoint.gif)
+![](curve.resources/createmovepoint.gif){width="20%"}
 
 ### Controle da influência do ponto
 
@@ -259,11 +217,6 @@ O botão ![](curve.resources/image2017-2-20-19-12-45.png) redefine o nível de z
 | --- | --- |
 | <b>Entrada</b> *Tons de Cinza/Cor* PRIMÁRIO | A imagem a ser processada. |
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza/Cor* |  |
 
 ## Exemplos
 

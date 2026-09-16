@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+breadcrumb-title: ""
 description: Use o nó Gradiente (dinâmico) para criar gradientes dinâmicos que podem ser controlados por valores e parâmetros de entrada.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Gradiente (dinâmico)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 9%
-
+source-wordcount: '310'
+ht-degree: 8%
 ---
-
 
 # Gradiente (dinâmico)
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: dinâmico do gradiente](gradient-dynamic.resources/comp_dyngradient_1.png "Nó atômico: dinâmico do gradiente"){width="200px"}
+![Nó atômico: dinâmico do gradiente](gradient-dynamic.resources/comp_dyngradient_1.png "Nó atômico: dinâmico do gradiente"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,6 +35,8 @@ Ele serve como uma ligeira alternativa ao Nó Gradiente, mas, diferentemente do 
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="dica de ferramenta de gradiente dinâmico" /></div>
+
 Isso permite principalmente evitar o problema em que os parâmetros não podem ser expostos, pois os parâmetros de cor são movidos para fora do nó. Isso é o que o torna “dinâmico”.
 
 Embora Gradiente (dinâmico) não seja um nó difícil de usar por si só, seus casos de uso são um pouco mais avançados: a maioria dos usos padrão pode ser coberta pelo nó Gradiente normal.
@@ -45,50 +45,7 @@ Esse nó entra em ação quando você está muito limitado pelo sistema de chave
 
 Como alternativa, o controle deslizante Posição de entrada de gradiente pode ser usado para alternar entre vários gradientes armazenados em uma única entrada de Degradê.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de entrada
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
 
 ## Parâmetros
 
@@ -105,11 +62,6 @@ Como alternativa, o controle deslizante Posição de entrada de gradiente pode s
 | <b>Entrada em tons de cinza</b> *Tons de cinza* PRIMÁRIO | A imagem em tons de cinza para remapear. |
 | <b>Entrada de gradiente</b> *Cores/Tons de Cinza* | O gradiente é amostrado a partir desta imagem |
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Cores/Tons de Cinza* |  |
 
 ## Exemplos
 

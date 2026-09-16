@@ -1,9 +1,8 @@
 ---
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 12%
-
+source-wordcount: '87'
+ht-degree: 13%
 ---
 # A FAZER
 
@@ -22,7 +21,7 @@ ht-degree: 12%
   * Metalidade / Metálico
   * HDR
   * Especular
-  * Mapa de altura
+  * mapa de heights
   * Opacidade
   * Frustum
   * Espaço tangente
@@ -34,7 +33,6 @@ ht-degree: 12%
 ## Correções
 
 * Corrigir link para a primeira imagem de exemplo nas páginas do nó (por exemplo, novos ruídos)
-* Item &#39;Negative integer&#39; ausente e links desfeitos em [parameters-not-working-as-expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 
 ## Investigar
 

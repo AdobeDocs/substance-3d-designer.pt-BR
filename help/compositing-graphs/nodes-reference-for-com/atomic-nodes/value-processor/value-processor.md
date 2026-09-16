@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+breadcrumb-title: ""
 description: Use o nó Processador de valores para processar e manipular valores de textura usando operações matemáticas para ajustes personalizados.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Value processor
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Processador de valor
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 4%
-
+source-wordcount: '153'
+ht-degree: 3%
 ---
-
 
 # Processador de valor
 
@@ -24,7 +22,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: processador de valor](value-processor.resources/comp_valueprocessor_1.png "Nó atômico: processador de valor"){width="200px"}
+![Nó atômico: processador de valor](value-processor.resources/comp_valueprocessor_1.png "Nó atômico: processador de valor"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,25 +35,8 @@ Computa um [gráfico de função de Substance](../../../../function-graphs/the-f
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="dica de ferramenta do processador de valor" /></div>
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -63,20 +44,6 @@ Computa um [gráfico de função de Substance](../../../../function-graphs/the-f
 > 
 > Considere também que trabalhar com esse tipo de gráfico e executar operações matemáticas é obrigatório para tirar qualquer coisa desse nó.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
 
 ## Parâmetros
 
@@ -90,11 +57,6 @@ Computa um [gráfico de função de Substance](../../../../function-graphs/the-f
 | --- | --- |
 | <b>Imagem de entrada #</b> *Tons de cinza/Cor* | Use um nó [Cor de exemplo](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) ou [Tons de cinza de amostra](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) para acessar os valores na entrada do índice especificado. |
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Qualquer tipo de valor disponível* |  |
 
 ## Exemplos
 

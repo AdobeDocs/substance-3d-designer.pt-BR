@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+breadcrumb-title: ""
 description: Use o nó FX-Map para aplicar gráficos de função a texturas para criar efeitos e padrões de procedimento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > FX-Map
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: FX-Map
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 2%
-
+source-wordcount: '318'
+ht-degree: 1%
 ---
-
 
 # FX-Map
 
@@ -24,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: FX-Map](fx-map.resources/fxmap.png "Nó atômico: FX-Map"){width="200px"}
+![Nó atômico: FX-Map](fx-map.resources/fxmap.png "Nó atômico: FX-Map"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,27 +35,10 @@ O FX-Map pode replicar e subdividir uma imagem ou entrada de padrão várias vez
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="dica de ferramenta fx-map" /></div>
+
 Semelhante ao [processador de pixels](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), cabe a você definir e criar as funções que determinam o comportamento e a saída deste nó.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -67,9 +48,6 @@ Semelhante ao [processador de pixels](../../../../compositing-graphs/nodes-refer
 >
 > É recomendável estar familiarizado com todos os aspectos do software e não ter problemas para criar [funções matemáticas](../../../../function-graphs/function-graphs.md) para os parâmetros antes de tentar usar o nó FX-Map.
 
-## Exemplos
-
-## Parâmetros
 
 Lembre-se de que, diferentemente de outros nós, a maior parte do comportamento de um FX-Map não é determinada pelos parâmetros, mas [editando as funções FX-Map](../../../../function-graphs/fxmaps/fxmaps.md) dentro dele.
 
@@ -94,12 +72,7 @@ Lembre-se de que, diferentemente de outros nós, a maior parte do comportamento 
 | <b>Fundo</b> *Tons de Cinza/Cor* PRIMÁRIO | A cor de plano de fundo da imagem de saída. |
 | <b>Imagem de entrada #</b> *Tons de cinza/Cor* |  |
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza/Cor* |  |
 
 ## Exemplos
 
-![](fx-map.resources/image2015-9-10-17-28-32.png)
+![](fx-map.resources/image2015-9-10-17-28-32.png){width="20%"}

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+breadcrumb-title: ""
 description: Use o nó Normal para processar e manipular texturas normais do mapa para controlar detalhes da superfície e iluminação.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Normal
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Normal
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 8%
-
+source-wordcount: '217'
+ht-degree: 7%
 ---
-
 
 # Normal
 
@@ -24,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Normal](normal.resources/comp_normal_1.png "Nó atômico: Normal"){width="200px"}
+![Nó atômico: Normal](normal.resources/comp_normal_1.png "Nó atômico: Normal"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,42 +35,11 @@ O nó converte um mapa de entrada em tons de cinza em uma saída de mapa normal 
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="normal.resources/normal-tooltip.gif" alt="dica de ferramenta normal" /></div>
+
 É um nó muito útil que é usado frequentemente para converter entradas de mapas de height em mapas normais para materiais prontos em tempo real. Existem alternativas a serem encontradas no [Normal Sobel](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md) e no Height para Unidades Mundiais Normais.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
 
 ## Parâmetros
 
@@ -88,11 +55,6 @@ O nó converte um mapa de entrada em tons de cinza em uma saída de mapa normal 
 | --- | --- |
 | <b>Entrada</b> *Tons de cinza* PRIMÁRIO | Imagem de entrada interpretada como um mapa de height. |
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Cor* |  |
 
 ## Exemplos
 

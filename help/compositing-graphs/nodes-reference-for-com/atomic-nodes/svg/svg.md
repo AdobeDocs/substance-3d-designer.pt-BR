@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
-breadcrumb-title: ''
-description: Use o nó SVG para importar e renderizar gráficos vetoriais SVG como texturas para criar elementos gráficos dimensionáveis.
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+breadcrumb-title: ""
+description: Use o nó SVG para importar e renderizar gráficos vetoriais SVG como texturas para criar elementos gráficos escalonáveis.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: SVG
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 1%
-
+source-wordcount: '422'
+ht-degree: 0%
 ---
-
 
 # SVG
 
@@ -24,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: SVG](svg.resources/comp_svg_1.png "Nó atômico: SVG"){width="200px"}
+![Nó atômico: SVG](svg.resources/comp_svg_1.png "Nó atômico: SVG"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,31 +35,14 @@ Existem algumas maneiras de criar este nó, e todas elas exigem que você entend
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="svg.resources/svg-tooltip.gif" alt="dica de ferramenta svg" /></div>
+
 Você pode criar o nó do zero ou soltar um arquivo de SVG na visualização Gráfico.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
-> Imagens de SVG geradas ou importadas podem ser editadas por meio das [ferramentas de edição de vetores](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) no encaixe da [exibição 2D](../../../../interface/2d-view/2d-view.md).
+> Imagens de SVG geradas ou importadas podem ser editadas por meio das [ferramentas de edição de vetores](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) no encaixe do [Visualização 2D](../../../../interface/2d-view/2d-view.md).
 
 >[!IMPORTANT]
 >
@@ -79,20 +60,6 @@ Você pode criar o nó do zero ou soltar um arquivo de SVG na visualização Gr�
 > 
 > Saiba mais sobre essas limitações [aqui](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Exemplos
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## Parâmetros
 
@@ -112,11 +79,6 @@ Formas vetoriais podem ser editadas no Designer. Saiba mais sobre as ferramentas
 | --- | --- |
 | <b>Fundo</b> *Tons de Cinza/Cor* PRIMÁRIO | Define a cor de fundo da imagem de saída para usar em áreas não cobertas por uma forma vetorial.   *Substitui o parâmetro &#39;[Cor do plano de fundo](#parameters)&#39; quando conectado.* |
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza/Cor* |  |
 
 ## Exemplos
 

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+breadcrumb-title: ""
 description: Use o nó Distorção direcional para aplicar distorção direcional a texturas para criar efeitos de fluxo e movimento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional warp
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Distorção direcional
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '228'
 ht-degree: 9%
-
 ---
-
 
 # Distorção direcional
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: distorção direcional](directional-warp.resources/comp_directionalwarp_1.png "Nó atômico: distorção direcional"){width="200px"}
+![Nó atômico: distorção direcional](directional-warp.resources/comp_directionalwarp_1.png "Nó atômico: distorção direcional"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,42 +35,11 @@ Distorce uma entrada em uma direção definida pelo usuário, multiplicada por u
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="dica de ferramenta de distorção direcional" /></div>
+
 O nó Distorcer é um nó bastante simples, mas útil, que serve como uma boa base para outros efeitos mais avançados. Existem alternativas mais avançadas, como outros nós de interesse relacionados, como o [Desfoque de Inclinação](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) e a [Distorção de vetor](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
 
 ## Parâmetros
 
@@ -90,11 +57,6 @@ O nó Distorcer é um nó bastante simples, mas útil, que serve como uma boa ba
 | <b>Entrada</b> *Tons de Cinza/Cor* PRIMÁRIO | A imagem de entrada em tons de cinza ou colorida na qual o efeito de distorção deve ser aplicado. |
 | <b>Entrada de intensidade</b> *Tons de cinza* | A imagem em tons de cinza que define a quantidade de distorção que deve ser aplicada à imagem de <b>entrada</b>. |
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza/Cor* |  |
 
 ## Exemplos
 
@@ -102,7 +64,7 @@ O nó Distorcer é um nó bastante simples, mas útil, que serve como uma boa ba
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Distorção Direcional - Exemplo 1](directional-warp.resources/dir-warp.gif "Distorção Direcional - Exemplo 1"){zoomable="yes"}
+![Distorção Direcional - Exemplo 1](directional-warp.resources/dir-warp.gif "Distorção Direcional - Exemplo 1"){width="20%"}{zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

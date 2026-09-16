@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
-breadcrumb-title: ''
-description: Use o nó Desfoque direcional para aplicar efeitos de desfoque em uma direção específica para criar efeitos de desfoque de movimento e listras.
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+breadcrumb-title: ""
+description: Use o nó Desfoque direcional para aplicar efeitos de desfoque em uma direção específica para criar efeitos de desfoque e listras de movimento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Desfoque direcional
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 9%
-
+source-wordcount: '197'
+ht-degree: 8%
 ---
-
 
 # Desfoque direcional
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: desfoque direcional](directional-blur.resources/comp_dirmotionblur_1.png "Nó atômico: desfoque direcional"){width="200px"}
+![Nó atômico: desfoque direcional](directional-blur.resources/comp_dirmotionblur_1.png "Nó atômico: desfoque direcional"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,27 +35,10 @@ Este nó executa uma operação semelhante a um desfoque de movimento em uma ent
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="dica de ferramenta de desfoque direcional" /></div>
+
 Semelhante ao “Desfoque”, também é uma operação mais rápida e de baixa qualidade. Uma alternativa estendida e de maior qualidade é fornecida no [Desfoque Anisotrópico](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), com uma compensação de desempenho
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## Desfoque direcional e anisotrópico
 
@@ -69,7 +50,7 @@ As imagens abaixo mostram o desfoque direcional e o [desfoque anisotrópico](../
 
 <b>Desfoque direcional</b>
 
-![Comparação de desfoque direcional](directional-blur.resources/dirblur-01.png "Comparação de desfoque direcional"){zoomable="yes"}
+![Comparação de desfoque direcional](directional-blur.resources/dirblur-01.png "Comparação de desfoque direcional"){width="20%"}{zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -82,37 +63,13 @@ As imagens abaixo mostram o desfoque direcional e o [desfoque anisotrópico](../
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de entrada
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
 
 ## Parâmetros
 
 |  |  |
 | --- | --- |
-| <b>Intensidade</b> *Precisão decimal* | Define o raio de desfoque em pixels. |
-| <b>Ângulo</b> *Precisão decimal* | A direção do efeito de desfoque em número de voltas no sentido horário, começando na horizontal, ou seja, vetor de direção (1, 0). |
+| <b>Intensidade</b> *Flutuante* | Define o raio de desfoque em pixels. |
+| <b>Ângulo</b> *Flutuante* | A direção do efeito de desfoque em número de voltas no sentido horário, começando na horizontal, ou seja, vetor de direção (1, 0). |
 
 ## Conectores de entrada
 
@@ -120,11 +77,6 @@ As imagens abaixo mostram o desfoque direcional e o [desfoque anisotrópico](../
 | --- | --- |
 | <b>Entrada</b> *Tons de Cinza/Cor* [PRIMÁRIO](../../../../glossary/glossary.md) | A imagem a ser processada. |
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza/Cor* |  |
 
 ## Exemplos
 
