@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ""
-description: Use o nó Nitidez para aprimorar os detalhes e as bordas da textura e criar detalhes nítidos e definidos da superfície.
+description: Use o nó Nitidez para aprimorar os detalhes e as bordas da textura para criar detalhes nítidos e definidos da superfície.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Sharpen
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nitidez
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 4%
@@ -20,14 +20,14 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Ícone do nó de nitidez](sharpen.resources/sharpen-4.png "ícone do nó de nitidez")
 
 <b>Entrada:</b> Nós Atômicos
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 ## Descrição
 
@@ -39,13 +39,13 @@ O Nó de nitidez executa uma operação de nitidez em uma entrada. É um nó út
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="ajustar nitidez da dica de ferramenta" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="ajustar nitidez da dica de ferramenta" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-É matematicamente muito semelhante à Máscara de nitidez da Photoshop, apesar do nome ser diferente. Funciona bem para coisas como o mapa Basecolor, mas deve ser evitado em mapas como o Normal e o Metálico.
+É matematicamente muito semelhante à Máscara de nitidez da Photoshop, apesar do nome ser diferente. Funciona bem para coisas como um mapa de Basecolor, mas deve ser evitado em mapas como Mapas normais e mapas metálicos.
 
 ## Entradas
 
@@ -54,7 +54,7 @@ A imagem que deve ter a nitidez ajustada.
 
 ## Parâmetros
 
-<b>Intensidade</b> *Flutuante*\
+<b>Intensidade</b> *Precisão decimal*\
 Define a intensidade do efeito de nitidez.
 
 <b>Alpha de perfuração</b> *Booleano* (Disponível quando uma imagem colorida está conectada à <b>Entrada</b>)\

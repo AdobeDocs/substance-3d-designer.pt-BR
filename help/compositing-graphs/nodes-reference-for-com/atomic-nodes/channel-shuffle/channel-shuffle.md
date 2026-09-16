@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
 breadcrumb-title: ""
-description: Use o nó Embaralhamento de canais para reorganizar os canais de cores no textura a fim de criar efeitos de cores e troca de canal.
+description: Use o nó Embaralhamento de canais para reorganizar os canais de cores em texturas para criar efeitos de cores e troca de canal.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Channels shuffle
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Embaralhamento de canais
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 7%
@@ -20,18 +20,18 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nó atômico: embaralhamento de canais](channel-shuffle.resources/comp_shuffle.png "Nó atômico: embaralhamento de canais"){width="100%"}
 
 <b>Entrada:</b> Nós Atômicos
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Reorganiza os canais de cor de uma ou duas imagens de entrada na imagem de saída.
 
-Ou seja, ele pega duas entradas e permite retornar uma saída na qual qualquer um dos canais vermelho, verde, azul e alfa são trocados ou definidos para qualquer um dos canais de entrada.
+Por exemplo, o recebe duas entradas e permite retornar uma saída na qual qualquer um dos canais vermelho, verde, azul e Alpha são trocados ou definidos para qualquer um dos canais de entrada.
 
 Essencialmente, ele permite empacotar e trocar canais de RGB de qualquer maneira possível. As entradas em tons de cinza são tratadas como se fossem Cores: Vermelho, Verde, Azul e Alpha retornam todos os mesmos valores.
 
@@ -41,13 +41,13 @@ Essencialmente, ele permite empacotar e trocar canais de RGB de qualquer maneira
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="dica de ferramenta de canal embaralhado" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="dica de ferramenta de canal embaralhado" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-O Embaralhamento de canal tem opções básicas, mas na maioria dos casos de embalagem de canal ou Retirada e configuração de canais alfa é mais rápido usar a [Mesclagem de RGBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), a [Divisão de RGBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), a [Mesclagem de Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) e a [Divisão de Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md). Eles são configurados para executar ações padrão que não exigem a alteração de vários parâmetros e a conversão para tons de cinza posteriormente. Se você está procurando uma versão mais avançada com mais opções de mesclagem, confira o [Misturador de Canais](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md).
+O Embaralhamento de canal tem opções básicas, mas na maioria dos casos de embalagem de canal ou Retirada e configuração de canais de Alpha é mais rápido usar a [Mesclagem de RGBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), a [Divisão de RGBA](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), a [Mesclagem de Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) e a [Divisão de Alpha](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md). Eles são configurados para executar ações padrão que não exigem a alteração de vários parâmetros e a conversão para tons de cinza posteriormente. Se você está procurando uma versão mais avançada com mais opções de mesclagem, confira o [Misturador de Canais](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md).
 
 
 
@@ -58,7 +58,7 @@ O Embaralhamento de canal tem opções básicas, mas na maioria dos casos de emb
 | <b>Canal vermelho</b> *Inteiro* | Escolha o canal de origem a ser inserido no canal Vermelho da imagem de saída. |
 | <b>Canal verde</b> *Inteiro* | Escolha o canal de origem a ser inserido no canal Verde da imagem de saída. |
 | <b>Canal azul</b> *Inteiro* | Escolha o canal de origem a ser inserido no canal Azul da imagem de saída. |
-| <b>Canal alfa</b> *Inteiro* | Escolha o canal de origem a ser inserido no canal Alfa da imagem de saída. |
+| <b>canal de Alpha</b> *Inteiro* | Escolha o canal de origem a ser inserido no canal de Alpha da imagem de saída. |
 
 ## Conectores de entrada
 

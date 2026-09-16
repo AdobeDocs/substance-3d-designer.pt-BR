@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ""
 description: Use o nó Distorção direcional para aplicar distorção direcional a texturas para criar efeitos de fluxo e movimento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distorção direcional
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 9%
@@ -20,14 +20,14 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nó atômico: distorção direcional](directional-warp.resources/comp_directionalwarp_1.png "Nó atômico: distorção direcional"){width="100%"}
 
 **<b>Entrada:</b> Nós Atômicos**
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Desloca os pixels em uma direção especificada de acordo com um mapa de intensidade, o que pode resultar em deformação.
 
@@ -39,9 +39,9 @@ Distorce uma entrada em uma direção definida pelo usuário, multiplicada por u
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="dica de ferramenta de distorção direcional" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="dica de ferramenta de distorção direcional" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

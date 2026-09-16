@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
-description: Use o nó Desfoque direcional para aplicar efeitos de desfoque em uma direção específica para criar efeitos de desfoque e listras de movimento.
+description: Use o nó Desfoque direcional para aplicar efeitos de desfoque em uma direção específica para criar efeitos de desfoque de movimento e listras.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desfoque direcional
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 8%
@@ -20,14 +20,14 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nó atômico: desfoque direcional](directional-blur.resources/comp_dirmotionblur_1.png "Nó atômico: desfoque direcional"){width="100%"}
 
 <b>Entrada:</b> Nós Atômicos
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Aplica desfoque em uma direção especificada, de acordo com um mapa de intensidade.
 
@@ -39,9 +39,9 @@ Este nó executa uma operação semelhante a um desfoque de movimento em uma ent
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="dica de ferramenta de desfoque direcional" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="dica de ferramenta de desfoque direcional" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -76,8 +76,8 @@ As imagens abaixo mostram o desfoque direcional e o [desfoque anisotrópico](../
 
 |  |  |
 | --- | --- |
-| <b>Intensidade</b> *Flutuante* | Define o raio de desfoque em pixels. |
-| <b>Ângulo</b> *Flutuante* | A direção do efeito de desfoque em número de voltas no sentido horário, começando na horizontal, ou seja, vetor de direção (1, 0). |
+| <b>Intensidade</b> *Precisão decimal* | Define o raio de desfoque em pixels. |
+| <b>Ângulo</b> *Precisão decimal* | A direção do efeito de desfoque em número de voltas no sentido horário, começando na horizontal, ou seja, vetor de direção (1, 0). |
 
 ## Conectores de entrada
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ""
-description: Use o nó SVG para importar e renderizar gráficos vetoriais SVG como texturas para criar elementos gráficos escalonáveis.
+description: Use o nó SVG para importar e renderizar gráficos vetoriais SVG como texturas para criar elementos gráficos dimensionáveis.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nó atômico: SVG](svg.resources/comp_svg_1.png "Nó atômico: SVG"){width="100%"}
 
 <b>Entrada:</b> Nós Atômicos
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Renderiza uma [imagem SVG](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) como um bitmap. Em outras palavras, mapeia formas vetoriais em pixels.
 
@@ -39,9 +39,9 @@ Existem algumas maneiras de criar este nó, e todas elas exigem que você entend
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="svg.resources/svg-tooltip.gif" alt="dica de ferramenta svg" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="svg.resources/svg-tooltip.gif" alt="dica de ferramenta svg" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -50,7 +50,7 @@ Você pode criar o nó do zero ou soltar um arquivo de SVG na visualização Gr�
 
 >[!TIP]
 >
-> Imagens de SVG geradas ou importadas podem ser editadas por meio das [ferramentas de edição de vetores](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) no encaixe do [Visualização 2D](../../../../interface/2d-view/2d-view.md).
+> Imagens de SVG geradas ou importadas podem ser editadas por meio das [ferramentas de edição de vetores](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) no encaixe da [exibição 2D](../../../../interface/2d-view/2d-view.md).
 
 >[!IMPORTANT]
 >

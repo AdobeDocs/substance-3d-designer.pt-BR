@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ""
 description: Use o nó Gradiente (dinâmico) para criar gradientes dinâmicos que podem ser controlados por valores e parâmetros de entrada.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gradiente (dinâmico)
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 8%
@@ -20,14 +20,14 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Nó atômico: dinâmico do gradiente](gradient-dynamic.resources/comp_dyngradient_1.png "Nó atômico: dinâmico do gradiente"){width="100%"}
 
 <b>Entrada:</b> Nós Atômicos
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Remapeia os valores de tons de cinza em uma imagem, usando um gradiente fornecido por uma linha ou coluna de pixels em outra imagem.
 
@@ -39,9 +39,9 @@ Ele serve como uma ligeira alternativa ao Nó Gradiente, mas, diferentemente do 
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="dica de ferramenta de gradiente dinâmico" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="dica de ferramenta de gradiente dinâmico" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
