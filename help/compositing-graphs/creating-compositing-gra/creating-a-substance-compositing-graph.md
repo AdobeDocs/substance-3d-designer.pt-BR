@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+breadcrumb-title: ""
 description: Saiba como criar gráficos de composição de Substance no Substance 3D Designer para criar fluxos de trabalho de textura de procedimentos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Creating a Substance graph
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Criação de um gráfico do Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 1%
-
 ---
-
 
 # Criação de um gráfico do Substance
 
@@ -28,7 +26,7 @@ A criação de texturas no Designer começa com a criação de um gráfico de Su
 
 Para iniciar o processo de criação de um novo gráfico de [Substance](../../compositing-graphs/substance-compositing-graphs.md), você pode usar um destes métodos:
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -44,7 +42,7 @@ Para iniciar o processo de criação de um novo gráfico de [Substance](../../co
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -60,7 +58,7 @@ Para iniciar o processo de criação de um novo gráfico de [Substance](../../co
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -76,7 +74,7 @@ Para iniciar o processo de criação de um novo gráfico de [Substance](../../co
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -106,7 +104,7 @@ Independentemente do método usado para criar um novo gráfico de Substance, voc
 
 ### Modelos
 
-O Designer inclui modelos de gráficos com nós pré-configurados para agilizar o seu trabalho. Eles podem incluir nós de [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), nós simples para passar valores para essas saídas, como [Cores uniformes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md), bem como nós de [Entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md).
+O Designer inclui modelos de gráficos com nós pré-configurados para agilizar o seu trabalho. Eles podem incluir nós de [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), nós simples para passar valores para essas saídas, como [Cores uniformes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md), bem como nós de [Entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md).
 
 Clique duas vezes em um modelo na lista ou selecione-o e clique no botão <b>Criar</b> para criar um novo gráfico de Substance usando esse modelo. Por padrão, o novo gráfico é colocado em um novo pacote não salvo.
 

@@ -3,9 +3,9 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 881117156de44a7776822e05c585a8d52d24afbc
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 21%
 ---
 
@@ -50,8 +50,8 @@ ht-degree: 21%
     + [Biblioteca](/help/interface/the-library/the-library.md)
     + [Gerenciamento de conteúdo e filtros personalizados](/help/interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)
   + [Propriedades](/help/interface/properties/properties.md)
-  + Exibição 2D{#2d-view}
-    + [Exibição 2D](/help/interface/2d-view/2d-view.md)
+  + Visualização 2D{#2d-view}
+    + [Visualização 2D](/help/interface/2d-view/2d-view.md)
     + [Ferramenta Classificador de Cores](/help/interface/2d-view/color-sampler/color-sampler.md)
   + Visualização 3D{#3d-view}
     + [Visualização 3D](/help/interface/3d-view/3d-view.md)
@@ -130,7 +130,9 @@ ht-degree: 21%
       + [Processador de valor](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
       + [Distorcer](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
       + [Saída](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-      + [Entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+      + [Cor de entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
+      + [Tons de cinza de entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
+      + [Valor de entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
     + Biblioteca de nós{#node-library}
       + [Biblioteca de nós](/help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
       + Geradores de textura{#texture-generators}

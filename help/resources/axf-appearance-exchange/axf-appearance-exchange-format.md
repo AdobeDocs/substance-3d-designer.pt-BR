@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/resources/axf-appearance-exchange-format.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+breadcrumb-title: ""
 description: Saiba como importar e usar os recursos de formato de intercâmbio de aparência AxF no Substance 3D Designer para importação de material.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > AxF (Appearance eXchange Format)
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: AxF (Appearance eXchange Format)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9b772dfaab124991f6c6420f451179304d2731cd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
-
 ---
-
 
 # AxF (Appearance eXchange Format)
 
@@ -144,7 +142,7 @@ Clique no botão <b>Adicionar modelo</b> e selecione o tipo de gráfico desejado
 Dois tipos de modelos de gráficos de Substance estão disponíveis:
 
 Os modelos <b>AxF para aspereza metálica</b> e <b>AxF para Specular brilhante</b> são *conversão* e permitem mapear materiais AxF para modelos PBR padrão.\
-Eles podem ser usados com os sombreadores de exibição 3D padrão e combinados com outros materiais PBR produzidos no Designer, no [Sampler](https://www.adobe.com/br/products/substance3d-sampler.html) ou adquiridos na nossa biblioteca de [Ativos 3D](https://substance3d.adobe.com/assets/).
+Eles podem ser usados com os sombreadores de exibição 3D padrão e combinados com outros materiais PBR produzidos no Designer, no [Sampler](https://www.adobe.com/products/substance3d-sampler.html) ou adquiridos na nossa biblioteca de [Ativos 3D](https://substance3d.adobe.com/assets/).
 
 O <b>AxF para AxF</b> é um modelo de *passagem* que permite editar os materiais do AxF no local e exportar essas alterações como novas camadas em arquivos AxF existentes. Consulte Exportar arquivos AxF abaixo para saber mais.
 
@@ -163,7 +161,7 @@ O <b>AxF para AxF</b> é um modelo de *passagem* que permite editar os materiais
 
 Para todos os modelos de Substance adicionados à lista <b>Modelos</b>, as seguintes operações adicionais são executadas:
 
-Para qualquer nó [<b>Input</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) que *usage* corresponda ao *identificador* de uma textura extraída do arquivo AxF, esse nó de entrada é substituído por um nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) fazendo referência a essa textura;
+Para qualquer nó [Entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) que *uso* corresponda ao *identificador* de uma textura extraída do arquivo AxF, esse nó de entrada é substituído por um nó [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) que faça referência a essa textura;
 
 A propriedade <b>Resolution</b> do gráfico (isto é, tamanho de saída) é definida automaticamente para a potência de dois igual ou acima da resolução da *maior* textura extraída;
 
@@ -300,16 +298,16 @@ O sombreador está disponível no menu <b>Materiais</b>: abra o submenu do mater
 Use a opção <b>Editar</b> no mesmo submenu para exibir as propriedades do sombreador no encaixe [Propriedades](../../interface/properties/properties.md).\
 Em particular, a propriedade <b>Divisão em blocos gráficos</b> permite ajustar a divisão em blocos gráficos das texturas no modelo, para que você possa visualizar o material em uma escala apropriada.
 
-Após selecionar o sombreador, clique com o botão direito do mouse no espaço vazio do gráfico e selecione a opção <b>Exibir saídas na Visualização 3D</b> para visualizar suas saídas na [Visualização 3D](../../interface/3d-view/3d-view.md).
+Depois de selecionar o sombreador, clique em RMB no espaço vazio do gráfico e selecione a opção <b>Exibir saídas no Visualização 3D</b> para visualizar suas saídas no [Visualização 3D](../../interface/3d-view/3d-view.md).
 
-![AxF: sombreador SVBRDF GLSLFX](axf-appearance-exchange-format.resources/axf_glslfx-svbrdf.png "AxF: sombreador SVBRDF GLSLFX"){width="600px"}
+![AxF: sombreador GLSLFX SVBRDF GLSLFX por](axf-appearance-exchange-format.resources/axf_glslfx-svbrdf.png "AxF: sombreador SVBRDF"){width="600px"}
 
 Este sombreador é atualmente um *trabalho em andamento* e alguns recursos ainda não são suportados. Por conseguinte, embora possa fornecer uma panorâmica das características dos materiais, não deve ser utilizado para ajustamentos finos.
 
 Use a opção <b>Editar</b> no mesmo submenu para exibir as propriedades do sombreador no encaixe [Propriedades](../../interface/properties/properties.md).\
 Em particular, a propriedade <b>Divisão em blocos gráficos</b> permite ajustar a divisão em blocos gráficos das texturas no modelo, para que você possa visualizar o material em uma escala apropriada.
 
-Após selecionar o sombreador, clique com o botão direito do mouse no espaço vazio do gráfico e selecione a opção <b>Exibir saídas na Visualização 3D</b> para visualizar suas saídas na [Visualização 3D](../../interface/3d-view/3d-view.md).
+Depois de selecionar o sombreador, clique em RMB no espaço vazio do gráfico e selecione a opção <b>Exibir saídas no Visualização 3D</b> para visualizar suas saídas no [Visualização 3D](../../interface/3d-view/3d-view.md).
 
 ![AxF: visualização para edição](axf-appearance-exchange-format.resources/axf-view-for-edit.gif "AxF: visualização para edição")
 <i>Observação:</i> ignore a parte do vídeo do switch para o renderizador Iray até o final, pois o renderizador Iray e o suporte MDL foram <i>removidos</i> do Designer na versão 16.0.0.
@@ -318,7 +316,7 @@ Após selecionar o sombreador, clique com o botão direito do mouse no espaço v
 
 ### Variantes de modelo compatíveis
 
-Os sombreadores usados na Visualização 3D são compatíveis com as seguintes variantes para modelos de transmissão de specular, Fresnel e revestimento claro:
+Os shaders usados no Visualização 3D suportam as seguintes variantes para os modelos de transmissão de specular, Fresnel e revestimento claro:
 
 <table>
 <tr style="border: 0;">

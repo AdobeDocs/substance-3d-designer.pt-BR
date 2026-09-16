@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
-description: Conheça o fluxo de trabalho essencial para criar materiais processuais no Substance 3D Designer do início ao fim.
+description: Conheça o fluxo de trabalho essencial para criar materiais de procedimento no Substance 3D Designer do início ao fim.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Workflow overview
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Visão geral do fluxo de trabalho
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: f475b696f2d3ff6c453c5dc27e5672d55d72116e
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Você encontrará abaixo um resumo dos três tipos de gráfico que podem ser edi
 
 [gráficos de Substance](https://substance3d.adobe.com/) são o tipo principal de gráfico criado no Substance 3D Designer. A finalidade é <b>gerar e processar dados de imagem 2D</b> que não estejam restritos a uma resolução, cor ou forma definidas. Eles são feitos com ferramentas extremamente versáteis de processamento de imagens e geração, não apenas resultados estáticos e predefinidos.
 
-Os resultados podem estar na forma de um padrão simples em preto e branco, um filtro que roda apenas em outras imagens e não gera conteúdo por si só, ou mesmo um material de procedimento completo com vários canais.
+Os resultados podem estar na forma de um padrão simples em preto e branco, um filtro que roda apenas em outras imagens e não gera conteúdo por si só, ou mesmo um material completo e processual com múltiplos canais.
 
 gráficos de Substance são [o tipo de gráfico mais amplamente suportado](../../getting-started/overview/overview.md) e podem ser exportados e usados em uma infinidade de fluxos de trabalho diferentes.
 
@@ -75,7 +75,7 @@ Abaixo você pode encontrar alguns exemplos típicos de casos de uso comuns.
 
 ![Forma simples no gráfico de Substance](workflow-overview.resources/simpleshape.png "Forma simples no gráfico de Substance"){width="512px" zoomable="yes"}
 
-Uma forma de máscara simples para um decalque é criada gerando[um pedaço de texto](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) e uma [forma de disco](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extraindo a borda](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) do disco e finalmente [mesclando-os](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) antes de defini-los como saída final [9&rbrace;.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+Uma forma de máscara simples para um decalque é criada gerando[um pedaço de texto](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) e uma [forma de disco](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extraindo a borda](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) do disco e finalmente [mesclando-os](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) antes de defini-los como saída final [9}.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 
 O Texto com o número, ou o thickness da aresta, pode ser exposto externamente para tornar este um gráfico mais dinâmico.
 
@@ -85,7 +85,7 @@ O Texto com o número, ou o thickness da aresta, pode ser exposto externamente p
 
 ![Filtro de ajuste no gráfico de Substance](workflow-overview.resources/simplefilter.png "Filtro de ajuste no gráfico de Substance"){width="512px" zoomable="yes"}
 
-Um gráfico de filtro obtém uma mapa normal como [entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) (com uma visualização personalizada), [converte-a em curvatura](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) e depois [ajusta o contraste](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) para criar uma máscara de bordas convexas como [saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) final.
+Um gráfico de filtro obtém uma mapa normal como [entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) (com uma visualização personalizada), [converte-a em curvatura](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) e depois [ajusta o contraste](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) para criar uma máscara de bordas convexas como [saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) final.
 
 Os valores de contraste definidos no Histograma podem ser expostos, tornando-o um filtro simples, mas útil, em combinação com o slot de entrada dinâmico.
 
@@ -114,7 +114,7 @@ Este exemplo usa os [Modos de Criação de Link](../../interface/the-graph-view/
 
 Funções <b>processam valores únicos</b> (inteiros, flutuantes, vetores) em vez de dados de imagem (conjuntos inteiros de pixels). As funções também são Gráficos com redes de nós, mas os [Nós usados](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) e a interface são diferentes dos [gráficos de Substance regulares](../../compositing-graphs/substance-compositing-graphs.md). O fluxo de trabalho é completamente baseado em <b>operações matemáticas</b> e não mostra miniaturas de visualização de imagem, tornando-o uma <b>maneira muito mais avançada de trabalhar</b> com o Substance 3D Designer.
 
-As funções podem ser usadas em muitos contextos diferentes, sendo os principais a modificação do comportamento de [um Parâmetro exposto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), a criação do comportamento de [Processadores de Pixel](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) e o uso de [valores](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) em um gráfico de Substance.
+As funções podem ser usadas em muitos contextos diferentes, sendo os principais a modificação do comportamento de [um Parâmetro exposto](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), a criação do comportamento de [Processadores de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) ou [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) e o uso de [valores](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) em um gráfico de Substance.
 
 </td>
 </tr>
@@ -138,9 +138,9 @@ Esta função também pode ser escrita como *lerp(0.1, 0.8, Intensity)* em um ps
 
 ![Função avançada](workflow-overview.resources/pixel-function.png "Função avançada"){width="512px" zoomable="yes"}
 
-Esta função avançada mostra o funcionamento interno de um [Processador de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) destinado ao ajuste do matiz de uma entrada do mapa de cores com base na intensidade de uma segunda entrada de máscara em tons de cinza.
+Esta Função avançada mostra o funcionamento interno de um [Processador de pixels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) destinado ao ajuste da Matiz de uma entrada do mapa de cores com base na intensidade de uma segunda entrada de máscara em tons de cinza.
 
-Ele faz a amostragem de ambas as entradas com a variável “$pos” do sistema, retira o Alpha, converte o valor da cor em HSL e modifica o componente Matiz, multiplicando-o pelo valor da amostra de tons de cinza. Depois, ele remonta o vetor, converte o HSL de volta em RGB e adiciona o Alpha de volta para a saída final.
+Ele faz a amostragem de ambas as entradas com a variável “$pos” do sistema, retira o Alpha, converte o valor da cor em HSL e modifica o componente Matiz, multiplicando-o pelo valor da amostra de tons de cinza. Depois, ele remonta o vetor, converte o HSL de volta para RGB e adiciona o Alpha de volta para a saída final.
 
 em pseudo-código esta seria uma função muito mais complicada que não caberia em uma única linha.
 
