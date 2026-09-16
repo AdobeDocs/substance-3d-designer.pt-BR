@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ""
 description: Use o nó Texto para gerar texturas de texto com fontes e estilos personalizáveis para criar padrões baseados em texto.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Texto
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%
@@ -22,10 +22,10 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Texto](text.resources/comp_text_1.png "Nó atômico: Texto"){width="20%"}
+![Nó atômico: Texto](text.resources/comp_text_1.png "Nó atômico: Texto")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 O nó Texto fornece uma maneira de colocar o texto criado pelo usuário em seus gráficos. Os usuários também podem selecionar configurações como Fonte, Alinhamento e rotação para personalizar o posicionamento do texto.
 
@@ -35,7 +35,7 @@ O nó Texto é muito poderoso e a única maneira de inserir texto facilmente. Po
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="text.resources/text-tooltip.gif" alt="dica de ferramenta de texto" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="text.resources/text-tooltip.gif" alt="dica de ferramenta de texto" /></div>
 
 Somente há suporte para Truetype (.ttf) e determinadas fontes Opentype. Se alguma fonte estiver ausente na lista, esse é provavelmente o motivo. <b>As fontes não podem ser expostas como um parâmetro.</b>
 

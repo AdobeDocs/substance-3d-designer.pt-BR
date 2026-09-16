@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ""
 description: Use o nó Distorcer para aplicar efeitos de distorção ao textura para criar efeitos de distorção e de deslocamento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distorcer
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 9%
@@ -22,10 +22,10 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Distorcer](warp.resources/comp_warp_1.png "Nó atômico: Distorcer"){width="20%"}
+![Nó atômico: Distorcer](warp.resources/comp_warp_1.png "Nó atômico: Distorcer")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Desloca os valores de pixel na imagem de entrada de acordo com as inclinações calculadas a partir de uma entrada de gradiente separada, resultando em deformação.
 
@@ -35,7 +35,7 @@ Diferentemente da Deformação direcional, esse nó afasta uniformemente das ár
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="warp.resources/warp-tooltip.gif" alt="dica de ferramenta de distorção" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="warp.resources/warp-tooltip.gif" alt="dica de ferramenta de distorção" /></div>
 
 O nó pode ser um pouco complicado de trabalhar, pois o resultado do efeito é muito dependente da entrada de gradiente: pequenos ajustes ao gradiente podem fazer uma grande diferença visual com os mesmos valores de intensidade. Experimente o Contraste, a Luminância e a escala da Entrada de gradiente, bem como o controle deslizante de Intensidade neste nó.
 
@@ -47,8 +47,8 @@ Se você estiver familiarizado com Mapas normais, pode imaginar o funcionamento 
 
 |  |  |
 | --- | --- |
-| <b>Intensidade</b> *Flutuante* | Define a intensidade da distorção. |
-| <b>Modo de filtragem de entrada</b> *Booleano* | Controla se a filtragem mais próxima ou bilinear é usada para obter amostra da Entrada. |
+| <b>Intensidade</b> *Precisão decimal* | Define a intensidade da distorção. |
+| <b>modo de filtragem de entrada</b> *Booleano* | Controla se a filtragem mais próxima ou bilinear é usada para obter amostra da Entrada. |
 
 ## Conectores de entrada
 

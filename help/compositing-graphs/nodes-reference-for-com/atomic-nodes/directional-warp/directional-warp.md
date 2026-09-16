@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ""
-description: Use o nó Distorção direcional para aplicar distorção direcional a texturas para criar efeitos de fluxo e movimento.
+description: Use o nó de Deformação direcional para aplicar distorção direcional às texturas para criar efeitos de fluxo e movimento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional warp
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Distorção direcional
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 9%
@@ -22,10 +22,10 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: distorção direcional](directional-warp.resources/comp_directionalwarp_1.png "Nó atômico: distorção direcional"){width="20%"}
+![Nó atômico: distorção direcional](directional-warp.resources/comp_directionalwarp_1.png "Nó atômico: distorção direcional")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Desloca os pixels em uma direção especificada de acordo com um mapa de intensidade, o que pode resultar em deformação.
 
@@ -35,7 +35,7 @@ Distorce uma entrada em uma direção definida pelo usuário, multiplicada por u
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="dica de ferramenta de distorção direcional" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="dica de ferramenta de distorção direcional" /></div>
 
 O nó Distorcer é um nó bastante simples, mas útil, que serve como uma boa base para outros efeitos mais avançados. Existem alternativas mais avançadas, como outros nós de interesse relacionados, como o [Desfoque de Inclinação](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) e a [Distorção de vetor](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md).
 
@@ -45,10 +45,10 @@ O nó Distorcer é um nó bastante simples, mas útil, que serve como uma boa ba
 
 |  |  |
 | --- | --- |
-| <b>Intensidade</b> *Flutuante* | Define a intensidade da distorção. |
-| <b>Ângulo de distorção</b> *Flutuante* | Define o ângulo do efeito de distorção, em número de voltas. |
-| <b>Modo de filtragem de entrada</b> *Booleano* | Controla se a filtragem mais próxima ou bilinear é usada para obter amostra da <b>Entrada</b>. |
-| <b>Deslocamento do mapa de intensidade</b> *Flutuante* | Este valor é subtraído dos valores de imagem de <b>Entrada de intensidade</b>. |
+| <b>Intensidade</b> *Precisão decimal* | Define a intensidade da distorção. |
+| <b>Ângulo de distorção</b> *Precisão decimal* | Define o ângulo do efeito de distorção, em número de voltas. |
+| <b>modo de filtragem de entrada</b> *Booleano* | Controla se a filtragem mais próxima ou bilinear é usada para obter amostra da <b>Entrada</b>. |
+| <b>Deslocamento do mapa de intensidade</b> *Precisão decimal* | Este valor é subtraído dos valores de imagem de <b>Entrada de intensidade</b>. |
 
 ## Conectores de entrada
 
@@ -64,17 +64,17 @@ O nó Distorcer é um nó bastante simples, mas útil, que serve como uma boa ba
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Distorção Direcional - Exemplo 1](directional-warp.resources/dir-warp.gif "Distorção Direcional - Exemplo 1"){width="20%"}{zoomable="yes"}
+![Deformação direcional - Exemplo 1](directional-warp.resources/dir-warp.gif "Deformação direcional - Exemplo 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Distorção Direcional - Exemplo 2](directional-warp.resources/dir-warp02.gif "Distorção Direcional - Exemplo 2"){zoomable="yes"}
+![Deformação direcional - Exemplo 2](directional-warp.resources/dir-warp02.gif "Deformação direcional - Exemplo 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Distorção Direcional - Exemplo 3](directional-warp.resources/dir-warp03.gif "Distorção Direcional - Exemplo 3"){zoomable="yes"}
+![Deformação direcional - Exemplo 3](directional-warp.resources/dir-warp03.gif "Deformação direcional - Exemplo 3"){zoomable="yes"}
 
 </td>
 </tr>

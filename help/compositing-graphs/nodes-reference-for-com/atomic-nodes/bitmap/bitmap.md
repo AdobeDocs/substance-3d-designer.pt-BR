@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ""
 description: Use o nó Bitmap para importar e usar imagens bitmap como texturas em gráficos de composição de Substance.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Bitmap
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -22,10 +22,10 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Bitmap](bitmap.resources/comp_bitmap.png "Nó atômico: Bitmap"){width="20%"}
+![Nó atômico: Bitmap](bitmap.resources/comp_bitmap.png "Nó atômico: Bitmap")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Carrega um [recurso de bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) no gráfico.
 
@@ -37,7 +37,7 @@ Existem algumas maneiras de criar este nó, e todas elas exigem que você entend
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="bitmap.resources/bitmap-tooltip.gif" alt="dica de ferramenta de bitmap" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="bitmap.resources/bitmap-tooltip.gif" alt="dica de ferramenta de bitmap" /></div>
 
 Você pode criar o nó do zero ou soltando um [bitmap](../../../../glossary/glossary.md) em um formato compatível na exibição Gráfico.
 

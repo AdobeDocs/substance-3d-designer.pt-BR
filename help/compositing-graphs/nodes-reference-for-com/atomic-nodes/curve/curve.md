@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: Use o nó Curva para ajustar os valores de textura usando curvas personalizáveis para um controle preciso de cor e brilho.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curva
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: curva](curve.resources/comp_curve_1.png "Nó atômico: curva"){width="20%"}
+![Nó atômico: curva](curve.resources/comp_curve_1.png "Nó atômico: curva")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Remapeia os valores em uma imagem usando uma curva personalizada.
 
@@ -35,7 +35,7 @@ O nó fornece uma interface para o remapeamento de tonalidade de imagem, semelha
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="dica de ferramenta de curva" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="curve.resources/curve-tooltip.gif" alt="dica de ferramenta de curva" /></div>
 
 Ao contrário da maioria dos outros nós, o nó Curva não tem uma interface padrão típica com controles deslizantes e parâmetros, mas em vez disso apresenta um editor de curva completo. Consulte a seção expansível abaixo sobre como usá-lo.
 
@@ -57,13 +57,13 @@ Ao contrário da maioria dos outros nós, o nó Curva não tem uma interface pad
 
 Para criar um ponto, basta clicar duas vezes em qualquer lugar na Visualização de curva:
 
-![](curve.resources/createmovepoint.gif){width="20%"}
+![](curve.resources/createmovepoint.gif)
 
 ### Controle da influência do ponto
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Para obter resultados precisos, os nós curvos oferecem modos diferentes para cada ponto:
 
@@ -100,7 +100,7 @@ Você pode mostrar/ocultar o histograma de sua entrada apenas clicando em ![](cu
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Quando a entrada é um nó de cor, você pode ajustar a curva para cada canal:
 
@@ -123,7 +123,7 @@ No modo de curva de RGB, você pode ocultar/mostrar as curvas de canais individu
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Se você clicar com o botão direito do mouse na vista de curva, irá obter mais algumas opções.
 

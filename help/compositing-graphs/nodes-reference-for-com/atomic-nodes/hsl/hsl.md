@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ""
-description: Use o nó HSL para ajustar o matiz, a saturação e a luminosidade de texturas para manipulação e correção de cores.
+description: Use o nó HSL para ajustar o matiz, a saturação e a luminosidade das texturas para a manipulação e a correção de cores.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 9%
@@ -22,10 +22,10 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: HSL](hsl.resources/comp_hsl_1.png "Nó atômico: HSL"){width="20%"}
+![Nó atômico: HSL](hsl.resources/comp_hsl_1.png "Nó atômico: HSL")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Ajusta o matiz, a saturação e a luminosidade de uma imagem colorida.
 
@@ -37,7 +37,7 @@ Se você estiver atrás de outras maneiras de editar os tons de uma imagem, obse
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="hsl.resources/hsl-tooltip.gif" alt="dica de ferramenta de hsl" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="hsl.resources/hsl-tooltip.gif" alt="dica de ferramenta de hsl" /></div>
 
 
 
@@ -45,9 +45,9 @@ Se você estiver atrás de outras maneiras de editar os tons de uma imagem, obse
 
 |  |  |
 | --- | --- |
-| <b>Matiz</b> *Precisão decimal* | Determina a cor da imagem de entrada.   Valores abaixo de 0,5 deslocam a matiz negativamente, valores acima de 0,5 deslocam-na positivamente. |
-| <b>Saturação</b> *Precisão decimal* | Determina a saturação da cor da imagem de entrada.   Valores abaixo de 0,5 diminuem a Saturação; valores acima de 0,5 aumentam essa saturação. |
-| <b>Luminosidade</b> *Precisão decimal* | Determina a luminosidade dos Valores da imagem de entrada abaixo de 0,5 para diminuir a Luminosidade. Valores acima de 0,5 para aumentá-la. |
+| <b>Matiz</b> *Flutuante* | Determina a cor da imagem de entrada.   Valores abaixo de 0,5 deslocam a matiz negativamente, valores acima de 0,5 deslocam-na positivamente. |
+| <b>Saturação</b> *Flutuante* | Determina a saturação da cor da imagem de entrada.   Valores abaixo de 0,5 diminuem a Saturação; valores acima de 0,5 aumentam essa saturação. |
+| <b>Luminosidade</b> *Flutuante* | Determina a luminosidade dos valores da imagem de entrada abaixo de 0,5 para diminuir a Luminosidade. Valores acima de 0,5 para aumentá-la. |
 
 ## Conectores de entrada
 

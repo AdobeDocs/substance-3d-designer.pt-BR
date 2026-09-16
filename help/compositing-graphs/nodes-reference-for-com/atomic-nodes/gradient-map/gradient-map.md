@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: Use o nó Mapa de degradê para mapear valores em tons de cinza para cores usando rampas de degradê para colorização e efeitos.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa de gradiente
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: mapa de gradiente](gradient-map.resources/comp_gradient_1.png "Nó atômico: mapa de gradiente"){width="20%"}
+![Nó atômico: mapa de gradiente](gradient-map.resources/comp_gradient_1.png "Nó atômico: mapa de gradiente")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Remapeia os valores em tons de cinza em uma imagem usando um gradiente personalizado.
 
@@ -35,7 +35,7 @@ Este nó tem uma finalidade dupla: pode ser usado simplesmente como um <b> </b>n
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="dica de ferramenta do mapa de degradê" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="dica de ferramenta do mapa de degradê" /></div>
 
 O nó oferece um editor de degradê avançado e repleto de recursos para mapear várias cores com precisão: acesse a seção [Editor de degradê](#gradient-editor) nesta página para saber mais.
 
@@ -56,7 +56,7 @@ Ele pode ser aberto a partir das <b>Propriedades</b> do nó Mapa de Degradê das
 * Clique no LMB no botão <b>Editor de Degradê</b>;
 * Clique duas vezes no LMB em um pino na barra de gradientes. O pino clicado será então selecionado automaticamente no Editor de Degradê para que você possa editar seus valores diretamente.
 
-![Editor de gradiente](gradient-map.resources/image2017-2-17-16-13-5.png "Editor de gradiente"){width="20%"}
+![Editor de gradiente](gradient-map.resources/image2017-2-17-16-13-5.png "Editor de gradiente")
 
 ### Edição dos pinos de gradiente
 
@@ -233,7 +233,7 @@ O Seletor de cores permite definir uma cor de várias maneiras:
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   Os controles deslizantes RGB, HSV e Alpha permitem definir uma cor com precisão, ajustando os controles deslizantes ou definindo diretamente seus valores numéricos.
 
@@ -267,7 +267,7 @@ O Seletor de cores permite definir uma cor de várias maneiras:
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 A cor selecionada será visualizada na metade superior da miniatura de cor.\
 A metade inferior exibe a cor usada anteriormente. Clique duas vezes no LMB para reverter a cor ajustada para ele.
@@ -285,7 +285,7 @@ Quando vários pinos são selecionados, os controles deslizantes de RGB, HSV e A
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Além disso, os seguintes recursos estão disponíveis abaixo da miniatura de cor como botões:
 

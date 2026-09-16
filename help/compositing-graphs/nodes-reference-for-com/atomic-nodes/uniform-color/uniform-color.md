@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ""
 description: Use o nó Cor uniforme para gerar texturas de cores uniformes para criar preenchimentos de cores sólidas e camadas base.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cor uniforme
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![Nó atômico: cor uniforme](uniform-color.resources/comp_uniform_1.png "Nó atômico: cor uniforme"){width="20%"}
+![Nó atômico: cor uniforme](uniform-color.resources/comp_uniform_1.png "Nó atômico: cor uniforme")
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -35,7 +35,7 @@ Gera um valor plano de tons de cinza ou de cor.
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="dica de ferramenta de cor uniforme" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="dica de ferramenta de cor uniforme" /></div>
 
 
 >[!TIP]

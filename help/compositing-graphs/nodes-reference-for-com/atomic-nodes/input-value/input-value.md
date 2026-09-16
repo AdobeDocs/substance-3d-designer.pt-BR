@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Valor de entrada
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 1%
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: valor de entrada](input-value.resources/comp_inputnumeric_1.png "Nó atômico: valor de entrada"){width="20%"}
+![Nó atômico: valor de entrada](input-value.resources/comp_inputnumeric_1.png "Nó atômico: valor de entrada")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -33,7 +33,7 @@ Os nós de entrada são um tipo especial de nó que cria um slot dinâmico no gr
 
 Diferentemente dos [nós de saída](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), você deve inserir explicitamente uma entrada Color, Grayscale ou Value. Não é possível criar suas próprias entradas “agnósticas” que alteram o tipo dependendo do que está conectado a elas.
 
-Os nós de entrada não são tão cruciais quanto os [Nós de saída](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): você pode ter Gráficos avançados em perfeito funcionamento que não precisam de uma Entrada. As entradas só são usadas quando você deseja basear o resultado de uma Instância de Gráfico ou nó em uma entrada externa, por exemplo, ao criar uma [Instância](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) ou um [Filtro](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/effects/filter) para o Substance 3D Painter.
+Os nós de entrada não são tão cruciais quanto os [Nós de saída](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): você pode ter Gráficos avançados em perfeito funcionamento que não precisam de uma Entrada. As entradas só são usadas quando você deseja basear o resultado de uma Instância de Gráfico ou nó em uma entrada externa, por exemplo, ao criar uma [Instância](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) ou um [Filtro](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) para o Substance 3D Painter.
 
 Veja também: [Cor de entrada](../input-color/input-color.md), [Escala de cinza de entrada](../input-grayscale/input-grayscale.md)
 
@@ -41,7 +41,7 @@ Veja também: [Cor de entrada](../input-color/input-color.md), [Escala de cinza 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input-value.resources/input-value-tooltip.gif" alt="Dica de ferramenta de valor de entrada" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="input-value.resources/input-value-tooltip.gif" alt="Dica de ferramenta de valor de entrada" /></div>
 
 ## Parâmetros
 
@@ -78,7 +78,7 @@ Uma entrada pode ser definida como a [Entrada primária](../../../../compositing
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Entrada primária no Substance](input-value.resources/node-primary-input.png){width="20%"}
+![Entrada primária no Substance](input-value.resources/node-primary-input.png)
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Finalmente, você pode substituir qualquer valor de um determinado atributo defi
 
 ## Atributos de integração
 
-As entradas não são enviadas diretamente ao Visualização 3D, mas seus Atributos de Uso são usados pelo [Substance 3D Painter](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/home) para preencher automaticamente slots com certos mapas (usados principalmente com [Filtros](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/effects/filter)).
+As entradas não são enviadas diretamente ao Visualização 3D, mas seus Atributos de Uso são usados pelo [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) para preencher automaticamente slots com certos mapas (usados principalmente com [Filtros](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
 
 Além disso, os atributos de Uso também são usados com os [Modos de Criação de Link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), para corresponder aos slots de entrada e saída corretos.
 

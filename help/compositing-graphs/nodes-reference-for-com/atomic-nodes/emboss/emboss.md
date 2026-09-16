@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ""
 description: Use o nó Entalhe para criar efeitos em alto-relevo nas texturas para adicionar profundidade e relevo aos detalhes da superfície.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Entalhe
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 9%
@@ -20,12 +20,12 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Nó atômico: Entalhe](emboss.resources/comp_emboss_1.png "Nó atômico: Entalhe"){width="20%"}
+![Nó atômico: Entalhe](emboss.resources/comp_emboss_1.png "Nó atômico: Entalhe")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Aplica um efeito de relevo iluminando os lados das formas em uma imagem de acordo com a direção de uma fonte de luz especificada.
 
@@ -35,7 +35,7 @@ Ou seja, o nó executa um sombreamento 2D simples com base em 2 entradas, simula
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="emboss.resources/emboss-tooltip.gif" alt="Dica de ferramenta de relevo" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="emboss.resources/emboss-tooltip.gif" alt="Dica de ferramenta de relevo" /></div>
 
 Esse nó não é usado com frequência para projetos do tipo PBR, mas pode servir em determinados casos em que você deseja uma iluminação assada simples na textura. Como alternativa, o [Entalhe com Brilho](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) e o [Entalhe Uber](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) oferecem uma funcionalidade semelhante, porém mais ampla.
 

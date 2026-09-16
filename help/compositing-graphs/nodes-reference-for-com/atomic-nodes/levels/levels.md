@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ""
 description: Use o nó Níveis para ajustar o brilho, o contraste e a gama tonal das texturas para correção e aprimoramento de cores.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Níveis
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 3%
@@ -20,12 +20,12 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Nó atômico: Níveis](levels.resources/comp_levels_1.png "Nó atômico: Níveis"){width="20%"}
+![Nó atômico: Níveis](levels.resources/comp_levels_1.png "Nó atômico: Níveis")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Ajusta o intervalo global e o equilíbrio de cores das sombras, tons médios e destaques de uma imagem.
 
@@ -35,7 +35,7 @@ O nó Níveis permite remapear os tons de uma entrada definindo fatores de remap
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="levels.resources/levels-tooltip.gif" alt="dica de ferramenta de níveis" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="levels.resources/levels-tooltip.gif" alt="dica de ferramenta de níveis" /></div>
 
 É um dos nós principais e mais úteis do Substance 3D Designer e é frequentemente usado para remapear e ajustar valores em um gráfico, pois fornece a interface mais precisa e precisa para alterar valores.
 
@@ -47,14 +47,14 @@ O nó oferece duas interfaces para ajustar seus valores: histograma e controles 
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 O botão amarelo realçado alterna a interface entre os controles deslizantes (inferiores) de valor do histograma (superior)
 
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-2-1.png){width="20%"}
+![](levels.resources/levels-2-1.png)
 
 ![](levels.resources/levels-1-1.png)
 
