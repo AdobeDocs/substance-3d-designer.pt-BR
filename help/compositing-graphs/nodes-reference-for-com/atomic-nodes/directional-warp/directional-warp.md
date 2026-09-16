@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ""
 description: Use o nó Distorção direcional para aplicar distorção direcional a texturas para criar efeitos de fluxo e movimento.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Distorção direcional
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '231'
 ht-degree: 9%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nó atômico: distorção direcional](directional-warp.resources/comp_directionalwarp_1.png "Nó atômico: distorção direcional"){width="100%"}
+
+**<b>Entrada:</b> Nós Atômicos**
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Distorce uma entrada em uma direção definida pelo usuário, multiplicada por u
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="dica de ferramenta de distorção direcional" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="dica de ferramenta de distorção direcional" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 O nó Distorcer é um nó bastante simples, mas útil, que serve como uma boa base para outros efeitos mais avançados. Existem alternativas mais avançadas, como outros nós de interesse relacionados, como o [Desfoque de Inclinação](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) e a [Distorção de vetor](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md).
 

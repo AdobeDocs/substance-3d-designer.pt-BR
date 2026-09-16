@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: Use o nó Curva para ajustar os valores de textura usando curvas personalizáveis para um controle preciso de cor e brilho.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Curva
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '611'
 ht-degree: 2%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nó atômico: curva](curve.resources/comp_curve_1.png "Nó atômico: curva"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ O nó fornece uma interface para o remapeamento de tonalidade de imagem, semelha
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="curve.resources/curve-tooltip.gif" alt="dica de ferramenta de curva" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="curve.resources/curve-tooltip.gif" alt="dica de ferramenta de curva" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Ao contrário da maioria dos outros nós, o nó Curva não tem uma interface padrão típica com controles deslizantes e parâmetros, mas em vez disso apresenta um editor de curva completo. Consulte a seção expansível abaixo sobre como usá-lo.
 
@@ -68,7 +76,7 @@ Para criar um ponto, basta clicar duas vezes em qualquer lugar na Visualização
 Para obter resultados precisos, os nós curvos oferecem modos diferentes para cada ponto:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-5-36.png)
 
@@ -107,7 +115,7 @@ Quando a entrada é um nó de cor, você pode ajustar a curva para cada canal:
 Basta selecionar a curva que deseja ajustar na lista suspensa localizada na parte superior direita:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-52-43.png)
 

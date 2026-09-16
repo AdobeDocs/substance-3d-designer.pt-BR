@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Valor de entrada
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '804'
 ht-degree: 1%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nó atômico: valor de entrada](input-value.resources/comp_inputnumeric_1.png "Nó atômico: valor de entrada"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
 <td style="border: 0;" valign="top">
@@ -33,7 +35,7 @@ Os nós de entrada são um tipo especial de nó que cria um slot dinâmico no gr
 
 Diferentemente dos [nós de saída](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), você deve inserir explicitamente uma entrada Color, Grayscale ou Value. Não é possível criar suas próprias entradas “agnósticas” que alteram o tipo dependendo do que está conectado a elas.
 
-Os nós de entrada não são tão cruciais quanto os [Nós de saída](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): você pode ter Gráficos avançados em perfeito funcionamento que não precisam de uma Entrada. As entradas só são usadas quando você deseja basear o resultado de uma Instância de Gráfico ou nó em uma entrada externa, por exemplo, ao criar uma [Instância](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) ou um [Filtro](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/effects/filter) para o Substance 3D Painter.
+Os nós de entrada não são tão cruciais quanto os [Nós de saída](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): você pode ter Gráficos avançados em perfeito funcionamento que não precisam de uma Entrada. As entradas só são usadas quando você deseja basear o resultado de uma Instância de Gráfico ou nó em uma entrada externa, por exemplo, ao criar uma [Instância](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) ou um [Filtro](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) para o Substance 3D Painter.
 
 Veja também: [Cor de entrada](../input-color/input-color.md), [Escala de cinza de entrada](../input-grayscale/input-grayscale.md)
 
@@ -41,7 +43,13 @@ Veja também: [Cor de entrada](../input-color/input-color.md), [Escala de cinza 
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="input-value.resources/input-value-tooltip.gif" alt="Dica de ferramenta de valor de entrada" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="input-value.resources/input-value-tooltip.gif" alt="Dica de ferramenta de valor de entrada" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 ## Parâmetros
 
@@ -60,7 +68,7 @@ Se quiser visualizá-lo com as saídas de outro gráfico, será necessário expo
 | --- | --- |
 | <b>Identificador</b> *Cadeia de Caracteres* | O único Atributo obrigatório e exclusivo. Não pode conter espaços. Esse é usado para rotular entradas se nenhum Rótulo estiver configurado e para diferenciar saídas diferentes. Não deixe apenas isso como “input\_1”! |
 | <b>Descrição</b> *Cadeia de Caracteres* | Descrição opcional usada na biblioteca do Designer e na prateleira do Painter. |
-| <b>Rótulo</b> *Cadeia de Caracteres* | Rótulo de interface usado para boa rotulagem na interface do Designer e Painter. Pode conter espaços. Recomenda-se configurar com um nome semelhante ao identificador, apenas com barras de espaço em vez de sublinhados. |
+| <b>Rótulo</b> *Cadeia de Caracteres* | Rótulo de interface usado para boa rotulagem na interface do Designer e Painter. Pode conter espaços. Recomenda-se configurar com um nome semelhante à Identificador, apenas com barras de espaço em vez de sublinhados. |
 | <b>Dados do usuário</b> *Cadeia de Caracteres* | Dados do usuário adicionais e opcionais que podem ser usados para operações de filtragem específicas, Basicamente um curinga, campo de dados personalizado. |
 | <b>Grupo</b> *Cadeia de Caracteres* | Atributo de Grupo usado para agrupar entradas para os [Modos de Criação de Link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) do Designer. Entradas com um Atributo de Grupo idêntico (diferencia maiúsculas de minúsculas) serão apresentadas como uma única conexão no Modo de Material Compacto. |
 
@@ -101,7 +109,7 @@ Finalmente, você pode substituir qualquer valor de um determinado atributo defi
 
 ## Atributos de integração
 
-As entradas não são enviadas diretamente ao Visualização 3D, mas seus Atributos de Uso são usados pelo [Substance 3D Painter](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/home) para preencher automaticamente slots com certos mapas (usados principalmente com [Filtros](https://experienceleague.adobe.com/pt-br/docs/substance-3d-painter/using/effects/filter)).
+As entradas não são enviadas diretamente ao Visualização 3D, mas seus Atributos de Uso são usados pelo [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) para preencher automaticamente slots com certos mapas (usados principalmente com [Filtros](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)).
 
 Além disso, os atributos de Uso também são usados com os [Modos de Criação de Link](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), para corresponder aos slots de entrada e saída corretos.
 

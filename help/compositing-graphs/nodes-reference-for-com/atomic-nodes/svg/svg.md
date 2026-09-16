@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ""
 description: Use o nó SVG para importar e renderizar gráficos vetoriais SVG como texturas para criar elementos gráficos escalonáveis.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '425'
 ht-degree: 0%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nó atômico: SVG](svg.resources/comp_svg_1.png "Nó atômico: SVG"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ Existem algumas maneiras de criar este nó, e todas elas exigem que você entend
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="svg.resources/svg-tooltip.gif" alt="dica de ferramenta svg" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="svg.resources/svg-tooltip.gif" alt="dica de ferramenta svg" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Você pode criar o nó do zero ou soltar um arquivo de SVG na visualização Gráfico.
 

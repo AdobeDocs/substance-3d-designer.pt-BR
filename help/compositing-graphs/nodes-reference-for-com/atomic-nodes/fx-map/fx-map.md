@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: Use o nó FX-Map para aplicar gráficos de função a texturas para criar efeitos e padrões de procedimento.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '321'
 ht-degree: 1%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nó atômico: FX-Map](fx-map.resources/fxmap.png "Nó atômico: FX-Map"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ O FX-Map pode replicar e subdividir uma imagem ou entrada de padrão várias vez
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="dica de ferramenta fx-map" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="dica de ferramenta fx-map" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Semelhante ao [processador de pixels](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), cabe a você definir e criar as funções que determinam o comportamento e a saída deste nó.
 

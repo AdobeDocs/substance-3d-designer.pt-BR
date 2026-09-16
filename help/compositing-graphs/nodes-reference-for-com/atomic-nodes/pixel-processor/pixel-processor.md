@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
 description: Use o nó Processador de pixels para processar pixels individuais usando expressões personalizadas para manipulação avançada de textura.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Processador de pixels
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '353'
 ht-degree: 1%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nó atômico: Processador de pixels](pixel-processor.resources/comp_pixelprocessor_1.png "Nó atômico: Processador de pixels"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +39,13 @@ O Processador de pixels permite executar uma função personalizada para cada pi
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="dica de ferramenta do processador de pixels" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="dica de ferramenta do processador de pixels" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Semelhante ao [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), ele requer a configuração da funcionalidade interna para executar qualquer ação. A diferença entre o Processador de pixels e o FX-Map é que ele não está focado no posicionamento de padrões, com várias funções controlando a forma e o posicionamento dos padrões. Em vez disso, uma única função é executada em paralelo para cada pixel, onde cada pixel não tem conhecimento dos resultados de cálculo de seus vizinhos.
 
@@ -62,7 +70,7 @@ Para qualquer pessoa acostumada a criar funções de [sombreador](../../../../gl
 |  |  |
 | --- | --- |
 | <b>Modo de cores</b> *Booleano* | Alterna entre uma imagem em tons de cinza e uma imagem colorida de saída. |
-| <b>Função por pixel</b> *Precisão decimal/Precisão decimal 4* | [gráfico de função Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) avaliado por pixel na imagem de saída.   Use o conjunto de nós [Obter Precisão decimal2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) para a variável <b>$pos</b> para acessar a posição [normalizada](../../../../glossary/glossary.md) do pixel atual. |
+| <b>Função por pixel</b> *Flutuante/Flutuante4* | [gráfico de função Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) avaliado por pixel na imagem de saída.   Use o conjunto de nós [Obter Precisão decimal2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) para a variável <b>$pos</b> para acessar a posição [normalizada](../../../../glossary/glossary.md) do pixel atual. |
 
 ## Conectores de entrada
 

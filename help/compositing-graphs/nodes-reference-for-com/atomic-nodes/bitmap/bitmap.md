@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ""
 description: Use o nó Bitmap para importar e usar imagens bitmap como texturas em gráficos de composição de Substance.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Bitmap
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '456'
 ht-degree: 0%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Nó atômico: Bitmap](bitmap.resources/comp_bitmap.png "Nó atômico: Bitmap"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,14 +39,20 @@ Existem algumas maneiras de criar este nó, e todas elas exigem que você entend
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="bitmap.resources/bitmap-tooltip.gif" alt="dica de ferramenta de bitmap" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="bitmap.resources/bitmap-tooltip.gif" alt="dica de ferramenta de bitmap" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Você pode criar o nó do zero ou soltando um [bitmap](../../../../glossary/glossary.md) em um formato compatível na exibição Gráfico.
 
 
 >[!TIP]
 >
-> Os bitmaps de 8 bits gerados ou importados podem ser pintados usando as [ferramentas de pintura de bitmaps](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) no encaixe do [Visualização 2D](../../../../interface/2d-view/2d-view.md).
+> Os bitmaps de 8 bits gerados ou importados podem ser pintados usando as [ferramentas de pintura de bitmaps](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) no encaixe da [exibição 2D](../../../../interface/2d-view/2d-view.md).
 
 >[!IMPORTANT]
 >
