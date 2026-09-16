@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ""
-description: Use o nó Nitidez para aprimorar os detalhes e as bordas da textura e criar detalhes nítidos e definidos da superfície.
+description: Use o nó Nitidez para aprimorar os detalhes e as bordas da textura para criar detalhes nítidos e definidos da superfície.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Sharpen
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Nitidez
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 4%
@@ -37,9 +37,9 @@ O Nó de nitidez executa uma operação de nitidez em uma entrada. É um nó út
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="sharpen.resources/sharpen-tooltip.gif" alt="ajustar nitidez da dica de ferramenta" /></div>
+<div data-preserve-html="true" align="center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="ajustar nitidez da dica de ferramenta" /></div>
 
-É matematicamente muito semelhante à Máscara de nitidez da Photoshop, apesar do nome ser diferente. Funciona bem para coisas como o mapa Basecolor, mas deve ser evitado em mapas como o Normal e o Metálico.
+É matematicamente muito semelhante à Máscara de nitidez da Photoshop, apesar do nome ser diferente. Funciona bem para coisas como um mapa de Basecolor, mas deve ser evitado em mapas como Mapas normais e mapas metálicos.
 
 ## Entradas
 
@@ -48,7 +48,7 @@ A imagem que deve ter a nitidez ajustada.
 
 ## Parâmetros
 
-<b>Intensidade</b> *Flutuante*\
+<b>Intensidade</b> *Precisão decimal*\
 Define a intensidade do efeito de nitidez.
 
 <b>Alpha de perfuração</b> *Booleano* (Disponível quando uma imagem colorida está conectada à <b>Entrada</b>)\

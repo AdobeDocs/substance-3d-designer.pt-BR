@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ""
-description: Use o nó SVG para importar e renderizar gráficos vetoriais SVG como texturas para criar elementos gráficos dimensionáveis.
+description: Use o nó SVG para importar e renderizar gráficos vetoriais SVG como texturas para criar elementos gráficos escalonáveis.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Nó atômico: SVG](svg.resources/comp_svg_1.png "Nó atômico: SVG")
+![Nó atômico: SVG](svg.resources/comp_svg_1.png "Nó atômico: SVG"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,14 +35,14 @@ Existem algumas maneiras de criar este nó, e todas elas exigem que você entend
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="svg.resources/svg-tooltip.gif" alt="dica de ferramenta svg" /></div>
+<div data-preserve-html="true" align="center"><img src="svg.resources/svg-tooltip.gif" alt="dica de ferramenta svg" /></div>
 
 Você pode criar o nó do zero ou soltar um arquivo de SVG na visualização Gráfico.
 
 
 >[!TIP]
 >
-> Imagens de SVG geradas ou importadas podem ser editadas por meio das [ferramentas de edição de vetores](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) no encaixe da [exibição 2D](../../../../interface/2d-view/2d-view.md).
+> Imagens de SVG geradas ou importadas podem ser editadas por meio das [ferramentas de edição de vetores](../../../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) no encaixe do [Visualização 2D](../../../../interface/2d-view/2d-view.md).
 
 >[!IMPORTANT]
 >

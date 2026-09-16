@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ""
 description: Use o nó Conversão de tons de cinza para converter texturas coloridas em tons de cinza usando vários métodos de conversão.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Conversão em tons de cinza
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: conversão em tons de cinza](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Nó atômico: conversão em tons de cinza")
+![Nó atômico: conversão em tons de cinza](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Nó atômico: conversão em tons de cinza"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Esse nó pode ser usado como um método otimizado para extrair um canal em tons 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="dica de ferramenta de conversão em tons de cinza" /></div>
+<div data-preserve-html="true" align="center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="dica de ferramenta de conversão em tons de cinza" /></div>
 
 A maioria dos nós pode ser definida para saída em tons de cinza ou coloridos, sendo que o primeiro é preferível por motivos de simplicidade e desempenho.
 

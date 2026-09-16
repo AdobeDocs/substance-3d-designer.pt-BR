@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: Use o nó FX-Map para aplicar gráficos de função a texturas para criar efeitos e padrões de procedimento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: FX-Map](fx-map.resources/fxmap.png "Nó atômico: FX-Map")
+![Nó atômico: FX-Map](fx-map.resources/fxmap.png "Nó atômico: FX-Map"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ O FX-Map pode replicar e subdividir uma imagem ou entrada de padrão várias vez
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="dica de ferramenta fx-map" /></div>
+<div data-preserve-html="true" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="dica de ferramenta fx-map" /></div>
 
 Semelhante ao [processador de pixels](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), cabe a você definir e criar as funções que determinam o comportamento e a saída deste nó.
 
@@ -58,8 +58,8 @@ Lembre-se de que, diferentemente de outros nós, a maior parte do comportamento 
 | <b>Região de renderização</b> *Flutuante4* | Permite definir o intervalo de pixels inicial para cada lado do FX-Map, resultando em um efeito de amplificação. |
 | <b>Região de divisão</b> *Flutuante4* | Permite que você desloque a distância de divisão em blocos gráficos do FX-Map. |
 | <b>Selecionar para fora</b> *Booleano* | Executa uma otimização por [remoção](../../../../glossary/glossary.md) de padrões que estão fora do intervalo normal. |
-| <b>Aspereza</b> *Flutuante* | Funciona como um multiplicador de profundidade e opacidade. Isso aplica uma tendência ao processo de mesclagem do FX-map. |
-| <b>Opacidade global</b> *Flutuante* | Define a opacidade global da saída do FX-map. |
+| <b>Aspereza</b> *Precisão decimal* | Funciona como um multiplicador de profundidade e opacidade. Isso aplica uma tendência ao processo de mesclagem do FX-map. |
+| <b>Opacidade global</b> *Precisão decimal* | Define a opacidade global da saída do FX-map. |
 
 ## Guia do FX-Map
 

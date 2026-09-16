@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
 description: Use o nó Processador de pixels para processar pixels individuais usando expressões personalizadas para manipulação avançada de textura.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Processador de pixels
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Nó atômico: Processador de pixels](pixel-processor.resources/comp_pixelprocessor_1.png "Nó atômico: Processador de pixels")
+![Nó atômico: Processador de pixels](pixel-processor.resources/comp_pixelprocessor_1.png "Nó atômico: Processador de pixels"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ O Processador de pixels permite executar uma função personalizada para cada pi
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="dica de ferramenta do processador de pixels" /></div>
+<div data-preserve-html="true" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="dica de ferramenta do processador de pixels" /></div>
 
 Semelhante ao [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), ele requer a configuração da funcionalidade interna para executar qualquer ação. A diferença entre o Processador de pixels e o FX-Map é que ele não está focado no posicionamento de padrões, com várias funções controlando a forma e o posicionamento dos padrões. Em vez disso, uma única função é executada em paralelo para cada pixel, onde cada pixel não tem conhecimento dos resultados de cálculo de seus vizinhos.
 

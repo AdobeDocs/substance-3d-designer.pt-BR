@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ""
-description: Use o nó Combinar para mesclar duas texturas usando vários modos de mesclagem para criar efeitos compostos.
+description: Use o nó de mesclagem para mesclar duas texturas usando vários modos de mesclagem para criar efeitos compostos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Misturar
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Combinar](blend.resources/comp_blend_1.png "Nó atômico: Combinar")
+![Nó atômico: Mesclar](blend.resources/comp_blend_1.png "Nó atômico: Mesclar"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,13 +35,13 @@ Combina duas imagens usando um modo de mesclagem especificado e uma máscara opc
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="blend.resources/blend-tooltip.gif" alt="dica de ferramenta de mesclagem" /></div>
+<div data-preserve-html="true" align="center"><img src="blend.resources/blend-tooltip.gif" alt="dica de ferramenta de mesclagem" /></div>
 
-Sua funcionalidade é semelhante a ter duas camadas acima uma da outra no [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) ou no [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mesclam pelo modo de mesclagem definido na camada superior.
+Sua funcionalidade é semelhante a ter duas camadas acima uma da outra no [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) ou no [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mesclam pelo modo de mesclagem definido na camada superior.
 
 >[!TIP]
 >
-> Saiba mais sobre os modos de mesclagem disponíveis no nó Combinar em [esta página dedicada](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md).
+> Saiba mais sobre os modos de mesclagem disponíveis no nó Mesclagem em [esta página dedicada](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md).
 
 
 
@@ -49,10 +49,10 @@ Sua funcionalidade é semelhante a ter duas camadas acima uma da outra no [Subst
 
 |  |  |
 | --- | --- |
-| <b>Opacidade</b> *Precisão decimal* | Opacidade da mesclagem da camada de primeiro plano no plano de fundo. Ele funciona independentemente da entrada de Opacidade e atua como um multiplicador adicional para ele. |
+| <b>Opacidade</b> *Flutuante* | Opacidade da mesclagem da camada de primeiro plano no plano de fundo. Ele funciona independentemente da entrada de Opacidade e atua como um multiplicador adicional para ele. |
 | <b>Modo de mesclagem</b> *Inteiro* [Estático](../../../../glossary/glossary.md) | Define a operação de mesclagem a ser usada.   Consulte a [página dedicada sobre modos de mesclagem](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
-| <b>Mesclagem de alfa</b> *Inteiro* [Estático](../../../../glossary/glossary.md) | Determina o comportamento de mesclagem quando as entradas de cor têm canais Alfa:<ul data-preserve-html="true"> <li data-preserve-html="true">Usar alfa de origem</li> <li data-preserve-html="true">Ignorar alfa</li> <li data-preserve-html="true">Mesclagem alfa direta</li> <li data-preserve-html="true">Mesclagem alfa pré-multiplicada</li> </ul> |
-| <b>Área de corte</b> *Precisão decimal 4* [Estática](../../../../glossary/glossary.md) | Permitir a configuração de uma região de corte personalizada que se comporte como uma máscara de Opacidade adicional. Qualquer área cortada mostra apenas o plano de fundo. |
+| <b>mesclagem de Alpha</b> *Inteiro* [Estático](../../../../glossary/glossary.md) | Determina o comportamento de mesclagem quando as entradas de cor têm canais de Alpha:<ul data-preserve-html="true"> <li data-preserve-html="true">Usar alfa de origem</li> <li data-preserve-html="true">Ignorar alfa</li> <li data-preserve-html="true">Mesclagem alfa direta</li> <li data-preserve-html="true">Mesclagem alfa pré-multiplicada</li> </ul> |
+| <b>Área de corte</b> *Flutuante4* [Estático](../../../../glossary/glossary.md) | Permitir a configuração de uma região de corte personalizada que se comporte como uma máscara de Opacidade adicional. Qualquer área cortada mostra apenas o plano de fundo. |
 
 ## Conectores de entrada
 

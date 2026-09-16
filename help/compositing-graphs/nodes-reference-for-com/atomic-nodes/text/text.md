@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ""
 description: Use o nó Texto para gerar texturas de texto com fontes e estilos personalizáveis para criar padrões baseados em texto.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Texto
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Texto](text.resources/comp_text_1.png "Nó atômico: Texto")
+![Nó atômico: Texto](text.resources/comp_text_1.png "Nó atômico: Texto"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ O nó Texto é muito poderoso e a única maneira de inserir texto facilmente. Po
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="text.resources/text-tooltip.gif" alt="dica de ferramenta de texto" /></div>
+<div data-preserve-html="true" align="center"><img src="text.resources/text-tooltip.gif" alt="dica de ferramenta de texto" /></div>
 
 Somente há suporte para Truetype (.ttf) e determinadas fontes Opentype. Se alguma fonte estiver ausente na lista, esse é provavelmente o motivo. <b>As fontes não podem ser expostas como um parâmetro.</b>
 
@@ -52,10 +52,10 @@ Quando um gráfico que usa texto é publicado no sbsar, a fonte é incorporada a
 | <b>Fonte</b> *Cadeia de Caracteres* | O recurso de fonte usado para processar o texto. |
 | <b>Tamanho da fonte</b> *Flutuante* | O tamanho da fonte do texto em pontos. |
 | <b>Alinhamento</b> *Inteiro* | Define o alinhamento do texto como esquerda, centro (padrão) ou direita. |
-| <b>Transformação</b> *Flutuante4* | A matriz de transformação 2x2 aplicada ao texto renderizado. |
-| <b>Posição</b> *Flutuante2* | A posição do texto na imagem de saída. |
-| <b>Fundo</b> *Flutuante/Flutuante4* | A cor de plano de fundo da imagem de saída. |
-| <b>Cor da fonte</b> *Flutuante/Flutuante4* | A cor do texto. |
+| <b>Transformação</b> *Precisão decimal 4* | A matriz de transformação 2x2 aplicada ao texto renderizado. |
+| <b>Posição</b> *Precisão decimal 2* | A posição do texto na imagem de saída. |
+| <b>Fundo</b> *Precisão decimal/Precisão decimal 4* | A cor de plano de fundo da imagem de saída. |
+| <b>Cor da fonte</b> *Precisão decimal/Precisão decimal 4* | A cor do texto. |
 
 ## Conectores de entrada
 

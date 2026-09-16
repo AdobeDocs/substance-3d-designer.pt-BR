@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
 breadcrumb-title: ""
-description: Use o nó Desfoque para aplicar efeitos de desfoque em texturas para suavizar detalhes e criar efeitos de foco suave.
+description: Use o nó Desfoque para aplicar efeitos de desfoque ao textura para suavizar detalhes e criar efeitos de foco suave.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Desfoque
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 6%
@@ -41,7 +41,7 @@ Embora o desfoque funcione bem para operações rápidas e simples, como suaviza
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="blur.resources/blur-tooltip.gif" alt="desfocar dica de ferramenta" /></div>
+<div data-preserve-html="true" align="center"><img src="blur.resources/blur-tooltip.gif" alt="desfocar dica de ferramenta" /></div>
 
 ## Parâmetros
 

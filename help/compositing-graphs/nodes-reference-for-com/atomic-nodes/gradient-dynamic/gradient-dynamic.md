@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ""
 description: Use o nó Gradiente (dinâmico) para criar gradientes dinâmicos que podem ser controlados por valores e parâmetros de entrada.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Gradiente (dinâmico)
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: dinâmico do gradiente](gradient-dynamic.resources/comp_dyngradient_1.png "Nó atômico: dinâmico do gradiente")
+![Nó atômico: dinâmico do gradiente](gradient-dynamic.resources/comp_dyngradient_1.png "Nó atômico: dinâmico do gradiente"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Ele serve como uma ligeira alternativa ao Nó Gradiente, mas, diferentemente do 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="dica de ferramenta de gradiente dinâmico" /></div>
+<div data-preserve-html="true" align="center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="dica de ferramenta de gradiente dinâmico" /></div>
 
 Isso permite principalmente evitar o problema em que os parâmetros não podem ser expostos, pois os parâmetros de cor são movidos para fora do nó. Isso é o que o torna “dinâmico”.
 
@@ -53,7 +53,7 @@ Como alternativa, o controle deslizante Posição de entrada de gradiente pode s
 | --- | --- |
 | <b>Endereçamento de gradiente</b> *Booleano* | Define se o Gradiente se repete (blocos) ou grampos.   Esse parâmetro determina como os pixels HDR do intervalo [0, 1] da entrada em tons de cinza são tratados: apertados ou dobrados até [0, 1]. |
 | <b>Orientação do gradiente</b> *Inteiro* | Define o eixo ao longo do qual a “Entrada de gradiente” deve ser amostrada:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Horizontal:</i> faça uma amostra de uma linha de pixels no eixo X.</li> <li data-preserve-html="true"><i>Vertical:</i> faça uma amostra de uma coluna de pixels no eixo Y.</li> </ul> |
-| <b>Posição de entrada do gradiente</b> *Precisão decimal* | A posição normalizada da linha ou coluna de pixels a serem amostrados em &#39;Entrada de gradiente&#39;. |
+| <b>Posição de entrada do gradiente</b> *Flutuante* | A posição normalizada da linha ou coluna de pixels a serem amostrados em &#39;Entrada de gradiente&#39;. |
 
 ## Conectores de entrada
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: Use o nó Curva para ajustar os valores de textura usando curvas personalizáveis para um controle preciso de cor e brilho.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Curva
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: curva](curve.resources/comp_curve_1.png "Nó atômico: curva")
+![Nó atômico: curva](curve.resources/comp_curve_1.png "Nó atômico: curva"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ O nó fornece uma interface para o remapeamento de tonalidade de imagem, semelha
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="curve.resources/curve-tooltip.gif" alt="dica de ferramenta de curva" /></div>
+<div data-preserve-html="true" align="center"><img src="curve.resources/curve-tooltip.gif" alt="dica de ferramenta de curva" /></div>
 
 Ao contrário da maioria dos outros nós, o nó Curva não tem uma interface padrão típica com controles deslizantes e parâmetros, mas em vez disso apresenta um editor de curva completo. Consulte a seção expansível abaixo sobre como usá-lo.
 

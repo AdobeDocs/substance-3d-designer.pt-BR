@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ""
 description: Use o nó 2D de transformação para aplicar transformações 2D a texturas, incluindo conversão, rotação e dimensionamento.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Transformação 2D
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: Transformação 2D](transformation-2d.resources/comp_transformation_1.png "Nó atômico: Transformação 2D")
+![Nó atômico: Transformação 2D](transformation-2d.resources/comp_transformation_1.png "Nó atômico: Transformação 2D"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Aplica uma matriz de transformação 2D a uma imagem: translação, rotação, e
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="dica de ferramenta de transform-2d" /></div>
+<div data-preserve-html="true" align="center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="dica de ferramenta de transform-2d" /></div>
 
 Este é um nó extremamente útil e amplamente aplicado, ele permite aumentar a divisão em blocos gráficos, remover divisão em blocos gráficos, colocar uma imagem em uma posição específica, esticar ou esmagar uma entrada, etc.
 

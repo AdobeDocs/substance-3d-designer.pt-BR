@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
-description: Use o nó Mapa de degradê para mapear valores em tons de cinza para cores usando rampas de degradê para colorização e efeitos.
+description: Use o nó Mapa de gradiente para mapear valores em tons de cinza para cores usando rampas de gradiente para colorir e aplicar efeitos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Mapa de gradiente
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Nó atômico: mapa de gradiente](gradient-map.resources/comp_gradient_1.png "Nó atômico: mapa de gradiente")
+![Nó atômico: mapa de gradiente](gradient-map.resources/comp_gradient_1.png "Nó atômico: mapa de gradiente"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Este nó tem uma finalidade dupla: pode ser usado simplesmente como um <b> </b>n
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="dica de ferramenta do mapa de degradê" /></div>
+<div data-preserve-html="true" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="dica de ferramenta do mapa de degradê" /></div>
 
 O nó oferece um editor de degradê avançado e repleto de recursos para mapear várias cores com precisão: acesse a seção [Editor de degradê](#gradient-editor) nesta página para saber mais.
 
@@ -49,18 +49,18 @@ O nó oferece um editor de degradê avançado e repleto de recursos para mapear 
 
 ## Editor de gradiente
 
-Essa janela oferece controles para editar o gradiente de referência usado pelo nó Mapa de gradientes para mapear valores de tons de cinza para cores.
+Essa janela oferece controles para editar o gradiente de referência usado pelo nó de Mapa de gradiente para mapear valores em tons de cinza para cores.
 
-Ele pode ser aberto a partir das <b>Propriedades</b> do nó Mapa de Degradê das seguintes maneiras:
+Ele pode ser aberto a partir das <b>Propriedades</b> do nó do Mapa de gradiente das seguintes maneiras:
 
 * Clique no LMB no botão <b>Editor de Degradê</b>;
-* Clique duas vezes no LMB em um pino na barra de gradientes. O pino clicado será então selecionado automaticamente no Editor de Degradê para que você possa editar seus valores diretamente.
+* Clique duas vezes em LMB em um fixar na barra de gradientes. O fixar clicado será então selecionado automaticamente no Editor de Gradiente para que você possa editar seus valores diretamente.
 
 ![Editor de gradiente](gradient-map.resources/image2017-2-17-16-13-5.png "Editor de gradiente")
 
-### Edição dos pinos de gradiente
+### Edição dos fixares de gradiente
 
-As cores e suas posições ao longo do gradiente são controladas por pinos colocados ao longo da barra de gradientes.
+As cores e suas posições ao longo do gradiente são controladas por fixares colocados ao longo da barra de gradientes.
 
 Cada pino define uma cor em sua posição ao longo do gradiente.
 
