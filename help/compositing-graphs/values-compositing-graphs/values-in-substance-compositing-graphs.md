@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba mais sobre tipos de valor e manipulação de dados em gráficos de composição de Substance para criação eficaz de materiais.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Values in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Valores em gráficos do Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '508'
 ht-degree: 2%
-
 ---
-
 
 # Valores em gráficos do Substance
 
@@ -32,10 +30,10 @@ Existem alguns casos de uso para isso, como:
 
 Dois novos nós atômicos funcionam com valores:
 
-|  |  |
-| --- | --- |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                       |  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | <div><img alt="ícone do nó do processador de valor" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/valueprocessor.png" title="ícone do nó do processador de valor" width="100px"/></div>  <b>[Processador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | O [Processador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) usa Qualquer número de Entradas de Tons de Cinza ou Cores e permite retornar um único Valor de cálculos com base nessas entradas. |
-| <div><img alt="Ícone do nó Entrada de valor" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="Ícone do nó Entrada de valor" width="100px"/></div>  **[Entrada de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | A [Entrada de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)permite criar um slot de entrada em subgráficos que são explicitamente definidos como um valor. |
+| <div><img alt="Ícone do nó Entrada de valor" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="Ícone do nó Entrada de valor" width="100px"/></div>  **[Valor de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)** | A [Entrada de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)permite criar um slot de entrada em subgráficos que são explicitamente definidos como um valor. |
 
 Além disso, outros nós lidam com eles de uma maneira específica:
 
@@ -51,9 +49,9 @@ Há uma nova guia em cada nó único ([Atômico](../../compositing-graphs/nodes-
 
 O uso de valores é um pouco diferente do trabalho de gráfico de Substance regular:
 
-Conexões de valor só podem ser feitas de um [Processador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), de uma [Entrada de Valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) ou de um [Subgráfico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Isso realmente significa que um Processador de valor é a única maneira de criar uma conexão de Valor do zero, não há nó “Valor estático” ou qualquer coisa semelhante. Em vez disso, crie uma Processador de valor, posicione um Valor estático e defina-o como saída para obter o mesmo resultado.
+Conexões de valor só podem ser feitas de um [Processador de valor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), de um [valor de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md) ou de um [subgrafo](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). Isso realmente significa que um Processador de valor é a única maneira de criar uma conexão de Valor do zero, não há nó “Valor estático” ou qualquer coisa semelhante. Em vez disso, crie uma Processador de valor, posicione um Valor estático e defina-o como saída para obter o mesmo resultado.
 
-Processador de valor só pode retornar um único Valor. Se você quiser retornar vários Valores, ou conjuntos ou Grupos de Valores, terá que criar um [Subgráfico](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
+Processador de valor só pode retornar um único Valor. Se você quiser retornar vários Valores, ou conjuntos ou Grupos de Valores, terá que criar um [subgrafo](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
 
 Para realçar onde os Valores são expostos ou em uso, qualquer Nó que tenha Entradas de Valor ou Saídas de Valor é realçado com uma borda amarela espessa:
 

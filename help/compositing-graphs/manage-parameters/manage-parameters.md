@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como gerenciar e organizar parâmetros em gráficos de composição de Substance para melhor organização do fluxo de trabalho.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Manage parameters
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Gerenciar parâmetros
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
-
 ---
-
 
 # Gerenciar parâmetros
 
@@ -122,7 +120,7 @@ As mesmas limitações listadas abaixo para nós atômicos se aplicam a este men
 
 É possível copiar todos os valores de parâmetros para um nó de origem e colá-los em um nó de destino. Os parâmetros dos nós de origem e de destino são <b>correspondidos com base em seus identificadores e tipos</b>.
 
-Por exemplo, um parâmetro &#39;Scale&#39;, cujo identificador é &#39;scale&#39; e o tipo é &#39;Float&#39;, pode ser copiado e colado em outro parâmetro &#39;Shape Scale&#39; quando seu identificador também é &#39;scale&#39; e seu tipo também é &#39;Float&#39;.
+Por exemplo, um parâmetro &#39;Escala&#39; cujo identificador é &#39;escala&#39; e cujo tipo é &#39;Precisão decimal&#39; pode ser copiado e colado em outro parâmetro &#39;Escala de Forma&#39; quando seu identificador também é &#39;escala&#39; e seu tipo também é &#39;Precisão decimal&#39;.
 
 Este recurso funciona da mesma maneira que o uso de um [arquivo de predefinição de parâmetro](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md). Na verdade, os dados copiados para a área de transferência são os mesmos que os dados armazenados nos arquivos predefinidos do SBSPRS e podem ser colados em qualquer editor de texto para serem revisados e editados.
 
@@ -165,11 +163,11 @@ Estas ações...
 
 [Mapa de gradiente](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
-[Cor de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Cor de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[Tons de cinza de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Tons de cinza de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[Valor de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Valor de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 

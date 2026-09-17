@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba mais sobre gráficos de composição de Substance no Substance 3D Designer para criar texturas de procedimento e fluxos de trabalho de material.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Gráficos do Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
-
 ---
-
 
 # Gráficos do Substance
 
@@ -59,7 +57,7 @@ O Texto com o número, ou o thickness da aresta, pode ser exposto externamente p
 
 
 
-Um gráfico de filtro usa um mapa normal como [entrada](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(com uma visualização personalizada), [converte-o em curvatura](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) e depois [ajusta o contraste](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) para criar uma máscara de bordas convexas como [saída](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) final.
+Um gráfico de filtro obtém uma mapa normal como [entrada](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) (com uma visualização personalizada), [converte-a em curvatura](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) e depois [ajusta o contraste](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) para criar uma máscara de bordas convexas como [saída](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) final.
 
 Os valores de contraste definidos no Histograma podem ser expostos, tornando-o um filtro simples, mas útil, em combinação com o slot de entrada dinâmico.
 

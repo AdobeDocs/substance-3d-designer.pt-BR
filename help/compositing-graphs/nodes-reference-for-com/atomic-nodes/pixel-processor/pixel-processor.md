@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use o nó Processador de pixels para processar pixels individuais usando expressões personalizadas para manipulação avançada de textura.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Pixel processor
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Processador de pixels
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '353'
 ht-degree: 1%
-
 ---
-
 
 # Processador de pixels
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nó atômico: Processador de pixels](pixel-processor.resources/comp_pixelprocessor_1.png "Nó atômico: Processador de pixels"){width="200px"}
+![Nó atômico: Processador de pixels](pixel-processor.resources/comp_pixelprocessor_1.png "Nó atômico: Processador de pixels"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Gera uma imagem na qual o valor de cada pixel é o resultado do [gráfico de função Substance](../../../../function-graphs/the-function-graph/the-function-graph.md) especificado.
 
@@ -39,31 +39,20 @@ O Processador de pixels permite executar uma função personalizada para cada pi
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="dica de ferramenta do processador de pixels" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 Semelhante ao [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), ele requer a configuração da funcionalidade interna para executar qualquer ação. A diferença entre o Processador de pixels e o FX-Map é que ele não está focado no posicionamento de padrões, com várias funções controlando a forma e o posicionamento dos padrões. Em vez disso, uma única função é executada em paralelo para cada pixel, onde cada pixel não tem conhecimento dos resultados de cálculo de seus vizinhos.
 
 O Processador de pixels é semelhante ao [Processador de valor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), que é executado somente com valores únicos e pode fornecer uma boa otimização em comparação ao Processador de pixels.
 
 Para qualquer pessoa acostumada a criar funções de [sombreador](../../../../glossary/glossary.md) em editores baseados em nó, o Processador de pixels deve oferecer um ambiente familiar.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -75,20 +64,6 @@ Para qualquer pessoa acostumada a criar funções de [sombreador](../../../../gl
 > 
 > Também recomendamos que você se familiarize com o conceito de [UVs](../../../../glossary/glossary.md), [amostragem de textura](../../../../glossary/glossary.md) e vetores.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
 
 ## Parâmetros
 
@@ -103,11 +78,6 @@ Para qualquer pessoa acostumada a criar funções de [sombreador](../../../../gl
 | --- | --- |
 | <b>Imagem de entrada #</b> *Tons de cinza/Cor* | Use um nó [Cor de exemplo](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) ou [Tons de cinza de amostra](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) para acessar os valores na entrada do índice especificado. |
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza/Cor* |  |
 
 ## Exemplos
 

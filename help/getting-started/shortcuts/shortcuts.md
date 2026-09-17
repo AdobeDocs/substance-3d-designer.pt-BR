@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/shortcuts.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Aprenda a usar atalhos de teclado no Substance 3D Designer para acelerar seu fluxo de trabalho e melhorar a produtividade.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Shortcuts
@@ -8,25 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Atalhos
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '339'
 ht-degree: 17%
-
 ---
-
 
 # Atalhos
 
 Nesta página, você pode encontrar uma visão geral de todos os atalhos para o Substance 3D Designer.
-
-## Sumário
-
-[Mapas de teclado](#keymaps)
-
-[Listas de atalhos](#shortcuts-lists)
 
 ## Mapas de teclado
 

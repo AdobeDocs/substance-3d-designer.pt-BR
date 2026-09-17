@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use o nó de mesclagem para mesclar duas texturas usando vários modos de mesclagem para criar efeitos compostos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Misturar
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 9%
-
+source-wordcount: '329'
+ht-degree: 8%
 ---
-
 
 # Misturar
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nó atômico: Mesclar](blend.resources/comp_blend_1.png "Nó atômico: Mesclar"){width="200px"}
+![Nó atômico: Mesclar](blend.resources/comp_blend_1.png "Nó atômico: Mesclar"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Combina duas imagens usando um modo de mesclagem especificado e uma máscara opcional.
 
@@ -37,46 +37,21 @@ Combina duas imagens usando um modo de mesclagem especificado e uma máscara opc
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="blend.resources/blend-tooltip.gif" alt="dica de ferramenta de mesclagem" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 Sua funcionalidade é semelhante a ter duas camadas acima uma da outra no [Substance 3D Painter](https://www.adobe.com/br/products/substance3d-painter.html) ou no [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), que se mesclam pelo modo de mesclagem definido na camada superior.
 
 >[!TIP]
 >
 > Saiba mais sobre os modos de mesclagem disponíveis no nó Mesclagem em [esta página dedicada](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
 
 ## Parâmetros
 
@@ -103,11 +78,6 @@ Sua funcionalidade é semelhante a ter duas camadas acima uma da outra no [Subst
 > 
 > Esta é a razão principal pela qual os novos usuários têm problemas com conexões coloridas vs. tons de cinza: certifique-se de que ambas as conexões sejam do mesmo tipo!
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza/Cor* |  |
 
 ## Exemplos
 

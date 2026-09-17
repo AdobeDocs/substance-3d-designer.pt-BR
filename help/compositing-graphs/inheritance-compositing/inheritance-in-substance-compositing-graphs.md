@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como a herança funciona em gráficos de composição de Substance para criar variações e hierarquias de gráficos reutilizáveis.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Inheritance in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Herança em gráficos do Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
-
 ---
-
 
 # Herança em gráficos do Substance
 
@@ -98,7 +96,7 @@ Este botão permite-lhe selecionar o método de herança que deverá ser usado p
 
 ![Alterando método de herança](inheritance-in-substance-compositing-graphs.resources/inheritance-change.gif "Alterando método de herança"){width="512px"}
 
-Na maioria dos casos, os parâmetros Base de um *nó* são definidos como *Relativo à entrada*, para aproveitar o comportamento de procedimento de encadeamento de nós, enquanto os parâmetros Base de um *gráfico* são definidos como *Relativo ao pai*, para que os parâmetros globais possam se adaptar ao contexto em que o gráfico é usado.
+Na maioria dos casos, os parâmetros Base de um *nó* são definidos como *Relativo à entrada*, para aproveitar o comportamento processual de encadear nós juntos, enquanto os parâmetros Base de um *gráfico* são definidos como *Relativo ao pai*, para que os parâmetros globais possam se adaptar ao contexto em que o gráfico é usado.
 
 ### AJUSTES DE VALORES HERDADOS
 
@@ -196,7 +194,7 @@ A entrada é herdada do gráfico e os dados recebidos são adaptados de acordo.
 </tr>
 </table>
 
-Uma das entradas pode ser definida como a **Entrada primária** do gráfico, clicando em **RMB** nesse nó de [Entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) e selecionando a opção **Definir como Entrada Primária** no menu contextual.
+Uma das entradas pode ser definida como a **Entrada primária** do gráfico, clicando em **RMB** nesse nó de [Entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) e selecionando a opção **Definir como Entrada Primária** no menu contextual.
 
 </td>
 <td style="border: 0;" valign="top">

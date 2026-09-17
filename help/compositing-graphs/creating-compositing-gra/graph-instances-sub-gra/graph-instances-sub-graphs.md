@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use instâncias de gráfico e subgrafos para criar componentes de gráfico reutilizáveis e fluxos de trabalho de material modulares.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Creating a Substance compositing graph > Graph instances and subgraphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Instâncias e subgrafos do gráfico
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
 
 # Instâncias e subgrafos do gráfico
 
@@ -42,7 +40,7 @@ Arraste um gráfico A do Explorer para outro gráfico B para criar um <b>nó de 
 
 Os nós podem ser divididos rapidamente em um novo gráfico selecionando os nós e usando “Criar gráfico a partir da seleção” no menu contextual. Você será solicitado a definir o identificador do novo gráfico, que deve ser exclusivo.
 
-Observe que, se os nós selecionados estiverem conectados a outros nós no gráfico, você também deverá criar nós de [Entrada](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) e de [Saída](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) no novo gráfico para transportar essas conexões para o subgrafo.
+Observe que, se os nós selecionados estiverem conectados a outros nós no gráfico, você também deverá criar nós de [Entrada](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) e de [Saída](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) no novo gráfico para transportar essas conexões para o subgrafo.
 
 Além disso, a substituição dos nós originais por um nó de instância que faz referência ao novo gráfico deve ser feita manualmente posteriormente.
 

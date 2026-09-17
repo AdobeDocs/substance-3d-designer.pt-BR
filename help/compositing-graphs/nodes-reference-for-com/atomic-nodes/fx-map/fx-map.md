@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use o nó FX-Map para aplicar gráficos de função a texturas para criar efeitos e padrões de procedimento.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > FX-Map
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: FX-Map
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 2%
-
+source-wordcount: '321'
+ht-degree: 1%
 ---
-
 
 # FX-Map
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nó atômico: FX-Map](fx-map.resources/fxmap.png "Nó atômico: FX-Map"){width="200px"}
+![Nó atômico: FX-Map](fx-map.resources/fxmap.png "Nó atômico: FX-Map"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 O FX-Map pode replicar e subdividir uma imagem ou entrada de padrão várias vezes e controlar a distribuição de cada padrão graças a parâmetros e funções lógicas.
 
@@ -37,27 +37,16 @@ O FX-Map pode replicar e subdividir uma imagem ou entrada de padrão várias vez
 </tr>
 </table>
 
-Semelhante ao [processador de pixels](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), cabe a você definir e criar as funções que determinam o comportamento e a saída deste nó.
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="dica de ferramenta fx-map" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
+Semelhante ao [processador de pixels](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), cabe a você definir e criar as funções que determinam o comportamento e a saída deste nó.
+
 
 >[!TIP]
 >
@@ -67,9 +56,6 @@ Semelhante ao [processador de pixels](../../../../compositing-graphs/nodes-refer
 >
 > É recomendável estar familiarizado com todos os aspectos do software e não ter problemas para criar [funções matemáticas](../../../../function-graphs/function-graphs.md) para os parâmetros antes de tentar usar o nó FX-Map.
 
-## Exemplos
-
-## Parâmetros
 
 Lembre-se de que, diferentemente de outros nós, a maior parte do comportamento de um FX-Map não é determinada pelos parâmetros, mas [editando as funções FX-Map](../../../../function-graphs/fxmaps/fxmaps.md) dentro dele.
 
@@ -80,8 +66,8 @@ Lembre-se de que, diferentemente de outros nós, a maior parte do comportamento 
 | <b>Região de renderização</b> *Flutuante4* | Permite definir o intervalo de pixels inicial para cada lado do FX-Map, resultando em um efeito de amplificação. |
 | <b>Região de divisão</b> *Flutuante4* | Permite que você desloque a distância de divisão em blocos gráficos do FX-Map. |
 | <b>Selecionar para fora</b> *Booleano* | Executa uma otimização por [remoção](../../../../glossary/glossary.md) de padrões que estão fora do intervalo normal. |
-| <b>Aspereza</b> *Flutuante* | Funciona como um multiplicador de profundidade e opacidade. Isso aplica uma tendência ao processo de mesclagem do FX-map. |
-| <b>Opacidade global</b> *Flutuante* | Define a opacidade global da saída do FX-map. |
+| <b>Aspereza</b> *Precisão decimal* | Funciona como um multiplicador de profundidade e opacidade. Isso aplica uma tendência ao processo de mesclagem do FX-map. |
+| <b>Opacidade global</b> *Precisão decimal* | Define a opacidade global da saída do FX-map. |
 
 ## Guia do FX-Map
 
@@ -94,11 +80,6 @@ Lembre-se de que, diferentemente de outros nós, a maior parte do comportamento 
 | <b>Fundo</b> *Tons de Cinza/Cor* PRIMÁRIO | A cor de plano de fundo da imagem de saída. |
 | <b>Imagem de entrada #</b> *Tons de cinza/Cor* |  |
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza/Cor* |  |
 
 ## Exemplos
 

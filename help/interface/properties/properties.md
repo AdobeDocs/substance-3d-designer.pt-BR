@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/properties.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use o painel Propriedades no Substance 3D Designer para exibir e editar propriedades de nó e parâmetros de gráfico.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Properties
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Propriedades
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 0%
-
 ---
-
 
 # Propriedades
 
@@ -61,7 +59,7 @@ Os <b>Parâmetros Base</b> e os <b>Atributos</b> são idênticos entre Nós e Gr
 
 Os nós oferecem <b>Parâmetros Específicos</b> ou<b> Parâmetros de Instância</b> (dependendo de se forem [nós Atômicos](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ou [Instâncias](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)), bem como <b>Valores de Entrada</b> para trabalhar com [valores](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
-Os nós atômicos [de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)e [de saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)são exceções, pois apresentam os <b>Atributos de Integração</b> e as <b>Condições</b> para visibilidade. Esses dois conjuntos de propriedades também podem ser acessados centralmente nas propriedades do gráfico, em Entradas e Saídas.
+Os nós atômicos [de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) e [de saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) são exceções, pois apresentam os <b>Atributos de Integração</b> e as <b>Condições</b> para visibilidade. Esses dois conjuntos de propriedades também podem ser acessados centralmente nas propriedades do gráfico, em Entradas e Saídas.
 
 Os gráficos têm algumas categorias extras. <b>Parâmetros de Entrada</b> lista [parâmetros expostos](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), <b>Entradas</b> e <b>Saídas</b> lista todas as propriedades dos nós de Entrada e Saída. [Você pode encontrar todas as propriedades do Gráfico explicadas em detalhes em uma página dedicada.](../../compositing-graphs/graph-parameters/graph-parameters.md)
 

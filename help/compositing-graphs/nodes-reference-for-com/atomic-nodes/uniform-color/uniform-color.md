@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use o nó Cor uniforme para gerar texturas de cores uniformes para criar preenchimentos de cores sólidas e camadas base.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Uniform color
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Cor uniforme
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 8%
-
+source-wordcount: '179'
+ht-degree: 7%
 ---
-
 
 # Cor uniforme
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nó atômico: cor uniforme](uniform-color.resources/comp_uniform_1.png "Nó atômico: cor uniforme"){width="200px"}
+![Nó atômico: cor uniforme](uniform-color.resources/comp_uniform_1.png "Nó atômico: cor uniforme"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Gera um valor plano de tons de cinza ou de cor.
 
@@ -38,24 +38,14 @@ Gera um valor plano de tons de cinza ou de cor.
 </table>
 
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="dica de ferramenta de cor uniforme" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
+
 
 >[!TIP]
 >
@@ -66,30 +56,6 @@ Gera um valor plano de tons de cinza ou de cor.
 > * Se for necessário um valor de tons de cinza, certifique-se de alternar o [modo de cores](#parameters) do nó para &#39;Tons de Cinza&#39;.
 > * Como a saída do nó é uma cor sem graça, você pode usar a menor resolução possível. Defina o parâmetro &#39;[Tamanho de saída](../../../../compositing-graphs/output-size/output-size.md)&#39; do nó para usar o [método de herança](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) &#39;Absoluto&#39; e uma resolução de 16x16 pixels.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## Parâmetros
 
@@ -98,11 +64,6 @@ Gera um valor plano de tons de cinza ou de cor.
 | <b>Modo de cores</b> *Booleano* | Alterna entre uma imagem em tons de cinza e uma imagem colorida de saída. |
 | <b>Cor de saída</b> *Flutuante/Flutuante4* | Seleciona a cor uniforme a ser usada na imagem de saída.   Ao usar o modo de cores “Cor”, o canal Alpha é usado para opacidade, onde 0 é totalmente transparente e 1 é totalmente opaco. |
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Cores/Tons de Cinza* |  |
 
 ## Exemplos
 

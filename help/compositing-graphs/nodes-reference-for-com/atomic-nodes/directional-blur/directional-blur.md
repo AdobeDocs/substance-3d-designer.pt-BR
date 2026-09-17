@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use o nó Desfoque direcional para aplicar efeitos de desfoque em uma direção específica para criar efeitos de desfoque de movimento e listras.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Desfoque direcional
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 9%
-
+source-wordcount: '200'
+ht-degree: 8%
 ---
-
 
 # Desfoque direcional
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nó atômico: desfoque direcional](directional-blur.resources/comp_dirmotionblur_1.png "Nó atômico: desfoque direcional"){width="200px"}
+![Nó atômico: desfoque direcional](directional-blur.resources/comp_dirmotionblur_1.png "Nó atômico: desfoque direcional"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Aplica desfoque em uma direção especificada, de acordo com um mapa de intensidade.
 
@@ -37,27 +37,16 @@ Este nó executa uma operação semelhante a um desfoque de movimento em uma ent
 </tr>
 </table>
 
-Semelhante ao “Desfoque”, também é uma operação mais rápida e de baixa qualidade. Uma alternativa estendida e de maior qualidade é fornecida no [Desfoque Anisotrópico](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), com uma compensação de desempenho
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="dica de ferramenta de desfoque direcional" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
+Semelhante ao “Desfoque”, também é uma operação mais rápida e de baixa qualidade. Uma alternativa estendida e de maior qualidade é fornecida no [Desfoque Anisotrópico](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), com uma compensação de desempenho
+
 
 ## Desfoque direcional e anisotrópico
 
@@ -82,30 +71,6 @@ As imagens abaixo mostram o desfoque direcional e o [desfoque anisotrópico](../
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de entrada
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
 
 ## Parâmetros
 
@@ -120,11 +85,6 @@ As imagens abaixo mostram o desfoque direcional e o [desfoque anisotrópico](../
 | --- | --- |
 | <b>Entrada</b> *Tons de Cinza/Cor* [PRIMÁRIO](../../../../glossary/glossary.md) | A imagem a ser processada. |
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza/Cor* |  |
 
 ## Exemplos
 

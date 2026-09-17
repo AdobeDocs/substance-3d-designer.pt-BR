@@ -1,39 +1,47 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
-breadcrumb-title: ''
-description: ''
+breadcrumb-title: ""
+description: ""
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Output
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Saída
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '793'
 ht-degree: 0%
-
 ---
-
 
 # Saída
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 30%; vertical-align: top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nó atômico: Saída](output.resources/comp_output_1.png "Nó atômico: Saída"){width="200px"}
+![Nó atômico: Saída](output.resources/comp_output_1.png "Nó atômico: Saída"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 O nó Saída especifica o <b>resultado</b> de um gráfico de Substance, ou um de seus resultados se mais de um nó Saída estiver presente nele.
 
 A imagem ou o valor conectado ao nó de Saída de um gráfico é gerado por qualquer [nó de instância](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) que represente esse gráfico e pode [ser exportado como uma saída de gráfico](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="output.resources/output-tooltip.gif" alt="dica de ferramenta de saída" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -75,20 +83,20 @@ Dessa forma, eles não têm impacto no formato de [exportações de bitmap](../.
 
 Como as saídas de gráfico são geralmente destinadas a ser o resultado final para um canal de textura específico, as saídas podem ser enviadas automaticamente para o amostrador apropriado do sombreador usado na Visualização 3D.
 
-Na verdade, uma saída que <b>Propriedade *Usage</b> corresponde a um uso de amostrador* no Visualização 3D será conectada a esse amostrador. Por exemplo, uma Saída com uso `basecolor` será conectada ao amostrador `basecolor` do Visualização 3D. (Saiba mais: [Exibir dados na exibição 3D](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view))
+Na verdade, uma saída que <b>Propriedade de uso</b> *corresponde a um uso de amostrador* na exibição 3D será conectada a esse amostrador. Por exemplo, uma Saída com uso `basecolor` será conectada ao amostrador `basecolor` do sombreador de Exibição 3D. (Saiba mais: [Exibir dados na exibição 3D](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view))
 
-Clique em RMB em uma área vazia da [Exibição de gráfico](../../../../interface/the-graph-view/the-graph-view.md) e selecione a opção <b>Exibir saídas na exibição 3D</b> no menu contextual para conectar todas as saídas aos amostradores com *usos correspondentes*.
+Clique em RMB em uma área vazia na [Exibição de gráfico](../../../../interface/the-graph-view/the-graph-view.md) e selecione a opção <b>Exibir saídas na exibição 3D</b> no menu contextual para conectar todas as saídas aos classificadores de exibição 3D com *usos correspondentes*.
 
 >[!IMPORTANT]
 >
-> Se vários usos forem configurados para, por exemplo, atribuir usos a canais em uma textura compactada, somente o *primeiro uso* da lista será conectado ao Visualização 3D. Essa é uma limitação conhecida.
+> Se vários usos forem configurados para, por exemplo, atribuir usos a canais em uma textura compactada, somente o *primeiro uso* da lista será conectado à Exibição 3D. Essa é uma limitação conhecida.
 
 ## Saída padrão
 
 Quando um gráfico tem mais de uma saída, uma delas pode ser definida como a saída padrão para esse gráfico. Especifica quais das saídas devem ser usadas para:
 
 * A miniatura de qualquer nó de instância que representa esse gráfico
-* Exibindo esses nós de instância no Visualização 2D
+* Visualizar esses nós de instância na Visualização 2D
 * A miniatura desse gráfico na Biblioteca (saiba como adicionar seus próprios recursos [aqui](../../../../interface/preferences-window/project-settings/project-settings.md))
 
 Esse recurso permite organizar as saídas do gráfico em qualquer ordem, independentemente de como o gráfico será visualizado como um nó.

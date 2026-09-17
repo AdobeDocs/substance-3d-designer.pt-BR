@@ -3,13 +3,11 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 447b0e3beb6c147063de7e2642d646a988de060e
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 21%
-
 ---
-
 
 # Substance 3D Designer {#using}
 
@@ -52,8 +50,8 @@ ht-degree: 21%
     + [Biblioteca](/help/interface/the-library/the-library.md)
     + [Gerenciamento de conteúdo e filtros personalizados](/help/interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)
   + [Propriedades](/help/interface/properties/properties.md)
-  + Exibição 2D{#2d-view}
-    + [Exibição 2D](/help/interface/2d-view/2d-view.md)
+  + Visualização 2D{#2d-view}
+    + [Visualização 2D](/help/interface/2d-view/2d-view.md)
     + [Ferramenta Classificador de Cores](/help/interface/2d-view/color-sampler/color-sampler.md)
   + Visualização 3D{#3d-view}
     + [Visualização 3D](/help/interface/3d-view/3d-view.md)
@@ -132,7 +130,9 @@ ht-degree: 21%
       + [Processador de valor](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
       + [Distorcer](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
       + [Saída](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-      + [Entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+      + [Cor de entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
+      + [Tons de cinza de entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
+      + [Valor de entrada](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
     + Biblioteca de nós{#node-library}
       + [Biblioteca de nós](/help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
       + Geradores de textura{#texture-generators}
@@ -374,7 +374,7 @@ ht-degree: 21%
           + [Seção transversal](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/cross-section/cross-section.md)
           + [Curvatura](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)
           + [Curvatura suave](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
-          + [Sobel de curvatura](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
+          + [Curvatura Sobel](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)
           + [Cor de difusão](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-color/diffusion-color.md)
           + [Escala de cinza de difusão](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-grayscale/diffusion-grayscale.md)
           + [Difusão UV](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-uv/diffusion-uv.md)
@@ -446,7 +446,7 @@ ht-degree: 21%
           + [Inclinar](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/skew/skew.md)
           + [Simetria](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry/symmetry.md)
           + [Simetria fatia](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry-slice/symmetry-slice.md)
-          + [Transformo Trapezoide](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md)
+          + [Transformação trappezoide](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md)
       + Filtros de material{#material-filters}
         + [Filtros de material](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
         + 1 clique{#1-click}
@@ -518,7 +518,7 @@ ht-degree: 21%
           + [Desgaste de couro](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/leather-wear/leather-wear.md)
           + [Luz](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md)
           + [Construtor de máscaras](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-builder/mask-builder.md)
-          + [Ouvido de borda metálica](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
+          + [Desgaste das bordas de metal](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
           + [Desgaste da tinta](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/paint-wear/paint-wear.md)
           + [Dirt seletivo](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/selective-dirt/selective-dirt.md)
           + [Alvejante solar](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/sun-bleach/sun-bleach.md)
@@ -547,7 +547,7 @@ ht-degree: 21%
           + [Ferramentas de caminho](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)
           + [Especificações de formato de caminhos](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md)
           + [Transformo 2D de Caminhos](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)
-          + [Mascarar para caminhos](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)
+          + [Mascarar caminhos](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)
           + [Polígono de caminhos](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)
           + [Visualizar caminhos](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)
           + [Distorção de caminhos](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)

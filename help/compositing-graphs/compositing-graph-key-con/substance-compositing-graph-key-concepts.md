@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Conheça os principais conceitos de gráficos de composição de Substance, incluindo nós, conexões e conceitos básicos de fluxo de trabalho.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Substance graph key concepts
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Conceitos-chave de gráficos do Substance
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 1%
-
 ---
-
 
 # Conceitos-chave de gráficos do Substance
 
@@ -43,7 +41,7 @@ Aqui estão algumas coisas que você deve saber sobre Saídas:
 * As saídas podem e devem ser <b>nomeadas exclusivamente</b> para identificá-las. Isso ajuda na exportação.
 * Cada conector do lado direito de qualquer Nó é na verdade uma Saída (consulte “Sub-gráficos para obter mais informações)
 
-Uma [Entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) é semelhante a uma Saída; é um slot vazio e aberto para você ou outro usuário conectar seus próprios dados. Permite a criação de gráficos que contenham dados de imagem externos definidos pelo usuário, como um filtro que modifique uma imagem de entrada (um desfoque ou um ajuste de contraste, por exemplo).
+Uma [Entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) é semelhante a uma Saída; é um slot vazio e aberto para você ou outro usuário conectar seus próprios dados. Permite a criação de gráficos que contenham dados de imagem externos definidos pelo usuário, como um filtro que modifique uma imagem de entrada (um desfoque ou um ajuste de contraste, por exemplo).
 
 Aqui estão algumas coisas que você deve saber sobre entradas:
 

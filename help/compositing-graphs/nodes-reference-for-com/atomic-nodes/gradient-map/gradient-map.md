@@ -1,33 +1,33 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
-breadcrumb-title: ''
-description: Use o nó Mapa de gradiente para mapear valores em tons de cinza para cores usando rampas de gradiente para colorir e aplicar efeitos.
+breadcrumb-title: ""
+description: Use o nó Mapa de degradê para mapear valores em tons de cinza para cores usando rampas de degradê para colorização e efeitos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Mapa de gradiente
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
-
 ---
-
 
 # Mapa de gradiente
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nó atômico: mapa de gradiente](gradient-map.resources/comp_gradient_1.png "Nó atômico: mapa de gradiente"){width="200px"}
+![Nó atômico: mapa de gradiente](gradient-map.resources/comp_gradient_1.png "Nó atômico: mapa de gradiente"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Remapeia os valores em tons de cinza em uma imagem usando um gradiente personalizado.
 
@@ -37,31 +37,17 @@ Este nó tem uma finalidade dupla: pode ser usado simplesmente como um <b> </b>n
 </tr>
 </table>
 
-O nó oferece um editor de degradê avançado e repleto de recursos para mapear várias cores com precisão: acesse a seção [Editor de degradê](#gradient-editor) nesta página para saber mais.
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="dica de ferramenta do mapa de degradê" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-## Exemplos
+O nó oferece um editor de degradê avançado e repleto de recursos para mapear várias cores com precisão: acesse a seção [Editor de degradê](#gradient-editor) nesta página para saber mais.
 
-## Parâmetros
+
 
 |  |  |
 | --- | --- |
@@ -71,20 +57,20 @@ O nó oferece um editor de degradê avançado e repleto de recursos para mapear 
 
 ## Editor de gradiente
 
-Essa janela oferece controles para editar o gradiente de referência usado pelo nó de Mapa de gradiente para mapear valores em tons de cinza para cores.
+Essa janela oferece controles para editar o gradiente de referência usado pelo nó Mapa de gradientes para mapear valores de tons de cinza para cores.
 
-Ele pode ser aberto a partir das <b>Propriedades</b> do nó do Mapa de gradiente das seguintes maneiras:
+Ele pode ser aberto a partir das <b>Propriedades</b> do nó Mapa de Degradê das seguintes maneiras:
 
 * Clique no LMB no botão <b>Editor de Degradê</b>;
-* Clique duas vezes em LMB em um fixar na barra de gradientes. O fixar clicado será então selecionado automaticamente no Editor de Gradiente para que você possa editar seus valores diretamente.
+* Clique duas vezes no LMB em um pino na barra de gradientes. O pino clicado será então selecionado automaticamente no Editor de Degradê para que você possa editar seus valores diretamente.
 
 ![Editor de gradiente](gradient-map.resources/image2017-2-17-16-13-5.png "Editor de gradiente")
 
-### Edição dos fixares de gradiente
+### Edição dos pinos de gradiente
 
-As cores e suas posições ao longo do gradiente são controladas por fixares colocados ao longo da barra de gradientes.
+As cores e suas posições ao longo do gradiente são controladas por pinos colocados ao longo da barra de gradientes.
 
-Cada fixar define uma cor em sua posição ao longo do gradiente.
+Cada pino define uma cor em sua posição ao longo do gradiente.
 
 As partes do gradiente antes e depois do primeiro e do último pinos são definidas para as cores desses pinos, respectivamente.
 
@@ -177,7 +163,7 @@ Espelha as posições dos pinos selecionados no gradiente.
 
 <b>Limpar tudo</b>
 
-Remove todos os pinos da barra de gradientes.
+Remove todos os fixares da barra de gradientes.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -190,23 +176,23 @@ Remove todos os pinos da barra de gradientes.
 
 <b>Inverter cores</b>
 
-Este botão alterna as cores dos pinos selecionados para o negativo.
+Esse botão alterna as cores das fixares selecionadas para o negativo.
 
 <b>Remover Saturação</b>
 
-Esse botão remove a saturação das cores definidas nos pinos selecionados.
+Esse botão remove a saturação das cores definidas nos fixares selecionados.
 
 ### Modos de interpolação
 
-Depois que os pinos são configurados, é possível controlar como as cores fazem a transição de um pino para o próximo usando os modos de interpolação disponíveis:
+Após a configuração dos fixares, é possível controlar como as cores fazem a transição de um fixar para o outro usando os modos de interpolação disponíveis:
 
 +++Linear
-O modo de interpolação padrão: aplica uma interpolação linear simples entre cada pino, para que o gradiente progrida uniformemente.
+O modo de interpolação padrão: aplica uma interpolação linear simples entre cada fixar, para que o gradiente progrida uniformemente.
 
 +++
 
 +++Tangentes planas
-Ao pensar na transição entre gradientes como curvas de Bézier em que os pinos são pontos da curva, esse modo define esses pontos como tangentes horizontais.
+Ao pensar na transição entre gradientes como curvas de Bézier em que fixares são pontos da curva, esse modo define esses pontos como tangentes horizontais.
 
 Isso resulta em uma transição que evoca uma interpolação de passo suave.
 
@@ -222,9 +208,9 @@ Quando esse modo é selecionado, o parâmetro <b>Smoothness</b> é habilitado e 
 +++
 
 +++Sem interpolação
-A cor muda apenas no local de um pino e permanece constante até o próximo pino na barra de gradientes.
+A cor muda apenas no local do fixar e permanece constante até o próximo fixar na barra de gradientes.
 
-Isso resulta em etapas rígidas entre as cores, e apenas as cores definidas pelos pinos estão presentes no gradiente.
+Isso resulta em etapas rígidas entre as cores, e apenas as cores definidas pelos fixares estão presentes no gradiente.
 
 +++
 
@@ -255,14 +241,14 @@ O Seletor de cores permite definir uma cor de várias maneiras:
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   Os controles deslizantes RGB, HSV e Alpha permitem definir uma cor com precisão, ajustando os controles deslizantes ou definindo diretamente seus valores numéricos.
 
   Como alternativa, use um hexcode no campo de entrada dedicado abaixo dos controles deslizantes.
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![Seletor de cores - controles deslizantes RGB, HSV e Alpha](gradient-map.resources/image2017-2-17-18-31-41.png "Seletor de cores - controles deslizantes RGB, HSV e Alpha")
 
@@ -289,7 +275,7 @@ O Seletor de cores permite definir uma cor de várias maneiras:
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 A cor selecionada será visualizada na metade superior da miniatura de cor.\
 A metade inferior exibe a cor usada anteriormente. Clique duas vezes no LMB para reverter a cor ajustada para ele.
@@ -303,11 +289,11 @@ A metade inferior exibe a cor usada anteriormente. Clique duas vezes no LMB para
 </tr>
 </table>
 
-Quando vários pinos são selecionados, os controles deslizantes de RGB, HSV e Alpha se transformam em controles deslizantes de delta (Δ), o que significa que eles são usados para compensar o valor de cada pino pela mesma quantidade.
+Quando vários fixares são selecionados, os controles deslizantes de RGB, HSV e Alpha se transformam em controles deslizantes de delta (Δ), o que significa que eles são usados para compensar o valor de cada fixar pela mesma quantidade.
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Além disso, os seguintes recursos estão disponíveis abaixo da miniatura de cor como botões:
 
@@ -321,7 +307,7 @@ Além disso, os seguintes recursos estão disponíveis abaixo da miniatura de co
 
 <b>sRGB</b>: use o espaço de cores sRGB para exibir cores. Quando desativada, o espaço de cor linear é usado;
 
-<b>Flutuante:</b> exibe os valores de RGB, HSV e Alpha no controle deslizante de ponto flutuante.
+<b>Precisão decimal:</b> exibe os valores de RGB, HSV e Alpha no controle deslizante de ponto flutuante.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
@@ -346,11 +332,6 @@ O controle deslizante <b>Precisão</b> ajudará você a ajustar o gradiente rec�
 | --- | --- |
 | <b>Entrada</b> *Tons de cinza* PRIMÁRIO | A imagem em tons de cinza a ser processada. |
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza* |  |
 
 ## Exemplos
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use o nó Bitmap para importar e usar imagens bitmap como texturas em gráficos de composição de Substance.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Bitmap
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
-
+source-wordcount: '456'
+ht-degree: 0%
 ---
-
 
 # Bitmap
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nó atômico: Bitmap](bitmap.resources/comp_bitmap.png "Nó atômico: Bitmap"){width="200px"}
+![Nó atômico: Bitmap](bitmap.resources/comp_bitmap.png "Nó atômico: Bitmap"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Carrega um [recurso de bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) no gráfico.
 
@@ -39,31 +39,20 @@ Existem algumas maneiras de criar este nó, e todas elas exigem que você entend
 </tr>
 </table>
 
-Você pode criar o nó do zero ou soltando um [bitmap](../../../../glossary/glossary.md) em um formato compatível na exibição Gráfico.
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="bitmap.resources/bitmap-tooltip.gif" alt="dica de ferramenta de bitmap" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
+Você pode criar o nó do zero ou soltando um [bitmap](../../../../glossary/glossary.md) em um formato compatível na exibição Gráfico.
+
+
 >[!TIP]
 >
-> Os bitmaps de 8 bits gerados ou importados podem ser pintados usando as [ferramentas de pintura de bitmaps](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) no encaixe do [Visualização 2D](../../../../interface/2d-view/2d-view.md).
+> Os bitmaps de 8 bits gerados ou importados podem ser pintados usando as [ferramentas de pintura de bitmaps](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) no encaixe da [exibição 2D](../../../../interface/2d-view/2d-view.md).
 
 >[!IMPORTANT]
 >
@@ -74,30 +63,6 @@ Você pode criar o nó do zero ou soltando um [bitmap](../../../../glossary/glos
 > * Por outro lado, tenha cuidado ao excluir um [recurso de Bitmap](../../../../resources/bitmap-resource/bitmap-resource.md) no Explorer: ele ainda funcionará no gráfico dessa sessão, pois é mantido em cache, mas será marcado como ausente na próxima vez que você carregar o [pacote](../../../../glossary/glossary.md).
 > * Quando um gráfico de Substance é [cozido](../../../../glossary/glossary.md), a resolução do bitmap será fixada em sua resolução dentro do gráfico e não com base em seu tamanho original. É recomendável verificar se o [parâmetro base](../../../../glossary/glossary.md) &#39;Tamanho de saída&#39; de um nó de Bitmap usa o [método de herança](../../../../glossary/glossary.md) &#39;Absoluto&#39;, e se o nó é seguido por um nó [Transformar 2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) definido como &#39;Em relação ao pai&#39; (ou seja, a resolução do gráfico de host).
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parâmetros
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Ferramentas de pintura de bitmap
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
 
 ## Parâmetros
 
@@ -111,11 +76,6 @@ Você pode criar o nó do zero ou soltando um [bitmap](../../../../glossary/glos
 
 Os bitmaps podem ser editados no Designer. Saiba mais sobre as ferramentas de edição em [esta seção](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza/Cor* |  |
 
 ## Exemplos
 

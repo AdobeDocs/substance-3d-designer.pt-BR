@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use o nó Curva para ajustar os valores de textura usando curvas personalizáveis para um controle preciso de cor e brilho.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Curva
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '611'
 ht-degree: 2%
-
 ---
-
 
 # Curva
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Nó atômico: curva](curve.resources/comp_curve_1.png "Nó atômico: curva"){width="200px"}
+![Nó atômico: curva](curve.resources/comp_curve_1.png "Nó atômico: curva"){width="100%"}
+
+<b>Entrada:</b> Nós Atômicos
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Remapeia os valores em uma imagem usando uma curva personalizada.
 
@@ -37,53 +37,19 @@ O nó fornece uma interface para o remapeamento de tonalidade de imagem, semelha
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="curve.resources/curve-tooltip.gif" alt="dica de ferramenta de curva" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 Ao contrário da maioria dos outros nós, o nó Curva não tem uma interface padrão típica com controles deslizantes e parâmetros, mas em vez disso apresenta um editor de curva completo. Consulte a seção expansível abaixo sobre como usá-lo.
 
 [No entanto, isso significa que nenhum dos parâmetros de um nó de Curva pode ser exposto a um subgrafo](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md). A única opção aqui é usar uma [Chave Múltipla](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) para alternar entre diferentes perfis de curva.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parâmetros
-
-### Editor de curva
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Conectores de entrada
-
-### Conectores de saída
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exemplos
-
-</td>
-</tr>
-</table>
 
 ## Parâmetros
 
@@ -105,12 +71,12 @@ Para criar um ponto, basta clicar duas vezes em qualquer lugar na Visualização
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Para obter resultados precisos, os nós curvos oferecem modos diferentes para cada ponto:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-5-36.png)
 
@@ -142,14 +108,14 @@ Você pode mostrar/ocultar o histograma de sua entrada apenas clicando em ![](cu
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Quando a entrada é um nó de cor, você pode ajustar a curva para cada canal:
 
 Basta selecionar a curva que deseja ajustar na lista suspensa localizada na parte superior direita:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-52-43.png)
 
@@ -165,7 +131,7 @@ No modo de curva de RGB, você pode ocultar/mostrar as curvas de canais individu
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Se você clicar com o botão direito do mouse na vista de curva, irá obter mais algumas opções.
 
@@ -259,11 +225,6 @@ O botão ![](curve.resources/image2017-2-20-19-12-45.png) redefine o nível de z
 | --- | --- |
 | <b>Entrada</b> *Tons de Cinza/Cor* PRIMÁRIO | A imagem a ser processada. |
 
-## Conectores de saída
-
-|  |  |
-| --- | --- |
-| <b>Saída</b> *Tons de cinza/Cor* |  |
 
 ## Exemplos
 

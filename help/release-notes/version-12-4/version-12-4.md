@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/release-notes/version-12-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Designer versão 12.4 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 12.4
@@ -8,19 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Versão 12.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 1%
-
 ---
-
 
 # Versão 12.4
 
-O **Substance 3D Designer 12.4** traz várias melhorias na qualidade de vida (uma ferramenta para limpar um gráfico, usando fórmulas básicas para definir parâmetros, um botão para gerar semente aleatória, um bloqueio para tamanho etc.) e suporte a gráficos de modelos de Substance na API Python. Veja abaixo para obter mais detalhes sobre todas essas alterações.
+O **Substance 3D Designer 12.4** traz várias melhorias na qualidade de vida (uma ferramenta para limpar um gráfico, usando fórmulas básicas para definir parâmetros, um botão para gerar semente aleatória, um bloqueio para tamanho etc.) e suporte a gráficos de modelos do Substance na API Python. Veja abaixo para obter mais detalhes sobre todas essas alterações.
 
 Data de lançamento: *31 de janeiro de 2023*
 
@@ -58,13 +56,13 @@ Agora você pode bloquear a largura e o height do Tamanho de saída para manter 
 
 ### Transformar a entrada da imagem em Cor/Escala de cinza
 
-Alterne rapidamente entre uma [Cor de Entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) e uma [Escala de Cinza de Entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) pelo menu contextual do nó.
+Alterne rapidamente entre uma [Cor de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) e uma [Escala de cinza de entrada](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md) pelo menu contextual do nó.
 
 ![](version-12-4.resources/final-switch.gif){width="640px"}
 
-### Selecione o pino clicado ao exibir o Editor de gradiente
+### Selecione o fixar clicado ao exibir o Editor de gradiente
 
-No painel de propriedades, ao clicar em um pino para editar um gradiente, agora você selecionará automaticamente o pino correspondente no [Editor de gradiente](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) exibido.
+No painel de propriedades, ao clicar em um fixar para editar um gradiente, agora você selecionará automaticamente o fixar correspondente no [Editor de gradiente](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) exibido.
 
 ![](version-12-4.resources/final-gradient.gif){width="640px"}
 
@@ -102,13 +100,13 @@ Esta versão 12.4 traz também o suporte completo de gráficos de modelos de Sub
 * [IU] Realçar na Visualização 3D o item atualmente selecionado no Navegador de cena
 * [UX] Redefinir intervalos do controle deslizante quando seu valor é redefinido
 * [API] Permitir a adição de ações às barras de ferramentas de exibição de gráfico
-* [API] Permite criar/editar/avaliar um gráfico de modelo do Substance a partir da API
+* [API] Permite criar/editar/avaliar um gráfico de modelo de Substance pela API
 
 <b>Corrigido:</b>
 
-* [Visualização 3D] O valor da propriedade “DirectX normal” não é compartilhado entre os renderizadores
-* [Visualização 3D] A exibição das estatísticas de cena é ampliada quando a viewport é pequena
-* [Visualização 3D] A propriedade de exibição do Wireframe não foi salva
+* [3D View] O valor da propriedade “DirectX normal” não é compartilhado entre os renderizadores
+* [Exibição 3D] A exibição das estatísticas de cena é ampliada quando a viewport é pequena
+* [3D View] A propriedade de exibição do Wireframe não é salva
 * [Conteúdo] Os parâmetros de Cor de desfoque radial não têm efeito no canal alfa
 * [Localização] Controles deslizantes e botões adicionais são exibidos em Propriedades do OpenGL do ambiente.
 * [MDL]&#x200B;[modelo Substance] Falha ao excluir nós expostos
