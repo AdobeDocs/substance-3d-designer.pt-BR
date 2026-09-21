@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
+breadcrumb-title: ""
 description: Use o nó Forma de onda 1 para gerar padrões de forma de onda para criar texturas orgânicas e variações de procedimentos.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Waveform 1
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Forma de onda 1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '347'
 ht-degree: 1%
-
 ---
-
 
 # Forma de onda 1
 
@@ -56,11 +54,11 @@ Uma organização horizontal de padrões selecionados pelo usuário empilhados e
 | <b>Amostras</b> <i>Inteiro</i> | A quantidade de padrões colocados ao longo do eixo X para desenhar a forma de onda, onde um valor mais baixo resulta em uma aparência mais passo a passo. |
 | <b>Função</b> <i>Inteiro</i> | A função usada para desenhar a forma de onda.   Controla o tamanho vertical do padrão colocado em cada amostra:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Ruído de valor:</i> uma distribuição aleatória de valores</li> <li data-preserve-html="true"><i>Cosseno:</i> os valores seguem a progressão de uma função de cosseno</li> <li data-preserve-html="true"><i>Função personalizada:</i> use uma função de autoria do usuário para direcionar os valores</li> </ul> |
 | <b>Função personalizada</b> <i>Flutuante</i>   *Disponível quando &#39;Function&#39; está definido como &#39;Custom function&#39;* | Calcula o tamanho vertical do padrão colocado em cada amostra.   Variáveis disponíveis:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>pos</b> (<i>float</i>) A posição do padrão no eixo X. Isso pode ser usado para selecionar padrões.</li> </ul> |
-| <b>Aspereza</b> <i>Precisão decimal</i> | Interpola entre uma forma de onda limpa e suave com uma mais áspera e distribuída uniformemente.    Isso pode ser considerado um sinal limpo vs. ruído branco. |
+| <b>Aspereza</b> <i>Flutuante</i> | Interpola entre uma forma de onda limpa e suave com uma mais áspera e distribuída uniformemente.    Isso pode ser considerado um sinal limpo vs. ruído branco. |
 | <b>Escala</b> <i>Inteiro</i> | A extensão horizontal da forma de onda visível na imagem. |
-| <b>Amplitude mínima</b> <i>Precisão decimal</i> | O valor mínimo (ou thickness) da forma de onda. |
-| <b>Amplitude máxima</b> <i>Precisão decimal</i> | O valor máximo (ou thickness) da forma de onda. |
-| <b>Ruído</b> <i>Precisão decimal</i> | Aplica ruído à forma de onda que subtrai aleatoriamente de sua extensão vertical. |
+| <b>Amplitude mínima</b> <i>Flutuante</i> | O valor mínimo (ou thickness) da forma de onda. |
+| <b>Amplitude máxima</b> <i>Flutuante</i> | O valor máximo (ou thickness) da forma de onda. |
+| <b>Ruído</b> <i>Flutuante</i> | Aplica ruído à forma de onda que subtrai aleatoriamente de sua extensão vertical. |
 | <b>Posição</b> <i>Inteiro</i> | A posição da forma de onda na imagem:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Centralizado:</i> a origem está no centro vertical da imagem</li> <li data-preserve-html="true"><i>Parte inferior:</i> a origem é a parte inferior da imagem</li> </ul> |
 | <b>Padrão</b> <i>Inteiro</i> | O padrão colocado em cada amostra da forma de onda. |
 | <b>Variação de padrão</b> <i>Flutuante</i> | Um ajuste adicional disponível para alguns padrões. |
@@ -69,17 +67,12 @@ Uma organização horizontal de padrões selecionados pelo usuário empilhados e
 
 ## Exemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Forma de onda 1 - Exemplo 1](waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif "Forma de onda 1 - Exemplo 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif" class="modal-image" alt="Forma de onda 1 - Exemplo 1" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

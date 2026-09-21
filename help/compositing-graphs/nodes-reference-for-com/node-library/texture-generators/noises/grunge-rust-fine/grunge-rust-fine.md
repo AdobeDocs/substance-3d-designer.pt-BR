@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
+breadcrumb-title: ""
 description: Use o nó Ferrugem de Desgaste Fina para gerar padrões de ferrugem fina para adicionar efeitos de corrosão e intemperismo aos metais.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rust Fine
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Ferrugem de desgaste Fina
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '186'
 ht-degree: 1%
-
 ---
-
 
 # Ferrugem de desgaste Fina
 
@@ -52,19 +50,20 @@ O nó **Ferrugem de Desgaste Fina** gera um mapa de desgaste semelhante a uma so
 | <b>Avançado</b> |  |
 | <b>Contraste de Desgaste base</b> <i>Precisão decimal</i> | Ajusta o contraste da textura de desgaste usada como base para a ferrugem. |
 | <b>Intensidade de distorção base</b> <i>Precisão decimal</i> | Ajusta a intensidade do efeito de distorção aplicado no mapa de desgaste usado como base para a ferrugem. |
-| <b>Intensidade das listras</b> <i>Precisão decimal</i> | Ajusta a intensidade das listras e pontos mais brilhantes sobrepostos na textura base do desgaste. |
-| <b>Intensidade de ruído</b> <i>Precisão decimal</i> | Ajusta a intensidade do ruído aplicado na textura base do desgaste. |
-| <b>Intensidade de nitidez</b> <i>Precisão decimal</i> | Ajusta a intensidade do efeito de nitidez global. |
+| <b>Intensidade das listras</b> <i>Flutuante</i> | Ajusta a intensidade das listras e pontos mais brilhantes sobrepostos na textura base do desgaste. |
+| <b>Intensidade de ruído</b> <i>Flutuante</i> | Ajusta a intensidade do ruído aplicado na textura base do desgaste. |
+| <b>Intensidade de nitidez</b> <i>Flutuante</i> | Ajusta a intensidade do efeito de nitidez global. |
 
 ## Exemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rust-fine.resources/grungerustfine-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-rust-fine.resources/grungerustfine-variant2.jpg" class="modal-image" alt="Ferrugem de desgaste Fina - Exemplo 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rust-fine.resources/grungerustfine-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-rust-fine.resources/grungerustfine-variant.jpg" class="modal-image" alt="Ferrugem de desgaste Fina - Exemplo 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

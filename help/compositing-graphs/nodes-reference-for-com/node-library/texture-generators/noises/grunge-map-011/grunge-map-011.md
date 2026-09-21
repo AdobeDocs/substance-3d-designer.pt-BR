@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-011.html"
-breadcrumb-title: ''
-description: Use o nó Mapa do Desgaste 011 para gerar texturas de desgaste de procedimento para adicionar detalhes da superfície e efeitos de desgaste aos materiais.
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-011.html"
+breadcrumb-title: ""
+description: Use o nó Mapa do Desgaste 011 para gerar texturas de desgaste processuais para adicionar detalhes da superfície e efeitos de desgaste aos materiais.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 011
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Mapa do desgaste 011
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1668632724231982c98a508ae7f87642c5888648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 8%
-
 ---
-
 
 # Mapa do desgaste 011
 
@@ -33,7 +31,7 @@ ht-degree: 8%
 
 ## Descrição
 
-Isso gera um Noisemap complexo e combinado. Pode ser muito útil como um procedimento detalhado, mas tenha em mente que eles exigem muito desempenho e, portanto, são mais lentos de gerar.
+Isso gera um Noisemap complexo e combinado. Pode ser muito útil como um processual detalhado, mas tenha em mente que eles exigem muito desempenho e, portanto, são mais lentos de gerar.
 
 </td>
 </tr>
@@ -54,10 +52,12 @@ Isso gera um Noisemap complexo e combinado. Pode ser muito útil como um procedi
 
 ## Exemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-map-011.resources/grungemap-011-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-map-011.resources/grungemap-011-ex.gif" class="modal-image" alt="Mapa do desgaste 011 - Exemplo 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

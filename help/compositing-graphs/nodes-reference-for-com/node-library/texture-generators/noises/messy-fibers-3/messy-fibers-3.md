@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-3.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-3.html"
+breadcrumb-title: ""
 description: Use o nó Messy Fibres 3 para gerar padrões de fibra complexos para criar efeitos de textura de tecido e têxtil.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 3
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Fibras bagunçadas 3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '309'
 ht-degree: 1%
-
 ---
-
 
 # Fibras bagunçadas 3
 
@@ -68,32 +66,23 @@ Veja também: [Fibras confusas 1](../../../../../../compositing-graphs/nodes-ref
 
 ## Exemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Fibras bagunçadas 3 - Exemplo 1](messy-fibers-3.resources/messy_fibers_3_1.png "Fibras bagunçadas 3 - Exemplo 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Fibras bagunçadas 3 - Exemplo 2](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.gif "Fibras bagunçadas 3 - Exemplo 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Fibras bagunçadas 3 - Exemplo 3](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso1.gif "Fibras bagunçadas 3 - Exemplo 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Fibras bagunçadas 3 - Exemplo 4](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.6.gif "Fibras bagunçadas 3 - Exemplo 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="messy-fibers-3.resources/messy_fibers_3_1.png" class="modal-image" alt="Fibras bagunçadas 3 - Exemplo 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.gif" class="modal-image" alt="Fibras bagunçadas 3 - Exemplo 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso1.gif" class="modal-image" alt="Fibras bagunçadas 3 - Exemplo 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.6.gif" class="modal-image" alt="Fibras bagunçadas 3 - Exemplo 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>
