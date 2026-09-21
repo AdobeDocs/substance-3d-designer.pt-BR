@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+breadcrumb-title: ""
 description: Extraia propriedades de material de cenas 3D para usar em gráficos de Substance para fluxos de trabalho de criação de material.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Extracting materials values and textures
@@ -8,49 +8,27 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Extraindo valores e texturas de materiais
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '853'
 ht-degree: 0%
-
 ---
-
 
 # Extraindo valores e texturas de materiais
 
 As propriedades dos materiais podem ser extraídas para serem usadas em gráficos de Substance.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+## Novo gráfico do textura
 
-## Novo gráfico a partir de texturas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Extrair textura
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Extrair valor
-
-</td>
-</tr>
-</table>
-
-## Novo gráfico a partir de texturas
-
-A ação “Criar gráfico a partir das entradas de textura” cria um novo gráfico de Substance com todas as texturas usadas por um material
+A ação “Criar gráfico a partir de entradas de textura” cria um novo gráfico de Substance com todas as texturas usadas por um material
 
 Algumas coisas acontecem ao usar esta ação:
 
 * Um gráfico de Substance com o nome do material criado no local selecionado.
 * Um [recurso de bitmap](../../resources/bitmap-resource/bitmap-resource.md) é criado para cada textura usada pelo material e colocado em uma pasta nomeada após o material, em uma pasta “Recursos”.
-* No gráfico, os nós [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) são criados para cada um desses recursos de bitmap e conectados automaticamente aos nós [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) configurados após as propriedades de material que usam texturas.
+* No gráfico, os nós [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) são criados para cada um desses recursos de bitmap e conectados automaticamente aos nós [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) configurados após as propriedades de material usando o textura.
 * Se cada canal de uma mesma textura for usado para orientar propriedades de material diferentes (a técnica é chamada de [embalagem de canal](../../glossary/glossary.md)), os nós de [conversão de tons de cinza](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) serão adicionados automaticamente para selecionar os canais apropriados.
 * O gráfico é conectado automaticamente ao material e sua aparência não deve ser alterada até que você faça edições no gráfico.
 
@@ -58,9 +36,9 @@ Algumas coisas acontecem ao usar esta ação:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Criar gráfico a partir das entradas de textura - Ação no visor &#39;Exibição 3D&#39;](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionViewport.png "Criar gráfico a partir das entradas de textura - Ação no visor &#39;Exibição 3D&#39;"){zoomable="yes"}
+![Criar gráfico a partir de entradas de textura - Ação no visor &#39;Visualização 3D&#39;](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionViewport.png "Criar gráfico a partir de entradas de textura - Ação no visor &#39;Visualização 3D&#39;"){zoomable="yes"}
 
-*Ação no visor 3D*
+*Ação no Visualização 3D viewport*
 
 </td>
 <td style="border: 0;" valign="top">
@@ -93,7 +71,7 @@ Algumas coisas acontecem ao usar esta ação:
 
 >[!TIP]
 >
-> É possível acessar a ação rápida e diretamente na janela de visualização 3D, colocando o cursor no objeto e pressionando <b>Shift+LMB</b> para selecioná-lo. em seguida, clique em RMB para acessar um menu contextual que hospeda a ação.
+> Você pode acessar a ação rápida e diretamente na porta de visualização do Visualização 3D, colocando o cursor no objeto e pressionando <b>Shift+LMB</b> para selecioná-lo. em seguida, clique em RMB para acessar um menu contextual que hospeda a ação.
 
 >[!NOTE]
 >

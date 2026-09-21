@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-4.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-4.html"
+breadcrumb-title: ""
 description: Use o nó Ruído direcional 4 para gerar padrões de ruído direcional com quatro oitavas para criar texturas anisotrópicas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional noise 4
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: RUÍDO DIRECIONAL 4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '293'
 ht-degree: 1%
-
 ---
-
 
 # RUÍDO DIRECIONAL 4
 
@@ -26,7 +24,7 @@ ht-degree: 1%
 
 ![Ruído direcional 4 - Ícone](directional-noise-4.resources/directional_noise_4.png "Ruído direcional 4 - Ícone"){width="200px"}
 
-<b>Entrada:</b> geradores de textura > Ruídos
+<b>Entrada:</b> geradores de Textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -56,9 +54,9 @@ Veja também: [Ruído direcional 1](../../../../../../compositing-graphs/nodes-r
 |  |  |
 |:---|:---|
 | <b>Escala</b> <i>Inteiro</i> | A subdivisão da grade usada para gerar os blocos de ruído.    Um valor mais alto resulta no desenho de mais ladrilhos e em um ruído mais denso. |
-| <b>Desordem</b> <i>Flutuante</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
-| <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
-| <b>anisotropia de distúrbio</b> <i>Flutuante</i> | Controla a extensão das direções do deslocamento aplicadas pelo parâmetro <b>Desordem</b>, em que um valor mais alto resulta em uma direção mais estreita e definida.    A direção é controlada pelo parâmetro <b>Ângulo de anisotropia de desordem</b>. |
+| <b>Desordem</b> <i>Precisão decimal</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
+| <b>Velocidade do distúrbio</b> <i>Precisão decimal</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
+| <b>anisotropia de distúrbio</b> <i>Precisão decimal</i> | Controla a extensão das direções do deslocamento aplicadas pelo parâmetro <b>Desordem</b>, em que um valor mais alto resulta em uma direção mais estreita e definida.    A direção é controlada pelo parâmetro <b>Ângulo de anisotropia de desordem</b>. |
 | <b>ângulo de anisotropia de desordem</b> <i>Flutuante</i> | Controla a direção do deslocamento aplicado pelo parâmetro <b>Desordem</b> quando o parâmetro &#39;anisotropia de Desordem&#39; não é zero. |
 | <b>Ângulo</b> <i>Flutuante</i> | Ângulo usado para definir a direção do ruído, em número de voltas e começando na horizontal direita. |
 | <b>Ângulo aleatório</b> <i>Flutuante</i> | O valor máximo de variação aleatória aplicado ao valor <b>Ângulo</b>, em número de voltas. |
@@ -67,32 +65,23 @@ Veja também: [Ruído direcional 1](../../../../../../compositing-graphs/nodes-r
 
 ## Exemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Ruído direcional 4 - Exemplo 1](directional-noise-4.resources/directional_noise_4_1.png "Ruído direcional 4 - Exemplo 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Ruído direcional 4 - Exemplo 2](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso0.gif "Ruído direcional 4 - Exemplo 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Ruído direcional 4 - Exemplo 3](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso1.gif "Ruído direcional 4 - Exemplo 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Ruído direcional 4 - Exemplo 4](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.3_aniso0.6.gif "Ruído direcional 4 - Exemplo 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-noise-4.resources/directional_noise_4_1.png" class="modal-image" alt="Ruído direcional 4 - Exemplo 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso0.gif" class="modal-image" alt="Ruído direcional 4 - Exemplo 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso1.gif" class="modal-image" alt="Ruído direcional 4 - Exemplo 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-noise-4.resources/noise_directional_noise_4_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Ruído direcional 4 - Exemplo 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>
