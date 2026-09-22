@@ -45,7 +45,7 @@ ht-degree: 6%
 
 - Entenda o que bloqueia o download de arquivos SBS (perguntado [aqui](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
 - Entenda como podemos testar páginas em tempo real sem sermos públicos ou incluídos em ToC
-- Opções de filtragem do Explorer para a lista de amostras: Microsite? ([Exemplo](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
+- Opções de filtragem do Explorer para a lista de amostras: Microsite? ([Exemplo](https://experienceleague.adobe.com/pt-br/tools/campaign-error-codes))
 - Automatizar criação de item de amostra
   - Assimilar metadados de arquivos (JSON, YAML, ...)
   - Miniatura em linha (clique para ampliar)
