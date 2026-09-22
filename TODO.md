@@ -1,7 +1,7 @@
 ---
-source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
+source-git-commit: 2266f844db20e938884afc335de4a6f753dff288
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '107'
 ht-degree: 11%
 ---
 # A FAZER
@@ -21,7 +21,7 @@ ht-degree: 11%
   * Metalidade / Metálico
   * HDR
   * Especular
-  * Mapa de altura
+  * mapa de heights
   * Opacidade
   * Frustum
   * Espaço tangente
@@ -35,6 +35,7 @@ ht-degree: 11%
 
 ## Correções
 
+* Corrigir imagem danificada na página `BnW spots 2`
 * Corrigir link para a primeira imagem de exemplo nas páginas do nó (por exemplo, novos ruídos)
 
 ## Investigar
