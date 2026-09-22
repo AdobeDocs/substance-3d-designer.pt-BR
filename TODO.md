@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2266f844db20e938884afc335de4a6f753dff288
+source-git-commit: e888ac71160a080fffba861f2bb716dcd56008a6
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 11%
+source-wordcount: '181'
+ht-degree: 6%
 ---
 # A FAZER
 
@@ -14,7 +14,6 @@ ht-degree: 11%
 ## Adições
 
 * Pontos de entrada para a documentação da API Python no AdobeDocs
-* Exibição 3D: usar `refineLevel = 0` para melhorar o desempenho ao usar deslocamento em malhas de poli altas
 * Exemplos na página “Pop-up de documentação”
 * Glossário:
   * HDR
@@ -41,3 +40,17 @@ ht-degree: 11%
 ## Investigar
 
 * Componente Antes/Depois
+
+## HUB DE APRENDIZADO
+
+- Entenda o que bloqueia o download de arquivos SBS (perguntado [aqui](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
+- Entenda como podemos testar páginas em tempo real sem sermos públicos ou incluídos em ToC
+- Opções de filtragem do Explorer para a lista de amostras: Microsite? ([Exemplo](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
+- Automatizar criação de item de amostra
+  - Assimilar metadados de arquivos (JSON, YAML, ...)
+  - Miniatura em linha (clique para ampliar)
+  - Marcador de complexidade em itens de amostra
+- Fornecer aos autores da amostra a ferramenta de validação de SBS
+- Mencione arquivos SBS para download de ativos 3D (com assinatura ativa)
+
+Microsite para glossário?

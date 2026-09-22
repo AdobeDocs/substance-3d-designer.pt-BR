@@ -1,6 +1,6 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use o pop-up Deslocamento para ajustar rapidamente o deslocamento e o mosaico aplicados às malhas em uma cena 3D.
 helpx_creative_field: ""
 helpx_description: ""
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Visualização 3D - pop-up de Deslocamento
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 2%
-
 ---
-
 
 # pop-up deslocamento
 
@@ -74,6 +72,13 @@ valor de subdivisão.
 
 A subdivisão é contextual: é otimizada de tal forma que apenas a superfície com um *valor de height não uniforme* ou
 um *mapa de altura não simples* será subdividido, independentemente do valor do parâmetro.
+
+>[!TIP]
+>
+>A técnica de mosaico envolve uma etapa de preparação que é executada independentemente de qualquer mosaico que realmente ocorra. (Por exemplo, `Tessellation factor = 1`)
+>Para malhas de poli alto, essa etapa pode ser demorada e afetar significativamente o desempenho ao usar o deslocamento.
+>
+>Se o mosaico não for necessário, você poderá desabilitar a técnica totalmente definindo o parâmetro **Refinar nível** como `0` nas propriedades dos objetos `Mesh` listados no [Navegador de cena](../scene-browser/scene-browser.md#scene-tree).
 
 ### Por material
 

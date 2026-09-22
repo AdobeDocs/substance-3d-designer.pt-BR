@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/3d-view/scene-browser.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
+breadcrumb-title: ""
 description: Use o Navegador de cena para navegar e gerenciar elementos, materiais e objetos da cena 3D na viewport.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Scene browser
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Navegador de cena
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '789'
 ht-degree: 1%
-
 ---
-
 
 # Navegador de cena
 
@@ -30,26 +28,6 @@ Como o Designer usa o [USD](https://openusd.org/release/index.html) para descrev
 
 ![Navegador de cena - Cena 3D carregada](scene-browser.resources/loaded3DScene.png "Navegador de cena - Cena 3D carregada"){zoomable="yes"}
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Árvore de cenas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Alternar objetos na cena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Materiais conectados
-
-</td>
-</tr>
-</table>
-
 ## Árvore de cenas
 
 <table>
@@ -59,6 +37,8 @@ Como o Designer usa o [USD](https://openusd.org/release/index.html) para descrev
 O navegador de cenas exibe uma lista de objetos organizados em uma árvore hierárquica.
 
 Os objetos têm parentesco com outros objetos, até a raiz da cena. Um objeto pai tem um botão de seta que é usado para expandir ou recolher a lista de seus filhos.
+
+Alguns objetos têm propriedades que podem ser exibidas e editadas no encaixe [Propriedades](../../../interface/properties/properties.md) quando selecionadas: ambiente, câmera, luzes, `Mesh` objetos e [substituições de material](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

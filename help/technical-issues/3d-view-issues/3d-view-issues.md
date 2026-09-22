@@ -1,34 +1,32 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/technical-issues/3d-view-issues.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
+breadcrumb-title: ""
 description: Solucione problemas de Visualização 3D no Substance 3D Designer, incluindo problemas de renderização, exibição e desempenho.
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > 3D View issues
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Visualização 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
+title: Problemas de visualização 3D
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1723'
 ht-degree: 0%
-
 ---
 
-
-# Visualização 3D
+# Problemas de visualização 3D
 
 Esta página lista problemas técnicos relacionados à [exibição 3D](../../interface/3d-view/3d-view.md) no Substance 3D Designer e oferece etapas de solução de problemas para cada um.
 
 ## Baixo desempenho: não é usada GPU separada
 
-**![(erro)](3d-view-issues.resources/error.svg) Problema**
+![(erro)](3d-view-issues.resources/error.svg) **Problema**
 
 O Substance 3D Designer não usa a GPU *separada* do sistema (<b>dGPU</b>) e usa a GPU *integrada* (<b>iGPU</b>). Isso resulta em baixo desempenho ao renderizar gráficos e/ou a [exibição 3D](../../interface/3d-view/3d-view.md).
 
-**![(tick)](3d-view-issues.resources/check.svg) Etapas recomendadas**
+![(tick)](3d-view-issues.resources/check.svg) **Etapas recomendadas**
 
 Sistemas com gráficos alternáveis podem *forçar a dGPU*, que deve ser usada para um *aplicativo específico* em um software dedicado, dependendo do fabricante da GPU.
 
@@ -45,13 +43,24 @@ Por exemplo, usuários com uma <b>dGPU Nvidia</b> podem fazer o seguinte:
 >
 > Observe que as GPUs integradas (iGPU) *não são suportadas*. Você pode saber mais na página [Requisitos de sistema](../../getting-started/system-requirements/system-requirements.md).
 
+## Baixo desempenho: Deslocamento em malhas de poli altas
+
+![(erro)](3d-view-issues.resources/error.svg) **Problema**
+
+Ao usar os novos renderizadores 3D (Rasterizador e GPU Pathtracer), a visualização 3D pode ter baixo desempenho ao usar deslocamento em malhas de poli alto.
+
+![(tick)](3d-view-issues.resources/check.svg) **Etapas recomendadas**
+
+A técnica de mosaico disponível na visualização 3D, que subdivide as malhas para oferecer mais detalhes ao usar deslocamento, envolve uma etapa de preparação que é executada independentemente de qualquer mosaico que esteja sendo realmente aplicado.
+A [dica nesta seção](../../interface/3d-view/displacement/displacement.md#per-mesh) aborda o problema de desempenho desabilitando o processo de mosaico por objeto `Mesh` na cena.
+
 ## O objeto 3D é plano
 
-**![(erro)](3d-view-issues.resources/error.svg) Problema**
+![(erro)](3d-view-issues.resources/error.svg) **Problema**
 
 Um objeto 3D com volumes detalhados em uma sessão se torna plano na próxima sessão, no entanto, o gráfico não foi alterado e o mapa de altura transporta os mesmos dados.
 
-**![(tick)](3d-view-issues.resources/check.svg) Etapas recomendadas**
+![(tick)](3d-view-issues.resources/check.svg) **Etapas recomendadas**
 
 O efeito de deformação de um objeto 3D de acordo com um mapa de altura é executado usando uma técnica chamada **deslocamento de mosaico**. Essa técnica envolve duas etapas:
 
@@ -69,17 +78,19 @@ Esse valor pode ser modificado das seguintes maneiras:
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Use o **pop-up de Deslocamento** na barra de ferramentas à esquerda.<br>Saiba mais na [página dedicada](../../interface/3d-view/displacement/displacement.md). | Crie um nó [Saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) e defina o uso de `heightScale` em suas propriedades.<br>Forneça um valor para esta saída com um valor, usando um [nó de Precisão decimal constante](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats) por exemplo e *reaplique o gráfico* no Visualização 3D. |
 
+{style="table-layout:fixed"}
+
 >[!TIP]
 >
 > Usando este método, você pode definir um valor de escala de Height personalizado *por gráfico*, que permite ajustá-lo para corresponder ao material específico desse gráfico.
 
 ## A visualização 3D é totalmente preta
 
-**![(erro)](3d-view-issues.resources/error.svg) Problema**
+![(erro)](3d-view-issues.resources/error.svg) **Problema**
 
 Nas versões 15.0.0 e posteriores, a viewport da visualização 3D é preta plana. Vejo algumas sobreposições de texto (por exemplo, amostras e tempo de renderização), mas a cena 3D não está visível.
 
-**![(tick)](3d-view-issues.resources/check.svg) Etapas recomendadas**
+![(tick)](3d-view-issues.resources/check.svg) **Etapas recomendadas**
 
 Versão 15.1 e superior
 
@@ -113,11 +124,11 @@ Agora, toda nova visualização 3D usará o renderizador OpenGL por padrão, o q
 
 ## A mensagem “Renderizador não compatível” é exibida
 
-**![(erro)](3d-view-issues.resources/error.svg) Problema**
+![(erro)](3d-view-issues.resources/error.svg) **Problema**
 
 Nas versões 15.0.0 e posteriores, a mensagem “Renderizador não compatível” aparece no canto inferior direito da janela de visualização ao usar os novos renderizadores 3D (Rasterizador, rastreador de caminho de GPU). A cena 3D não está visível.
 
-**![(tick)](3d-view-issues.resources/check.svg) Etapas recomendadas**
+![(tick)](3d-view-issues.resources/check.svg) **Etapas recomendadas**
 
 O Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) apresentou nossos novos [renderizadores 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) internos, que usam tecnologias modernas e, portanto, não são compatíveis com GPUs mais antigas.
 
@@ -144,7 +155,7 @@ Você pode localizar e ajustar essa opção seguindo estas etapas:
 
 ## O objeto 3D parece totalmente suave
 
-**![(erro)](3d-view-issues.resources/error.svg) Problema**
+![(erro)](3d-view-issues.resources/error.svg) **Problema**
 
 Depois de trabalhar nos dados enviados para a **saída [do** do Height](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), o objeto parece ter algum volume, mas *parece totalmente suave*, como se as informações do height tivessem sido ignoradas no sombreamento.
 
@@ -152,9 +163,9 @@ Depois de trabalhar nos dados enviados para a **saída [do** do Height](../../co
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(tick)](3d-view-issues.resources/check.svg) Etapas recomendadas**
+![(tick)](3d-view-issues.resources/check.svg) **Etapas recomendadas**
 
-Verifique se os dados do height estão *convertidos em normais* que estão conectados à saída **Normal** [&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+Verifique se os dados do height estão *convertidos em normais* que estão conectados à saída **Normal** [](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
 Ao usar a técnica de **Deslocamento de mosaico** - consulte “objeto 3D plano” acima - os objetos podem *se deformar* para seguir os dados do height, mas sua superfície *não reagirá de forma diferente à luz* até que seus *normais* também sejam modificados para levar em conta os dados do height.
 
@@ -171,7 +182,7 @@ A solução é bem simples: conecte o último nó do fluxo que leva à saída do
 
 ## A renderização está desfocada/pixelada
 
-**![(erro)](3d-view-issues.resources/error.svg) Problema**
+![(erro)](3d-view-issues.resources/error.svg) **Problema**
 
 A imagem renderizada parece desfocada ou pixelada quando o sistema usa o *dimensionamento de exibição*.
 
@@ -179,7 +190,7 @@ A imagem renderizada parece desfocada ou pixelada quando o sistema usa o *dimens
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(tick)](3d-view-issues.resources/check.svg) Etapas recomendadas**
+![(tick)](3d-view-issues.resources/check.svg) **Etapas recomendadas**
 
 Por padrão, o Designer usa a resolução de exibição *dimensionada* para definir a resolução de renderização da [exibição 3D](../../interface/3d-view/3d-view.md). Você pode alterar isso para que a resolução de exibição *nativa* seja usada em vez disso para uma renderização nítida.
 
@@ -196,11 +207,11 @@ Abra o menu **Editar** e selecione a opção **Preferências...**. Na janela [Pr
 
 ## Não consigo encontrar a propriedade &#39;Fator de mosaico&#39;
 
-**![(erro)](3d-view-issues.resources/error.svg) Problema**
+![(erro)](3d-view-issues.resources/error.svg) **Problema**
 
 Depois de atualizar o Designer para a versão 15.0.0, não consigo encontrar o parâmetro “Fator de mosaico” nas propriedades do material onde ele estava.
 
-**![(tick)](3d-view-issues.resources/check.svg) Etapas recomendadas**
+![(tick)](3d-view-issues.resources/check.svg) **Etapas recomendadas**
 
 Ao usar os novos renderizadores (Rasterizador e GPU Pathtracer), o “fator de mosaico” é encontrado nas propriedades desses renderizadores. No Modo de Exibição 3D, vá para <b>Renderizador > Editar configurações</b>. A propriedade será listada na área de Propriedades.
 
@@ -214,7 +225,7 @@ Ao usar os novos renderizadores (Rasterizador e GPU Pathtracer), o “fator de m
 
 ## Objetos 3D parecem errados: o sombreamento não combina com a iluminação
 
-**![(erro)](3d-view-issues.resources/error.svg) Problema**
+![(erro)](3d-view-issues.resources/error.svg) **Problema**
 
 O sombreamento de objetos depende de seus vetores normais, tangentes e binormais. Suas coordenadas usam o intervalo `[-1, 1]`, enquanto os mapas normais usam o intervalo `[0, 1]` na maioria dos casos. Para adaptar valores de um para o outro, é necessário aplicar uma <b>tendência e escala</b>: `value * scale + bias`.
 
@@ -227,7 +238,7 @@ O Designer não aplica uma escala e uma polarização normais a menos que sejam 
 ```
 
 
-**![(tick)](3d-view-issues.resources/check.svg) Etapas recomendadas**
+![(tick)](3d-view-issues.resources/check.svg) **Etapas recomendadas**
 
 Para cenas exportadas para formatos USD há algum tempo: exporte a cena novamente usando uma versão recente do USD, que incluirá os dados necessários. Preste atenção às propriedades relacionadas à escala normal e à polarização, se houver, que dependerá do software usado para exportar a cena.
 
@@ -235,11 +246,11 @@ Ao [substituir um material](../../working-with-3d-scenes/overriding-scene-mat/ov
 
 ## Falha ao iniciar o Visualização 3D
 
-**![(erro)](3d-view-issues.resources/error.svg) Problema**
+![(erro)](3d-view-issues.resources/error.svg) **Problema**
 
 O Designer falha no momento de iniciar o Visualização 3D, ao criar um projeto, carregar um projeto ou iniciar manualmente um Visualização 3D.
 
-**![(tick)](3d-view-issues.resources/check.svg) Etapas recomendadas**
+![(tick)](3d-view-issues.resources/check.svg) **Etapas recomendadas**
 
 Primeiro, verifique se o seu sistema atende aos [requisitos de sistema](../../getting-started/system-requirements/system-requirements.md) da Designer.
 
