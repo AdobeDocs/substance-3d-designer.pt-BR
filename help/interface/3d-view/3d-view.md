@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/3d-view.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use a visualização 3D no Substance 3D Designer para visualizar materiais em objetos 3D e testar condições de iluminação.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view
@@ -8,19 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Visualização 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3549'
 ht-degree: 1%
-
 ---
-
 
 # Visualização 3D
 
-O Visualização 3D ajuda você a visualizar e entender seus materiais com malhas personalizadas e materiais PBR renderizados.<br>Assim como ocorre com todas as janelas do Substance 3D Designer, ele funciona com outras janelas por meio de opções de menu de clique com o botão direito do mouse e operações de arrastar e soltar.
+A visualização 3D ajuda você a visualizar e entender seus materiais com malhas personalizadas e materiais PBR renderizados.<br>Assim como ocorre com todas as janelas do Substance 3D Designer, ele funciona com outras janelas por meio de opções de menu de clique com o botão direito do mouse e operações de arrastar e soltar.
 
 A visualização 3D também fornece dois métodos principais de renderização de materiais em cenas 3D:
 * Visualização rápida e em tempo real com o **Rasterizador** e os **OpenGL** renderizadores
@@ -42,7 +40,7 @@ A seção abaixo explica como realizar ações comuns resumidamente, juntamente 
 
 ### Navegação
 
-A Visualização 3D e o ambiente podem ser manipulados de três maneiras:
+A câmera e o ambiente de exibição 3D podem ser manipulados de três maneiras:
 
 * <b>Órbita:</b> LMB+Arrastar
 * <b>Panorâmica</b>: MMB+Arrastar/Ctrl+RMB+Arrastar
@@ -100,13 +98,13 @@ Você pode interagir com malhas diretamente na viewport:
 
 O Designer funciona com a iluminação baseada em imagem (IBL) por padrão. Um bitmap de intervalo dinâmico alto é usado para renderizar a iluminação do ambiente.
 
-É possível girar esse ambiente em torno do objeto 3D ou carregar ambientes de luz HDR predefinidos ou personalizados. Observe que as imagens HDR devem usar uma projeção equiretangular e ter uma precisão de ponto flutuante de 32 bits.
+É possível girar esse ambiente ao redor de um objeto 3D ou carregar ambientes de luz HDR predefinidos ou personalizados. Observe que as imagens HDR devem usar uma projeção equirretangular e ter uma precisão de ponto flutuante de 32 bits.
 
 ⇧+RMB+Arrastar <b>gira o ambiente</b> na exibição 3D.
 
-Para definir uma rotação precisa, use o <b>Ambiente > Editar</b> na barra de ferramentas de exibição 3D superior e altere o controle deslizante <b>Ângulo de rotação</b> na janela de propriedades.
+Para definir uma rotação precisa, use o <b>Ambiente > Editar</b> na barra de ferramentas superior e altere o controle deslizante <b>Ângulo de rotação</b> na janela de propriedades.
 
-Para usar um ambiente de luz HDR predefinido, clique na seção<b> ambientes HDRI</b> da <b>categoria Exibição 3D </b>na [Biblioteca](../../interface/the-library/the-library.md) e arraste e solte qualquer um dos ícones para a exibição 3D.
+Para usar um ambiente de luz HDR predefinido, clique na seção<b> ambientes HDRI</b> da <b>categoria de Visualização 3D </b> na [Biblioteca](../../interface/the-library/the-library.md) e arraste e solte qualquer um dos ícones para a exibição 3D.
 
 Para usar seu próprio ambiente de luz HDR personalizado, importe uma imagem HDR arrastando e soltando o arquivo em um pacote na Janela do Explorador (<b>Vincular</b> o arquivo quando solicitado). Em seguida, arraste e solte o recurso e escolha <b>Panorama Latitude/Longtitude</b> como destino.
 
@@ -118,21 +116,21 @@ A luz de ponto 1 pode ser movida ao redor da origem da cena, segurando o LMB ou 
 
 No modo Câmera <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" /> , você também pode mudar temporariamente para o modo Iluminação pressionando as teclas Ctrl+ em combinação com os botões do mouse.
 
-## Visualização de dados em 3D
+## Exibir dados no Visualização 3D
 
 ![Exibir saídas de Substance](3d-view.resources/3d-material.gif "Exibir saídas de Substance")
 
 ### Gráficos do Substance
 
-É possível visualizar materiais inteiros como um material completo na Visualização 3D. Esta é a maneira mais comum de trabalhar e corresponderá os [atributos de uso nos nós de saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) aos slots de textura relevantes do material de exibição 3D. Isso significa que as saídas precisam ser definidas corretamente (o uso de Modelos garante que esse seja o caso) e que você selecionou suporte para sombreador de material/visor
+Você pode exibir materiais inteiros como um material completo no Visualização 3D. Esta é a maneira mais comum de trabalhar e corresponderá os [atributos de uso nos nós de saída](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) aos slots de textura relevantes do material de exibição 3D. Isso significa que as saídas precisam ser definidas corretamente (o uso de Modelos garante que esse seja o caso) e que você selecionou o material/visor que o sombreador suporta
 
-Para exibir todas as saídas de um gráfico, clique em *RMB* em uma área vazia na [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) e escolha a opção **Exibir saídas na exibição 3D** no menu contextual.
+Para exibir todas as saídas de um gráfico, clique em *RMB* em uma área vazia na [Exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) e escolha a opção **Exibir saídas no Visualização 3D** no menu contextual.
 
-Você também pode exibir as saídas de um gráfico sem precisar abri-lo, clicando em RMB em um recurso de gráfico no encaixe do [Explorer](../the-explorer-window/the-explorer-window.md) e escolhendo a opção **Exibir Saídas no Modo de Exibição 3D** no menu contextual.
+Você também pode exibir as saídas de um gráfico sem precisar abri-lo, clicando em RMB em um recurso de gráfico no encaixe do [Explorer](../the-explorer-window/the-explorer-window.md) e escolhendo a opção **Exibir saídas no Visualização 3D** no menu contextual.
 
-Como alternativa ao menu contextual do gráfico, você pode obter o mesmo resultado arrastando o gráfico do encaixe do [Explorer](../the-explorer-window/the-explorer-window.md) para a Exibição 3D.
+Como alternativa ao menu contextual do gráfico, você pode obter o mesmo resultado arrastando o gráfico do encaixe do [Explorer](../the-explorer-window/the-explorer-window.md) para o Visualização 3D.
 
-Ao *carregar um gráfico*, suas saídas são aplicadas automaticamente na Exibição 3D por padrão. Você pode desabilitar esse comportamento em [Preferências](../../interface/preferences-window/preferences-window.md). Vá para **Editar > Preferências > Gráfico > Comum** e desmarque a opção **Exibir saídas na exibição 3D ao abrir um gráfico**.
+Ao *carregar um gráfico*, suas saídas são aplicadas automaticamente no Visualização 3D por padrão. Você pode desabilitar esse comportamento em [Preferências](../../interface/preferences-window/preferences-window.md). Vá para **Editar > Preferências > Gráfico > Comum** e desmarque a opção **Exibir saídas na exibição 3D ao abrir um gráfico**.
 
 >[!NOTE]
 >
@@ -140,23 +138,23 @@ Ao *carregar um gráfico*, suas saídas são aplicadas automaticamente na Exibi�
 > 
 > Se você usar malhas personalizadas com mais de um material, será solicitado a escolher a qual slot de material atribuir o material. Com qualquer um dos métodos acima, clique em um slot para confirmar sua escolha. Para obter mais informações sobre os materiais e suas atribuições, leia a seção detalhada abaixo.
 
-![Exibindo saídas de nó vs de gráfico em Visualização 3D](3d-view.resources/3d-channel.gif "Exibindo saídas de nó vs de gráfico em Visualização 3D")
+![Visualizando nó vs. saídas de gráfico na Visualização 3D](3d-view.resources/3d-channel.gif "Visualizando nó vs. saídas de gráfico na Visualização 3D")
 
 ### Nó individual/saída do gráfico
 
-Você pode exibir apenas uma única saída em qualquer canal de material disponível no [Visualização 3D](https://substance3d.adobe.com/). Isso é usado com menos frequência, mas é bom para visualizar testes rápidos ou nós individuais sem saída.
+Você pode exibir apenas uma única saída em qualquer canal de material disponível na [Exibição 3D](https://substance3d.adobe.com/). Isso é usado com menos frequência, mas é bom para visualizar testes rápidos ou nós individuais sem saída.
 
-Você pode exibir qualquer nó, não apenas os nós de saída, clicando com o botão direito do mouse no [Modo de exibição de gráfico](../../interface/the-graph-view/the-graph-view.md) e escolhendo <b>Modo de exibição em Visualização 3D</b>. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
+Você pode exibir qualquer nó, não apenas os nós de saída, clicando com o botão direito do mouse no [Modo de exibição de Gráfico](../../interface/the-graph-view/the-graph-view.md) e escolhendo <b>Modo de Exibição 3D</b>. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
 
-Você também pode usar *RMB* para arrastar e soltar qualquer nó da exibição Gráfico para o Visualização 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
+Você também pode usar *RMB* para arrastar e soltar qualquer nó da exibição Gráfico para a exibição 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
 
-Você pode exibir qualquer saída de gráfico individual expandindo o recurso de gráfico no encaixe do [Explorer](../the-explorer-window/the-explorer-window.md) e usando o *LMB* para arrastar essa saída para o Visualização 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
+Você pode exibir qualquer saída de gráfico individual expandindo o recurso de gráfico no encaixe do [Explorer](../the-explorer-window/the-explorer-window.md) e usando o *LMB* para arrastar essa saída para a Exibição 3D. Você verá uma lista com canais disponíveis para atribuir o nó. Clique em qualquer para confirmar.
 
 ![Visualização de malhas 3D personalizadas](3d-view.resources/3d-mesh.gif "Visualização de malhas 3D personalizadas")
 
 ## Exibir (personalizar) cenas 3D
 
-O Designer oferece uma dúzia de malhas predefinidas. Essas malhas têm coordenadas UV uniformes e utilizáveis e servem a maioria dos cenários para texturas de azulejos. Também é possível importar e visualizar suas próprias malhas 3D.\
+O Designer oferece uma dúzia de malhas predefinidas. Essas malhas têm coordenadas UV uniformes e utilizáveis e servem à maioria dos cenários para texturas de revestimento. Também é possível importar e visualizar suas próprias malhas 3D.\
 Escolha qualquer uma das malhas padrão no menu suspenso <b>Cena</b> na barra superior.
 
 Para cenas 3D personalizadas, vá para a seção [Trabalhando com cenas 3D](../../working-with-3d-scenes/working-with-3d-scenes.md).
@@ -169,20 +167,21 @@ Há alguns [sombreadores](../../glossary/glossary.md) diferentes disponíveis po
 
 Lembre-se de que os sombreadores são diferentes nos [renderizadores 3D](../../interface/3d-view/3d-renderers/3d-renderers.md) do Designer e somente configurações marcadas com um rótulo &#39;Comum&#39; serão mantidas ao alternar os renderizadores.
 
-Para alterar o sombreador atual, vá para <b> Menu &#39;</b>Materiais&#39; e abrir o submenu do material que você deseja editar.
+Para alterar o sombreador atual, vá para o menu **Materiais** e abra o submenu do material que deseja editar.
 
-Por exemplo, para ajustar a propriedade &#39;Escala de Height&#39; para o material &#39;Padrão&#39; na cena &#39;Plano (alta resolução)&#39;, vá para &#39;Materiais > Padrão > Editar propriedades&#39;. Em seguida, localize a propriedade “Escala de Height” no encaixe Propriedades.
+Por exemplo, para ajustar a propriedade a do material &#39;`Default`&#39; na cena &#39;Plano (alta resolução)&#39;, vá para **Materiais > Padrão > Editar propriedades**. Em seguida, localize a propriedade do material na área de Propriedades.
 
 Os sombreadores podem ser redefinidos usando as ações “Redefinir material” ou “Redefinir para estado de cena” no submenu. Se você estava visualizando saídas de gráfico de Substance na visualização 3D, será necessário reaplicá-las.
 
 >[!NOTE]
 >
-> Sobre o mosaico
+> **Sobre o mosaico**
 > 
-> A propriedade “Fator de mosaico” varia de acordo com o renderizador 3D selecionado:
+> O mosaico de uma malha pode ser ajustado usando o parâmetro **Fator de mosaico** no [pop-up de Deslocamento](displacement/displacement.md#tessellation).
+> A propriedade específica controlada por esse parâmetro varia de acordo com o renderizador 3D atual:
 > 
-> * <b>Rasterizador/GPU Pathtracer:</b> localizado nas configurações do renderizador (Renderizador > Configurações de edição), afeta a *cena inteira*.
-> * <b>OpenGL:</b> localizado nas propriedades do material, afeta o material.
+> * **Rasterizador/GPU Pathtracer:** propriedade Por objeto chamada **Refinar nível**. Selecione um objeto `Mesh` no [Navegador de cena](scene-browser/scene-browser.md) para exibir suas propriedades e editar diretamente.
+> * **OpenGL:** propriedade por material chamada **Fator de mosaico**. Vá para as [propriedades do material](#change-shader-properties) para editá-lo diretamente.
 
 ![Exportando a cena](3d-view.resources/3d-view-export-scene.gif "Exportando a cena")
 
@@ -199,7 +198,7 @@ Entretanto, os normais de vértice da malha original podem não corresponder à 
 * Use a malha *mapa normal* que fornecerá os normais corretos
 * *Recalcular os normais de malha* na exportação usando o mapa de malha normal, o que significa que esses normais são colocados na malha exportada e que o mapa normal não é mais necessário
 
-Para exportar a malha de Exibição 3D, vá para <b>Cena > Exportar malha em mosaico...</b>, defina sua escolha em relação ao recálculo normal e selecione um local, nome e formato de arquivo para a malha exportada.
+Para exportar a malha de Visualização 3D, vá para <b>Cena > Exportar malha em mosaico...</b>, defina sua escolha com relação ao recálculo normal e selecione um local, nome e formato de arquivo para a malha exportada.
 
 >[!NOTE]
 >
@@ -215,7 +214,7 @@ Para exportar a malha de Exibição 3D, vá para <b>Cena > Exportar malha em mos
 > 
 > Dito isso, a contagem de vértices da malha em mosaico deve estar no *mesmo intervalo* que a contagem de pixels do mapa de *height*.
 > 
-> Ter uma malha mais densa do que o mapa de heights pode criar uma malha um pouco mais suave ao usar o mosaico <b>Phong</b>, mas você deve buscar exportar a malha de forma confiável com os detalhes necessários do mapa de heights primeiro e, em seguida, refinar a malha exportada em outro software, se necessário.
+> Ter uma malha mais densa do que o mapa de altura pode criar uma malha um pouco mais suave ao usar o mosaico <b>Phong</b>, mas você deve buscar exportar a malha com segurança com os detalhes necessários do mapa de altura primeiro e, em seguida, refinar a malha exportada em outro software, se necessário.
 
 >[!WARNING]
 >
@@ -225,7 +224,7 @@ Para exportar a malha de Exibição 3D, vá para <b>Cena > Exportar malha em mos
 
 ## Barra de menus
 
-A barra de menus fornece sete menus com opções relacionadas à Visualização 3D. abaixo há uma visão geral de todas as opções disponíveis.
+A barra de menus fornece 7 menus com opções relacionadas ao Visualização 3D. abaixo há uma visão geral de todas as opções disponíveis.
 
 +++Cena
 O menu <b>Cena</b> lida com a geometria (Recurso 3D) exibida e com os estados de exibição 3D. O compartilhamento de recursos 3D é apenas a malha, os estados da cena são luzes, câmera e configurações relacionadas e também podem conter a malha ao lado.
@@ -236,7 +235,7 @@ O menu <b>Cena</b> lida com a geometria (Recurso 3D) exibida e com os estados de
 
 <b>Editar: </b>Carrega as opções de cena no painel [Propriedades](../../interface/properties/properties.md). Permite alternar a visibilidade da malha 3D.
 
-<b>Primitivas padrão:</b> mostra qualquer uma das malhas 3D simples abaixo na Exibição 3D.
+<b>Primitivas padrão:</b> mostra qualquer uma das malhas 3D simples abaixo no Visualização 3D.
 
 * Cubo
 
@@ -252,7 +251,7 @@ O menu <b>Cena</b> lida com a geometria (Recurso 3D) exibida e com os estados de
 
 * Esfera
 
-<b>Primitivas estendidas:</b> mostra qualquer uma das malhas 3D abaixo na exibição 3D.
+<b>Primitivas estendidas:</b> mostra qualquer uma das malhas 3D abaixo no Visualização 3D.
 
 * Tecido
 
@@ -266,7 +265,7 @@ O menu <b>Cena</b> lida com a geometria (Recurso 3D) exibida e com os estados de
 
 * Torus
 
-<b>Exibir UVs em exibição 2D:</b> permite a exibição dos UVs para a malha selecionada atualmente como uma sobreposição na [exibição 2D](../2d-view/2d-view.md).
+<b>Exibir UVs em Visualização 2D:</b> habilita a exibição dos UVs para a malha atualmente selecionada como uma sobreposição no [Visualização 2D](../2d-view/2d-view.md).
 
 <b>Criar recurso 3D da cena atual...:</b> cria um novo [recurso de cena 3D](../../resources/3d-scene-resource/3d-scene-resource.md) em um pacote fora da cena atual.
 
