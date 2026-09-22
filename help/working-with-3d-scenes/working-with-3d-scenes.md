@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/working-with-3d-scenes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba como importar, editar e trabalhar com cenas 3D no Substance 3D Designer para visualizar e testar seus materiais.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Trabalhar com cenas 3D
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '862'
 ht-degree: 0%
-
 ---
-
 
 # Trabalhar com cenas 3D
 
@@ -33,26 +31,6 @@ Ao exportar para formatos USD, este fluxo de trabalho pode ser totalmente <b>nã
 
 Primeiro, você precisa carregar uma cena 3D para trabalhar e manter seu estado no Designer entre as sessões.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Conteúdo de cenas 3D
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Carregamento de uma cena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### arquivos de estado de cena
-
-</td>
-</tr>
-</table>
-
 ## Conteúdo de cenas 3D
 
 Ao carregar uma cena 3D, o Designer criou sua própria cena para hospedá-la.
@@ -66,7 +44,7 @@ Você pode interagir com os seguintes conteúdos da cena:
 
 ![Conteúdo de uma cena 3D](working-with-3d-scenes.resources/loaded3DScene.png "Conteúdo de uma cena 3D"){zoomable="yes"}
 
-O Designer usa uma descrição de USD para sua cena 3D. Seu layout pode ser navegado no navegador de Cena, onde cada tipo de [prim USD](https://openusd.org/release/glossary.html#usdglossary-prim) tem seu próprio ícone (geometria, material, sombreador, câmera, transformo, ...).
+O Designer usa uma descrição em USD para sua cena 3D. Seu layout pode ser navegado no navegador de Cena, onde cada tipo de [USD prim](https://openusd.org/release/glossary.html#usdglossary-prim) tem seu próprio ícone (geometria, material, sombreador, câmera, transformação, ...).
 
 O [navegador de cena](../interface/3d-view/scene-browser/scene-browser.md) pode ser usado para selecionar, habilitar e desabilitar o conteúdo da cena. Portanto, recomendamos que você o mantenha exibido ao trabalhar com cenas 3D personalizadas.
 
@@ -146,7 +124,7 @@ Todos os itens criados pelo Designer são listados com os <b>rótulos em negrito
 
 ## Arquivos de estado de cena
 
-Depois de configurar materiais, câmera, luzes etc. na Visualização 3D, esse estado pode ser salvo em um arquivo de estado de cena (.sbsscn) que pode ser carregado posteriormente para restaurar esse estado. Por exemplo, talvez você queira configurar algumas cenas para visualizar diferentes tipos de materiais ou um ambiente de iluminação específico.
+Depois de configurar um material, câmera, luzes etc. no Visualização 3D, esse estado pode ser salvo em um arquivo de estado de cena (.sbsscn) que pode ser carregado posteriormente para restaurar esse estado. Por exemplo, talvez você queira configurar algumas cenas para visualizar diferentes tipos de materiais ou um ambiente de iluminação específico.
 
 ![Carregar arquivo de estado de cena](working-with-3d-scenes.resources/loadSceneStateFile.gif "Carregar arquivo de estado de cena"){zoomable="yes"}
 

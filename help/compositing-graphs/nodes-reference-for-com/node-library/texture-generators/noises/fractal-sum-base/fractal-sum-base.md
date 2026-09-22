@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use o nó Base de Soma fractal para gerar padrões de ruído fractal de base para criar texturas orgânicas complexas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum base
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Soma fractal base
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '251'
 ht-degree: 1%
-
 ---
-
 
 # Soma fractal base
 
@@ -26,7 +24,7 @@ ht-degree: 1%
 
 ![Base de Soma fractal - Ícone](fractal-sum-base.resources/fractal_sum_base.png "Base de Soma fractal - Ícone"){width="200px"}
 
-<b>Entrada:</b> geradores de textura > Ruídos
+<b>Entrada:</b> geradores de Textura > Ruídos
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -57,28 +55,25 @@ Veja também: [Soma fractal 1](../../../../../../compositing-graphs/nodes-refere
 
 |  |  |
 |:---|:---|
-| <b>Aspereza</b> <i>Flutuante</i> | O equilíbrio das oitavas de ruído.    Um valor mais alto tornará as oitavas de frequência mais visíveis. |
+| <b>Aspereza</b> <i>Precisão decimal</i> | O equilíbrio das oitavas de ruído.    Um valor mais alto tornará as oitavas de frequência mais visíveis. |
 | <b>Mín. nível</b> <i>Inteiro</i> | A oitava mínima usada no ruído.    Um valor mais alto resulta em uma frequência de ruído mais alta. |
 | <b>Máx. nível</b> <i>Inteiro</i> | A oitava máxima usada no ruído.    Um valor mais alto resulta em uma frequência de ruído mais alta. |
-| <b>Desordem</b> <i>Flutuante</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
-| <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
-| <b>Contraste</b> <i>Flutuante</i> | O contraste do resultado final. |
-| <b>Opacidade global</b> <i>Flutuante</i> | A opacidade das oitavas de ruído adicionadas no resultado final.    Um valor alto pode resultar na gravação de áreas em branco. |
+| <b>Desordem</b> <i>Precisão decimal</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
+| <b>Velocidade do distúrbio</b> <i>Precisão decimal</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
+| <b>Contraste</b> <i>Precisão decimal</i> | O contraste do resultado final. |
+| <b>Opacidade global</b> <i>Precisão decimal</i> | A opacidade das oitavas de ruído adicionadas no resultado final.    Um valor alto pode resultar na gravação de áreas em branco. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
 
 ## Exemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Base de Soma fractal - Exemplo 1](fractal-sum-base.resources/fractal_sum_base_1.png "Base de Soma fractal - Exemplo 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Base de Soma fractal - Exemplo 2](fractal-sum-base.resources/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "Base de Soma fractal - Exemplo 2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="fractal-sum-base.resources/fractal_sum_base_1.png" class="modal-image" alt="Base de Soma fractal - Exemplo 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="fractal-sum-base.resources/noise_fractal_sum_base_v2_speed0.6_aniso0.gif" class="modal-image" alt="Base de Soma fractal - Exemplo 2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

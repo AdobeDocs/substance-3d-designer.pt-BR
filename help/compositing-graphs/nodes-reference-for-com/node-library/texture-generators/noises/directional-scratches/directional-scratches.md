@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use o nó Scratches direcional para criar padrões de arranhões direcionais para adicionar efeitos de desgaste e danos aos materiais.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional scratches
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Arranhões direcionais
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '345'
 ht-degree: 1%
-
 ---
-
 
 # Arranhões direcionais
 
@@ -57,58 +55,36 @@ Uma dispersão aleatória de padrões de rabisco com ângulo e tamanho ajustáve
 | <b>Desordem</b> <i>Flutuante</i> | Desloca os ingredientes do ruído.    Isso pode ser usado para animar o ruído. |
 | <b>Velocidade do distúrbio</b> <i>Flutuante</i> | Ajusta a distância de deslocamento aplicada pelo parâmetro <b>Desordem</b>.    Isso pode ser usado para controlar a velocidade de deslocamento ao animar o ruído. |
 | <b>anisotropia de distúrbio</b> <i>Flutuante</i> | Controla a extensão das direções do deslocamento aplicadas pelo parâmetro <b>Desordem</b>, em que um valor mais alto resulta em uma direção mais estreita e definida.    A direção é controlada pelo parâmetro <b>Ângulo de anisotropia de desordem</b>. |
-| <b>ângulo de anisotropia de desordem</b> <i>Flutuante</i> | Controla a direção do deslocamento aplicado pelo parâmetro <b>Desordem</b> quando o parâmetro <b>anisotropia de Desordem</b> não é zero. |
-| <b>Ângulo</b> <i>Flutuante</i> | O ângulo usado para definir a direção dos arranhões, em número de voltas e começando da direita horizontal. |
-| <b>Ângulo aleatório</b> <i>Flutuante</i> | O valor máximo de variação aleatória aplicado ao valor <b>Ângulo</b>, em número de voltas. |
-| <b>Valor padrão</b> <i>Flutuante</i> | Um multiplicador para a quantidade de padrões de rascunho que está sendo espalhada. |
-| <b>Tamanho do padrão</b> <i>Flutuante2</i> | O tamanho da caixa delimitadora do padrão de rascunho.    O valor Y controla o comprimento máximo dos riscos. |
-| <b>Tamanho de padrão aleatório</b> <i>Flutuante2</i> | Um multiplicador para a quantidade aleatória de downscaling aplicada aos riscos.    O valor Y aplica isso ao comprimento dos riscos. |
-| <b>Deslocamento do bloco</b> <i>Flutuante2</i> | Controla a posição da parte de plano infinito usada para renderizar o ruído. |
+| <b>ângulo de anisotropia de desordem</b> <i>Precisão decimal</i> | Controla a direção do deslocamento aplicado pelo parâmetro <b>Desordem</b> quando o parâmetro <b>anisotropia de Desordem</b> não é zero. |
+| <b>Ângulo</b> <i>Precisão decimal</i> | O ângulo usado para definir a direção dos arranhões, em número de voltas e começando da direita horizontal. |
+| <b>Ângulo aleatório</b> <i>Precisão decimal</i> | O valor máximo de variação aleatória aplicado ao valor <b>Ângulo</b>, em número de voltas. |
+| <b>Valor padrão</b> <i>Precisão decimal</i> | Um multiplicador para a quantidade de padrões de rascunho que está sendo espalhada. |
+| <b>Tamanho do padrão</b> <i>Precisão decimal 2</i> | O tamanho da caixa delimitadora do padrão de rascunho.    O valor Y controla o comprimento máximo dos riscos. |
+| <b>Tamanho de padrão aleatório</b> <i>Precisão decimal 2</i> | Um multiplicador para a quantidade aleatória de downscaling aplicada aos riscos.    O valor Y aplica isso ao comprimento dos riscos. |
+| <b>Deslocamento do bloco</b> <i>Precisão decimal 2</i> | Controla a posição da parte de plano infinito usada para renderizar o ruído. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Em imagens não quadradas, mantém o ladrilho gerado quadrado e expande a geração de ruído até os limites da imagem. |
 
 ## Exemplos
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Arranhões Direcionais - Exemplo 1](directional-scratches.resources/directional_scratches_1.png "Arranhões Direcionais - Exemplo 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Arranhões Direcionais - Exemplo 2](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.gif "Arranhões Direcionais - Exemplo 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Arranhões Direcionais - Exemplo 3](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.6.gif "Arranhões Direcionais - Exemplo 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Arranhões Direcionais - Exemplo 4](directional-scratches.resources/noise-directional-scrat-1.gif "Arranhões Direcionais - Exemplo 4"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Arranhões Direcionais - Exemplo 5](directional-scratches.resources/noise-directional-scrat-2.gif "Arranhões Direcionais - Exemplo 5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/directional_scratches_1.png" class="modal-image" alt="Arranhões direcionais - Exemplo 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.gif" class="modal-image" alt="Arranhões direcionais - Exemplo 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.6.gif" class="modal-image" alt="Arranhões direcionais - Exemplo 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scrat-1.gif" class="modal-image" alt="Arranhões direcionais - Exemplo 4" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scrat-2.gif" class="modal-image" alt="Arranhões direcionais - Exemplo 5" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

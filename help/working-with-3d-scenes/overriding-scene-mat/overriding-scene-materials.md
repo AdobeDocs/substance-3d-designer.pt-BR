@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substitua os materiais existentes em cenas 3D para substituí-los pelos seus próprios materiais de Substance para testar e visualizar.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Overriding scene materials
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Substituição de materiais de cena
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 0%
-
 ---
-
 
 # Substituição de materiais de cena
 
@@ -25,26 +23,6 @@ Ao trabalhar com cenas 3D com materiais existentes, é necessário substituir es
 Seu material pode ser construído do zero ou de uma versão ajustada do material de uma cena que foi [extraído em um Substance gráfico](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
 ![Substituindo um material de cena, ajustando-o e redefinindo-o para seu estado de cena](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "Substituindo um material de cena, ajustando-o e redefinindo-o para seu estado de cena"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Substituir material da cena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Redefinir para o estado da cena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Material conectado
-
-</td>
-</tr>
-</table>
 
 ## Substituir material da cena
 
@@ -61,7 +39,7 @@ A ação &#39;Substituir material&#39; pode ser encontrada em dois locais:
 
 ![Substituir material - Ação no visor &#39;Visualização 3D&#39;](overriding-scene-materials.resources/overrideMaterialActionViewport.png "Substituir material - Ação no visor &#39;Visualização 3D&#39;"){zoomable="yes"}
 
-*Ação no Visualização 3D viewport*
+*Ação no visor 3D*
 
 </td>
 <td style="border: 0;" valign="top">

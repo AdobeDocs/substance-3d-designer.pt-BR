@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use o nó Visualização do microscópio para gerar padrões de textura microscópica para criar estruturas de superfície detalhadas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Microscope View
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Visualização do microscópio
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '105'
 ht-degree: 8%
-
 ---
-
 
 # Visualização do microscópio
 
@@ -52,10 +50,12 @@ Isso gera um ruído distorcido, parecido com bactérias ou organismos ao microsc
 
 ## Exemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="microscope-view.resources/microscope-view-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="microscope-view.resources/microscope-view-ex.gif" class="modal-image" alt="Visualização do microscópio - Exemplo 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

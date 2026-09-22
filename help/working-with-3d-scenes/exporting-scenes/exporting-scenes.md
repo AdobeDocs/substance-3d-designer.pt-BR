@@ -1,28 +1,26 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
-breadcrumb-title: ''
-description: Exporte cenas 3D com todas as edições feitas no Designer usando a ação Exportar cena no menu Visualização 3D Cena.
+breadcrumb-title: ""
+description: Exporte cenas 3D com todas as edições feitas no Designer usando a ação Exportar cena no menu Visualização de cena 3D.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Exporting scenes
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Exportação de cenas
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 1%
-
+source-wordcount: '366'
+ht-degree: 0%
 ---
-
 
 # Exportação de cenas
 
-Quando precisar exportar a cena com todas as edições feitas no Designer, use as ações “Exportar cena...” no menu “Cena” do [Visualização 3D](../../interface/3d-view/3d-view.md).
+Quando precisar exportar a cena com todas as edições feitas no Designer, use as ações “Exportar cena...” no menu “Cena” da [Exibição 3D](../../interface/3d-view/3d-view.md).
 
-Para exportações para formatos USD, o conteúdo da cena corresponderá à árvore exibida no [Navegador de cena](../../interface/3d-view/scene-browser/scene-browser.md).
+Para exportações em formatos USD, o conteúdo da cena corresponderá à árvore exibida no [Navegador de cena](../../interface/3d-view/scene-browser/scene-browser.md).
 
 Para outros formatos, o conteúdo da cena e sua estrutura interna dependerão dos recursos compatíveis com o formato de arquivo selecionado.
 
@@ -31,26 +29,6 @@ Para outros formatos, o conteúdo da cena e sua estrutura interna dependerão do
 > Todos os itens adicionados à cena pelo Designer serão incluídos na cena exportada: a câmera padrão, o ambiente padrão, todos os materiais copiam quaisquer luzes adicionais.
 
 ![Ações de exportação de cena](exporting-scenes.resources/exportActions.png "Ações de exportação de cena"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Exportar cena
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Exportar cena como camadas
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Texturas
-
-</td>
-</tr>
-</table>
 
 ## Exportar cena
 
@@ -102,6 +80,6 @@ Os arquivos exportados seguem esta estrutura:
 
 ## Texturas
 
-As texturas são exportadas em um diretório ao lado do arquivo exportado e nomeado com base nele, com um sufixo ‘<b>\_textura</b>’.
+As texturas são exportadas em um diretório ao lado do arquivo exportado e nomeado com base nele, com um sufixo ‘<b>\_texturas</b>’.
 
 Eles usam o formato <b>PNG</b>, exceto texturas HDR (ponto flutuante) que usam o formato <b>EXR</b>.

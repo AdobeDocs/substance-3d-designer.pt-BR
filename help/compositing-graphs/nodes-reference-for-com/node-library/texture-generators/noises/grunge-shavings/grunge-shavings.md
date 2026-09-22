@@ -1,22 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
-breadcrumb-title: ''
-description: Use o nó Barbear Desgaste para gerar padrões de barbear para criar detalhes de textura de grãos de madeira e material.
+breadcrumb-title: ""
+description: Use o nó Barbear Desgaste para gerar padrões de barbear para criar detalhes de granulação de madeira e textura de material.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Shavings
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Economia de desgaste
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '160'
 ht-degree: 5%
-
 ---
-
 
 # Economia de desgaste
 
@@ -45,25 +43,26 @@ O nó **Barbeamento de Desgaste** no [Substance 3D Designer](https://www.adobe.c
 
 |  |  |
 |:---|:---|
-| <b>Saldo</b> <i>Flutuante</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
-| <b>Contraste</b> <i>Flutuante</i> | Ajusta o contraste da imagem. |
+| <b>Saldo</b> <i>Precisão decimal</i> | Ajusta o equilíbrio entre valores escuros e brilhantes. |
+| <b>Contraste</b> <i>Precisão decimal</i> | Ajusta o contraste da imagem. |
 | <b>Inverter</b> <i>Booleano</i> | Inverte a saída da imagem, usando uma operação `1-x`. |
 | <b>Expansão não quadrada</b> <i>Booleano</i> | Permite a compensação de esmagamento e alongamento com proporções não quadradas. |
 | <b>Avançado</b> |  |
-| <b>Quantidade de Pontos de Rascunho</b> <i>Flutuante</i> | A quantidade e *cobertura* do efeito de manchas arranhadas usado para gerar as aparas. |
+| <b>Quantidade de Pontos de Rascunho</b> <i>Precisão decimal</i> | A quantidade e *cobertura* do efeito de manchas arranhadas usado para gerar as aparas. |
 | <b>Divisão em Blocos Gráficos</b> <i>Inteiro</i> | A quantidade de divisão em blocos gráficos do efeito de manchas arranhadas usada para gerar as aparas. |
 | <b>Intensidade de Dust</b> <i>Flutuante</i> | A intensidade da sobreposição do dust na superfície. |
 | <b>Intensidade de nitidez</b> <i>Flutuante</i> | A intensidade do efeito de nitidez global. |
 
 ## Exemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grungeshavings-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-shavings.resources/grungeshavings-variant2.jpg" class="modal-image" alt="Economia de desgaste - Exemplo 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grungeshavings-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-shavings.resources/grungeshavings-variant.jpg" class="modal-image" alt="Economia de desgaste - Exemplo 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

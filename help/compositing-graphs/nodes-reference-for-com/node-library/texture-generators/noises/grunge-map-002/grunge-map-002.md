@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-002.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Use o nó Mapa do Desgaste 002 para gerar padrões de desgaste processuais para criar superfícies de materiais envelhecidas e envelhecidas.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 002
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Mapa do desgaste 002
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1668632724231982c98a508ae7f87642c5888648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 7%
-
+source-wordcount: '129'
+ht-degree: 6%
 ---
-
 
 # Mapa do desgaste 002
 
@@ -53,10 +51,12 @@ Gera um Noisemap complexo e combinado. Esse nó pode ser muito útil como um pro
 
 ## Exemplos
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-map-002.resources/grungemap-002-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-map-002.resources/grungemap-002-ex.gif" class="modal-image" alt="Mapa do desgaste 002 - Exemplo 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>
