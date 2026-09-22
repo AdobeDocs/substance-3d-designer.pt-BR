@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Saiba mais sobre os termos e conceitos usados no Designer.
 
-## #
+## #&#x200B;
 
 |  |  |
 | --- | --- |
