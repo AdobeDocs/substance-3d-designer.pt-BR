@@ -1,8 +1,8 @@
 ---
-source-git-commit: e888ac71160a080fffba861f2bb716dcd56008a6
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 6%
+source-wordcount: '229'
+ht-degree: 5%
 ---
 # A FAZER
 
@@ -31,9 +31,15 @@ ht-degree: 6%
 * Atualize o arquivo AGENTS.md e as habilidades para gerenciar:
   * Imagens: centralização, zoom
   * Tabelas: layout automático/fixo, alinhamento de texto
+* DESIGNER-12465: o parâmetro `Refine level` é inerte quando o mapa de altura está ausente ou simples
+* DESIGNER-12652: Guia de solução de problemas de desempenho para usuários avançados do renderizador OpenGL
+* DESIGNER-11866: funções de mapeamento de tom
+* DESIGNER-10655: adicione exemplos + referências a projetos de amostra para Processador de pixels e FX-Maps
+
 
 ## Correções
 
+* Corrigir o tamanho dos ícones em [overview.md](help/getting-started/overview/overview.md)
 * Corrigir imagem danificada na página `BnW spots 2`
 * Corrigir link para a primeira imagem de exemplo nas páginas do nó (por exemplo, novos ruídos)
 
@@ -41,7 +47,7 @@ ht-degree: 6%
 
 * Componente Antes/Depois
 
-## HUB DE APRENDIZADO
+## Hub de aprendizado (`learning` ramificação)
 
 - Entenda o que bloqueia o download de arquivos SBS (perguntado [aqui](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
 - Entenda como podemos testar páginas em tempo real sem sermos públicos ou incluídos em ToC
