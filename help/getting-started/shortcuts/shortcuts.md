@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ""
 description: Aprenda a usar atalhos de teclado no Substance 3D Designer para acelerar seu fluxo de trabalho e melhorar a produtividade.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Atalhos
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '333'
 ht-degree: 17%
 ---
 
@@ -35,7 +35,7 @@ Nesta página, você pode encontrar uma visão geral de todos os atalhos para o 
 ### Global
 
 | Ação | Windows | macOS |
-| --- | --- | --- |
+|:-------------------------------------------------------------------------------------------------------------------|:----------|:------|
 | [Novo gráfico de Substance](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
 | Carregar pacote | Ctrl + O | ⌘ + O |
 | Fechar pacote(s) selecionado(s) | Ctrl + F4 | ⌘ + W |
@@ -45,13 +45,13 @@ Nesta página, você pode encontrar uma visão geral de todos os atalhos para o 
 
 ### Visualização do gráfico
 
-<b>Visor</b>
+**Visor**
 
 | Ação | Windows | macOS |
-| --- | --- | --- |
-| Zoom | MouseWheel Alt + RMB + arrastar | MouseWheel ⌥ + RMB + arrastar |
-| Zoom rápido | ⇧ + MouseWheel ⇧ + Alt + RMB + Arrastar | ⇧ + MouseWheel ⇧ + ⌥ + RMB + Arrastar |
-| Panorâmica | MMB + arrastar Ctrl + RMB + arrastar | MMB + arrastar ⌘ + RMB + arrastar |
+|:-----------------------------------------------------------------------------------|:---------------------------------------|:-------------------------------------|
+| Zoom | MouseWheel<br>Alt + RMB + arrastar | MouseWheel<br>⌥ + RMB + arrastar |
+| Zoom rápido | ⇧ + MouseWheel<br> + Alt + RMB + arrastar | ⇧ + MouseWheel<br> + ⌥ + RMB + arrastar |
+| Panorâmica | MMB + arrastar<br>Ctrl + RMB + arrastar | MMB + arrastar<br>⌘ + RMB + arrastar |
 | Redefinir zoom | Z | Z |
 | Ajustar à visualização | F | F |
 | Copiar | Ctrl + C | ⌘ + C |
@@ -60,22 +60,22 @@ Nesta página, você pode encontrar uma visão geral de todos os atalhos para o 
 | Menu Nó | Barra de espaço | Barra de espaço |
 | Ciclo de [fixares de navegação](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
-<b>Modos de criação do link</b>
+**Modos de criação do link**
 
 >[!NOTE]
 >
 > Saiba mais sobre os modos de criação de links em [esta página](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) desta documentação.
 
 | Modo | Windows | macOS |
-| --- | --- | --- |
+|:-----------------|:--------|:------|
 | Padrão | 1 | 1 |
 | Material | 2 | 2 |
 | Material compacto | 3 | 3 |
 
-<b>Quando um objeto é selecionado no gráfico</b>
+**Quando um objeto é selecionado no gráfico**
 
 | Ação | Windows | macOS |
-| --- | --- | --- |
+|:------------------------------------|:-------------|:----------|
 | Copiar seleção | Ctrl + C | ⌘ + C |
 | Duplicar seleção | Ctrl + D | ⌘ + D |
 | Duplicar sem links | Ctrl + ⇧ + D | ⌘ + ⇧ + D |
@@ -87,10 +87,10 @@ Nesta página, você pode encontrar uma visão geral de todos os atalhos para o 
 ### Visualização 2D
 
 | Ação | Windows | macOS |
-| --- | --- | --- |
-| Zoom | MouseWheel Alt + RMB + arrastar | MouseWheel ⌥ + RMB + arrastar |
-| Zoom rápido | ⇧ + MouseWheel ⇧ + Alt + RMB + Arrastar | ⇧ + MouseWheel ⇧ + ⌥ + RMB + Arrastar |
-| Panorâmica | MMB + arrastar Ctrl + RMB + arrastar | MMB + arrastar ⌘ + RMB + arrastar |
+|:---------------------|:---------------------------------------|:-------------------------------------|
+| Zoom | MouseWheel<br>Alt + RMB + arrastar | MouseWheel<br>⌥ + RMB + arrastar |
+| Zoom rápido | ⇧ + MouseWheel<br> + Alt + RMB + arrastar | ⇧ + MouseWheel<br> + ⌥ + RMB + arrastar |
+| Panorâmica | MMB + arrastar<br>Ctrl + RMB + arrastar | MMB + arrastar<br>⌘ + RMB + arrastar |
 | Redefinir para escala de 100% | Z | Z |
 | Ajustar à visualização | F | F |
 | Alternar exibição lado a lado | Barra de espaço | Barra de espaço |
@@ -98,10 +98,10 @@ Nesta página, você pode encontrar uma visão geral de todos os atalhos para o 
 ### Visualização 3D
 
 | Ação | Windows | macOS |
-| --- | --- | --- |
-| Câmera Dolly (panorâmica para frente/para trás) | MouseWheel Alt + RMB + arrastar | MouseWheel ⌥ + RMB + arrastar |
+|:---------------------------------------------------------|:--------------------------------|:-----------------------------|
+| Câmera Dolly (panorâmica para frente/para trás) | MouseWheel<br>Alt + RMB + arrastar | MouseWheel<br>⌥ + RMB + arrastar |
 | Câmera orbital | LMB + arrastar | LMB + arrastar |
-| Câmera de caminhão e pedestal (panorâmica lateral e vertical) | MMB + arrastar Ctrl + RMB + arrastar | MMB + arrastar ⌘ + RMB + arrastar |
+| Câmera de caminhão e pedestal (panorâmica lateral e vertical) | MMB + arrastar<br>Ctrl + RMB + arrastar | MMB + arrastar<br>⌘ + RMB + arrastar |
 | Girar ambiente | Ctrl + ⇧ + RMB | Ctrl + ⇧ + RMB |
 | Alterne temporariamente para os controles do Ponto Light 1 | ⇧ (manter) | ⇧ (manter) |
 | Luz de ponto de órbita 1 | LMB + arrastar | LMB + arrastar |

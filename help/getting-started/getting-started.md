@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started.html"
+breadcrumb-title: ""
 description: Conheça os conceitos básicos do Substance 3D Designer e comece a criar materiais de procedimento com guias passo a passo.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started
@@ -8,23 +8,23 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Introdução
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 85%
-
+source-wordcount: '168'
+ht-degree: 2%
 ---
-
 
 # Introdução
 
-Saiba como usar o software:
+Essas seções podem ser úteis à medida que você dá seus primeiros passos com a Substance 3D Designer.
 
-* [Ativação e licenças](../getting-started/activation-and-licenses/activation-and-licenses.md) – Esta página contém informações sobre como ativar e gerenciar suas licenças para que você possa começar a usar o Designer.
-* [Requisitos do sistema](../getting-started/system-requirements/system-requirements.md) – Esta página lista os requisitos do sistema e as informações de compatibilidade de hardware.
-* [Visão geral](../getting-started/overview/overview.md) – Esta página apresenta uma visão geral do Substance 3D Designer https://www.adobe.com/br/products/substance3d-designer.html, como ele se compara a outros aplicativos no ecossistema do Substance e com que tipos de arquivos e recursos você trabalhará.
-* [Visão geral do fluxo de trabalho](../getting-started/workflow-overview/workflow-overview.md) – Esta página explica o conceito de fluxos de trabalho baseados em nós e fornece um resumo dos três principais tipos de gráficos que você pode criar no Designer.
-* [Atalhos](../getting-started/shortcuts/shortcuts.md) – Nesta página, está disponível a visão geral de todos os atalhos do Substance 3D Designer.
-* [Tutoriais e aprendizado](../getting-started/tutorials-learning/tutorials-learning.md) – Caso prefira se aprofundar através de vídeos e outros materiais de aprendizado mais direcionados, estes tutoriais são bons para começar:
+| Seção | Descrição |
+|:------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Ativação e licenças](activation-and-licenses/activation-and-licenses.md) | Esta página tem informações sobre como ativar e gerenciar suas licenças para que você possa começar a usar o Designer. |
+| [Requisitos do sistema](system-requirements/system-requirements.md) | Esta página lista os requisitos de sistema e as informações de compatibilidade de hardware. |
+| [Visão geral](overview/overview.md) | Esta página fornece uma visão geral do Substance 3D Designer, como ele se compara a outros aplicativos no ecossistema de Substance e que tipo de arquivos e recursos você trabalhará com eles. |
+| [Visão geral do fluxo de trabalho](workflow-overview/workflow-overview.md) | Esta página explica o conceito de fluxos de trabalho baseados em nó e fornece um resumo dos três tipos principais de gráfico que você pode criar no Designer. |
+| [Atalhos](shortcuts/shortcuts.md) | Nesta página, você pode encontrar uma visão geral de todos os atalhos para o Substance 3D Designer. |
+| [Tutorials e aprendizado](tutorials-learning/tutorials-learning.md) | Se preferir mergulhar em vídeos e outros materiais de aprendizado mais focados, estes tutoriais são bons para começar: |
