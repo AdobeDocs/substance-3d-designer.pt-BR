@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ""
 description: Saiba como ativar e gerenciar licenças do Substance 3D Designer para acessar todos os recursos e capacidades.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Ativação e licenças
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -22,7 +22,7 @@ O processo de ativação depende de onde você adquiriu ou tem acesso ao Designe
 
 | Edição | Processo de ativação |
 |:-----------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creative Cloud para desktop (CCD) | Instale o produto pelo aplicativo da CCD e inicie-o. Acesse estas páginas se você tiver problemas com sua licença: [Os aplicativos não serão iniciados devido a um erro de assinatura](https://helpx.adobe.com/br/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Ajuda para conta, planos e faturamento](https://helpx.adobe.com/br/account/individual.html) |
+| Creative Cloud para desktop (CCD) | Instale o produto pelo aplicativo da CCD e inicie-o. Acesse estas páginas se você tiver problemas com sua licença: [Os aplicativos não serão iniciados devido a um erro de assinatura](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Ajuda para conta, planos e faturamento](https://helpx.adobe.com/account/individual.html) |
 | Vapor | Inicie o produto diretamente da biblioteca do Steam. |
 | Substance (autônomo) | Consulte o processo de ativação descrito abaixo. |
 
@@ -48,7 +48,7 @@ Há três opções disponíveis:
 
 Você pode ativar manualmente o Designer colocando o arquivo license.key na seguinte pasta:
 
-<table data-preserve-html="true">
+<table data-preserve-html="true" style="table-layout:auto">
     <tbody>
         <tr>
             <th style="text-align: left;">Plataforma</th>

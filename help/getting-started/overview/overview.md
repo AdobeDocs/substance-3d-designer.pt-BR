@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ""
 description: Tenha uma visão geral do Substance 3D Designer e saiba mais sobre seus recursos para criar materiais e texturas processuais.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Visão geral
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '923'
 ht-degree: 2%
 ---
 
@@ -46,7 +46,7 @@ O Substance 3D Designer é um editor baseado em nó que permite criar conteúdo 
 
 **[Não destrutivo](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md):** você pode reverter qualquer ação *sem* perder seu trabalho. Torna-se muito mais rápido iterar e experimentar, encontrando fluxos de trabalho ainda mais eficientes.
 
-**[fça bake integrado](../../bakers/bakers.md):** acesse ferramentas avançadas de fça bake de malha extremamente rápida diretamente no software. Você não precisa mais executar cozimento em um software separado e executar processos demorados de importação e exportação.
+**[fça bake integrado](../../bakers/bakers.md):** acesse ferramentas avançadas de fça bake de malha extremamente rápida diretamente no software. Não é mais necessário executar a faz bake em um software separado e executar processos demorados de importação e exportação.
 
 **[Paramétrico](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md):** você pode configurar para controlar praticamente qualquer aspecto de uma textura por meio de um único controle deslizante ou lista suspensa. Isso permite adicionar controle e variação infinitos a apenas um ativo.
 
@@ -60,9 +60,10 @@ O aplicativo e seu ecossistema usam 4 tipos diferentes de arquivos. Para deixar 
 
 ![](overview.resources/ds-sbs-48.png)
 
-### Arquivo do Substance 3D
+**Arquivo do Substance 3D**\
+(pacote)
 
-*(\*.SBS)*
+`\*.sbs`
 
 Os Arquivos Substance são os **principais arquivos de origem** do Designer. Ao abrir um Arquivo Substance, você pode **exibir e editar todos os nós em um Gráfico**. Eles são representados como pacotes, que podem conter qualquer número de recursos, como gráficos, funções, bitmaps, malhas, etc... Eles são mais difíceis de compartilhar e menos rápidos de calcular. Eles só podem ser abertos no Substance 3D Designer e no Substance Player.
 
@@ -71,20 +72,20 @@ Os Arquivos Substance são os **principais arquivos de origem** do Designer. Ao 
 
 ![](overview.resources/sbsar-48.png)
 
-### Ativo do Substance 3D
+**Arquivo do Substance 3D**
 
-*(\*.SBSAR)*
+`\*.sbsar`
 
-Os arquivos de Substance são <b> arquivos de Substance compilados, otimizados </b>. Eles são muito mais rápidos de calcular e podem ser compartilhados facilmente sem problemas de referência. Os parâmetros ainda podem ser ajustados, mas a edição do gráfico está <b>bloqueada</b>. Os arquivos de Substance podem ser usados em todos os aplicativos da Substance 3D e em qualquer aplicativo que tenha a [integração do Substance 3D](https://experienceleague.adobe.com/pt-br/docs/substance-3d/ecosystem/home) (alguns com um plug-in externo), como o Autodesk 3DS Max &amp; Maya, o Unreal Engine ou o Unity Engine.
+Os arquivos de Substance são <b> arquivos de Substance compilados, otimizados </b>. Eles são muito mais rápidos de calcular e podem ser compartilhados facilmente sem problemas de referência. Os parâmetros ainda podem ser ajustados, mas a edição do gráfico está <b>bloqueada</b>. Os arquivos de Substance podem ser usados em todos os aplicativos da Substance 3D e em qualquer aplicativo que tenha a [integração do Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (alguns com um plug-in externo), como o Autodesk 3DS Max &amp; Maya, o Unreal Engine ou o Unity Engine.
 
 </td>
 <td style="border: 0;">
 
 ![](overview.resources/bmp-96.png){width="48px"}
 
-### Arquivos estáticos
+**Arquivos estáticos**
 
-*(\*.TGA, \*.BMP, \*.PNG, \*.FBX, \*.OBJ etc...)*
+`\*.tga, \*.bmp, \*.png, \*.fbx, \*.obj , ...`
 
 O Substance 3D Designer sempre suporta a exportação para tipos de arquivo estáticos. Uma imagem 2D pode ser exportada para um arquivo bitmap, um modelo 3D pode ser exportado para tipos de arquivo 3D comuns. Quando exportada para arquivos estáticos, **toda a funcionalidade dinâmica é perdida**. As imagens são bloqueadas em resolução, os modelos 3D são bloqueados em policontagem.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ""
 description: Aprenda a usar atalhos de teclado no Substance 3D Designer para acelerar seu fluxo de trabalho e melhorar a produtividade.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atalhos
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 17%
@@ -43,6 +43,8 @@ Nesta página, você pode encontrar uma visão geral de todos os atalhos para o 
 | Desfazer | Ctrl + Z | ⌘ + Z |
 | Refazer | Ctrl + Y | ⌘ + Y |
 
+{style="table-layout:fixed"}
+
 ### Visualização do gráfico
 
 **Visor**
@@ -60,6 +62,8 @@ Nesta página, você pode encontrar uma visão geral de todos os atalhos para o 
 | Menu Nó | Barra de espaço | Barra de espaço |
 | Ciclo de [fixares de navegação](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
+{style="table-layout:fixed"}
+
 **Modos de criação do link**
 
 >[!NOTE]
@@ -71,6 +75,8 @@ Nesta página, você pode encontrar uma visão geral de todos os atalhos para o 
 | Padrão | 1 | 1 |
 | Material | 2 | 2 |
 | Material compacto | 3 | 3 |
+
+{style="table-layout:fixed"}
 
 **Quando um objeto é selecionado no gráfico**
 
@@ -84,6 +90,8 @@ Nesta página, você pode encontrar uma visão geral de todos os atalhos para o 
 | Encaixar/desencaixar nó | D | D |
 | Desativar nó(s) | ⇧ + D | ⇧ + D |
 
+{style="table-layout:fixed"}
+
 ### Visualização 2D
 
 | Ação | Windows | macOS |
@@ -94,6 +102,8 @@ Nesta página, você pode encontrar uma visão geral de todos os atalhos para o 
 | Redefinir para escala de 100% | Z | Z |
 | Ajustar à visualização | F | F |
 | Alternar exibição lado a lado | Barra de espaço | Barra de espaço |
+
+{style="table-layout:fixed"}
 
 ### Visualização 3D
 
@@ -106,3 +116,5 @@ Nesta página, você pode encontrar uma visão geral de todos os atalhos para o 
 | Alterne temporariamente para os controles do Ponto Light 1 | ⇧ (manter) | ⇧ (manter) |
 | Luz de ponto de órbita 1 | LMB + arrastar | LMB + arrastar |
 | Dolly Point Light 1 | RMB + arrastar | RMB + arrastar |
+
+{style="table-layout:fixed"}
