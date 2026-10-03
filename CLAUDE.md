@@ -62,7 +62,7 @@ Mantenha o `description` preciso e conciso. Ele é usado para fragmentos de SEO/
 
 * O inglês é a fonte da verdade; todas as outras línguas são traduzidas a partir dele.
 * Todos os links para outras páginas de documentação devem ser links **relativos**; todos os links para recursos externos devem ser links **absolutos**.
-* O conteúdo é escrito em Markdown com a variante GitHub com extensões personalizadas de Experience League/pegadinhas, documentado [aqui](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown). Use a habilidade `write-experience-league-markdown` (se houver) para os detalhes.
+* O conteúdo é escrito em Markdown com a variante GitHub com extensões personalizadas de Experience League/pegadinhas, documentado [aqui](https://experienceleague.adobe.com/pt-br/docs/contributor/contributor-guide/writing-essentials/markdown). Use a habilidade `write-experience-league-markdown` (se houver) para os detalhes.
 * Cada alteração enviada passa por verificações de linha automatizadas e validação de link no IC (veja abaixo) — verifique `markdownlint_custom.json` e `linkcheckexclude.json` antes de assumir que uma regra se aplica ou que um link precisa de correção.
 
 &#x200B;# Validação/CI
