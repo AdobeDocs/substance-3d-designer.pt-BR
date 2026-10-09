@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/interface/the-graph-view.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+breadcrumb-title: ""
 description: Saiba como usar a visualização de gráfico no Substance 3D Designer para criar e editar gráficos de material baseados em nós.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Graph view
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Exibição de gráfico
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '3558'
 ht-degree: 0%
-
 ---
-
 
 # Exibição de gráfico
 
@@ -74,7 +72,7 @@ Vários objetos auxiliares estão disponíveis para ajudar a organizar e navegar
 
 <b>Comentários</b> permitem rastrear a finalidade de um nó ou grupo de nós e fazer outras anotações úteis;
 
-Os <b>pinos de navegação</b> habilitam a capacidade de saltar rapidamente para pontos de interesse no gráfico.
+Os <b>fixares de navegação</b> habilitam a capacidade de saltar rapidamente para pontos de interesse no gráfico.
 
 >[!NOTE]
 >
@@ -90,7 +88,7 @@ Ao clicar em RMB em um espaço vazio no gráfico, um menu contextual é exibido 
 
 <b>Adicionar quadro:</b> adicione um objeto de gráfico [Quadro](../../interface/the-graph-view/graph-items/graph-items.md);
 
-<b>Adicionar pino:</b> adicione um objeto de gráfico [Pino](../../interface/the-graph-view/graph-items/graph-items.md);
+<b>Adicionar fixar:</b> adicione um objeto de gráfico [Fixar](../../interface/the-graph-view/graph-items/graph-items.md);
 
 <b>Adicionar nó de ponto:</b> adicione um nó de [ponto](../../interface/the-graph-view/graph-items/graph-items.md);
 
@@ -98,7 +96,7 @@ Ao clicar em RMB em um espaço vazio no gráfico, um menu contextual é exibido 
 
 <b>Redefinir e exibir saídas na exibição 3D:</b> redefina um material na [exibição 3D](../../interface/3d-view/3d-view.md) e atribua todas as saídas do gráfico a esse material correspondendo aos usos; consulte [Interagindo com a exibição 3D](#interacting-with-the-3d-view) abaixo;
 
-<b>Exibir saída em exibição 2D:</b> Exiba uma das saídas do gráfico na [exibição 2D](../../interface/2d-view/2d-view.md), consulte [Interagindo com a exibição 2D](#interacting-with-the-2d-view) abaixo;
+<b>Exibir saída no Visualização 2D:</b> Exiba uma das saídas do gráfico no [Visualização 2D](../../interface/2d-view/2d-view.md), consulte [Interagindo com o Visualização 2D](#interacting-with-the-2d-view) abaixo;
 
 <b>Miniaturas de nós de computação:</b> acione o cálculo do resultado de todos os nós no gráfico - que será armazenado no [cache de imagens](../../interface/preferences-window/preferences-window.md) - e use a primeira saída como miniatura;
 
@@ -414,7 +412,7 @@ A barra de ferramentas do nó difere dependendo do tipo de gráfico:
 
 ![Barra de ferramentas de tamanho pai](the-graph-view.resources/image2020-6-26-17-0-48.png "Barra de ferramentas de tamanho pai")
 
-Esta barra de ferramentas só está disponível em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) e define o [tamanho de saída](../../compositing-graphs/output-size/output-size.md) do *pai* do gráfico, o que afeta o tamanho de saída do gráfico se ele usar o *método de herança [&#x200B; Relativo ao pai*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+Esta barra de ferramentas só está disponível em [gráficos de Substance](../../compositing-graphs/substance-compositing-graphs.md) e define o [tamanho de saída](../../compositing-graphs/output-size/output-size.md) do *pai* do gráfico, o que afeta o tamanho de saída do gráfico se ele usar o *método de herança [ Relativo ao pai*](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
 Os tamanhos horizontal e vertical são vinculados por padrão, mas podem ser *desvinculados* para texturas não quadradas. Os valores também podem ser redefinidos para o valor padrão de 256 x 256.
 

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+breadcrumb-title: ""
 description: Acesse gráficos de funções de Substance pré-fabricadas como nós de instância para acelerar o fluxo de trabalho e aprimorar os recursos.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function node library
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Biblioteca de nós de função
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 6%
-
 ---
-
 
 # Biblioteca de nós de função
 
@@ -465,15 +463,15 @@ Aleatório global
 
 Distribuição normal
 
-Uniforme aleatório &lbrack;-1, 1&lbrack;
+Uniforme aleatório [-1, 1[
 
-Uniforme aleatório &lbrack;a, b&lbrack;
+Uniforme aleatório [a, b[
 
-Flutuação uniforme aleatória2 &lbrack;a, b&lbrack;
+Flutuação uniforme aleatória2 [a, b[
 
-Flutuação uniforme aleatória3 &lbrack;a, b&lbrack;
+Flutuação uniforme aleatória3 [a, b[
 
-Flutuação uniforme aleatória4 &lbrack;a, b&lbrack;
+Flutuação uniforme aleatória4 [a, b[
 
 </td>
 </tr>

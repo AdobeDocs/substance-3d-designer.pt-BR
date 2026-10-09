@@ -1,6 +1,6 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Saiba mais sobre os nós de Função SDF disponíveis no Designer, que permitem criar Funções SDF para gerar formas 3D no respingo de forma v2 e nos nós do visualizador 3D.
 helpx_creative_field: ""
 helpx_description: ""
@@ -8,19 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Trabalhar com o Função SDF
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 0%
-
 ---
-
 
 # Trabalhar com o Função SDF
 
-Na versão 16.0.0, o Substance 3D Designer introduziu um poderoso conjunto de nós para criar Funções SDF, que podem ser usadas para criar e manipular formas 3D de procedimentos.
+Na versão 16.0.0, o Substance 3D Designer introduziu um poderoso conjunto de nós para criar Funções SDF, que podem ser usadas para criar e manipular formas 3D processuais.
 
 Função SDF são gráficos de função de Substance que combinam nós SDF disponíveis no conjunto de ferramentas e são aplicados a parâmetros dedicados em nós que suportam Função SDF.
 
@@ -82,7 +80,7 @@ Para criar Funções SDF, primeiro precisamos visualizá-las para que possamos e
 
 O nó [visualizador 3D](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) tem um modo dedicado para visualizar formas criadas com o Função SDF: defina o parâmetro <b>Tipo de cena</b> do nó como `SDF function` e clique no botão **Editar função** para abrir o gráfico de função que hospedará a própria Função SDF.
 
-O nó oferece recursos dedicados para visualizar aspectos da Função SDF que nos permitirão criá-los de forma mais intuitiva e eficiente, como um quadro delimitador e isolines.
+O nó oferece recursos dedicados para visualizar aspectos da Função SDF que nos permitirão criá-los de forma mais intuitiva e eficiente, como um quadro delimitador e isolinhas.
 
 O nó [Sol/céu físico](../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/physical-sun-sky/physical-sun-sky.md) pode ser usado para configurar rapidamente a iluminação do ambiente no visualizador 3D.
 
@@ -96,7 +94,7 @@ O nó [Sol/céu físico](../../../../compositing-graphs/nodes-reference-for-com/
 
 Como com todos os nós em gráficos de função Substance, os nós de Função SDF não têm parâmetros, mas apenas conectores de entrada que são usados como parâmetros.
 
-Para definir o valor dessas entradas, você pode usar [nós de constante](../../atomic-function-nodes/constant-nodes/constant-nodes.md) como **Flutuante**, **Flutuante3** e **Inteiro3**.\
+Para definir o valor dessas entradas, você pode usar [nós de constante](../../atomic-function-nodes/constant-nodes/constant-nodes.md), como **Precisão decimal**, **Precisão decimal 3** e **Inteiro3**.\
 Você pode criá-los da maneira usual através do menu nó, ou pode arrastar uma nova conexão dos conectores para se beneficiar de uma lista filtrada de nós de tipos correspondentes.
 
 A maioria dos conectores de entrada dos nós de Função SDF tem um valor padrão, que é revelado na dica de ferramenta.
@@ -113,7 +111,7 @@ A maioria dos conectores de entrada dos nós de Função SDF tem um valor padrã
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>O quadro delimitador é uma caixa no espaço 3D que define os <i>limites</i> em que a Função SDF é avaliada e desenhada no nó <a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">respingo de forma v2</a>.</p><p>Se o quadro delimitador for muito pequeno, partes da forma poderão ser cortadas. Se for muito grande, pode levar a cálculos desnecessários e tempos de processamento mais longos.</p><p>O parâmetro <b>Quadro delimitador</b> permite habilitar a visualização do quadro delimitador. Você pode ajustar o tamanho do quadro delimitador alterando os valores do parâmetro <b>Tamanho do quadro delimitador</b>.</p><p>Use o parâmetro <b>Colorir fora do quadro</b> para visualizar as áreas fora do quadro delimitador em vermelho vivo para que você possa ajustar o quadro adequadamente.</p>
+            <p>O quadro delimitador é uma caixa no espaço 3D que define os <i>limites</i> nos quais a Função SDF é avaliada e desenhada no nó <a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">respingo de forma v2</a>.</p><p>Se o quadro delimitador for muito pequeno, partes da forma poderão ser cortadas. Se for muito grande, pode levar a cálculos desnecessários e tempos de processamento mais longos.</p><p>O parâmetro <b>quadro delimitador</b> permite habilitar a visualização do quadro delimitador. Você pode ajustar o tamanho do quadro delimitador alterando os valores do parâmetro <b>Tamanho do quadro delimitador</b>.</p><p>Use o parâmetro <b>Colorir fora do quadro</b> para visualizar as áreas fora do quadro delimitador em vermelho vivo para que você possa ajustar o quadro adequadamente.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
             <img src="./working-with-sdf-functions.resources/working-with-sdf-bounding-frame.jpg" alt="Recurso de quadro delimitador do nó do visualizador 3D, para Função SDF." />
@@ -126,7 +124,7 @@ A maioria dos conectores de entrada dos nós de Função SDF tem um valor padrã
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>Como a transformação de formas envolve realmente a *transformação do espaço* no qual são desenhadas, o resultado dos nós usados após algumas transformações pode ser surpreendente.<br>Nesses casos, é útil visualizar o próprio espaço, o que pode ser feito <i>visualizando o campo de distância</i> da forma.</p><p>Para isso, o nó do visualizador 3D usa <i>isolines</i>, que são linhas de contorno repetidas que representam uma determinada distância da superfície da forma. O parâmetro <b>Isolines do SDF</b> habilita essa visualização.<br>As isolinhas são desenhadas em um plano horizontal colocado no height especificado pelo parâmetro <b>Posição de isolinhas SDF</b>.</p><p>Ver como as isolinhas são deformadas pelas transformações aplicadas à forma pode ajudar a entender como a própria forma é transformada e ajustar os parâmetros dos nós de acordo.</p>
+            <p>Como transformar formas envolve realmente *transformar o espaço* no qual são desenhadas, o resultado dos nós usados após algumas transformações pode ser surpreendente.<br>Nesses casos, é útil visualizar o próprio espaço, o que pode ser feito <i>visualizando o campo de distância</i> da forma.</p><p>Para isso, o nó do visualizador 3D usa <i>isolines</i>, que são linhas de contorno repetidas que representam uma determinada distância da superfície da forma. O parâmetro <b>Isolines do SDF</b> habilita essa visualização.<br>As isolinhas são desenhadas em um plano horizontal colocado no height especificado pelo parâmetro <b>Posição de isolinhas SDF</b>.</p><p>Ver como as isolinhas são deformadas pelas transformações aplicadas à forma pode ajudar a entender como a própria forma é transformada e ajustar os parâmetros dos nós de acordo.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
             <img src="./working-with-sdf-functions.resources/working-with-sdf-isolines.jpg" alt="Recurso de quadro delimitador do nó do visualizador 3D, para Função SDF." />
@@ -272,7 +270,7 @@ Em seguida, é possível colar a função copiada do nó do visualizador 3D ness
 Certifique-se de ajustar o parâmetro **Tamanho do quadro delimitador SDF** para corresponder ao [quadro delimitador](#the-bounding-frame) que você estava usando no nó do visualizador 3D e certifique-se de que a forma foi desenhada corretamente.
 
 ![trabalhando-com-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-*respingo de forma v2 com um **tipo de forma**&#x200B;definido como `SDF function`. Observe que o **tamanho do quadro delimitador do SDF**&#x200B;foi ajustado para se ajustar à forma.*
+*respingo de forma v2 com um **tipo de forma**definido como `SDF function`. Observe que o **tamanho do quadro delimitador do SDF**foi ajustado para se ajustar à forma.*
 
 >[!TIP]
 > 

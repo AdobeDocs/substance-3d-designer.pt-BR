@@ -1,6 +1,6 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Consulte as notas de versão do Substance 3D Designer versão 16.0 para saber mais sobre novos recursos, aprimoramentos e correções de erros.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 16.0
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Versão 16.0
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 0%
-
 ---
-
 
 # Versão 16.0
 
@@ -53,7 +51,7 @@ Usuários avançados podem configurar *distribuições personalizadas* definidas
 
 Formas dispersas agora são **objetos 3D** que podem ser movidos, girados e dimensionados em todos os eixos XYZ.
 
-Use **primitivas simples**, como cubos, esferas e cilindros ou **formas personalizadas complexas** formadas por *extrusão de um mapa de height* ou criação de *formas SDF 3D*. (Mais sobre isso abaixo)
+Use **primitivas simples**, como cubos, esferas e cilindros ou **formas personalizadas complexas** formadas por *extrusão de um mapa de altura* ou criação de *formas SDF 3D*. (Mais sobre isso abaixo)
 
 Isso desbloqueia dispersões mais dinâmicas, variadas e críveis em toda a placa. Agora é possível redimensionar formas 3D para variações invertendo-as. (Nós te vemos, artistas ambientais!)
 
@@ -75,7 +73,7 @@ Isso desbloqueia dispersões mais dinâmicas, variadas e críveis em toda a plac
 
 Da mesma forma que a família de nós Shape splatter v1, Shape splatter v2 vem com sua própria coorte de nós companheiros.
 
-Os nós do [mapeador de respingo de forma v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md) habilitam a projeção de texturas nas formas 3D dispersas, com suporte para *projeção triplanar* e *IDs de material* para mapear várias texturas. Os resultados podem ser ajustados globalmente ou por forma para deslocamentos de textura e variações de cores.\
+Os nós do [mapeador de respingo de forma v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md) permitem a projeção de texturas nas formas 3D dispersas, com suporte para *projeção triplanar* e *IDs de material* para mapear várias texturas. Os resultados podem ser ajustados globalmente ou por forma para deslocamentos de textura e variações de cores.\
 Novamente, usuários avançados podem configurar *mapeamentos de textura personalizados* definidos por um gráfico de função.
 
 O [respingo de forma v2 para máscara](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md) cria máscaras para seleção específica de formas e/ou IDs de material, permitindo o uso mais granular de formas downstream no gráfico.
@@ -354,31 +352,31 @@ estão sincronizados
 * [Exportação 3D] As malhas exportadas do Designer não renderizam o mesmo no usdview
 * [Visualização 3D] Atribuir itens não udim ao modo de renderização de Visualização 3D simples
 * [Visualização 3D] Resultado Restringido ao usar OCIO
-* [Exibição 3D] Falha ao aplicar uma textura de gráfico em um material não substituído para uma cena específica
-* [3D View] Falha ao criar buffers de quadro
-* [3D View] Eclair GPU Pathtracer: geometria quebrada e baixo desempenho ao renderizar um modelo específico
+* [Visualização 3D] Falha ao aplicar uma textura de gráfico em um material não substituído para uma cena específica
+* [Visualização 3D] Falha ao criar buffers de quadro
+* [Visualização 3D] GPU Pathtracer Eclair: geometria quebrada e baixo desempenho ao renderizar um modelo específico
 * [Visualização 3D] Transformação de textura incorreta para cena(s) específica(s)
-* [Exibição 3D] Enquadramento inconsistente de cena/seleção ao usar a resolução de renderização fixa
-* [Exibição 3D] Cor difusa incorreta ao renderizar determinado arquivo GLTF
-* [Exibição 3D] Ambiente invisível ao alternar renderizadores em um caso específico
-* [3D View] Os materiais não são detectados corretamente quando importados alguns arquivos .fbx
-* [Exibição 3D] Substituir materiais mais de uma vez redefine a divisão em blocos gráficos para 1
-* [Exibição 3D] As propriedades na categoria “UVs” não são salvas em arquivos SBSSCN
-* [Exibição 3D] “Redefinir e exibir saídas na exibição 3D” de gráficos de saída única não redefine materiais
-* [Exibição 3D] “Salvar renderização”: o formato de imagem editado não é preservado
-* [Exibição 3D] A seleção não funciona em GPUs AMD
-* [Exibição 3D] A cena 3D independente não é atualizada quando modificada no disco
-* [Exibição 3D] Algumas propriedades do material de cores não são gerenciadas corretamente quando substituídas
-* [Exibição 3D] As texturas UDIM não são aplicadas corretamente em uma malha específica
-* [Exibição 3D] A cena com material MaterialX no USD não é mais renderizada corretamente
-* [Padarias] Falhas com algumas malhas
-* [Bakers] Transferência de textura: Falha em bkBufferViewCopy
+* [Visualização 3D] Enquadramento inconsistente de cena/seleção ao usar a resolução de renderização fixa
+* [Visualização 3D] Cor difusa incorreta ao renderizar determinado arquivo GLTF
+* [Visualização 3D] Ambiente invisível ao alternar renderizadores em um caso específico
+* [Visualização 3D] Os materiais não são detectados corretamente quando importados alguns arquivos .fbx
+* [Visualização 3D] A substituição de materiais mais de uma vez redefine a divisão em blocos gráficos para 1
+* [Visualização 3D] As propriedades na categoria “UVs” não são salvas em arquivos SBSSCN
+* [Visualização 3D] “Redefinir e visualizar saídas na visualização 3D” a partir de gráficos de saída única não redefine materiais
+* [Visualização 3D] “Salvar renderização”: o formato de imagem editado não é preservado
+* [Visualização 3D] A seleção não funciona em GPUs AMD
+* [Visualização 3D] A cena 3D independente não é atualizada quando modificada no disco
+* [Visualização 3D] Algumas propriedades do material de cor não são gerenciadas corretamente quando substituídas
+* [Visualização 3D] As texturas UDIM não são aplicadas corretamente em uma malha específica
+* [Visualização 3D] A cena do USD com material MaterialX não é mais renderizada corretamente
+* [Baker] Falhas com algumas malhas
+* [Baker] Transferência de Textura: falha em bkBufferViewCopy
 * [Cooker] Loop infinito no nó de Loop While em um caso que poderia ser evitado
 * [Engine] Parar o mecanismo Substance ao fechar o aplicativo
 * [Geral] Evitar falhas aleatórias ao sair do aplicativo (somente Windows)
 * [Graph] Gráfico de função: a propagação de tipo não funciona corretamente em algumas situações
 * [Gráfico] Os vínculos de gráfico são excluídos quando um nó de entrada de imagem é renomeado
-* [Gráfico] Links e pinos às vezes exibem artefatos
+* [Gráfico] Links e fixares às vezes exibem artefatos
 * [Preferences] &#39;Viewport scaling&#39; é invertido
 * [Propriedades] Falha ao modificar o ajuste de entrada do gráfico ao exibir seus parâmetros de instância
 * [Python] Não é possível importar módulos PySide6 (possível conflito com a instalação existente do PySide6)
@@ -390,6 +388,6 @@ estão sincronizados
 ### PROBLEMAS CONHECIDOS
 
 * [Gráfico] Os ícones gerados para gráficos de OpenPBR não são precisos
-* [Exibição 3D] As cenas com primitivas animadas não são suportadas corretamente
-* [Exibição 3D] Não há suporte para Pathtracer em todas as placas gráficas AMD
+* [Visualização 3D] Cenas com primitivas animadas não são suportadas corretamente
+* [Visualização 3D] O Pathtracer não é compatível com todas as placas gráficas AMD
 
