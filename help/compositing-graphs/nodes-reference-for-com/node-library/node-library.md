@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Acesse a biblioteca de nós completa no Substance 3D Designer para criar materiais, texturas e efeitos processuais.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Biblioteca de nós
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 6%
-
 ---
-
 
 # Biblioteca de nós
 
@@ -152,7 +150,7 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 * [Extrusão de forma](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md)
 * [Mapeador de formas](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-mapper/shape-mapper.md)
 * [respingos de forma](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md)
-* [Mesclagem de respingos de forma](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md)
+* [Combinar de respingos de forma](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md)
 * [Extração de Dados de Respingo de Forma](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-data-ext/shape-splatter-data-extract.md)
 * [Dispersão de forma para máscara](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-to-mask/shape-splatter-to-mask.md)
 * [Respingo](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/splatter/splatter.md)
@@ -182,10 +180,10 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 * [Contraste/Luminosidade](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md)
 * [Converter em linear](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/convert-to-linear/convert-to-linear.md)
 * [Converter em sRGB](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/convert-to-srgb/convert-to-srgb.md)
-* [Conversão de tons de cinza avançada](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md)
+* [Conversão em escala cinza avançada](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md)
 * [Hald CLUT](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/hald-clut/hald-clut.md)
 * [Visualizador de intervalo HDR](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/hdr-range-viewer/hdr-range-viewer.md)
-* [Mapeador de Frequências do Mapa de heights](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/height-map-frequencies/height-map-frequencies-mapper.md)
+* [Mapeador de frequências do mapa de altura](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/height-map-frequencies/height-map-frequencies-mapper.md)
 * [Highpass](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)
 * [Intervalo do histograma](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-range/histogram-range.md)
 * [Varredura de histograma](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)
@@ -205,7 +203,7 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 
 ### Mesclagem
 
-* [Cor (Nó de mesclagem)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/color-blend-node/color-blend-node.md)
+* [Cor (Nó Combinar)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/color-blend-node/color-blend-node.md)
 * [Superexposição de cor](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/color-burn/color-burn.md)
 * [Subexposição de cor](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/color-dodge/color-dodge.md)
 * [Diferença](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/difference/difference.md)
@@ -234,12 +232,12 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 
 ### Efeitos
 
-* [Posição da textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md)
-* [SDF de textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md)
-* [Renderização de superfície de textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-surface-render/3d-texture-surface-render.md)
-* [Renderização de volume de textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-volume-render/3d-texture-volume-render.md)
-* [Oclusão ambiente (HBAO) (nó de filtro)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md)
-* [Oclusão ambiente (RTAO)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
+* [Posição de Textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md)
+* [SDF de Textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md)
+* [Renderização de superfície de Textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-surface-render/3d-texture-surface-render.md)
+* [Renderização de volume de Textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-volume-render/3d-texture-volume-render.md)
+* [Oclusão de ambiente (HBAO) (Nó de Filtro)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md)
+* [Oclusão de ambiente (RTAO)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
 * [Chanfro (Nó de filtro)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-filter-node/bevel-filter-node.md)
 * [Seção transversal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/cross-section/cross-section.md)
 * [Curvatura (Nó de filtro)](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)
@@ -249,7 +247,7 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 * [Escala de cinza de difusão](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-grayscale/diffusion-grayscale.md)
 * [Difusão UV](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-uv/diffusion-uv.md)
 * [Detecção de borda](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md)
-* [Entalhe Com Brilho](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md)
+* [Relevo com Brilho](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md)
 * [Extend Shape](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/extend-shape/extend-shape.md)
 * [Flood Fill](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)
 * [Mapeador de Flood Fill](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-mapper/flood-fill-mapper.md)
@@ -263,7 +261,7 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 * [FXAA](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/fxaa/fxaa.md)
 * [Brilho](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md)
 * [Mosaico](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/mosaic/mosaic.md)
-* [Distorção multidirecional](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md)
+* [Várias Deformações direcionais](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md)
 * [Non Uniform Directional Warp](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md)
 * [Difusão de reação rápida](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/reaction-diffusion-fast/reaction-diffusion-fast.md)
 * [RT Shadow](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/rt-shadow/rt-shadow.md)
@@ -274,7 +272,7 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 * [Traçado da forma](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-stroke/shape-stroke.md)
 * [Tabela de Área Somada](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/summed-area-table/summed-area-table.md)
 * [Redemoinho](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/swirl/swirl.md)
-* [Entalhe Uber](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)
+* [Relevo Uber](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)
 * [Morph de vetor](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-morph/vector-morph.md)
 * [Distorção de vetor](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)
 
@@ -290,7 +288,7 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 * [Sobel normal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
 * [Normal para Height](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)
 * [Normal para Height HQ](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md)
-* [Transformação normal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
+* [Transformo normal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
 * [Rotação de vetor normal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md)
 * [Dobra normal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/bent-normal/bent-normal.md)
 
@@ -301,7 +299,7 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 
 ### Transformações
 
-* [Deslocamento de textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/3d-texture-offset/3d-texture-offset.md)
+* [Deslocamento de Textura 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/3d-texture-offset/3d-texture-offset.md)
 * [Corte automático](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/auto-crop/auto-crop.md)
 * [Cartesiano para Polar](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/cartesian-to-polar/cartesian-to-polar.md)
 * [Polar para Cartesiano](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md)
@@ -310,14 +308,14 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 * [Aumento de ruído 1](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md)
 * [Aumento de ruído 2](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md)
 * [Aumento de ruído 3](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md)
-* [Transformação segura](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md)
-* [Transformação não quadrada](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md)
+* [Transformo seguro](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md)
+* [Transformo Não Quadrado](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md)
 * [Rotação não uniforme](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-uniform-rotation/non-uniform-rotation.md)
 * [Inclinar](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/skew/skew.md)
 * [Simetria](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry/symmetry.md)
-* [Fatia de simetria](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry-slice/symmetry-slice.md)
-* [Transformação Trapezoide](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md)
-* [Transformação quádrupla](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md)
+* [Simetria fatia](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry-slice/symmetry-slice.md)
+* [Transformo Trapezoide](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md)
+* [Transformo Quad](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md)
 
 ## Filtros de material
 
@@ -364,7 +362,7 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 * [Correção de Clonar](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
 * [Color Equalizer](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/color-equalizer/color-equalizer.md)
 * [Cortar](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
-* [Patch de clonagem de material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md)
+* [Correção de Clonar de material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md)
 * [Corte de material](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-crop/material-crop.md)
 * [Multiângulo para Albedo](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md)
 * [Multiângulo para normal](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md)
@@ -414,7 +412,7 @@ O painel Biblioteca do Designer exibe mais categorias do que as que documentamos
 
 ### Utilitários (Geradores de malha)
 
-* [Projeção planar 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/3d-planar-projection/3d-planar-projection.md)
+* [Projeção Planar 3D](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/3d-planar-projection/3d-planar-projection.md)
 * [Misturador de dados de malha de material](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md)
 * [Seletor de material](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-selector/material-selector.md)
 * [Combinador de dados de malha](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/mesh-data-combiner/mesh-data-combiner.md)

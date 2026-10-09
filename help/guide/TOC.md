@@ -446,7 +446,7 @@ ht-degree: 21%
           + [Inclinar](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/skew/skew.md)
           + [Simetria](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry/symmetry.md)
           + [Simetria fatia](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry-slice/symmetry-slice.md)
-          + [Transformação trappezoide](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md)
+          + [Transformo Trapezoide](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md)
       + Filtros de material{#material-filters}
         + [Filtros de material](/help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
         + 1 clique{#1-click}
@@ -755,12 +755,12 @@ ht-degree: 21%
   + [Falha ao renderizar gráficos](/help/technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
   + [Os parâmetros não estão funcionando como esperado](/help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
   + [Saída de imagem incorreta](/help/technical-issues/incorrect-image-output/incorrect-image-output.md)
-  + [Problemas de visualização 3D](/help/technical-issues/3d-view-issues/3d-view-issues.md)
-  + [Problemas de cozimento](/help/technical-issues/baking-issues/baking-issues.md)
+  + [Visualização 3D](/help/technical-issues/3d-view-issues/3d-view-issues.md)
+  + [Fazendo bake problemas](/help/technical-issues/baking-issues/baking-issues.md)
   + [Problemas na interface do usuário](/help/technical-issues/user-interface-issues/user-interface-issues.md)
   + [Problemas de Python](/help/technical-issues/python-issues/python-issues.md)
   + [O gráfico MDL e os recursos do renderizador Iray estão ausentes](/help/technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
-  + [O recurso de gráfico de modelo de Substance está ausente](/help/technical-issues/model-graph-eol/substance-model-graph-eol.md)
+  + [O recurso de gráfico do modelo do Substance está ausente](/help/technical-issues/model-graph-eol/substance-model-graph-eol.md)
 + Notas de versão{#release-notes}
   + [Notas de versão](/help/release-notes/release-notes.md)
   + [Todas as alterações](/help/release-notes/all-changes/all-changes.md)

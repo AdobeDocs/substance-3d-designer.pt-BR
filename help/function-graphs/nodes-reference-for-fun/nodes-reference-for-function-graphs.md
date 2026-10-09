@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/br/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Acesse o guia de referência completo para todos os nós disponíveis nos gráficos de funções do Substance 3D Designer.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Nodes reference for function graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Referência de nós para gráficos de função
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: 953b99bc5f48c431e7ace47a23b0b451cceaa0db
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 20%
-
 ---
-
 
 # Referência de nós para gráficos de função
 
